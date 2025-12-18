@@ -12,7 +12,7 @@ import httpx
 from tqdm.asyncio import tqdm
 
 BASE_API_URL = "https://api.hakush.in/ww/data/"
-BASE_ASSET_URL = "https://api.hakush.in/ww/" 
+BASE_ASSET_URL = "https://api.hakush.in/ww/"
 
 DEFAULT_LANGS = ["zh", "en", "ja", "ko"]
 TIMEOUT = 30
@@ -21,9 +21,10 @@ MAX_CONCURRENCY = 15
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s - [%(levelname)s] - %(message)s",
-    handlers=[logging.FileHandler("spider.log", encoding='utf-8')]
+    handlers=[logging.FileHandler("spider.log", encoding="utf-8")],
 )
 logger = logging.getLogger("WWSpider")
+
 
 def parse_game_asset_path(game_path: str) -> Optional[str]:
     """
@@ -35,16 +36,17 @@ def parse_game_asset_path(game_path: str) -> Optional[str]:
         return None
 
     clean_path = game_path.replace("/Game/Aki/", "/")
-    
+
     if "/" not in clean_path:
         return None
 
-    clean_path = re.sub(r'\.[^/]+$', '', clean_path)
+    clean_path = re.sub(r"\.[^/]+$", "", clean_path)
 
-    if not clean_path.lower().endswith(('.png', '.jpg', '.webp')):
+    if not clean_path.lower().endswith((".png", ".jpg", ".webp")):
         clean_path += ".webp"
 
     return urljoin(BASE_ASSET_URL, clean_path.lstrip("/"))
+
 
 class HakushinSpider:
     def __init__(self, output_dir: str, langs: List[str], force: bool = False):
@@ -57,8 +59,8 @@ class HakushinSpider:
             limits=httpx.Limits(max_keepalive_connections=20, max_connections=30),
             headers={
                 "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-                "Referer": "https://hakush.in/"
-            }
+                "Referer": "https://hakush.in/",
+            },
         )
         self.semaphore = asyncio.Semaphore(MAX_CONCURRENCY)
         self.global_image_urls: Set[str] = set()
@@ -125,12 +127,14 @@ class HakushinSpider:
                 if real_url:
                     self.global_image_urls.add(real_url)
 
-    async def process_category(self, category_name: str, index_file: str, detail_prefix: str, pbar_main: tqdm):
+    async def process_category(
+        self, category_name: str, index_file: str, detail_prefix: str, pbar_main: tqdm
+    ):
         """Process a specific category (e.g., character, weapon)"""
-        
-        index_url = urljoin(BASE_API_URL, f"en/{index_file}") 
+
+        index_url = urljoin(BASE_API_URL, f"en/{index_file}")
         index_data = await self.fetch_json(index_url)
-        
+
         if not index_data:
             index_url = urljoin(BASE_API_URL, index_file)
             index_data = await self.fetch_json(index_url)
@@ -142,28 +146,39 @@ class HakushinSpider:
         self.extract_images_from_data(index_data)
 
         (self.output_dir / category_name).mkdir(parents=True, exist_ok=True)
-        with open(self.output_dir / category_name / "index.json", "w", encoding="utf-8") as f:
+        with open(
+            self.output_dir / category_name / "index.json", "w", encoding="utf-8"
+        ) as f:
             json.dump(index_data, f, ensure_ascii=False, indent=2)
+
+        if category_name == "item":
+            return
 
         id_list = []
         if isinstance(index_data, dict):
             id_list = list(index_data.keys())
         elif isinstance(index_data, list):
-            id_list = [str(x.get('id', x.get('Id', ''))) for x in index_data]
+            id_list = [str(x.get("id", x.get("Id", ""))) for x in index_data]
 
         id_list = [i for i in id_list if i]
-        
+
         pbar_main.total += len(id_list) * len(self.langs)
         pbar_main.refresh()
 
         tasks = []
         for item_id in id_list:
             for lang in self.langs:
-                tasks.append(self.process_single_item(category_name, detail_prefix, item_id, lang, pbar_main))
+                tasks.append(
+                    self.process_single_item(
+                        category_name, detail_prefix, item_id, lang, pbar_main
+                    )
+                )
 
         await asyncio.gather(*tasks)
 
-    async def process_single_item(self, category: str, prefix: str, item_id: str, lang: str, pbar: tqdm):
+    async def process_single_item(
+        self, category: str, prefix: str, item_id: str, lang: str, pbar: tqdm
+    ):
         try:
             url = f"{BASE_API_URL}{lang}/{prefix}/{item_id}.json"
             save_path = self.output_dir / category / lang / f"{item_id}.json"
@@ -175,20 +190,19 @@ class HakushinSpider:
                         data = json.load(f)
                 except:
                     pass
-            
+
             if not data:
-                # Items often lack detail pages, ignore 404s
-                ignore_404 = (category == "item")
+                ignore_404 = category == "monster"
                 data = await self.fetch_json(url, ignore_404=ignore_404)
-                
+
                 if data:
                     save_path.parent.mkdir(parents=True, exist_ok=True)
                     with open(save_path, "w", encoding="utf-8") as f:
                         json.dump(data, f, ensure_ascii=False, indent=2)
-            
+
             if data:
                 self.extract_images_from_data(data)
-                
+
         finally:
             pbar.update(1)
 
@@ -201,13 +215,15 @@ class HakushinSpider:
         assets_dir.mkdir(exist_ok=True)
 
         tasks = []
-        pbar = tqdm(total=len(self.global_image_urls), desc="Downloading Assets", unit="img")
+        pbar = tqdm(
+            total=len(self.global_image_urls), desc="Downloading Assets", unit="img"
+        )
 
         for url in self.global_image_urls:
             filename = url.split("/")[-1]
             save_path = assets_dir / filename
             tasks.append(self._download_wrapper(url, save_path, pbar))
-        
+
         await asyncio.gather(*tasks)
         pbar.close()
 
@@ -215,12 +231,15 @@ class HakushinSpider:
         await self.download_file(url, path)
         pbar.update(1)
 
+
 async def main():
     parser = argparse.ArgumentParser(description="Hakushin Wuthering Waves Data Spider")
     parser.add_argument("--out", type=str, default="./ww_data", help="Output directory")
-    parser.add_argument("--langs", type=str, default=",".join(DEFAULT_LANGS), help="Languages")
+    parser.add_argument(
+        "--langs", type=str, default=",".join(DEFAULT_LANGS), help="Languages"
+    )
     parser.add_argument("--force", action="store_true", help="Force re-download")
-    
+
     args = parser.parse_args()
     langs = [l.strip() for l in args.langs.split(",")]
 
@@ -229,23 +248,24 @@ async def main():
     print(f"🚀 Starting Spider...")
     print(f"📂 Output: {args.out}")
     print(f"🌐 Languages: {langs}")
-    
+
     categories = [
         ("character", "character.json", "character"),
         ("weapon", "weapon.json", "weapon"),
         ("echo", "echo.json", "echo"),
-        ("item", "item.json", "item"), 
+        ("item", "item_all.json", "item"),
+        ("monster", "monster.json", "monster"),
     ]
 
     try:
         pbar_json = tqdm(total=0, desc="Fetching JSON Data", unit="file")
-        
+
         for cat_name, idx_file, prefix in categories:
             pbar_json.set_description(f"Processing {cat_name}")
             await spider.process_category(cat_name, idx_file, prefix, pbar_json)
-        
+
         pbar_json.close()
-        
+
         print(f"\n🖼️  Analyzing collected assets...")
         await spider.download_all_images()
 
@@ -254,7 +274,8 @@ async def main():
     finally:
         await spider.close()
 
+
 if __name__ == "__main__":
-    if sys.platform == 'win32':
+    if sys.platform == "win32":
         asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
     asyncio.run(main())
