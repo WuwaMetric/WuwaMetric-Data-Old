@@ -1,0 +1,132 @@
+{
+  "Id": 6000121,
+  "Code": "W87-",
+  "Name": "伪作的神王",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34017_UI.T_IconMonsterHead_34017_UI",
+  "Skill": {
+    "Desc": "使用声骸技能，幻形为伪作的神王，发动旋转突进对敌人造成四段{0}的导电伤害。\n在首位装配该声骸技能时，自身导电伤害加成提升{1}，重击伤害加成提升{2}；使用变奏技能登场时可召唤伪作的神王，对敌人造成{3}的导电伤害。\n初始拥有{4}次可使用次数，每{5}秒可使用次数增加1次，可使用次数上限{6}次。\n技能冷却：{7}秒",
+    "SimpleDesc": "幻形为伪作的神王，对周围敌人造成导电伤害。\n在首位装配时，提高自身导电和重击伤害；使用变奏技能登场时可召唤伪作的神王，对敌人造成导电伤害。",
+    "Param": [
+      [
+        "30.75%",
+        "12.00%",
+        "12.00%",
+        "225.00%",
+        "2",
+        "8",
+        "2",
+        "8"
+      ],
+      [
+        "36.90%",
+        "12.00%",
+        "12.00%",
+        "270.00%",
+        "2",
+        "8",
+        "2",
+        "8"
+      ],
+      [
+        "43.05%",
+        "12.00%",
+        "12.00%",
+        "315.00%",
+        "2",
+        "8",
+        "2",
+        "8"
+      ],
+      [
+        "49.20%",
+        "12.00%",
+        "12.00%",
+        "360.00%",
+        "2",
+        "8",
+        "2",
+        "8"
+      ],
+      [
+        "55.35%",
+        "12.00%",
+        "12.00%",
+        "405.00%",
+        "2",
+        "8",
+        "2",
+        "8"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_34017_UI.T_MstSkil_34017_UI",
+    "Damage": {
+      "28003101": {
+        "Element": 3,
+        "RelatedProperty": "攻击",
+        "Type": 5,
+        "RateLv": [
+          3075,
+          3690,
+          4305,
+          4920,
+          5535
+        ],
+        "Energy": 76,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 3075
+      },
+      "28003102": {
+        "Element": 3,
+        "RelatedProperty": "攻击",
+        "Type": 5,
+        "RateLv": [
+          22500,
+          27000,
+          31500,
+          36000,
+          40500
+        ],
+        "Energy": 0,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 22500
+      }
+    }
+  },
+  "Group": {
+    "20": {
+      "Id": 20,
+      "Name": "荣斗铸锋之冠",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriShield.T_IconElementAttriShield",
+      "Color": "FFFFFF00",
+      "Set": {
+        "3": {
+          "Desc": "角色获得护盾时，自身攻击提升{0}，暴击伤害提升{1}，该效果可叠加{2}层，持续{3}秒，每{4}秒可触发一次。",
+          "Param": [
+            "6%",
+            "4%",
+            "5",
+            "4",
+            "0.5"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 2,
+  "MonsterInfo": 340000170,
+  "Phantom": {
+    "Name": "异相·伪作的神王",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_SG_34017_UI.T_IconMonsterGoods_SG_34017_UI"
+  }
+}

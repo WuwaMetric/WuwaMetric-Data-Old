@@ -1,0 +1,112 @@
+{
+  "Id": 6000078,
+  "Code": "W69-",
+  "Name": "アビサル・メルカトル",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_32027_UI.T_IconMonsterHead_32027_UI",
+  "Skill": {
+    "Desc": "音骸スキルを発動すると、アビサル・メルカトルに変身し、氷柱を3つ召喚して敵を攻撃する。1つにつき、{0}の凝縮ダメージを与える。\nクールタイム：{1}秒",
+    "SimpleDesc": "アビサル・メルカトルに変身し、氷柱を3つ召喚して敵に凝縮ダメージを与える。",
+    "Param": [
+      [
+        "49.66%",
+        "15"
+      ],
+      [
+        "59.59%",
+        "15"
+      ],
+      [
+        "69.52%",
+        "15"
+      ],
+      [
+        "79.46%",
+        "15"
+      ],
+      [
+        "89.39%",
+        "15"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/MstSkil_32026_UI.MstSkil_32026_UI",
+    "Damage": {
+      "20006001": {
+        "Element": 1,
+        "RelatedProperty": "攻撃力",
+        "Type": 5,
+        "RateLv": [
+          4966,
+          5960,
+          6953,
+          7946,
+          8940
+        ],
+        "Energy": 124,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 4966
+      }
+    }
+  },
+  "Group": {
+    "10": {
+      "Id": 10,
+      "Name": "フロステッド・ハート",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriIceUltimateSkill.T_IconElementAttriIceUltimateSkill",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "共鳴スキルダメージが{0}アップ",
+          "Param": [
+            "12%"
+          ]
+        },
+        "5": {
+          "Desc": "共鳴スキル発動時、自身の凝縮ダメージが{0}アップ、{1}秒間持続；共鳴解放発動時、自身の共鳴スキルダメージが{2}アップ、{3}秒間持続、最大{4}スタック。",
+          "Param": [
+            "22.5%",
+            "15",
+            "18%",
+            "5",
+            "2"
+          ]
+        }
+      }
+    },
+    "11": {
+      "Id": 11,
+      "Name": "エターナル・ライト",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriLightError.T_IconElementAttriLightError",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "回折ダメージが{0}アップ",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "敵に【騒光効果】を付与時、自身のクリティカル率が{0}アップ、{1}秒間持続。【騒光効果】が{2}スタック付与された敵を攻撃時、自身の回折ダメージが{3}アップ、{4}秒間持続。",
+          "Param": [
+            "20%",
+            "15",
+            "10",
+            "15%",
+            "15"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 1,
+  "MonsterInfo": 320000270
+}

@@ -1,0 +1,87 @@
+{
+  "Id": 6000188,
+  "Code": "T01-",
+  "Name": "바람의 기생갑",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_32058_UI.T_IconMonsterHead_32058_UI",
+  "Skill": {
+    "Desc": "에코 어빌리티를 사용하여 바람의 기생갑으로 변신한 후, 강력한 발차기를 가하여 적에게 {0}의 기류 피해를 입힌다.\n스킬 쿨타임: {1}초",
+    "SimpleDesc": "바람의 기생갑으로 변신한 후, 강력한 발차기를 가하여 적에게 기류 피해를 입힌다",
+    "Param": [
+      [
+        "149.00%",
+        "15"
+      ],
+      [
+        "178.80%",
+        "15"
+      ],
+      [
+        "208.60%",
+        "15"
+      ],
+      [
+        "238.40%",
+        "15"
+      ],
+      [
+        "268.20%",
+        "15"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_32058_UI.T_MstSkil_32058_UI",
+    "Damage": {
+      "20012501": {
+        "Element": 4,
+        "RelatedProperty": "공격력",
+        "Type": 5,
+        "RateLv": [
+          14900,
+          17880,
+          20860,
+          23840,
+          26820
+        ],
+        "Energy": 372,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 14900
+      }
+    }
+  },
+  "Group": {
+    "26": {
+      "Id": 26,
+      "Name": "흐르는 금빛 속 진리의 답",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriAttackWeakness.T_IconElementAttriAttackWeakness",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "회절 피해가 {0} 증가된다",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "캐릭터가 일반 공격으로 피해를 입힐 시, 자신의 회절 피해가 {0} 증가되고, 해당 효과는 {1}스택 중첩이 가능하며, {2}초간 지속된다. {1}스택 중첩 시, 공명 해방을 발동하면 일반 공격 피해 보너스가 {3} 증가된다",
+          "Param": [
+            "10%",
+            "3",
+            "5",
+            "40%"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 1,
+  "MonsterInfo": 320000580
+}

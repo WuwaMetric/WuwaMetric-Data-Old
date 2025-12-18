@@ -1,0 +1,110 @@
+{
+  "Id": 6000064,
+  "Code": "R01-",
+  "Name": "Chop Chop: Headless",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31040_UI.T_IconMonsterHead_31040_UI",
+  "Skill": {
+    "Desc": "Summon a Chop Chop: Headless to attack enemies, dealing {0} Fusion DMG.\nCD: {1}s.",
+    "SimpleDesc": "Summon a Chop Chop: Headless to deal Fusion DMG to enemies.",
+    "Param": [
+      [
+        "72.00%",
+        "8"
+      ],
+      [
+        "86.40%",
+        "8"
+      ],
+      [
+        "100.80%",
+        "8"
+      ],
+      [
+        "115.20%",
+        "8"
+      ],
+      [
+        "129.60%",
+        "8"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/MstSkil_31040_UI.MstSkil_31040_UI",
+    "Damage": {
+      "20006701": {
+        "Element": 2,
+        "RelatedProperty": "ATK",
+        "Type": 5,
+        "RateLv": [
+          7200,
+          8640,
+          10080,
+          11520,
+          12960
+        ],
+        "Energy": 180,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 7200
+      }
+    }
+  },
+  "Group": {
+    "11": {
+      "Id": 11,
+      "Name": "Eternal Radiance",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriLightError.T_IconElementAttriLightError",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "Spectro DMG + {0}",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "Inflicting Spectro Frazzle on enemies increases Crit. Rate by {0} for {1}s. Attacking enemies inflicted with {2} stacks of Spectro Frazzle grants {3} Spectro DMG Bonus for {4}s.",
+          "Param": [
+            "20%",
+            "15",
+            "10",
+            "15%",
+            "15"
+          ]
+        }
+      }
+    },
+    "14": {
+      "Id": 14,
+      "Name": "Tidebreaking Courage",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriEnergy.T_IconElementAttriEnergy",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "Energy Regen + {0}",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "Increase the Resonator's ATK by {0}. Reaching {1} Energy Regen increases all Attribute DMG by {2} for the Resonator.",
+          "Param": [
+            "15%",
+            "250%",
+            "30%"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 0,
+  "MonsterInfo": 310000400
+}

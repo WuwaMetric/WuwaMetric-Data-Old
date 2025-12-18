@@ -1,0 +1,139 @@
+{
+  "Id": 6000113,
+  "Code": "W86-",
+  "Name": "Nightmare: Kelpie",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_33021_UI.T_IconMonsterHead_33021_UI",
+  "Skill": {
+    "Desc": "Transform into Nightmare: Kelpie to attack nearby targets, dealing {0} Glacio DMG.\nThe Resonator with this Echo equipped in the main slot gains {2} Glacio DMG Bonus and {3} Aero DMG Bonus. Switching out the Resonator with Outro Skill summons Nightmare: Kelpie to deal {1} Aero DMG.\nCD: {4}s",
+    "SimpleDesc": "Transform into Nightmare: Kelpie to attack nearby targets, dealing Glacio DMG.\nThe Resonator with this Echo equipped in the main slot gains Glacio and Aero DMG Bonus. Switching out the Resonator with Outro Skill summons Nightmare: Kelpie to deal Aero DMG.",
+    "Param": [
+      [
+        "225.00%",
+        "225.00%",
+        "12.00%",
+        "12.00%",
+        "25"
+      ],
+      [
+        "270.00%",
+        "270.00%",
+        "12.00%",
+        "12.00%",
+        "25"
+      ],
+      [
+        "315.00%",
+        "315.00%",
+        "12.00%",
+        "12.00%",
+        "25"
+      ],
+      [
+        "360.00%",
+        "360.00%",
+        "12.00%",
+        "12.00%",
+        "25"
+      ],
+      [
+        "405.00%",
+        "405.00%",
+        "12.00%",
+        "12.00%",
+        "25"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_33021_UI.T_MstSkil_33021_UI",
+    "Damage": {
+      "28002701": {
+        "Element": 1,
+        "RelatedProperty": "ATK",
+        "Type": 5,
+        "RateLv": [
+          22500,
+          27000,
+          31500,
+          36000,
+          40500
+        ],
+        "Energy": 281,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 22500
+      },
+      "28002702": {
+        "Element": 4,
+        "RelatedProperty": "ATK",
+        "Type": 5,
+        "RateLv": [
+          22500,
+          27000,
+          31500,
+          36000,
+          40500
+        ],
+        "Energy": 281,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 22500
+      }
+    }
+  },
+  "Group": {
+    "16": {
+      "Id": 16,
+      "Name": "Gusts of Welkin",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriWindError.T_IconElementAttriWindError",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "Aero DMG + {0}",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "Inflicting Aero Erosion upon enemies increases Aero DMG for all Resonators in the team by {0}, and for the Resonator triggering this effect by an additional {1}, lasting for {2}s.",
+          "Param": [
+            "15%",
+            "15%",
+            "20"
+          ]
+        }
+      }
+    },
+    "17": {
+      "Id": 17,
+      "Name": "Windward Pilgrimage",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriWindErrorA.T_IconElementAttriWindErrorA",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "Aero DMG + {0}",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "Hitting a target with Aero Erosion increases Crit. Rate by {0} and grants {1} Aero DMG Bonus, lasting for {2}s.",
+          "Param": [
+            "10%",
+            "30%",
+            "10"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 2,
+  "MonsterInfo": 340000110
+}

@@ -1,0 +1,114 @@
+{
+  "Id": 6000120,
+  "Code": "H56-",
+  "Name": "コロサウルス",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_32044_UI.T_IconMonsterHead_32044_UI",
+  "Skill": {
+    "Desc": "音骸スキルを発動すると、コロサウルスを召喚し、敵に{0}の焦熱ダメージを与える。\nメイン音骸スロットに装備時、自身の焦熱ダメージが{1}、音骸スキルダメージが{2}アップ。\nクールタイム：{3}秒",
+    "SimpleDesc": "コロサウルスを召喚し、焦熱ダメージを与える。\nメイン音骸スロットに装備時、自身の焦熱ダメージと音骸スキルダメージがアップ。",
+    "Param": [
+      [
+        "152.00%",
+        "12.00%",
+        "20.00%",
+        "20"
+      ],
+      [
+        "182.40%",
+        "12.00%",
+        "20.00%",
+        "20"
+      ],
+      [
+        "212.80%",
+        "12.00%",
+        "20.00%",
+        "20"
+      ],
+      [
+        "243.20%",
+        "12.00%",
+        "20.00%",
+        "20"
+      ],
+      [
+        "273.60%",
+        "12.00%",
+        "20.00%",
+        "20"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_32044_UI.T_MstSkil_32044_UI",
+    "Damage": {
+      "20009801": {
+        "Element": 2,
+        "RelatedProperty": "攻撃力",
+        "Type": 5,
+        "RateLv": [
+          15200,
+          18240,
+          21280,
+          24320,
+          27360
+        ],
+        "Energy": 380,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 15200
+      }
+    }
+  },
+  "Group": {
+    "18": {
+      "Id": 18,
+      "Name": "ハウリング・フレイム",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriFireUltimateSkill.T_IconElementAttriFireUltimateSkill",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "焦熱ダメージが{0}アップ",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "共鳴解放発動時、チーム内全員の焦熱ダメージが{0}アップ、自身の共鳴解放ダメージが{1}アップ、{2}秒間持続。",
+          "Param": [
+            "15%",
+            "20%",
+            "35"
+          ]
+        }
+      }
+    },
+    "22": {
+      "Id": 22,
+      "Name": "インフェルノ・シャドウ",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriFireA.T_IconElementAttriFireA",
+      "Color": "FFFFFF00",
+      "Set": {
+        "3": {
+          "Desc": "キャラが音骸スキルダメージを与えた時、重撃ダメージのクリティカル率が{0}アップ、{1}秒間持続。また、重撃ダメージを与えた時、音骸スキルダメージのクリティカル率が{2}アップ、{3}秒間持続。両方の効果を持つ間、自身の焦熱ダメージが{4}アップ。",
+          "Param": [
+            "20%",
+            "6",
+            "20%",
+            "6",
+            "16%"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 1,
+  "MonsterInfo": 320000440
+}

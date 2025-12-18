@@ -1,0 +1,87 @@
+{
+  "Id": 6000187,
+  "Code": "T01-",
+  "Name": "霜鳞蜃甲",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_32057_UI.T_IconMonsterHead_32057_UI",
+  "Skill": {
+    "Desc": "使用声骸技能，召唤霜鳞蜃甲，使出一记强力重拳对敌人造成{0}的冷凝伤害。\n技能冷却：{1}秒",
+    "SimpleDesc": "召唤霜鳞蜃甲，使出强力重拳对敌人造成冷凝伤害。",
+    "Param": [
+      [
+        "107.00%",
+        "15"
+      ],
+      [
+        "128.40%",
+        "15"
+      ],
+      [
+        "149.80%",
+        "15"
+      ],
+      [
+        "171.20%",
+        "15"
+      ],
+      [
+        "192.60%",
+        "15"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_32057_UI.T_MstSkil_32057_UI",
+    "Damage": {
+      "20012401": {
+        "Element": 1,
+        "RelatedProperty": "攻击",
+        "Type": 5,
+        "RateLv": [
+          10700,
+          12840,
+          14980,
+          17120,
+          19260
+        ],
+        "Energy": 267,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 10700
+      }
+    }
+  },
+  "Group": {
+    "25": {
+      "Id": 25,
+      "Name": "星构寻辉之环",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriCureWeakness.T_IconElementAttriCureWeakness",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "治疗效果提升{0}",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "为队伍中角色提供治疗时，自身每{0}的偏谐值累积效率使队伍中角色攻击提升{1}，上限{2}，持续{3}秒，同名效果之间不可叠加。",
+          "Param": [
+            "1%",
+            "0.2%",
+            "25%",
+            "4"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 1,
+  "MonsterInfo": 320000570
+}

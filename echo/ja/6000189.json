@@ -1,0 +1,125 @@
+{
+  "Id": 6000189,
+  "Code": "T01-",
+  "Name": "ハイヴェイシャ",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34021_UI.T_IconMonsterHead_34021_UI",
+  "Skill": {
+    "Desc": "音骸スキルを発動すると、ハイヴェイシャを召喚し、空中からレーザー攻撃で敵に{0}の回折ダメージを10段与える。\n以降{1}秒以内に終奏スキルを発動すると、次に変奏スキルで登場するキャラの全属性ダメージが{2}アップ、{3}秒間持続。\nクールタイム：{4}秒",
+    "SimpleDesc": "ハイヴェイシャを召喚し、敵に回折ダメージを与える。さらに、次に変奏スキルで登場するキャラの全属性ダメージがアップ。",
+    "Param": [
+      [
+        "15.20%",
+        "15",
+        "10.00%",
+        "15",
+        "20"
+      ],
+      [
+        "18.24%",
+        "15",
+        "10.00%",
+        "15",
+        "20"
+      ],
+      [
+        "21.28%",
+        "15",
+        "10.00%",
+        "15",
+        "20"
+      ],
+      [
+        "24.32%",
+        "15",
+        "10.00%",
+        "15",
+        "20"
+      ],
+      [
+        "27.36%",
+        "15",
+        "10.00%",
+        "15",
+        "20"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_34021_UI.T_MstSkil_34021_UI",
+    "Damage": {
+      "28003601": {
+        "Element": 5,
+        "RelatedProperty": "攻撃力",
+        "Type": 5,
+        "RateLv": [
+          1520,
+          1824,
+          2128,
+          2432,
+          2736
+        ],
+        "Energy": 3,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 1520
+      }
+    }
+  },
+  "Group": {
+    "24": {
+      "Id": 24,
+      "Name": "リフレクト・ブレイズ",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriLightWeakness.T_IconElementAttriLightWeakness",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "回折ダメージが{0}アップ",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "終奏スキルを発動後、次に変奏スキルで登場するキャラの攻撃力が{0}アップ、協和破壊増強1Ptにつき、攻撃力が追加で{1}アップ、最大{2}アップ可能、{3}秒間持続。他のキャラに切り替えるとこの効果は消える。",
+          "Param": [
+            "15%",
+            "0.3%",
+            "15%",
+            "15"
+          ]
+        }
+      }
+    },
+    "26": {
+      "Id": 26,
+      "Name": "ゴールデン・ヴァリアント",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriAttackWeakness.T_IconElementAttriAttackWeakness",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "回折ダメージが{0}アップ",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "通常攻撃ダメージを与えると、自身の回折ダメージが{0}アップ、最大{1}スタック、{2}秒間持続。{1}スタックに到達時、共鳴解放を発動すると通常攻撃ダメージが{3}アップ。",
+          "Param": [
+            "10%",
+            "3",
+            "5",
+            "40%"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 2,
+  "MonsterInfo": 340000210
+}

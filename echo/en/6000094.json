@@ -1,0 +1,126 @@
+{
+  "Id": 6000094,
+  "Code": "S11-",
+  "Name": "Calcified Junrock",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31050_UI.T_IconMonsterHead_31050_UI",
+  "Skill": {
+    "Desc": "Summon a Calcified Junrock that restores HP for nearby Resonators in the team by {0} of their Max HP, up to 5 times.\nCD: {1}s",
+    "SimpleDesc": "Summon a Calcified Junrock to heal nearby Resonators in the team.",
+    "Param": [
+      [
+        "1.40%",
+        "15"
+      ],
+      [
+        "1.68%",
+        "15"
+      ],
+      [
+        "1.96%",
+        "15"
+      ],
+      [
+        "2.24%",
+        "15"
+      ],
+      [
+        "2.52%",
+        "15"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_Mstskil_31050_UI.T_Mstskil_31050_UI",
+    "Damage": {
+      "20007801": {
+        "Element": 0,
+        "RelatedProperty": "HP",
+        "Type": 5,
+        "RateLv": [
+          140,
+          168,
+          196,
+          224,
+          252
+        ],
+        "Energy": 0,
+        "ElementPower": 0,
+        "HardnessLv": 0,
+        "ToughLv": 0
+      }
+    }
+  },
+  "Group": {
+    "13": {
+      "Id": 13,
+      "Name": "Empyrean Anthem",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriCooperate.T_IconElementAttriCooperate",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "Energy Regen + {0}",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "Increase the Resonator's Coordinated Attack DMG by {0}. Upon a critical hit of Coordinated Attack, increase the active Resonator's ATK by {1} for {2}s.",
+          "Param": [
+            "80%",
+            "20%",
+            "4"
+          ]
+        }
+      }
+    },
+    "14": {
+      "Id": 14,
+      "Name": "Tidebreaking Courage",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriEnergy.T_IconElementAttriEnergy",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "Energy Regen + {0}",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "Increase the Resonator's ATK by {0}. Reaching {1} Energy Regen increases all Attribute DMG by {2} for the Resonator.",
+          "Param": [
+            "15%",
+            "250%",
+            "30%"
+          ]
+        }
+      }
+    },
+    "20": {
+      "Id": 20,
+      "Name": "Crown of Valor",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriShield.T_IconElementAttriShield",
+      "Color": "FFFFFF00",
+      "Set": {
+        "3": {
+          "Desc": "Upon gaining a Shield, increase the Resonator's ATK by {0} and Crit. DMG by {1} for {3}s. This effect can be triggered once every {4}s and stacks up to {2} times.",
+          "Param": [
+            "6%",
+            "4%",
+            "5",
+            "4",
+            "0.5"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 0,
+  "MonsterInfo": 310000500
+}

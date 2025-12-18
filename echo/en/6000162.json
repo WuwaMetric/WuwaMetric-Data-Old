@@ -1,0 +1,82 @@
+{
+  "Id": 6000162,
+  "Code": "H41-",
+  "Name": "Nightmare: Cyan-Feathered Heron",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_32046_UI.T_IconMonsterHead_32046_UI",
+  "Skill": {
+    "Desc": "Transform into Cyan-Feathered Heron and charge at the enemies, dealing {0} Aero DMG; This Echo Skill interrupts enemy <color=Highlight>Special Skills</color> upon dealing damage.\n \nCD: {1}s",
+    "SimpleDesc": "Transform into Cyan-Feathered Heron to charge at the enemies, dealing Aero DMG and interrupt enemy <color=Highlight>Special Skill</color>.",
+    "Param": [
+      [
+        "148.00%",
+        "15"
+      ],
+      [
+        "170.20%",
+        "15"
+      ],
+      [
+        "192.40%",
+        "15"
+      ],
+      [
+        "214.60%",
+        "15"
+      ],
+      [
+        "236.80%",
+        "15"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_Z_B1_UI.T_MstSkil_Z_B1_UI",
+    "Damage": {
+      "20001801": {
+        "Element": 4,
+        "RelatedProperty": "ATK",
+        "Type": 5,
+        "RateLv": [
+          14800,
+          17020,
+          19240,
+          21460,
+          23680
+        ],
+        "Energy": 370,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 14800
+      }
+    }
+  },
+  "Group": {
+    "21": {
+      "Id": 21,
+      "Name": "Law of Harmony",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriSupport.T_IconElementAttriSupport",
+      "Color": "FFFFFF00",
+      "Set": {
+        "3": {
+          "Desc": "Casting Echo Skill grants {0} Heavy Attack DMG Bonus to the caster for {1}s.\nAdditionally, all Resonators in the team gain {2} Echo Skill DMG Bonus for {4}s, stacking up to {3} times. Echoes of the same name can only trigger this effect once. The record of Echo triggering this effect is cleared along with this effect. At {3} stacks, casting Echo Skill again resets the duration of this effect.",
+          "Param": [
+            "30%",
+            "4",
+            "4%",
+            "4",
+            "30"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 1,
+  "MonsterInfo": 320000460
+}

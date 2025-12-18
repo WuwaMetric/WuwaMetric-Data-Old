@@ -1,0 +1,87 @@
+{
+  "Id": 6000181,
+  "Code": "T01-",
+  "Name": "フローラ・メカレインディア",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_32051_UI.T_IconMonsterHead_32051_UI",
+  "Skill": {
+    "Desc": "音骸スキルを発動すると、フローラ・メカレインディアを召喚し、広範囲の敵に{0}の気動ダメージを与える。\nクールタイム：{1}秒",
+    "SimpleDesc": "フローラ・メカレインディアを召喚し、気動ダメージを与える。",
+    "Param": [
+      [
+        "107.00%",
+        "15"
+      ],
+      [
+        "128.40%",
+        "15"
+      ],
+      [
+        "149.80%",
+        "15"
+      ],
+      [
+        "171.20%",
+        "15"
+      ],
+      [
+        "192.60%",
+        "15"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_32051_UI.T_MstSkil_32051_UI",
+    "Damage": {
+      "20011801": {
+        "Element": 4,
+        "RelatedProperty": "攻撃力",
+        "Type": 5,
+        "RateLv": [
+          10700,
+          12840,
+          14980,
+          17120,
+          19260
+        ],
+        "Energy": 267,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 10700
+      }
+    }
+  },
+  "Group": {
+    "26": {
+      "Id": 26,
+      "Name": "ゴールデン・ヴァリアント",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriAttackWeakness.T_IconElementAttriAttackWeakness",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "回折ダメージが{0}アップ",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "通常攻撃ダメージを与えると、自身の回折ダメージが{0}アップ、最大{1}スタック、{2}秒間持続。{1}スタックに到達時、共鳴解放を発動すると通常攻撃ダメージが{3}アップ。",
+          "Param": [
+            "10%",
+            "3",
+            "5",
+            "40%"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 1,
+  "MonsterInfo": 320000510
+}

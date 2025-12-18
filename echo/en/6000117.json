@@ -1,0 +1,112 @@
+{
+  "Id": 6000117,
+  "Code": "W31-",
+  "Name": "Nightmare: Havoc Warrior",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31063_UI.T_IconMonsterHead_31063_UI",
+  "Skill": {
+    "Desc": "Transform into Havoc Warrior to attack up to 3 times, dealing {0} Havoc DMG each time.\n \nCD: {1}s",
+    "SimpleDesc": "Transform into Havoc Warrior to continuously deal Havoc DMG.",
+    "Param": [
+      [
+        "107.33%",
+        "15"
+      ],
+      [
+        "123.43%",
+        "15"
+      ],
+      [
+        "139.53%",
+        "15"
+      ],
+      [
+        "155.63%",
+        "15"
+      ],
+      [
+        "171.73%",
+        "15"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_Z_Z8_UI.T_MstSkil_Z_Z8_UI",
+    "Damage": {
+      "20001301": {
+        "Element": 6,
+        "RelatedProperty": "ATK",
+        "Type": 5,
+        "RateLv": [
+          10733,
+          12343,
+          13953,
+          15563,
+          17173
+        ],
+        "Energy": 268,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 10733
+      },
+      "20001302": {
+        "Element": 6,
+        "RelatedProperty": "ATK",
+        "Type": 5,
+        "RateLv": [
+          10733,
+          12343,
+          13953,
+          15563,
+          17173
+        ],
+        "Energy": 268,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 10733
+      },
+      "20001303": {
+        "Element": 6,
+        "RelatedProperty": "ATK",
+        "Type": 5,
+        "RateLv": [
+          10733,
+          12343,
+          13953,
+          15563,
+          17173
+        ],
+        "Energy": 268,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 10733
+      }
+    }
+  },
+  "Group": {
+    "19": {
+      "Id": 19,
+      "Name": "Dream of the Lost",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriDarkVision.T_IconElementAttriDarkVision",
+      "Color": "FFFFFF00",
+      "Set": {
+        "3": {
+          "Desc": "Holding {0} Resonance Energy increases Crit. Rate by {1} and grants {2} Echo Skill DMG Bonus.",
+          "Param": [
+            "0",
+            "20%",
+            "35%"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 0,
+  "MonsterInfo": 310000630
+}

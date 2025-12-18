@@ -1,0 +1,5410 @@
+{
+  "Id": 1207,
+  "Rarity": 5,
+  "Weapon": 1,
+  "Element": 2,
+  "Tag": {
+    "3": {
+      "Name": "Concerto Efficiency",
+      "Desc": "Quick concerto energy regeneration",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/RoleLabel/SP_RoleLabelA3.SP_RoleLabelA3",
+      "Color": "ff4040"
+    },
+    "7": {
+      "Name": "Resonance Liberation Damage",
+      "Desc": "Deals higher Resonance Liberation DMG",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/RoleLabel/SP_RoleLabelB4.SP_RoleLabelB4",
+      "Color": "ffde73"
+    },
+    "17": {
+      "Name": "Fusion DMG Amplification",
+      "Desc": "Provides Fusion DMG Amplification for a specific Resonator in the team",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/RoleLabel/SP_RoleLabelD6.SP_RoleLabelD6",
+      "Color": "ff7777"
+    },
+    "20": {
+      "Name": "Basic Attack DMG Amplification",
+      "Desc": "Provides Basic Attack DMG Amplification for a specific Resonator in the team",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/RoleLabel/SP_RoleLabelD7.SP_RoleLabelD7",
+      "Color": "ff7777"
+    }
+  },
+  "Name": "Lupa",
+  "NickName": "Lupa",
+  "Desc": "A Gladiator of Septimont, a radiant star of the arena.\nFiery and straightforward, Lupa lives like a wild lone wolf. As long as she can savor the adrenaline rush of battle, she doesn't mind if that same fire ends up consuming her whole.",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_46_UI.T_IconRoleHead256_46_UI",
+  "Background": "/Game/Aki/UI/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_lupa_UI.T_IconRole_Pile_lupa_UI",
+  "BackgroundStand": "/Game/Aki/UI/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyLupa.T_ActivityRoleOntrialHalfBodyLupa",
+  "CharaInfo": {
+    "Birth": "Unknown",
+    "Sex": "Female",
+    "Country": "Rinascita",
+    "Influence": "Septimont",
+    "Info": "A Gladiator of Septimont, a radiant star of the arena.\nFiery and straightforward, Lupa lives like a wild lone wolf. As long as she can savor the adrenaline rush of battle, she doesn't mind if that same fire ends up consuming her whole.",
+    "TalentName": "Howling Flame",
+    "TalentDoc": "[Excerpt from Gladiator Resonance Assessment]\nContender Name: Lupa\n\nThe contender is classified as a Non-congenital Resonator, with her Resonance ability first manifesting during a childhood gladiatorial event. The estimated Resonance duration exceeds ten years.\n\nFrequency spectrum analysis indicates a primary Resonance alignment with fire. However, overlapping characteristics observed across multiple standard spectral signatures have rendered definitive source classification inconclusive.\n\nThe contender has demonstrated a consistent increase in both the strength and precision of her abilities over the course of her competitive career.\n\nThe <te href=850072>Tacet Mark</te> is located on the left side of the contender's waist. Resonance Awakening is accompanied by partial wolf-like transformation traits. In addition to a visible tail, the contender self-reports heightened olfactory and auditory sensitivity.\n\n<i>\"Assessment complete. Thank you for your cooperation, Contender Lupa.\n\n…Ahem, one more thing... My daughter loves watching your matches. Would it be possible to ask for your autograph?\"</i>",
+    "TalentCertification": "[Pre-Match Condition Confirmation]\nContender Name: Lupa\n\nSpectral waveform analysis displays elliptical fluctuations with a stable Time Domain. No anomalous patterns detected.\n\nDiagnosis: <te href=850073>Overclocking</te> threshold is high. Subject stability remains robust. No signs or history of Overclocking.\n\n<i>\"Contender Lupa has consistently undergone health assessments on schedule. Among high-profile Gladiators, few maintain such disciplined routines.\"</i>",
+    "CVNameCn": "Shuo Xiaotu",
+    "CVNameJp": "Takahashi Minami",
+    "CVNameKo": "Kim Ye Reong",
+    "CVNameEn": "Kaja Chan"
+  },
+  "Stories": [
+    {
+      "Title": "Burning Inside",
+      "Content": "Scorching. That was Lupa's earliest memory of the small village where she was born.\n\nSummers stretched on endlessly, the heat so intense that even the lake seemed to boil. But the children of Septimont hardly cared. Far away, in the city atop Capitoline Hill, the Great Agon was about to begin. The village had rarely produced a Gladiator skilled enough to enter the match, but the excitement still pulsed through the air. Even the children couldn't resist picking up weapons and staging their mock battles in celebration.\n\nLupa was called home halfway through one of those kids' Agons.\n\nStepping through the door, she was greeted by the same old conversation. Her parents asked if she would be willing to move to Capitoline Hill. She said yes. They asked if she would be willing to become a Gladiator since she showed signs of being a Resonator. And again, she said yes. These questions had been repeated many times, and her answers stayed the same. Yet each time, her parents seemed relieved, as if they feared she might someday refuse, even though she never had.\n\nThen the usual arguments began. Should they try to mend ties with the House of Silva, who had once turned their backs on them in their darkest hour? Or should they start over somewhere new? Whenever they spoke of that glittering city on the hill, and the House they once served, their voices would take on a tone—one caught between yearning for acceptance and fearing for rejection, just like when they spoke to Lupa about her future.\n\nLupa sat for a while, listening. When it became clear her parents had drifted into their own quarrels again, forgetting she was even there, she quietly got up, stepped outside, and made her way back to her arena. The stifling heat inside her body seemed to cling, heavy and wet, growing larger as it loomed over her. It burned in her veins, a restless, humid anger that only grew hotter. It drove her forward, made her run faster, strike harder, and lunge at her opponent with everything she had.\n\nAnd it was then that she heard the gasps from the crowd.\n\nLupa looked down and saw flames spilling from her limbs, fierce and untamed, curling to engulf her whole."
+    },
+    {
+      "Title": "Up On the Hill",
+      "Content": "Later, Lupa followed her parents to the City of Septimont.\n\nWhite stone walls, the crisp chime of windbells, and sculptures of heroes at every turn—the city was a dazzling spectacle. But what captivated Lupa most was the most common sight in the city, the Gladiators. Their weapons, their <te href=850082>Echoes</te>, the way their eyes lit up as they talked about the teams and scores... They all sent a spark through her veins. That little flame in her heart roared to life, urging her to dash straight to Colosseum Olymdos and throw herself into the thrill of battle.\n\nBut that didn't happen. Instead, her parents led her to the Silva estate, where many other young hopefuls like her stood waiting.\n\nMatch after grueling match, Lupa fought. Until at last, teeth gritted and spear clutched tight, she stepped over her fallen rivals into the Silva's grand hall.\n\nThat was when Domina Julia singled her out from the crowd.\n\nLupa stepped forward and found herself pinned by the Domina's sharp gaze. Those clear green eyes were like deep, fathomless wells, weighing her worth as a potential asset. Instinct made her glance back, but her parents were already gone, their figures swallowed by the shadows.\n\nThey had likely received a reward generous enough to drown any guilt over abandoning their own child.\n\nHowever, Lupa didn't linger in sorrow. The packed schedules and the endless social obligations allowed no room for grief. Soon enough, Domina Julia thrust her debut match into the spotlight. And her voice, whatever it might have been, was lost beneath the thunder of the roaring crowd, swallowed by silence."
+    },
+    {
+      "Title": "The Lone Wolf",
+      "Content": "By the time Lupa returned to the training room, the teammate she had partnered with for the past few months was already gone.\n\nShe stood there for a moment, dazed, before moving forward through the unlit room. Her Forte had gifted her with many things: fire, a sharpened sense of smell, and the ability to see in the dark. Without hesitation, Lupa made her way to a chair and sat down, settling quietly into the darkness.\n\n\"Well,\" she thought, \"the Domina or manager will send someone new soon.\"\n\nThis farce was finally over.\n\nThey had found the mole, the one leaking the team secrets, the source of the rumors. Julia wasn't one for mercy. Therefore, that former teammate who sold them out would likely be barred from setting foot on any arena of Capitoline Hill for a very long time.\n\nOver the years, as Lupa's fame grew, her teammates had come and gone. Some couldn't keep up with the way she fought. Others were dismissed simply because Julia didn't like them. A few, like her former teammate, had come with ill intent from the very start. And then there were those who... simply couldn't stand how the crowd's cheers always found her, leaving them forgotten in her shadow.\n\nLupa had tried to say something about it, but she quickly learned that even the act of \"trying to say something\" could cut like blades.\n\nMaybe it was because she had never truly been in their shoes. After all, she had never tasted failure. Or maybe it was that unspoken \"You'll never know what it feels like,\" and the fact that, when the dust settled, she was always the one who came out ahead.\n\nEventually, Lupa learned to stay silent.\n\nAfter sitting there a while longer, she got up and walked over to the cabinet where the match recordings were kept. From the shelves, she pulled out one particular recording she had watched many times before. Perhaps it was a kind of self-consolation, clinging to the idea that even those without talent could still find joy in the arena, even though the Gladiator in that recording didn't last long and disappeared from the arena all too suddenly.\n\nThe light from Breen the Screen cast flickering shadows across Lupa's face, leaving deep, hollowed patches of darkness behind."
+    },
+    {
+      "Title": "The Nameless",
+      "Content": "The Nameless staggered forward, passing a silent Giant of Glory.\n\nHer legs were leaden, her memories fraying at the edges. Even piecing together a complete thought was becoming a struggle. Sometimes, when Cartethyia spoke to her, she had to pause for a long while before she could muster a reply.\n\nThis brief journey was likely nearing its end.\n\nSeptimont, her city, the city of splendor, now drenched in the Dark Tide… The Nameless no longer knew if it could still be saved. Maybe the investigation they were clinging to was already doomed to fail. Cartethyia didn't think so, but the Nameless could no longer hold on. That nauseating sensation of the cold sea creeping up from within her was growing through her bones and blood, slowly turning her into something else.\n\nThe good news was that she could feel her existence weakening. Perhaps she could simply fade away before she was completely possessed by the Dark Tide. At least then she'd spare Cartethyia that final burden.\n\nWhen working alongside others, the Nameless was rarely the one being looked after. Now, this helplessness gnawed at her for the first time. Cartethyia had to slow down because of her. Shame burned inside the Nameless, but there was nothing she could do except hope—yes, hope that the Righteous One Cartethyia had trusted would arrive soon.\n\n\"Wish I could still be of use to my new friend here.\"\n\nGritting her teeth, she braced herself against her weapon and forced another step forward.\n\n\"Wish I could still do more...\"\n\nThe Nameless lifted her head. Above her, a hero who had once claimed glory in the history of Septimont stood tall, spear in hand, gazing down. The stone-carved face seemed to hold a silent compassion, shielding her from the dark rain falling from the sky, offering a wordless shelter to those who came after."
+    },
+    {
+      "Title": "Big Little Things",
+      "Content": "After the \"story\" ended, Lupa kept her promise. She whisked {PlayerName} and Cartethyia on a carefree whirlwind tour through Septimont.\n\nOnly the three of them would ever know the truth, but it truly was a winding, thrilling journey worthy of being told in an epic poem.\n\nBut as everything was settled and the tension finally eased, a faint, nagging worry began to stir again in Lupa's heart, a worry for {PlayerName}, her best teammate ever.\n\nShe had seen {PlayerName}'s strength firsthand. Saving Septimont would have been impossible without {PlayerName}'s help. But it was precisely because {PlayerName} had once again won so naturally that Lupa felt a new kind of unease. She was no stranger to victory, and she knew better than most the double-edged nature of constant triumph. After the winning streak, a true defeat—not just a minor stumble, but a real fall—could sometimes destroy a person.\n\nTrue, {PlayerName} was formidable. Lupa couldn't imagine what kind of fate could bring {Male=him;Female=her} down. But if that day ever came...\n\nYet she had no words for that. All she could do was silently talk herself into believing that she would always be there, ready to offer help. Somehow, Lupa could feel that {PlayerName} was destined for something greater, something too vast to reach or change for her. Yes, some things were big, and others were little. Saving a city was a great thing. Winning a match, a small one...\n\n...Or maybe not.\n\nShe never told {PlayerName}, but while saving the city had been a grand achievement, the short journey they had walked together had gifted her just as much. Even though for {PlayerName}, it had likely been no more than another easy victory, for Lupa, it meant a lot. When they won the semi-finals and leaned against each other for a brief moment in the waiting room, she was filled with a happiness she had never known before. It was exactly because {PlayerName} treated it as another effortless routine that hardly warranted a second thought, Lupa was able to savor that pure, unclouded joy of competition once again.\n\nIn that moment, the wild, restless flame that had always howled within her finally, at long last, fell silent."
+    }
+  ],
+  "Voices": [
+    {
+      "Type": 1,
+      "Title": "Thoughts: I",
+      "Content": "Ugh… I didn't expect the paparazzi to be on us during our stroll. A-actually, no, they weren't just after me, they wanted your picture too, Warrior. After all, you're a champion and the talk of the town now! But I bet you're not too keen on ending up in those gossip rags. Don't worry, I'll handle it tomorrow. Our good times are for us, and us alone!",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_sys_toplayer01.play_favor_word_lupa_sys_toplayer01"
+    },
+    {
+      "Type": 1,
+      "Title": "Thoughts: II",
+      "Content": "Sparring with you always takes me back to my childhood. Back then, we'd fight with cardboard \"weapons.\" No crowd, no cheers, no glory, just pure fun. Whether we won or lost, we'd always laugh and hug it out. Warrior… can I get a hug now, too?",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_sys_toplayer02.play_favor_word_lupa_sys_toplayer02"
+    },
+    {
+      "Type": 1,
+      "Title": "Thoughts: III",
+      "Content": "You wish to try? Sure, go ahead! Here, take this comb, my assistant bought it. They say you need a whole collection for a tail like mine. Mmm… wow, you're really good at this! Even I can't run a comb through it like that... Why am I suddenly so sleepy...",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_sys_toplayer03.play_favor_word_lupa_sys_toplayer03"
+    },
+    {
+      "Type": 1,
+      "Title": "Thoughts: IV",
+      "Content": "Being apart, going solo... I remember feeling a little uneasy. Cartethyia had passed the hope to you, and you entrusted it to me. It was a fight I had to win. I wasn't afraid of failure, but I knew that someone who couldn't face failure with dignity would never truly know victory. And... I was the \"protagonist\" you chose, wasn't I? I couldn't let you down.",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_sys_toplayer04.play_favor_word_lupa_sys_toplayer04"
+    },
+    {
+      "Type": 1,
+      "Title": "Thoughts: V",
+      "Content": "I have received many honors, but the championship medal I won with you is the one I cherish the most. I love this city, the land it rests on, its sights, and its people. It is a place of glory and pride, of filth and despair, but I love it all. I don't suppose you can stay in Septimont forever, this is just a small part of your journey. But for me, it will burn like fire. No matter what darkness comes next, this memory will always light my way.",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_sys_toplayer05.play_favor_word_lupa_sys_toplayer05"
+    },
+    {
+      "Type": 1,
+      "Title": "Lupa's Hobby",
+      "Content": "I love going to the Septimont baths after a training session. The warm water does wonders for easing weariness. You should give it a try.",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_sys_taste.play_favor_word_lupa_sys_taste"
+    },
+    {
+      "Type": 1,
+      "Title": "Lupa's Trouble",
+      "Content": "Every winter, my tail becomes a hive of static... Very annoying when I'm grooming...",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_sys_worry.play_favor_word_lupa_sys_worry"
+    },
+    {
+      "Type": 1,
+      "Title": "Favorite Food",
+      "Content": "A Saltimbocca made with fresh meat. I'm a Septimont traditionalist by palate, so a pinch of hot sauce is okay, but no weird sour cream. Don't be like the <te href=850097>Ragunnesi</te>!",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_sys_foodlike.play_favor_word_lupa_sys_foodlike"
+    },
+    {
+      "Type": 1,
+      "Title": "Disliked Food",
+      "Content": "The \"vittles.\" Oh, it means food cooked exclusively by <te href=850082>Echoes</te> sans human input. All \"vittles\" taste very bland... Do Septimont Echoes hate seasoning?",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_sys_foodhate.play_favor_word_lupa_sys_foodhate"
+    },
+    {
+      "Type": 1,
+      "Title": "Ideals",
+      "Content": "I just want to enjoy the thrill of competition, win or lose. I can hear my heart pounding when I strike, weapon in hand, my cheeks burning as the crowd cheers... It's simple. Pure. No need for extra pomp or returns. The hard work, the strategy, the sacrifice... It's all worth it to feel that joy! Sticking with this for life won't be easy, but would I have to quit? Not a chance.",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_sys_dream.play_favor_word_lupa_sys_dream"
+    },
+    {
+      "Type": 1,
+      "Title": "Chat: I",
+      "Content": "This spear? It was a gift from Domina Julia... Yeah, the same weapon I carried into my very first match in Septimont. Back then, I was just a child with \"some natural talent.\" She spotted me in the crowd and brought me into the limelight. So, in the following years, I turned a blind eye to the outrageous contract terms, willfully ignoring the fact that she sought to use me for her own gain. I used to believe her pride would hold her back, that it would stop her from crossing the line...",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_sys_story_obj.play_favor_word_lupa_sys_story_obj"
+    },
+    {
+      "Type": 1,
+      "Title": "Chat: II",
+      "Content": "It's now all a blur to me... the memory of being trapped in that empty city... Walls crawling with Tidal Blight, monsters prowling the streets. Everyone had vanished without a trace. It was the lowest I'd ever seen Septimont. I couldn't bear to see such hellish sights. But I told myself, \"I can still hold on.\" I had to keep going... keep searching for a way to save this city, no matter how many times it took.",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_sys_story_exp.play_favor_word_lupa_sys_story_exp"
+    },
+    {
+      "Type": 1,
+      "Title": "About Cartethyia",
+      "Content": "In that empty city, Cartethyia was there for me during my most delirious and painful moments. At first, our conversations were a bit stiff. Guess she hadn't spoken to anyone in who knows how long. But as we spent more time together, I realized that she was actually easygoing and carefree. For someone like her, being trapped in one place for so long must've been unbearable... Now that our long journey is over, I hope my friend can fully enjoy this moment of peace.",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_sys_about_katixiya.play_favor_word_lupa_sys_about_katixiya"
+    },
+    {
+      "Type": 1,
+      "Title": "About Augusta",
+      "Content": "Whenever I watch videos of the Ephor's past fights, I do wonder if she stepped into the arena for political reasons, or-or to prove herself. Whatever her reason, Augusta's rise to power was a good thing for Septimont. Change is always toughest at the beginning. And for that, I have respect for her.",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_sys_about_aogusita.play_favor_word_lupa_sys_about_aogusita"
+    },
+    {
+      "Type": 1,
+      "Title": "About Iuno",
+      "Content": "A spirited, nimble girl... That's my impression of her. Once, I saw her sprint along the narrow bricks at the top of the high wall and leap onto a statue like a cat. No clue who was chasing her, but I cheered loudly along with everyone else at the foot of the wall!",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_sys_about_younuo_b.play_favor_word_lupa_sys_about_younuo_b"
+    },
+    {
+      "Type": 1,
+      "Title": "About Brant",
+      "Content": "Many Gladiators of the Blue Furies come from the <te href=850108>Troupe of Fools</te>. I remember once, at Cliffside Harbor, I saw their captain leap off the deck just to hug his crew. They chattered on for a while, and then suddenly broke into song...!",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_sys_about_bulante.play_favor_word_lupa_sys_about_bulante"
+    },
+    {
+      "Type": 1,
+      "Title": "About Mya",
+      "Content": "When I first saw the footage of Contender Mya, I was merely impressed by her raw, unfiltered determination. At the time, my team had some problems, and my teammates accused me of not understanding what it felt like to be left behind. Normally, I'd brush it off, but the sounds of sorrow grew louder and started to weigh on me. Strength, weakness, winning, losing... I began to question if I had only made it through by luck. But Mya has shown me the answer with her whole life. Victory is about giving everything you've got.",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_sys_about_miya.play_favor_word_lupa_sys_about_miya"
+    },
+    {
+      "Type": 1,
+      "Title": "Birthday Wishes",
+      "Content": "Happy birthday, Fellow Warrior! Hahaha, did I scare you? How could I ever forget your special day? I've already set up a party at the Leonidas Hotel—whenever you return to Septimont, I'll be there waiting. Now, look out the window! These fireworks are for you. We Septimontians know how to put on a show, thanks to all the contests and celebrations we throw. Okay, let's kick things off with a cup of wheat juice! No? Seriously? Alright, fine. Then close your eyes and make a wish.",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_sys_birthcele.play_favor_word_lupa_sys_birthcele"
+    },
+    {
+      "Type": 1,
+      "Title": "Idle: I",
+      "Content": "Oh? You're here!",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_idle_idle01.play_favor_word_lupa_idle_idle01"
+    },
+    {
+      "Type": 1,
+      "Title": "Idle: II",
+      "Content": "In my previous match, I slipped and left an opening, but my opponent failed to notice. He gradually lost his advantage... and here, he started to panic, until... I knocked him down with a single blow!",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_idle_idle02.play_favor_word_lupa_idle_idle02"
+    },
+    {
+      "Type": 1,
+      "Title": "Idle: III",
+      "Content": "(Effort sound)",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_idle_idle03.play_favor_word_lupa_idle_idle03"
+    },
+    {
+      "Type": 1,
+      "Title": "Self-Introduction",
+      "Content": "Lupa, Gladiator of Septimont. Just ignore the attention, Warrior. This victory is ours to savor!",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_sys_introduction.play_favor_word_lupa_sys_introduction"
+    },
+    {
+      "Type": 1,
+      "Title": "Greeting",
+      "Content": "Oh, is a new match calling?",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_sys_gacha.play_favor_word_lupa_sys_gacha"
+    },
+    {
+      "Type": 1,
+      "Title": "Join Team: I",
+      "Content": "You called, Warrior?",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_sys_jointeam_01.play_favor_word_lupa_sys_jointeam_01"
+    },
+    {
+      "Type": 1,
+      "Title": "Join Team: II",
+      "Content": "Time to hunt!",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_sys_jointeam_02.play_favor_word_lupa_sys_jointeam_02"
+    },
+    {
+      "Type": 1,
+      "Title": "Join Team: III",
+      "Content": "I'm joining your battle.",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_sys_jointeam_03.play_favor_word_lupa_sys_jointeam_03"
+    },
+    {
+      "Type": 1,
+      "Title": "Ascension: I",
+      "Content": "Our teamwork is getting better.",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_sys_rankup01.play_favor_word_lupa_sys_rankup01"
+    },
+    {
+      "Type": 1,
+      "Title": "Ascension: II",
+      "Content": "Awesome! I'll record our training and savor every detail of it.",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_sys_rankup02.play_favor_word_lupa_sys_rankup02"
+    },
+    {
+      "Type": 1,
+      "Title": "Ascension: III",
+      "Content": "Do I look overexcited? Because in truth, I am. All I want is to keep sparring with you.",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_sys_rankup03.play_favor_word_lupa_sys_rankup03"
+    },
+    {
+      "Type": 1,
+      "Title": "Ascension: IV",
+      "Content": "More... Get me more... One more round, Warrior! I want a rematch!",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_sys_rankup04.play_favor_word_lupa_sys_rankup04"
+    },
+    {
+      "Type": 1,
+      "Title": "Ascension: V",
+      "Content": "As we advance from one battle to the next, do you ever feel tired? I want to become stronger, wiser, and better. I want to be someone who's got your back, to be your... most trusted Fellow Warrior.",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_sys_rankup05.play_favor_word_lupa_sys_rankup05"
+    },
+    {
+      "Type": 2,
+      "Title": "Heavy Attack: I",
+      "Content": "Time to fight!",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_atk_heavyatk01_sp_01.play_favor_word_lupa_atk_heavyatk01_sp_01"
+    },
+    {
+      "Type": 2,
+      "Title": "Heavy Attack: II",
+      "Content": "All or nothing!",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_atk_heavyatk01_sp_02.play_favor_word_lupa_atk_heavyatk01_sp_02"
+    },
+    {
+      "Type": 2,
+      "Title": "Heavy Attack: III",
+      "Content": "Let's start!",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_atk_heavyatk01_sp_03.play_favor_word_lupa_atk_heavyatk01_sp_03"
+    },
+    {
+      "Type": 2,
+      "Title": "Resonance Skill: I",
+      "Content": "Caught you now!",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_skill_skill01_01.play_favor_word_lupa_skill_skill01_01"
+    },
+    {
+      "Type": 2,
+      "Title": "Resonance Skill: II",
+      "Content": "I'll end you!",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_skill_skill01_02.play_favor_word_lupa_skill_skill01_02"
+    },
+    {
+      "Type": 2,
+      "Title": "Resonance Skill: III",
+      "Content": "Face me coward!",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_skill_skill01_03.play_favor_word_lupa_skill_skill01_03"
+    },
+    {
+      "Type": 2,
+      "Title": "Resonance Skill: IV",
+      "Content": "Lackluster.",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_skill_skill02_01.play_favor_word_lupa_skill_skill02_01"
+    },
+    {
+      "Type": 2,
+      "Title": "Resonance Skill: V",
+      "Content": "I smell fear.",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_skill_skill02_02.play_favor_word_lupa_skill_skill02_02"
+    },
+    {
+      "Type": 2,
+      "Title": "Resonance Skill: VI",
+      "Content": "Is that all?",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_skill_skill02_03.play_favor_word_lupa_skill_skill02_03"
+    },
+    {
+      "Type": 2,
+      "Title": "Resonance Skill: VII",
+      "Content": "Break! Darkness.",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_skill_skill01_pro_01.play_favor_word_lupa_skill_skill01_pro_01"
+    },
+    {
+      "Type": 2,
+      "Title": "Resonance Skill: VIII",
+      "Content": "Die! Evil.",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_skill_skill01_pro_02.play_favor_word_lupa_skill_skill01_pro_02"
+    },
+    {
+      "Type": 2,
+      "Title": "Resonance Skill: IX",
+      "Content": "Flee! Filth.",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_skill_skill01_pro_03.play_favor_word_lupa_skill_skill01_pro_03"
+    },
+    {
+      "Type": 2,
+      "Title": "Resonance Skill: X",
+      "Content": "Into the spotlight.",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_skill_skill02_pro_01.play_favor_word_lupa_skill_skill02_pro_01"
+    },
+    {
+      "Type": 2,
+      "Title": "Resonance Skill: XI",
+      "Content": "Glory is upon us.",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_skill_skill02_pro_02.play_favor_word_lupa_skill_skill02_pro_02"
+    },
+    {
+      "Type": 2,
+      "Title": "Resonance Skill: XII",
+      "Content": "Together, we howl.",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_skill_skill02_pro_03.play_favor_word_lupa_skill_skill02_pro_03"
+    },
+    {
+      "Type": 2,
+      "Title": "Resonance Skill: XIII",
+      "Content": "Nice teamwork!",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_skill_skill01_sp_01.play_favor_word_lupa_skill_skill01_sp_01"
+    },
+    {
+      "Type": 2,
+      "Title": "Resonance Skill: XIV",
+      "Content": "Timely support!",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_skill_skill01_sp_02.play_favor_word_lupa_skill_skill01_sp_02"
+    },
+    {
+      "Type": 2,
+      "Title": "Resonance Skill: XV",
+      "Content": "Attack as one!",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_skill_skill01_sp_03.play_favor_word_lupa_skill_skill01_sp_03"
+    },
+    {
+      "Type": 2,
+      "Title": "Resonance Liberation: I",
+      "Content": "Triumph at the speartip!",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_burst_burst01_01.play_favor_word_lupa_burst_burst01_01"
+    },
+    {
+      "Type": 2,
+      "Title": "Resonance Liberation: II",
+      "Content": "The fight is on!",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_burst_burst01_02.play_favor_word_lupa_burst_burst01_02"
+    },
+    {
+      "Type": 2,
+      "Title": "Resonance Liberation: III",
+      "Content": "With me, to victory!",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_burst_burst01_03.play_favor_word_lupa_burst_burst01_03"
+    },
+    {
+      "Type": 2,
+      "Title": "Intro Skill: I",
+      "Content": "Cheer for me!",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_skill_qte_01.play_favor_word_lupa_skill_qte_01"
+    },
+    {
+      "Type": 2,
+      "Title": "Intro Skill: II",
+      "Content": "Applaud for me!",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_skill_qte_02.play_favor_word_lupa_skill_qte_02"
+    },
+    {
+      "Type": 2,
+      "Title": "Hit: I",
+      "Content": "Try that again!",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_com_behitfly_01.play_favor_word_lupa_com_behitfly_01"
+    },
+    {
+      "Type": 2,
+      "Title": "Hit: II",
+      "Content": "Meaningless move.",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_com_behitfly_02.play_favor_word_lupa_com_behitfly_02"
+    },
+    {
+      "Type": 2,
+      "Title": "Injured: I",
+      "Content": "Hah, that's some attack.",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_com_hpdown01.play_favor_word_lupa_com_hpdown01"
+    },
+    {
+      "Type": 2,
+      "Title": "Injured: II",
+      "Content": "Now's the second half!",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_com_hpdown02.play_favor_word_lupa_com_hpdown02"
+    },
+    {
+      "Type": 2,
+      "Title": "Injured: III",
+      "Content": "The shame...!",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_com_hpdown03.play_favor_word_lupa_com_hpdown03"
+    },
+    {
+      "Type": 2,
+      "Title": "Fallen: I",
+      "Content": "A warrior... dies with honor.",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_com_die_01.play_favor_word_lupa_com_die_01"
+    },
+    {
+      "Type": 2,
+      "Title": "Fallen: II",
+      "Content": "The scent of... Bloodleaf Viburnum...",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_com_die_02.play_favor_word_lupa_com_die_02"
+    },
+    {
+      "Type": 2,
+      "Title": "Fallen: III",
+      "Content": "Does the Vale of Glory await me?",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_com_die_03.play_favor_word_lupa_com_die_03"
+    },
+    {
+      "Type": 2,
+      "Title": "Echo Summon",
+      "Content": "With me!",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_skill_hxsummon.play_favor_word_lupa_skill_hxsummon"
+    },
+    {
+      "Type": 2,
+      "Title": "Echo Transform",
+      "Content": "New tactic.",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_skill_hxchange.play_favor_word_lupa_skill_hxchange"
+    },
+    {
+      "Type": 2,
+      "Title": "Enemies Near",
+      "Content": "I hear cowering prey.",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_com_engage.play_favor_word_lupa_com_engage"
+    },
+    {
+      "Type": 2,
+      "Title": "Glider",
+      "Content": "Winds of the wild!",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_com_fly_01.play_favor_word_lupa_com_fly_01"
+    },
+    {
+      "Type": 2,
+      "Title": "Sensor",
+      "Content": "Hiding there, huh?",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_com_scan.play_favor_word_lupa_com_scan"
+    },
+    {
+      "Type": 2,
+      "Title": "Supply Chest: I",
+      "Content": "Prey secured!",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_com_openbox_01.play_favor_word_lupa_com_openbox_01"
+    },
+    {
+      "Type": 2,
+      "Title": "Supply Chest: II",
+      "Content": "Heh, pretty good haul.",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_com_openbox_02.play_favor_word_lupa_com_openbox_02"
+    },
+    {
+      "Type": 2,
+      "Title": "Supply Chest: III",
+      "Content": "You get first dibs!",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_com_openbox_03.play_favor_word_lupa_com_openbox_03"
+    }
+  ],
+  "Goods": [
+    {
+      "Title": "Old Medal",
+      "Content": "Ever since Lupa's parents severed ties with her, their faces began to blur from her memory.\n\nWhat lingers is the way they used to reminisce about their days on Capitoline Hill, far from the small village she called home. They had once borne the name Silva, until they were cast out, shamed by defeat in the arena. From then on, their lives were marked by regret, hardship, and finger-pointing. \n\nAnd yet, when they heard Lupa had won her first match, they still went to the blacksmith and had this medal forged, a gift to commemorate her victory.",
+      "Icon": "/Game/Aki/UI/UIResources/UiRole/Image/Treasure/T_Treasure103_UI.T_Treasure103_UI"
+    },
+    {
+      "Title": "Viburnum Bouquet",
+      "Content": "This was one of many bouquets Lupa received in the arena. Bloodleaf Viburnum, the flower of Gladiators, a mark of victory and glory.\n\nThe first time she stepped into Colosseum Olymdos, she fought like a creature unleashed. Relentless. Instinctive. Wolf-like. The crowd gathered and roared. Applause crashed over her like waves, the lights above sharp and dizzying. \n\nOnly when she returned to the waiting room, the bouquet still in hand, did she hear herself laughing out loud.",
+      "Icon": "/Game/Aki/UI/UIResources/UiRole/Image/Treasure/T_Treasure105_UI.T_Treasure105_UI"
+    },
+    {
+      "Title": "Mini Ta-da Figurines",
+      "Content": "The people of Septimont have a deep love for sculptures. They immortalize many things with that art. Gryphons, heroes, legends... and of course, the ever-lovable <te href=850082>Echoes</te>.\n\nLupa's favorite? Ta-da. Just one glance at those cheerful, chubby little things is enough to make her day. That's why she chose a pair of Ta-da figurines as a gift for her fellow warrior.\n\nCaptured mid-flap with their oversized ears and fearless charm, they look ready to charge into the arena, just like Lupa and {PlayerName} once did. That journey they shared remains one of her brightest memories.",
+      "Icon": "/Game/Aki/UI/UIResources/UiRole/Image/Treasure/T_Treasure104_UI.T_Treasure104_UI"
+    }
+  ],
+  "SpecialCook": {
+    "Id": 80001061,
+    "Name": "Heartpour",
+    "Desc": "Increases Energy Regen of all Resonators in the team by 34% for 30m. Only effective on your own Resonators in Co-op Mode.",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconCook/T_IconCook_078_UI.T_IconCook_078_UI",
+    "Rarity": 4
+  },
+  "Stats": {
+    "0": {
+      "1": {
+        "Life": 953.0,
+        "Atk": 31.0,
+        "Def": 97.0
+      },
+      "2": {
+        "Life": 1033.2426,
+        "Atk": 33.6102,
+        "Def": 104.9831
+      },
+      "3": {
+        "Life": 1113.5805,
+        "Atk": 36.2235,
+        "Def": 112.9759
+      },
+      "4": {
+        "Life": 1193.9184,
+        "Atk": 38.8368,
+        "Def": 120.9687
+      },
+      "5": {
+        "Life": 1274.161,
+        "Atk": 41.447,
+        "Def": 128.9615
+      },
+      "6": {
+        "Life": 1354.4989,
+        "Atk": 44.0603,
+        "Def": 136.9543
+      },
+      "7": {
+        "Life": 1434.8368,
+        "Atk": 46.6736,
+        "Def": 144.9471
+      },
+      "8": {
+        "Life": 1515.0794,
+        "Atk": 49.2838,
+        "Def": 152.9399
+      },
+      "9": {
+        "Life": 1595.4173,
+        "Atk": 51.8971,
+        "Def": 160.9327
+      },
+      "10": {
+        "Life": 1675.7552,
+        "Atk": 54.5104,
+        "Def": 168.9255
+      },
+      "11": {
+        "Life": 1755.9978,
+        "Atk": 57.1206,
+        "Def": 176.9183
+      },
+      "12": {
+        "Life": 1836.3357,
+        "Atk": 59.7339,
+        "Def": 184.9111
+      },
+      "13": {
+        "Life": 1916.6736,
+        "Atk": 62.3472,
+        "Def": 192.9039
+      },
+      "14": {
+        "Life": 1997.0115,
+        "Atk": 64.9605,
+        "Def": 200.8967
+      },
+      "15": {
+        "Life": 2077.2541,
+        "Atk": 67.5707,
+        "Def": 208.8895
+      },
+      "16": {
+        "Life": 2157.592,
+        "Atk": 70.184,
+        "Def": 216.8823
+      },
+      "17": {
+        "Life": 2237.9299,
+        "Atk": 72.7973,
+        "Def": 224.8751
+      },
+      "18": {
+        "Life": 2318.1725,
+        "Atk": 75.4075,
+        "Def": 232.8679
+      },
+      "19": {
+        "Life": 2398.5104,
+        "Atk": 78.0208,
+        "Def": 240.8607
+      },
+      "20": {
+        "Life": 2478.8483,
+        "Atk": 80.6341,
+        "Def": 248.8535
+      }
+    },
+    "1": {
+      "20": {
+        "Life": 3114.1181,
+        "Atk": 103.8841,
+        "Def": 311.7192
+      },
+      "21": {
+        "Life": 3194.456,
+        "Atk": 106.4943,
+        "Def": 319.712
+      },
+      "22": {
+        "Life": 3274.7939,
+        "Atk": 109.1076,
+        "Def": 327.7048
+      },
+      "23": {
+        "Life": 3355.0365,
+        "Atk": 111.7209,
+        "Def": 335.6976
+      },
+      "24": {
+        "Life": 3435.3744,
+        "Atk": 114.3342,
+        "Def": 343.6904
+      },
+      "25": {
+        "Life": 3515.7123,
+        "Atk": 116.9444,
+        "Def": 351.6832
+      },
+      "26": {
+        "Life": 3596.0502,
+        "Atk": 119.5577,
+        "Def": 359.676
+      },
+      "27": {
+        "Life": 3676.2928,
+        "Atk": 122.171,
+        "Def": 367.6688
+      },
+      "28": {
+        "Life": 3756.6307,
+        "Atk": 124.7812,
+        "Def": 375.6616
+      },
+      "29": {
+        "Life": 3836.9686,
+        "Atk": 127.3945,
+        "Def": 383.6544
+      },
+      "30": {
+        "Life": 3917.2112,
+        "Atk": 130.0078,
+        "Def": 391.6472
+      },
+      "31": {
+        "Life": 3997.5491,
+        "Atk": 132.618,
+        "Def": 399.64
+      },
+      "32": {
+        "Life": 4077.887,
+        "Atk": 135.2313,
+        "Def": 407.6328
+      },
+      "33": {
+        "Life": 4158.1296,
+        "Atk": 137.8446,
+        "Def": 415.6256
+      },
+      "34": {
+        "Life": 4238.4675,
+        "Atk": 140.4548,
+        "Def": 423.6184
+      },
+      "35": {
+        "Life": 4318.8054,
+        "Atk": 143.0681,
+        "Def": 431.6112
+      },
+      "36": {
+        "Life": 4399.1433,
+        "Atk": 145.6814,
+        "Def": 439.604
+      },
+      "37": {
+        "Life": 4479.3859,
+        "Atk": 148.2947,
+        "Def": 447.5968
+      },
+      "38": {
+        "Life": 4559.7238,
+        "Atk": 150.9049,
+        "Def": 455.5896
+      },
+      "39": {
+        "Life": 4640.0617,
+        "Atk": 153.5182,
+        "Def": 463.5824
+      },
+      "40": {
+        "Life": 4720.3043,
+        "Atk": 156.1315,
+        "Def": 471.5752
+      }
+    },
+    "2": {
+      "40": {
+        "Life": 5355.6694,
+        "Atk": 179.3815,
+        "Def": 534.4409
+      },
+      "41": {
+        "Life": 5436.0073,
+        "Atk": 181.9917,
+        "Def": 542.4337
+      },
+      "42": {
+        "Life": 5516.2499,
+        "Atk": 184.605,
+        "Def": 550.4265
+      },
+      "43": {
+        "Life": 5596.5878,
+        "Atk": 187.2183,
+        "Def": 558.4193
+      },
+      "44": {
+        "Life": 5676.9257,
+        "Atk": 189.8285,
+        "Def": 566.4121
+      },
+      "45": {
+        "Life": 5757.1683,
+        "Atk": 192.4418,
+        "Def": 574.4049
+      },
+      "46": {
+        "Life": 5837.5062,
+        "Atk": 195.0551,
+        "Def": 582.3977
+      },
+      "47": {
+        "Life": 5917.8441,
+        "Atk": 197.6684,
+        "Def": 590.3905
+      },
+      "48": {
+        "Life": 5998.182,
+        "Atk": 200.2786,
+        "Def": 598.3833
+      },
+      "49": {
+        "Life": 6078.4246,
+        "Atk": 202.8919,
+        "Def": 606.3761
+      },
+      "50": {
+        "Life": 6158.7625,
+        "Atk": 205.5052,
+        "Def": 614.3689
+      }
+    },
+    "3": {
+      "50": {
+        "Life": 6794.1276,
+        "Atk": 228.7552,
+        "Def": 677.2346
+      },
+      "51": {
+        "Life": 6874.3702,
+        "Atk": 231.3654,
+        "Def": 685.2274
+      },
+      "52": {
+        "Life": 6954.7081,
+        "Atk": 233.9787,
+        "Def": 693.2202
+      },
+      "53": {
+        "Life": 7035.046,
+        "Atk": 236.592,
+        "Def": 701.213
+      },
+      "54": {
+        "Life": 7115.2886,
+        "Atk": 239.2022,
+        "Def": 709.2058
+      },
+      "55": {
+        "Life": 7195.6265,
+        "Atk": 241.8155,
+        "Def": 717.1986
+      },
+      "56": {
+        "Life": 7275.9644,
+        "Atk": 244.4288,
+        "Def": 725.1914
+      },
+      "57": {
+        "Life": 7356.3023,
+        "Atk": 247.0421,
+        "Def": 733.1842
+      },
+      "58": {
+        "Life": 7436.5449,
+        "Atk": 249.6523,
+        "Def": 741.177
+      },
+      "59": {
+        "Life": 7516.8828,
+        "Atk": 252.2656,
+        "Def": 749.1698
+      },
+      "60": {
+        "Life": 7597.2207,
+        "Atk": 254.8789,
+        "Def": 757.1626
+      }
+    },
+    "4": {
+      "60": {
+        "Life": 8232.4905,
+        "Atk": 278.1289,
+        "Def": 820.038
+      },
+      "61": {
+        "Life": 8312.8284,
+        "Atk": 280.7391,
+        "Def": 828.0308
+      },
+      "62": {
+        "Life": 8393.1663,
+        "Atk": 283.3524,
+        "Def": 836.0236
+      },
+      "63": {
+        "Life": 8473.4089,
+        "Atk": 285.9657,
+        "Def": 844.0164
+      },
+      "64": {
+        "Life": 8553.7468,
+        "Atk": 288.5759,
+        "Def": 852.0092
+      },
+      "65": {
+        "Life": 8634.0847,
+        "Atk": 291.1892,
+        "Def": 860.002
+      },
+      "66": {
+        "Life": 8714.3273,
+        "Atk": 293.8025,
+        "Def": 867.9851
+      },
+      "67": {
+        "Life": 8794.6652,
+        "Atk": 296.4127,
+        "Def": 875.9779
+      },
+      "68": {
+        "Life": 8875.0031,
+        "Atk": 299.026,
+        "Def": 883.9707
+      },
+      "69": {
+        "Life": 8955.341,
+        "Atk": 301.6393,
+        "Def": 891.9635
+      },
+      "70": {
+        "Life": 9035.5836,
+        "Atk": 304.2526,
+        "Def": 899.9563
+      }
+    },
+    "5": {
+      "70": {
+        "Life": 9670.9487,
+        "Atk": 319.7526,
+        "Def": 962.8317
+      },
+      "71": {
+        "Life": 9751.2866,
+        "Atk": 322.3628,
+        "Def": 970.8245
+      },
+      "72": {
+        "Life": 9831.5292,
+        "Atk": 324.9761,
+        "Def": 978.8173
+      },
+      "73": {
+        "Life": 9911.8671,
+        "Atk": 327.5894,
+        "Def": 986.8101
+      },
+      "74": {
+        "Life": 9992.205,
+        "Atk": 330.1996,
+        "Def": 994.8029
+      },
+      "75": {
+        "Life": 10072.4476,
+        "Atk": 332.8129,
+        "Def": 1002.7957
+      },
+      "76": {
+        "Life": 10152.7855,
+        "Atk": 335.4262,
+        "Def": 1010.7885
+      },
+      "77": {
+        "Life": 10233.1234,
+        "Atk": 338.0364,
+        "Def": 1018.7813
+      },
+      "78": {
+        "Life": 10313.366,
+        "Atk": 340.6497,
+        "Def": 1026.7741
+      },
+      "79": {
+        "Life": 10393.7039,
+        "Atk": 343.263,
+        "Def": 1034.7669
+      },
+      "80": {
+        "Life": 10474.0418,
+        "Atk": 345.8763,
+        "Def": 1042.7597
+      }
+    },
+    "6": {
+      "80": {
+        "Life": 11109.4069,
+        "Atk": 361.3763,
+        "Def": 1105.6254
+      },
+      "81": {
+        "Life": 11189.6495,
+        "Atk": 363.9865,
+        "Def": 1113.6182
+      },
+      "82": {
+        "Life": 11269.9874,
+        "Atk": 366.5998,
+        "Def": 1121.611
+      },
+      "83": {
+        "Life": 11350.3253,
+        "Atk": 369.2131,
+        "Def": 1129.6038
+      },
+      "84": {
+        "Life": 11430.5679,
+        "Atk": 371.8233,
+        "Def": 1137.5966
+      },
+      "85": {
+        "Life": 11510.9058,
+        "Atk": 374.4366,
+        "Def": 1145.5894
+      },
+      "86": {
+        "Life": 11591.2437,
+        "Atk": 377.0499,
+        "Def": 1153.5822
+      },
+      "87": {
+        "Life": 11671.4863,
+        "Atk": 379.6601,
+        "Def": 1161.575
+      },
+      "88": {
+        "Life": 11751.8242,
+        "Atk": 382.2734,
+        "Def": 1169.5678
+      },
+      "89": {
+        "Life": 11832.1621,
+        "Atk": 384.8867,
+        "Def": 1177.5606
+      },
+      "90": {
+        "Life": 11912.5,
+        "Atk": 387.5,
+        "Def": 1185.5534
+      }
+    }
+  },
+  "LevelEXP": [
+    0,
+    400,
+    400,
+    500,
+    600,
+    700,
+    900,
+    1000,
+    1200,
+    1300,
+    1500,
+    1700,
+    2000,
+    2200,
+    2400,
+    2700,
+    3000,
+    3300,
+    3600,
+    3900,
+    4300,
+    4600,
+    5000,
+    5400,
+    5800,
+    6300,
+    6700,
+    7200,
+    7700,
+    8200,
+    8700,
+    9300,
+    9800,
+    10400,
+    11000,
+    11700,
+    12300,
+    13000,
+    13700,
+    14400,
+    15100,
+    15900,
+    16700,
+    17500,
+    18300,
+    19200,
+    20000,
+    20900,
+    21900,
+    22800,
+    23800,
+    24800,
+    25800,
+    26900,
+    28000,
+    29100,
+    30300,
+    31400,
+    32600,
+    33900,
+    35100,
+    36400,
+    37700,
+    39100,
+    40500,
+    41900,
+    43300,
+    44800,
+    46300,
+    47900,
+    49500,
+    51100,
+    52800,
+    54500,
+    56200,
+    58000,
+    59800,
+    61600,
+    63500,
+    65400,
+    67400,
+    69400,
+    71400,
+    73500,
+    75600,
+    77800,
+    80000,
+    82300,
+    84600,
+    86900,
+    105600,
+    107400,
+    110000,
+    113600,
+    118600,
+    125500,
+    134900,
+    147300,
+    163600,
+    184500
+  ],
+  "SkillTrees": {
+    "1": {
+      "ParentNodes": [],
+      "NodeType": 2,
+      "Coordinate": 1,
+      "UnLockCondition": 0,
+      "Consume": [
+        {
+          "Key": 43020032,
+          "Value": 2
+        },
+        {
+          "Key": 41100022,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 3900
+        }
+      ],
+      "Skill": {
+        "Name": "Flaming Star",
+        "Desc": "<size=40><color=Title>Basic Attack</color></size>\nPerform up to 4 consecutive attacks, dealing <color=Fire>Fusion DMG</color>.\n- After Basic Attack Stage 3, {Cus:Ipt,Touch=tap PC=press Gamepad=press} Normal Attack in the right time to cast <color=Highlight>Mid-air Attack Stage 1</color>.\n- After <color=Highlight>Dodge Counter</color>, Basic Attack <color=Highlight>Starfall</color>, Resonance Skill <color=Highlight>Shewolf's Hunt</color>, or Resonance Skill <color=Highlight>Feral Fang</color>, {Cus:Ipt,Touch=tap PC=press Gamepad=press} Normal Attack in time to cast <color=Highlight>Basic Attack Stage 2</color>.\n\n<size=40><color=Title>Heavy Attack</color></size>\nConsume STA to attack the target, dealing <color=Fire>Fusion DMG</color>.\n\n<size=40><color=Title>Heavy Attack - Wolf's Gnawing</color></size>\nWhen <te href=850174>Wolflame</te> reaches {0} points, <color=Highlight>Heavy Attack</color> will be replaced by <color=Highlight>Wolf's Gnawing</color>, consuming STA to attack the target and dealing <color=Fire>Fusion DMG</color>.\n- This attack does not restore <te href=850174>Wolflame</te>. Consume {1} points of <te href=850174>Wolflame</te> to perform this attack and gain <SapTag=2>{2}</SapTag> {Cus:Sap,S=point P=points SapTag=2} of <te href=850175>Wolfaith</te>.\n\n<size=40><color=Title>Heavy Attack - Wolf's Claw</color></size>\nWhen <te href=850174>Wolflame</te> reaches {3} points and <te href=850175>Wolfaith</te> reaches {4} point, <color=Highlight>Heavy Attack</color> will be replaced by <color=Highlight>Wolf's Claw</color>, consuming STA to attack the target and dealing <color=Fire>Fusion DMG</color>.\n- If <te href=850174>Wolflame</te> reaches {5} points and <te href=850175>Wolfaith</te> reaches {6} point after performing <color=Highlight>Mid-air Attack - Firestrike</color> or <color=Highlight>Heavy Attack - Wolf's Gnawing</color>, {Cus:Ipt,Touch=tap PC=press Gamepad=press} <color=Highlight>Normal Attack</color> in time to perform <color=Highlight>Heavy Attack - Wolf's Claw</color>.\n- This attack does not restore <te href=850174>Wolflame</te>. Consume {7} points of <te href=850174>Wolflame</te> to perform this attack and gain <SapTag=8>{8}</SapTag> {Cus:Sap,S=point P=points SapTag=8} of <te href=850175>Wolfaith</te>.\n\n<size=40><color=Title>Mid-air Attack</color></size> \nConsume STA to perform up to 3 attacks in mid-air, dealing <color=Fire>Fusion DMG</color>. The <color=Highlight>Mid-air Attack</color> cycle will not be reset.\n\n<size=40><color=Title>Mid-air Attack - Firestrike</color></size>\nWhen <te href=850174>Wolflame</te> reaches {9} points, <color=Highlight>Mid-air Attack Stage 3</color> will be replaced by <color=Highlight>Mid-air Attack - Firestrike</color>, consuming STA to attack the target and dealing <color=Fire>Fusion DMG</color> (considered Heavy Attack DMG).\n- This attack does not restore <te href=850174>Wolflame</te>. Consume {10} points of <te href=850174>Wolflame</te> to perform this attack and gain <SapTag=11>{11}</SapTag> {Cus:Sap,S=point P=points SapTag=11} of <te href=850175>Wolfaith</te>.\n\n<size=40><color=Title>Plunging Attack</color></size>\nHold Normal Attack while airborne to perform a Plunging Attack at the cost of STA, dealing <color=Fire>Fusion DMG</color>. After performing this attack, {Cus:Ipt,Touch=tap PC=press Gamepad=press} Normal Attack in time to perform Basic Attack <color=Highlight>Starfall</color>.\n- If a <color=Highlight>Dodge</color> is performed while casting <color=Highlight>Mid-air Attack Stage 3</color> or <color=Highlight>Mid-air Attack - Firestrike</color>, {Cus:Ipt,Touch=tap PC=press Gamepad=press} <color=Highlight>Normal Attack</color> to perform <color=Highlight>Plunging Attack</color> in time at the cost of STA.\n\n<size=40><color=Title>Basic Attack - Starfall</color></size>\nAttack the target, dealing <color=Fire>Fusion DMG</color>.\n\n<size=40><color=Title>Dodge Counter</color></size>\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} Normal Attack after a successful Dodge to attack the target, dealing <color=Fire>Fusion DMG</color>.",
+        "Param": [
+          "50",
+          "50",
+          "1",
+          "50",
+          "1",
+          "50",
+          "1",
+          "50",
+          "1",
+          "50",
+          "50",
+          "1"
+        ],
+        "SimpleDesc": "<size=40><color=Title>Basic Attack</color></size> \nDeal <color=Fire>Fusion DMG</color>.\n<size=10></size>\n<size=40><color=Title>Heavy Attack</color></size>\nDeal <color=Fire>Fusion DMG</color>.\n<size=10></size>\n<size=40><color=Title>Enhanced Heavy Attack</color></size>\nWhen <color=Highlight>Wolflame</color> reaches certain points, perform <color=Highlight>Enhanced Heavy Attack</color>, dealing <color=Fire>Fusion DMG</color>.\n<size=10></size>\n<size=40><color=Title>Mid-air Attack</color></size>\nDeal <color=Fire>Fusion DMG</color>.\n<size=10> </size>\n<size=40><color=Title>Enhanced Mid-air Attack</color></size>\nWhen <color=Highlight>Wolflame</color> reaches certain points, perform <color=Highlight>Enhanced Mid-air Attack</color>, dealing <color=Fire>Fusion DMG</color> (considered <color=Highlight>Heavy Attack DMG</color>).\n<size=10> </size>\n<size=40><color=Title>Chain Basic Attack</color></size>\nDeal <color=Fire>Fusion DMG</color>.\n<size=10> </size>\n<size=40><color=Title>Dodge Counter</color></size>\nDeal <color=Fire>Fusion DMG</color>.",
+        "SimpleParam": [],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorSword.SP_IconNorSword",
+        "Type": "Normal Attack",
+        "Level": {
+          "1": {
+            "Name": "Stage 1 DMG",
+            "Param": [
+              [
+                "11.33%+11.33%+22.66%",
+                "12.26%+12.26%+24.52%",
+                "13.19%+13.19%+26.37%",
+                "14.49%+14.49%+28.97%",
+                "15.42%+15.42%+30.83%",
+                "16.49%+16.49%+32.97%",
+                "17.97%+17.97%+35.94%",
+                "19.46%+19.46%+38.91%",
+                "20.94%+20.94%+41.88%",
+                "22.52%+22.52%+45.04%",
+                "24.38%+24.38%+48.76%",
+                "26.24%+26.24%+52.47%",
+                "28.10%+28.10%+56.19%",
+                "29.95%+29.95%+59.90%",
+                "31.81%+31.81%+63.62%",
+                "33.67%+33.67%+67.33%",
+                "35.53%+35.53%+71.05%",
+                "37.38%+37.38%+74.76%",
+                "39.24%+39.24%+78.48%",
+                "41.10%+41.10%+82.19%"
+              ]
+            ],
+            "Format": null
+          },
+          "2": {
+            "Name": "Stage 2 DMG",
+            "Param": [
+              [
+                "45.31%",
+                "49.03%",
+                "52.74%",
+                "57.94%",
+                "61.66%",
+                "65.93%",
+                "71.87%",
+                "77.82%",
+                "83.76%",
+                "90.08%",
+                "97.51%",
+                "104.94%",
+                "112.37%",
+                "119.80%",
+                "127.23%",
+                "134.66%",
+                "142.09%",
+                "149.52%",
+                "156.95%",
+                "164.38%"
+              ]
+            ],
+            "Format": null
+          },
+          "3": {
+            "Name": "Stage 3 DMG",
+            "Param": [
+              [
+                "39.66%+6.61%*6",
+                "42.91%+7.16%*6",
+                "46.16%+7.70%*6",
+                "50.71%+8.46%*6",
+                "53.96%+9.00%*6",
+                "57.70%+9.62%*6",
+                "62.91%+10.49%*6",
+                "68.11%+11.36%*6",
+                "73.31%+12.22%*6",
+                "78.84%+13.14%*6",
+                "85.34%+14.23%*6",
+                "91.84%+15.31%*6",
+                "98.35%+16.40%*6",
+                "104.85%+17.48%*6",
+                "111.35%+18.56%*6",
+                "117.86%+19.65%*6",
+                "124.36%+20.73%*6",
+                "130.86%+21.81%*6",
+                "137.37%+22.90%*6",
+                "143.87%+23.98%*6"
+              ]
+            ],
+            "Format": null
+          },
+          "4": {
+            "Name": "Stage 4 DMG",
+            "Param": [
+              [
+                "37.16%+37.16%+24.77%*2",
+                "40.21%+40.21%+26.81%*2",
+                "43.25%+43.25%+28.84%*2",
+                "47.52%+47.52%+31.68%*2",
+                "50.56%+50.56%+33.71%*2",
+                "54.07%+54.07%+36.05%*2",
+                "58.94%+58.94%+39.30%*2",
+                "63.82%+63.82%+42.55%*2",
+                "68.69%+68.69%+45.80%*2",
+                "73.87%+73.87%+49.25%*2",
+                "79.96%+79.96%+53.31%*2",
+                "86.06%+86.06%+57.37%*2",
+                "92.15%+92.15%+61.43%*2",
+                "98.24%+98.24%+65.50%*2",
+                "104.34%+104.34%+69.56%*2",
+                "110.43%+110.43%+73.62%*2",
+                "116.52%+116.52%+77.68%*2",
+                "122.62%+122.62%+81.75%*2",
+                "128.71%+128.71%+85.81%*2",
+                "134.80%+134.80%+89.87%*2"
+              ]
+            ],
+            "Format": null
+          },
+          "5": {
+            "Name": "Heavy Attack",
+            "Param": [
+              [
+                "28.35%+28.35%",
+                "30.68%+30.68%",
+                "33.00%+33.00%",
+                "36.26%+36.26%",
+                "38.58%+38.58%",
+                "41.25%+41.25%",
+                "44.97%+44.97%",
+                "48.69%+48.69%",
+                "52.41%+52.41%",
+                "56.36%+56.36%",
+                "61.01%+61.01%",
+                "65.66%+65.66%",
+                "70.31%+70.31%",
+                "74.96%+74.96%",
+                "79.61%+79.61%",
+                "84.26%+84.26%",
+                "88.91%+88.91%",
+                "93.55%+93.55%",
+                "98.20%+98.20%",
+                "102.85%+102.85%"
+              ]
+            ],
+            "Format": null
+          },
+          "6": {
+            "Name": "Heavy Attack - Wolf's Gnawing DMG",
+            "Param": [
+              [
+                "28.22%+28.22%",
+                "30.54%+30.54%",
+                "32.85%+32.85%",
+                "36.09%+36.09%",
+                "38.41%+38.41%",
+                "41.07%+41.07%",
+                "44.77%+44.77%",
+                "48.47%+48.47%",
+                "52.18%+52.18%",
+                "56.11%+56.11%",
+                "60.74%+60.74%",
+                "65.37%+65.37%",
+                "69.99%+69.99%",
+                "74.62%+74.62%",
+                "79.25%+79.25%",
+                "83.88%+83.88%",
+                "88.51%+88.51%",
+                "93.13%+93.13%",
+                "97.76%+97.76%",
+                "102.39%+102.39%"
+              ]
+            ],
+            "Format": null
+          },
+          "7": {
+            "Name": "Heavy Attack - Wolf's Claw DMG",
+            "Param": [
+              [
+                "36.29%+9.08%*4+48.39%",
+                "39.27%+9.82%*4+52.35%",
+                "42.24%+10.56%*4+56.32%",
+                "46.41%+11.61%*4+61.88%",
+                "49.38%+12.35%*4+65.84%",
+                "52.81%+13.21%*4+70.41%",
+                "57.57%+14.40%*4+76.75%",
+                "62.33%+15.59%*4+83.10%",
+                "67.09%+16.78%*4+89.45%",
+                "72.15%+18.04%*4+96.19%",
+                "78.10%+19.53%*4+104.13%",
+                "84.05%+21.02%*4+112.06%",
+                "90.00%+22.50%*4+120.00%",
+                "95.95%+23.99%*4+127.93%",
+                "101.90%+25.48%*4+135.87%",
+                "107.85%+26.97%*4+143.80%",
+                "113.80%+28.45%*4+151.74%",
+                "119.75%+29.94%*4+159.67%",
+                "125.71%+31.43%*4+167.61%",
+                "131.66%+32.92%*4+175.54%"
+              ]
+            ],
+            "Format": null
+          },
+          "8": {
+            "Name": "Mid-air Attack Stage 1 DMG",
+            "Param": [
+              [
+                "38.59%",
+                "41.76%",
+                "44.92%",
+                "49.35%",
+                "52.52%",
+                "56.16%",
+                "61.22%",
+                "66.28%",
+                "71.35%",
+                "76.73%",
+                "83.05%",
+                "89.38%",
+                "95.71%",
+                "102.04%",
+                "108.37%",
+                "114.70%",
+                "121.03%",
+                "127.36%",
+                "133.68%",
+                "140.01%"
+              ]
+            ],
+            "Format": null
+          },
+          "9": {
+            "Name": "Mid-air Attack Stage 2 DMG",
+            "Param": [
+              [
+                "38.85%+9.72%*4",
+                "42.04%+10.51%*4",
+                "45.22%+11.31%*4",
+                "49.68%+12.42%*4",
+                "52.87%+13.22%*4",
+                "56.53%+14.14%*4",
+                "61.62%+15.41%*4",
+                "66.72%+16.68%*4",
+                "71.82%+17.96%*4",
+                "77.23%+19.31%*4",
+                "83.60%+20.90%*4",
+                "89.97%+22.50%*4",
+                "96.34%+24.09%*4",
+                "102.72%+25.68%*4",
+                "109.09%+27.28%*4",
+                "115.46%+28.87%*4",
+                "121.83%+30.46%*4",
+                "128.20%+32.05%*4",
+                "134.57%+33.65%*4",
+                "140.94%+35.24%*4"
+              ]
+            ],
+            "Format": null
+          },
+          "10": {
+            "Name": "Mid-air Attack Stage 3 DMG",
+            "Param": [
+              [
+                "14.33%+14.33%",
+                "15.50%+15.50%",
+                "16.68%+16.68%",
+                "18.32%+18.32%",
+                "19.50%+19.50%",
+                "20.85%+20.85%",
+                "22.72%+22.72%",
+                "24.60%+24.60%",
+                "26.48%+26.48%",
+                "28.48%+28.48%",
+                "30.83%+30.83%",
+                "33.18%+33.18%",
+                "35.53%+35.53%",
+                "37.88%+37.88%",
+                "40.22%+40.22%",
+                "42.57%+42.57%",
+                "44.92%+44.92%",
+                "47.27%+47.27%",
+                "49.62%+49.62%",
+                "51.97%+51.97%"
+              ]
+            ],
+            "Format": null
+          },
+          "11": {
+            "Name": "Mid-air Attack - Firestrike DMG",
+            "Param": [
+              [
+                "14.33%+14.33%",
+                "15.50%+15.50%",
+                "16.68%+16.68%",
+                "18.32%+18.32%",
+                "19.50%+19.50%",
+                "20.85%+20.85%",
+                "22.72%+22.72%",
+                "24.60%+24.60%",
+                "26.48%+26.48%",
+                "28.48%+28.48%",
+                "30.83%+30.83%",
+                "33.18%+33.18%",
+                "35.53%+35.53%",
+                "37.88%+37.88%",
+                "40.22%+40.22%",
+                "42.57%+42.57%",
+                "44.92%+44.92%",
+                "47.27%+47.27%",
+                "49.62%+49.62%",
+                "51.97%+51.97%"
+              ]
+            ],
+            "Format": null
+          },
+          "12": {
+            "Name": "Plunging Attack DMG",
+            "Param": [
+              [
+                "13.18%+26.35%+13.18%",
+                "14.26%+28.52%+14.26%",
+                "15.34%+30.68%+15.34%",
+                "16.85%+33.70%+16.85%",
+                "17.93%+35.86%+17.93%",
+                "19.18%+38.35%+19.18%",
+                "20.90%+41.80%+20.90%",
+                "22.63%+45.26%+22.63%",
+                "24.36%+48.72%+24.36%",
+                "26.20%+52.39%+26.20%",
+                "28.36%+56.71%+28.36%",
+                "30.52%+61.03%+30.52%",
+                "32.68%+65.36%+32.68%",
+                "34.84%+69.68%+34.84%",
+                "37.00%+74.00%+37.00%",
+                "39.16%+78.32%+39.16%",
+                "41.32%+82.64%+41.32%",
+                "43.48%+86.96%+43.48%",
+                "45.64%+91.28%+45.64%",
+                "47.81%+95.61%+47.81%"
+              ]
+            ],
+            "Format": null
+          },
+          "13": {
+            "Name": "Basic Attack - Starfall DMG",
+            "Param": [
+              [
+                "6.37%*4+59.39%",
+                "6.89%*4+64.26%",
+                "7.41%*4+69.12%",
+                "8.14%*4+75.94%",
+                "8.66%*4+80.81%",
+                "9.26%*4+86.41%",
+                "10.10%*4+94.20%",
+                "10.93%*4+101.99%",
+                "11.77%*4+109.78%",
+                "12.65%*4+118.06%",
+                "13.70%*4+127.80%",
+                "14.74%*4+137.54%",
+                "15.78%*4+147.28%",
+                "16.83%*4+157.01%",
+                "17.87%*4+166.75%",
+                "18.91%*4+176.49%",
+                "19.96%*4+186.23%",
+                "21.00%*4+195.97%",
+                "22.04%*4+205.71%",
+                "23.09%*4+215.45%"
+              ]
+            ],
+            "Format": null
+          },
+          "14": {
+            "Name": "Dodge Counter DMG",
+            "Param": [
+              [
+                "17.20%*4+68.77%",
+                "18.61%*4+74.41%",
+                "20.02%*4+80.05%",
+                "21.99%*4+87.94%",
+                "23.40%*4+93.58%",
+                "25.02%*4+100.06%",
+                "27.28%*4+109.09%",
+                "29.53%*4+118.11%",
+                "31.79%*4+127.13%",
+                "34.18%*4+136.72%",
+                "37.00%*4+147.99%",
+                "39.82%*4+159.27%",
+                "42.64%*4+170.55%",
+                "45.46%*4+181.83%",
+                "48.28%*4+193.10%",
+                "51.10%*4+204.38%",
+                "53.92%*4+215.66%",
+                "56.74%*4+226.94%",
+                "59.56%*4+238.21%",
+                "62.38%*4+249.49%"
+              ]
+            ],
+            "Format": null
+          },
+          "15": {
+            "Name": "Heavy Attack STA Cost",
+            "Param": [
+              [
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25"
+              ]
+            ],
+            "Format": null
+          },
+          "16": {
+            "Name": "Heavy Attack - Wolf's Gnawing STA Cost",
+            "Param": [
+              [
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25"
+              ]
+            ],
+            "Format": null
+          },
+          "17": {
+            "Name": "Heavy Attack - Wolf's Claw STA Cost",
+            "Param": [
+              [
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25"
+              ]
+            ],
+            "Format": null
+          },
+          "18": {
+            "Name": "Mid-air Attack STA Cost",
+            "Param": [
+              [
+                "5",
+                "5",
+                "5",
+                "5",
+                "5",
+                "5",
+                "5",
+                "5",
+                "5",
+                "5",
+                "5",
+                "5",
+                "5",
+                "5",
+                "5",
+                "5",
+                "5",
+                "5",
+                "5",
+                "5"
+              ]
+            ],
+            "Format": null
+          },
+          "19": {
+            "Name": "Plunging Attack STA Cost",
+            "Param": [
+              [
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30"
+              ]
+            ],
+            "Format": null
+          },
+          "20": {
+            "Name": "Mid-air Attack - Firestrike STA Cost",
+            "Param": [
+              [
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30"
+              ]
+            ],
+            "Format": null
+          }
+        },
+        "Consume": {
+          "1": [],
+          "2": [
+            {
+              "Key": 43020041,
+              "Value": 2
+            },
+            {
+              "Key": 41100021,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 1500
+            }
+          ],
+          "3": [
+            {
+              "Key": 43020041,
+              "Value": 3
+            },
+            {
+              "Key": 41100021,
+              "Value": 3
+            },
+            {
+              "Key": 2,
+              "Value": 2000
+            }
+          ],
+          "4": [
+            {
+              "Key": 43020042,
+              "Value": 2
+            },
+            {
+              "Key": 41100022,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 4500
+            }
+          ],
+          "5": [
+            {
+              "Key": 43020042,
+              "Value": 3
+            },
+            {
+              "Key": 41100022,
+              "Value": 3
+            },
+            {
+              "Key": 2,
+              "Value": 6000
+            }
+          ],
+          "6": [
+            {
+              "Key": 43020043,
+              "Value": 3
+            },
+            {
+              "Key": 41100023,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 16000
+            }
+          ],
+          "7": [
+            {
+              "Key": 43020043,
+              "Value": 5
+            },
+            {
+              "Key": 41100023,
+              "Value": 3
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 30000
+            }
+          ],
+          "8": [
+            {
+              "Key": 43020044,
+              "Value": 2
+            },
+            {
+              "Key": 41100024,
+              "Value": 2
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 50000
+            }
+          ],
+          "9": [
+            {
+              "Key": 43020044,
+              "Value": 3
+            },
+            {
+              "Key": 41100024,
+              "Value": 3
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 70000
+            }
+          ],
+          "10": [
+            {
+              "Key": 43020044,
+              "Value": 6
+            },
+            {
+              "Key": 41100024,
+              "Value": 4
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 100000
+            }
+          ]
+        },
+        "Damage": {
+          "120710101": {
+            "Element": 2,
+            "RelatedProperty": "ATK",
+            "Type": 0,
+            "RateLv": [
+              1133,
+              1226,
+              1319,
+              1449,
+              1542,
+              1649,
+              1797,
+              1946,
+              2094,
+              2252,
+              2438,
+              2624,
+              2810,
+              2995,
+              3181,
+              3367,
+              3553,
+              3738,
+              3924,
+              4110
+            ],
+            "Energy": 34,
+            "ElementPower": 67,
+            "HardnessLv": 10000,
+            "ToughLv": 1599
+          },
+          "120710102": {
+            "Element": 2,
+            "RelatedProperty": "ATK",
+            "Type": 0,
+            "RateLv": [
+              1133,
+              1226,
+              1319,
+              1449,
+              1542,
+              1649,
+              1797,
+              1946,
+              2094,
+              2252,
+              2438,
+              2624,
+              2810,
+              2995,
+              3181,
+              3367,
+              3553,
+              3738,
+              3924,
+              4110
+            ],
+            "Energy": 34,
+            "ElementPower": 67,
+            "HardnessLv": 10000,
+            "ToughLv": 1599
+          },
+          "120710103": {
+            "Element": 2,
+            "RelatedProperty": "ATK",
+            "Type": 0,
+            "RateLv": [
+              2266,
+              2452,
+              2637,
+              2897,
+              3083,
+              3297,
+              3594,
+              3891,
+              4188,
+              4504,
+              4876,
+              5247,
+              5619,
+              5990,
+              6362,
+              6733,
+              7105,
+              7476,
+              7848,
+              8219
+            ],
+            "Energy": 67,
+            "ElementPower": 134,
+            "HardnessLv": 10000,
+            "ToughLv": 3198
+          },
+          "120710201": {
+            "Element": 2,
+            "RelatedProperty": "ATK",
+            "Type": 0,
+            "RateLv": [
+              4531,
+              4903,
+              5274,
+              5794,
+              6166,
+              6593,
+              7187,
+              7782,
+              8376,
+              9008,
+              9751,
+              10494,
+              11237,
+              11980,
+              12723,
+              13466,
+              14209,
+              14952,
+              15695,
+              16438
+            ],
+            "Energy": 134,
+            "ElementPower": 267,
+            "HardnessLv": 10000,
+            "ToughLv": 6396
+          },
+          "120710301": {
+            "Element": 2,
+            "RelatedProperty": "ATK",
+            "Type": 0,
+            "RateLv": [
+              3966,
+              4291,
+              4616,
+              5071,
+              5396,
+              5770,
+              6291,
+              6811,
+              7331,
+              7884,
+              8534,
+              9184,
+              9835,
+              10485,
+              11135,
+              11786,
+              12436,
+              13086,
+              13737,
+              14387
+            ],
+            "Energy": 117,
+            "ElementPower": 234,
+            "HardnessLv": 10000,
+            "ToughLv": 5598
+          },
+          "120710302": {
+            "Element": 2,
+            "RelatedProperty": "ATK",
+            "Type": 0,
+            "RateLv": [
+              661,
+              716,
+              770,
+              846,
+              900,
+              962,
+              1049,
+              1136,
+              1222,
+              1314,
+              1423,
+              1531,
+              1640,
+              1748,
+              1856,
+              1965,
+              2073,
+              2181,
+              2290,
+              2398
+            ],
+            "Energy": 20,
+            "ElementPower": 39,
+            "HardnessLv": 10000,
+            "ToughLv": 933
+          },
+          "120710401": {
+            "Element": 2,
+            "RelatedProperty": "ATK",
+            "Type": 0,
+            "RateLv": [
+              3716,
+              4021,
+              4325,
+              4752,
+              5056,
+              5407,
+              5894,
+              6382,
+              6869,
+              7387,
+              7996,
+              8606,
+              9215,
+              9824,
+              10434,
+              11043,
+              11652,
+              12262,
+              12871,
+              13480
+            ],
+            "Energy": 110,
+            "ElementPower": 219,
+            "HardnessLv": 10000,
+            "ToughLv": 5246
+          },
+          "120710402": {
+            "Element": 2,
+            "RelatedProperty": "ATK",
+            "Type": 0,
+            "RateLv": [
+              3716,
+              4021,
+              4325,
+              4752,
+              5056,
+              5407,
+              5894,
+              6382,
+              6869,
+              7387,
+              7996,
+              8606,
+              9215,
+              9824,
+              10434,
+              11043,
+              11652,
+              12262,
+              12871,
+              13480
+            ],
+            "Energy": 110,
+            "ElementPower": 219,
+            "HardnessLv": 10000,
+            "ToughLv": 5246
+          },
+          "120710403": {
+            "Element": 2,
+            "RelatedProperty": "ATK",
+            "Type": 0,
+            "RateLv": [
+              2477,
+              2681,
+              2884,
+              3168,
+              3371,
+              3605,
+              3930,
+              4255,
+              4580,
+              4925,
+              5331,
+              5737,
+              6143,
+              6550,
+              6956,
+              7362,
+              7768,
+              8175,
+              8581,
+              8987
+            ],
+            "Energy": 73,
+            "ElementPower": 146,
+            "HardnessLv": 10000,
+            "ToughLv": 3497
+          },
+          "120720103": {
+            "Element": 2,
+            "RelatedProperty": "ATK",
+            "Type": 0,
+            "RateLv": [
+              1318,
+              1426,
+              1534,
+              1685,
+              1793,
+              1918,
+              2090,
+              2263,
+              2436,
+              2620,
+              2836,
+              3052,
+              3268,
+              3484,
+              3700,
+              3916,
+              4132,
+              4348,
+              4564,
+              4781
+            ],
+            "Energy": 39,
+            "ElementPower": 78,
+            "HardnessLv": 10000,
+            "ToughLv": 1860
+          },
+          "120720101": {
+            "Element": 2,
+            "RelatedProperty": "ATK",
+            "Type": 0,
+            "RateLv": [
+              2635,
+              2852,
+              3068,
+              3370,
+              3586,
+              3835,
+              4180,
+              4526,
+              4872,
+              5239,
+              5671,
+              6103,
+              6536,
+              6968,
+              7400,
+              7832,
+              8264,
+              8696,
+              9128,
+              9561
+            ],
+            "Energy": 78,
+            "ElementPower": 155,
+            "HardnessLv": 10000,
+            "ToughLv": 3720
+          },
+          "120720102": {
+            "Element": 2,
+            "RelatedProperty": "ATK",
+            "Type": 0,
+            "RateLv": [
+              1318,
+              1426,
+              1534,
+              1685,
+              1793,
+              1918,
+              2090,
+              2263,
+              2436,
+              2620,
+              2836,
+              3052,
+              3268,
+              3484,
+              3700,
+              3916,
+              4132,
+              4348,
+              4564,
+              4781
+            ],
+            "Energy": 39,
+            "ElementPower": 78,
+            "HardnessLv": 10000,
+            "ToughLv": 1860
+          },
+          "120730101": {
+            "Element": 2,
+            "RelatedProperty": "ATK",
+            "Type": 0,
+            "RateLv": [
+              1720,
+              1861,
+              2002,
+              2199,
+              2340,
+              2502,
+              2728,
+              2953,
+              3179,
+              3418,
+              3700,
+              3982,
+              4264,
+              4546,
+              4828,
+              5110,
+              5392,
+              5674,
+              5956,
+              6238
+            ],
+            "Energy": 51,
+            "ElementPower": 102,
+            "HardnessLv": 10000,
+            "ToughLv": 1875
+          },
+          "120730102": {
+            "Element": 2,
+            "RelatedProperty": "ATK",
+            "Type": 0,
+            "RateLv": [
+              6877,
+              7441,
+              8005,
+              8794,
+              9358,
+              10006,
+              10909,
+              11811,
+              12713,
+              13672,
+              14799,
+              15927,
+              17055,
+              18183,
+              19310,
+              20438,
+              21566,
+              22694,
+              23821,
+              24949
+            ],
+            "Energy": 203,
+            "ElementPower": 405,
+            "HardnessLv": 10000,
+            "ToughLv": 7500
+          },
+          "120740101": {
+            "Element": 2,
+            "RelatedProperty": "ATK",
+            "Type": 0,
+            "RateLv": [
+              3859,
+              4176,
+              4492,
+              4935,
+              5252,
+              5616,
+              6122,
+              6628,
+              7135,
+              7673,
+              8305,
+              8938,
+              9571,
+              10204,
+              10837,
+              11470,
+              12103,
+              12736,
+              13368,
+              14001
+            ],
+            "Energy": 114,
+            "ElementPower": 227,
+            "HardnessLv": 10000,
+            "ToughLv": 5448
+          },
+          "120740201": {
+            "Element": 2,
+            "RelatedProperty": "ATK",
+            "Type": 0,
+            "RateLv": [
+              3885,
+              4204,
+              4522,
+              4968,
+              5287,
+              5653,
+              6162,
+              6672,
+              7182,
+              7723,
+              8360,
+              8997,
+              9634,
+              10272,
+              10909,
+              11546,
+              12183,
+              12820,
+              13457,
+              14094
+            ],
+            "Energy": 115,
+            "ElementPower": 229,
+            "HardnessLv": 10000,
+            "ToughLv": 5484
+          },
+          "120740202": {
+            "Element": 2,
+            "RelatedProperty": "ATK",
+            "Type": 0,
+            "RateLv": [
+              972,
+              1051,
+              1131,
+              1242,
+              1322,
+              1414,
+              1541,
+              1668,
+              1796,
+              1931,
+              2090,
+              2250,
+              2409,
+              2568,
+              2728,
+              2887,
+              3046,
+              3205,
+              3365,
+              3524
+            ],
+            "Energy": 29,
+            "ElementPower": 58,
+            "HardnessLv": 10000,
+            "ToughLv": 1371
+          },
+          "120740301": {
+            "Element": 2,
+            "RelatedProperty": "ATK",
+            "Type": 0,
+            "RateLv": [
+              1433,
+              1550,
+              1668,
+              1832,
+              1950,
+              2085,
+              2272,
+              2460,
+              2648,
+              2848,
+              3083,
+              3318,
+              3553,
+              3788,
+              4022,
+              4257,
+              4492,
+              4727,
+              4962,
+              5197
+            ],
+            "Energy": 43,
+            "ElementPower": 85,
+            "HardnessLv": 10000,
+            "ToughLv": 2022
+          },
+          "120740302": {
+            "Element": 2,
+            "RelatedProperty": "ATK",
+            "Type": 0,
+            "RateLv": [
+              1433,
+              1550,
+              1668,
+              1832,
+              1950,
+              2085,
+              2272,
+              2460,
+              2648,
+              2848,
+              3083,
+              3318,
+              3553,
+              3788,
+              4022,
+              4257,
+              4492,
+              4727,
+              4962,
+              5197
+            ],
+            "Energy": 43,
+            "ElementPower": 85,
+            "HardnessLv": 10000,
+            "ToughLv": 2022
+          },
+          "120740401": {
+            "Element": 2,
+            "RelatedProperty": "ATK",
+            "Type": 1,
+            "RateLv": [
+              1433,
+              1550,
+              1668,
+              1832,
+              1950,
+              2085,
+              2272,
+              2460,
+              2648,
+              2848,
+              3083,
+              3318,
+              3553,
+              3788,
+              4022,
+              4257,
+              4492,
+              4727,
+              4962,
+              5197
+            ],
+            "Energy": 43,
+            "ElementPower": 500,
+            "HardnessLv": 10000,
+            "ToughLv": 2022
+          },
+          "120740402": {
+            "Element": 2,
+            "RelatedProperty": "ATK",
+            "Type": 1,
+            "RateLv": [
+              1433,
+              1550,
+              1668,
+              1832,
+              1950,
+              2085,
+              2272,
+              2460,
+              2648,
+              2848,
+              3083,
+              3318,
+              3553,
+              3788,
+              4022,
+              4257,
+              4492,
+              4727,
+              4962,
+              5197
+            ],
+            "Energy": 43,
+            "ElementPower": 500,
+            "HardnessLv": 10000,
+            "ToughLv": 2022
+          },
+          "120750101": {
+            "Element": 2,
+            "RelatedProperty": "ATK",
+            "Type": 1,
+            "RateLv": [
+              2835,
+              3068,
+              3300,
+              3626,
+              3858,
+              4125,
+              4497,
+              4869,
+              5241,
+              5636,
+              6101,
+              6566,
+              7031,
+              7496,
+              7961,
+              8426,
+              8891,
+              9355,
+              9820,
+              10285
+            ],
+            "Energy": 84,
+            "ElementPower": 167,
+            "HardnessLv": 10000,
+            "ToughLv": 4002
+          },
+          "120750102": {
+            "Element": 2,
+            "RelatedProperty": "ATK",
+            "Type": 1,
+            "RateLv": [
+              2835,
+              3068,
+              3300,
+              3626,
+              3858,
+              4125,
+              4497,
+              4869,
+              5241,
+              5636,
+              6101,
+              6566,
+              7031,
+              7496,
+              7961,
+              8426,
+              8891,
+              9355,
+              9820,
+              10285
+            ],
+            "Energy": 84,
+            "ElementPower": 167,
+            "HardnessLv": 10000,
+            "ToughLv": 4002
+          },
+          "120751101": {
+            "Element": 2,
+            "RelatedProperty": "ATK",
+            "Type": 1,
+            "RateLv": [
+              2822,
+              3054,
+              3285,
+              3609,
+              3841,
+              4107,
+              4477,
+              4847,
+              5218,
+              5611,
+              6074,
+              6537,
+              6999,
+              7462,
+              7925,
+              8388,
+              8851,
+              9313,
+              9776,
+              10239
+            ],
+            "Energy": 83,
+            "ElementPower": 500,
+            "HardnessLv": 10000,
+            "ToughLv": 3984
+          },
+          "120751102": {
+            "Element": 2,
+            "RelatedProperty": "ATK",
+            "Type": 1,
+            "RateLv": [
+              2822,
+              3054,
+              3285,
+              3609,
+              3841,
+              4107,
+              4477,
+              4847,
+              5218,
+              5611,
+              6074,
+              6537,
+              6999,
+              7462,
+              7925,
+              8388,
+              8851,
+              9313,
+              9776,
+              10239
+            ],
+            "Energy": 83,
+            "ElementPower": 500,
+            "HardnessLv": 10000,
+            "ToughLv": 3984
+          },
+          "120751201": {
+            "Element": 2,
+            "RelatedProperty": "ATK",
+            "Type": 1,
+            "RateLv": [
+              3629,
+              3927,
+              4224,
+              4641,
+              4938,
+              5281,
+              5757,
+              6233,
+              6709,
+              7215,
+              7810,
+              8405,
+              9000,
+              9595,
+              10190,
+              10785,
+              11380,
+              11975,
+              12571,
+              13166
+            ],
+            "Energy": 107,
+            "ElementPower": 300,
+            "HardnessLv": 10000,
+            "ToughLv": 5825
+          },
+          "120751202": {
+            "Element": 2,
+            "RelatedProperty": "ATK",
+            "Type": 1,
+            "RateLv": [
+              908,
+              982,
+              1056,
+              1161,
+              1235,
+              1321,
+              1440,
+              1559,
+              1678,
+              1804,
+              1953,
+              2102,
+              2250,
+              2399,
+              2548,
+              2697,
+              2845,
+              2994,
+              3143,
+              3292
+            ],
+            "Energy": 27,
+            "ElementPower": 75,
+            "HardnessLv": 10000,
+            "ToughLv": 1457
+          },
+          "120751203": {
+            "Element": 2,
+            "RelatedProperty": "ATK",
+            "Type": 1,
+            "RateLv": [
+              4839,
+              5235,
+              5632,
+              6188,
+              6584,
+              7041,
+              7675,
+              8310,
+              8945,
+              9619,
+              10413,
+              11206,
+              12000,
+              12793,
+              13587,
+              14380,
+              15174,
+              15967,
+              16761,
+              17554
+            ],
+            "Energy": 143,
+            "ElementPower": 400,
+            "HardnessLv": 10000,
+            "ToughLv": 7767
+          },
+          "120721101": {
+            "Element": 2,
+            "RelatedProperty": "ATK",
+            "Type": 0,
+            "RateLv": [
+              637,
+              689,
+              741,
+              814,
+              866,
+              926,
+              1010,
+              1093,
+              1177,
+              1265,
+              1370,
+              1474,
+              1578,
+              1683,
+              1787,
+              1891,
+              1996,
+              2100,
+              2204,
+              2309
+            ],
+            "Energy": 19,
+            "ElementPower": 38,
+            "HardnessLv": 10000,
+            "ToughLv": 558
+          },
+          "120721102": {
+            "Element": 2,
+            "RelatedProperty": "ATK",
+            "Type": 0,
+            "RateLv": [
+              5939,
+              6426,
+              6912,
+              7594,
+              8081,
+              8641,
+              9420,
+              10199,
+              10978,
+              11806,
+              12780,
+              13754,
+              14728,
+              15701,
+              16675,
+              17649,
+              18623,
+              19597,
+              20571,
+              21545
+            ],
+            "Energy": 175,
+            "ElementPower": 350,
+            "HardnessLv": 10000,
+            "ToughLv": 5208
+          },
+          "120780201": {
+            "Element": 2,
+            "RelatedProperty": "ATK",
+            "Type": 0,
+            "RateLv": [
+              637,
+              689,
+              741,
+              814,
+              866,
+              926,
+              1010,
+              1093,
+              1177,
+              1265,
+              1370,
+              1474,
+              1578,
+              1683,
+              1787,
+              1891,
+              1996,
+              2100,
+              2204,
+              2309
+            ],
+            "Energy": 19,
+            "ElementPower": 38,
+            "HardnessLv": 10000,
+            "ToughLv": 558
+          },
+          "120780202": {
+            "Element": 2,
+            "RelatedProperty": "ATK",
+            "Type": 0,
+            "RateLv": [
+              5939,
+              6426,
+              6912,
+              7594,
+              8081,
+              8641,
+              9420,
+              10199,
+              10978,
+              11806,
+              12780,
+              13754,
+              14728,
+              15701,
+              16675,
+              17649,
+              18623,
+              19597,
+              20571,
+              21545
+            ],
+            "Energy": 175,
+            "ElementPower": 350,
+            "HardnessLv": 10000,
+            "ToughLv": 5208
+          }
+        }
+      }
+    },
+    "2": {
+      "ParentNodes": [],
+      "NodeType": 2,
+      "Coordinate": 2,
+      "UnLockCondition": 0,
+      "Consume": [
+        {
+          "Key": 43020032,
+          "Value": 2
+        },
+        {
+          "Key": 41100022,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 3900
+        }
+      ],
+      "Skill": {
+        "Name": "Shewolf's Hunt",
+        "Desc": "Lupa hurls her Wildfire Banner at the target, dealing <color=Fire>Fusion DMG</color> and restoring {0} points of <te href=850174>Wolflame</te>. <color=Highlight>Mark</color> the target for {1}s. After performing Resonance Skill <color=Highlight>Shewolf's Hunt</color>, Lupa can perform <color=Highlight>Feral Fang</color> within a certain period of time.\nCan be performed in mid-air close to the ground.\n- Hold Resonance Skill to leap into the air, then {Cus:Ipt,Touch=tap PC=press Gamepad=press} <color=Highlight>Normal Attack</color> in time to cast <color=Highlight>Mid-air Attack Stage 1</color>.\n\n<size=40><color=Title>Resonance Skill - Feral Fang</color></size>\nLupa locks onto a target, dealing <color=Fire>Fusion DMG</color> and restoring {2} points of <te href=850174>Wolflame</te>. The DMG Multiplier to <color=Highlight>marked</color> targets is increased by {3}. Resonance Skill - Feral Fang enters cooldown if not cast in time or when Lupa is switched out.\nCan be performed in mid-air close to the ground.",
+        "Param": [
+          "15",
+          "8",
+          "15",
+          "50%"
+        ],
+        "SimpleDesc": "<size=40><color=Title>Resonance Skill</color></size>\nDeal <color=Fire>Fusion DMG</color> and <color=Highlight>mark</color> the target.\nAfter performing Resonance Skill, Lupa can perform <color=Highlight>Chain Resonance Skill</color> within a certain period of time.\n<size=10></size>\n<size=40><color=Title>Chain Resonance Skill</color></size>\nDeal <color=Fire>Fusion DMG</color>. The <color=Highlight>marked</color> target takes additional DMG.",
+        "SimpleParam": [],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconLupa/SP_IconLupaB1.SP_IconLupaB1",
+        "Type": "Resonance Skill",
+        "Level": {
+          "1": {
+            "Name": "Skill Damage",
+            "Param": [
+              [
+                "70.81%",
+                "76.62%",
+                "82.42%",
+                "90.55%",
+                "96.36%",
+                "103.03%",
+                "112.32%",
+                "121.61%",
+                "130.90%",
+                "140.77%",
+                "152.38%",
+                "164.00%",
+                "175.61%",
+                "187.22%",
+                "198.83%",
+                "210.44%",
+                "222.06%",
+                "233.67%",
+                "245.28%",
+                "256.89%"
+              ]
+            ],
+            "Format": null
+          },
+          "2": {
+            "Name": "Feral Fang DMG",
+            "Param": [
+              [
+                "157.74%",
+                "170.68%",
+                "183.61%",
+                "201.72%",
+                "214.66%",
+                "229.53%",
+                "250.23%",
+                "270.92%",
+                "291.62%",
+                "313.61%",
+                "339.48%",
+                "365.35%",
+                "391.22%",
+                "417.09%",
+                "442.95%",
+                "468.82%",
+                "494.69%",
+                "520.56%",
+                "546.43%",
+                "572.30%"
+              ]
+            ],
+            "Format": null
+          },
+          "3": {
+            "Name": "Cooldown",
+            "Param": [
+              [
+                "12",
+                "12",
+                "12",
+                "12",
+                "12",
+                "12",
+                "12",
+                "12",
+                "12",
+                "12",
+                "12",
+                "12",
+                "12",
+                "12",
+                "12",
+                "12",
+                "12",
+                "12",
+                "12",
+                "12"
+              ]
+            ],
+            "Format": "{0}s"
+          }
+        },
+        "Consume": {
+          "1": [],
+          "2": [
+            {
+              "Key": 43020041,
+              "Value": 2
+            },
+            {
+              "Key": 41100021,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 1500
+            }
+          ],
+          "3": [
+            {
+              "Key": 43020041,
+              "Value": 3
+            },
+            {
+              "Key": 41100021,
+              "Value": 3
+            },
+            {
+              "Key": 2,
+              "Value": 2000
+            }
+          ],
+          "4": [
+            {
+              "Key": 43020042,
+              "Value": 2
+            },
+            {
+              "Key": 41100022,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 4500
+            }
+          ],
+          "5": [
+            {
+              "Key": 43020042,
+              "Value": 3
+            },
+            {
+              "Key": 41100022,
+              "Value": 3
+            },
+            {
+              "Key": 2,
+              "Value": 6000
+            }
+          ],
+          "6": [
+            {
+              "Key": 43020043,
+              "Value": 3
+            },
+            {
+              "Key": 41100023,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 16000
+            }
+          ],
+          "7": [
+            {
+              "Key": 43020043,
+              "Value": 5
+            },
+            {
+              "Key": 41100023,
+              "Value": 3
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 30000
+            }
+          ],
+          "8": [
+            {
+              "Key": 43020044,
+              "Value": 2
+            },
+            {
+              "Key": 41100024,
+              "Value": 2
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 50000
+            }
+          ],
+          "9": [
+            {
+              "Key": 43020044,
+              "Value": 3
+            },
+            {
+              "Key": 41100024,
+              "Value": 3
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 70000
+            }
+          ],
+          "10": [
+            {
+              "Key": 43020044,
+              "Value": 6
+            },
+            {
+              "Key": 41100024,
+              "Value": 4
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 100000
+            }
+          ]
+        },
+        "Damage": {
+          "120760102": {
+            "Element": 2,
+            "RelatedProperty": "ATK",
+            "Type": 4,
+            "RateLv": [
+              7081,
+              7662,
+              8242,
+              9055,
+              9636,
+              10303,
+              11232,
+              12161,
+              13090,
+              14077,
+              15238,
+              16400,
+              17561,
+              18722,
+              19883,
+              21044,
+              22206,
+              23367,
+              24528,
+              25689
+            ],
+            "Energy": 209,
+            "ElementPower": 417,
+            "HardnessLv": 10000,
+            "ToughLv": 9996
+          },
+          "120760201": {
+            "Element": 2,
+            "RelatedProperty": "ATK",
+            "Type": 4,
+            "RateLv": [
+              15774,
+              17068,
+              18361,
+              20172,
+              21466,
+              22953,
+              25023,
+              27092,
+              29162,
+              31361,
+              33948,
+              36535,
+              39122,
+              41709,
+              44295,
+              46882,
+              49469,
+              52056,
+              54643,
+              57230
+            ],
+            "Energy": 1367,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 20000
+          },
+          "120760211": {
+            "Element": 2,
+            "RelatedProperty": "ATK",
+            "Type": 4,
+            "RateLv": [
+              23661,
+              25602,
+              27542,
+              30258,
+              32198,
+              34430,
+              37534,
+              40638,
+              43743,
+              47041,
+              50921,
+              54802,
+              58682,
+              62563,
+              66443,
+              70323,
+              74204,
+              78084,
+              81965,
+              85845
+            ],
+            "Energy": 1367,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 20000
+          }
+        }
+      }
+    },
+    "3": {
+      "ParentNodes": [],
+      "NodeType": 2,
+      "Coordinate": 3,
+      "UnLockCondition": 0,
+      "Consume": [
+        {
+          "Key": 43020032,
+          "Value": 2
+        },
+        {
+          "Key": 41100022,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 3900
+        }
+      ],
+      "Skill": {
+        "Name": "Fire-Kissed Glory",
+        "Desc": "Attack the target and deal <color=Fire>Fusion DMG</color>. Performing this attack consumes all <te href=850175>Wolfaith</te> and restores {0} points of <te href=850174>Wolflame</te>. Use Basic Attack or Resonance Skill in time to cast Resonance Skill <color=Highlight>Foebreaker</color>.\nCan be performed in mid-air close to the ground.\nPerforming this skill strengthens all Resonators in the team. Within {1}s:\n- All Resonators in the team gain <color=Highlight>Pack Hunt</color> effect.\n- If the active Resonator is hit or launched into the air, they immediately recover and are considered to have successfully dodged the attack when they are on the ground. Can be triggered up to 3 times.\n\n<size=40><color=Title>Pack Hunt</color></size>\nResonators with <color=Highlight>Pack Hunt</color> gain a {2} ATK increase, and {3} Fusion DMG Bonus when they attack Overlord Class or Calamity Class targets (Both are non-stackable). If there are {7} Fusion Resonators in the team, the Fusion DMG Bonus against Overlord Class or Calamity Class targets additionally increases by {8}. When the active Resonator casts <color=Highlight>Intro Skill</color>, <color=Highlight>Pack Hunt</color> is enhanced, granting an additional {4} ATK increase to all Resonators in the team, up to a maximum of {5}.\nIf Lupa's <color=Highlight>Pack Hunt</color> reaches its cap within its duration, she enters <color=Highlight>Wild Hunt</color> and Intro Skill <color=Highlight>Nowhere to Run!</color> becomes available. <color=Highlight>Wild Hunt</color> can be triggered once per <color=Highlight>Pack Hunt</color>.\n\n<size=40><color=Title>Resonance Skill - Foebreaker</color></size>\nConsume all <te href=850174>Wolflame</te> to perform <color=Highlight>Foebreaker</color>, dealing <color=Fire>Fusion DMG</color> and entering <color=Highlight>Burning Matchpoint</color> state. \n\n<size=40><color=Title>Burning Matchpoint</color></size>\nNormal Attacks retore {6} more <te href=850174>Wolflame</te> on hit. Cannot perform Resonance Skill <color=Highlight>Shewolf's Hunt</color> and Resonance Skill <color=Highlight>Feral Fang</color> in this state.",
+        "Param": [
+          "100",
+          "35",
+          "6%",
+          "10%",
+          "6%",
+          "18%",
+          "500%",
+          "3",
+          "10%"
+        ],
+        "SimpleDesc": "<size=40><color=Title>Resonance Liberation</color></size>\nAll Resonators in the team gain <color=Highlight>Pack Hunt</color>. Consume all <color=Highlight><te href=850175>Wolfaith</te></color> to deal <color=Fire>Fusion DMG</color>.\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} Normal Attack or Resonance Skill in time to perform <color=Highlight>Foebreaker</color>.\nAfter casting <color=Highlight>Resonance Liberation</color>, all Resonators in the team gain <color=Highlight>Pack Hunt</color> and additional ATK Bonus. If the active Resonator is hit or launched into the air, they immediately recover. When the active Resonator performs Intro Skill, <color=Highlight>Pack Hunt</color> is enhanced, providing further ATK Bonus, up to 2 times. When Resonators with <color=Highlight>Pack Hunt</color> attack Overlord Class or Calamity Class targets, they gain extra Fusion DMG Bonus.\n<size=10></size>\n<size=40><color=Title>Foebreaker</color></size>\nConsume all <color=Highlight>Woflame</color> to deal <color=Fire>Fusion DMG</color> and enter <color=Highlight>Enhanced State</color>.\n<size=10></size>\n<size=40><color=Title>Enhanced State</color></size>\n<color=Highlight>Normal Attacks</color> restore more <color=Highlight>Wolflame</color> on hit. Cannot perform <color=Highlight>Resonance Skill</color> and <color=Highlight>Chain Resonance Skill</color> in this state.",
+        "SimpleParam": [],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconLupa/SP_IconLupaC1.SP_IconLupaC1",
+        "Type": "Resonance Liberation",
+        "Level": {
+          "1": {
+            "Name": "Skill Damage",
+            "Param": [
+              [
+                "412.68%",
+                "446.52%",
+                "480.36%",
+                "527.73%",
+                "561.57%",
+                "600.48%",
+                "654.63%",
+                "708.77%",
+                "762.91%",
+                "820.44%",
+                "888.12%",
+                "955.79%",
+                "1023.47%",
+                "1091.15%",
+                "1158.83%",
+                "1226.51%",
+                "1294.19%",
+                "1361.86%",
+                "1429.54%",
+                "1497.22%"
+              ]
+            ],
+            "Format": null
+          },
+          "2": {
+            "Name": "Foebreaker DMG",
+            "Param": [
+              [
+                "153.14%",
+                "165.70%",
+                "178.26%",
+                "195.84%",
+                "208.40%",
+                "222.84%",
+                "242.93%",
+                "263.02%",
+                "283.11%",
+                "304.46%",
+                "329.58%",
+                "354.69%",
+                "379.81%",
+                "404.92%",
+                "430.04%",
+                "455.15%",
+                "480.27%",
+                "505.38%",
+                "530.50%",
+                "555.61%"
+              ]
+            ],
+            "Format": null
+          },
+          "3": {
+            "Name": "Burning Matchpoint Duration",
+            "Param": [
+              [
+                "12",
+                "12",
+                "12",
+                "12",
+                "12",
+                "12",
+                "12",
+                "12",
+                "12",
+                "12",
+                "12",
+                "12",
+                "12",
+                "12",
+                "12",
+                "12",
+                "12",
+                "12",
+                "12",
+                "12"
+              ]
+            ],
+            "Format": "{0}s"
+          },
+          "4": {
+            "Name": "Cooldown",
+            "Param": [
+              [
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20"
+              ]
+            ],
+            "Format": "{0}s"
+          },
+          "5": {
+            "Name": "Resonance Cost",
+            "Param": [
+              [
+                "125",
+                "125",
+                "125",
+                "125",
+                "125",
+                "125",
+                "125",
+                "125",
+                "125",
+                "125",
+                "125",
+                "125",
+                "125",
+                "125",
+                "125",
+                "125",
+                "125",
+                "125",
+                "125",
+                "125"
+              ]
+            ],
+            "Format": null
+          },
+          "6": {
+            "Name": "Concerto Regen",
+            "Param": [
+              [
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20"
+              ]
+            ],
+            "Format": null
+          }
+        },
+        "Consume": {
+          "1": [],
+          "2": [
+            {
+              "Key": 43020041,
+              "Value": 2
+            },
+            {
+              "Key": 41100021,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 1500
+            }
+          ],
+          "3": [
+            {
+              "Key": 43020041,
+              "Value": 3
+            },
+            {
+              "Key": 41100021,
+              "Value": 3
+            },
+            {
+              "Key": 2,
+              "Value": 2000
+            }
+          ],
+          "4": [
+            {
+              "Key": 43020042,
+              "Value": 2
+            },
+            {
+              "Key": 41100022,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 4500
+            }
+          ],
+          "5": [
+            {
+              "Key": 43020042,
+              "Value": 3
+            },
+            {
+              "Key": 41100022,
+              "Value": 3
+            },
+            {
+              "Key": 2,
+              "Value": 6000
+            }
+          ],
+          "6": [
+            {
+              "Key": 43020043,
+              "Value": 3
+            },
+            {
+              "Key": 41100023,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 16000
+            }
+          ],
+          "7": [
+            {
+              "Key": 43020043,
+              "Value": 5
+            },
+            {
+              "Key": 41100023,
+              "Value": 3
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 30000
+            }
+          ],
+          "8": [
+            {
+              "Key": 43020044,
+              "Value": 2
+            },
+            {
+              "Key": 41100024,
+              "Value": 2
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 50000
+            }
+          ],
+          "9": [
+            {
+              "Key": 43020044,
+              "Value": 3
+            },
+            {
+              "Key": 41100024,
+              "Value": 3
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 70000
+            }
+          ],
+          "10": [
+            {
+              "Key": 43020044,
+              "Value": 6
+            },
+            {
+              "Key": 41100024,
+              "Value": 4
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 100000
+            }
+          ]
+        },
+        "Damage": {
+          "120761101": {
+            "Element": 2,
+            "RelatedProperty": "ATK",
+            "Type": 4,
+            "RateLv": [
+              15314,
+              16570,
+              17826,
+              19584,
+              20840,
+              22284,
+              24293,
+              26302,
+              28311,
+              30446,
+              32958,
+              35469,
+              37981,
+              40492,
+              43004,
+              45515,
+              48027,
+              50538,
+              53050,
+              55561
+            ],
+            "Energy": 0,
+            "ElementPower": 2000,
+            "HardnessLv": 10000,
+            "ToughLv": 20000
+          },
+          "120790101": {
+            "Element": 2,
+            "RelatedProperty": "ATK",
+            "Type": 2,
+            "RateLv": [
+              41268,
+              44652,
+              48036,
+              52773,
+              56157,
+              60048,
+              65463,
+              70877,
+              76291,
+              82044,
+              88812,
+              95579,
+              102347,
+              109115,
+              115883,
+              122651,
+              129419,
+              136186,
+              142954,
+              149722
+            ],
+            "Energy": 0,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 40000
+          }
+        }
+      }
+    },
+    "4": {
+      "ParentNodes": [
+        7
+      ],
+      "NodeType": 3,
+      "Coordinate": 2,
+      "UnLockCondition": 0,
+      "Consume": [
+        {
+          "Key": 43020032,
+          "Value": 2
+        },
+        {
+          "Key": 41100022,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 3900
+        }
+      ],
+      "Skill": {
+        "Name": "Remember My Name",
+        "Desc": "After dashing for {0}s, Lupa enters Sprint state. The next <color=Highlight>Basic Attack</color> is replaced with <color=Highlight>Basic Attack - Starfall</color>.\nGain increased resistance to interruptions while casting <color=Highlight>Heavy Attack - Wolf's Gnawing</color>, <color=Highlight>Heavy Attack - Wolf's Claw</color>, and <color=Highlight>Mid-air Attack - Firestrike</color>.",
+        "Param": [
+          "2.5"
+        ],
+        "SimpleDesc": "Enter Sprint state after dashing for a while. The next <color=Highlight>Basic Attack</color> is replaced with <color=Highlight>Chain Basic Attack</color>.\nGain increased resistance to interruptions while casting <color=Highlight>Enhanced Heavy Attacks</color> and <color=Highlight>Enhanced Mid-air Attack</color>.",
+        "SimpleParam": [],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconLupa/SP_IconLupaD1.SP_IconLupaD1",
+        "Type": "Inherent Skill",
+        "Level": {},
+        "Consume": {
+          "1": [
+            {
+              "Key": 43020042,
+              "Value": 3
+            },
+            {
+              "Key": 41100022,
+              "Value": 3
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 10000
+            }
+          ]
+        },
+        "Damage": {}
+      }
+    },
+    "5": {
+      "ParentNodes": [
+        4
+      ],
+      "NodeType": 3,
+      "Coordinate": 3,
+      "UnLockCondition": 0,
+      "Consume": [
+        {
+          "Key": 43020032,
+          "Value": 2
+        },
+        {
+          "Key": 41100022,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 3900
+        }
+      ],
+      "Skill": {
+        "Name": "Applause of Victory",
+        "Desc": "Defeating a <color=Highlight>marked</color> target resets the cooldown of Resonance Skill <color=Highlight>Shewolf's Hunt</color>.\n\n<size=40><color=Title>Resonance Liberation - Glory</color></size>\nCasting Resonance Liberation <color=Highlight>Fire-Kissed Glory</color> grants <color=Highlight>Glory</color>. Within {0}s:\nAttacks of all Resonators in the team ignore {1} of the target's Fusion RES. For each Fusion Resonator in the team other than Lupa, this effect increases by {2}, up to the maximum of {3}. When there are {4} Fusion Resonators in the team, Resonators' attacks further ignore {5} Fusion RES.",
+        "Param": [
+          "35",
+          "3%",
+          "3%",
+          "9%",
+          "3",
+          "6%"
+        ],
+        "SimpleDesc": "Defeating a <color=Highlight>marked</color> target resets <color=Highlight>Resonance Skill</color> cooldown.\nPerforming <color=Highlight>Resonance Liberation</color> grants all Resonators in the team <color=Highlight>Glory</color>:\nTheir attacks ignore a certain amount of Fusion RES. The effect is enhanced with more Fusion Resonators in the team.",
+        "SimpleParam": [],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconLupa/SP_IconLupaD2.SP_IconLupaD2",
+        "Type": "Inherent Skill",
+        "Level": {},
+        "Consume": {
+          "1": [
+            {
+              "Key": 43020043,
+              "Value": 3
+            },
+            {
+              "Key": 41100023,
+              "Value": 3
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 20000
+            }
+          ]
+        },
+        "Damage": {}
+      }
+    },
+    "6": {
+      "ParentNodes": [],
+      "NodeType": 2,
+      "Coordinate": 4,
+      "UnLockCondition": 0,
+      "Consume": [
+        {
+          "Key": 43020032,
+          "Value": 2
+        },
+        {
+          "Key": 41100022,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 3900
+        }
+      ],
+      "Skill": {
+        "Name": "Try Focusing, Eh?",
+        "Desc": "Attack the target, dealing <color=Fire>Fusion DMG</color>. {Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} <color=Highlight>Normal Attack</color> following Intro Skill <color=Highlight>Try Focusing, Eh?</color> to cast <color=Highlight>Mid-air Attack Stage 3</color>.\n\n<size=40><color=Title>Nowhere to Run!</color></size>\nWhen Lupa enters the <color=Highlight>Wild Hunt</color> state, her next Intro Skill is replaced with <color=Highlight>Nowhere to Run!</color>. Casting <color=Highlight>Nowhere to Run!</color> removes the <color=Highlight><te href=850176>Pack Hunt</te></color> and <color=Highlight><te href=850178>Glory</te></color> effects on all Resonators in the team, dealing <color=Fire>Fusion DMG</color> (considered Resonance Liberation DMG).",
+        "Param": [],
+        "SimpleDesc": "<size=40><color=Title>Intro Skill</color></size>\nDeal <color=Fire>Fusion DMG</color>.\n<size=10></size>\n<size=40><color=Title>Enhanced Intro Skill</color></size>\nWhen <color=Highlight>Pack Hunt</color> reaches its cap, Lupa can perform <color=Highlight>Enhanced Intro Skill</color>.\nCasting this skill removes <color=Highlight>Pack Hunt</color> and <color=Highlight>Glory</color> on all Resonators in the team, dealing a large amount of <color=Fire>Fusion DMG</color>, which is considered <color=Highlight>Resonance Liberation DMG</color>.",
+        "SimpleParam": [],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconLupa/SP_IconLupaQTE.SP_IconLupaQTE",
+        "Type": "Intro Skill",
+        "Level": {
+          "1": {
+            "Name": "Skill Damage",
+            "Param": [
+              [
+                "14.97%+21.21%*4",
+                "16.20%+22.95%*4",
+                "17.43%+24.69%*4",
+                "19.15%+27.12%*4",
+                "20.37%+28.86%*4",
+                "21.79%+30.86%*4",
+                "23.75%+33.64%*4",
+                "25.71%+36.43%*4",
+                "27.68%+39.21%*4",
+                "29.76%+42.16%*4",
+                "32.22%+45.64%*4",
+                "34.67%+49.12%*4",
+                "37.13%+52.60%*4",
+                "39.58%+56.07%*4",
+                "42.04%+59.55%*4",
+                "44.49%+63.03%*4",
+                "46.95%+66.51%*4",
+                "49.40%+69.98%*4",
+                "51.86%+73.46%*4",
+                "54.31%+76.94%*4"
+              ]
+            ],
+            "Format": null
+          },
+          "2": {
+            "Name": "Nowhere to Run! DMG",
+            "Param": [
+              [
+                "399.16%+24.95%*4",
+                "431.90%+27.00%*4",
+                "464.63%+29.04%*4",
+                "510.45%+31.91%*4",
+                "543.18%+33.95%*4",
+                "580.82%+36.31%*4",
+                "633.19%+39.58%*4",
+                "685.56%+42.85%*4",
+                "737.93%+46.13%*4",
+                "793.57%+49.60%*4",
+                "859.04%+53.69%*4",
+                "924.50%+57.79%*4",
+                "989.96%+61.88%*4",
+                "1055.42%+65.97%*4",
+                "1120.89%+70.06%*4",
+                "1186.35%+74.15%*4",
+                "1251.81%+78.24%*4",
+                "1317.27%+82.33%*4",
+                "1382.74%+86.43%*4",
+                "1448.20%+90.52%*4"
+              ]
+            ],
+            "Format": null
+          },
+          "3": {
+            "Name": "Concerto Regen",
+            "Param": [
+              [
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10"
+              ]
+            ],
+            "Format": null
+          },
+          "4": {
+            "Name": "Nowhere to Run! Concerto Regen",
+            "Param": [
+              [
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10"
+              ]
+            ],
+            "Format": null
+          }
+        },
+        "Consume": {
+          "1": [],
+          "2": [
+            {
+              "Key": 43020041,
+              "Value": 2
+            },
+            {
+              "Key": 41100021,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 1500
+            }
+          ],
+          "3": [
+            {
+              "Key": 43020041,
+              "Value": 3
+            },
+            {
+              "Key": 41100021,
+              "Value": 3
+            },
+            {
+              "Key": 2,
+              "Value": 2000
+            }
+          ],
+          "4": [
+            {
+              "Key": 43020042,
+              "Value": 2
+            },
+            {
+              "Key": 41100022,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 4500
+            }
+          ],
+          "5": [
+            {
+              "Key": 43020042,
+              "Value": 3
+            },
+            {
+              "Key": 41100022,
+              "Value": 3
+            },
+            {
+              "Key": 2,
+              "Value": 6000
+            }
+          ],
+          "6": [
+            {
+              "Key": 43020043,
+              "Value": 3
+            },
+            {
+              "Key": 41100023,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 16000
+            }
+          ],
+          "7": [
+            {
+              "Key": 43020043,
+              "Value": 5
+            },
+            {
+              "Key": 41100023,
+              "Value": 3
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 30000
+            }
+          ],
+          "8": [
+            {
+              "Key": 43020044,
+              "Value": 2
+            },
+            {
+              "Key": 41100024,
+              "Value": 2
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 50000
+            }
+          ],
+          "9": [
+            {
+              "Key": 43020044,
+              "Value": 3
+            },
+            {
+              "Key": 41100024,
+              "Value": 3
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 70000
+            }
+          ],
+          "10": [
+            {
+              "Key": 43020044,
+              "Value": 6
+            },
+            {
+              "Key": 41100024,
+              "Value": 4
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 100000
+            }
+          ]
+        },
+        "Damage": {
+          "120780001": {
+            "Element": 2,
+            "RelatedProperty": "ATK",
+            "Type": 3,
+            "RateLv": [
+              1497,
+              1620,
+              1743,
+              1915,
+              2037,
+              2179,
+              2375,
+              2571,
+              2768,
+              2976,
+              3222,
+              3467,
+              3713,
+              3958,
+              4204,
+              4449,
+              4695,
+              4940,
+              5186,
+              5431
+            ],
+            "Energy": 150,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 2114
+          },
+          "120780002": {
+            "Element": 2,
+            "RelatedProperty": "ATK",
+            "Type": 3,
+            "RateLv": [
+              2121,
+              2295,
+              2469,
+              2712,
+              2886,
+              3086,
+              3364,
+              3643,
+              3921,
+              4216,
+              4564,
+              4912,
+              5260,
+              5607,
+              5955,
+              6303,
+              6651,
+              6998,
+              7346,
+              7694
+            ],
+            "Energy": 213,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 2994
+          },
+          "120780101": {
+            "Element": 2,
+            "RelatedProperty": "ATK",
+            "Type": 2,
+            "RateLv": [
+              39916,
+              43190,
+              46463,
+              51045,
+              54318,
+              58082,
+              63319,
+              68556,
+              73793,
+              79357,
+              85904,
+              92450,
+              98996,
+              105542,
+              112089,
+              118635,
+              125181,
+              131727,
+              138274,
+              144820
+            ],
+            "Energy": 800,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 11271
+          },
+          "120780102": {
+            "Element": 2,
+            "RelatedProperty": "ATK",
+            "Type": 2,
+            "RateLv": [
+              2495,
+              2700,
+              2904,
+              3191,
+              3395,
+              3631,
+              3958,
+              4285,
+              4613,
+              4960,
+              5369,
+              5779,
+              6188,
+              6597,
+              7006,
+              7415,
+              7824,
+              8233,
+              8643,
+              9052
+            ],
+            "Energy": 50,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 705
+          },
+          "120780111": {
+            "Element": 2,
+            "RelatedProperty": "ATK",
+            "Type": 2,
+            "RateLv": [
+              79832,
+              86379,
+              92925,
+              102090,
+              108636,
+              116164,
+              126638,
+              137112,
+              147586,
+              158714,
+              171807,
+              184899,
+              197992,
+              211084,
+              224177,
+              237269,
+              250362,
+              263454,
+              276547,
+              289639
+            ],
+            "Energy": 800,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 11271
+          },
+          "120780112": {
+            "Element": 2,
+            "RelatedProperty": "ATK",
+            "Type": 2,
+            "RateLv": [
+              4990,
+              5399,
+              5808,
+              6381,
+              6790,
+              7261,
+              7915,
+              8570,
+              9225,
+              9920,
+              10738,
+              11557,
+              12375,
+              13193,
+              14012,
+              14830,
+              15648,
+              16466,
+              17285,
+              18103
+            ],
+            "Energy": 50,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 705
+          }
+        }
+      }
+    },
+    "7": {
+      "ParentNodes": [],
+      "NodeType": 1,
+      "Coordinate": 1,
+      "UnLockCondition": 0,
+      "Consume": [
+        {
+          "Key": 43020032,
+          "Value": 2
+        },
+        {
+          "Key": 41100022,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 3900
+        }
+      ],
+      "Skill": {
+        "Name": "Ignis Lupa",
+        "Desc": "<size=40><color=Title>Wildfire Banner</color></size>\nLupa's ATK is increased by {0} for {1}s when performing the following actions:\n- Casting Resonance Skill <color=Highlight>Feral Fang</color>.\n- Casting <color=Highlight>Heavy Attack - Wolf's Gnawing</color>, <color=Highlight>Heavy Attack - Wolf's Claw</color>, or <color=Highlight>Mid-air Attack - Firestrike</color>.\n- Casting Resonance Liberation <color=Highlight>Fire-Kissed Glory</color>.\n- Casting <color=Highlight>Dance With the Wolf</color> and <color=Highlight>Dance With the Wolf: Climax</color>.\n\n<size=40><color=Title>Resonance Skill - Dance With the Wolf</color></size>\nWhen <te href=850175>Wolfaith</te> reaches {2} points, Resonance Skill is replaced with <color=Highlight>Dance With the Wolf</color>. Performing <color=Highlight>Dance With the Wolf</color> consumes all <te href=850175>Wolfaith</te>, dealing <color=Fire>Fusion DMG</color> (considered Resonance Liberation DMG).\nCan be performed in mid-air close to the ground.\n\n<size=40><color=Title>Resonance Skill - Dance With the Wolf: Climax</color></size>\nWhen <te href=850175>Wolfaith</te> reaches {3} points in the <color=Highlight><te href=850177>Burning Matchpoint</te></color> state, Resonance Skill is replaced with <color=Highlight>Dance With the Wolf: Climax</color>. Performing <color=Highlight>Dance With the Wolf: Climax</color> consumes all <te href=850175>Wolfaith</te>, dealing <color=Fire>Fusion DMG</color> (considered Resonance Liberation DMG). <color=Highlight>Burning Matchpoint</color> is removed when the skill ends.\nCan be performed in mid-air close to the ground.\n\n<size=40><color=Title>Resonance Skill - Set the Arena Ablaze</color></size>\nWithin {4}s after performing <color=Highlight>Dance With the Wolf</color> or <color=Highlight>Dance With the Wolf: Climax</color>, Lupa will remain on the field after switching to another Resonator and back up the active Resonator when they perform <color=Highlight>Resonance Liberation</color>, dealing <color=Fire>Fusion DMG</color> (considered Resonance Skill DMG). This effect can only be triggered once in its duration.\n\n<size=40><color=Title>Wolflame</color></size>\nLupa can hold up to {5} points of Wolflame.\n- Restore Wolflame when Normal Attacks hit the target.\n- Restore Wolflame while casting Resonance Skill.\n- Restore Wolflame while casting Resonance Liberation.\n\n<size=40><color=Title>Wolfaith</color></size>\nLupa can hold up to {6} points of Wolfaith.\nWolfaith lasts for {7}s. The duration is reset when Wolfaith is restored. At the end of its duration, each remaining point of Wolfaith becomes {8} points of Wolflame.\n- Restore {9} point of Wolfaith when casting <color=Highlight>Heavy Attack - Wolf's Gnawing</color>, <color=Highlight>Heavy Attack - Wolf's Claw</color>, or <color=Highlight>Mid-air Attack - Firestrike</color>.",
+        "Param": [
+          "12%",
+          "8",
+          "2",
+          "2",
+          "8",
+          "100",
+          "2",
+          "10",
+          "50",
+          "1"
+        ],
+        "SimpleDesc": "ATK is increased when casting <color=Highlight>Enhanced Heavy Attacks</color>, <color=Highlight>Enhanced Mid-air Attack</color>, <color=Highlight>Resonance Liberation</color>, <color=Highlight>Chain Resonance Skill</color>, <color=Highlight>Enhanced Resonance Skill</color>, and <color=Highlight>Resonance Skill Finisher</color>.\n<size=10></size>\n<size=40><color=Title>Forte Gauge: Wolflame and Wolfaith</color></size>\n<color=Highlight>Normal Attacks</color>, <color=Highlight>Resonance Skill</color>, <color=Highlight>Chain Resonance Skill</color>, and <color=Highlight>Resonance Liberation</color> grant <color=Highlight>Wolflame</color>.\nWhen <color=Highlight>Wolflame</color> reaches certain points, <color=Highlight>Enhanced Heavy Attacks</color> and <color=Highlight>Enhanced Mid-air Attack</color> become available, granting <color=Highlight>Wolfaith</color>.\nWhen <color=Highlight>Wolfaith</color> is full, <color=Highlight>Enhanced Resonance Skill</color> becomes available, which deals <color=Fire>Fusion DMG</color>, considered <color=Highlight>Resonance Liberation DMG</color>.\nWhen <color=Highlight>Wolfaith</color> is full and <color=Highlight>Enhanced State</color> is active, <color=Highlight>Resonance Skill Finisher</color> becomes available, which deals <color=Fire>Fusion DMG</color>, considered <color=Highlight>Resonance Liberation DMG</color>, and ends <color=Highlight>Enhanced State</color>.\n<size=10></size>\n<size=40><color=Title>Assisted Attack</color></size>\nWithin a certain period after Lupa performs <color=Highlight>Enhanced Resonance Skill</color> or <color=Highlight>Resonance Skill Finisher</color>, Lupa will assist the active Resonator in their assault when they perform <color=Highlight>Resonance Liberation</color>, dealing <color=Fire>Fusion DMG</color>, considered <color=Highlight>Resonance Skill DMG</color>.",
+        "SimpleParam": [],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconLupa/SP_IconLupaY.SP_IconLupaY",
+        "Type": "Forte Circuit",
+        "Level": {
+          "1": {
+            "Name": "Dance With the Wolf DMG",
+            "Param": [
+              [
+                "28.18%+21.14%*4+169.06%",
+                "30.49%+22.87%*4+182.93%",
+                "32.80%+24.60%*4+196.79%",
+                "36.04%+27.03%*4+216.20%",
+                "38.35%+28.76%*4+230.06%",
+                "41.00%+30.75%*4+246.00%",
+                "44.70%+33.53%*4+268.18%",
+                "48.40%+36.30%*4+290.36%",
+                "52.09%+39.07%*4+312.54%",
+                "56.02%+42.02%*4+336.11%",
+                "60.64%+45.48%*4+363.83%",
+                "65.26%+48.95%*4+391.56%",
+                "69.89%+52.42%*4+419.29%",
+                "74.51%+55.88%*4+447.01%",
+                "79.13%+59.35%*4+474.74%",
+                "83.75%+62.81%*4+502.46%",
+                "88.37%+66.28%*4+530.19%",
+                "92.99%+69.74%*4+557.91%",
+                "97.61%+73.21%*4+585.64%",
+                "102.23%+76.67%*4+613.36%"
+              ]
+            ],
+            "Format": null
+          },
+          "2": {
+            "Name": "Dance With the Wolf: Climax DMG",
+            "Param": [
+              [
+                "38.04%+28.53%*4+228.23%",
+                "41.16%+30.87%*4+246.95%",
+                "44.28%+33.21%*4+265.66%",
+                "48.65%+36.49%*4+291.86%",
+                "51.77%+38.83%*4+310.58%",
+                "55.35%+41.52%*4+332.10%",
+                "60.34%+45.26%*4+362.04%",
+                "65.34%+49.00%*4+391.99%",
+                "70.33%+52.75%*4+421.93%",
+                "75.63%+56.72%*4+453.75%",
+                "81.87%+61.40%*4+491.17%",
+                "88.10%+66.08%*4+528.60%",
+                "94.34%+70.76%*4+566.03%",
+                "100.58%+75.44%*4+603.46%",
+                "106.82%+80.12%*4+640.89%",
+                "113.06%+84.79%*4+678.32%",
+                "119.30%+89.47%*4+715.75%",
+                "125.53%+94.15%*4+753.18%",
+                "131.77%+98.83%*4+790.61%",
+                "138.01%+103.51%*4+828.04%"
+              ]
+            ],
+            "Format": null
+          },
+          "3": {
+            "Name": "Set the Arena Ablaze DMG",
+            "Param": [
+              [
+                "21.31%+85.21%",
+                "23.05%+92.20%",
+                "24.80%+99.18%",
+                "27.25%+108.97%",
+                "28.99%+115.95%",
+                "31.00%+123.99%",
+                "33.80%+135.17%",
+                "36.59%+146.34%",
+                "39.38%+157.52%",
+                "42.35%+169.40%",
+                "45.85%+183.37%",
+                "49.34%+197.35%",
+                "52.83%+211.32%",
+                "56.33%+225.30%",
+                "59.82%+239.27%",
+                "63.31%+253.24%",
+                "66.81%+267.22%",
+                "70.30%+281.19%",
+                "73.79%+295.16%",
+                "77.29%+309.14%"
+              ]
+            ],
+            "Format": null
+          }
+        },
+        "Consume": {
+          "1": [],
+          "2": [
+            {
+              "Key": 43020041,
+              "Value": 2
+            },
+            {
+              "Key": 41100021,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 1500
+            }
+          ],
+          "3": [
+            {
+              "Key": 43020041,
+              "Value": 3
+            },
+            {
+              "Key": 41100021,
+              "Value": 3
+            },
+            {
+              "Key": 2,
+              "Value": 2000
+            }
+          ],
+          "4": [
+            {
+              "Key": 43020042,
+              "Value": 2
+            },
+            {
+              "Key": 41100022,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 4500
+            }
+          ],
+          "5": [
+            {
+              "Key": 43020042,
+              "Value": 3
+            },
+            {
+              "Key": 41100022,
+              "Value": 3
+            },
+            {
+              "Key": 2,
+              "Value": 6000
+            }
+          ],
+          "6": [
+            {
+              "Key": 43020043,
+              "Value": 3
+            },
+            {
+              "Key": 41100023,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 16000
+            }
+          ],
+          "7": [
+            {
+              "Key": 43020043,
+              "Value": 5
+            },
+            {
+              "Key": 41100023,
+              "Value": 3
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 30000
+            }
+          ],
+          "8": [
+            {
+              "Key": 43020044,
+              "Value": 2
+            },
+            {
+              "Key": 41100024,
+              "Value": 2
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 50000
+            }
+          ],
+          "9": [
+            {
+              "Key": 43020044,
+              "Value": 3
+            },
+            {
+              "Key": 41100024,
+              "Value": 3
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 70000
+            }
+          ],
+          "10": [
+            {
+              "Key": 43020044,
+              "Value": 6
+            },
+            {
+              "Key": 41100024,
+              "Value": 4
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 100000
+            }
+          ]
+        },
+        "Damage": {
+          "120751301": {
+            "Element": 2,
+            "RelatedProperty": "ATK",
+            "Type": 2,
+            "RateLv": [
+              3804,
+              4116,
+              4428,
+              4865,
+              5177,
+              5535,
+              6034,
+              6534,
+              7033,
+              7563,
+              8187,
+              8810,
+              9434,
+              10058,
+              10682,
+              11306,
+              11930,
+              12553,
+              13177,
+              13801
+            ],
+            "Energy": 300,
+            "ElementPower": 300,
+            "HardnessLv": 10000,
+            "ToughLv": 2000
+          },
+          "120751302": {
+            "Element": 2,
+            "RelatedProperty": "ATK",
+            "Type": 2,
+            "RateLv": [
+              2853,
+              3087,
+              3321,
+              3649,
+              3883,
+              4152,
+              4526,
+              4900,
+              5275,
+              5672,
+              6140,
+              6608,
+              7076,
+              7544,
+              8012,
+              8479,
+              8947,
+              9415,
+              9883,
+              10351
+            ],
+            "Energy": 225,
+            "ElementPower": 225,
+            "HardnessLv": 10000,
+            "ToughLv": 1500
+          },
+          "120751303": {
+            "Element": 2,
+            "RelatedProperty": "ATK",
+            "Type": 2,
+            "RateLv": [
+              22823,
+              24695,
+              26566,
+              29186,
+              31058,
+              33210,
+              36204,
+              39199,
+              42193,
+              45375,
+              49117,
+              52860,
+              56603,
+              60346,
+              64089,
+              67832,
+              71575,
+              75318,
+              79061,
+              82804
+            ],
+            "Energy": 1800,
+            "ElementPower": 1800,
+            "HardnessLv": 10000,
+            "ToughLv": 12000
+          },
+          "120751311": {
+            "Element": 2,
+            "RelatedProperty": "ATK",
+            "Type": 2,
+            "RateLv": [
+              8559,
+              9261,
+              9963,
+              10945,
+              11647,
+              12454,
+              13577,
+              14700,
+              15823,
+              17016,
+              18419,
+              19823,
+              21227,
+              22630,
+              24034,
+              25437,
+              26841,
+              28245,
+              29648,
+              31052
+            ],
+            "Energy": 300,
+            "ElementPower": 300,
+            "HardnessLv": 10000,
+            "ToughLv": 2000
+          },
+          "120751312": {
+            "Element": 2,
+            "RelatedProperty": "ATK",
+            "Type": 2,
+            "RateLv": [
+              6419,
+              6946,
+              7472,
+              8209,
+              8735,
+              9341,
+              10183,
+              11025,
+              11867,
+              12762,
+              13815,
+              14867,
+              15920,
+              16973,
+              18025,
+              19078,
+              20131,
+              21184,
+              22236,
+              23289
+            ],
+            "Energy": 225,
+            "ElementPower": 225,
+            "HardnessLv": 10000,
+            "ToughLv": 1500
+          },
+          "120751313": {
+            "Element": 2,
+            "RelatedProperty": "ATK",
+            "Type": 2,
+            "RateLv": [
+              51352,
+              55563,
+              59773,
+              65669,
+              69879,
+              74722,
+              81459,
+              88196,
+              94934,
+              102092,
+              110514,
+              118935,
+              127357,
+              135778,
+              144200,
+              152622,
+              161043,
+              169465,
+              177887,
+              186308
+            ],
+            "Energy": 1800,
+            "ElementPower": 1800,
+            "HardnessLv": 10000,
+            "ToughLv": 12000
+          },
+          "120761201": {
+            "Element": 2,
+            "RelatedProperty": "ATK",
+            "Type": 2,
+            "RateLv": [
+              2818,
+              3049,
+              3280,
+              3604,
+              3835,
+              4100,
+              4470,
+              4840,
+              5209,
+              5602,
+              6064,
+              6526,
+              6989,
+              7451,
+              7913,
+              8375,
+              8837,
+              9299,
+              9761,
+              10223
+            ],
+            "Energy": 300,
+            "ElementPower": 150,
+            "HardnessLv": 10000,
+            "ToughLv": 2000
+          },
+          "120761202": {
+            "Element": 2,
+            "RelatedProperty": "ATK",
+            "Type": 2,
+            "RateLv": [
+              2114,
+              2287,
+              2460,
+              2703,
+              2876,
+              3075,
+              3353,
+              3630,
+              3907,
+              4202,
+              4548,
+              4895,
+              5242,
+              5588,
+              5935,
+              6281,
+              6628,
+              6974,
+              7321,
+              7667
+            ],
+            "Energy": 225,
+            "ElementPower": 113,
+            "HardnessLv": 10000,
+            "ToughLv": 1500
+          },
+          "120761203": {
+            "Element": 2,
+            "RelatedProperty": "ATK",
+            "Type": 2,
+            "RateLv": [
+              16906,
+              18293,
+              19679,
+              21620,
+              23006,
+              24600,
+              26818,
+              29036,
+              31254,
+              33611,
+              36383,
+              39156,
+              41929,
+              44701,
+              47474,
+              50246,
+              53019,
+              55791,
+              58564,
+              61336
+            ],
+            "Energy": 1800,
+            "ElementPower": 900,
+            "HardnessLv": 10000,
+            "ToughLv": 12000
+          },
+          "120790202": {
+            "Element": 2,
+            "RelatedProperty": "ATK",
+            "Type": 4,
+            "RateLv": [
+              2131,
+              2305,
+              2480,
+              2725,
+              2899,
+              3100,
+              3380,
+              3659,
+              3938,
+              4235,
+              4585,
+              4934,
+              5283,
+              5633,
+              5982,
+              6331,
+              6681,
+              7030,
+              7379,
+              7729
+            ],
+            "Energy": 0,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 1000
+          },
+          "120790203": {
+            "Element": 2,
+            "RelatedProperty": "ATK",
+            "Type": 4,
+            "RateLv": [
+              8521,
+              9220,
+              9918,
+              10897,
+              11595,
+              12399,
+              13517,
+              14634,
+              15752,
+              16940,
+              18337,
+              19735,
+              21132,
+              22530,
+              23927,
+              25324,
+              26722,
+              28119,
+              29516,
+              30914
+            ],
+            "Energy": 0,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 4000
+          }
+        }
+      }
+    },
+    "8": {
+      "ParentNodes": [],
+      "NodeType": 3,
+      "Coordinate": 1,
+      "UnLockCondition": 0,
+      "Consume": [
+        {
+          "Key": 43020032,
+          "Value": 2
+        },
+        {
+          "Key": 41100022,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 3900
+        }
+      ],
+      "Skill": {
+        "Name": "Stand by Me, Warrior",
+        "Desc": "The incoming Resonator will have their Fusion DMG Amplified by {0} and Basic Attack DMG Amplified by {1} for {2}s or until the Resonator is switched out.",
+        "Param": [
+          "20%",
+          "25%",
+          "14"
+        ],
+        "SimpleDesc": "The incoming Resonator will have their Fusion DMG and Basic Attack DMG Amplified. Switching out the Resonator ends the effect.",
+        "SimpleParam": [],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconLupa/SP_IconLupaT.SP_IconLupaT",
+        "Type": "Outro Skill",
+        "Level": {},
+        "Consume": {
+          "1": []
+        },
+        "Damage": {}
+      }
+    },
+    "9": {
+      "ParentNodes": [
+        1
+      ],
+      "NodeType": 4,
+      "Coordinate": 1,
+      "UnLockCondition": 500006,
+      "Consume": [
+        {
+          "Key": 43020043,
+          "Value": 3
+        },
+        {
+          "Key": 41100023,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 50000
+        }
+      ],
+      "Skill": {
+        "Name": "Crit. Rate+",
+        "Desc": "Crit. Rate increased by {0}.",
+        "Param": [
+          "1.20%"
+        ],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredbaoji_UI.T_Iconpropertyredbaoji_UI"
+      }
+    },
+    "10": {
+      "ParentNodes": [
+        2
+      ],
+      "NodeType": 4,
+      "Coordinate": 1,
+      "UnLockCondition": 500005,
+      "Consume": [
+        {
+          "Key": 43020043,
+          "Value": 3
+        },
+        {
+          "Key": 41100023,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 50000
+        }
+      ],
+      "Skill": {
+        "Name": "ATK+",
+        "Desc": "ATK increased by {0}.",
+        "Param": [
+          "1.80%"
+        ],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredattack_UI.T_Iconpropertyredattack_UI"
+      }
+    },
+    "11": {
+      "ParentNodes": [
+        3
+      ],
+      "NodeType": 4,
+      "Coordinate": 1,
+      "UnLockCondition": 500005,
+      "Consume": [
+        {
+          "Key": 43020043,
+          "Value": 3
+        },
+        {
+          "Key": 41100023,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 50000
+        }
+      ],
+      "Skill": {
+        "Name": "ATK+",
+        "Desc": "ATK increased by {0}.",
+        "Param": [
+          "1.80%"
+        ],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredattack_UI.T_Iconpropertyredattack_UI"
+      }
+    },
+    "12": {
+      "ParentNodes": [
+        6
+      ],
+      "NodeType": 4,
+      "Coordinate": 1,
+      "UnLockCondition": 500006,
+      "Consume": [
+        {
+          "Key": 43020043,
+          "Value": 3
+        },
+        {
+          "Key": 41100023,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 50000
+        }
+      ],
+      "Skill": {
+        "Name": "Crit. Rate+",
+        "Desc": "Crit. Rate increased by {0}.",
+        "Param": [
+          "1.20%"
+        ],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredbaoji_UI.T_Iconpropertyredbaoji_UI"
+      }
+    },
+    "13": {
+      "ParentNodes": [
+        9
+      ],
+      "NodeType": 4,
+      "Coordinate": 2,
+      "UnLockCondition": 500008,
+      "Consume": [
+        {
+          "Key": 43020044,
+          "Value": 3
+        },
+        {
+          "Key": 41100024,
+          "Value": 3
+        },
+        {
+          "Key": 41400194,
+          "Value": 1
+        },
+        {
+          "Key": 2,
+          "Value": 100000
+        }
+      ],
+      "Skill": {
+        "Name": "Crit. Rate+",
+        "Desc": "Crit. Rate increased by {0}.",
+        "Param": [
+          "2.80%"
+        ],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredbaoji_UI.T_Iconpropertyredbaoji_UI"
+      }
+    },
+    "14": {
+      "ParentNodes": [
+        10
+      ],
+      "NodeType": 4,
+      "Coordinate": 2,
+      "UnLockCondition": 500007,
+      "Consume": [
+        {
+          "Key": 43020044,
+          "Value": 3
+        },
+        {
+          "Key": 41100024,
+          "Value": 3
+        },
+        {
+          "Key": 41400194,
+          "Value": 1
+        },
+        {
+          "Key": 2,
+          "Value": 100000
+        }
+      ],
+      "Skill": {
+        "Name": "ATK+",
+        "Desc": "ATK increased by {0}.",
+        "Param": [
+          "4.20%"
+        ],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredattack_UI.T_Iconpropertyredattack_UI"
+      }
+    },
+    "15": {
+      "ParentNodes": [
+        11
+      ],
+      "NodeType": 4,
+      "Coordinate": 2,
+      "UnLockCondition": 500007,
+      "Consume": [
+        {
+          "Key": 43020044,
+          "Value": 3
+        },
+        {
+          "Key": 41100024,
+          "Value": 3
+        },
+        {
+          "Key": 41400194,
+          "Value": 1
+        },
+        {
+          "Key": 2,
+          "Value": 100000
+        }
+      ],
+      "Skill": {
+        "Name": "ATK+",
+        "Desc": "ATK increased by {0}.",
+        "Param": [
+          "4.20%"
+        ],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredattack_UI.T_Iconpropertyredattack_UI"
+      }
+    },
+    "16": {
+      "ParentNodes": [
+        12
+      ],
+      "NodeType": 4,
+      "Coordinate": 2,
+      "UnLockCondition": 500008,
+      "Consume": [
+        {
+          "Key": 43020044,
+          "Value": 3
+        },
+        {
+          "Key": 41100024,
+          "Value": 3
+        },
+        {
+          "Key": 41400194,
+          "Value": 1
+        },
+        {
+          "Key": 2,
+          "Value": 100000
+        }
+      ],
+      "Skill": {
+        "Name": "Crit. Rate+",
+        "Desc": "Crit. Rate increased by {0}.",
+        "Param": [
+          "2.80%"
+        ],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredbaoji_UI.T_Iconpropertyredbaoji_UI"
+      }
+    },
+    "17": {
+      "ParentNodes": [],
+      "NodeType": 5,
+      "Coordinate": 1,
+      "UnLockCondition": 0,
+      "Consume": [
+        {
+          "Key": 43020032,
+          "Value": 2
+        },
+        {
+          "Key": 41100022,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 3900
+        }
+      ],
+      "Skill": {
+        "Name": "Tune Break: Broadblade",
+        "Desc": "When the target's <color=Highlight>Off-Tune Level</color> is full. Deal <color=Highlight><te href=100001>Tune Break</te></color> DMG.",
+        "Param": [],
+        "SimpleDesc": "When the target's <color=Highlight>Off-Tune Level</color> is full",
+        "SimpleParam": [],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconWeakPointBreakSword.SP_IconWeakPointBreakSword",
+        "Type": "Tune Break",
+        "Level": {},
+        "Consume": {
+          "1": []
+        },
+        "Damage": {}
+      }
+    }
+  },
+  "Chains": {
+    "1": {
+      "Name": "Behold the Nameless One",
+      "Desc": "Performing Resonance Liberation <color=Highlight>Fire-Kissed Glory</color> recovers {0} Concerto Energy for Lupa and increases Lupa's Crit. Rate by {1} for {2}s.\nGain immunity to interruption when casting <color=Highlight>Dance With the Wolf: Climax</color>.",
+      "Param": [
+        "10",
+        "20%",
+        "10"
+      ],
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconDevice/T_IconDevice_LupaM1_UI.T_IconDevice_LupaM1_UI"
+    },
+    "2": {
+      "Name": "Every Ground, Her Hunting Field",
+      "Desc": "Performing <color=Highlight>Fire-Kissed Glory</color>, <color=Highlight>Heavy Attack - Wolf's Gnawing</color>,  <color=Highlight>Heavy Attack - Wolf's Claw</color>, or <color=Highlight>Mid-air Attack - Firestrike</color> gives {0} Fusion DMG Bonus to all Resonators in the team for {1}s, stacking up to {2} times.",
+      "Param": [
+        "20%",
+        "30",
+        "2"
+      ],
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconDevice/T_IconDevice_LupaM2_UI.T_IconDevice_LupaM2_UI"
+    },
+    "3": {
+      "Name": "Wolflame Howls in Her Wake",
+      "Desc": "The DMG Multiplier of Intro Skill <color=Highlight>Nowhere to Run!</color> increases by {0}.\n- The <color=Highlight><te href=850176>Pack Hunt</te></color> effect of Resonance Liberation now no longer requires {3} Fusion Resonators.\n- The <color=Highlight><te href=850178>Glory</te></color> effect of Resonance Liberation is now modified as:\nCasting Resonance Liberation <color=Highlight>Fire-Kissed Glory</color> additionally grants <color=Highlight><te href=850178>Glory</te></color>: Resonators in the team ignore {2} Fusion RES of targets for {1}s.",
+      "Param": [
+        "100%",
+        "35",
+        "15%",
+        "3",
+        "1"
+      ],
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconDevice/T_IconDevice_LupaM3_UI.T_IconDevice_LupaM3_UI"
+    },
+    "4": {
+      "Name": "High and Aflame Is Her Banner",
+      "Desc": "The DMG Multiplier of <color=Highlight>Dance With the Wolf: Climax</color> increases by {0}.",
+      "Param": [
+        "125%"
+      ],
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconDevice/T_IconDevice_LupaM4_UI.T_IconDevice_LupaM4_UI"
+    },
+    "5": {
+      "Name": "Embrace the Thunderous Triumph",
+      "Desc": "Performing Intro Skill <color=Highlight>Try Focusing, Eh?</color> or <color=Highlight>Nowhere to Run!</color> gives {0} Resonance Liberation DMG Bonus for {1}s.",
+      "Param": [
+        "15%",
+        "10"
+      ],
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconDevice/T_IconDevice_LupaM5_UI.T_IconDevice_LupaM5_UI"
+    },
+    "6": {
+      "Name": "To the Brightest Flaming Star",
+      "Desc": "- The damage dealt by Forte Circuit <color=Highlight>Dance With the Wolf: Climax</color>, Resonance Liberation <color=Highlight>Fire-Kissed Glory</color>, and Intro Skill <color=Highlight>Nowhere to Run!</color> ignores {0} of the target's DEF.\n- Resonance Skill <color=Highlight>Feral Fang</color> restores {1} points of <te href=850174>Wolflame</te> on hit, triggered once per {2}s.\n- Forte Circuit <color=Highlight>Dance With the Wolf</color> is replaced with <color=Highlight>Dance With the Wolf: Climax</color>. <color=Highlight>Dance With the Wolf: Climax</color> can be performed when Lupa is not in <color=Highlight><te href=850177>Burning Matchpoint</te></color> state.\n- Casting Intro Skill <color=Highlight>Nowhere to Run!</color> no longer ends <color=Highlight><te href=850176>Pack Hunt</te></color> and <color=Highlight><te href=850178>Glory</te></color>.",
+      "Param": [
+        "30%",
+        "100",
+        "20"
+      ],
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconDevice/T_IconDevice_LupaM6_UI.T_IconDevice_LupaM6_UI"
+    }
+  },
+  "Ascensions": {
+    "1": [
+      {
+        "Key": 41100021,
+        "Value": 4
+      },
+      {
+        "Key": 2,
+        "Value": 5000
+      }
+    ],
+    "2": [
+      {
+        "Key": 41400214,
+        "Value": 3
+      },
+      {
+        "Key": 42601230,
+        "Value": 4
+      },
+      {
+        "Key": 41100022,
+        "Value": 4
+      },
+      {
+        "Key": 2,
+        "Value": 10000
+      }
+    ],
+    "3": [
+      {
+        "Key": 41400214,
+        "Value": 6
+      },
+      {
+        "Key": 42601230,
+        "Value": 8
+      },
+      {
+        "Key": 41100022,
+        "Value": 8
+      },
+      {
+        "Key": 2,
+        "Value": 15000
+      }
+    ],
+    "4": [
+      {
+        "Key": 41400214,
+        "Value": 9
+      },
+      {
+        "Key": 42601230,
+        "Value": 12
+      },
+      {
+        "Key": 41100023,
+        "Value": 4
+      },
+      {
+        "Key": 2,
+        "Value": 20000
+      }
+    ],
+    "5": [
+      {
+        "Key": 41400214,
+        "Value": 12
+      },
+      {
+        "Key": 42601230,
+        "Value": 16
+      },
+      {
+        "Key": 41100023,
+        "Value": 8
+      },
+      {
+        "Key": 2,
+        "Value": 40000
+      }
+    ],
+    "6": [
+      {
+        "Key": 41400214,
+        "Value": 16
+      },
+      {
+        "Key": 42601230,
+        "Value": 20
+      },
+      {
+        "Key": 41100024,
+        "Value": 4
+      },
+      {
+        "Key": 2,
+        "Value": 80000
+      }
+    ]
+  },
+  "Skin": {
+    "81001207": {
+      "Id": 81001207,
+      "SuitWeaponSkinId": 0,
+      "QualityId": 3,
+      "Name": "Lupa",
+      "TitleName": "Wildfire",
+      "SubDecName": "Lupa - Original Outfit",
+      "BgDescription": "This custom Septimont Gladiator suit has evolved through many revisions to match Lupa's unique fighting style. It bears silent witness to her countless solitary days and nights, as well as the thunderous cheers that followed her every triumph.",
+      "Background": "/Game/Aki/UI/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_lupa_UI.T_IconRole_Pile_lupa_UI",
+      "Portrait": "/Game/Aki/UI/UIResources/Common/Image/TitleDesc/Avatar/T_ActivityRoleLupa.T_ActivityRoleLupa",
+      "SortIndex": 0,
+      "FormationSpineSkel": "/Game/Aki/UI/UIResources/Common/Spine/Portraits/Portraits_Lupa/Portraits_Lupa.Portraits_Lupa-data",
+      "FormationSpineAtlas": "/Game/Aki/UI/UIResources/Common/Spine/Portraits/Portraits_Lupa/Portraits_Lupa.Portraits_Lupa-atlas"
+    }
+  },
+  "Forte": {
+    "SkillInputList": {
+      "120701": {
+        "Desc": "Heavy Attack - Wolf's Gnawing: With at least 50 points of Wolflame, hold {0}.",
+        "InputList": [
+          "攻击"
+        ]
+      },
+      "120702": {
+        "Desc": "Heavy Attack - Wolf's Claw: With at least 50 points of Wolflame and 1 point of Wolfaith, hold {0}.",
+        "InputList": [
+          "攻击"
+        ]
+      },
+      "120703": {
+        "Desc": "Basic Attack - Starfall: Hold {0} when in mid-air and {Cus:Ipt,Touch=tap PC=click Gamepad=press} {0} when landed.",
+        "InputList": [
+          "攻击"
+        ]
+      },
+      "120704": {
+        "Desc": "Set the Arena Ablaze: When Wolfaith is full, {Cus:Ipt,Touch=tap PC=press Gamepad=press} {0} and switch to another Resonator, then {Cus:Ipt,Touch=tap PC=press Gamepad=press} {1}.",
+        "InputList": [
+          "技能1",
+          "大招"
+        ]
+      },
+      "120705": {
+        "Desc": "Pack Hunt: Lupa's Resonance Liberation grants Pack Hunt to other Resonators in the team, providing DMG Bonus increases. Intro Skills performed by all Resonators in the team enhance Pack Hunt's effect.",
+        "InputList": [
+          "大招"
+        ]
+      },
+      "120706": {
+        "Desc": "Intro Skill - Nowhere to Run!: Available when Pack Hunt is fully enhanced.",
+        "InputList": [
+          "攻击"
+        ]
+      }
+    },
+    "Icon": "/Game/Aki/UI/UIResources/UiRole/Image/T_RoleSkillTreeLupa.T_RoleSkillTreeLupa",
+    "DescList": [
+      "Hitting a target restores Forte Gauge - Wolflame. With at least 50 points of Wolflame, Heavy Attack and Mid-air Attack Stage 3 restore Wolfaith at the cost of Wolflame.",
+      "Enhanced Resonance Skill is available when Wolfaith is full."
+    ]
+  },
+  "Live2d": "Lupa",
+  "Audio": "lupa",
+  "Recommend": {
+    "Weapon": [
+      21010036,
+      21010015,
+      21010074
+    ],
+    "Property": "",
+    "Param": []
+  }
+}

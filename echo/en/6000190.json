@@ -1,0 +1,102 @@
+{
+  "Id": 6000190,
+  "Code": "T01-",
+  "Name": "Reactor Husk",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34022_UI.T_IconMonsterHead_34022_UI",
+  "Skill": {
+    "Desc": "Transform into Reactor Husk, jumping into the air and unleashing a heavy slash that deals {0} Fusion DMG to enemies.\n\nThe Resonator with this Echo equipped in their main slot gain {1} Energy Regen.\n\nCD: {4}s.",
+    "SimpleDesc": "Transform into Reactor Husk to attack enemies, dealing Fusion DMG.\n\nThe Resonator with this Echo equipped in their main slot gains Energy Regen.",
+    "Param": [
+      [
+        "195.00%",
+        "10.00%",
+        "10%",
+        "20",
+        "20"
+      ],
+      [
+        "234.00%",
+        "10.00%",
+        "10%",
+        "20",
+        "20"
+      ],
+      [
+        "273.00%",
+        "10.00%",
+        "10%",
+        "20",
+        "20"
+      ],
+      [
+        "312.00%",
+        "10.00%",
+        "10%",
+        "20",
+        "20"
+      ],
+      [
+        "351.00%",
+        "10.00%",
+        "10%",
+        "20",
+        "20"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_34022_UI.T_MstSkil_34022_UI",
+    "Damage": {
+      "28003401": {
+        "Element": 2,
+        "RelatedProperty": "ATK",
+        "Type": 5,
+        "RateLv": [
+          19500,
+          23400,
+          27300,
+          31200,
+          35100
+        ],
+        "Energy": 487,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 19500
+      }
+    }
+  },
+  "Group": {
+    "25": {
+      "Id": 25,
+      "Name": "Halo of Starry Radiance",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriCureWeakness.T_IconElementAttriCureWeakness",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "Healing Bonus + {0}.",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "When healing a Resonator in the team, every {0} of Off-Tune Buildup Rate grants a {1} ATK increase to all Resonators in the team for {3}s, up to {2}. Effects of the same name cannot be stacked.",
+          "Param": [
+            "1%",
+            "0.2%",
+            "25%",
+            "4"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 2,
+  "MonsterInfo": 340000220
+}

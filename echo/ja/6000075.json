@@ -1,0 +1,108 @@
+{
+  "Id": 6000075,
+  "Code": "W66-",
+  "Name": "闇夜の騎士",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_32024_UI.T_IconMonsterHead_32024_UI",
+  "Skill": {
+    "Desc": "音骸スキルを発動すると、闇夜の騎士に変身し、ジャンプして刺し攻撃で敵に{0}の消滅ダメージを与える。\nクールタイム：{1}秒",
+    "SimpleDesc": "闇夜の騎士に変身し、ジャンプして刺し攻撃で敵に消滅ダメージを与える。",
+    "Param": [
+      [
+        "149.00%",
+        "15"
+      ],
+      [
+        "178.80%",
+        "15"
+      ],
+      [
+        "208.60%",
+        "15"
+      ],
+      [
+        "238.40%",
+        "15"
+      ],
+      [
+        "268.20%",
+        "15"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/MstSkil_32024_UI.MstSkil_32024_UI",
+    "Damage": {
+      "20005801": {
+        "Element": 6,
+        "RelatedProperty": "攻撃力",
+        "Type": 5,
+        "RateLv": [
+          14900,
+          17880,
+          20860,
+          23840,
+          26820
+        ],
+        "Energy": 372,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 14900
+      }
+    }
+  },
+  "Group": {
+    "12": {
+      "Id": 12,
+      "Name": "ミッドナイト・ベール",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriDarkAssist.T_IconElementAttriDarkAssist",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "消滅ダメージが{0}アップ",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "終奏スキルで退場時、追加で周囲の敵に{0}の消滅ダメージを与え、このダメージは終奏スキルダメージと見なされる。次の登場キャラに{1}の消滅ダメージアップ効果を付与し、{2}秒間持続。",
+          "Param": [
+            "480%",
+            "15%",
+            "15"
+          ]
+        }
+      }
+    },
+    "13": {
+      "Id": 13,
+      "Name": "セレッシャル・アンサム",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriCooperate.T_IconElementAttriCooperate",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "共鳴効率が{0}アップ",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "装備キャラの協同攻撃によるダメージが{0}アップ。協同攻撃がクリティカル時、チーム内の登場キャラの攻撃力を{1}アップさせ、{2}秒間持続。",
+          "Param": [
+            "80%",
+            "20%",
+            "4"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 1,
+  "MonsterInfo": 320000240
+}

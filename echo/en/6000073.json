@@ -1,0 +1,114 @@
+{
+  "Id": 6000073,
+  "Code": "W64-",
+  "Name": "Questless Knight",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_32022_UI.T_IconMonsterHead_32022_UI",
+  "Skill": {
+    "Desc": "Transform into Questless Knight and smash the surrounding enemies, dealing {0} Electro DMG.\nCD: {1}s.",
+    "SimpleDesc": "Transform into Questless Knight and deal Electro DMG to enemies.",
+    "Param": [
+      [
+        "174.00%",
+        "20"
+      ],
+      [
+        "208.80%",
+        "20"
+      ],
+      [
+        "243.60%",
+        "20"
+      ],
+      [
+        "278.40%",
+        "20"
+      ],
+      [
+        "313.20%",
+        "20"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/MstSkil_32022_UI.MstSkil_32022_UI",
+    "Damage": {
+      "20005601": {
+        "Element": 3,
+        "RelatedProperty": "ATK",
+        "Type": 5,
+        "RateLv": [
+          17400,
+          20880,
+          24360,
+          27840,
+          31320
+        ],
+        "Energy": 435,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 17400
+      }
+    }
+  },
+  "Group": {
+    "10": {
+      "Id": 10,
+      "Name": "Frosty Resolve",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriIceUltimateSkill.T_IconElementAttriIceUltimateSkill",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "Resonance Skill DMG + {0}",
+          "Param": [
+            "12%"
+          ]
+        },
+        "5": {
+          "Desc": "Casting Resonance Skill grants {0} Glacio DMG Bonus for {1}s and casting Resonance Liberation increases Resonance Skill DMG by {2}, lasting for {3}s. This effect stacks up to {4} times.",
+          "Param": [
+            "22.5%",
+            "15",
+            "18%",
+            "5",
+            "2"
+          ]
+        }
+      }
+    },
+    "12": {
+      "Id": 12,
+      "Name": "Midnight Veil",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriDarkAssist.T_IconElementAttriDarkAssist",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "Havoc DMG + {0}",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "When Outro Skill is triggered, deal additional {0} Havoc DMG to surrounding enemies, considered Outro Skill DMG, and grant the incoming Resonator {1} Havoc DMG Bonus for {2}s.",
+          "Param": [
+            "480%",
+            "15%",
+            "15"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 1,
+  "MonsterInfo": 320000220,
+  "Phantom": {
+    "Name": "Phantom: Questless Knight",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_SG_32022_UI.T_IconMonsterGoods_SG_32022_UI"
+  }
+}

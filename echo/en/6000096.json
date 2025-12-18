@@ -1,0 +1,149 @@
+{
+  "Id": 6000096,
+  "Code": "S56-",
+  "Name": "Rage Against the Statue",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_32031_UI.T_IconMonsterHead_32031_UI",
+  "Skill": {
+    "Desc": "Transform into Rage Against the Statue to attack enemies, dealing {0} Spectro DMG. Hold the Echo Skill to maintain the Echo form and charge towards enemies, dealing {1} Spectro DMG.\nCD: {2}s.",
+    "SimpleDesc": "Transform into Rage Against the Statue and deal Spectro DMG to enemies. Hold the Echo Skill to charge towards enemies, dealing Spectro DMG.",
+    "Param": [
+      [
+        "174.00%",
+        "261.00%",
+        "20"
+      ],
+      [
+        "208.80%",
+        "313.20%",
+        "20"
+      ],
+      [
+        "243.60%",
+        "365.40%",
+        "20"
+      ],
+      [
+        "278.40%",
+        "417.60%",
+        "20"
+      ],
+      [
+        "313.20%",
+        "469.80%",
+        "20"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_Mstskil_31031_UI.T_Mstskil_31031_UI",
+    "Damage": {
+      "20008001": {
+        "Element": 5,
+        "RelatedProperty": "ATK",
+        "Type": 5,
+        "RateLv": [
+          17400,
+          20880,
+          24360,
+          27840,
+          31320
+        ],
+        "Energy": 435,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 17400
+      },
+      "20008002": {
+        "Element": 5,
+        "RelatedProperty": "ATK",
+        "Type": 5,
+        "RateLv": [
+          26100,
+          31320,
+          36540,
+          41760,
+          46980
+        ],
+        "Energy": 652,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 26100
+      }
+    }
+  },
+  "Group": {
+    "11": {
+      "Id": 11,
+      "Name": "Eternal Radiance",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriLightError.T_IconElementAttriLightError",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "Spectro DMG + {0}",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "Inflicting Spectro Frazzle on enemies increases Crit. Rate by {0} for {1}s. Attacking enemies inflicted with {2} stacks of Spectro Frazzle grants {3} Spectro DMG Bonus for {4}s.",
+          "Param": [
+            "20%",
+            "15",
+            "10",
+            "15%",
+            "15"
+          ]
+        }
+      }
+    },
+    "16": {
+      "Id": 16,
+      "Name": "Gusts of Welkin",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriWindError.T_IconElementAttriWindError",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "Aero DMG + {0}",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "Inflicting Aero Erosion upon enemies increases Aero DMG for all Resonators in the team by {0}, and for the Resonator triggering this effect by an additional {1}, lasting for {2}s.",
+          "Param": [
+            "15%",
+            "15%",
+            "20"
+          ]
+        }
+      }
+    },
+    "21": {
+      "Id": 21,
+      "Name": "Law of Harmony",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriSupport.T_IconElementAttriSupport",
+      "Color": "FFFFFF00",
+      "Set": {
+        "3": {
+          "Desc": "Casting Echo Skill grants {0} Heavy Attack DMG Bonus to the caster for {1}s.\nAdditionally, all Resonators in the team gain {2} Echo Skill DMG Bonus for {4}s, stacking up to {3} times. Echoes of the same name can only trigger this effect once. The record of Echo triggering this effect is cleared along with this effect. At {3} stacks, casting Echo Skill again resets the duration of this effect.",
+          "Param": [
+            "30%",
+            "4",
+            "4%",
+            "4",
+            "30"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 1,
+  "MonsterInfo": 320000310
+}

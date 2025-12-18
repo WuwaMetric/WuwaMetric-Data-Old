@@ -1,0 +1,110 @@
+{
+  "Id": 6000061,
+  "Code": "H23-",
+  "Name": "風鬣狼",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31037_UI.T_IconMonsterHead_31037_UI",
+  "Skill": {
+    "Desc": "音骸スキルを発動すると、風鬣狼を召喚して近くにいるチームメンバーに{0}のHPを回復させる、最大3回まで。\nクールタイム：{1}秒",
+    "SimpleDesc": "風鬣狼を召喚して近くにいるチームメンバーのHPを回復させる。",
+    "Param": [
+      [
+        "1.50%",
+        "8"
+      ],
+      [
+        "1.80%",
+        "8"
+      ],
+      [
+        "2.10%",
+        "8"
+      ],
+      [
+        "2.40%",
+        "8"
+      ],
+      [
+        "2.70%",
+        "8"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/MstSkil_32037_UI.MstSkil_32037_UI",
+    "Damage": {
+      "20007501": {
+        "Element": 0,
+        "RelatedProperty": "HP",
+        "Type": 5,
+        "RateLv": [
+          150,
+          180,
+          210,
+          240,
+          270
+        ],
+        "Energy": 0,
+        "ElementPower": 0,
+        "HardnessLv": 0,
+        "ToughLv": 0
+      }
+    }
+  },
+  "Group": {
+    "10": {
+      "Id": 10,
+      "Name": "フロステッド・ハート",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriIceUltimateSkill.T_IconElementAttriIceUltimateSkill",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "共鳴スキルダメージが{0}アップ",
+          "Param": [
+            "12%"
+          ]
+        },
+        "5": {
+          "Desc": "共鳴スキル発動時、自身の凝縮ダメージが{0}アップ、{1}秒間持続；共鳴解放発動時、自身の共鳴スキルダメージが{2}アップ、{3}秒間持続、最大{4}スタック。",
+          "Param": [
+            "22.5%",
+            "15",
+            "18%",
+            "5",
+            "2"
+          ]
+        }
+      }
+    },
+    "13": {
+      "Id": 13,
+      "Name": "セレッシャル・アンサム",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriCooperate.T_IconElementAttriCooperate",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "共鳴効率が{0}アップ",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "装備キャラの協同攻撃によるダメージが{0}アップ。協同攻撃がクリティカル時、チーム内の登場キャラの攻撃力を{1}アップさせ、{2}秒間持続。",
+          "Param": [
+            "80%",
+            "20%",
+            "4"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 0,
+  "MonsterInfo": 310000370
+}

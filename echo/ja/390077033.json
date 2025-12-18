@@ -1,0 +1,159 @@
+{
+  "Id": 390077033,
+  "Code": "H49-",
+  "Name": "闇鬣狼",
+  "Type": "異変植物",
+  "Intensity": "巨浪級",
+  "Place": "瑝瓏",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_984_UI.T_IconMonsterGoods_984_UI",
+  "Skill": {
+    "Desc": "音骸スキルを発動すると、闇鬣狼に変身し、尻尾で最大2回の攻撃を行う。毎回敵に{0}の消滅ダメージを与え、敵に命中すると{1}の消滅ダメージを1回追加。\nクールタイム：{2}秒",
+    "SimpleDesc": "闇鬣狼に変身し、尻尾で攻撃し、消滅ダメージを与える。",
+    "Param": [
+      [
+        "72.90%",
+        "48.60%",
+        "15"
+      ],
+      [
+        "83.84%",
+        "55.89%",
+        "15"
+      ],
+      [
+        "94.77%",
+        "63.18%",
+        "15"
+      ],
+      [
+        "105.71%",
+        "70.47%",
+        "15"
+      ],
+      [
+        "116.64%",
+        "77.76%",
+        "15"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_984_UI.T_MstSkil_984_UI",
+    "Damage": {
+      "20003701": {
+        "Element": 6,
+        "RelatedProperty": "攻撃力",
+        "Type": 5,
+        "RateLv": [
+          7290,
+          8383,
+          9477,
+          10570,
+          11664
+        ],
+        "Energy": 182,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 7290
+      },
+      "20003702": {
+        "Element": 6,
+        "RelatedProperty": "攻撃力",
+        "Type": 5,
+        "RateLv": [
+          4860,
+          5589,
+          6318,
+          7047,
+          7776
+        ],
+        "Energy": 121,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 4860
+      },
+      "20003703": {
+        "Element": 6,
+        "RelatedProperty": "攻撃力",
+        "Type": 5,
+        "RateLv": [
+          7290,
+          8383,
+          9477,
+          10570,
+          11664
+        ],
+        "Energy": 182,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 7290
+      },
+      "20003704": {
+        "Element": 6,
+        "RelatedProperty": "攻撃力",
+        "Type": 5,
+        "RateLv": [
+          4860,
+          5589,
+          6318,
+          7047,
+          7776
+        ],
+        "Energy": 121,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 4860
+      }
+    }
+  },
+  "Group": {
+    "2": {
+      "Id": 2,
+      "Name": "山を轟かせる崩火",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriFire.T_IconElementAttriFire",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "焦熱ダメージが10%アップ",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "共鳴スキルを発動する時、焦熱ダメージが30%アップ、この効果は15秒間持続する",
+          "Param": [
+            "30%"
+          ]
+        }
+      }
+    },
+    "6": {
+      "Id": 6,
+      "Name": "二度と輝かない沈日",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriDark.T_IconElementAttriDark",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "消滅ダメージが10%アップ",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "通常攻撃、重撃を行う時、消滅ダメージは7.5%アップ、この効果は最大4スタック、15秒間持続",
+          "Param": [
+            "6%",
+            "5",
+            "15"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 1,
+  "MonsterInfo": 320000100
+}

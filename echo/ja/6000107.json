@@ -1,0 +1,108 @@
+{
+  "Id": 6000107,
+  "Code": "H29-",
+  "Name": "ドレイクの幼体・焦熱",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31058_UI.T_IconMonsterHead_31058_UI",
+  "Skill": {
+    "Desc": "音骸スキルを発動すると、ドレイクの幼体・焦熱を召喚して{0}の焦熱ダメージを5回与える。\nクールタイム：{1}秒",
+    "SimpleDesc": "ドレイクの幼体・焦熱を召喚して焦熱ダメージを与える。",
+    "Param": [
+      [
+        "14.40%",
+        "8"
+      ],
+      [
+        "17.28%",
+        "8"
+      ],
+      [
+        "20.16%",
+        "8"
+      ],
+      [
+        "23.04%",
+        "8"
+      ],
+      [
+        "25.92%",
+        "8"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_31058_UI.T_MstSkil_31058_UI",
+    "Damage": {
+      "20008901": {
+        "Element": 2,
+        "RelatedProperty": "攻撃力",
+        "Type": 5,
+        "RateLv": [
+          1440,
+          1728,
+          2016,
+          2304,
+          2592
+        ],
+        "Energy": 36,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 1440
+      }
+    }
+  },
+  "Group": {
+    "17": {
+      "Id": 17,
+      "Name": "グロリアス・ウィンド",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriWindErrorA.T_IconElementAttriWindErrorA",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "気動ダメージが{0}アップ",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "【風蝕効果】が付与されている敵への攻撃が命中時、自身のクリティカル率が{0}アップ、気動ダメージが{1}アップ、{2}秒間持続。",
+          "Param": [
+            "10%",
+            "30%",
+            "10"
+          ]
+        }
+      }
+    },
+    "18": {
+      "Id": 18,
+      "Name": "ハウリング・フレイム",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriFireUltimateSkill.T_IconElementAttriFireUltimateSkill",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "焦熱ダメージが{0}アップ",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "共鳴解放発動時、チーム内全員の焦熱ダメージが{0}アップ、自身の共鳴解放ダメージが{1}アップ、{2}秒間持続。",
+          "Param": [
+            "15%",
+            "20%",
+            "35"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 0,
+  "MonsterInfo": 310000580
+}

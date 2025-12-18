@@ -1,0 +1,90 @@
+{
+  "Id": 6000115,
+  "Code": "W93-",
+  "Name": "ナイトメア・ヘカテー",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34016_UI.T_IconMonsterHead_34016_UI",
+  "Skill": {
+    "Desc": "音骸スキルを発動すると、ナイトメア・ヘカテーに変身し、上に飛んでから、下に向かって叩き込み、1段につき{0}の消滅ダメージを3段与える。\nメイン音骸スロットに装備時、自身の消滅ダメージが{1}アップ、音骸スキルダメージが{2}アップ。\nクールタイム：{3}秒",
+    "SimpleDesc": "ナイトメア・ヘカテーに変身し、上に飛んでから、下に向かって叩き込み、3段の消滅ダメージを与える。\nメイン音骸スロットに装備時、自身の消滅ダメージと音骸スキルダメージがアップ。",
+    "Param": [
+      [
+        "84.66%",
+        "12.00%",
+        "20.00%",
+        "25"
+      ],
+      [
+        "101.59%",
+        "12.00%",
+        "20.00%",
+        "25"
+      ],
+      [
+        "118.52%",
+        "12.00%",
+        "20.00%",
+        "25"
+      ],
+      [
+        "135.46%",
+        "12.00%",
+        "20.00%",
+        "25"
+      ],
+      [
+        "152.39%",
+        "12.00%",
+        "20.00%",
+        "25"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/MstSkil_34010_UI.MstSkil_34010_UI",
+    "Damage": {
+      "28002901": {
+        "Element": 6,
+        "RelatedProperty": "攻撃力",
+        "Type": 5,
+        "RateLv": [
+          8466,
+          10159,
+          11852,
+          13545,
+          15238
+        ],
+        "Energy": 105,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 8466
+      }
+    }
+  },
+  "Group": {
+    "19": {
+      "Id": 19,
+      "Name": "ロスト・ドリーム",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriDarkVision.T_IconElementAttriDarkVision",
+      "Color": "FFFFFF00",
+      "Set": {
+        "3": {
+          "Desc": "キャラの共鳴エネルギーが{0}の時、自身のクリティカル率が{1}アップ、音骸スキルダメージが{2}アップ。",
+          "Param": [
+            "0",
+            "20%",
+            "35%"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 3,
+  "MonsterInfo": 340000160
+}

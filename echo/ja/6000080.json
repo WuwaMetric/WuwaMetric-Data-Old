@@ -1,0 +1,119 @@
+{
+  "Id": 6000080,
+  "Code": "W70-",
+  "Name": "ヴィトルムダンサー",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_32029_UI.T_IconMonsterHead_32029_UI",
+  "Skill": {
+    "Desc": "音骸スキルを発動すると、ヴィトルムダンサーに変身し、周囲の敵を攻撃して{0}の電導ダメージを与える。\nメイン音骸スロットに装備時、自身の電導ダメージが{1}アップ。\nクールタイム：{2}秒",
+    "SimpleDesc": "ヴィトルムダンサーに変身し、周囲の敵を攻撃して電導ダメージを与える。メイン音骸スロットに装備時、自身の電導ダメージがアップ。",
+    "Param": [
+      [
+        "174.00%",
+        "12.00%",
+        "20"
+      ],
+      [
+        "208.80%",
+        "12.00%",
+        "20"
+      ],
+      [
+        "243.60%",
+        "12.00%",
+        "20"
+      ],
+      [
+        "278.40%",
+        "12.00%",
+        "20"
+      ],
+      [
+        "313.20%",
+        "12.00%",
+        "20"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/MstSkil_32029_UI.MstSkil_32029_UI",
+    "Damage": {
+      "20006301": {
+        "Element": 3,
+        "RelatedProperty": "攻撃力",
+        "Type": 5,
+        "RateLv": [
+          17400,
+          20880,
+          24360,
+          27840,
+          31320
+        ],
+        "Energy": 435,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 17400
+      }
+    }
+  },
+  "Group": {
+    "11": {
+      "Id": 11,
+      "Name": "エターナル・ライト",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriLightError.T_IconElementAttriLightError",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "回折ダメージが{0}アップ",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "敵に【騒光効果】を付与時、自身のクリティカル率が{0}アップ、{1}秒間持続。【騒光効果】が{2}スタック付与された敵を攻撃時、自身の回折ダメージが{3}アップ、{4}秒間持続。",
+          "Param": [
+            "20%",
+            "15",
+            "10",
+            "15%",
+            "15"
+          ]
+        }
+      }
+    },
+    "13": {
+      "Id": 13,
+      "Name": "セレッシャル・アンサム",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriCooperate.T_IconElementAttriCooperate",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "共鳴効率が{0}アップ",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "装備キャラの協同攻撃によるダメージが{0}アップ。協同攻撃がクリティカル時、チーム内の登場キャラの攻撃力を{1}アップさせ、{2}秒間持続。",
+          "Param": [
+            "80%",
+            "20%",
+            "4"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 1,
+  "MonsterInfo": 320000290,
+  "Phantom": {
+    "Name": "異相・ヴィトルムダンサー",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_SG_32029_UI.T_IconMonsterGoods_SG_32029_UI"
+  }
+}

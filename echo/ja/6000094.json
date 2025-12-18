@@ -1,0 +1,126 @@
+{
+  "Id": 6000094,
+  "Code": "S11-",
+  "Name": "ミカーレの岩塊",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31050_UI.T_IconMonsterHead_31050_UI",
+  "Skill": {
+    "Desc": "音骸スキルを発動すると、ミカーレの岩塊を召喚。ミカーレの岩塊は共鳴を発生し、近くにいるチームメンバーに{0}のHPを回復させる、最大5回まで。\nクールタイム：{1}秒",
+    "SimpleDesc": "ミカーレの岩塊を召喚して近くにいるチームメンバーのHPを回復させる。",
+    "Param": [
+      [
+        "1.40%",
+        "15"
+      ],
+      [
+        "1.68%",
+        "15"
+      ],
+      [
+        "1.96%",
+        "15"
+      ],
+      [
+        "2.24%",
+        "15"
+      ],
+      [
+        "2.52%",
+        "15"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_Mstskil_31050_UI.T_Mstskil_31050_UI",
+    "Damage": {
+      "20007801": {
+        "Element": 0,
+        "RelatedProperty": "HP",
+        "Type": 5,
+        "RateLv": [
+          140,
+          168,
+          196,
+          224,
+          252
+        ],
+        "Energy": 0,
+        "ElementPower": 0,
+        "HardnessLv": 0,
+        "ToughLv": 0
+      }
+    }
+  },
+  "Group": {
+    "13": {
+      "Id": 13,
+      "Name": "セレッシャル・アンサム",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriCooperate.T_IconElementAttriCooperate",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "共鳴効率が{0}アップ",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "装備キャラの協同攻撃によるダメージが{0}アップ。協同攻撃がクリティカル時、チーム内の登場キャラの攻撃力を{1}アップさせ、{2}秒間持続。",
+          "Param": [
+            "80%",
+            "20%",
+            "4"
+          ]
+        }
+      }
+    },
+    "14": {
+      "Id": 14,
+      "Name": "タイズターニング・ヴァラ",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriEnergy.T_IconElementAttriEnergy",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "共鳴効率が{0}アップ",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "キャラの攻撃力が{0}アップ、共鳴効率が{1}以上時、装備キャラの全属性ダメージが{2}アップ。",
+          "Param": [
+            "15%",
+            "250%",
+            "30%"
+          ]
+        }
+      }
+    },
+    "20": {
+      "Id": 20,
+      "Name": "グローリーフォージ・クラウン",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriShield.T_IconElementAttriShield",
+      "Color": "FFFFFF00",
+      "Set": {
+        "3": {
+          "Desc": "キャラがシールドを獲得時、自身の攻撃力が{0}、クリティカルダメージが{1}アップ。この効果は最大{2}スタック、{3}秒間持続、{4}秒ごとに1回発動可能。",
+          "Param": [
+            "6%",
+            "4%",
+            "5",
+            "4",
+            "0.5"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 0,
+  "MonsterInfo": 310000500
+}

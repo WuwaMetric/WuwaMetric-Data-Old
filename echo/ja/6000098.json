@@ -1,0 +1,177 @@
+{
+  "Id": 6000098,
+  "Code": "W32-",
+  "Name": "ガルディア",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31052_UI.T_IconMonsterHead_31052_UI",
+  "Skill": {
+    "Desc": "音骸スキルを発動すると、ガルディアに変身し、周囲の目標に{0}の物理ダメージを1回与える。\n音骸スキルを長押しで変身状態を持続させ、一定時間後に斬撃してさらに前へ斬撃波を放つ。斬撃は{1}の物理ダメージを与え、斬撃波は持続的に{3}の物理ダメージを最大{2}回与える。\nクールタイム：{4}秒",
+    "SimpleDesc": "ガルディアに変身し、敵に物理ダメージを与える。音骸スキルを長押しすることで遠距離攻撃を発動でき、敵に物理ダメージを与える。",
+    "Param": [
+      [
+        "149.00%",
+        "149.00%",
+        "15",
+        "9.93%",
+        "15"
+      ],
+      [
+        "178.80%",
+        "178.80%",
+        "15",
+        "11.92%",
+        "15"
+      ],
+      [
+        "208.60%",
+        "208.60%",
+        "15",
+        "13.90%",
+        "15"
+      ],
+      [
+        "238.40%",
+        "238.40%",
+        "15",
+        "15.89%",
+        "15"
+      ],
+      [
+        "268.20%",
+        "268.20%",
+        "15",
+        "17.87%",
+        "15"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_31052_UI.T_MstSkil_31052_UI",
+    "Damage": {
+      "20008201": {
+        "Element": 0,
+        "RelatedProperty": "攻撃力",
+        "Type": 5,
+        "RateLv": [
+          14900,
+          17880,
+          20860,
+          23840,
+          26820
+        ],
+        "Energy": 372,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 14900
+      },
+      "20008202": {
+        "Element": 0,
+        "RelatedProperty": "攻撃力",
+        "Type": 5,
+        "RateLv": [
+          14900,
+          17880,
+          20860,
+          23840,
+          26820
+        ],
+        "Energy": 372,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 14900
+      },
+      "20008203": {
+        "Element": 0,
+        "RelatedProperty": "攻撃力",
+        "Type": 5,
+        "RateLv": [
+          993,
+          1192,
+          1390,
+          1589,
+          1788
+        ],
+        "Energy": 24,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 993
+      }
+    }
+  },
+  "Group": {
+    "12": {
+      "Id": 12,
+      "Name": "ミッドナイト・ベール",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriDarkAssist.T_IconElementAttriDarkAssist",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "消滅ダメージが{0}アップ",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "終奏スキルで退場時、追加で周囲の敵に{0}の消滅ダメージを与え、このダメージは終奏スキルダメージと見なされる。次の登場キャラに{1}の消滅ダメージアップ効果を付与し、{2}秒間持続。",
+          "Param": [
+            "480%",
+            "15%",
+            "15"
+          ]
+        }
+      }
+    },
+    "16": {
+      "Id": 16,
+      "Name": "バウンドレス・スカイ",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriWindError.T_IconElementAttriWindError",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "気動ダメージが{0}アップ",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "敵に【風蝕効果】を付与時、チーム内全員の気動ダメージが{0}アップ、自身の気動ダメージが追加で{1}アップ、{2}秒間持続。",
+          "Param": [
+            "15%",
+            "15%",
+            "20"
+          ]
+        }
+      }
+    },
+    "18": {
+      "Id": 18,
+      "Name": "ハウリング・フレイム",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriFireUltimateSkill.T_IconElementAttriFireUltimateSkill",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "焦熱ダメージが{0}アップ",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "共鳴解放発動時、チーム内全員の焦熱ダメージが{0}アップ、自身の共鳴解放ダメージが{1}アップ、{2}秒間持続。",
+          "Param": [
+            "15%",
+            "20%",
+            "35"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 0,
+  "MonsterInfo": 310000520
+}

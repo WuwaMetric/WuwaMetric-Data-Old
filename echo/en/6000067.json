@@ -1,0 +1,130 @@
+{
+  "Id": 6000067,
+  "Code": "R04-",
+  "Name": "Fae Ignis",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31043_UI.T_IconMonsterHead_31043_UI",
+  "Skill": {
+    "Desc": "Summon a Fae Ignis to attack enemies, dealing {0} Havoc DMG.\nCD: {1}s.",
+    "SimpleDesc": "Summon a Fae Ignis to deal Havoc DMG to enemies.",
+    "Param": [
+      [
+        "72.00%",
+        "8"
+      ],
+      [
+        "86.40%",
+        "8"
+      ],
+      [
+        "100.80%",
+        "8"
+      ],
+      [
+        "115.20%",
+        "8"
+      ],
+      [
+        "129.60%",
+        "8"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/MstSkil_31043_UI.MstSkil_31043_UI",
+    "Damage": {
+      "20006801": {
+        "Element": 6,
+        "RelatedProperty": "ATK",
+        "Type": 5,
+        "RateLv": [
+          7200,
+          8640,
+          10080,
+          11520,
+          12960
+        ],
+        "Energy": 180,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 7200
+      }
+    }
+  },
+  "Group": {
+    "11": {
+      "Id": 11,
+      "Name": "Eternal Radiance",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriLightError.T_IconElementAttriLightError",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "Spectro DMG + {0}",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "Inflicting Spectro Frazzle on enemies increases Crit. Rate by {0} for {1}s. Attacking enemies inflicted with {2} stacks of Spectro Frazzle grants {3} Spectro DMG Bonus for {4}s.",
+          "Param": [
+            "20%",
+            "15",
+            "10",
+            "15%",
+            "15"
+          ]
+        }
+      }
+    },
+    "12": {
+      "Id": 12,
+      "Name": "Midnight Veil",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriDarkAssist.T_IconElementAttriDarkAssist",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "Havoc DMG + {0}",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "When Outro Skill is triggered, deal additional {0} Havoc DMG to surrounding enemies, considered Outro Skill DMG, and grant the incoming Resonator {1} Havoc DMG Bonus for {2}s.",
+          "Param": [
+            "480%",
+            "15%",
+            "15"
+          ]
+        }
+      }
+    },
+    "19": {
+      "Id": 19,
+      "Name": "Dream of the Lost",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriDarkVision.T_IconElementAttriDarkVision",
+      "Color": "FFFFFF00",
+      "Set": {
+        "3": {
+          "Desc": "Holding {0} Resonance Energy increases Crit. Rate by {1} and grants {2} Echo Skill DMG Bonus.",
+          "Param": [
+            "0",
+            "20%",
+            "35%"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 0,
+  "MonsterInfo": 310000430,
+  "Phantom": {
+    "Name": "Phantom: Fae Ignis",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_SG_31043_UI.T_IconMonsterGoods_SG_31043_UI"
+  }
+}

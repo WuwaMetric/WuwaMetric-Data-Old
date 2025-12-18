@@ -1,0 +1,111 @@
+{
+  "Id": 6000171,
+  "Code": "G04-",
+  "Name": "악몽 · 우글글",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31075_UI.T_IconMonsterHead_31075_UI",
+  "Skill": {
+    "Desc": "에코 어빌리티를 사용하여 우글글을 소환해 적에게 부딪히게 하여 적을 물어뜯는다. 부딪힌 적은 {0}의 인멸 피해를 받고 물어뜯긴 적은 {1}의 인멸 피해를 받으며 공진 수치가 지속적으로 감소한다. (지속 시간: {2}초, 총 감소량: {3} 감소됨)\n스킬 쿨타임: {4}초",
+    "SimpleDesc": "우글글을 소환한 후 적에게 부딪히고 물어뜯어 인멸 피해를 가하며, 적의 공진 수치를 감소시킨다",
+    "Param": [
+      [
+        "42.80%",
+        "64.20%",
+        "5",
+        "5.00%",
+        "15"
+      ],
+      [
+        "49.22%",
+        "73.83%",
+        "5",
+        "5.00%",
+        "15"
+      ],
+      [
+        "55.64%",
+        "83.46%",
+        "5",
+        "5.00%",
+        "15"
+      ],
+      [
+        "62.06%",
+        "93.09%",
+        "5",
+        "5.00%",
+        "15"
+      ],
+      [
+        "68.48%",
+        "102.72%",
+        "5",
+        "5.00%",
+        "15"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_Mstskil_095_UI.T_Mstskil_095_UI",
+    "Damage": {
+      "20000701": {
+        "Element": 6,
+        "RelatedProperty": "공격력",
+        "Type": 5,
+        "RateLv": [
+          4280,
+          4922,
+          5564,
+          6206,
+          6848
+        ],
+        "Energy": 107,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 4280
+      },
+      "20000702": {
+        "Element": 6,
+        "RelatedProperty": "공격력",
+        "Type": 5,
+        "RateLv": [
+          6420,
+          7383,
+          8346,
+          9309,
+          10272
+        ],
+        "Energy": 160,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 6420
+      }
+    }
+  },
+  "Group": {
+    "23": {
+      "Id": 23,
+      "Name": "운명을 붕괴시키는 현",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriQianXiao.T_IconElementAttriQianXiao",
+      "Color": "FFFFFF00",
+      "Set": {
+        "3": {
+          "Desc": "캐릭터가 적에게 「암흑 효과」 추가 시, 자신의 공격력이 {0} 증가되고 공명 해방 피해 보너스가 {1} 증가되며 {2}초간 지속된다",
+          "Param": [
+            "20%",
+            "30%",
+            "5"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 0,
+  "MonsterInfo": 310000750
+}

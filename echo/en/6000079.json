@@ -1,0 +1,149 @@
+{
+  "Id": 6000079,
+  "Code": "R41-",
+  "Name": "Chop Chop",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_32028_UI.T_IconMonsterHead_32028_UI",
+  "Skill": {
+    "Desc": "Summon a Chop Chop to perform a series of consecutive attacks. The first 6 strikes each deal {0} Fusion DMG and finishing strike deals {1} Fusion DMG.\nCD: {2}s.",
+    "SimpleDesc": "Summon a Chop Chop to unleash a succession of attacks, dealing Fusion DMG.",
+    "Param": [
+      [
+        "10.70%",
+        "42.80%",
+        "15"
+      ],
+      [
+        "12.84%",
+        "51.36%",
+        "15"
+      ],
+      [
+        "14.98%",
+        "59.92%",
+        "15"
+      ],
+      [
+        "17.12%",
+        "68.48%",
+        "15"
+      ],
+      [
+        "19.26%",
+        "77.04%",
+        "15"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/MstSkil_32028_UI.MstSkil_32028_UI",
+    "Damage": {
+      "20006201": {
+        "Element": 2,
+        "RelatedProperty": "ATK",
+        "Type": 5,
+        "RateLv": [
+          1070,
+          1284,
+          1498,
+          1712,
+          1926
+        ],
+        "Energy": 26,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 1070
+      },
+      "20006202": {
+        "Element": 2,
+        "RelatedProperty": "ATK",
+        "Type": 5,
+        "RateLv": [
+          4280,
+          5136,
+          5992,
+          6848,
+          7704
+        ],
+        "Energy": 107,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 4280
+      }
+    }
+  },
+  "Group": {
+    "13": {
+      "Id": 13,
+      "Name": "Empyrean Anthem",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriCooperate.T_IconElementAttriCooperate",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "Energy Regen + {0}",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "Increase the Resonator's Coordinated Attack DMG by {0}. Upon a critical hit of Coordinated Attack, increase the active Resonator's ATK by {1} for {2}s.",
+          "Param": [
+            "80%",
+            "20%",
+            "4"
+          ]
+        }
+      }
+    },
+    "14": {
+      "Id": 14,
+      "Name": "Tidebreaking Courage",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriEnergy.T_IconElementAttriEnergy",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "Energy Regen + {0}",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "Increase the Resonator's ATK by {0}. Reaching {1} Energy Regen increases all Attribute DMG by {2} for the Resonator.",
+          "Param": [
+            "15%",
+            "250%",
+            "30%"
+          ]
+        }
+      }
+    },
+    "19": {
+      "Id": 19,
+      "Name": "Dream of the Lost",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriDarkVision.T_IconElementAttriDarkVision",
+      "Color": "FFFFFF00",
+      "Set": {
+        "3": {
+          "Desc": "Holding {0} Resonance Energy increases Crit. Rate by {1} and grants {2} Echo Skill DMG Bonus.",
+          "Param": [
+            "0",
+            "20%",
+            "35%"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 1,
+  "MonsterInfo": 320000280,
+  "Phantom": {
+    "Name": "Phantom: Chop Chop",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_SG_32028_UI.T_IconMonsterGoods_SG_32028_UI"
+  }
+}

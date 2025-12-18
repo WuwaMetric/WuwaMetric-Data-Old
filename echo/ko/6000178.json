@@ -1,0 +1,110 @@
+{
+  "Id": 6000178,
+  "Code": "T01-",
+  "Name": "삐리릭",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31082_UI.T_IconMonsterHead_31082_UI",
+  "Skill": {
+    "Desc": "에코 어빌리티를 사용하여 삐리릭을 소환한 후, 회전으로 적을 공격하여 5단 {0}의 전도 피해를 입힌다.\n스킬 쿨타임: {1}초",
+    "SimpleDesc": "삐리릭을 소환하여 전도 피해를 입힌다",
+    "Param": [
+      [
+        "14.40%",
+        "8"
+      ],
+      [
+        "17.28%",
+        "8"
+      ],
+      [
+        "20.16%",
+        "8"
+      ],
+      [
+        "23.04%",
+        "8"
+      ],
+      [
+        "25.92%",
+        "8"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_31082_UI.T_MstSkil_31082_UI",
+    "Damage": {
+      "20011501": {
+        "Element": 3,
+        "RelatedProperty": "공격력",
+        "Type": 5,
+        "RateLv": [
+          1440,
+          1728,
+          2016,
+          2304,
+          2592
+        ],
+        "Energy": 7,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 1440
+      }
+    }
+  },
+  "Group": {
+    "24": {
+      "Id": 24,
+      "Name": "역광 속 눈부신 서약",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriLightWeakness.T_IconElementAttriLightWeakness",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "회절 피해가 {0} 증가된다",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "캐릭터가 반주 스킬 발동 후, 다음번 변주 스킬로 등장하는 캐릭터의 공격력이 {0} 증가된다. 조화도 파괴 증폭 1pt마다 추가로 공격력을 {1} 증가시키고, 최대 {2}까지 증가시키며, {3}초간 지속된다. 다른 캐릭터로 교체 시 해당 효과는 즉시 종료된다",
+          "Param": [
+            "15%",
+            "0.3%",
+            "15%",
+            "15"
+          ]
+        }
+      }
+    },
+    "26": {
+      "Id": 26,
+      "Name": "흐르는 금빛 속 진리의 답",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriAttackWeakness.T_IconElementAttriAttackWeakness",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "회절 피해가 {0} 증가된다",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "캐릭터가 일반 공격으로 피해를 입힐 시, 자신의 회절 피해가 {0} 증가되고, 해당 효과는 {1}스택 중첩이 가능하며, {2}초간 지속된다. {1}스택 중첩 시, 공명 해방을 발동하면 일반 공격 피해 보너스가 {3} 증가된다",
+          "Param": [
+            "10%",
+            "3",
+            "5",
+            "40%"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 0,
+  "MonsterInfo": 310000820
+}

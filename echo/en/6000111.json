@@ -1,0 +1,108 @@
+{
+  "Id": 6000111,
+  "Code": "W72-",
+  "Name": "Pilgrim's Shell",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_32034_UI.T_IconMonsterHead_32034_UI",
+  "Skill": {
+    "Desc": "Transform into a Pilgrim's Shell to attack nearby enemies, dealing {0} Aero DMG.\nCD: {1}s",
+    "SimpleDesc": "Transform into a Pilgrim's Shell to attack nearby enemies and deal Aero DMG.",
+    "Param": [
+      [
+        "149.00%",
+        "15"
+      ],
+      [
+        "178.80%",
+        "15"
+      ],
+      [
+        "208.60%",
+        "15"
+      ],
+      [
+        "238.40%",
+        "15"
+      ],
+      [
+        "268.20%",
+        "15"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_32034_UI.T_MstSkil_32034_UI",
+    "Damage": {
+      "20009301": {
+        "Element": 4,
+        "RelatedProperty": "ATK",
+        "Type": 5,
+        "RateLv": [
+          14900,
+          17880,
+          20860,
+          23840,
+          26820
+        ],
+        "Energy": 372,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 14900
+      }
+    }
+  },
+  "Group": {
+    "17": {
+      "Id": 17,
+      "Name": "Windward Pilgrimage",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriWindErrorA.T_IconElementAttriWindErrorA",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "Aero DMG + {0}",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "Hitting a target with Aero Erosion increases Crit. Rate by {0} and grants {1} Aero DMG Bonus, lasting for {2}s.",
+          "Param": [
+            "10%",
+            "30%",
+            "10"
+          ]
+        }
+      }
+    },
+    "18": {
+      "Id": 18,
+      "Name": "Flaming Clawprint",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriFireUltimateSkill.T_IconElementAttriFireUltimateSkill",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "Fusion DMG + {0}",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "Casting Resonance Liberation grants all Resonators in the team {0} Fusion DMG Bonus and the caster {1} Resonance Liberation DMG Bonus, lasting for {2}s.",
+          "Param": [
+            "15%",
+            "20%",
+            "35"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 1,
+  "MonsterInfo": 320000350
+}

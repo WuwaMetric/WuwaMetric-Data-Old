@@ -1,0 +1,4765 @@
+{
+  "Id": 1209,
+  "Rarity": 5,
+  "Weapon": 1,
+  "Element": 2,
+  "Tag": {
+    "1": {
+      "Name": "耐久・回復",
+      "Desc": "チームの耐久力を向上させる",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/RoleLabel/SP_RoleLabelA1.SP_RoleLabelA1",
+      "Color": "77ffb7"
+    },
+    "13": {
+      "Name": "ダメージブースト",
+      "Desc": "特定のチームメイトにダメージブースト効果を付与する",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/RoleLabel/SP_RoleLabelC7.SP_RoleLabelC7",
+      "Color": "ff7777"
+    },
+    "33": {
+      "Name": "震撃協和レスポンス",
+      "Desc": "震撃協和ダメージを与えることができる",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/RoleLabel/SP_RoleLabelI2.SP_RoleLabelI2",
+      "Color": "ff7777"
+    },
+    "35": {
+      "Name": "不協和値蓄積効率",
+      "Desc": "特定のチームメイトの不協和値蓄積効率をアップできる",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/RoleLabel/SP_RoleLabelG1.SP_RoleLabelG1",
+      "Color": "ff7777"
+    },
+    "36": {
+      "Name": "密集協和レスポンス",
+      "Desc": "自身の協和破壊増強に基づいて、与える最終ダメージアップ",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/RoleLabel/SP_RoleLabelH1.SP_RoleLabelH1",
+      "Color": "ff7777"
+    }
+  },
+  "Name": "モーニエ",
+  "NickName": "",
+  "Desc": "お楽しみに",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_61_UI.T_IconRoleHead256_61_UI",
+  "Background": "/Game/Aki/UI/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Moning_UI.T_IconRole_Pile_Moning_UI",
+  "BackgroundStand": "/Game/Aki/UI/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyBuling.T_ActivityRoleOntrialHalfBodyBuling",
+  "CharaInfo": {
+    "Birth": "お楽しみに",
+    "Sex": "お楽しみに",
+    "Country": "お楽しみに",
+    "Influence": "お楽しみに",
+    "Info": "お楽しみに",
+    "TalentName": "お楽しみに",
+    "TalentDoc": "お楽しみに",
+    "TalentCertification": "お楽しみに",
+    "CVNameCn": "お楽しみに",
+    "CVNameJp": "お楽しみに",
+    "CVNameKo": "お楽しみに",
+    "CVNameEn": "お楽しみに"
+  },
+  "Stories": [
+    {
+      "Title": "お楽しみに",
+      "Content": "お楽しみに"
+    },
+    {
+      "Title": "お楽しみに",
+      "Content": "お楽しみに"
+    },
+    {
+      "Title": "お楽しみに",
+      "Content": "お楽しみに"
+    },
+    {
+      "Title": "お楽しみに",
+      "Content": "お楽しみに"
+    },
+    {
+      "Title": "お楽しみに",
+      "Content": "お楽しみに"
+    }
+  ],
+  "Voices": [
+    {
+      "Type": 1,
+      "Title": "お楽しみに",
+      "Content": "お楽しみに",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_moning_sys_toplayer01.play_favor_word_moning_sys_toplayer01"
+    },
+    {
+      "Type": 1,
+      "Title": "お楽しみに",
+      "Content": "お楽しみに",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_moning_sys_toplayer02.play_favor_word_moning_sys_toplayer02"
+    },
+    {
+      "Type": 1,
+      "Title": "お楽しみに",
+      "Content": "お楽しみに",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_moning_sys_toplayer03.play_favor_word_moning_sys_toplayer03"
+    },
+    {
+      "Type": 1,
+      "Title": "お楽しみに",
+      "Content": "お楽しみに",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_moning_sys_toplayer04.play_favor_word_moning_sys_toplayer04"
+    },
+    {
+      "Type": 1,
+      "Title": "お楽しみに",
+      "Content": "お楽しみに",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_moning_sys_toplayer05.play_favor_word_moning_sys_toplayer05"
+    },
+    {
+      "Type": 1,
+      "Title": "お楽しみに",
+      "Content": "お楽しみに",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_moning_sys_taste.play_favor_word_moning_sys_taste"
+    },
+    {
+      "Type": 1,
+      "Title": "お楽しみに",
+      "Content": "お楽しみに",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_moning_sys_worry.play_favor_word_moning_sys_worry"
+    },
+    {
+      "Type": 1,
+      "Title": "お楽しみに",
+      "Content": "お楽しみに",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_moning_sys_foodlike.play_favor_word_moning_sys_foodlike"
+    },
+    {
+      "Type": 1,
+      "Title": "お楽しみに",
+      "Content": "お楽しみに",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_moning_sys_foodhate.play_favor_word_moning_sys_foodhate"
+    },
+    {
+      "Type": 1,
+      "Title": "お楽しみに",
+      "Content": "お楽しみに",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_moning_sys_dream.play_favor_word_moning_sys_dream"
+    },
+    {
+      "Type": 1,
+      "Title": "お楽しみに",
+      "Content": "お楽しみに",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_moning_sys_storyobj.play_favor_word_moning_sys_storyobj"
+    },
+    {
+      "Type": 1,
+      "Title": "お楽しみに",
+      "Content": "お楽しみに",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_moning_sys_storyexp.play_favor_word_moning_sys_storyexp"
+    },
+    {
+      "Type": 1,
+      "Title": "お楽しみに",
+      "Content": "お楽しみに",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_moning_sys_about_linnai.play_favor_word_moning_sys_about_linnai"
+    },
+    {
+      "Type": 1,
+      "Title": "お楽しみに",
+      "Content": "お楽しみに",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_moning_sys_about_xigelika.play_favor_word_moning_sys_about_xigelika"
+    },
+    {
+      "Type": 1,
+      "Title": "お楽しみに",
+      "Content": "お楽しみに",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_moning_sys_about_daniya.play_favor_word_moning_sys_about_daniya"
+    },
+    {
+      "Type": 1,
+      "Title": "お楽しみに",
+      "Content": "お楽しみに",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_moning_sys_about_luhesi.play_favor_word_moning_sys_about_luhesi"
+    },
+    {
+      "Type": 1,
+      "Title": "お楽しみに",
+      "Content": "お楽しみに",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_moning_sys_about_qianxiao.play_favor_word_moning_sys_about_qianxiao"
+    },
+    {
+      "Type": 1,
+      "Title": "お楽しみに",
+      "Content": "お楽しみに",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_moning_sys_birthcele.play_favor_word_moning_sys_birthcele"
+    },
+    {
+      "Type": 1,
+      "Title": "お楽しみに",
+      "Content": "お楽しみに",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_moning_idle_idle02.play_favor_word_moning_idle_idle02"
+    },
+    {
+      "Type": 1,
+      "Title": "お楽しみに",
+      "Content": "お楽しみに",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_moning_idle_idle01.play_favor_word_moning_idle_idle01"
+    },
+    {
+      "Type": 1,
+      "Title": "お楽しみに",
+      "Content": "お楽しみに",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_moning_idle_idle03.play_favor_word_moning_idle_idle03"
+    },
+    {
+      "Type": 1,
+      "Title": "お楽しみに",
+      "Content": "お楽しみに",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_moning_sys_introduction.play_favor_word_moning_sys_introduction"
+    },
+    {
+      "Type": 1,
+      "Title": "お楽しみに",
+      "Content": "お楽しみに",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_moning_sys_gacha.play_favor_word_moning_sys_gacha"
+    },
+    {
+      "Type": 1,
+      "Title": "お楽しみに",
+      "Content": "お楽しみに",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_moning_sys_jointeam_01.play_favor_word_moning_sys_jointeam_01"
+    },
+    {
+      "Type": 1,
+      "Title": "お楽しみに",
+      "Content": "お楽しみに",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_moning_sys_jointeam_02.play_favor_word_moning_sys_jointeam_02"
+    },
+    {
+      "Type": 1,
+      "Title": "お楽しみに",
+      "Content": "お楽しみに",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_moning_sys_jointeam_03.play_favor_word_moning_sys_jointeam_03"
+    },
+    {
+      "Type": 1,
+      "Title": "お楽しみに",
+      "Content": "お楽しみに",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_moning_sys_rankup01.play_favor_word_moning_sys_rankup01"
+    },
+    {
+      "Type": 1,
+      "Title": "お楽しみに",
+      "Content": "お楽しみに",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_moning_sys_rankup02.play_favor_word_moning_sys_rankup02"
+    },
+    {
+      "Type": 1,
+      "Title": "お楽しみに",
+      "Content": "お楽しみに",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_moning_sys_rankup03.play_favor_word_moning_sys_rankup03"
+    },
+    {
+      "Type": 1,
+      "Title": "お楽しみに",
+      "Content": "お楽しみに",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_moning_sys_rankup04.play_favor_word_moning_sys_rankup04"
+    },
+    {
+      "Type": 1,
+      "Title": "お楽しみに",
+      "Content": "お楽しみに",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_moning_sys_rankup05.play_favor_word_moning_sys_rankup05"
+    },
+    {
+      "Type": 2,
+      "Title": "お楽しみに",
+      "Content": "お楽しみに",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_moning_atk_atk03_01.play_favor_word_moning_atk_atk03_01"
+    },
+    {
+      "Type": 2,
+      "Title": "お楽しみに",
+      "Content": "お楽しみに",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_moning_atk_atk03_02.play_favor_word_moning_atk_atk03_02"
+    },
+    {
+      "Type": 2,
+      "Title": "お楽しみに",
+      "Content": "お楽しみに",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_moning_atk_atk04_01.play_favor_word_moning_atk_atk04_01"
+    },
+    {
+      "Type": 2,
+      "Title": "お楽しみに",
+      "Content": "お楽しみに",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_moning_atk_atk04_02.play_favor_word_moning_atk_atk04_02"
+    },
+    {
+      "Type": 2,
+      "Title": "お楽しみに",
+      "Content": "お楽しみに",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_moning_atk_heavyatk01_01.play_favor_word_moning_atk_heavyatk01_01"
+    },
+    {
+      "Type": 2,
+      "Title": "お楽しみに",
+      "Content": "お楽しみに",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_moning_atk_heavyatk01_pro_01.play_favor_word_moning_atk_heavyatk01_pro_01"
+    },
+    {
+      "Type": 2,
+      "Title": "お楽しみに",
+      "Content": "お楽しみに",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_moning_atk_heavyatk01_pro_02.play_favor_word_moning_atk_heavyatk01_pro_02"
+    },
+    {
+      "Type": 2,
+      "Title": "お楽しみに",
+      "Content": "お楽しみに",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_moning_atk_heavyatk01_pro_03.play_favor_word_moning_atk_heavyatk01_pro_03"
+    },
+    {
+      "Type": 2,
+      "Title": "お楽しみに",
+      "Content": "お楽しみに",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_moning_atk_heavyatk02_pro_01.play_favor_word_moning_atk_heavyatk02_pro_01"
+    },
+    {
+      "Type": 2,
+      "Title": "お楽しみに",
+      "Content": "お楽しみに",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_moning_atk_heavyatk02_pro_02.play_favor_word_moning_atk_heavyatk02_pro_02"
+    },
+    {
+      "Type": 2,
+      "Title": "お楽しみに",
+      "Content": "お楽しみに",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_moning_atk_heavyatk02_pro_03.play_favor_word_moning_atk_heavyatk02_pro_03"
+    },
+    {
+      "Type": 2,
+      "Title": "お楽しみに",
+      "Content": "お楽しみに",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_moning_atk_airatk02_01.play_favor_word_moning_atk_airatk02_01"
+    },
+    {
+      "Type": 2,
+      "Title": "お楽しみに",
+      "Content": "お楽しみに",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_moning_atk_airatk02_02.play_favor_word_moning_atk_airatk02_02"
+    },
+    {
+      "Type": 2,
+      "Title": "お楽しみに",
+      "Content": "お楽しみに",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_moning_skill_skill01_01.play_favor_word_moning_skill_skill01_01"
+    },
+    {
+      "Type": 2,
+      "Title": "お楽しみに",
+      "Content": "お楽しみに",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_moning_skill_skill01_02.play_favor_word_moning_skill_skill01_02"
+    },
+    {
+      "Type": 2,
+      "Title": "お楽しみに",
+      "Content": "お楽しみに",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_moning_skill_skill01_sp_01.play_favor_word_moning_skill_skill01_sp_01"
+    },
+    {
+      "Type": 2,
+      "Title": "お楽しみに",
+      "Content": "お楽しみに",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_moning_skill_skill01_sp_02.play_favor_word_moning_skill_skill01_sp_02"
+    },
+    {
+      "Type": 2,
+      "Title": "お楽しみに",
+      "Content": "お楽しみに",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_moning_skill_skill02_01.play_favor_word_moning_skill_skill02_01"
+    },
+    {
+      "Type": 2,
+      "Title": "お楽しみに",
+      "Content": "お楽しみに",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_moning_skill_skill02_02.play_favor_word_moning_skill_skill02_02"
+    },
+    {
+      "Type": 2,
+      "Title": "お楽しみに",
+      "Content": "お楽しみに",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_moning_skill_skill02_03.play_favor_word_moning_skill_skill02_03"
+    },
+    {
+      "Type": 2,
+      "Title": "お楽しみに",
+      "Content": "お楽しみに",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_moning_burst_burst01_01.play_favor_word_moning_burst_burst01_01"
+    },
+    {
+      "Type": 2,
+      "Title": "お楽しみに",
+      "Content": "お楽しみに",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_moning_burst_burst01_02.play_favor_word_moning_burst_burst01_02"
+    },
+    {
+      "Type": 2,
+      "Title": "お楽しみに",
+      "Content": "お楽しみに",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_moning_burst_burst01_03.play_favor_word_moning_burst_burst01_03"
+    },
+    {
+      "Type": 2,
+      "Title": "お楽しみに",
+      "Content": "お楽しみに",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_moning_skill_qte.play_favor_word_moning_skill_qte"
+    },
+    {
+      "Type": 2,
+      "Title": "お楽しみに",
+      "Content": "お楽しみに",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_moning_com_behitfly_01.play_favor_word_moning_com_behitfly_01"
+    },
+    {
+      "Type": 2,
+      "Title": "お楽しみに",
+      "Content": "お楽しみに",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_moning_com_behitfly_02.play_favor_word_moning_com_behitfly_02"
+    },
+    {
+      "Type": 2,
+      "Title": "お楽しみに",
+      "Content": "お楽しみに",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_moning_com_hpdown01.play_favor_word_moning_com_hpdown01"
+    },
+    {
+      "Type": 2,
+      "Title": "お楽しみに",
+      "Content": "お楽しみに",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_moning_com_hpdown02.play_favor_word_moning_com_hpdown02"
+    },
+    {
+      "Type": 2,
+      "Title": "お楽しみに",
+      "Content": "お楽しみに",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_moning_com_hpdown03.play_favor_word_moning_com_hpdown03"
+    },
+    {
+      "Type": 2,
+      "Title": "お楽しみに",
+      "Content": "お楽しみに",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_moning_com_die_01.play_favor_word_moning_com_die_01"
+    },
+    {
+      "Type": 2,
+      "Title": "お楽しみに",
+      "Content": "お楽しみに",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_moning_com_die_02.play_favor_word_moning_com_die_02"
+    },
+    {
+      "Type": 2,
+      "Title": "お楽しみに",
+      "Content": "お楽しみに",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_moning_com_die_03.play_favor_word_moning_com_die_03"
+    },
+    {
+      "Type": 2,
+      "Title": "お楽しみに",
+      "Content": "お楽しみに",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_moning_com_hxsummon.play_favor_word_moning_com_hxsummon"
+    },
+    {
+      "Type": 2,
+      "Title": "お楽しみに",
+      "Content": "お楽しみに",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_moning_com_hxchange.play_favor_word_moning_com_hxchange"
+    },
+    {
+      "Type": 2,
+      "Title": "お楽しみに",
+      "Content": "お楽しみに",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_moning_com_engage.play_favor_word_moning_com_engage"
+    },
+    {
+      "Type": 2,
+      "Title": "お楽しみに",
+      "Content": "お楽しみに",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_moning_com_fly_01.play_favor_word_moning_com_fly_01"
+    },
+    {
+      "Type": 2,
+      "Title": "お楽しみに",
+      "Content": "お楽しみに",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_moning_com_scan.play_favor_word_moning_com_scan"
+    },
+    {
+      "Type": 2,
+      "Title": "お楽しみに",
+      "Content": "お楽しみに",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_moning_com_accelerate.play_favor_word_moning_com_accelerate"
+    },
+    {
+      "Type": 2,
+      "Title": "お楽しみに",
+      "Content": "お楽しみに",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_moning_com_openbox_01.play_favor_word_moning_com_openbox_01"
+    },
+    {
+      "Type": 2,
+      "Title": "お楽しみに",
+      "Content": "お楽しみに",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_moning_com_openbox_02.play_favor_word_moning_com_openbox_02"
+    },
+    {
+      "Type": 2,
+      "Title": "お楽しみに",
+      "Content": "お楽しみに",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_moning_com_openbox_03.play_favor_word_moning_com_openbox_03"
+    }
+  ],
+  "Goods": [
+    {
+      "Title": "お楽しみに",
+      "Content": "お楽しみに",
+      "Icon": "/Game/Aki/UI/UIResources/UiRole/Image/Treasure/T_Treasure131_UI.T_Treasure131_UI"
+    },
+    {
+      "Title": "お楽しみに",
+      "Content": "お楽しみに",
+      "Icon": "/Game/Aki/UI/UIResources/UiRole/Image/Treasure/T_Treasure132_UI.T_Treasure132_UI"
+    },
+    {
+      "Title": "お楽しみに",
+      "Content": "お楽しみに",
+      "Icon": "/Game/Aki/UI/UIResources/UiRole/Image/Treasure/T_Treasure133_UI.T_Treasure133_UI"
+    }
+  ],
+  "SpecialCook": {
+    "Id": 80001079,
+    "Name": "",
+    "Desc": "",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconCook/T_IconCook_80001079_UI.T_IconCook_80001079_UI",
+    "Rarity": 4
+  },
+  "Stats": {
+    "0": {
+      "1": {
+        "Life": 1230.0,
+        "Atk": 23.0,
+        "Def": 111.0
+      },
+      "2": {
+        "Life": 1333.566,
+        "Atk": 24.9366,
+        "Def": 120.1353
+      },
+      "3": {
+        "Life": 1437.255,
+        "Atk": 26.8755,
+        "Def": 129.2817
+      },
+      "4": {
+        "Life": 1540.944,
+        "Atk": 28.8144,
+        "Def": 138.4281
+      },
+      "5": {
+        "Life": 1644.51,
+        "Atk": 30.751,
+        "Def": 147.5745
+      },
+      "6": {
+        "Life": 1748.199,
+        "Atk": 32.6899,
+        "Def": 156.7209
+      },
+      "7": {
+        "Life": 1851.888,
+        "Atk": 34.6288,
+        "Def": 165.8673
+      },
+      "8": {
+        "Life": 1955.454,
+        "Atk": 36.5654,
+        "Def": 175.0137
+      },
+      "9": {
+        "Life": 2059.143,
+        "Atk": 38.5043,
+        "Def": 184.1601
+      },
+      "10": {
+        "Life": 2162.832,
+        "Atk": 40.4432,
+        "Def": 193.3065
+      },
+      "11": {
+        "Life": 2266.398,
+        "Atk": 42.3798,
+        "Def": 202.4529
+      },
+      "12": {
+        "Life": 2370.087,
+        "Atk": 44.3187,
+        "Def": 211.5993
+      },
+      "13": {
+        "Life": 2473.776,
+        "Atk": 46.2576,
+        "Def": 220.7457
+      },
+      "14": {
+        "Life": 2577.465,
+        "Atk": 48.1965,
+        "Def": 229.8921
+      },
+      "15": {
+        "Life": 2681.031,
+        "Atk": 50.1331,
+        "Def": 239.0385
+      },
+      "16": {
+        "Life": 2784.72,
+        "Atk": 52.072,
+        "Def": 248.1849
+      },
+      "17": {
+        "Life": 2888.409,
+        "Atk": 54.0109,
+        "Def": 257.3313
+      },
+      "18": {
+        "Life": 2991.975,
+        "Atk": 55.9475,
+        "Def": 266.4777
+      },
+      "19": {
+        "Life": 3095.664,
+        "Atk": 57.8864,
+        "Def": 275.6241
+      },
+      "20": {
+        "Life": 3199.353,
+        "Atk": 59.8253,
+        "Def": 284.7705
+      }
+    },
+    "1": {
+      "20": {
+        "Life": 4019.271,
+        "Atk": 77.0753,
+        "Def": 356.7096
+      },
+      "21": {
+        "Life": 4122.96,
+        "Atk": 79.0119,
+        "Def": 365.856
+      },
+      "22": {
+        "Life": 4226.649,
+        "Atk": 80.9508,
+        "Def": 375.0024
+      },
+      "23": {
+        "Life": 4330.215,
+        "Atk": 82.8897,
+        "Def": 384.1488
+      },
+      "24": {
+        "Life": 4433.904,
+        "Atk": 84.8286,
+        "Def": 393.2952
+      },
+      "25": {
+        "Life": 4537.593,
+        "Atk": 86.7652,
+        "Def": 402.4416
+      },
+      "26": {
+        "Life": 4641.282,
+        "Atk": 88.7041,
+        "Def": 411.588
+      },
+      "27": {
+        "Life": 4744.848,
+        "Atk": 90.643,
+        "Def": 420.7344
+      },
+      "28": {
+        "Life": 4848.537,
+        "Atk": 92.5796,
+        "Def": 429.8808
+      },
+      "29": {
+        "Life": 4952.226,
+        "Atk": 94.5185,
+        "Def": 439.0272
+      },
+      "30": {
+        "Life": 5055.792,
+        "Atk": 96.4574,
+        "Def": 448.1736
+      },
+      "31": {
+        "Life": 5159.481,
+        "Atk": 98.394,
+        "Def": 457.32
+      },
+      "32": {
+        "Life": 5263.17,
+        "Atk": 100.3329,
+        "Def": 466.4664
+      },
+      "33": {
+        "Life": 5366.736,
+        "Atk": 102.2718,
+        "Def": 475.6128
+      },
+      "34": {
+        "Life": 5470.425,
+        "Atk": 104.2084,
+        "Def": 484.7592
+      },
+      "35": {
+        "Life": 5574.114,
+        "Atk": 106.1473,
+        "Def": 493.9056
+      },
+      "36": {
+        "Life": 5677.803,
+        "Atk": 108.0862,
+        "Def": 503.052
+      },
+      "37": {
+        "Life": 5781.369,
+        "Atk": 110.0251,
+        "Def": 512.1984
+      },
+      "38": {
+        "Life": 5885.058,
+        "Atk": 111.9617,
+        "Def": 521.3448
+      },
+      "39": {
+        "Life": 5988.747,
+        "Atk": 113.9006,
+        "Def": 530.4912
+      },
+      "40": {
+        "Life": 6092.313,
+        "Atk": 115.8395,
+        "Def": 539.6376
+      }
+    },
+    "2": {
+      "40": {
+        "Life": 6912.354,
+        "Atk": 133.0895,
+        "Def": 611.5767
+      },
+      "41": {
+        "Life": 7016.043,
+        "Atk": 135.0261,
+        "Def": 620.7231
+      },
+      "42": {
+        "Life": 7119.609,
+        "Atk": 136.965,
+        "Def": 629.8695
+      },
+      "43": {
+        "Life": 7223.298,
+        "Atk": 138.9039,
+        "Def": 639.0159
+      },
+      "44": {
+        "Life": 7326.987,
+        "Atk": 140.8405,
+        "Def": 648.1623
+      },
+      "45": {
+        "Life": 7430.553,
+        "Atk": 142.7794,
+        "Def": 657.3087
+      },
+      "46": {
+        "Life": 7534.242,
+        "Atk": 144.7183,
+        "Def": 666.4551
+      },
+      "47": {
+        "Life": 7637.931,
+        "Atk": 146.6572,
+        "Def": 675.6015
+      },
+      "48": {
+        "Life": 7741.62,
+        "Atk": 148.5938,
+        "Def": 684.7479
+      },
+      "49": {
+        "Life": 7845.186,
+        "Atk": 150.5327,
+        "Def": 693.8943
+      },
+      "50": {
+        "Life": 7948.875,
+        "Atk": 152.4716,
+        "Def": 703.0407
+      }
+    },
+    "3": {
+      "50": {
+        "Life": 8768.916,
+        "Atk": 169.7216,
+        "Def": 774.9798
+      },
+      "51": {
+        "Life": 8872.482,
+        "Atk": 171.6582,
+        "Def": 784.1262
+      },
+      "52": {
+        "Life": 8976.171,
+        "Atk": 173.5971,
+        "Def": 793.2726
+      },
+      "53": {
+        "Life": 9079.86,
+        "Atk": 175.536,
+        "Def": 802.419
+      },
+      "54": {
+        "Life": 9183.426,
+        "Atk": 177.4726,
+        "Def": 811.5654
+      },
+      "55": {
+        "Life": 9287.115,
+        "Atk": 179.4115,
+        "Def": 820.7118
+      },
+      "56": {
+        "Life": 9390.804,
+        "Atk": 181.3504,
+        "Def": 829.8582
+      },
+      "57": {
+        "Life": 9494.493,
+        "Atk": 183.2893,
+        "Def": 839.0046
+      },
+      "58": {
+        "Life": 9598.059,
+        "Atk": 185.2259,
+        "Def": 848.151
+      },
+      "59": {
+        "Life": 9701.748,
+        "Atk": 187.1648,
+        "Def": 857.2974
+      },
+      "60": {
+        "Life": 9805.437,
+        "Atk": 189.1037,
+        "Def": 866.4438
+      }
+    },
+    "4": {
+      "60": {
+        "Life": 10625.355,
+        "Atk": 206.3537,
+        "Def": 938.394
+      },
+      "61": {
+        "Life": 10729.044,
+        "Atk": 208.2903,
+        "Def": 947.5404
+      },
+      "62": {
+        "Life": 10832.733,
+        "Atk": 210.2292,
+        "Def": 956.6868
+      },
+      "63": {
+        "Life": 10936.299,
+        "Atk": 212.1681,
+        "Def": 965.8332
+      },
+      "64": {
+        "Life": 11039.988,
+        "Atk": 214.1047,
+        "Def": 974.9796
+      },
+      "65": {
+        "Life": 11143.677,
+        "Atk": 216.0436,
+        "Def": 984.126
+      },
+      "66": {
+        "Life": 11247.243,
+        "Atk": 217.9825,
+        "Def": 993.2613
+      },
+      "67": {
+        "Life": 11350.932,
+        "Atk": 219.9191,
+        "Def": 1002.4077
+      },
+      "68": {
+        "Life": 11454.621,
+        "Atk": 221.858,
+        "Def": 1011.5541
+      },
+      "69": {
+        "Life": 11558.31,
+        "Atk": 223.7969,
+        "Def": 1020.7005
+      },
+      "70": {
+        "Life": 11661.876,
+        "Atk": 225.7358,
+        "Def": 1029.8469
+      }
+    },
+    "5": {
+      "70": {
+        "Life": 12481.917,
+        "Atk": 237.2358,
+        "Def": 1101.7971
+      },
+      "71": {
+        "Life": 12585.606,
+        "Atk": 239.1724,
+        "Def": 1110.9435
+      },
+      "72": {
+        "Life": 12689.172,
+        "Atk": 241.1113,
+        "Def": 1120.0899
+      },
+      "73": {
+        "Life": 12792.861,
+        "Atk": 243.0502,
+        "Def": 1129.2363
+      },
+      "74": {
+        "Life": 12896.55,
+        "Atk": 244.9868,
+        "Def": 1138.3827
+      },
+      "75": {
+        "Life": 13000.116,
+        "Atk": 246.9257,
+        "Def": 1147.5291
+      },
+      "76": {
+        "Life": 13103.805,
+        "Atk": 248.8646,
+        "Def": 1156.6755
+      },
+      "77": {
+        "Life": 13207.494,
+        "Atk": 250.8012,
+        "Def": 1165.8219
+      },
+      "78": {
+        "Life": 13311.06,
+        "Atk": 252.7401,
+        "Def": 1174.9683
+      },
+      "79": {
+        "Life": 13414.749,
+        "Atk": 254.679,
+        "Def": 1184.1147
+      },
+      "80": {
+        "Life": 13518.438,
+        "Atk": 256.6179,
+        "Def": 1193.2611
+      }
+    },
+    "6": {
+      "80": {
+        "Life": 14338.479,
+        "Atk": 268.1179,
+        "Def": 1265.2002
+      },
+      "81": {
+        "Life": 14442.045,
+        "Atk": 270.0545,
+        "Def": 1274.3466
+      },
+      "82": {
+        "Life": 14545.734,
+        "Atk": 271.9934,
+        "Def": 1283.493
+      },
+      "83": {
+        "Life": 14649.423,
+        "Atk": 273.9323,
+        "Def": 1292.6394
+      },
+      "84": {
+        "Life": 14752.989,
+        "Atk": 275.8689,
+        "Def": 1301.7858
+      },
+      "85": {
+        "Life": 14856.678,
+        "Atk": 277.8078,
+        "Def": 1310.9322
+      },
+      "86": {
+        "Life": 14960.367,
+        "Atk": 279.7467,
+        "Def": 1320.0786
+      },
+      "87": {
+        "Life": 15063.933,
+        "Atk": 281.6833,
+        "Def": 1329.225
+      },
+      "88": {
+        "Life": 15167.622,
+        "Atk": 283.6222,
+        "Def": 1338.3714
+      },
+      "89": {
+        "Life": 15271.311,
+        "Atk": 285.5611,
+        "Def": 1347.5178
+      },
+      "90": {
+        "Life": 15375.0,
+        "Atk": 287.5,
+        "Def": 1356.6642
+      }
+    }
+  },
+  "LevelEXP": [
+    0,
+    400,
+    400,
+    500,
+    600,
+    700,
+    900,
+    1000,
+    1200,
+    1300,
+    1500,
+    1700,
+    2000,
+    2200,
+    2400,
+    2700,
+    3000,
+    3300,
+    3600,
+    3900,
+    4300,
+    4600,
+    5000,
+    5400,
+    5800,
+    6300,
+    6700,
+    7200,
+    7700,
+    8200,
+    8700,
+    9300,
+    9800,
+    10400,
+    11000,
+    11700,
+    12300,
+    13000,
+    13700,
+    14400,
+    15100,
+    15900,
+    16700,
+    17500,
+    18300,
+    19200,
+    20000,
+    20900,
+    21900,
+    22800,
+    23800,
+    24800,
+    25800,
+    26900,
+    28000,
+    29100,
+    30300,
+    31400,
+    32600,
+    33900,
+    35100,
+    36400,
+    37700,
+    39100,
+    40500,
+    41900,
+    43300,
+    44800,
+    46300,
+    47900,
+    49500,
+    51100,
+    52800,
+    54500,
+    56200,
+    58000,
+    59800,
+    61600,
+    63500,
+    65400,
+    67400,
+    69400,
+    71400,
+    73500,
+    75600,
+    77800,
+    80000,
+    82300,
+    84600,
+    86900,
+    105600,
+    107400,
+    110000,
+    113600,
+    118600,
+    125500,
+    134900,
+    147300,
+    163600,
+    184500
+  ],
+  "SkillTrees": {
+    "1": {
+      "ParentNodes": [],
+      "NodeType": 2,
+      "Coordinate": 1,
+      "UnLockCondition": 0,
+      "Consume": [
+        {
+          "Key": 43020032,
+          "Value": 2
+        },
+        {
+          "Key": 41100022,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 3900
+        }
+      ],
+      "Skill": {
+        "Name": "基底状態校正",
+        "Desc": "<size=40><color=Title>通常攻撃</color></size>\n最大3段の連続攻撃を行い、<color=Fire>焦熱ダメージ</color>を与える。\n<color=Highlight>通常攻撃3段目</color>を発動後、一定時間内に<color=Highlight>通常攻撃</color>ボタンを離すと、自動的に<color=Highlight>通常攻撃4段目</color>が発動される。\n<size=10></size>\n<size=40><color=Title>重撃</color></size>\nスタミナを消費して目標を攻撃し、<color=Fire>焦熱ダメージ</color>を与える。\n<size=10></size>\n<size=40><color=Title>通常攻撃・広域観測モード</color></size>\n<color=Highlight><te href=120902>広域観測モード</te></color>時、<color=Highlight>通常攻撃</color>は<color=Highlight>通常攻撃・広域観測モード</color>に代わる。\n最大3段の連続攻撃を行い、<color=Fire>焦熱ダメージ</color>を与える。\n空中で発動可能。\n<size=10></size>\n<size=40><color=Title>空中攻撃</color></size>\nスタミナを消費して落下攻撃を行い、<color=Fire>焦熱ダメージ</color>を与える。\n落下攻撃を行ってからの一定時間内に<color=Highlight>通常攻撃</color>を一回押しすると、<color=Highlight>通常攻撃3段目</color>を発動する。\n<size=10></size>\n<size=40><color=Title>回避反撃</color></size>\n<color=Highlight>回避</color>成功後、一定時間内に<color=Highlight>通常攻撃</color>を一回押しすると、目標を攻撃し、<color=Fire>焦熱ダメージ</color>を与える。\nこのスキルを発動してからの一定時間内に<color=Highlight>通常攻撃</color>を一回押しすると、<color=Highlight>通常攻撃2段目</color>を発動する。\n<size=10></size>\n<size=40><color=Title>回避反撃・広域観測モード</color></size>\n<color=Highlight><te href=120902>広域観測モード</te></color>時、<color=Highlight>回避反撃</color>は<color=Highlight>回避反撃・広域観測モード</color>に代わる。\n<color=Highlight>回避</color>成功後、一定時間内に<color=Highlight>通常攻撃</color>を一回押しすると、<color=Highlight>通常攻撃・広域観測モード2段目</color>を発動する。",
+        "Param": [],
+        "SimpleDesc": "<size=40><color=Title>通常攻撃</color></size>\n<color=Fire>焦熱ダメージ</color>を与える。\n<size=10></size>\n<size=40><color=Title>重撃</color></size>\nスタミナを消費して<color=Fire>焦熱ダメージ</color>を与える。\n<size=10></size>\n<size=40><color=Title>空中攻撃</color></size>\nスタミナを消費して落下攻撃を行い、<color=Fire>焦熱ダメージ</color>を与える。\n<size=10></size>\n<size=40><color=Title>回避反撃</color></size>\n<color=Highlight>回避</color>成功後に<color=Highlight>通常攻撃</color>を一回押しし、<color=Fire>焦熱ダメージ</color>を与える。",
+        "SimpleParam": [],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorSword.SP_IconNorSword",
+        "Type": "基本攻撃",
+        "Level": {
+          "1": {
+            "Name": "通常攻撃1段目ダメージ",
+            "Param": [
+              [
+                "11.20%+8.40%*2",
+                "12.12%+9.09%*2",
+                "13.04%+9.78%*2",
+                "14.33%+10.75%*2",
+                "15.25%+11.44%*2",
+                "16.30%+12.23%*2",
+                "17.77%+13.33%*2",
+                "19.24%+14.43%*2",
+                "20.71%+15.53%*2",
+                "22.27%+16.71%*2",
+                "24.11%+18.08%*2",
+                "25.95%+19.46%*2",
+                "27.78%+20.84%*2",
+                "29.62%+22.22%*2",
+                "31.46%+23.59%*2",
+                "33.29%+24.97%*2",
+                "35.13%+26.35%*2",
+                "36.97%+27.73%*2",
+                "38.80%+29.10%*2",
+                "40.64%+30.48%*2"
+              ]
+            ],
+            "Format": null
+          },
+          "2": {
+            "Name": "通常攻撃2段目ダメージ",
+            "Param": [
+              [
+                "12.00%+12.00%+9.00%*4",
+                "12.99%+12.99%+9.74%*4",
+                "13.97%+13.97%+10.48%*4",
+                "15.35%+15.35%+11.51%*4",
+                "16.33%+16.33%+12.25%*4",
+                "17.47%+17.47%+13.10%*4",
+                "19.04%+19.04%+14.28%*4",
+                "20.61%+20.61%+15.46%*4",
+                "22.19%+22.19%+16.64%*4",
+                "23.86%+23.86%+17.90%*4",
+                "25.83%+25.83%+19.37%*4",
+                "27.80%+27.80%+20.85%*4",
+                "29.77%+29.77%+22.33%*4",
+                "31.73%+31.73%+23.80%*4",
+                "33.70%+33.70%+25.28%*4",
+                "35.67%+35.67%+26.75%*4",
+                "37.64%+37.64%+28.23%*4",
+                "39.61%+39.61%+29.71%*4",
+                "41.57%+41.57%+31.18%*4",
+                "43.54%+43.54%+32.66%*4"
+              ]
+            ],
+            "Format": null
+          },
+          "3": {
+            "Name": "通常攻撃3段目ダメージ",
+            "Param": [
+              [
+                "20.80%+5.20%*6",
+                "22.51%+5.63%*6",
+                "24.22%+6.06%*6",
+                "26.60%+6.65%*6",
+                "28.31%+7.08%*6",
+                "30.27%+7.57%*6",
+                "33.00%+8.25%*6",
+                "35.73%+8.94%*6",
+                "38.46%+9.62%*6",
+                "41.36%+10.34%*6",
+                "44.77%+11.20%*6",
+                "48.18%+12.05%*6",
+                "51.59%+12.90%*6",
+                "55.00%+13.75%*6",
+                "58.41%+14.61%*6",
+                "61.82%+15.46%*6",
+                "65.24%+16.31%*6",
+                "68.65%+17.17%*6",
+                "72.06%+18.02%*6",
+                "75.47%+18.87%*6"
+              ]
+            ],
+            "Format": null
+          },
+          "4": {
+            "Name": "通常攻撃4段目ダメージ",
+            "Param": [
+              [
+                "68.00%",
+                "73.58%",
+                "79.16%",
+                "86.96%",
+                "92.54%",
+                "98.95%",
+                "107.87%",
+                "116.79%",
+                "125.72%",
+                "135.20%",
+                "146.35%",
+                "157.50%",
+                "168.65%",
+                "179.80%",
+                "190.96%",
+                "202.11%",
+                "213.26%",
+                "224.41%",
+                "235.56%",
+                "246.72%"
+              ]
+            ],
+            "Format": null
+          },
+          "5": {
+            "Name": "通常攻撃・広域観測モード1段目ダメージ",
+            "Param": [
+              [
+                "7.00%*4",
+                "7.58%*4",
+                "8.15%*4",
+                "8.96%*4",
+                "9.53%*4",
+                "10.19%*4",
+                "11.11%*4",
+                "12.03%*4",
+                "12.95%*4",
+                "13.92%*4",
+                "15.07%*4",
+                "16.22%*4",
+                "17.37%*4",
+                "18.51%*4",
+                "19.66%*4",
+                "20.81%*4",
+                "21.96%*4",
+                "23.11%*4",
+                "24.25%*4",
+                "25.40%*4"
+              ]
+            ],
+            "Format": null
+          },
+          "6": {
+            "Name": "通常攻撃・広域観測モード2段目ダメージ",
+            "Param": [
+              [
+                "13.00%*4",
+                "14.07%*4",
+                "15.14%*4",
+                "16.63%*4",
+                "17.70%*4",
+                "18.92%*4",
+                "20.63%*4",
+                "22.33%*4",
+                "24.04%*4",
+                "25.85%*4",
+                "27.98%*4",
+                "30.11%*4",
+                "32.25%*4",
+                "34.38%*4",
+                "36.51%*4",
+                "38.64%*4",
+                "40.77%*4",
+                "42.91%*4",
+                "45.04%*4",
+                "47.17%*4"
+              ]
+            ],
+            "Format": null
+          },
+          "7": {
+            "Name": "通常攻撃・広域観測モード3段目ダメージ",
+            "Param": [
+              [
+                "4.68%*4+16.64%*2",
+                "5.07%*4+18.01%*2",
+                "5.45%*4+19.37%*2",
+                "5.99%*4+21.28%*2",
+                "6.37%*4+22.65%*2",
+                "6.81%*4+24.22%*2",
+                "7.43%*4+26.40%*2",
+                "8.04%*4+28.58%*2",
+                "8.66%*4+30.77%*2",
+                "9.31%*4+33.09%*2",
+                "10.08%*4+35.82%*2",
+                "10.84%*4+38.54%*2",
+                "11.61%*4+41.27%*2",
+                "12.38%*4+44.00%*2",
+                "13.15%*4+46.73%*2",
+                "13.91%*4+49.46%*2",
+                "14.68%*4+52.19%*2",
+                "15.45%*4+54.92%*2",
+                "16.22%*4+57.65%*2",
+                "16.98%*4+60.38%*2"
+              ]
+            ],
+            "Format": null
+          },
+          "8": {
+            "Name": "重撃ダメージ",
+            "Param": [
+              [
+                "5.58%+5.58%+7.44%",
+                "6.04%+6.04%+8.06%",
+                "6.50%+6.50%+8.67%",
+                "7.14%+7.14%+9.52%",
+                "7.60%+7.60%+10.13%",
+                "8.12%+8.12%+10.83%",
+                "8.86%+8.86%+11.81%",
+                "9.59%+9.59%+12.78%",
+                "10.32%+10.32%+13.76%",
+                "11.10%+11.10%+14.80%",
+                "12.01%+12.01%+16.02%",
+                "12.93%+12.93%+17.24%",
+                "13.84%+13.84%+18.46%",
+                "14.76%+14.76%+19.68%",
+                "15.67%+15.67%+20.90%",
+                "16.59%+16.59%+22.12%",
+                "17.50%+17.50%+23.34%",
+                "18.42%+18.42%+24.56%",
+                "19.33%+19.33%+25.78%",
+                "20.25%+20.25%+27.00%"
+              ]
+            ],
+            "Format": null
+          },
+          "9": {
+            "Name": "空中攻撃ダメージ",
+            "Param": [
+              [
+                "49.60%",
+                "53.67%",
+                "57.74%",
+                "63.43%",
+                "67.50%",
+                "72.18%",
+                "78.69%",
+                "85.19%",
+                "91.70%",
+                "98.61%",
+                "106.75%",
+                "114.88%",
+                "123.02%",
+                "131.15%",
+                "139.29%",
+                "147.42%",
+                "155.56%",
+                "163.69%",
+                "171.82%",
+                "179.96%"
+              ]
+            ],
+            "Format": null
+          },
+          "10": {
+            "Name": "回避反撃ダメージ",
+            "Param": [
+              [
+                "81.60%",
+                "88.30%",
+                "94.99%",
+                "104.36%",
+                "111.05%",
+                "118.74%",
+                "129.45%",
+                "140.15%",
+                "150.86%",
+                "162.23%",
+                "175.62%",
+                "189.00%",
+                "202.38%",
+                "215.76%",
+                "229.15%",
+                "242.53%",
+                "255.91%",
+                "269.29%",
+                "282.68%",
+                "296.06%"
+              ]
+            ],
+            "Format": null
+          },
+          "11": {
+            "Name": "重撃スタミナ消費",
+            "Param": [
+              [
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20"
+              ]
+            ],
+            "Format": null
+          },
+          "12": {
+            "Name": "空中攻撃スタミナ消費",
+            "Param": [
+              [
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30"
+              ]
+            ],
+            "Format": null
+          }
+        },
+        "Consume": {
+          "1": [],
+          "2": [
+            {
+              "Key": 43021041,
+              "Value": 2
+            },
+            {
+              "Key": 41100071,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 1500
+            }
+          ],
+          "3": [
+            {
+              "Key": 43021041,
+              "Value": 3
+            },
+            {
+              "Key": 41100071,
+              "Value": 3
+            },
+            {
+              "Key": 2,
+              "Value": 2000
+            }
+          ],
+          "4": [
+            {
+              "Key": 43021042,
+              "Value": 2
+            },
+            {
+              "Key": 41100072,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 4500
+            }
+          ],
+          "5": [
+            {
+              "Key": 43021042,
+              "Value": 3
+            },
+            {
+              "Key": 41100072,
+              "Value": 3
+            },
+            {
+              "Key": 2,
+              "Value": 6000
+            }
+          ],
+          "6": [
+            {
+              "Key": 43021043,
+              "Value": 3
+            },
+            {
+              "Key": 41100073,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 16000
+            }
+          ],
+          "7": [
+            {
+              "Key": 43021043,
+              "Value": 5
+            },
+            {
+              "Key": 41100073,
+              "Value": 3
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 30000
+            }
+          ],
+          "8": [
+            {
+              "Key": 43021044,
+              "Value": 2
+            },
+            {
+              "Key": 41100074,
+              "Value": 2
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 50000
+            }
+          ],
+          "9": [
+            {
+              "Key": 43021044,
+              "Value": 3
+            },
+            {
+              "Key": 41100074,
+              "Value": 3
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 70000
+            }
+          ],
+          "10": [
+            {
+              "Key": 43021044,
+              "Value": 6
+            },
+            {
+              "Key": 41100074,
+              "Value": 4
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 100000
+            }
+          ]
+        },
+        "Damage": {
+          "120900101": {
+            "Element": 2,
+            "RelatedProperty": "攻撃力",
+            "Type": 0,
+            "RateLv": [
+              1120,
+              1212,
+              1304,
+              1433,
+              1525,
+              1630,
+              1777,
+              1924,
+              2071,
+              2227,
+              2411,
+              2595,
+              2778,
+              2962,
+              3146,
+              3329,
+              3513,
+              3697,
+              3880,
+              4064
+            ],
+            "Energy": 35,
+            "ElementPower": 112,
+            "HardnessLv": 10000,
+            "ToughLv": 1680
+          },
+          "120900102": {
+            "Element": 2,
+            "RelatedProperty": "攻撃力",
+            "Type": 0,
+            "RateLv": [
+              840,
+              909,
+              978,
+              1075,
+              1144,
+              1223,
+              1333,
+              1443,
+              1553,
+              1671,
+              1808,
+              1946,
+              2084,
+              2222,
+              2359,
+              2497,
+              2635,
+              2773,
+              2910,
+              3048
+            ],
+            "Energy": 27,
+            "ElementPower": 84,
+            "HardnessLv": 10000,
+            "ToughLv": 1260
+          },
+          "120900201": {
+            "Element": 2,
+            "RelatedProperty": "攻撃力",
+            "Type": 0,
+            "RateLv": [
+              1200,
+              1299,
+              1397,
+              1535,
+              1633,
+              1747,
+              1904,
+              2061,
+              2219,
+              2386,
+              2583,
+              2780,
+              2977,
+              3173,
+              3370,
+              3567,
+              3764,
+              3961,
+              4157,
+              4354
+            ],
+            "Energy": 38,
+            "ElementPower": 120,
+            "HardnessLv": 10000,
+            "ToughLv": 1800
+          },
+          "120900202": {
+            "Element": 2,
+            "RelatedProperty": "攻撃力",
+            "Type": 0,
+            "RateLv": [
+              1200,
+              1299,
+              1397,
+              1535,
+              1633,
+              1747,
+              1904,
+              2061,
+              2219,
+              2386,
+              2583,
+              2780,
+              2977,
+              3173,
+              3370,
+              3567,
+              3764,
+              3961,
+              4157,
+              4354
+            ],
+            "Energy": 38,
+            "ElementPower": 120,
+            "HardnessLv": 10000,
+            "ToughLv": 1800
+          },
+          "120900203": {
+            "Element": 2,
+            "RelatedProperty": "攻撃力",
+            "Type": 0,
+            "RateLv": [
+              900,
+              974,
+              1048,
+              1151,
+              1225,
+              1310,
+              1428,
+              1546,
+              1664,
+              1790,
+              1937,
+              2085,
+              2233,
+              2380,
+              2528,
+              2675,
+              2823,
+              2971,
+              3118,
+              3266
+            ],
+            "Energy": 29,
+            "ElementPower": 90,
+            "HardnessLv": 10000,
+            "ToughLv": 1350
+          },
+          "120900301": {
+            "Element": 2,
+            "RelatedProperty": "攻撃力",
+            "Type": 0,
+            "RateLv": [
+              2080,
+              2251,
+              2422,
+              2660,
+              2831,
+              3027,
+              3300,
+              3573,
+              3846,
+              4136,
+              4477,
+              4818,
+              5159,
+              5500,
+              5841,
+              6182,
+              6524,
+              6865,
+              7206,
+              7547
+            ],
+            "Energy": 65,
+            "ElementPower": 208,
+            "HardnessLv": 10000,
+            "ToughLv": 3120
+          },
+          "120900302": {
+            "Element": 2,
+            "RelatedProperty": "攻撃力",
+            "Type": 0,
+            "RateLv": [
+              520,
+              563,
+              606,
+              665,
+              708,
+              757,
+              825,
+              894,
+              962,
+              1034,
+              1120,
+              1205,
+              1290,
+              1375,
+              1461,
+              1546,
+              1631,
+              1717,
+              1802,
+              1887
+            ],
+            "Energy": 17,
+            "ElementPower": 52,
+            "HardnessLv": 10000,
+            "ToughLv": 780
+          },
+          "120900402": {
+            "Element": 2,
+            "RelatedProperty": "攻撃力",
+            "Type": 0,
+            "RateLv": [
+              6800,
+              7358,
+              7916,
+              8696,
+              9254,
+              9895,
+              10787,
+              11679,
+              12572,
+              13520,
+              14635,
+              15750,
+              16865,
+              17980,
+              19096,
+              20211,
+              21326,
+              22441,
+              23556,
+              24672
+            ],
+            "Energy": 213,
+            "ElementPower": 680,
+            "HardnessLv": 10000,
+            "ToughLv": 10200
+          },
+          "120902401": {
+            "Element": 2,
+            "RelatedProperty": "攻撃力",
+            "Type": 1,
+            "RateLv": [
+              558,
+              604,
+              650,
+              714,
+              760,
+              812,
+              886,
+              959,
+              1032,
+              1110,
+              1201,
+              1293,
+              1384,
+              1476,
+              1567,
+              1659,
+              1750,
+              1842,
+              1933,
+              2025
+            ],
+            "Energy": 24,
+            "ElementPower": 75,
+            "HardnessLv": 10000,
+            "ToughLv": 1116
+          },
+          "120902402": {
+            "Element": 2,
+            "RelatedProperty": "攻撃力",
+            "Type": 1,
+            "RateLv": [
+              558,
+              604,
+              650,
+              714,
+              760,
+              812,
+              886,
+              959,
+              1032,
+              1110,
+              1201,
+              1293,
+              1384,
+              1476,
+              1567,
+              1659,
+              1750,
+              1842,
+              1933,
+              2025
+            ],
+            "Energy": 24,
+            "ElementPower": 75,
+            "HardnessLv": 10000,
+            "ToughLv": 1116
+          },
+          "120902403": {
+            "Element": 2,
+            "RelatedProperty": "攻撃力",
+            "Type": 1,
+            "RateLv": [
+              744,
+              806,
+              867,
+              952,
+              1013,
+              1083,
+              1181,
+              1278,
+              1376,
+              1480,
+              1602,
+              1724,
+              1846,
+              1968,
+              2090,
+              2212,
+              2334,
+              2456,
+              2578,
+              2700
+            ],
+            "Energy": 31,
+            "ElementPower": 100,
+            "HardnessLv": 10000,
+            "ToughLv": 1488
+          },
+          "120901401": {
+            "Element": 2,
+            "RelatedProperty": "攻撃力",
+            "Type": 0,
+            "RateLv": [
+              8160,
+              8830,
+              9499,
+              10436,
+              11105,
+              11874,
+              12945,
+              14015,
+              15086,
+              16223,
+              17562,
+              18900,
+              20238,
+              21576,
+              22915,
+              24253,
+              25591,
+              26929,
+              28268,
+              29606
+            ],
+            "Energy": 255,
+            "ElementPower": 816,
+            "HardnessLv": 10000,
+            "ToughLv": 12240
+          },
+          "120902501": {
+            "Element": 2,
+            "RelatedProperty": "攻撃力",
+            "Type": 0,
+            "RateLv": [
+              4960,
+              5367,
+              5774,
+              6343,
+              6750,
+              7218,
+              7869,
+              8519,
+              9170,
+              9861,
+              10675,
+              11488,
+              12302,
+              13115,
+              13929,
+              14742,
+              15556,
+              16369,
+              17182,
+              17996
+            ],
+            "Energy": 155,
+            "ElementPower": 496,
+            "HardnessLv": 10000,
+            "ToughLv": 7440
+          },
+          "120900701": {
+            "Element": 2,
+            "RelatedProperty": "攻撃力",
+            "Type": 0,
+            "RateLv": [
+              700,
+              758,
+              815,
+              896,
+              953,
+              1019,
+              1111,
+              1203,
+              1295,
+              1392,
+              1507,
+              1622,
+              1737,
+              1851,
+              1966,
+              2081,
+              2196,
+              2311,
+              2425,
+              2540
+            ],
+            "Energy": 22,
+            "ElementPower": 35,
+            "HardnessLv": 10000,
+            "ToughLv": 1050
+          },
+          "120900801": {
+            "Element": 2,
+            "RelatedProperty": "攻撃力",
+            "Type": 0,
+            "RateLv": [
+              1300,
+              1407,
+              1514,
+              1663,
+              1770,
+              1892,
+              2063,
+              2233,
+              2404,
+              2585,
+              2798,
+              3011,
+              3225,
+              3438,
+              3651,
+              3864,
+              4077,
+              4291,
+              4504,
+              4717
+            ],
+            "Energy": 41,
+            "ElementPower": 64,
+            "HardnessLv": 10000,
+            "ToughLv": 1950
+          },
+          "120900901": {
+            "Element": 2,
+            "RelatedProperty": "攻撃力",
+            "Type": 0,
+            "RateLv": [
+              468,
+              507,
+              545,
+              599,
+              637,
+              681,
+              743,
+              804,
+              866,
+              931,
+              1008,
+              1084,
+              1161,
+              1238,
+              1315,
+              1391,
+              1468,
+              1545,
+              1622,
+              1698
+            ],
+            "Energy": 15,
+            "ElementPower": 23,
+            "HardnessLv": 10000,
+            "ToughLv": 702
+          },
+          "120900903": {
+            "Element": 2,
+            "RelatedProperty": "攻撃力",
+            "Type": 0,
+            "RateLv": [
+              1664,
+              1801,
+              1937,
+              2128,
+              2265,
+              2422,
+              2640,
+              2858,
+              3077,
+              3309,
+              3582,
+              3854,
+              4127,
+              4400,
+              4673,
+              4946,
+              5219,
+              5492,
+              5765,
+              6038
+            ],
+            "Energy": 52,
+            "ElementPower": 82,
+            "HardnessLv": 10000,
+            "ToughLv": 2496
+          }
+        }
+      }
+    },
+    "2": {
+      "ParentNodes": [],
+      "NodeType": 2,
+      "Coordinate": 2,
+      "UnLockCondition": 0,
+      "Consume": [
+        {
+          "Key": 43020032,
+          "Value": 2
+        },
+        {
+          "Key": 41100022,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 3900
+        }
+      ],
+      "Skill": {
+        "Name": "計算",
+        "Desc": "<size=40><color=Title>共鳴スキル・期待誤差</color></size>\n近くにいるチーム内全員のHPを回復し、ガード状態に入る。他のキャラに切り替えるとこの効果は消える。\nガード期間中に目標からの攻撃を受けた場合、ダメージを100％軽減させ、<color=Highlight>共鳴スキル・最適解</color>を発動し、<color=Fire>焦熱ダメージ</color>を与える他、<color=Highlight>共鳴スキル・期待誤差</color>のクールタイムをリセット。\nガード期間中に目標からの攻撃を受けていない場合、一定時間内に<color=Highlight>通常攻撃</color>を一回押しすると、<color=Highlight>通常攻撃2段目</color>を発動する。\n<size=10></size>\n<size=40><color=Title>共鳴スキル・分散型行列</color></size>\n<color=Highlight><te href=120902>広域観測モード</te></color>時、共鳴スキルは<color=Highlight>共鳴スキル・分散型行列</color>に代わる。\n近くにいるチーム内全員のHPを回復し、ホバーカノンユニットを召喚して目標を攻撃し、<color=Fire>焦熱ダメージ</color>を与える。\n空中で発動可能。",
+        "Param": [
+          "2"
+        ],
+        "SimpleDesc": "<size=40><color=Title>地面共鳴スキル</color></size>\n近くにいるチーム内全員のHPを回復し、一定時間内に攻撃をガード可能。ガードに成功すると反撃を行い、このスキルのクールタイムをリセット。\n<size=10></size>\n<size=40><color=Title>空中共鳴スキル</color></size>\n<color=Highlight>空中モード</color>時、共鳴スキルは<color=Highlight>空中共鳴スキル</color>に代わる。\n近くにいるチーム内全員のHPを回復し、<color=Fire>焦熱ダメージ</color>を与える。",
+        "SimpleParam": [
+          "2"
+        ],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconMoNing/SP_IconMoNingB1.SP_IconMoNingB1",
+        "Type": "共鳴スキル",
+        "Level": {
+          "13": {
+            "Name": "分散型行列HP回復量",
+            "Param": [
+              [
+                "225+54.00%",
+                "252+56.16%",
+                "281+58.32%",
+                "315+61.56%",
+                "355+65.88%",
+                "393+70.20%",
+                "400+78.30%",
+                "409+87.48%",
+                "416+97.20%",
+                "427+113.40%",
+                "462+122.75%",
+                "498+132.10%",
+                "533+141.46%",
+                "568+150.81%",
+                "603+160.17%",
+                "639+169.52%",
+                "674+178.88%",
+                "709+188.23%",
+                "744+197.58%",
+                "780+206.94%"
+              ]
+            ],
+            "Format": "{0}防御力"
+          },
+          "14": {
+            "Name": "期待誤差HP回復量",
+            "Param": [
+              [
+                "49+11.88%",
+                "55+12.35%",
+                "61+12.83%",
+                "69+13.54%",
+                "78+14.49%",
+                "86+15.44%",
+                "88+17.22%",
+                "90+19.24%",
+                "91+21.38%",
+                "94+24.94%",
+                "101+27.00%",
+                "109+29.06%",
+                "117+31.12%",
+                "125+33.18%",
+                "132+35.23%",
+                "140+37.29%",
+                "148+39.35%",
+                "156+41.41%",
+                "163+43.46%",
+                "171+45.52%"
+              ]
+            ],
+            "Format": "{0}防御力"
+          },
+          "15": {
+            "Name": "最適解ダメージ",
+            "Param": [
+              [
+                "90.40%",
+                "97.82%",
+                "105.23%",
+                "115.61%",
+                "123.02%",
+                "131.55%",
+                "143.41%",
+                "155.27%",
+                "167.13%",
+                "179.73%",
+                "194.55%",
+                "209.38%",
+                "224.21%",
+                "239.03%",
+                "253.86%",
+                "268.68%",
+                "283.51%",
+                "298.33%",
+                "313.16%",
+                "327.99%"
+              ]
+            ],
+            "Format": null
+          },
+          "16": {
+            "Name": "分散型行列ダメージ",
+            "Param": [
+              [
+                "20.00%*4",
+                "21.64%*4",
+                "23.28%*4",
+                "25.58%*4",
+                "27.22%*4",
+                "29.11%*4",
+                "31.73%*4",
+                "34.35%*4",
+                "36.98%*4",
+                "39.77%*4",
+                "43.05%*4",
+                "46.33%*4",
+                "49.61%*4",
+                "52.89%*4",
+                "56.17%*4",
+                "59.45%*4",
+                "62.73%*4",
+                "66.01%*4",
+                "69.29%*4",
+                "72.57%*4"
+              ]
+            ],
+            "Format": null
+          },
+          "17": {
+            "Name": "期待誤差クールタイム",
+            "Param": [
+              [
+                "5",
+                "5",
+                "5",
+                "5",
+                "5",
+                "5",
+                "5",
+                "5",
+                "5",
+                "5",
+                "5",
+                "5",
+                "5",
+                "5",
+                "5",
+                "5",
+                "5",
+                "5",
+                "5",
+                "5"
+              ]
+            ],
+            "Format": "{0}秒"
+          },
+          "18": {
+            "Name": "分散型行列クールタイム",
+            "Param": [
+              [
+                "16",
+                "16",
+                "16",
+                "16",
+                "16",
+                "16",
+                "16",
+                "16",
+                "16",
+                "16",
+                "16",
+                "16",
+                "16",
+                "16",
+                "16",
+                "16",
+                "16",
+                "16",
+                "16",
+                "16"
+              ]
+            ],
+            "Format": "{0}秒"
+          },
+          "19": {
+            "Name": "分散型行列協奏エネルギー獲得",
+            "Param": [
+              [
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10"
+              ]
+            ],
+            "Format": null
+          }
+        },
+        "Consume": {
+          "1": [],
+          "2": [
+            {
+              "Key": 43021041,
+              "Value": 2
+            },
+            {
+              "Key": 41100071,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 1500
+            }
+          ],
+          "3": [
+            {
+              "Key": 43021041,
+              "Value": 3
+            },
+            {
+              "Key": 41100071,
+              "Value": 3
+            },
+            {
+              "Key": 2,
+              "Value": 2000
+            }
+          ],
+          "4": [
+            {
+              "Key": 43021042,
+              "Value": 2
+            },
+            {
+              "Key": 41100072,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 4500
+            }
+          ],
+          "5": [
+            {
+              "Key": 43021042,
+              "Value": 3
+            },
+            {
+              "Key": 41100072,
+              "Value": 3
+            },
+            {
+              "Key": 2,
+              "Value": 6000
+            }
+          ],
+          "6": [
+            {
+              "Key": 43021043,
+              "Value": 3
+            },
+            {
+              "Key": 41100073,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 16000
+            }
+          ],
+          "7": [
+            {
+              "Key": 43021043,
+              "Value": 5
+            },
+            {
+              "Key": 41100073,
+              "Value": 3
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 30000
+            }
+          ],
+          "8": [
+            {
+              "Key": 43021044,
+              "Value": 2
+            },
+            {
+              "Key": 41100074,
+              "Value": 2
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 50000
+            }
+          ],
+          "9": [
+            {
+              "Key": 43021044,
+              "Value": 3
+            },
+            {
+              "Key": 41100074,
+              "Value": 3
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 70000
+            }
+          ],
+          "10": [
+            {
+              "Key": 43021044,
+              "Value": 6
+            },
+            {
+              "Key": 41100074,
+              "Value": 4
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 100000
+            }
+          ]
+        },
+        "Damage": {
+          "120902202": {
+            "Element": 2,
+            "RelatedProperty": "攻撃力",
+            "Type": 4,
+            "RateLv": [
+              9040,
+              9782,
+              10523,
+              11561,
+              12302,
+              13155,
+              14341,
+              15527,
+              16713,
+              17973,
+              19455,
+              20938,
+              22421,
+              23903,
+              25386,
+              26868,
+              28351,
+              29833,
+              31316,
+              32799
+            ],
+            "Energy": 396,
+            "ElementPower": 904,
+            "HardnessLv": 10000,
+            "ToughLv": 13560
+          },
+          "120902301": {
+            "Element": 2,
+            "RelatedProperty": "攻撃力",
+            "Type": 4,
+            "RateLv": [
+              2000,
+              2164,
+              2328,
+              2558,
+              2722,
+              2911,
+              3173,
+              3435,
+              3698,
+              3977,
+              4305,
+              4633,
+              4961,
+              5289,
+              5617,
+              5945,
+              6273,
+              6601,
+              6929,
+              7257
+            ],
+            "Energy": 463,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 5000
+          },
+          "120902302": {
+            "Element": 2,
+            "RelatedProperty": "攻撃力",
+            "Type": 4,
+            "RateLv": [
+              2000,
+              2164,
+              2328,
+              2558,
+              2722,
+              2911,
+              3173,
+              3435,
+              3698,
+              3977,
+              4305,
+              4633,
+              4961,
+              5289,
+              5617,
+              5945,
+              6273,
+              6601,
+              6929,
+              7257
+            ],
+            "Energy": 463,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 5000
+          },
+          "120902303": {
+            "Element": 2,
+            "RelatedProperty": "攻撃力",
+            "Type": 4,
+            "RateLv": [
+              2000,
+              2164,
+              2328,
+              2558,
+              2722,
+              2911,
+              3173,
+              3435,
+              3698,
+              3977,
+              4305,
+              4633,
+              4961,
+              5289,
+              5617,
+              5945,
+              6273,
+              6601,
+              6929,
+              7257
+            ],
+            "Energy": 463,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 5000
+          },
+          "120902304": {
+            "Element": 2,
+            "RelatedProperty": "攻撃力",
+            "Type": 4,
+            "RateLv": [
+              2000,
+              2164,
+              2328,
+              2558,
+              2722,
+              2911,
+              3173,
+              3435,
+              3698,
+              3977,
+              4305,
+              4633,
+              4961,
+              5289,
+              5617,
+              5945,
+              6273,
+              6601,
+              6929,
+              7257
+            ],
+            "Energy": 463,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 5000
+          },
+          "120902203": {
+            "Element": 0,
+            "RelatedProperty": "防御力",
+            "Type": 0,
+            "RateLv": [
+              5400,
+              5616,
+              5832,
+              6156,
+              6588,
+              7020,
+              7830,
+              8748,
+              9720,
+              11340,
+              12275,
+              13210,
+              14146,
+              15081,
+              16017,
+              16952,
+              17888,
+              18823,
+              19758,
+              20694
+            ],
+            "Energy": 0,
+            "ElementPower": 0,
+            "HardnessLv": 0,
+            "ToughLv": 0
+          },
+          "120902204": {
+            "Element": 0,
+            "RelatedProperty": "防御力",
+            "Type": 0,
+            "RateLv": [
+              1188,
+              1235,
+              1283,
+              1354,
+              1449,
+              1544,
+              1722,
+              1924,
+              2138,
+              2494,
+              2700,
+              2906,
+              3112,
+              3318,
+              3523,
+              3729,
+              3935,
+              4141,
+              4346,
+              4552
+            ],
+            "Energy": 0,
+            "ElementPower": 0,
+            "HardnessLv": 0,
+            "ToughLv": 0
+          }
+        }
+      }
+    },
+    "3": {
+      "ParentNodes": [],
+      "NodeType": 2,
+      "Coordinate": 3,
+      "UnLockCondition": 0,
+      "Consume": [
+        {
+          "Key": 43020032,
+          "Value": 2
+        },
+        {
+          "Key": 41100022,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 3900
+        }
+      ],
+      "Skill": {
+        "Name": "限界プロトコル",
+        "Desc": "範囲内にいる目標を攻撃し、<color=Fire>焦熱ダメージ</color>を与える。\nモーニエ自身の共鳴効率が{0}以上の場合、共鳴効率の超過分{1}につき、このスキルの与ダメージのクリティカル率を{2}アップ、最大{3}、クリティカルダメージを{4}アップ、最大{5}。\nこのスキルを発動時、既に<color=Highlight><te href=120907>共振フィールド</te></color>が存在している場合、共振フィールドを破壊し、<color=Highlight><te href=120908>強化型共振フィールド</te></color>を展開させる。\n空中で発動可能。\n<size=10></size>\n<size=40><color=Title>強化型共振フィールド</color></size>\n· <color=Highlight>強化型共振フィールド</color>は{6}秒間持続。\n· <color=Highlight>強化型共振フィールド</color>効果範囲内の近くにいるチーム内全員の防御力が{8}アップ。\n· <color=Highlight><te href=120907>共振フィールド</te></color>の中断耐性アップ効果及び<color=Highlight>不協和値蓄積効率</color>アップ効果を継承する。\n· <color=Highlight><te href=120907>共振フィールド</te></color>のHP回復効果を継承し、HP回復倍率を{7}アップ。",
+        "Param": [
+          "100%",
+          "1%",
+          "0.5%",
+          "80%",
+          "1%",
+          "160%",
+          "25",
+          "40%",
+          "20%"
+        ],
+        "SimpleDesc": "<color=Fire>焦熱ダメージ</color>を与える。\nモーニエ自身の共鳴効率がこのスキルの与ダメージのクリティカル率とクリティカルダメージをアップ可能。\nこのスキルを発動時、既に<color=Highlight>領域</color>がある場合は解除し、<color=Highlight>強化領域</color>を展開する。\n<size=10></size>\n<size=40><color=Title>強化領域</color></size>\n· {6}秒間持続。\n· チーム内登場キャラのHPを継続的に回復する。\n· 近くにいるチーム内全員の防御力、<color=Highlight>不協和値蓄積効率</color>と中断耐性効果がアップ。",
+        "SimpleParam": [
+          "100%",
+          "1%",
+          "0.5%",
+          "80%",
+          "1%",
+          "160%",
+          "25",
+          "40%",
+          "20%"
+        ],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconMoNing/SP_IconMoNingC1.SP_IconMoNingC1",
+        "Type": "共鳴解放",
+        "Level": {
+          "20": {
+            "Name": "スキルダメージ",
+            "Param": [
+              [
+                "262.73%",
+                "284.27%",
+                "305.82%",
+                "335.98%",
+                "357.52%",
+                "382.30%",
+                "416.77%",
+                "451.24%",
+                "485.70%",
+                "522.33%",
+                "565.42%",
+                "608.50%",
+                "651.59%",
+                "694.68%",
+                "737.76%",
+                "780.85%",
+                "823.94%",
+                "867.02%",
+                "910.11%",
+                "953.20%"
+              ]
+            ],
+            "Format": "{0}防御力"
+          },
+          "21": {
+            "Name": "クールタイム",
+            "Param": [
+              [
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25"
+              ]
+            ],
+            "Format": "{0}秒"
+          },
+          "22": {
+            "Name": "共鳴エネルギー消費",
+            "Param": [
+              [
+                "175",
+                "175",
+                "175",
+                "175",
+                "175",
+                "175",
+                "175",
+                "175",
+                "175",
+                "175",
+                "175",
+                "175",
+                "175",
+                "175",
+                "175",
+                "175",
+                "175",
+                "175",
+                "175",
+                "175"
+              ]
+            ],
+            "Format": null
+          },
+          "23": {
+            "Name": "協奏エネルギー獲得",
+            "Param": [
+              [
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20"
+              ]
+            ],
+            "Format": null
+          }
+        },
+        "Consume": {
+          "1": [],
+          "2": [
+            {
+              "Key": 43021041,
+              "Value": 2
+            },
+            {
+              "Key": 41100071,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 1500
+            }
+          ],
+          "3": [
+            {
+              "Key": 43021041,
+              "Value": 3
+            },
+            {
+              "Key": 41100071,
+              "Value": 3
+            },
+            {
+              "Key": 2,
+              "Value": 2000
+            }
+          ],
+          "4": [
+            {
+              "Key": 43021042,
+              "Value": 2
+            },
+            {
+              "Key": 41100072,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 4500
+            }
+          ],
+          "5": [
+            {
+              "Key": 43021042,
+              "Value": 3
+            },
+            {
+              "Key": 41100072,
+              "Value": 3
+            },
+            {
+              "Key": 2,
+              "Value": 6000
+            }
+          ],
+          "6": [
+            {
+              "Key": 43021043,
+              "Value": 3
+            },
+            {
+              "Key": 41100073,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 16000
+            }
+          ],
+          "7": [
+            {
+              "Key": 43021043,
+              "Value": 5
+            },
+            {
+              "Key": 41100073,
+              "Value": 3
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 30000
+            }
+          ],
+          "8": [
+            {
+              "Key": 43021044,
+              "Value": 2
+            },
+            {
+              "Key": 41100074,
+              "Value": 2
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 50000
+            }
+          ],
+          "9": [
+            {
+              "Key": 43021044,
+              "Value": 3
+            },
+            {
+              "Key": 41100074,
+              "Value": 3
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 70000
+            }
+          ],
+          "10": [
+            {
+              "Key": 43021044,
+              "Value": 6
+            },
+            {
+              "Key": 41100074,
+              "Value": 4
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 100000
+            }
+          ]
+        },
+        "Damage": {
+          "120920002": {
+            "Element": 2,
+            "RelatedProperty": "防御力",
+            "Type": 2,
+            "RateLv": [
+              26273,
+              28427,
+              30582,
+              33598,
+              35752,
+              38230,
+              41677,
+              45124,
+              48570,
+              52233,
+              56542,
+              60850,
+              65159,
+              69468,
+              73776,
+              78085,
+              82394,
+              86702,
+              91011,
+              95320
+            ],
+            "Energy": 0,
+            "ElementPower": 0,
+            "HardnessLv": 0,
+            "ToughLv": 40000
+          },
+          "120920003": {
+            "Element": 2,
+            "RelatedProperty": "防御力",
+            "Type": 2,
+            "RateLv": [
+              36782,
+              39798,
+              42814,
+              47037,
+              50053,
+              53521,
+              58347,
+              63173,
+              67998,
+              73126,
+              79158,
+              85190,
+              91222,
+              97254,
+              103287,
+              109319,
+              115351,
+              121383,
+              127415,
+              133447
+            ],
+            "Energy": 0,
+            "ElementPower": 0,
+            "HardnessLv": 0,
+            "ToughLv": 40000
+          },
+          "120920004": {
+            "Element": 2,
+            "RelatedProperty": "防御力",
+            "Type": 2,
+            "RateLv": [
+              39550,
+              42794,
+              46037,
+              50577,
+              53820,
+              57550,
+              62739,
+              67928,
+              73117,
+              78630,
+              85116,
+              91602,
+              98088,
+              104575,
+              111061,
+              117547,
+              124033,
+              130519,
+              137006,
+              143492
+            ],
+            "Energy": 0,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 40000
+          }
+        }
+      }
+    },
+    "4": {
+      "ParentNodes": [
+        7
+      ],
+      "NodeType": 3,
+      "Coordinate": 2,
+      "UnLockCondition": 0,
+      "Consume": [
+        {
+          "Key": 43020032,
+          "Value": 2
+        },
+        {
+          "Key": 41100022,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 3900
+        }
+      ],
+      "Skill": {
+        "Name": "青図",
+        "Desc": "モーニエの共鳴効率が{4}アップ。\n<color=Highlight>変奏スキル</color>を発動時、自身が{0}Ptの協奏エネルギーを獲得、{1}秒ごとに1回発動可能。\n<color=Highlight>通常攻撃・広域観測モード3段目</color>を発動時、自身が{2}Ptの協奏エネルギーを獲得、{3}秒ごとに1回発動可能。",
+        "Param": [
+          "20",
+          "20",
+          "20",
+          "20",
+          "10%"
+        ],
+        "SimpleDesc": "モーニエの共鳴効率がアップ。<color=Highlight>変奏スキル</color>及び、空中で<color=Highlight>通常攻撃3段目</color>を発動時、協奏エネルギーを獲得。",
+        "SimpleParam": [
+          "20",
+          "20",
+          "20",
+          "20",
+          "10%"
+        ],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconMoNing/SP_IconMoNing1D1.SP_IconMoNing1D1",
+        "Type": "固有スキル",
+        "Level": {},
+        "Consume": {
+          "1": [
+            {
+              "Key": 43021042,
+              "Value": 3
+            },
+            {
+              "Key": 41100072,
+              "Value": 3
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 10000
+            }
+          ]
+        },
+        "Damage": {}
+      }
+    },
+    "5": {
+      "ParentNodes": [
+        4
+      ],
+      "NodeType": 3,
+      "Coordinate": 3,
+      "UnLockCondition": 0,
+      "Consume": [
+        {
+          "Key": 43020032,
+          "Value": 2
+        },
+        {
+          "Key": 41100022,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 3900
+        }
+      ],
+      "Skill": {
+        "Name": "有界",
+        "Desc": "<color=Highlight>共鳴スキル・期待誤差</color>、<color=Highlight>共鳴スキル・分散型行列</color>を発動時、チーム内キャラが<color=Highlight>有界性証明</color>を獲得：\n· <color=Highlight>有界性証明</color>は{0}秒間持続、{1}分ごとに1回獲得可能。\n· チーム内キャラがキャラ自身のHP上限の{2}に相当するダメージを受けた場合、このダメージをキャラ自身のHP上限の{3}までにする。この効果は最大{4}回発動でき、累計{5}回発動すると、<color=Highlight>有界性証明</color>はリセットされる。\n· チーム内登場キャラが戦闘不能に至るダメージを受けた場合、このダメージで戦闘不能にならない。この効果は最大{6}回発動でき、累計{7}回発動すると、<color=Highlight>有界性証明</color>はリセットされる。\n· <color=Highlight>有界性証明</color>がリセット時、チーム内登場キャラはモーニエの防御力の{8}に相当するHPを回復。",
+        "Param": [
+          "60",
+          "5",
+          "30%",
+          "30%",
+          "3",
+          "3",
+          "1",
+          "1",
+          "150%"
+        ],
+        "SimpleDesc": "<color=Highlight>共鳴スキル</color>を発動時、チーム内キャラが<color=Highlight>有界性証明</color>を獲得し、一定時間内に受けるダメージが軽減され、1回だけ戦闘不能に至るダメージを受けても戦闘不能にならない。",
+        "SimpleParam": [
+          "60",
+          "5",
+          "30%",
+          "30%",
+          "3",
+          "3",
+          "1",
+          "1",
+          "150%"
+        ],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconMoNing/SP_IconMoNing2D2.SP_IconMoNing2D2",
+        "Type": "固有スキル",
+        "Level": {},
+        "Consume": {
+          "1": [
+            {
+              "Key": 43021043,
+              "Value": 3
+            },
+            {
+              "Key": 41100073,
+              "Value": 3
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 20000
+            }
+          ]
+        },
+        "Damage": {}
+      }
+    },
+    "6": {
+      "ParentNodes": [],
+      "NodeType": 2,
+      "Coordinate": 4,
+      "UnLockCondition": 0,
+      "Consume": [
+        {
+          "Key": 43020032,
+          "Value": 2
+        },
+        {
+          "Key": 41100022,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 3900
+        }
+      ],
+      "Skill": {
+        "Name": "収束",
+        "Desc": "目標を攻撃し、<color=Fire>焦熱ダメージ</color>を与える他、<color=Highlight><te href=120903>【静止エネルギー】</te></color>をリセットし、モーニエが<color=Highlight><te href=120902>広域観測モード</te></color>に入る。",
+        "Param": [],
+        "SimpleDesc": "<color=Fire>焦熱ダメージ</color>を与え、<color=Highlight>空中モード</color>に入る。",
+        "SimpleParam": [],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconMoNing/SP_IconMoNingQTE.SP_IconMoNingQTE",
+        "Type": "変奏スキル",
+        "Level": {
+          "24": {
+            "Name": "スキルダメージ",
+            "Param": [
+              [
+                "102.00%",
+                "110.37%",
+                "118.73%",
+                "130.44%",
+                "138.81%",
+                "148.43%",
+                "161.81%",
+                "175.19%",
+                "188.57%",
+                "202.79%",
+                "219.52%",
+                "236.25%",
+                "252.98%",
+                "269.70%",
+                "286.43%",
+                "303.16%",
+                "319.89%",
+                "336.62%",
+                "353.34%",
+                "370.07%"
+              ]
+            ],
+            "Format": null
+          },
+          "25": {
+            "Name": "協奏エネルギー獲得",
+            "Param": [
+              [
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10"
+              ]
+            ],
+            "Format": null
+          }
+        },
+        "Consume": {
+          "1": [],
+          "2": [
+            {
+              "Key": 43021041,
+              "Value": 2
+            },
+            {
+              "Key": 41100071,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 1500
+            }
+          ],
+          "3": [
+            {
+              "Key": 43021041,
+              "Value": 3
+            },
+            {
+              "Key": 41100071,
+              "Value": 3
+            },
+            {
+              "Key": 2,
+              "Value": 2000
+            }
+          ],
+          "4": [
+            {
+              "Key": 43021042,
+              "Value": 2
+            },
+            {
+              "Key": 41100072,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 4500
+            }
+          ],
+          "5": [
+            {
+              "Key": 43021042,
+              "Value": 3
+            },
+            {
+              "Key": 41100072,
+              "Value": 3
+            },
+            {
+              "Key": 2,
+              "Value": 6000
+            }
+          ],
+          "6": [
+            {
+              "Key": 43021043,
+              "Value": 3
+            },
+            {
+              "Key": 41100073,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 16000
+            }
+          ],
+          "7": [
+            {
+              "Key": 43021043,
+              "Value": 5
+            },
+            {
+              "Key": 41100073,
+              "Value": 3
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 30000
+            }
+          ],
+          "8": [
+            {
+              "Key": 43021044,
+              "Value": 2
+            },
+            {
+              "Key": 41100074,
+              "Value": 2
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 50000
+            }
+          ],
+          "9": [
+            {
+              "Key": 43021044,
+              "Value": 3
+            },
+            {
+              "Key": 41100074,
+              "Value": 3
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 70000
+            }
+          ],
+          "10": [
+            {
+              "Key": 43021044,
+              "Value": 6
+            },
+            {
+              "Key": 41100074,
+              "Value": 4
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 100000
+            }
+          ]
+        },
+        "Damage": {
+          "120940001": {
+            "Element": 2,
+            "RelatedProperty": "攻撃力",
+            "Type": 3,
+            "RateLv": [
+              10200,
+              11037,
+              11873,
+              13044,
+              13881,
+              14843,
+              16181,
+              17519,
+              18857,
+              20279,
+              21952,
+              23625,
+              25298,
+              26970,
+              28643,
+              30316,
+              31989,
+              33662,
+              35334,
+              37007
+            ],
+            "Energy": 1000,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 17000
+          }
+        }
+      }
+    },
+    "7": {
+      "ParentNodes": [],
+      "NodeType": 1,
+      "Coordinate": 1,
+      "UnLockCondition": 0,
+      "Consume": [
+        {
+          "Key": 43020032,
+          "Value": 2
+        },
+        {
+          "Key": 41100022,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 3900
+        }
+      ],
+      "Skill": {
+        "Name": "質量とエネルギーの等価性",
+        "Desc": "<size=40><color=Title>基準モード</color></size>\nモーニエは初期状態では<color=Highlight>基準モード</color>に入る。このモードでは、<color=Highlight><te href=120903>【静止エネルギー】</te></color>を獲得可能。\n<size=10></size>\n<size=40><color=Title>重撃・位置変換</color></size>\n<color=Highlight><te href=120903>【静止エネルギー】</te></color>が{0}Ptになると、重撃が<color=Highlight>重撃・位置変換</color>に代わる。\n<color=Highlight>重撃・位置変換</color>を発動時、<color=Highlight><te href=120903>【静止エネルギー】</te></color>をすべて消費し、目標を攻撃して<color=Fire>焦熱ダメージ</color>を与える。このダメージは重撃ダメージと見なされる。続いてモーニエは空中に浮き、<color=Highlight><te href=120902>広域観測モード</te></color>に入る。\n<size=10></size>\n<size=40><color=Title>広域観測モード</color></size>\n<color=Highlight>広域観測モード</color>は{11}秒間持続。\n<color=Highlight>広域観測モード</color>に入る時、<color=Highlight><te href=120907>共振フィールド</te></color>が展開される。\nモーニエが<color=Highlight>広域観測モード</color>時、<color=Highlight><te href=120904>【相対運動エネルギー】</te></color>を獲得可能。\n<color=Highlight>通常攻撃</color>を長押しする時、<color=Highlight><te href=120904>【相対運動エネルギー】</te></color>が{0}Pt未満の場合、<color=Highlight>通常攻撃・広域観測モード1段目、2段目、3段目</color>の順で繰り返し発動する。期間中に<color=Highlight><te href=120904>【相対運動エネルギー】</te></color>が{0}Pt以上になると、<color=Highlight>重撃・反転</color>を発動する。\nモーニエが被撃・ダウン状態の場合、回避を一回押しすると、被撃・ダウン状態を解除できる。この効果は最大{12}回発動できる。<color=Highlight>広域観測モード</color>を解除すると発動可能回数がリセットされる。\nモーニエが飛ばされ、地面に落ちた場合、<color=Highlight>広域観測モード</color>は解除される。\n特定のギミック、探索モジュール、他のキャラに切り替えるまたはジャンプを一回押しして着地すると、<color=Highlight>広域観測モード</color>は解除される。\n<size=10></size>\n<size=40><color=Title>共振フィールド</color></size>\n· <color=Highlight>共振フィールド</color>は{1}秒間持続。\n· <color=Highlight>共振フィールド</color>を展開時、<color=Highlight>共振フィールド</color>の効果範囲内にいる目標に<color=Fire>焦熱ダメージ</color>を与える。このダメージは共鳴解放ダメージと見なされる。\n· <color=Highlight>共振フィールド</color>効果範囲内の近くにいるチーム内登場キャラのHPを持続的に回復する。{2}秒ごとに1回発動可能。\n· <color=Highlight>共振フィールド</color>効果範囲内の近くにいるチーム内全員の<color=Highlight>不協和値蓄積効率</color>が{3}アップ。\n· <color=Highlight>共振フィールド</color>効果範囲内の近くにいるチーム内登場キャラの中断耐性がアップ。\n<size=10></size>\n<size=40><color=Title>重撃・反転</color></size>\n<color=Highlight><te href=120904>【相対運動エネルギー】</te></color>が{0}Ptになると、重撃が<color=Highlight>重撃・反転</color>に代わる。\n<color=Highlight>重撃・反転</color>を発動時、すべての<color=Highlight><te href=120904>【相対運動エネルギー】</te></color>を消費し、<color=Fire>焦熱ダメージ</color>を与える。このダメージは重撃ダメージと見なされる。\n<color=Highlight>重撃・反転</color>が目標に命中すると、目標に{4}秒間持続する<color=Highlight><te href=120905>観測マーク</te></color>を付与。\n空中で発動可能。\n<size=10></size>\n<size=40><color=Title>観測マーク</color></size>\n<color=Highlight>観測マーク</color>が付与されている目標が<color=Highlight><a href=谐度破坏></a></color>によるダメージを受けた時、目標が<color=Highlight><te href=100002>【震撃協和・オフセット】</te></color>または<color=Highlight><te href=100003>【密集協和・オフセット】</te></color>状態の場合、モーニエは目標に追加で{5}秒間持続する<color=Highlight><te href=120906>干渉マーク</te></color>を付与。\n<size=10></size>\n<size=40><color=Title>干渉マーク</color></size>\n近くにいるチーム内全員が<color=Highlight>干渉マーク</color>の付与されている目標への与ダメージがアップ：モーニエ自身の共鳴効率が{7}を超えた場合、共鳴効率の超過分の{8}につき、ダメージが{9}アップ、最大{10}。\n<size=10></size>\n<size=40><color=Title>視界</color></size>\nチーム内キャラが<color=Highlight><te href=120905>観測マーク</te></color>または<color=Highlight><te href=120906>干渉マーク</te></color>状態の付与されている目標を倒すと、モーニエは{6}秒間持続する<color=Highlight>視界</color>を獲得。モーニエが<color=Highlight>視界</color>を所有時、近くにいるチーム内全員の自身のスキルが直接的に目標に命中すると、モーニエはその目標に<color=Highlight><te href=120905>観測マーク</te></color>を付与する。\n<size=10></size>\n<size=40><color=Title>震撃協和レスポンス・粒子射流</color></size>\nモーニエは、範囲内で<color=Highlight><te href=100004>【震撃協和・インターフェア】</te></color>状態の目標に<color=Fire>焦熱ダメージ</color>を与える。このダメージは<color=Highlight>震撃協和ダメージ</color>と見なされる。\n<size=10></size>\n<size=40><color=Title>【静止エネルギー】獲得方法</color></size>\n<color=Highlight>【静止エネルギー】</color>は最大{0}Pt。\n<color=Highlight><te href=120901>基準モード</te></color>時、<color=Highlight>通常攻撃</color>、<color=Highlight>回避反撃</color>を発動時、または<color=Highlight>共鳴スキル・最適解</color>が目標に命中すると、<color=Highlight>【静止エネルギー】</color>を獲得可能。\n<size=10></size>\n<size=40><color=Title>【相対運動エネルギー】獲得方法</color></size>\n<color=Highlight>【相対運動エネルギー】</color>は最大{0}Pt。\n<color=Highlight><te href=120902>広域観測モード</te></color>時、<color=Highlight>通常攻撃・広域観測モード</color>、<color=Highlight>共鳴スキル・分散型行列</color>が目標に命中すると、<color=Highlight>【相対運動エネルギー】</color>を獲得可能。\n<color=Highlight>重撃・反転</color>を発動期間、<color=Highlight>【相対運動エネルギー】</color>を獲得できない。",
+        "Param": [
+          "100",
+          "25",
+          "3",
+          "50%",
+          "30",
+          "8",
+          "3",
+          "100%",
+          "1%",
+          "0.25%",
+          "40%",
+          "30",
+          "3"
+        ],
+        "SimpleDesc": "<size=40><color=Title>【特殊エネルギー】の仕組み</color></size>\nモーニエは地面にいる時、<color=Highlight>【地面モードエネルギー】</color>を獲得できる。\nモーニエは空中にいる時、<color=Highlight>【空中モードエネルギー】</color>を獲得できる。\n<size=10></size>\n<size=40><color=Title>地面強化重撃</color></size>\n<color=Highlight>【地面モードエネルギー】</color>が満タン時、<color=Highlight>地面強化重撃</color>を発動できる。\nすべての<color=Highlight>【地面モードエネルギー】</color>を消費して<color=Fire>焦熱ダメージ</color>を与え、<color=Highlight>空中モード</color>に入る。\n<size=10></size>\n<size=40><color=Title>空中モード</color></size>\n<color=Highlight>空中モード</color>は{11}秒間持続。このモードに入る時、<color=Highlight>領域</color>が展開され、<color=Fire>焦熱ダメージ</color>を与える。\n<size=10></size>\n<size=40><color=Title>領域</color></size>\n· <color=Highlight>領域</color>は{1}秒間持続。\n· 近くにいるチーム内登場キャラのHPを持続的に回復。\n· 近くにいるチーム内全員の<color=Highlight>不協和値蓄積効率</color>と中断耐性効果がアップ。\n<size=10></size>\n<size=40><color=Title>空中強化重撃</color></size>\n<color=Highlight>【空中モードエネルギー】</color>が満タン時、<color=Highlight>空中強化重撃</color>を発動できる。\nすべての<color=Highlight>【空中モードエネルギー】</color>を消費し、目標に<color=Fire>焦熱ダメージ</color>を与える他、{4}秒間持続する<color=Highlight>マーク</color>を付与。\n<size=10></size>\n<size=40><color=Title>マーク</color></size>\n<color=Highlight>マーク</color>されている目標が<color=Highlight>協和破壊</color>によるダメージを受けた時、目標が<color=Highlight>【震撃協和・オフセット】</color>または<color=Highlight>【密集協和・オフセット】</color>状態の場合、{5}秒間持続する<color=Highlight>強化マーク</color>を付与。\n<size=10></size>\n<size=40><color=Title>強化マーク</color></size>\n近くにいるチーム内全員が<color=Highlight>強化マーク</color>の付与されている目標への与ダメージがアップ。\n<size=10></size>\n<size=40><color=Title>視界</color></size>\n<color=Highlight>マーク</color>または<color=Highlight>強化マーク</color>状態の目標が倒される時、一定時間内にチーム内キャラがダメージを与えると、目標に<color=Highlight>マーク</color>を付与。\n<size=10></size>\n<size=40><color=Title>震撃協和レスポンス・粒子射流</color></size>\nモーニエが目標に<color=Fire>焦熱ダメージ</color>を1回与える。このダメージは<color=Highlight>震撃協和ダメージ</color>と見なされる。",
+        "SimpleParam": [
+          "100",
+          "25",
+          "3",
+          "50%",
+          "30",
+          "8",
+          "3",
+          "100%",
+          "1%",
+          "0.25%",
+          "40%",
+          "30",
+          "3"
+        ],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconMoNing/SP_IconMoNingY1.SP_IconMoNingY1",
+        "Type": "共鳴回路",
+        "Level": {
+          "26": {
+            "Name": "共振フィールドHP回復量",
+            "Param": [
+              [
+                "40+9.63%",
+                "44+10.02%",
+                "50+10.41%",
+                "56+10.98%",
+                "63+11.75%",
+                "70+12.53%",
+                "71+13.97%",
+                "73+15.61%",
+                "74+17.35%",
+                "76+20.24%",
+                "82+21.91%",
+                "88+23.58%",
+                "95+25.25%",
+                "101+26.92%",
+                "107+28.59%",
+                "114+30.26%",
+                "120+31.93%",
+                "126+33.59%",
+                "132+35.26%",
+                "139+36.93%"
+              ]
+            ],
+            "Format": "{0}防御力"
+          },
+          "27": {
+            "Name": "共振フィールドダメージ",
+            "Param": [
+              [
+                "20.00%*5",
+                "21.64%*5",
+                "23.28%*5",
+                "25.58%*5",
+                "27.22%*5",
+                "29.11%*5",
+                "31.73%*5",
+                "34.35%*5",
+                "36.98%*5",
+                "39.77%*5",
+                "43.05%*5",
+                "46.33%*5",
+                "49.61%*5",
+                "52.89%*5",
+                "56.17%*5",
+                "59.45%*5",
+                "62.73%*5",
+                "66.01%*5",
+                "69.29%*5",
+                "72.57%*5"
+              ]
+            ],
+            "Format": null
+          },
+          "28": {
+            "Name": "重撃・位置変換ダメージ",
+            "Param": [
+              [
+                "22.20%+49.81%",
+                "24.02%+53.89%",
+                "25.84%+57.97%",
+                "28.39%+63.69%",
+                "30.21%+67.78%",
+                "32.30%+72.47%",
+                "35.22%+79.01%",
+                "38.13%+85.54%",
+                "41.04%+92.07%",
+                "44.14%+99.02%",
+                "47.78%+107.18%",
+                "51.42%+115.35%",
+                "55.06%+123.52%",
+                "58.70%+131.69%",
+                "62.34%+139.86%",
+                "65.98%+148.02%",
+                "69.62%+156.19%",
+                "73.26%+164.36%",
+                "76.90%+172.53%",
+                "80.54%+180.69%"
+              ]
+            ],
+            "Format": null
+          },
+          "29": {
+            "Name": "重撃・反転ダメージ",
+            "Param": [
+              [
+                "130.00%",
+                "140.66%",
+                "151.32%",
+                "166.25%",
+                "176.91%",
+                "189.17%",
+                "206.22%",
+                "223.28%",
+                "240.34%",
+                "258.46%",
+                "279.78%",
+                "301.10%",
+                "322.42%",
+                "343.74%",
+                "365.06%",
+                "386.38%",
+                "407.70%",
+                "429.02%",
+                "450.34%",
+                "471.66%"
+              ]
+            ],
+            "Format": null
+          },
+          "30": {
+            "Name": "震撃協和レスポンス・粒子射流ダメージ",
+            "Param": [
+              [
+                "150.00%",
+                "162.30%",
+                "174.60%",
+                "191.82%",
+                "204.12%",
+                "218.27%",
+                "237.95%",
+                "257.63%",
+                "277.31%",
+                "298.22%",
+                "322.82%",
+                "347.42%",
+                "372.02%",
+                "396.62%",
+                "421.22%",
+                "445.82%",
+                "470.42%",
+                "495.02%",
+                "519.62%",
+                "544.22%"
+              ]
+            ],
+            "Format": ""
+          },
+          "31": {
+            "Name": "",
+            "Param": [
+              [
+                "5",
+                "5",
+                "5",
+                "5",
+                "5",
+                "5",
+                "5",
+                "5",
+                "5",
+                "5",
+                "5",
+                "5",
+                "5",
+                "5",
+                "5",
+                "5",
+                "5",
+                "5",
+                "5",
+                "5"
+              ]
+            ],
+            "Format": null
+          }
+        },
+        "Consume": {
+          "1": [],
+          "2": [
+            {
+              "Key": 43021041,
+              "Value": 2
+            },
+            {
+              "Key": 41100071,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 1500
+            }
+          ],
+          "3": [
+            {
+              "Key": 43021041,
+              "Value": 3
+            },
+            {
+              "Key": 41100071,
+              "Value": 3
+            },
+            {
+              "Key": 2,
+              "Value": 2000
+            }
+          ],
+          "4": [
+            {
+              "Key": 43021042,
+              "Value": 2
+            },
+            {
+              "Key": 41100072,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 4500
+            }
+          ],
+          "5": [
+            {
+              "Key": 43021042,
+              "Value": 3
+            },
+            {
+              "Key": 41100072,
+              "Value": 3
+            },
+            {
+              "Key": 2,
+              "Value": 6000
+            }
+          ],
+          "6": [
+            {
+              "Key": 43021043,
+              "Value": 3
+            },
+            {
+              "Key": 41100073,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 16000
+            }
+          ],
+          "7": [
+            {
+              "Key": 43021043,
+              "Value": 5
+            },
+            {
+              "Key": 41100073,
+              "Value": 3
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 30000
+            }
+          ],
+          "8": [
+            {
+              "Key": 43021044,
+              "Value": 2
+            },
+            {
+              "Key": 41100074,
+              "Value": 2
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 50000
+            }
+          ],
+          "9": [
+            {
+              "Key": 43021044,
+              "Value": 3
+            },
+            {
+              "Key": 41100074,
+              "Value": 3
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 70000
+            }
+          ],
+          "10": [
+            {
+              "Key": 43021044,
+              "Value": 6
+            },
+            {
+              "Key": 41100074,
+              "Value": 4
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 100000
+            }
+          ]
+        },
+        "Damage": {
+          "120900501": {
+            "Element": 2,
+            "RelatedProperty": "攻撃力",
+            "Type": 1,
+            "RateLv": [
+              2220,
+              2402,
+              2584,
+              2839,
+              3021,
+              3230,
+              3522,
+              3813,
+              4104,
+              4414,
+              4778,
+              5142,
+              5506,
+              5870,
+              6234,
+              6598,
+              6962,
+              7326,
+              7690,
+              8054
+            ],
+            "Energy": 93,
+            "ElementPower": 296,
+            "HardnessLv": 10000,
+            "ToughLv": 4440
+          },
+          "120900602": {
+            "Element": 2,
+            "RelatedProperty": "攻撃力",
+            "Type": 1,
+            "RateLv": [
+              13000,
+              14066,
+              15132,
+              16625,
+              17691,
+              18917,
+              20622,
+              22328,
+              24034,
+              25846,
+              27978,
+              30110,
+              32242,
+              34374,
+              36506,
+              38638,
+              40770,
+              42902,
+              45034,
+              47166
+            ],
+            "Energy": 325,
+            "ElementPower": 1196,
+            "HardnessLv": 10000,
+            "ToughLv": 15600
+          },
+          "120900502": {
+            "Element": 2,
+            "RelatedProperty": "攻撃力",
+            "Type": 2,
+            "RateLv": [
+              2000,
+              2164,
+              2328,
+              2558,
+              2722,
+              2911,
+              3173,
+              3435,
+              3698,
+              3977,
+              4305,
+              4633,
+              4961,
+              5289,
+              5617,
+              5945,
+              6273,
+              6601,
+              6929,
+              7257
+            ],
+            "Energy": 0,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 0
+          },
+          "120940002": {
+            "Element": 2,
+            "RelatedProperty": "攻撃力",
+            "Type": 2,
+            "RateLv": [
+              2000,
+              2164,
+              2328,
+              2558,
+              2722,
+              2911,
+              3173,
+              3435,
+              3698,
+              3977,
+              4305,
+              4633,
+              4961,
+              5289,
+              5617,
+              5945,
+              6273,
+              6601,
+              6929,
+              7257
+            ],
+            "Energy": 0,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 0
+          },
+          "120900504": {
+            "Element": 0,
+            "RelatedProperty": "防御力",
+            "Type": 0,
+            "RateLv": [
+              1350,
+              1404,
+              1458,
+              1539,
+              1647,
+              1755,
+              1957,
+              2187,
+              2430,
+              2835,
+              3068,
+              3302,
+              3536,
+              3770,
+              4004,
+              4238,
+              4472,
+              4705,
+              4939,
+              5173
+            ],
+            "Energy": 0,
+            "ElementPower": 0,
+            "HardnessLv": 0,
+            "ToughLv": 0
+          },
+          "120900505": {
+            "Element": 0,
+            "RelatedProperty": "防御力",
+            "Type": 0,
+            "RateLv": [
+              963,
+              1002,
+              1041,
+              1098,
+              1175,
+              1253,
+              1397,
+              1561,
+              1735,
+              2024,
+              2191,
+              2358,
+              2525,
+              2692,
+              2859,
+              3026,
+              3193,
+              3359,
+              3526,
+              3693
+            ],
+            "Energy": 0,
+            "ElementPower": 0,
+            "HardnessLv": 0,
+            "ToughLv": 0
+          },
+          "120900506": {
+            "Element": 0,
+            "RelatedProperty": "防御力",
+            "Type": 0,
+            "RateLv": [
+              1755,
+              1825,
+              1895,
+              2000,
+              2141,
+              2281,
+              2544,
+              2843,
+              3159,
+              3685,
+              3989,
+              4293,
+              4597,
+              4901,
+              5205,
+              5509,
+              5813,
+              6117,
+              6421,
+              6725
+            ],
+            "Energy": 0,
+            "ElementPower": 0,
+            "HardnessLv": 0,
+            "ToughLv": 0
+          },
+          "120999005": {
+            "Element": 2,
+            "RelatedProperty": "攻撃力",
+            "Type": 12,
+            "RateLv": [
+              15000,
+              16230,
+              17460,
+              19182,
+              20412,
+              21827,
+              23795,
+              25763,
+              27731,
+              29822,
+              32282,
+              34742,
+              37202,
+              39662,
+              42122,
+              44582,
+              47042,
+              49502,
+              51962,
+              54422
+            ],
+            "Energy": 0,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 0
+          },
+          "120999006": {
+            "Element": 2,
+            "RelatedProperty": "攻撃力",
+            "Type": 12,
+            "RateLv": [
+              39000,
+              42198,
+              45396,
+              49874,
+              53072,
+              56749,
+              61866,
+              66983,
+              72100,
+              77536,
+              83932,
+              90328,
+              96724,
+              103120,
+              109516,
+              115912,
+              122308,
+              128704,
+              135100,
+              141496
+            ],
+            "Energy": 0,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 0
+          }
+        }
+      }
+    },
+    "8": {
+      "ParentNodes": [],
+      "NodeType": 3,
+      "Coordinate": 1,
+      "UnLockCondition": 0,
+      "Consume": [
+        {
+          "Key": 43020032,
+          "Value": 2
+        },
+        {
+          "Key": 41100022,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 3900
+        }
+      ],
+      "Skill": {
+        "Name": "リカーシブ",
+        "Desc": "チーム内全員に{0}の全ダメージブーストを付与。{1}秒間持続。",
+        "Param": [
+          "25%",
+          "30"
+        ],
+        "SimpleDesc": "チーム内全員に全ダメージブーストを付与。{1}秒間持続。",
+        "SimpleParam": [
+          "25%",
+          "30"
+        ],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconMoNing/SP_IconMoNingP1.SP_IconMoNingP1",
+        "Type": "終奏スキル",
+        "Level": {},
+        "Consume": {
+          "1": []
+        },
+        "Damage": {}
+      }
+    },
+    "9": {
+      "ParentNodes": [
+        1
+      ],
+      "NodeType": 4,
+      "Coordinate": 1,
+      "UnLockCondition": 500006,
+      "Consume": [
+        {
+          "Key": 43021043,
+          "Value": 3
+        },
+        {
+          "Key": 41100073,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 50000
+        }
+      ],
+      "Skill": {
+        "Name": "HP回復効果アップ",
+        "Desc": "HP回復効果{0}アップ",
+        "Param": [
+          "1.80%"
+        ],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertygreencure_UI.T_Iconpropertygreencure_UI"
+      }
+    },
+    "10": {
+      "ParentNodes": [
+        2
+      ],
+      "NodeType": 4,
+      "Coordinate": 1,
+      "UnLockCondition": 500005,
+      "Consume": [
+        {
+          "Key": 43021043,
+          "Value": 3
+        },
+        {
+          "Key": 41100073,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 50000
+        }
+      ],
+      "Skill": {
+        "Name": "防御力アップ",
+        "Desc": "防御力{0}アップ",
+        "Param": [
+          "2.28%"
+        ],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertygreendefense_UI.T_Iconpropertygreendefense_UI"
+      }
+    },
+    "11": {
+      "ParentNodes": [
+        3
+      ],
+      "NodeType": 4,
+      "Coordinate": 1,
+      "UnLockCondition": 500005,
+      "Consume": [
+        {
+          "Key": 43021043,
+          "Value": 3
+        },
+        {
+          "Key": 41100073,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 50000
+        }
+      ],
+      "Skill": {
+        "Name": "防御力アップ",
+        "Desc": "防御力{0}アップ",
+        "Param": [
+          "2.28%"
+        ],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertygreendefense_UI.T_Iconpropertygreendefense_UI"
+      }
+    },
+    "12": {
+      "ParentNodes": [
+        6
+      ],
+      "NodeType": 4,
+      "Coordinate": 1,
+      "UnLockCondition": 500006,
+      "Consume": [
+        {
+          "Key": 43021043,
+          "Value": 3
+        },
+        {
+          "Key": 41100073,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 50000
+        }
+      ],
+      "Skill": {
+        "Name": "HP回復効果アップ",
+        "Desc": "HP回復効果{0}アップ",
+        "Param": [
+          "1.80%"
+        ],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertygreencure_UI.T_Iconpropertygreencure_UI"
+      }
+    },
+    "13": {
+      "ParentNodes": [
+        9
+      ],
+      "NodeType": 4,
+      "Coordinate": 2,
+      "UnLockCondition": 500008,
+      "Consume": [
+        {
+          "Key": 43021044,
+          "Value": 3
+        },
+        {
+          "Key": 41100074,
+          "Value": 3
+        },
+        {
+          "Key": 41400194,
+          "Value": 1
+        },
+        {
+          "Key": 2,
+          "Value": 100000
+        }
+      ],
+      "Skill": {
+        "Name": "HP回復効果アップ",
+        "Desc": "HP回復効果{0}アップ",
+        "Param": [
+          "4.20%"
+        ],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertygreencure_UI.T_Iconpropertygreencure_UI"
+      }
+    },
+    "14": {
+      "ParentNodes": [
+        10
+      ],
+      "NodeType": 4,
+      "Coordinate": 2,
+      "UnLockCondition": 500007,
+      "Consume": [
+        {
+          "Key": 43021044,
+          "Value": 3
+        },
+        {
+          "Key": 41100074,
+          "Value": 3
+        },
+        {
+          "Key": 41400194,
+          "Value": 1
+        },
+        {
+          "Key": 2,
+          "Value": 100000
+        }
+      ],
+      "Skill": {
+        "Name": "防御力アップ",
+        "Desc": "防御力{0}アップ",
+        "Param": [
+          "5.32%"
+        ],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertygreendefense_UI.T_Iconpropertygreendefense_UI"
+      }
+    },
+    "15": {
+      "ParentNodes": [
+        11
+      ],
+      "NodeType": 4,
+      "Coordinate": 2,
+      "UnLockCondition": 500007,
+      "Consume": [
+        {
+          "Key": 43021044,
+          "Value": 3
+        },
+        {
+          "Key": 41100074,
+          "Value": 3
+        },
+        {
+          "Key": 41400194,
+          "Value": 1
+        },
+        {
+          "Key": 2,
+          "Value": 100000
+        }
+      ],
+      "Skill": {
+        "Name": "防御力アップ",
+        "Desc": "防御力{0}アップ",
+        "Param": [
+          "5.32%"
+        ],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertygreendefense_UI.T_Iconpropertygreendefense_UI"
+      }
+    },
+    "16": {
+      "ParentNodes": [
+        12
+      ],
+      "NodeType": 4,
+      "Coordinate": 2,
+      "UnLockCondition": 500008,
+      "Consume": [
+        {
+          "Key": 43021044,
+          "Value": 3
+        },
+        {
+          "Key": 41100074,
+          "Value": 3
+        },
+        {
+          "Key": 41400194,
+          "Value": 1
+        },
+        {
+          "Key": 2,
+          "Value": 100000
+        }
+      ],
+      "Skill": {
+        "Name": "HP回復効果アップ",
+        "Desc": "HP回復効果{0}アップ",
+        "Param": [
+          "4.20%"
+        ],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertygreencure_UI.T_Iconpropertygreencure_UI"
+      }
+    },
+    "17": {
+      "ParentNodes": [],
+      "NodeType": 5,
+      "Coordinate": 1,
+      "UnLockCondition": 0,
+      "Consume": [
+        {
+          "Key": 43020032,
+          "Value": 2
+        },
+        {
+          "Key": 41100022,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 3900
+        }
+      ],
+      "Skill": {
+        "Name": "デカップリング",
+        "Desc": "モーニエには<color=Highlight><te href=100004>【震撃協和・インターフェア】</te></color>及び<color=Highlight><te href=100005>【密集協和・インターフェア】</te></color>にレスポンスする能力を持つ。\n<color=Highlight><te href=100004>【震撃協和・インターフェア】</te></color>へのレスポンス：チーム内キャラが<color=Highlight><te href=100004>【震撃協和・インターフェア】</te></color>状態の目標にダメージを与えると、モーニエは<color=Highlight>震撃協和レスポンス・粒子射流</color>を発動。この効果は同じ目標に{0}秒ごとに、最大1回しかダメージを与えることはできない。\n<color=Highlight><te href=100005>【密集協和・インターフェア】</te></color>へのレスポンス：目標に付与されている<color=Highlight><te href=100005>【密集協和・インターフェア】</te></color>1スタックにつき、モーニエが与える最終ダメージがアップ。モーニエの<color=Highlight>協和破壊増強</color>の1Ptにつき、最終ダメージが{1}アップ。モーニエがチームに編入時、目標の<color=Highlight><te href=100005>【密集協和・インターフェア】</te></color>のスタック上限が{2}スタック増加。\nまた、目標の<color=Highlight>【不協和値】</color>が満タン時、モーニエはその目標に<color=Highlight><te href=100001>【協和破壊】</te></color>を発動できる。",
+        "Param": [
+          "8",
+          "0.12%",
+          "1"
+        ],
+        "SimpleDesc": "モーニエには<color=Highlight>【震撃協和・インターフェア】</color>及び<color=Highlight>【密集協和・インターフェア】</color>にレスポンスする能力を持つ。\nまた、目標の<color=Highlight>【不協和値】</color>が満タン時、モーニエはその目標に<color=Highlight>【協和破壊】</color>を発動できる。",
+        "SimpleParam": [
+          "8",
+          "0.12%",
+          "1"
+        ],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconWeakPointBreakSword.SP_IconWeakPointBreakSword",
+        "Type": "協和破壊",
+        "Level": {},
+        "Consume": {
+          "1": []
+        },
+        "Damage": {}
+      }
+    }
+  },
+  "Chains": {
+    "1": {
+      "Name": "沈黙する観測者",
+      "Desc": "<color=Highlight>通常攻撃・広域観測モード</color>は中断されない。\nモーニエが目標に付与した<color=Highlight><te href=120906>干渉マーク</te></color>の持続時間が{0}延長する他、目標が<color=Highlight><te href=100002>【震撃協和・オフセット】</te></color>または<color=Highlight><te href=100003>【密集協和・オフセット】</te></color>状態でなくても付与できる。モーニエが目標に<color=Highlight><te href=120905>観測マーク</te></color>を付与時、同時に<color=Highlight><te href=120906>干渉マーク</te></color>も付与する。",
+      "Param": [
+        "150%"
+      ],
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconDevice/T_IconDevice_MoNingM1_UI.T_IconDevice_MoNingM1_UI"
+    },
+    "2": {
+      "Name": "エントロピー増大の明星",
+      "Desc": "近くにいるチーム内全員が<color=Highlight><te href=120906>干渉マーク</te></color>の付与されている目標への与クリティカルダメージがアップ：モーニエ自身の共鳴効率が{1}を超えた時、共鳴効率の超過分の{2}につき、クリティカルダメージが{3}アップ、最大{4}。\n<color=Highlight><te href=120907>共振フィールド</te></color>、<color=Highlight><te href=120908>強化型共振フィールド</te></color>は効果範囲内の近くにいるチーム内全員の<color=Highlight>不協和値蓄積効率</color>を追加で{0}アップ。",
+      "Param": [
+        "20%",
+        "100%",
+        "1%",
+        "0.2%",
+        "32%"
+      ],
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconDevice/T_IconDevice_MoNingM2_UI.T_IconDevice_MoNingM2_UI"
+    },
+    "3": {
+      "Name": "再帰する青図",
+      "Desc": "<color=Highlight>共鳴スキル・分散型行列</color>を発動時、自身の協奏エネルギーを追加で{0}Pt獲得し、<color=Highlight><te href=120904>【相対運動エネルギー】</te></color>を満タンまで獲得する。{1}秒ごとに1回発動可能。",
+      "Param": [
+        "25",
+        "25"
+      ],
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconDevice/T_IconDevice_MoNingM3_UI.T_IconDevice_MoNingM3_UI"
+    },
+    "4": {
+      "Name": "宇宙の隠れた変数",
+      "Desc": "<color=Highlight><te href=120908>強化型共振フィールド</te></color>のHP回復量が{0}アップ。",
+      "Param": [
+        "30%"
+      ],
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconDevice/T_IconDevice_MoNingM4_UI.T_IconDevice_MoNingM4_UI"
+    },
+    "5": {
+      "Name": "時間の遅れ",
+      "Desc": "<color=Highlight>共鳴解放・限界プロトコル</color>のダメージ倍率が{0}アップ。\n<color=Highlight>震撃協和レスポンス・粒子射流</color>のダメージ倍率が{1}アップ。",
+      "Param": [
+        "40%",
+        "160%"
+      ],
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconDevice/T_IconDevice_MoNingM5_UI.T_IconDevice_MoNingM5_UI"
+    },
+    "6": {
+      "Name": "星々の果てまで",
+      "Desc": "<color=Highlight>共鳴解放・限界プロトコル</color>与ダメージが{0}アップ。\nモーニエが戦闘離脱状態になってから{1}秒を超えると、{4}秒ごとに共鳴エネルギーの{2}分の共鳴エネルギーを獲得。",
+      "Param": [
+        "400%",
+        "4",
+        "10%",
+        "2",
+        "0.2"
+      ],
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconDevice/T_IconDevice_MoNingM6_UI.T_IconDevice_MoNingM6_UI"
+    }
+  },
+  "Ascensions": {
+    "1": [
+      {
+        "Key": 41100071,
+        "Value": 4
+      },
+      {
+        "Key": 2,
+        "Value": 5000
+      }
+    ],
+    "2": [
+      {
+        "Key": 41400274,
+        "Value": 3
+      },
+      {
+        "Key": 42601380,
+        "Value": 4
+      },
+      {
+        "Key": 41100072,
+        "Value": 4
+      },
+      {
+        "Key": 2,
+        "Value": 10000
+      }
+    ],
+    "3": [
+      {
+        "Key": 41400274,
+        "Value": 6
+      },
+      {
+        "Key": 42601380,
+        "Value": 8
+      },
+      {
+        "Key": 41100072,
+        "Value": 8
+      },
+      {
+        "Key": 2,
+        "Value": 15000
+      }
+    ],
+    "4": [
+      {
+        "Key": 41400274,
+        "Value": 9
+      },
+      {
+        "Key": 42601380,
+        "Value": 12
+      },
+      {
+        "Key": 41100073,
+        "Value": 4
+      },
+      {
+        "Key": 2,
+        "Value": 20000
+      }
+    ],
+    "5": [
+      {
+        "Key": 41400274,
+        "Value": 12
+      },
+      {
+        "Key": 42601380,
+        "Value": 16
+      },
+      {
+        "Key": 41100073,
+        "Value": 8
+      },
+      {
+        "Key": 2,
+        "Value": 40000
+      }
+    ],
+    "6": [
+      {
+        "Key": 41400274,
+        "Value": 16
+      },
+      {
+        "Key": 42601380,
+        "Value": 20
+      },
+      {
+        "Key": 41100074,
+        "Value": 4
+      },
+      {
+        "Key": 2,
+        "Value": 80000
+      }
+    ]
+  },
+  "Skin": {
+    "81001209": {
+      "Id": 81001209,
+      "SuitWeaponSkinId": 0,
+      "QualityId": 3,
+      "Name": "モーニエ",
+      "TitleName": "未来への一歩",
+      "SubDecName": "モーニエ　デフォルト",
+      "BgDescription": "スペーストレック研究院に日常的な服装。華奢な少女はそれをまとい、データや鋼鉄、時間の流れの間を行き来する。星々は沈黙したままであるも、人々は探究の歩みを止めることはない。",
+      "Background": "/Game/Aki/UI/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Moning_UI.T_IconRole_Pile_Moning_UI",
+      "Portrait": "/Game/Aki/UI/UIResources/Common/Image/PixActivity/T_ActivityRoleMoning.T_ActivityRoleMoning",
+      "SortIndex": 0,
+      "FormationSpineSkel": "/Game/Aki/UI/UIResources/Common/Spine/Portraits/Portraits_Moning/Portraits_Moning.Portraits_Moning-data",
+      "FormationSpineAtlas": "/Game/Aki/UI/UIResources/Common/Spine/Portraits/Portraits_Moning/Portraits_Moning.Portraits_Moning-atlas"
+    }
+  },
+  "Forte": {
+    "SkillInputList": {},
+    "Icon": "",
+    "DescList": []
+  },
+  "Live2d": "",
+  "Audio": "moning",
+  "Recommend": {
+    "Weapon": [
+      21010066,
+      21010015,
+      21010024
+    ],
+    "Property": "",
+    "Param": []
+  }
+}

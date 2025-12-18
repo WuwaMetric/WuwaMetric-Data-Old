@@ -1,0 +1,135 @@
+{
+  "Id": 6000081,
+  "Code": "R42-",
+  "Name": "Cuddle Wuddle",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_32030_UI.T_IconMonsterHead_32030_UI",
+  "Skill": {
+    "Desc": "Transform into Cuddle Wuddle and attack enemies with 4 strikes dealing {0} Physical DMG and 1 strike dealing {1} Physical DMG.\nCD: {2}s.",
+    "SimpleDesc": "Transform into Cuddle Wuddle and deal consecutive Physical DMG to enemies.",
+    "Param": [
+      [
+        "26.10%",
+        "69.60%",
+        "20"
+      ],
+      [
+        "31.32%",
+        "83.52%",
+        "20"
+      ],
+      [
+        "36.54%",
+        "97.44%",
+        "20"
+      ],
+      [
+        "41.76%",
+        "111.36%",
+        "20"
+      ],
+      [
+        "46.98%",
+        "125.28%",
+        "20"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/MstSkil_32030_UI.MstSkil_32030_UI",
+    "Damage": {
+      "20006401": {
+        "Element": 0,
+        "RelatedProperty": "ATK",
+        "Type": 5,
+        "RateLv": [
+          2610,
+          3132,
+          3654,
+          4176,
+          4698
+        ],
+        "Energy": 65,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 2610
+      },
+      "20006402": {
+        "Element": 0,
+        "RelatedProperty": "ATK",
+        "Type": 5,
+        "RateLv": [
+          6960,
+          8352,
+          9744,
+          11136,
+          12528
+        ],
+        "Energy": 174,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 6960
+      }
+    }
+  },
+  "Group": {
+    "10": {
+      "Id": 10,
+      "Name": "Frosty Resolve",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriIceUltimateSkill.T_IconElementAttriIceUltimateSkill",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "Resonance Skill DMG + {0}",
+          "Param": [
+            "12%"
+          ]
+        },
+        "5": {
+          "Desc": "Casting Resonance Skill grants {0} Glacio DMG Bonus for {1}s and casting Resonance Liberation increases Resonance Skill DMG by {2}, lasting for {3}s. This effect stacks up to {4} times.",
+          "Param": [
+            "22.5%",
+            "15",
+            "18%",
+            "5",
+            "2"
+          ]
+        }
+      }
+    },
+    "12": {
+      "Id": 12,
+      "Name": "Midnight Veil",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriDarkAssist.T_IconElementAttriDarkAssist",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "Havoc DMG + {0}",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "When Outro Skill is triggered, deal additional {0} Havoc DMG to surrounding enemies, considered Outro Skill DMG, and grant the incoming Resonator {1} Havoc DMG Bonus for {2}s.",
+          "Param": [
+            "480%",
+            "15%",
+            "15"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 1,
+  "MonsterInfo": 320000300,
+  "Phantom": {
+    "Name": "Phantom: Cuddle Wuddle",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_SG_32030_UI.T_IconMonsterGoods_SG_32030_UI"
+  }
+}

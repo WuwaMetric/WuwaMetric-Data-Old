@@ -1,0 +1,133 @@
+{
+  "Id": 6000167,
+  "Code": "Z03-",
+  "Name": "Reminiscence: Threnodian - Leviathan",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34020_1_UI.T_IconMonsterHead_34020_1_UI",
+  "Skill": {
+    "Desc": "Summon a Collapsing Horizon, dealing two instances of {0} Havoc DMG to the nearby enemies and obtaining the Core of Collapse for {1}s.\n\nWhile it lasts, Core of Collapse deals {2} Havoc DMG when the active Resonator in the team deals damage. This effect can be triggered once every {4}s, up to <SapTag=3>{3}</SapTag> {Cus:Sap,S=time P=times SapTag=3}. Enemies with Havoc Bane take {5} more DMG from this effect.\n\nThe Resonator with this Echo equipped in the main slot gains {6} Havoc DMG Bonus and {7} Resonance Liberation DMG Bonus.\n\nCD: {8}s",
+    "SimpleDesc": "Summon Collapsing Horizon, dealing Havoc DMG. Resonators in the team deal additional Havoc DMG to enemies on hit.\n\nThe Resonator with this Echo equipped in the main slot deals more Havoc DMG and Resonance Liberation DMG.",
+    "Param": [
+      [
+        "72.80%",
+        "15",
+        "24.57%",
+        "8",
+        "0.5",
+        "100%",
+        "12.00%",
+        "12.00%",
+        "25"
+      ],
+      [
+        "87.36%",
+        "15",
+        "24.57%",
+        "8",
+        "0.5",
+        "100%",
+        "12.00%",
+        "12.00%",
+        "25"
+      ],
+      [
+        "101.92%",
+        "15",
+        "24.57%",
+        "8",
+        "0.5",
+        "100%",
+        "12.00%",
+        "12.00%",
+        "25"
+      ],
+      [
+        "116.48%",
+        "15",
+        "24.57%",
+        "8",
+        "0.5",
+        "100%",
+        "12.00%",
+        "12.00%",
+        "25"
+      ],
+      [
+        "131.04%",
+        "15",
+        "24.57%",
+        "8",
+        "0.5",
+        "100%",
+        "12.00%",
+        "12.00%",
+        "25"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_34020_UI.T_MstSkil_34020_UI",
+    "Damage": {
+      "28003301": {
+        "Element": 6,
+        "RelatedProperty": "ATK",
+        "Type": 5,
+        "RateLv": [
+          7280,
+          8736,
+          10192,
+          11648,
+          13104
+        ],
+        "Energy": 91,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 7280
+      }
+    }
+  },
+  "Group": {
+    "22": {
+      "Id": 22,
+      "Name": "Flamewing's Shadow",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriFireA.T_IconElementAttriFireA",
+      "Color": "FFFFFF00",
+      "Set": {
+        "3": {
+          "Desc": "Dealing Echo Skill DMG increases Heavy Attack Crit. Rate by {0} for {1}s. Dealing Heavy Attack DMG increases Echo Skill Crit. Rate by {2} for {3}s. While both effects are active, gain {4} Fusion DMG Bonus.",
+          "Param": [
+            "20%",
+            "6",
+            "20%",
+            "6",
+            "16%"
+          ]
+        }
+      }
+    },
+    "23": {
+      "Id": 23,
+      "Name": "Thread of Severed Fate",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriQianXiao.T_IconElementAttriQianXiao",
+      "Color": "FFFFFF00",
+      "Set": {
+        "3": {
+          "Desc": "Inflicting Havoc Bane increases the Resonator's ATK by {0} and grants {1} Resonance Liberation DMG Bonus for {2}s.",
+          "Param": [
+            "20%",
+            "30%",
+            "5"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 3,
+  "MonsterInfo": 340000201
+}

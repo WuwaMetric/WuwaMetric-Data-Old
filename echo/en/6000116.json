@@ -1,0 +1,108 @@
+{
+  "Id": 6000116,
+  "Code": "X79-",
+  "Name": "Reminiscence: Fenrico",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34015_2_UI.T_IconMonsterHead_34015_2_UI",
+  "Skill": {
+    "Desc": "Summon the Talons of Decree to attack nearby enemies, dealing {0} Aero DMG.\nThe Resonator with this Echo equipped in their main slot gains {1} Aero DMG Bonus and {2} Heavy Attack DMG Bonus.\nCD: {3}s.",
+    "SimpleDesc": "Summon the Talons of Decree to deal Aero DMG to nearby enemies.\nThe Resonator with this Echo equipped in the main slot gains Aero and Heavy Attack DMG Bonus.",
+    "Param": [
+      [
+        "152.00%",
+        "12.00%",
+        "12.00%",
+        "20"
+      ],
+      [
+        "182.40%",
+        "12.00%",
+        "12.00%",
+        "20"
+      ],
+      [
+        "212.80%",
+        "12.00%",
+        "12.00%",
+        "20"
+      ],
+      [
+        "243.20%",
+        "12.00%",
+        "12.00%",
+        "20"
+      ],
+      [
+        "273.60%",
+        "12.00%",
+        "12.00%",
+        "20"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_Mstskil_34015_UI.T_Mstskil_34015_UI",
+    "Damage": {
+      "28003001": {
+        "Element": 4,
+        "RelatedProperty": "ATK",
+        "Type": 5,
+        "RateLv": [
+          15200,
+          18240,
+          21280,
+          24320,
+          27360
+        ],
+        "Energy": 380,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 15200
+      }
+    }
+  },
+  "Group": {
+    "19": {
+      "Id": 19,
+      "Name": "Dream of the Lost",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriDarkVision.T_IconElementAttriDarkVision",
+      "Color": "FFFFFF00",
+      "Set": {
+        "3": {
+          "Desc": "Holding {0} Resonance Energy increases Crit. Rate by {1} and grants {2} Echo Skill DMG Bonus.",
+          "Param": [
+            "0",
+            "20%",
+            "35%"
+          ]
+        }
+      }
+    },
+    "21": {
+      "Id": 21,
+      "Name": "Law of Harmony",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriSupport.T_IconElementAttriSupport",
+      "Color": "FFFFFF00",
+      "Set": {
+        "3": {
+          "Desc": "Casting Echo Skill grants {0} Heavy Attack DMG Bonus to the caster for {1}s.\nAdditionally, all Resonators in the team gain {2} Echo Skill DMG Bonus for {4}s, stacking up to {3} times. Echoes of the same name can only trigger this effect once. The record of Echo triggering this effect is cleared along with this effect. At {3} stacks, casting Echo Skill again resets the duration of this effect.",
+          "Param": [
+            "30%",
+            "4",
+            "4%",
+            "4",
+            "30"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 2,
+  "MonsterInfo": 340000151
+}

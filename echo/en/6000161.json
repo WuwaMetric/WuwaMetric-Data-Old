@@ -1,0 +1,87 @@
+{
+  "Id": 6000161,
+  "Code": "H42-",
+  "Name": "Nightmare: Violet-Feathered Heron",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_32045_UI.T_IconMonsterHead_32045_UI",
+  "Skill": {
+    "Desc": "Transform into Violet-Feathered Heron and enter a Parry Stance. Counterattack when the Parry stance is over, dealing {0} Electro DMG. If attacked during Parry Stance, you can counterattack in advance and additionally recover {1} Concerto Energy.\n\nCD: {2}s",
+    "SimpleDesc": "Transform into Violet-Feathered Heron to block enemy attacks. Counterattack to deal Electro DMG and recover Concerto Energy.",
+    "Param": [
+      [
+        "180.00%",
+        "5",
+        "15"
+      ],
+      [
+        "207.00%",
+        "5",
+        "15"
+      ],
+      [
+        "234.00%",
+        "5",
+        "15"
+      ],
+      [
+        "261.00%",
+        "5",
+        "15"
+      ],
+      [
+        "288.00%",
+        "5",
+        "15"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_Z_B2_UI.T_MstSkil_Z_B2_UI",
+    "Damage": {
+      "20001701": {
+        "Element": 3,
+        "RelatedProperty": "ATK",
+        "Type": 5,
+        "RateLv": [
+          18000,
+          20700,
+          23400,
+          26100,
+          28800
+        ],
+        "Energy": 450,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 18000
+      }
+    }
+  },
+  "Group": {
+    "20": {
+      "Id": 20,
+      "Name": "Crown of Valor",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriShield.T_IconElementAttriShield",
+      "Color": "FFFFFF00",
+      "Set": {
+        "3": {
+          "Desc": "Upon gaining a Shield, increase the Resonator's ATK by {0} and Crit. DMG by {1} for {3}s. This effect can be triggered once every {4}s and stacks up to {2} times.",
+          "Param": [
+            "6%",
+            "4%",
+            "5",
+            "4",
+            "0.5"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 1,
+  "MonsterInfo": 320000450
+}

@@ -1,0 +1,124 @@
+{
+  "Id": 6000109,
+  "Code": "H31-",
+  "Name": "드레이크 · 인멸",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31060_UI.T_IconMonsterHead_31060_UI",
+  "Skill": {
+    "Desc": "에코 어빌리티를 사용하여 드레이크 · 인멸을 소환하고, {0}의 인멸 피해를 입힌다.\n쿨타임: {1}초",
+    "SimpleDesc": "드레이크 · 인멸을 소환하여, 적에게 인멸 피해를 입힌다",
+    "Param": [
+      [
+        "72.00%",
+        "8"
+      ],
+      [
+        "86.40%",
+        "8"
+      ],
+      [
+        "100.80%",
+        "8"
+      ],
+      [
+        "115.20%",
+        "8"
+      ],
+      [
+        "129.60%",
+        "8"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_31060_UI.T_MstSkil_31060_UI",
+    "Damage": {
+      "20009101": {
+        "Element": 6,
+        "RelatedProperty": "공격력",
+        "Type": 5,
+        "RateLv": [
+          7200,
+          8640,
+          10080,
+          11520,
+          12960
+        ],
+        "Energy": 180,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 7200
+      }
+    }
+  },
+  "Group": {
+    "17": {
+      "Id": 17,
+      "Name": "영광이 깃든 바람",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriWindErrorA.T_IconElementAttriWindErrorA",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "기류 피해가 {0} 증가된다",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "공격으로 「풍식 효과」가 있는 목표 명중 시, 자신의 크리티컬이 {0} 증가되고, 기류 피해가 {1} 증가되며, {2}초간 지속된다",
+          "Param": [
+            "10%",
+            "30%",
+            "10"
+          ]
+        }
+      }
+    },
+    "18": {
+      "Id": 18,
+      "Name": "울부짖는 늑대의 불꽃",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriFireUltimateSkill.T_IconElementAttriFireUltimateSkill",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "용융 피해가 {0} 증가된다",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "공명 해방 발동 시, 파티 내 캐릭터의 용융 피해가 {0} 증가되고, 자신의 공명 해방 피해가 {1} 증가되며, {2}초간 지속된다",
+          "Param": [
+            "15%",
+            "20%",
+            "35"
+          ]
+        }
+      }
+    },
+    "23": {
+      "Id": 23,
+      "Name": "운명을 붕괴시키는 현",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriQianXiao.T_IconElementAttriQianXiao",
+      "Color": "FFFFFF00",
+      "Set": {
+        "3": {
+          "Desc": "캐릭터가 적에게 「암흑 효과」 추가 시, 자신의 공격력이 {0} 증가되고 공명 해방 피해 보너스가 {1} 증가되며 {2}초간 지속된다",
+          "Param": [
+            "20%",
+            "30%",
+            "5"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 0,
+  "MonsterInfo": 310000600
+}

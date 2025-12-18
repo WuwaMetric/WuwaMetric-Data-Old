@@ -1,0 +1,130 @@
+{
+  "Id": 6000093,
+  "Code": "S10-",
+  "Name": "금석 암괴",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31049_UI.T_IconMonsterHead_31049_UI",
+  "Skill": {
+    "Desc": "에코 어빌리티를 사용하여 금석 암괴를 소환한 후 전방으로 돌진한다. 경로 위의 적에게 {0}의 회절 피해를 입힌다.\n스킬 쿨타임: {1}초",
+    "SimpleDesc": "금석 암괴를 소환하여 공격을 가하고, 적에게 회절 피해를 입힌다",
+    "Param": [
+      [
+        "72.00%",
+        "8"
+      ],
+      [
+        "86.40%",
+        "8"
+      ],
+      [
+        "100.80%",
+        "8"
+      ],
+      [
+        "115.20%",
+        "8"
+      ],
+      [
+        "129.60%",
+        "8"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_Mstskil_31049_UI.T_Mstskil_31049_UI",
+    "Damage": {
+      "20007701": {
+        "Element": 5,
+        "RelatedProperty": "공격력",
+        "Type": 5,
+        "RateLv": [
+          7200,
+          8640,
+          10080,
+          11520,
+          12960
+        ],
+        "Energy": 180,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 7200
+      }
+    }
+  },
+  "Group": {
+    "10": {
+      "Id": 10,
+      "Name": "냉철한 결단",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriIceUltimateSkill.T_IconElementAttriIceUltimateSkill",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "공명 스킬 피해가 {0} 증가된다",
+          "Param": [
+            "12%"
+          ]
+        },
+        "5": {
+          "Desc": "공명 스킬 발동 시, 자신의 응결 피해가 {0} 증가되고, {1}초간 지속된다. 공명 해방 발동 시, 자신의 공명 스킬 피해가 {2} 증가되고, {3}초간 지속되며, 최대 {4}스택 중첩이 가능하다",
+          "Param": [
+            "22.5%",
+            "15",
+            "18%",
+            "5",
+            "2"
+          ]
+        }
+      }
+    },
+    "11": {
+      "Id": 11,
+      "Name": "영원의 광채",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriLightError.T_IconElementAttriLightError",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "회절 피해가 {0} 증가된다",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "캐릭터가 적에게 「광학 효과」를 추가 시, 자신의 크리티컬이 {0} 증가되고 {1}초간 지속된다. 「광학 효과」가 {2}스택인 적을 공격 시, 자신의 회절 피해 보너스가 {3} 증가되고 {4}초간 지속된다",
+          "Param": [
+            "20%",
+            "15",
+            "10",
+            "15%",
+            "15"
+          ]
+        }
+      }
+    },
+    "21": {
+      "Id": 21,
+      "Name": "만물의 숨결에 비롯된 울림",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriSupport.T_IconElementAttriSupport",
+      "Color": "FFFFFF00",
+      "Set": {
+        "3": {
+          "Desc": "캐릭터가 에코 어빌리티 발동 시, 자신의 강공격 피해 보너스가 {0} 증가되고 {1}초간 지속된다. 파티 내 캐릭터의 에코 어빌리티 피해 보너스가 {2} 증가되고, 최대 {3}스택 중첩이 가능하며 {4}초간 지속된다. 같은 이름의 에코일 시 해당 효과는 1회만 발생할 수 있으며, 효과 종료 시 같은 이름의 에코의 기록은 리셋되고, {3}스택까지 중첩 시 에코 어빌리티를 발동할 경우 지속시간은 리셋된다",
+          "Param": [
+            "30%",
+            "4",
+            "4%",
+            "4",
+            "30"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 0,
+  "MonsterInfo": 310000490
+}

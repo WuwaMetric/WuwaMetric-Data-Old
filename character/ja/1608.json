@@ -1,0 +1,5481 @@
+{
+  "Id": 1608,
+  "Rarity": 5,
+  "Weapon": 5,
+  "Element": 6,
+  "Tag": {
+    "2": {
+      "Name": "メインアタッカー",
+      "Desc": "高いダメージを出せる",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/RoleLabel/SP_RoleLabelA2.SP_RoleLabelA2",
+      "Color": "ff8441"
+    },
+    "6": {
+      "Name": "共鳴スキルダメージ",
+      "Desc": "共鳴スキルのダメージが高い",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/RoleLabel/SP_RoleLabelB3.SP_RoleLabelB3",
+      "Color": "ffde73"
+    },
+    "14": {
+      "Name": "消滅ダメージブースト",
+      "Desc": "特定のチームメイトに消滅ダメージブースト効果を付与する",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/RoleLabel/SP_RoleLabelD4.SP_RoleLabelD4",
+      "Color": "ff7777"
+    },
+    "21": {
+      "Name": "重撃ダメージブースト",
+      "Desc": "特定のチームメイトに重撃ダメージブースト効果を付与する",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/RoleLabel/SP_RoleLabelD8.SP_RoleLabelD8",
+      "Color": "ff7777"
+    }
+  },
+  "Name": "フローヴァ",
+  "NickName": "フローヴァ",
+  "Desc": "生と死の狭間を渡り歩く残星組織の監察、神秘的かつ危険な雰囲気を纏うコンダクター……\n彼女が静かに指揮棒を振るえば、調律されし周波数が、「魂」の旋律を奏でる。それは美しき世界を作ることも、万の軍勢を呼び寄せることも意のままだ。",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_41_UI.T_IconRoleHead256_41_UI",
+  "Background": "/Game/Aki/UI/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_fuluoluo_UI.T_IconRole_Pile_fuluoluo_UI",
+  "BackgroundStand": "/Game/Aki/UI/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyFuluoluo.T_ActivityRoleOntrialHalfBodyFuluoluo",
+  "CharaInfo": {
+    "Birth": "不明",
+    "Sex": "女",
+    "Country": "不明",
+    "Influence": "残星組織",
+    "Info": "生と死の狭間を渡り歩く残星組織の監察、神秘的かつ危険な雰囲気を纏うコンダクター……\n彼女が静かに指揮棒を振るえば、調律されし周波数が、「魂」の旋律を奏でる。それは美しき世界を作ることも、万の軍勢を呼び寄せることも意のままだ。",
+    "TalentName": "幾重世界のシンフォニー",
+    "TalentDoc": "測定材料：【周波数スペクトル報告RA-F2005-G】\n被検体は死亡時に共鳴能力に覚醒、事物の本質的な周波数構造を理解した上であらゆるものの周波数を調律し、その「旋律」を変化させる能力を持つ。能力の強弱は体調と正の相関を示す。最新テストデータによれば、被検体が極度の<te href=850073>オーバークロック</te>状態でなおかつ意識清明である場合、調律の制御可能範囲は最大30倍に拡大し、持続時間は最長で46秒に達する。被検体は共鳴開始から長い期間を経過したため、明確な共鳴開始時間および共鳴源の特定は不可能。\n被検体の<te href=850072>音痕</te>は左腕に位置し、共鳴後、半残像化した身体は老化が停止。左目の瞳の色が変化する以外、他に変異は見られない。テスト結果によれば、被検体の身体が健康状態にある時、皮膚破壊後の周波数更新および再構築に要する時間は約6秒、内臓器官破壊後の回復時間は約15～18分であり、現時点では被検体を死に至らしめる弱点は発見されていない。\n検査により、被検体の体内には極度に混乱した周波数が大量に蓄積されていることが判明。その数は千を超え、具体値は未確定。実験の結果、これらの周波数は被検体の身体および共鳴能力の発揮に何ら影響を与えず、実用性も皆無であり、被検体の精神状況の波動とのみ関連することが確認された。\n被検体の<te href=850067>ラベル曲線</te>は、前段では平坦で変動がなく、後段で急上昇し、その後ラベル曲線の変動は安定化する傾向を示す。検査結果より、<te href=850069>突然変異型共鳴者</te>と判断される。その覚醒方式は、人為的刺激によって他者に再現することは不可能であると、度重なる実験により確認済みである。",
+    "TalentCertification": "被検サンプルの波形はジグザグ状と針状が交互に出現し、時間領域の図は不規則で、極めて高い周波数を示した。テストではノイズや歪みが発生したため、波高値の範囲は観測できていない。\n診断結果：<te href=850073>オーバークロック</te>閾値および安定性は極度に低い。オーバークロック状態の出現頻度も高い。\nオーバークロック状態は常に被検体の制御下にある。この精神的安定性は、一般人のオーバークロック状態を安定的に延長する方法の研究に用いることが可能。",
+    "CVNameCn": "Zhang Qi",
+    "CVNameJp": "藤田咲",
+    "CVNameKo": "Choi Ha Ri",
+    "CVNameEn": "Rae Lim"
+  },
+  "Stories": [
+    {
+      "Title": "紅と黒のデュエット",
+      "Content": "聴衆は、常に異常なまでに楽曲に没入している。ある者はその場に凍りつき、ある者は抑えきれぬ戦慄に身を揺らす。暗闇に光る無数の瞳は、華奢でありながら力強いその背中を凝視し、両手の上下する様に視線は眩惑され、あたかも乱れ飛ぶ音符が、即興で奏でられる激越な哀歌に散り乱れるかのようだ。\n沸き立つようなプレストの旋律は心の火を灯し、人々がずっと抑え込んだ感情は、タガが外れ噴き出すように解き放たれる。やがて彼女と共に、楽曲のクライマックスで鳴り響く狂想に息を詰まらせながら、知らず知らず精神の崖っぷちに誘われる。彼らは底知れぬ深淵を前に、極度の興奮の中、破滅と新生の開花を迎えようとしている。\nしかし、宙へと踏み出すその一歩が下ろされる寸前、スポットライトの下のコンダクターはぴたりと両腕を静止させ、残酷なまでに楽曲を唐突に終わらせた。\n彼女は彫像の如く微動だにしない。胸元だけが激しく動くコンダクターは、独り感情の波間を漂う。先ほど彼女を引き戻した一縷の理性は既に断ち切れ、濃密な情動の中へと霧散していた。彼女はただ宙を見つめるのみで、決して客席に目を向けることもない。\nもう、終わりなのか？\n人々は沈黙し、驚き、躊躇い、やがて呆然としたまま立ち去った。だがコンサートホールを出る間もなく、耳には先ほどの——過去からの演奏が、再び響き渡る。旋律は軽やかに一人一人の脳裏に刻み込まれ、何度も何度も繰り返し、現場で聴いた時よりもなお心を揺さぶり、各々の胸に秘めた最たる狂気を呼び覚ましては、増幅させていく。光を湛える時代には、この血のように鮮烈な楽曲が、人々を高笑いと共に家の外へと導き、輝かしい明日を焦がれるように抱きしめさせた。闇に覆われた時代には、この漆黒の楽曲が、人々がすがる最後の藁を奪い去り、彼らを決然として高層の窓辺へと向かわせた。\n自分の音楽が他者をいかなる色に染め上げようと、彼女はまるで気にしない様子で、時代が移り変わる中、ただ無心に両手を舞わせ続ける。コンサートホールに座る人々もまた、音楽の中で自分の向かう先を深くは考えない。温かくも哀しい旋律を生み出した彼女が、幾度となく舞台に立つ理由が、無償の創造なのか、感情の捌け口なのか、それとも土に埋もれた愛と過去のためなのか——それを詮索する者は誰一人としていなかった。"
+    },
+    {
+      "Title": "影に咲く花叢",
+      "Content": "深紅の広間は常にがらんとしており、監察を象徴する旗のみが冷たい風に揺れている。あのリコリスの旗はとうに色褪せているが、常に隅に掲げられ、落ちることはない。残星組織の者の目には、監察たちは皆、神出鬼没の存在であり、この場に長く留まる者は少ない。だが、その捉えがたき影の中でも、彼女は最も深く身を隠す者。旗を除けば、ここに彼女の痕跡は何一つない。空っぽの部屋と彼女の沈黙は、彼女が監察として得られる器物や権利をすべて放棄したことを語っている……彼女は、ここに属してはいないのだ。\n近寄りがたい沈黙が、人々の目を彼女から逸らす。そして、人々が彼女を残星組織にとっても、また残星組織が彼女にとっても、どうでもよい存在であると思い込んだ時、静寂を保っていたリコリスは突如として闇から現れ、鋭く咲き誇り、その花弁で潔く敵の心臓を刺し貫く。任務を完遂した彼女は、再び人々の前から姿を消す。彼女はここの全てに興味がないかのようで、彼女が一体何のために組織に加わったのかを知る者は、ほとんどいない。\n残星組織の中にただ一つ、彼女の歩みを引き留める場所がある。\n彼女は時折、実験室の上層階に立ち、言葉を発さずに見下ろしている――人類と<te href=850081>残像</te>の身体融合技術の発展や、<te href=850073>オーバークロック</te>技術の進歩を。自ら進化を求める人々の目に宿る渇望、もがきながら新たな人生へと歩み出す彼らの姿、成功の叫び、失敗の慟哭を。まるでかつて触れていた人々の人生を見ているかのように。\n彼女はふとした時に、灯りを手に幽霊のように深夜にここへ独り現れ、最前線の研究を静かに読み耽る。しかし、毎回失望に終わっているかのようで、一枚の資料すら持ち去ったことはない。稀にこの様子を目撃する者もいたが、彼女が何を見つけ出そうとしているのか、誰にも分からなかった。"
+    },
+    {
+      "Title": "茨の道を行く",
+      "Content": "無限を生きる命は、果たしてこの世界で如何なる道筋を辿るべきなのかを、彼女は知らなかった。\n感じたことのない空虚さと悠遠さに、彼女はどうしてよいか分からなくなった。だから彼女は眼を閉ざし、その孤独、哀愁、そして満たされぬ想いを音楽の中に叩きつけ、いついかなる場所であろうと、なりふり構わず音の欠片を宙に舞わせた。\n狂気のコンダクターは世に名を馳せたが、そのわがままな振る舞いはかつてと何ら変わらない。彼女への拍手喝采も、罵詈雑言も、彼女が街を立つ前に霧散した。繰り返される歴史、繰り返される言説のように、彼女は幾度となく孤独へと立ち返り、やがてようやく悟ったのだ。頼れるものを探し求めていたが、真の感情などただ実在しない虚像だと。儚き美しさが消えゆく時、そこに留まるしかない者だけが苦しみを背負い続ける。彼女は徐々に正気を取り戻したが、やがて完全に心を閉ざし、感情も麻痺した。すべての人から離れてただ独り歩み、二度と舞台の下にも、世界にも眼差しを向けようとはしなかった。\n彼女は名を偽って素性を隠そうとはせず、人々の憶測や詮索も意に介さない。誰の目にも彼女の実年齢は明らかだが、その心に重ねた年輪の数を見抜ける者はほとんどいない。\n彼女は本来、意味を無くした幽霊のように永遠に彷徨い続けるはずだった。だが、あるコンサートを機に、彼女は新たな目標を見つけた。耐え難かった時間の重みは、彼女が悟りを開いた刹那に急速に流れ去り、散漫だった命の設計図は凝縮を始めた。彼女は昼夜を問わず、知らなかったすべての知識を貪欲に吸収し、時の大河を一閃の光のごとく駆け抜けた天才の影を追った。彼女を最大の希望と見なす人々に対しては、惜しみなくその研究に協力した。時代から時代へと、繰り返し異なる実験台に身を横たえ、自らの崩壊と再生を幾度となく目撃した。痛みは彼女に、未だ現実に囚われていることを思い起こさせたが、同時に痛みの狭間からしか過去の温もりに触れることはできなかった。どのような試みも厭わなかった。いずれ痛みは忘却の彼方へと去るのだから。だが、なぜか彼女は次第に、自らが囚われの身となり、かつては際限なく広がっていた道がますます狭まっていくのを感じるようになった……これが、唯一の道だというのだろうか？隙間の中で、彼女はそれでもなお、心折れることなく前方へと指を伸ばし、僅かな活路の可能性を求めて藻掻き続けた。"
+    },
+    {
+      "Title": "完美なる瑕",
+      "Content": "あの古代の彫像は、独特の材質と精巧な工芸によって、ことのほか貴重で入手困難な逸品であった。\n大切にすればするほど、宝物は容易く破滅へと向かう。それは偶然に見えても、どこか所有者の破滅願望に引き寄せられた必然の運命のようでもあった。\n彫像は、ある日不意に高い飾り棚から落ち、砕け散った。無数の破片が床一面に飛び散る。それが作られた時代はとうに遠く、今や彼女を除いて、その本来の姿を記憶する者は誰もいない。彼女はそれを元の無瑕な姿へと組み上げたかった。故に、ふと思い立っては時間を作り、細心の注意を払って一片一片を接着した。内側から組み立て始め、記憶の中の面影を頼りに、幾万もの欠片をあるべき場所へと戻していく。一心に修復に打ち込む時間は、うつろだった彼女の心を穏やかさと充実感で満たし、周囲にあるすべてまでが、心地よい調和の雰囲気に包まれた。しかし、彼女が作業を緩めると、周りの世界は冷酷なまでに加速していく。いつの間にか、彼女は彫像の大部分を修復し終え、以前のように機能し、活動することさえできた。だが、それだけでは不十分なのだ。美しき外見もまた、不可欠。彼女の創造物、彼女の行いの結果は、彼女の意のままに、内から外まで完璧でなければならなかった。\n完成は目前のようで、それでいてどこまでも遠い。彼女が一つの箇所を繕い終えると、また別の箇所が、経年による脆さから崩れ落ちてしまうのだ。\n亀裂は、決してなくなりはしない。\n彼女は絶え間なく組み合わせ続けた。一片が剥がれ落ちれば、すぐさまそれを元に戻す。心が逸れば逸るほど、完成へと近づこうとすればするほど、こぼれ落ちる破片はむしろ増えていった。\nあまりにも長く、彼女は彫像を見つめていた。いつしか、像の顔を走る亀裂が、数えきれぬ嘲りの笑みへと変わる。「完璧」という言葉のとりこになった彼女を、理想と現実の狭間の亀裂は永遠に埋まらず、彼女のすべての行いは終わりなき徒労だと嘲笑うかのように。どれほどの時が過ぎたかも分からぬまま、彼女は彫像を見つめていた。いつしか、像の顔を走る亀裂が、警告や注意へと変わる。為すべきことはまだ多く残されているのだと、彼女に気づかせるように。この瑕は、既に彫像の一部と化していた。本来完璧さを傷つけるはずの亀裂は、いつの間にか、完璧さそのものに変わっていたのだ。"
+    },
+    {
+      "Title": "かくりよと岸の向こう",
+      "Content": "彼女が空を仰ぐと、青がどこまでも広がっていた。しかし、彼女の記憶にある空の色は、禍々しいまでの黒と赤だった。\n柵を越え探し求めようとする彼女を、周囲の人々の声が次々と引き止める。皆口を揃えて、彼女は酷い夢を見ていたのだ、と。\nそうなのね、ただの夢……白いドレスは一片の雲さながら、心弾ませて草地から町へと優雅に漂う。太陽はいつも通り昇り、町にはかまどの煙と人々の笑い声が、来る日も来る日も……あまりに単調な日々の繰り返しは人を澱ませる。彼女はその澱みに気づき始めていた。自分が奏でる音楽は進まず、人々の思考が刷新されることもない。来る日も、来る日も……\n誰も彼も、もう久しくこの地を離れてはいない。食料はどこから来るのだろう？生活用品はなぜ尽きることがないのだろう？そんな疑問を胸に、彼女は旅立ちの途についた。\n彼女が町の外れまで来ると、朧げな霧の手前に佇む赤い人影が見えた。それは長いことそこで待っていた。まるで、彼女がいずれこの場所に至ることを、とうに見通していたかのようだった。\n後ずさろうとしたが、何故かその人の手のひらに自分の手を重ねていた。次の瞬間、空を掴み、その手にはべっとりとした血糊が付いていた。\n空は、確かに黒と赤に染まっていた。\n片目だけが残った無残な体を、真紅の花々が覆い尽くす。身動ぎひとつできぬのに、何故まだ死に至らぬのか？舞い降りる灰の空を見つめながら、その手は抑えようもなく泥濘んだ赤土を掴もうとする。狭まった視界の端で、とうに失くしたはずの指が、ゆらりと再生を始める。皆の死が彼女の新生を支え、皆の残響が彼女の右目に凝集した。彼女が再び町を抜け出し、現実に立ち向かう勇気を得て初めて、彼女を包み込んでいた「あの世」は心の奥底へと退いた。這い進むうち、赤い花はひらりと落ち、生まれ変わった肌が覗いた。耳辺の笑い声はまだ消えない。彼女は確かに、とても長い夢を見ていたのだ。だがそれは、「冥府」が彼女に賜わった甘い夢だった。\nしかし、夢境が現実と化してはならぬ道理など、どこにあろう。\n彼女が空を仰ぐ。空は、確かに青かった。\nもはやここには、日ごと繰り返される澱みも、幻を突き崩す霧もない。なぜならここは、彼女が心血を注いで作り上げた新たな「<te href=851026>冥府</te>」であり、彼女の心の中にある、彼らが遺してくれた「あの世」と寸分違わぬ場所なのだから。\n人々は変わらず、彼女の名を呼び続ける。今度こそ彼女は、本当の彼らを抱きしめることができるだろう。"
+    }
+  ],
+  "Voices": [
+    {
+      "Type": 1,
+      "Title": "心の声・その一",
+      "Content": "急いで去ることはないわ。この公演は、まだ終わっていない。トリックタウンの深夜は、騒がしい焚き火そのもの。後半は真夜中から始まるわ。ステップに身を委ねて、街に溶け込んでいく狂おしい一面を指揮で解き放つの。自分の存在さえ忘れ、音符に永遠の刻印を与えるために。気をつけなさい。いつ私が指揮棒を投げ出しても、不思議じゃないでしょう？",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_fuluoluo_sys_toplayer01.play_favor_word_fuluoluo_sys_toplayer01"
+    },
+    {
+      "Type": 1,
+      "Title": "心の声・その二",
+      "Content": "分かっていたわ。あの特別な楽曲が、見抜かれてしまうことくらい。ペジェロの街に行くたび、大量のインスピレーションが湧いてくる。そう、あの有名な「鈴鳴りの泉」の音のように、純粋で温かみを持って。初めて聞いた時、どこか懐かしさを感じたわ。指揮棒を振りながら、旧友と再会したみたいな感覚を抱いてしまった。あなたも行ってみる？この公演は、特別な続きよ。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_fuluoluo_sys_toplayer02.play_favor_word_fuluoluo_sys_toplayer02"
+    },
+    {
+      "Type": 1,
+      "Title": "心の声・その三",
+      "Content": "演奏した楽曲の構造について知りたい、と？スコブの西にある巨大な観覧車を見たわ。平行に走る二つのゴンドラが、互いを追いかけていた。対位法のように正確で、巧みを凝らしたフーガみたいだったわ。それらは再開を待ち望み、願い続けていたけれど、決して触れることはできなかった……どうかしら、一緒に無音の楽曲の一部になってみるのは。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_fuluoluo_sys_toplayer03.play_favor_word_fuluoluo_sys_toplayer03"
+    },
+    {
+      "Type": 1,
+      "Title": "心の声・その四",
+      "Content": "ドローレスの風は、想像以上に厳しかった。聴衆の顔は、木枯らしのように張り詰めていたわ。指揮台の上で風の音を聞いていると、本当に晩秋の屋外にいるんじゃないかと錯覚するほどよ。吹き荒れる風が、髪も混乱していた思考も、そして私自身も吹き飛ばしてくれた……ふふ、コンサートマネージャーの言葉は合っているのかもしれない。もしかしたら私は、正気を失っている。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_fuluoluo_sys_toplayer04.play_favor_word_fuluoluo_sys_toplayer04"
+    },
+    {
+      "Type": 1,
+      "Title": "心の声・その五",
+      "Content": "これで、ようやく全部話せたわ。余計なことは考えなくていい。ずっと前から気がかりだっただけ。心の中で何度もリハーサルをしてきた結果、どうでもよくなっていたけれど……今さら話した理由？言わずにいるのも、損をしてると思ったからよ。信じるも信じないも、すべてはあなた次第。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_fuluoluo_sys_toplayer05.play_favor_word_fuluoluo_sys_toplayer05"
+    },
+    {
+      "Type": 1,
+      "Title": "好きなこと",
+      "Content": "手の動きで楽曲を展開して、演奏に強弱をつける。音符を自由自在に操って、楽団を苦痛と悦楽の波で揺さぶり、クライマックスへ導く。誰一人として、遅れることは許さない。もちろん、逃がしもしないわ……そう、私が思い描く完璧な楽章が出来上がるまでは。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_fuluoluo_sys_taste.play_favor_word_fuluoluo_sys_taste"
+    },
+    {
+      "Type": 1,
+      "Title": "悩み",
+      "Content": "失敗が気になるのは最初だけ。何度も繰り返すうちに、自然と心配事は消えていくわ。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_fuluoluo_sys_worry.play_favor_word_fuluoluo_sys_worry"
+    },
+    {
+      "Type": 1,
+      "Title": "好きな食べ物",
+      "Content": "レッドカラント……あの味は、今も思い出せる。酸っぱくて渋かったって？私はそう思わないけれど、慣れてるせいかしら……",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_fuluoluo_sys_foodlike.play_favor_word_fuluoluo_sys_foodlike"
+    },
+    {
+      "Type": 1,
+      "Title": "嫌いな食べ物",
+      "Content": "燻製肉の味は、ちょっと……いえ、何でもないわ。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_fuluoluo_sys_foodhate.play_favor_word_fuluoluo_sys_foodhate"
+    },
+    {
+      "Type": 1,
+      "Title": "夢",
+      "Content": "命の流転を完全に理解できる日まで、何度失敗しようと絶対に諦めはしない。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_fuluoluo_sys_dream.play_favor_word_fuluoluo_sys_dream"
+    },
+    {
+      "Type": 1,
+      "Title": "伝えたいこと・その一",
+      "Content": "ヘカテーは<te href=851026>冥府</te>の分かれ道に、ずっと立っていたわ……私と出会うことを知っていたかのように。彼女の姿が見えるようになった日、まず名前を知った。次に、境界線と分岐点を理解したわ。すると、静かに運命の分かれ道の訪れを知らせ、決断を促してきた。手を添えた瞬間、ようやく気づいたわ……それが、もう一人の「私」であることに。あの世の私、そしてこの世の私は、二つの世界を自由に行き来できるようになった。以来、「私」は私のためにすべてを見渡し、冥府と現世の境目を守っているの。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_fuluoluo_sys_storyobj.play_favor_word_fuluoluo_sys_storyobj"
+    },
+    {
+      "Type": 1,
+      "Title": "伝えたいこと・その二",
+      "Content": "残星組織の者にとって、<te href=850073>オーバークロック</te>は日常茶飯事。次から次へと、自ら手を伸ばし利用しようとする姿を私は見てきた。そこに計り知れない死のリスクがあったとしても……あなたなら反論するでしょう。けれど、見方を変えれば死に通じる絶望の道ではなく、生まれ変わる方法なの。人は脆い。安心感がなければ、生きていけない。毎日恐怖に怯えながら、あらゆるものに縋ることで生き延び、死を拒む。でも、私たちは生きる意味も死ぬ意味も、自分自身で理解するべきだわ。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_fuluoluo_sys_storyexp.play_favor_word_fuluoluo_sys_storyexp"
+    },
+    {
+      "Type": 1,
+      "Title": "残星組織の組織長について",
+      "Content": "桁外れの存在、生ける「到達点」\n……ふふっ。承知のうえでお互いに利用するほうが、むしろ安心できる……そうでしょう？",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_fuluoluo_sys_about_huizhang.play_favor_word_fuluoluo_sys_about_huizhang"
+    },
+    {
+      "Type": 1,
+      "Title": "クリストフォロについて",
+      "Content": "人の自由意志を呼び覚まして、世界の真実に対抗できるようにするとは……興味深い計画だわ。でも残念ながら、命そのものに触れず意志を語ったところで、それは泡沫の夢のような空間に過ぎない。事実、完璧とは程遠い予定調和から外れた結末が、その試みの不完全性を示しているでしょう？",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_fuluoluo_sys_about_kelisituofu.play_favor_word_fuluoluo_sys_about_kelisituofu"
+    },
+    {
+      "Type": 1,
+      "Title": "スカーについて",
+      "Content": "あの狂人には、常識が通用しない。いつも気まぐれで、美意識のかけらすらない。私が丹念に準備したものを、いつも呆気なく台無しにする。彼の真の目的なんて、正直どうだっていいの。早いところ、私からできる限り遠くへ行ってほしいわ。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_fuluoluo_sys_about_shanghen.play_favor_word_fuluoluo_sys_about_shanghen"
+    },
+    {
+      "Type": 1,
+      "Title": "カルテジアについて",
+      "Content": "人ではないにもかかわらず、人の意志を完全に持つ存在……神々の造り物のなかでも、特に珍しいはずよ。憧れがないと言ったら嘘になるわ。彼女の存在から普遍性を見出すことができれば、冥府の響きがより心を揺さぶるものになるかもしれない。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_fuluoluo_sys_about_katixiya.play_favor_word_fuluoluo_sys_about_katixiya"
+    },
+    {
+      "Type": 1,
+      "Title": "誕生日祝い",
+      "Content": "誕生日？……そう、あなたの。\n……\nプレゼントや祝福が欲しいなら、ずっと待ち続けるといいわ。待っている時間も、プレゼントと言うでしょう。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_fuluoluo_sys_birthcele.play_favor_word_fuluoluo_sys_birthcele"
+    },
+    {
+      "Type": 1,
+      "Title": "余暇・その一",
+      "Content": "これを、こうして……ふふっ、簡単ね。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_fuluoluo_idle_idle01.play_favor_word_fuluoluo_idle_idle01"
+    },
+    {
+      "Type": 1,
+      "Title": "余暇・その二",
+      "Content": "台詞なし。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_fuluoluo_idle_idle02.play_favor_word_fuluoluo_idle_idle02"
+    },
+    {
+      "Type": 1,
+      "Title": "余暇・その三",
+      "Content": "ええ、踊りましょう。楽しい時間だったわ。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_fuluoluo_idle_idle03.play_favor_word_fuluoluo_idle_idle03"
+    },
+    {
+      "Type": 1,
+      "Title": "自己紹介",
+      "Content": "私が残星組織の監察だからといって、過剰に警戒する必要はないわ。まずは頭の中の雑音を取り除きなさい。そうすれば、リコリスの海に響き渡る完璧な旋律とやがて訪れる心の楽園を、心ゆくまで鑑賞できる。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_fuluoluo_sys_introduction.play_favor_word_fuluoluo_sys_introduction"
+    },
+    {
+      "Type": 1,
+      "Title": "最初の音",
+      "Content": "さあ一緒に、この誰もが望むコンサートを完璧に仕上げましょう。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_fuluoluo_sys_gacha.play_favor_word_fuluoluo_sys_gacha"
+    },
+    {
+      "Type": 1,
+      "Title": "チームに編入・その一",
+      "Content": "私も……一緒に？",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_fuluoluo_sys_jointeam_01.play_favor_word_fuluoluo_sys_jointeam_01"
+    },
+    {
+      "Type": 1,
+      "Title": "チームに編入・その二",
+      "Content": "はい、指揮棒の感触は覚えているでしょう？",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_fuluoluo_sys_jointeam_02.play_favor_word_fuluoluo_sys_jointeam_02"
+    },
+    {
+      "Type": 1,
+      "Title": "チームに編入・その三",
+      "Content": "私と演奏を？本気かしら？",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_fuluoluo_sys_jointeam_03.play_favor_word_fuluoluo_sys_jointeam_03"
+    },
+    {
+      "Type": 1,
+      "Title": "突破・その一",
+      "Content": "第一楽章は、温かくも感傷的よ。闇夜の中に潜む孤独感。あの忘れがたい亡霊のようなすすり泣きは、次第に止んでいく。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_fuluoluo_sys_rankup01.play_favor_word_fuluoluo_sys_rankup01"
+    },
+    {
+      "Type": 1,
+      "Title": "突破・その二",
+      "Content": "悲しみに満ちた陰鬱な第二楽章。その奥底には、不安と邪悪が潜んでいる。恐ろしいでしょう？振り上げられた短剣が、生と死のベールを引き裂く様は。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_fuluoluo_sys_rankup02.play_favor_word_fuluoluo_sys_rankup02"
+    },
+    {
+      "Type": 1,
+      "Title": "突破・その三",
+      "Content": "生き生きとした明るい第三楽章は、幻想的なスケルツォのようね。たとえ虚偽と不安の上に成り立っていたとしても、音符は踊り続けている。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_fuluoluo_sys_rankup03.play_favor_word_fuluoluo_sys_rankup03"
+    },
+    {
+      "Type": 1,
+      "Title": "突破・その四",
+      "Content": "強い力がみなぎる第四楽章は、壮絶な戦いの讃歌。激流に乗り、果てなき大地をどこまでも駆け抜け、すべてを洗い流す。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_fuluoluo_sys_rankup04.play_favor_word_fuluoluo_sys_rankup04"
+    },
+    {
+      "Type": 1,
+      "Title": "突破・その五",
+      "Content": "これが……最後のカデンツァ。あなたが手を加えてくれるなんて、本当に意外ね……せっかくだし、座って聴いたらどうかしら。少しくらい、時間はあるでしょう。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_fuluoluo_sys_rankup05.play_favor_word_fuluoluo_sys_rankup05"
+    },
+    {
+      "Type": 2,
+      "Title": "通常攻撃・1",
+      "Content": "枯れなさい……",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_fuluoluo_atk_atk04_01.play_favor_word_fuluoluo_atk_atk04_01"
+    },
+    {
+      "Type": 2,
+      "Title": "通常攻撃・2",
+      "Content": "完全に無駄ね……",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_fuluoluo_atk_atk04_02.play_favor_word_fuluoluo_atk_atk04_02"
+    },
+    {
+      "Type": 2,
+      "Title": "通常攻撃・3",
+      "Content": "ただ、落ち続けて……",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_fuluoluo_atk_atk04_03.play_favor_word_fuluoluo_atk_atk04_03"
+    },
+    {
+      "Type": 2,
+      "Title": "重撃・1",
+      "Content": "反響に耳を傾けるのよ。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_fuluoluo_atk_heavyatk02_01.play_favor_word_fuluoluo_atk_heavyatk02_01"
+    },
+    {
+      "Type": 2,
+      "Title": "重撃・2",
+      "Content": "生と死の狭間に縋って。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_fuluoluo_atk_heavyatk02_02.play_favor_word_fuluoluo_atk_heavyatk02_02"
+    },
+    {
+      "Type": 2,
+      "Title": "重撃・3",
+      "Content": "泣き叫び、笑いなさい！",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_fuluoluo_atk_heavyatk02_03.play_favor_word_fuluoluo_atk_heavyatk02_03"
+    },
+    {
+      "Type": 2,
+      "Title": "共鳴スキル・1",
+      "Content": "不要なノイズね。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_fuluoluo_skill_skill01_01.play_favor_word_fuluoluo_skill_skill01_01"
+    },
+    {
+      "Type": 2,
+      "Title": "共鳴スキル・2",
+      "Content": "消し去りなさい。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_fuluoluo_skill_skill01_02.play_favor_word_fuluoluo_skill_skill01_02"
+    },
+    {
+      "Type": 2,
+      "Title": "共鳴スキル・3",
+      "Content": "邪魔よ。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_fuluoluo_skill_skill01_03.play_favor_word_fuluoluo_skill_skill01_03"
+    },
+    {
+      "Type": 2,
+      "Title": "共鳴スキル・4",
+      "Content": "予備拍の合図よ。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_fuluoluo_skill_skill01_sp_01.play_favor_word_fuluoluo_skill_skill01_sp_01"
+    },
+    {
+      "Type": 2,
+      "Title": "共鳴スキル・5",
+      "Content": "合奏、準備。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_fuluoluo_skill_skill01_sp_02.play_favor_word_fuluoluo_skill_skill01_sp_02"
+    },
+    {
+      "Type": 2,
+      "Title": "共鳴スキル・6",
+      "Content": "これが終止音。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_fuluoluo_skill_skill01_sp_03.play_favor_word_fuluoluo_skill_skill01_sp_03"
+    },
+    {
+      "Type": 2,
+      "Title": "共鳴解放・1",
+      "Content": "口ずさむ、過ぎし日の残響。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_fuluoluo_burst_burst01or02_random_01.play_favor_word_fuluoluo_burst_burst01or02_random_01"
+    },
+    {
+      "Type": 2,
+      "Title": "共鳴解放・2",
+      "Content": "枯れてもなお、咲き乱れるわ。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_fuluoluo_burst_burst01or02_random_02.play_favor_word_fuluoluo_burst_burst01or02_random_02"
+    },
+    {
+      "Type": 2,
+      "Title": "共鳴解放・3",
+      "Content": "心だけは、墓場にあらず。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_fuluoluo_burst_burst01or02_random_03.play_favor_word_fuluoluo_burst_burst01or02_random_03"
+    },
+    {
+      "Type": 2,
+      "Title": "共鳴解放・4",
+      "Content": "しっ……",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_fuluoluo_burst_burst03_01.play_favor_word_fuluoluo_burst_burst03_01"
+    },
+    {
+      "Type": 2,
+      "Title": "共鳴解放・5",
+      "Content": "終焉。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_fuluoluo_burst_burst04_01.play_favor_word_fuluoluo_burst_burst04_01"
+    },
+    {
+      "Type": 2,
+      "Title": "共鳴解放・6",
+      "Content": "アンサンブル。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_fuluoluo_burst_burst04_02.play_favor_word_fuluoluo_burst_burst04_02"
+    },
+    {
+      "Type": 2,
+      "Title": "共鳴解放・7",
+      "Content": "破滅。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_fuluoluo_burst_burst04_03.play_favor_word_fuluoluo_burst_burst04_03"
+    },
+    {
+      "Type": 2,
+      "Title": "変奏スキル・1",
+      "Content": "伴奏、お願いできる？",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_fuluoluo_skill_qte_01.play_favor_word_fuluoluo_skill_qte_01"
+    },
+    {
+      "Type": 2,
+      "Title": "変奏スキル・2",
+      "Content": "面白いコンチェルトね。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_fuluoluo_skill_qte_02.play_favor_word_fuluoluo_skill_qte_02"
+    },
+    {
+      "Type": 2,
+      "Title": "変奏スキル・3",
+      "Content": "リズムに乗って。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_fuluoluo_skill_qte_03.play_favor_word_fuluoluo_skill_qte_03"
+    },
+    {
+      "Type": 2,
+      "Title": "ダメージ",
+      "Content": "一拍、遅れたせいね。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_fuluoluo_com_behitfly_03.play_favor_word_fuluoluo_com_behitfly_03"
+    },
+    {
+      "Type": 2,
+      "Title": "重傷・1",
+      "Content": "痛くも痒くもないわ。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_fuluoluo_com_hpdown02.play_favor_word_fuluoluo_com_hpdown02"
+    },
+    {
+      "Type": 2,
+      "Title": "重傷・2",
+      "Content": "構わないわ、どうせ同じよ。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_fuluoluo_com_hpdown03.play_favor_word_fuluoluo_com_hpdown03"
+    },
+    {
+      "Type": 2,
+      "Title": "戦闘不能・1",
+      "Content": "少しは、近づけたかしら……",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_fuluoluo_com_die_01.play_favor_word_fuluoluo_com_die_01"
+    },
+    {
+      "Type": 2,
+      "Title": "戦闘不能・2",
+      "Content": "ただ、いま……",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_fuluoluo_com_die_02.play_favor_word_fuluoluo_com_die_02"
+    },
+    {
+      "Type": 2,
+      "Title": "戦闘不能・3",
+      "Content": "決して、終幕にはさせない……",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_fuluoluo_com_die_03.play_favor_word_fuluoluo_com_die_03"
+    },
+    {
+      "Type": 2,
+      "Title": "音骸スキル・召喚",
+      "Content": "あなたの意志を示しなさい。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_fuluoluo_com_hxsummon.play_favor_word_fuluoluo_com_hxsummon"
+    },
+    {
+      "Type": 2,
+      "Title": "音骸スキル・変身",
+      "Content": "生命のシンフォニー。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_fuluoluo_com_hxchange.play_favor_word_fuluoluo_com_hxchange"
+    },
+    {
+      "Type": 2,
+      "Title": "敵に遭遇",
+      "Content": "また美しい音に出会えるかしら……",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_fuluoluo_com_engage.play_favor_word_fuluoluo_com_engage"
+    },
+    {
+      "Type": 2,
+      "Title": "滑空",
+      "Content": "終点に至るプレリュード。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_fuluoluo_com_fly_01.play_favor_word_fuluoluo_com_fly_01"
+    },
+    {
+      "Type": 2,
+      "Title": "スキャン",
+      "Content": "見に行かないのかしら？",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_fuluoluo_com_scan.play_favor_word_fuluoluo_com_scan"
+    },
+    {
+      "Type": 2,
+      "Title": "ダッシュ",
+      "Content": "あんまり、走るのは……",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_fuluoluo_com_accelerate.play_favor_word_fuluoluo_com_accelerate"
+    },
+    {
+      "Type": 2,
+      "Title": "補給獲得・1",
+      "Content": "美しい音色ね。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_fuluoluo_com_openbox_01.play_favor_word_fuluoluo_com_openbox_01"
+    },
+    {
+      "Type": 2,
+      "Title": "補給獲得・2",
+      "Content": "欠かせない存在。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_fuluoluo_com_openbox_02.play_favor_word_fuluoluo_com_openbox_02"
+    },
+    {
+      "Type": 2,
+      "Title": "補給獲得・3",
+      "Content": "あなたなら、どんな意味を見出すかしら？",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_fuluoluo_com_openbox_03.play_favor_word_fuluoluo_com_openbox_03"
+    }
+  ],
+  "Goods": [
+    {
+      "Title": "自撰の楽譜",
+      "Content": "穏やかな面差しとは裏腹に、彼女の両手は休みなく、次々と楽曲に激情的な変奏と誇張を加えてゆく。崩れかかった理性は感情の激流に呑まれ、無数の音符が彼女の手で砕け散っては、また凄惨で禍々しい姿へと生まれ変わる。",
+      "Icon": "/Game/Aki/UI/UIResources/UiRole/Image/Treasure/T_Treasure109_UI.T_Treasure109_UI"
+    },
+    {
+      "Title": "遺されたバイオリン",
+      "Content": "皆の贈り物を、彼女はその手で受け取り、皆の骨を、彼女はその手で土に還した。 \nされど弦の奏でるは、幾重にも重なる歓喜の歌。弓を取る彼女が赴く先は、幾度となく訪れる死の淵。",
+      "Icon": "/Game/Aki/UI/UIResources/UiRole/Image/Treasure/T_Treasure108_UI.T_Treasure108_UI"
+    },
+    {
+      "Title": "贈り先を失ったチケット",
+      "Content": "コンサートホールの入口で、またしてもチケットを手に誰かを待っていた彼女は、ふと、自分が何を待っているのかさえ分からなくなる。この曲を分かち合える理解者か、 それとも同じ理想を掲げる同志か。\n聴衆はすでに入場を終え、外には誰も残っていない。それでも、チケットは未だ手の中に。\nやがて彼女は悟った。どちらでもないと。待っていたのは、心の中で描き上げた、実在しない救いの藁だったのだと。\nだからもう、彼女は待つのをやめた。",
+      "Icon": "/Game/Aki/UI/UIResources/UiRole/Image/Treasure/T_Treasure107_UI.T_Treasure107_UI"
+    }
+  ],
+  "SpecialCook": {
+    "Id": 80001057,
+    "Name": "レッドカラントハニーケーキ",
+    "Desc": "チーム内全員のソアースタミナ消費を12%減少。持続時間15分、マルチプレイ中は自分のキャラにのみ有効。",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconCook/T_IconCook_087_UI.T_IconCook_087_UI",
+    "Rarity": 2
+  },
+  "Stats": {
+    "0": {
+      "1": {
+        "Life": 862.0,
+        "Atk": 35.0,
+        "Def": 93.0
+      },
+      "2": {
+        "Life": 934.5804,
+        "Atk": 37.947,
+        "Def": 100.6539
+      },
+      "3": {
+        "Life": 1007.247,
+        "Atk": 40.8975,
+        "Def": 108.3171
+      },
+      "4": {
+        "Life": 1079.9136,
+        "Atk": 43.848,
+        "Def": 115.9803
+      },
+      "5": {
+        "Life": 1152.494,
+        "Atk": 46.795,
+        "Def": 123.6435
+      },
+      "6": {
+        "Life": 1225.1606,
+        "Atk": 49.7455,
+        "Def": 131.3067
+      },
+      "7": {
+        "Life": 1297.8272,
+        "Atk": 52.696,
+        "Def": 138.9699
+      },
+      "8": {
+        "Life": 1370.4076,
+        "Atk": 55.643,
+        "Def": 146.6331
+      },
+      "9": {
+        "Life": 1443.0742,
+        "Atk": 58.5935,
+        "Def": 154.2963
+      },
+      "10": {
+        "Life": 1515.7408,
+        "Atk": 61.544,
+        "Def": 161.9595
+      },
+      "11": {
+        "Life": 1588.3212,
+        "Atk": 64.491,
+        "Def": 169.6227
+      },
+      "12": {
+        "Life": 1660.9878,
+        "Atk": 67.4415,
+        "Def": 177.2859
+      },
+      "13": {
+        "Life": 1733.6544,
+        "Atk": 70.392,
+        "Def": 184.9491
+      },
+      "14": {
+        "Life": 1806.321,
+        "Atk": 73.3425,
+        "Def": 192.6123
+      },
+      "15": {
+        "Life": 1878.9014,
+        "Atk": 76.2895,
+        "Def": 200.2755
+      },
+      "16": {
+        "Life": 1951.568,
+        "Atk": 79.24,
+        "Def": 207.9387
+      },
+      "17": {
+        "Life": 2024.2346,
+        "Atk": 82.1905,
+        "Def": 215.6019
+      },
+      "18": {
+        "Life": 2096.815,
+        "Atk": 85.1375,
+        "Def": 223.2651
+      },
+      "19": {
+        "Life": 2169.4816,
+        "Atk": 88.088,
+        "Def": 230.9283
+      },
+      "20": {
+        "Life": 2242.1482,
+        "Atk": 91.0385,
+        "Def": 238.5915
+      }
+    },
+    "1": {
+      "20": {
+        "Life": 2816.7574,
+        "Atk": 117.2885,
+        "Def": 298.8648
+      },
+      "21": {
+        "Life": 2889.424,
+        "Atk": 120.2355,
+        "Def": 306.528
+      },
+      "22": {
+        "Life": 2962.0906,
+        "Atk": 123.186,
+        "Def": 314.1912
+      },
+      "23": {
+        "Life": 3034.671,
+        "Atk": 126.1365,
+        "Def": 321.8544
+      },
+      "24": {
+        "Life": 3107.3376,
+        "Atk": 129.087,
+        "Def": 329.5176
+      },
+      "25": {
+        "Life": 3180.0042,
+        "Atk": 132.034,
+        "Def": 337.1808
+      },
+      "26": {
+        "Life": 3252.6708,
+        "Atk": 134.9845,
+        "Def": 344.844
+      },
+      "27": {
+        "Life": 3325.2512,
+        "Atk": 137.935,
+        "Def": 352.5072
+      },
+      "28": {
+        "Life": 3397.9178,
+        "Atk": 140.882,
+        "Def": 360.1704
+      },
+      "29": {
+        "Life": 3470.5844,
+        "Atk": 143.8325,
+        "Def": 367.8336
+      },
+      "30": {
+        "Life": 3543.1648,
+        "Atk": 146.783,
+        "Def": 375.4968
+      },
+      "31": {
+        "Life": 3615.8314,
+        "Atk": 149.73,
+        "Def": 383.16
+      },
+      "32": {
+        "Life": 3688.498,
+        "Atk": 152.6805,
+        "Def": 390.8232
+      },
+      "33": {
+        "Life": 3761.0784,
+        "Atk": 155.631,
+        "Def": 398.4864
+      },
+      "34": {
+        "Life": 3833.745,
+        "Atk": 158.578,
+        "Def": 406.1496
+      },
+      "35": {
+        "Life": 3906.4116,
+        "Atk": 161.5285,
+        "Def": 413.8128
+      },
+      "36": {
+        "Life": 3979.0782,
+        "Atk": 164.479,
+        "Def": 421.476
+      },
+      "37": {
+        "Life": 4051.6586,
+        "Atk": 167.4295,
+        "Def": 429.1392
+      },
+      "38": {
+        "Life": 4124.3252,
+        "Atk": 170.3765,
+        "Def": 436.8024
+      },
+      "39": {
+        "Life": 4196.9918,
+        "Atk": 173.327,
+        "Def": 444.4656
+      },
+      "40": {
+        "Life": 4269.5722,
+        "Atk": 176.2775,
+        "Def": 452.1288
+      }
+    },
+    "2": {
+      "40": {
+        "Life": 4844.2676,
+        "Atk": 202.5275,
+        "Def": 512.4021
+      },
+      "41": {
+        "Life": 4916.9342,
+        "Atk": 205.4745,
+        "Def": 520.0653
+      },
+      "42": {
+        "Life": 4989.5146,
+        "Atk": 208.425,
+        "Def": 527.7285
+      },
+      "43": {
+        "Life": 5062.1812,
+        "Atk": 211.3755,
+        "Def": 535.3917
+      },
+      "44": {
+        "Life": 5134.8478,
+        "Atk": 214.3225,
+        "Def": 543.0549
+      },
+      "45": {
+        "Life": 5207.4282,
+        "Atk": 217.273,
+        "Def": 550.7181
+      },
+      "46": {
+        "Life": 5280.0948,
+        "Atk": 220.2235,
+        "Def": 558.3813
+      },
+      "47": {
+        "Life": 5352.7614,
+        "Atk": 223.174,
+        "Def": 566.0445
+      },
+      "48": {
+        "Life": 5425.428,
+        "Atk": 226.121,
+        "Def": 573.7077
+      },
+      "49": {
+        "Life": 5498.0084,
+        "Atk": 229.0715,
+        "Def": 581.3709
+      },
+      "50": {
+        "Life": 5570.675,
+        "Atk": 232.022,
+        "Def": 589.0341
+      }
+    },
+    "3": {
+      "50": {
+        "Life": 6145.3704,
+        "Atk": 258.272,
+        "Def": 649.3074
+      },
+      "51": {
+        "Life": 6217.9508,
+        "Atk": 261.219,
+        "Def": 656.9706
+      },
+      "52": {
+        "Life": 6290.6174,
+        "Atk": 264.1695,
+        "Def": 664.6338
+      },
+      "53": {
+        "Life": 6363.284,
+        "Atk": 267.12,
+        "Def": 672.297
+      },
+      "54": {
+        "Life": 6435.8644,
+        "Atk": 270.067,
+        "Def": 679.9602
+      },
+      "55": {
+        "Life": 6508.531,
+        "Atk": 273.0175,
+        "Def": 687.6234
+      },
+      "56": {
+        "Life": 6581.1976,
+        "Atk": 275.968,
+        "Def": 695.2866
+      },
+      "57": {
+        "Life": 6653.8642,
+        "Atk": 278.9185,
+        "Def": 702.9498
+      },
+      "58": {
+        "Life": 6726.4446,
+        "Atk": 281.8655,
+        "Def": 710.613
+      },
+      "59": {
+        "Life": 6799.1112,
+        "Atk": 284.816,
+        "Def": 718.2762
+      },
+      "60": {
+        "Life": 6871.7778,
+        "Atk": 287.7665,
+        "Def": 725.9394
+      }
+    },
+    "4": {
+      "60": {
+        "Life": 7446.387,
+        "Atk": 314.0165,
+        "Def": 786.222
+      },
+      "61": {
+        "Life": 7519.0536,
+        "Atk": 316.9635,
+        "Def": 793.8852
+      },
+      "62": {
+        "Life": 7591.7202,
+        "Atk": 319.914,
+        "Def": 801.5484
+      },
+      "63": {
+        "Life": 7664.3006,
+        "Atk": 322.8645,
+        "Def": 809.2116
+      },
+      "64": {
+        "Life": 7736.9672,
+        "Atk": 325.8115,
+        "Def": 816.8748
+      },
+      "65": {
+        "Life": 7809.6338,
+        "Atk": 328.762,
+        "Def": 824.538
+      },
+      "66": {
+        "Life": 7882.2142,
+        "Atk": 331.7125,
+        "Def": 832.1919
+      },
+      "67": {
+        "Life": 7954.8808,
+        "Atk": 334.6595,
+        "Def": 839.8551
+      },
+      "68": {
+        "Life": 8027.5474,
+        "Atk": 337.61,
+        "Def": 847.5183
+      },
+      "69": {
+        "Life": 8100.214,
+        "Atk": 340.5605,
+        "Def": 855.1815
+      },
+      "70": {
+        "Life": 8172.7944,
+        "Atk": 343.511,
+        "Def": 862.8447
+      }
+    },
+    "5": {
+      "70": {
+        "Life": 8747.4898,
+        "Atk": 361.011,
+        "Def": 923.1273
+      },
+      "71": {
+        "Life": 8820.1564,
+        "Atk": 363.958,
+        "Def": 930.7905
+      },
+      "72": {
+        "Life": 8892.7368,
+        "Atk": 366.9085,
+        "Def": 938.4537
+      },
+      "73": {
+        "Life": 8965.4034,
+        "Atk": 369.859,
+        "Def": 946.1169
+      },
+      "74": {
+        "Life": 9038.07,
+        "Atk": 372.806,
+        "Def": 953.7801
+      },
+      "75": {
+        "Life": 9110.6504,
+        "Atk": 375.7565,
+        "Def": 961.4433
+      },
+      "76": {
+        "Life": 9183.317,
+        "Atk": 378.707,
+        "Def": 969.1065
+      },
+      "77": {
+        "Life": 9255.9836,
+        "Atk": 381.654,
+        "Def": 976.7697
+      },
+      "78": {
+        "Life": 9328.564,
+        "Atk": 384.6045,
+        "Def": 984.4329
+      },
+      "79": {
+        "Life": 9401.2306,
+        "Atk": 387.555,
+        "Def": 992.0961
+      },
+      "80": {
+        "Life": 9473.8972,
+        "Atk": 390.5055,
+        "Def": 999.7593
+      }
+    },
+    "6": {
+      "80": {
+        "Life": 10048.5926,
+        "Atk": 408.0055,
+        "Def": 1060.0326
+      },
+      "81": {
+        "Life": 10121.173,
+        "Atk": 410.9525,
+        "Def": 1067.6958
+      },
+      "82": {
+        "Life": 10193.8396,
+        "Atk": 413.903,
+        "Def": 1075.359
+      },
+      "83": {
+        "Life": 10266.5062,
+        "Atk": 416.8535,
+        "Def": 1083.0222
+      },
+      "84": {
+        "Life": 10339.0866,
+        "Atk": 419.8005,
+        "Def": 1090.6854
+      },
+      "85": {
+        "Life": 10411.7532,
+        "Atk": 422.751,
+        "Def": 1098.3486
+      },
+      "86": {
+        "Life": 10484.4198,
+        "Atk": 425.7015,
+        "Def": 1106.0118
+      },
+      "87": {
+        "Life": 10557.0002,
+        "Atk": 428.6485,
+        "Def": 1113.675
+      },
+      "88": {
+        "Life": 10629.6668,
+        "Atk": 431.599,
+        "Def": 1121.3382
+      },
+      "89": {
+        "Life": 10702.3334,
+        "Atk": 434.5495,
+        "Def": 1129.0014
+      },
+      "90": {
+        "Life": 10775.0,
+        "Atk": 437.5,
+        "Def": 1136.6646
+      }
+    }
+  },
+  "LevelEXP": [
+    0,
+    400,
+    400,
+    500,
+    600,
+    700,
+    900,
+    1000,
+    1200,
+    1300,
+    1500,
+    1700,
+    2000,
+    2200,
+    2400,
+    2700,
+    3000,
+    3300,
+    3600,
+    3900,
+    4300,
+    4600,
+    5000,
+    5400,
+    5800,
+    6300,
+    6700,
+    7200,
+    7700,
+    8200,
+    8700,
+    9300,
+    9800,
+    10400,
+    11000,
+    11700,
+    12300,
+    13000,
+    13700,
+    14400,
+    15100,
+    15900,
+    16700,
+    17500,
+    18300,
+    19200,
+    20000,
+    20900,
+    21900,
+    22800,
+    23800,
+    24800,
+    25800,
+    26900,
+    28000,
+    29100,
+    30300,
+    31400,
+    32600,
+    33900,
+    35100,
+    36400,
+    37700,
+    39100,
+    40500,
+    41900,
+    43300,
+    44800,
+    46300,
+    47900,
+    49500,
+    51100,
+    52800,
+    54500,
+    56200,
+    58000,
+    59800,
+    61600,
+    63500,
+    65400,
+    67400,
+    69400,
+    71400,
+    73500,
+    75600,
+    77800,
+    80000,
+    82300,
+    84600,
+    86900,
+    105600,
+    107400,
+    110000,
+    113600,
+    118600,
+    125500,
+    134900,
+    147300,
+    163600,
+    184500
+  ],
+  "SkillTrees": {
+    "1": {
+      "ParentNodes": [],
+      "NodeType": 2,
+      "Coordinate": 1,
+      "UnLockCondition": 0,
+      "Consume": [
+        {
+          "Key": 43020032,
+          "Value": 2
+        },
+        {
+          "Key": 41100022,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 3900
+        }
+      ],
+      "Skill": {
+        "Name": "滅びと終焉のカンタータ",
+        "Desc": "<size=40><color=Title>通常攻撃</color></size>\n最大3段の連続攻撃を行い、<color=Dark>消滅ダメージ</color>を与える。\n<color=Highlight>通常攻撃3段目</color>を発動時、<color=Highlight><te href=160805>幾重世界</te></color>状態に入る。\n<size=10></size>\n<size=40><color=Title>重撃</color></size>\nスタミナを消費して目標を攻撃し、<color=Dark>消滅ダメージ</color>を与える。\nこのスキルを発動後、一定時間内に<color=Highlight>通常攻撃</color>を一回押しすると、<color=Highlight>通常攻撃2段目</color>を発動する。\n<size=10></size>\n<size=40><color=Title>終の楽譜の書き手</color></size>\nフローヴァは{1}秒間隔で<color=Highlight>作曲</color>を有効化する。\n以下3つの条件を同時に満たすと、<color=Highlight>重撃</color>が<color=Highlight>終の楽譜の書き手</color>に代わる。\n· <color=Highlight>【<te href=160801>楽の音</te>】</color>を6Pt所持。\n· <color=Highlight>作曲</color>が有効状態。\n· <color=Highlight>【<te href=160802>基音</te>】</color>状態ではない。\n<size=10></size>\n<color=Highlight>終の楽譜の書き手</color>を発動すると、スタミナを消費して近くの目標を停滞させ牽引し、<color=Dark>消滅ダメージ</color>を与える。このダメージは<color=Highlight>共鳴スキルダメージ</color>と見なされる。\n<color=Highlight><te href=160803>余韻</te></color>1スタックにつき、今回のダメージ倍率が追加で増加する。\nこのスキルの発動は、<color=Highlight>音骸スキル</color>の発動とも見なされる。\nこのスキルを発動時、<color=Highlight>作曲</color>はクールタイムに入り、<color=Highlight>【基音】</color>状態を獲得する。\n<size=10></size>\n<size=40><color=Title>空中攻撃</color></size>\nスタミナを消費して落下攻撃を行い、<color=Dark>消滅ダメージ</color>を与える。\n<size=10></size>\n<size=40><color=Title>回避反撃</color></size>\n<color=Highlight>回避</color>成功直後に<color=Highlight>通常攻撃</color>を一回押しすると、目標を攻撃して<color=Dark>消滅ダメージ</color>を与える。\nこのスキルを発動した直後に<color=Highlight>通常攻撃</color>を一回押しすると、<color=Highlight>通常攻撃3段目</color>を発動する。",
+        "Param": [
+          "3",
+          "25"
+        ],
+        "SimpleDesc": "<size=40><color=Title>通常攻撃</color></size>\n<color=Dark>消滅ダメージ</color>を与える。\n<size=10></size>\n<size=40><color=Title>重撃</color></size>\n<color=Dark>消滅ダメージ</color>を与える。\n<size=10></size>\n<size=40><color=Title>強化重撃</color></size>\n<color=Highlight>【特殊エネルギー】</color>が満タン時、<color=Highlight>強化重撃</color>を発動でき、大量の<color=Dark>消滅ダメージ</color>を与える。このダメージは<color=Highlight>共鳴スキルダメージ</color>と見なされる。\n<color=Highlight>余韻</color>は今回のダメージ倍率を追加で増加させる。\nこのスキルの発動は、<color=Highlight>音骸スキル</color>の発動とも見なされる。\nこのスキルを発動後、一定時間は再発動できない。\n<size=10></size>\n<size=40><color=Title>空中攻撃</color></size>\n<color=Dark>消滅ダメージ</color>を与える。\n<size=10></size>\n<size=40><color=Title>回避反撃</color></size>\n<color=Dark>消滅ダメージ</color>を与える。",
+        "SimpleParam": [
+          "3",
+          "25"
+        ],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorMagic.SP_IconNorMagic",
+        "Type": "基本攻撃",
+        "Level": {
+          "1": {
+            "Name": "1段目ダメージ",
+            "Param": [
+              [
+                "26.88%*2",
+                "29.09%*2",
+                "31.29%*2",
+                "34.38%*2",
+                "36.58%*2",
+                "39.12%*2",
+                "42.64%*2",
+                "46.17%*2",
+                "49.70%*2",
+                "53.45%*2",
+                "57.85%*2",
+                "62.26%*2",
+                "66.67%*2",
+                "71.08%*2",
+                "75.49%*2",
+                "79.90%*2",
+                "84.30%*2",
+                "88.71%*2",
+                "93.12%*2",
+                "97.53%*2"
+              ]
+            ],
+            "Format": null
+          },
+          "2": {
+            "Name": "2段目ダメージ",
+            "Param": [
+              [
+                "48.00%",
+                "51.94%",
+                "55.88%",
+                "61.39%",
+                "65.32%",
+                "69.85%",
+                "76.15%",
+                "82.44%",
+                "88.74%",
+                "95.43%",
+                "103.31%",
+                "111.18%",
+                "119.05%",
+                "126.92%",
+                "134.79%",
+                "142.67%",
+                "150.54%",
+                "158.41%",
+                "166.28%",
+                "174.15%"
+              ]
+            ],
+            "Format": null
+          },
+          "3": {
+            "Name": "3段目ダメージ",
+            "Param": [
+              [
+                "16.44%*6",
+                "17.79%*6",
+                "19.14%*6",
+                "21.03%*6",
+                "22.38%*6",
+                "23.93%*6",
+                "26.08%*6",
+                "28.24%*6",
+                "30.40%*6",
+                "32.69%*6",
+                "35.39%*6",
+                "38.08%*6",
+                "40.78%*6",
+                "43.47%*6",
+                "46.17%*6",
+                "48.87%*6",
+                "51.56%*6",
+                "54.26%*6",
+                "56.95%*6",
+                "59.65%*6"
+              ]
+            ],
+            "Format": null
+          },
+          "4": {
+            "Name": "重撃ダメージ",
+            "Param": [
+              [
+                "40.16%*2",
+                "43.46%*2",
+                "46.75%*2",
+                "51.36%*2",
+                "54.65%*2",
+                "58.44%*2",
+                "63.71%*2",
+                "68.98%*2",
+                "74.25%*2",
+                "79.85%*2",
+                "86.43%*2",
+                "93.02%*2",
+                "99.61%*2",
+                "106.19%*2",
+                "112.78%*2",
+                "119.36%*2",
+                "125.95%*2",
+                "132.54%*2",
+                "139.12%*2",
+                "145.71%*2"
+              ]
+            ],
+            "Format": null
+          },
+          "5": {
+            "Name": "終の楽譜の書き手ダメージ",
+            "Param": [
+              [
+                "16.61%*2+6.23%*8+249.03%",
+                "17.97%*2+6.74%*8+269.46%",
+                "19.33%*2+7.25%*8+289.88%",
+                "21.24%*2+7.97%*8+318.46%",
+                "22.60%*2+8.48%*8+338.89%",
+                "24.16%*2+9.06%*8+362.37%",
+                "26.34%*2+9.88%*8+395.04%",
+                "28.52%*2+10.70%*8+427.71%",
+                "30.70%*2+11.51%*8+460.39%",
+                "33.01%*2+12.38%*8+495.10%",
+                "35.73%*2+13.40%*8+535.94%",
+                "38.46%*2+14.42%*8+576.78%",
+                "41.18%*2+15.45%*8+617.62%",
+                "43.90%*2+16.47%*8+658.47%",
+                "46.63%*2+17.49%*8+699.31%",
+                "49.35%*2+18.51%*8+740.15%",
+                "52.07%*2+19.53%*8+780.99%",
+                "54.79%*2+20.55%*8+821.83%",
+                "57.52%*2+21.57%*8+862.67%",
+                "60.24%*2+22.59%*8+903.51%"
+              ]
+            ],
+            "Format": null
+          },
+          "6": {
+            "Name": "余韻1スタックごとの倍率増加量",
+            "Param": [
+              [
+                "41.53%",
+                "44.9%",
+                "48.36%",
+                "53.13%",
+                "56.5%",
+                "60.38%",
+                "65.88%",
+                "71.32%",
+                "76.75%",
+                "82.55%",
+                "89.37%",
+                "96.12%",
+                "102.94%",
+                "109.77%",
+                "116.59%",
+                "123.34%",
+                "130.16%",
+                "136.99%",
+                "143.81%",
+                "150.56%"
+              ]
+            ],
+            "Format": null
+          },
+          "7": {
+            "Name": "空中攻撃ダメージ",
+            "Param": [
+              [
+                "64.00%",
+                "69.25%",
+                "74.50%",
+                "81.85%",
+                "87.10%",
+                "93.13%",
+                "101.53%",
+                "109.92%",
+                "118.32%",
+                "127.24%",
+                "137.74%",
+                "148.24%",
+                "158.73%",
+                "169.23%",
+                "179.72%",
+                "190.22%",
+                "200.72%",
+                "211.21%",
+                "221.71%",
+                "232.20%"
+              ]
+            ],
+            "Format": null
+          },
+          "8": {
+            "Name": "回避反撃ダメージ",
+            "Param": [
+              [
+                "61.36%",
+                "66.40%",
+                "71.43%",
+                "78.47%",
+                "83.50%",
+                "89.29%",
+                "97.34%",
+                "105.39%",
+                "113.44%",
+                "121.99%",
+                "132.06%",
+                "142.12%",
+                "152.18%",
+                "162.25%",
+                "172.31%",
+                "182.37%",
+                "192.44%",
+                "202.50%",
+                "212.56%",
+                "222.63%"
+              ]
+            ],
+            "Format": null
+          },
+          "9": {
+            "Name": "終の楽譜の書き手協奏エネルギー獲得",
+            "Param": [
+              [
+                "40",
+                "40",
+                "40",
+                "40",
+                "40",
+                "40",
+                "40",
+                "40",
+                "40",
+                "40",
+                "40",
+                "40",
+                "40",
+                "40",
+                "40",
+                "40",
+                "40",
+                "40",
+                "40",
+                "40"
+              ]
+            ],
+            "Format": null
+          },
+          "10": {
+            "Name": "重撃スタミナ消費",
+            "Param": [
+              [
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25"
+              ]
+            ],
+            "Format": null
+          },
+          "11": {
+            "Name": "終の楽譜の書き手スタミナ消費",
+            "Param": [
+              [
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25"
+              ]
+            ],
+            "Format": null
+          },
+          "12": {
+            "Name": "空中攻撃スタミナ消費",
+            "Param": [
+              [
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30"
+              ]
+            ],
+            "Format": null
+          }
+        },
+        "Consume": {
+          "1": [],
+          "2": [
+            {
+              "Key": 43020031,
+              "Value": 2
+            },
+            {
+              "Key": 41100041,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 1500
+            }
+          ],
+          "3": [
+            {
+              "Key": 43020031,
+              "Value": 3
+            },
+            {
+              "Key": 41100041,
+              "Value": 3
+            },
+            {
+              "Key": 2,
+              "Value": 2000
+            }
+          ],
+          "4": [
+            {
+              "Key": 43020032,
+              "Value": 2
+            },
+            {
+              "Key": 41100042,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 4500
+            }
+          ],
+          "5": [
+            {
+              "Key": 43020032,
+              "Value": 3
+            },
+            {
+              "Key": 41100042,
+              "Value": 3
+            },
+            {
+              "Key": 2,
+              "Value": 6000
+            }
+          ],
+          "6": [
+            {
+              "Key": 43020033,
+              "Value": 3
+            },
+            {
+              "Key": 41100043,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 16000
+            }
+          ],
+          "7": [
+            {
+              "Key": 43020033,
+              "Value": 5
+            },
+            {
+              "Key": 41100043,
+              "Value": 3
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 30000
+            }
+          ],
+          "8": [
+            {
+              "Key": 43020034,
+              "Value": 2
+            },
+            {
+              "Key": 41100044,
+              "Value": 2
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 50000
+            }
+          ],
+          "9": [
+            {
+              "Key": 43020034,
+              "Value": 3
+            },
+            {
+              "Key": 41100044,
+              "Value": 3
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 70000
+            }
+          ],
+          "10": [
+            {
+              "Key": 43020034,
+              "Value": 6
+            },
+            {
+              "Key": 41100044,
+              "Value": 4
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 100000
+            }
+          ]
+        },
+        "Damage": {
+          "1608001001": {
+            "Element": 6,
+            "RelatedProperty": "攻撃力",
+            "Type": 0,
+            "RateLv": [
+              2688,
+              2909,
+              3129,
+              3438,
+              3658,
+              3912,
+              4264,
+              4617,
+              4970,
+              5345,
+              5785,
+              6226,
+              6667,
+              7108,
+              7549,
+              7990,
+              8430,
+              8871,
+              9312,
+              9753
+            ],
+            "Energy": 84,
+            "ElementPower": 168,
+            "HardnessLv": 10000,
+            "ToughLv": 3360
+          },
+          "1608001002": {
+            "Element": 6,
+            "RelatedProperty": "攻撃力",
+            "Type": 0,
+            "RateLv": [
+              2688,
+              2909,
+              3129,
+              3438,
+              3658,
+              3912,
+              4264,
+              4617,
+              4970,
+              5345,
+              5785,
+              6226,
+              6667,
+              7108,
+              7549,
+              7990,
+              8430,
+              8871,
+              9312,
+              9753
+            ],
+            "Energy": 84,
+            "ElementPower": 168,
+            "HardnessLv": 10000,
+            "ToughLv": 3360
+          },
+          "1608002001": {
+            "Element": 6,
+            "RelatedProperty": "攻撃力",
+            "Type": 0,
+            "RateLv": [
+              4800,
+              5194,
+              5588,
+              6139,
+              6532,
+              6985,
+              7615,
+              8244,
+              8874,
+              9543,
+              10331,
+              11118,
+              11905,
+              12692,
+              13479,
+              14267,
+              15054,
+              15841,
+              16628,
+              17415
+            ],
+            "Energy": 150,
+            "ElementPower": 300,
+            "HardnessLv": 10000,
+            "ToughLv": 6000
+          },
+          "1608003002": {
+            "Element": 6,
+            "RelatedProperty": "攻撃力",
+            "Type": 0,
+            "RateLv": [
+              1644,
+              1779,
+              1914,
+              2103,
+              2238,
+              2393,
+              2608,
+              2824,
+              3040,
+              3269,
+              3539,
+              3808,
+              4078,
+              4347,
+              4617,
+              4887,
+              5156,
+              5426,
+              5695,
+              5965
+            ],
+            "Energy": 52,
+            "ElementPower": 103,
+            "HardnessLv": 10000,
+            "ToughLv": 2055
+          },
+          "1608005001": {
+            "Element": 6,
+            "RelatedProperty": "攻撃力",
+            "Type": 1,
+            "RateLv": [
+              4016,
+              4346,
+              4675,
+              5136,
+              5465,
+              5844,
+              6371,
+              6898,
+              7425,
+              7985,
+              8643,
+              9302,
+              9961,
+              10619,
+              11278,
+              11936,
+              12595,
+              13254,
+              13912,
+              14571
+            ],
+            "Energy": 126,
+            "ElementPower": 251,
+            "HardnessLv": 10000,
+            "ToughLv": 5020
+          },
+          "1608005002": {
+            "Element": 6,
+            "RelatedProperty": "攻撃力",
+            "Type": 1,
+            "RateLv": [
+              4016,
+              4346,
+              4675,
+              5136,
+              5465,
+              5844,
+              6371,
+              6898,
+              7425,
+              7985,
+              8643,
+              9302,
+              9961,
+              10619,
+              11278,
+              11936,
+              12595,
+              13254,
+              13912,
+              14571
+            ],
+            "Energy": 126,
+            "ElementPower": 251,
+            "HardnessLv": 10000,
+            "ToughLv": 5020
+          },
+          "1608008001": {
+            "Element": 6,
+            "RelatedProperty": "攻撃力",
+            "Type": 4,
+            "RateLv": [
+              1661,
+              1797,
+              1933,
+              2124,
+              2260,
+              2416,
+              2634,
+              2852,
+              3070,
+              3301,
+              3573,
+              3846,
+              4118,
+              4390,
+              4663,
+              4935,
+              5207,
+              5479,
+              5752,
+              6024
+            ],
+            "Energy": 35,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 5000
+          },
+          "1608008002": {
+            "Element": 6,
+            "RelatedProperty": "攻撃力",
+            "Type": 4,
+            "RateLv": [
+              623,
+              674,
+              725,
+              797,
+              848,
+              906,
+              988,
+              1070,
+              1151,
+              1238,
+              1340,
+              1442,
+              1545,
+              1647,
+              1749,
+              1851,
+              1953,
+              2055,
+              2157,
+              2259
+            ],
+            "Energy": 13,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 519
+          },
+          "1608008003": {
+            "Element": 6,
+            "RelatedProperty": "攻撃力",
+            "Type": 4,
+            "RateLv": [
+              24903,
+              26946,
+              28988,
+              31846,
+              33889,
+              36237,
+              39504,
+              42771,
+              46039,
+              49510,
+              53594,
+              57678,
+              61762,
+              65847,
+              69931,
+              74015,
+              78099,
+              82183,
+              86267,
+              90351
+            ],
+            "Energy": 519,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 20753
+          },
+          "1608008005": {
+            "Element": 6,
+            "RelatedProperty": "攻撃力",
+            "Type": 4,
+            "RateLv": [
+              1661,
+              1797,
+              1933,
+              2124,
+              2260,
+              2416,
+              2634,
+              2852,
+              3070,
+              3301,
+              3573,
+              3846,
+              4118,
+              4390,
+              4663,
+              4935,
+              5207,
+              5479,
+              5752,
+              6024
+            ],
+            "Energy": 35,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 1384
+          },
+          "1608006001": {
+            "Element": 6,
+            "RelatedProperty": "攻撃力",
+            "Type": 0,
+            "RateLv": [
+              6400,
+              6925,
+              7450,
+              8185,
+              8710,
+              9313,
+              10153,
+              10992,
+              11832,
+              12724,
+              13774,
+              14824,
+              15873,
+              16923,
+              17972,
+              19022,
+              20072,
+              21121,
+              22171,
+              23220
+            ],
+            "Energy": 200,
+            "ElementPower": 400,
+            "HardnessLv": 10000,
+            "ToughLv": 8000
+          },
+          "1608009001": {
+            "Element": 6,
+            "RelatedProperty": "攻撃力",
+            "Type": 0,
+            "RateLv": [
+              6136,
+              6640,
+              7143,
+              7847,
+              8350,
+              8929,
+              9734,
+              10539,
+              11344,
+              12199,
+              13206,
+              14212,
+              15218,
+              16225,
+              17231,
+              18237,
+              19244,
+              20250,
+              21256,
+              22263
+            ],
+            "Energy": 192,
+            "ElementPower": 384,
+            "HardnessLv": 10000,
+            "ToughLv": 15000
+          },
+          "1608028001": {
+            "Element": 6,
+            "RelatedProperty": "攻撃力",
+            "Type": 4,
+            "RateLv": [
+              2906,
+              3144,
+              3382,
+              3716,
+              3954,
+              4228,
+              4609,
+              4990,
+              5372,
+              5777,
+              6253,
+              6730,
+              7206,
+              7683,
+              8159,
+              8635,
+              9112,
+              9588,
+              10065,
+              10541
+            ],
+            "Energy": 35,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 5000
+          },
+          "1608028002": {
+            "Element": 6,
+            "RelatedProperty": "攻撃力",
+            "Type": 4,
+            "RateLv": [
+              1090,
+              1179,
+              1269,
+              1394,
+              1483,
+              1586,
+              1729,
+              1872,
+              2015,
+              2167,
+              2345,
+              2524,
+              2703,
+              2881,
+              3060,
+              3239,
+              3417,
+              3596,
+              3775,
+              3953
+            ],
+            "Energy": 13,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 519
+          },
+          "1608028003": {
+            "Element": 6,
+            "RelatedProperty": "攻撃力",
+            "Type": 4,
+            "RateLv": [
+              43581,
+              47154,
+              50728,
+              55731,
+              59305,
+              63414,
+              69132,
+              74850,
+              80567,
+              86642,
+              93790,
+              100937,
+              108084,
+              115231,
+              122378,
+              129525,
+              136673,
+              143820,
+              150967,
+              158114
+            ],
+            "Energy": 519,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 20753
+          },
+          "1608028004": {
+            "Element": 6,
+            "RelatedProperty": "攻撃力",
+            "Type": 4,
+            "RateLv": [
+              2906,
+              3144,
+              3382,
+              3716,
+              3954,
+              4228,
+              4609,
+              4990,
+              5372,
+              5777,
+              6253,
+              6730,
+              7206,
+              7683,
+              8159,
+              8635,
+              9112,
+              9588,
+              10065,
+              10541
+            ],
+            "Energy": 35,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 1384
+          }
+        }
+      }
+    },
+    "2": {
+      "ParentNodes": [],
+      "NodeType": 2,
+      "Coordinate": 2,
+      "UnLockCondition": 0,
+      "Consume": [
+        {
+          "Key": 43020032,
+          "Value": 2
+        },
+        {
+          "Key": 41100022,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 3900
+        }
+      ],
+      "Skill": {
+        "Name": "泡沫の夢語り",
+        "Desc": "目標を攻撃し、<color=Dark>消滅ダメージ</color>を与える。\n発動時、<color=Highlight><te href=160805>幾重世界</te></color>状態に入る。",
+        "Param": [],
+        "SimpleDesc": "<color=Dark>消滅ダメージ</color>を与える。",
+        "SimpleParam": [],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconFuluoluo/SP_IconFuluoluoB1.SP_IconFuluoluoB1",
+        "Type": "共鳴スキル",
+        "Level": {
+          "13": {
+            "Name": "スキルダメージ",
+            "Param": [
+              [
+                "53.30%*2",
+                "57.68%*2",
+                "62.05%*2",
+                "68.17%*2",
+                "72.54%*2",
+                "77.56%*2",
+                "84.55%*2",
+                "91.55%*2",
+                "98.54%*2",
+                "105.97%*2",
+                "114.71%*2",
+                "123.45%*2",
+                "132.19%*2",
+                "140.94%*2",
+                "149.68%*2",
+                "158.42%*2",
+                "167.16%*2",
+                "175.90%*2",
+                "184.64%*2",
+                "193.38%*2"
+              ]
+            ],
+            "Format": null
+          },
+          "14": {
+            "Name": "クールタイム",
+            "Param": [
+              [
+                "12",
+                "12",
+                "12",
+                "12",
+                "12",
+                "12",
+                "12",
+                "12",
+                "12",
+                "12",
+                "12",
+                "12",
+                "12",
+                "12",
+                "12",
+                "12",
+                "12",
+                "12",
+                "12",
+                "12"
+              ]
+            ],
+            "Format": "{0}秒"
+          },
+          "15": {
+            "Name": "協奏エネルギー獲得",
+            "Param": [
+              [
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10"
+              ]
+            ],
+            "Format": null
+          }
+        },
+        "Consume": {
+          "1": [],
+          "2": [
+            {
+              "Key": 43020031,
+              "Value": 2
+            },
+            {
+              "Key": 41100041,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 1500
+            }
+          ],
+          "3": [
+            {
+              "Key": 43020031,
+              "Value": 3
+            },
+            {
+              "Key": 41100041,
+              "Value": 3
+            },
+            {
+              "Key": 2,
+              "Value": 2000
+            }
+          ],
+          "4": [
+            {
+              "Key": 43020032,
+              "Value": 2
+            },
+            {
+              "Key": 41100042,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 4500
+            }
+          ],
+          "5": [
+            {
+              "Key": 43020032,
+              "Value": 3
+            },
+            {
+              "Key": 41100042,
+              "Value": 3
+            },
+            {
+              "Key": 2,
+              "Value": 6000
+            }
+          ],
+          "6": [
+            {
+              "Key": 43020033,
+              "Value": 3
+            },
+            {
+              "Key": 41100043,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 16000
+            }
+          ],
+          "7": [
+            {
+              "Key": 43020033,
+              "Value": 5
+            },
+            {
+              "Key": 41100043,
+              "Value": 3
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 30000
+            }
+          ],
+          "8": [
+            {
+              "Key": 43020034,
+              "Value": 2
+            },
+            {
+              "Key": 41100044,
+              "Value": 2
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 50000
+            }
+          ],
+          "9": [
+            {
+              "Key": 43020034,
+              "Value": 3
+            },
+            {
+              "Key": 41100044,
+              "Value": 3
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 70000
+            }
+          ],
+          "10": [
+            {
+              "Key": 43020034,
+              "Value": 6
+            },
+            {
+              "Key": 41100044,
+              "Value": 4
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 100000
+            }
+          ]
+        },
+        "Damage": {
+          "1608101001": {
+            "Element": 6,
+            "RelatedProperty": "攻撃力",
+            "Type": 4,
+            "RateLv": [
+              5330,
+              5768,
+              6205,
+              6817,
+              7254,
+              7756,
+              8455,
+              9155,
+              9854,
+              10597,
+              11471,
+              12345,
+              13219,
+              14094,
+              14968,
+              15842,
+              16716,
+              17590,
+              18464,
+              19338
+            ],
+            "Energy": 667,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 10000
+          },
+          "1608101004": {
+            "Element": 6,
+            "RelatedProperty": "攻撃力",
+            "Type": 4,
+            "RateLv": [
+              5330,
+              5768,
+              6205,
+              6817,
+              7254,
+              7756,
+              8455,
+              9155,
+              9854,
+              10597,
+              11471,
+              12345,
+              13219,
+              14094,
+              14968,
+              15842,
+              16716,
+              17590,
+              18464,
+              19338
+            ],
+            "Energy": 667,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 10000
+          }
+        }
+      }
+    },
+    "3": {
+      "ParentNodes": [],
+      "NodeType": 2,
+      "Coordinate": 3,
+      "UnLockCondition": 0,
+      "Consume": [
+        {
+          "Key": 43020032,
+          "Value": 2
+        },
+        {
+          "Key": 41100022,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 3900
+        }
+      ],
+      "Skill": {
+        "Name": "忘れられし深淵のワルツ",
+        "Desc": "<size=40><color=Title>忘れられし深淵のワルツ</color></size>\nフローヴァの共鳴エネルギー上限は0であり、<color=Highlight>忘れられし深淵のワルツ</color>は共鳴エネルギーを消費しない。\n<color=Highlight>【<te href=160802>基音</te>】</color>状態中、<color=Highlight>忘れられし深淵のワルツ</color>が発動可能になる。\n発動後、<color=Highlight>【基音】</color>状態を終了し、{0}秒間持続する<color=Highlight>コンダクター状態</color>に入る。\n<size=10></size>\n<size=40><color=Title>コンダクター状態</color></size>\n攻撃力{5}アップ。\nフローヴァは空中に浮遊し、ヘカテーを指揮して戦闘を行う。ヘカテーはフローヴァのステータスを継承する。ヘカテーによるダメージは目標のまどろみの夢状態を解除しない。\n状態中、獲得順で<color=Highlight>【<te href=160801>楽の音</te>】</color>を演奏する。<color=Highlight>【楽の音】</color>1Ptにつき、演奏は{1}秒間続く。\nフローヴァがチーム内登場キャラの場合、以下の指令を出してヘカテーに攻撃させることができる。この場合、ヘカテーが攻撃を受けるとフローヴァもダメージを受ける。\n· <color=Highlight>指令・通常攻撃</color>：通常攻撃を行うと、ヘカテーを指揮して<color=Highlight>通常攻撃・ヘカテー</color>を発動させる。フローヴァがチーム内登場キャラ、かつヘカテーが通常攻撃を累計{2}回発動すると、次回の<color=Highlight>通常攻撃・ヘカテー</color>は<color=Highlight>強化攻撃・ヘカテー</color>に代わる。\n· <color=Highlight>指令・回避</color>：回避を使うと、ヘカテーを指揮して回避させる。回避に成功すると、ダメージを受けない。\n· <color=Highlight>指令・復帰</color>：ジャンプを使うと、ヘカテーの位置がリセットされる。\n· <color=Highlight>指令・終幕</color>：共鳴解放を使うと、<color=Highlight>コンダクター状態</color>を終了する。\nフローヴァがチーム内登場キャラでない場合、ヘカテーはダメージを受けず、自動で<color=Highlight>通常攻撃・ヘカテー</color>を発動して目標を攻撃する。チーム内キャラが音骸スキルを発動時、ヘカテーは<color=Highlight>強化攻撃・ヘカテー</color>を発動して目標を攻撃する。<color=Highlight>コンダクター状態</color>中、この効果を最大{4}回まで発動可能で、同名音骸は最大{3}回まで発動可能。\nフローヴァに切り替えると、<color=Highlight>コンダクター状態</color>は早めに終了する。\n<color=Highlight>コンダクター状態</color>終了時、<color=Highlight>【楽の音】</color>をすべて消費する。\n<size=10></size>\n<size=40><color=Title>通常攻撃・ヘカテー</color></size>\n最大2段の連続攻撃を行い、<color=Dark>消滅ダメージ</color>を与える。このダメージは<color=Highlight>音骸スキルダメージ</color>と見なされる。\n<size=10></size>\n<size=40><color=Title>強化攻撃・弦楽・ヘカテー</color></size>\nフローヴァが<color=Highlight>【楽の音・弦楽】</color>を演奏中、ヘカテーが発動する<color=Highlight>強化攻撃・ヘカテー</color>は<color=Highlight>強化攻撃・弦楽・ヘカテー</color>となり、目標を停滞させ、<color=Dark>消滅ダメージ</color>を与える。このダメージは<color=Highlight>音骸スキルダメージ</color>と見なされる。\n<size=10></size>\n<size=40><color=Title>強化攻撃・管楽・ヘカテー</color></size>\nフローヴァが<color=Highlight>【楽の音・管楽】</color>を演奏中、ヘカテーが発動する<color=Highlight>強化攻撃・ヘカテー</color>は<color=Highlight>強化攻撃・管楽・ヘカテー</color>となり、近くの目標を牽引し、<color=Dark>消滅ダメージ</color>を与える。このダメージは<color=Highlight>音骸スキルダメージ</color>と見なされる。\n<size=10></size>\n<size=40><color=Title>強化攻撃・カデンツァ・ヘカテー</color></size>\nフローヴァが<color=Highlight>【楽の音・カデンツァ】</color>を演奏中、ヘカテーが発動する<color=Highlight>強化攻撃・ヘカテー</color>は<color=Highlight>強化攻撃・カデンツァ・ヘカテー</color>となり、近くの目標を停滞させ牽引し、<color=Dark>消滅ダメージ</color>を与える。このダメージは<color=Highlight>音骸スキルダメージ</color>と見なされる。\n<size=10></size>\n<size=40><color=Title>終幕</color></size>\n以下5種類の操作で、<color=Highlight>終幕</color>を発動し、目標を停滞させ<color=Dark>消滅ダメージ</color>を与えることが可能。\n· フローヴァがチーム内登場キャラの場合、<color=Highlight>コンダクター状態</color>を終了する。\n· <color=Highlight>コンダクター状態</color>中、変奏スキル発動せずにフローヴァを登場させる。\n· フローヴァがチーム内登場キャラでない場合、<color=Highlight>コンダクター状態</color>終了後、次に登場時、変奏スキル発動せずにフローヴァを登場させる。\n· <color=Highlight>コンダクター状態</color>中、共鳴解放を一回押しする。\n· <color=Highlight>【基音】</color>状態中、共鳴解放を長押しする。\n<color=Highlight>【基音】</color>状態中、<color=Highlight>終幕</color>を発動すると、<color=Highlight>【楽の音】</color>をすべて消費し、<color=Highlight>【基音】</color>状態を終了する。",
+        "Param": [
+          "24",
+          "4",
+          "2",
+          "1",
+          "10",
+          "120%"
+        ],
+        "SimpleDesc": "<size=40><color=Title>共鳴解放</color></size>\n<color=Highlight>強化重撃</color>を発動すると<color=Highlight>共鳴解放</color>が発動可能になる。\n<color=Highlight>共鳴解放</color>を発動後、<color=Highlight>強化状態</color>に入る。\n<size=10></size>\n<size=40><color=Title>強化状態</color></size>\n· フローヴァがチーム内登場キャラの場合、ヘカテーを指揮して<color=Highlight>通常攻撃・ヘカテー</color>を発動させる。ヘカテーが{2}回通常攻撃を発動後、<color=Highlight>通常攻撃・ヘカテー</color>が<color=Highlight>強化攻撃・ヘカテー</color>に代わる。\n· フローヴァがチーム内登場キャラでない場合、ヘカテーは自動で<color=Highlight>通常攻撃・ヘカテー</color>を発動して目標を攻撃する。チーム内キャラが音骸スキルを発動時、ヘカテーは<color=Highlight>強化攻撃・ヘカテー</color>を発動して目標を攻撃する。\n· フローヴァに切り替えると、<color=Highlight>強化状態</color>は早めに終了する。\n<size=10></size>\n<size=40><color=Title>ヘカテー</color></size>\n· <color=Highlight>通常攻撃・ヘカテー</color>：<color=Dark>消滅ダメージ</color>を与える。このダメージは<color=Highlight>音骸スキルダメージ</color>と見なされる。\n· <color=Highlight>強化攻撃・ヘカテー</color>：<color=Dark>消滅ダメージ</color>を与える。このダメージは<color=Highlight>音骸スキルダメージ</color>と見なされる。フローヴァがチーム内登場キャラでない場合、このスキルを発動時に<color=Highlight>余韻</color>を獲得する。",
+        "SimpleParam": [
+          "24",
+          "4",
+          "2",
+          "1",
+          "10",
+          "120%"
+        ],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconFuluoluo/SP_IconFuluoluoC1.SP_IconFuluoluoC1",
+        "Type": "共鳴解放",
+        "Level": {
+          "16": {
+            "Name": "通常攻撃・ヘカテー1段目ダメージ",
+            "Param": [
+              [
+                "14.00%",
+                "15.15%",
+                "16.30%",
+                "17.91%",
+                "19.06%",
+                "20.38%",
+                "22.21%",
+                "24.05%",
+                "25.89%",
+                "27.84%",
+                "30.13%",
+                "32.43%",
+                "34.73%",
+                "37.02%",
+                "39.32%",
+                "41.61%",
+                "43.91%",
+                "46.21%",
+                "48.50%",
+                "50.80%"
+              ]
+            ],
+            "Format": null
+          },
+          "17": {
+            "Name": "通常攻撃・ヘカテー2段目ダメージ",
+            "Param": [
+              [
+                "7.00%*2",
+                "7.58%*2",
+                "8.15%*2",
+                "8.96%*2",
+                "9.53%*2",
+                "10.19%*2",
+                "11.11%*2",
+                "12.03%*2",
+                "12.95%*2",
+                "13.92%*2",
+                "15.07%*2",
+                "16.22%*2",
+                "17.37%*2",
+                "18.51%*2",
+                "19.66%*2",
+                "20.81%*2",
+                "21.96%*2",
+                "23.11%*2",
+                "24.25%*2",
+                "25.40%*2"
+              ]
+            ],
+            "Format": null
+          },
+          "19": {
+            "Name": "強化攻撃・弦楽・ヘカテーダメージ",
+            "Param": [
+              [
+                "52.50%+122.50%",
+                "56.81%+132.55%",
+                "61.11%+142.59%",
+                "67.14%+156.66%",
+                "71.45%+166.70%",
+                "76.40%+178.25%",
+                "83.29%+194.33%",
+                "90.17%+210.40%",
+                "97.06%+226.47%",
+                "104.38%+243.55%",
+                "112.99%+263.64%",
+                "121.60%+283.73%",
+                "130.21%+303.82%",
+                "138.82%+323.91%",
+                "147.43%+344.00%",
+                "156.04%+364.09%",
+                "164.65%+384.18%",
+                "173.26%+404.27%",
+                "181.87%+424.36%",
+                "190.48%+444.45%"
+              ]
+            ],
+            "Format": null
+          },
+          "20": {
+            "Name": "強化攻撃・管楽・ヘカテーダメージ",
+            "Param": [
+              [
+                "49.88%+116.38%",
+                "53.97%+125.92%",
+                "58.06%+135.47%",
+                "63.79%+148.83%",
+                "67.87%+158.37%",
+                "72.58%+169.34%",
+                "79.12%+184.61%",
+                "85.67%+199.88%",
+                "92.21%+215.15%",
+                "99.16%+231.37%",
+                "107.34%+250.46%",
+                "115.52%+269.54%",
+                "123.70%+288.63%",
+                "131.88%+307.71%",
+                "140.06%+326.80%",
+                "148.24%+345.88%",
+                "156.42%+364.97%",
+                "164.60%+384.05%",
+                "172.78%+403.14%",
+                "180.96%+422.23%"
+              ]
+            ],
+            "Format": null
+          },
+          "21": {
+            "Name": "強化攻撃・カデンツァ・ヘカテーダメージ",
+            "Param": [
+              [
+                "52.50%+122.50%",
+                "56.81%+132.55%",
+                "61.11%+142.59%",
+                "67.14%+156.66%",
+                "71.45%+166.70%",
+                "76.40%+178.25%",
+                "83.29%+194.33%",
+                "90.17%+210.40%",
+                "97.06%+226.47%",
+                "104.38%+243.55%",
+                "112.99%+263.64%",
+                "121.60%+283.73%",
+                "130.21%+303.82%",
+                "138.82%+323.91%",
+                "147.43%+344.00%",
+                "156.04%+364.09%",
+                "164.65%+384.18%",
+                "173.26%+404.27%",
+                "181.87%+424.36%",
+                "190.48%+444.45%"
+              ]
+            ],
+            "Format": null
+          },
+          "22": {
+            "Name": "終幕ダメージ",
+            "Param": [
+              [
+                "234.00%",
+                "253.19%",
+                "272.38%",
+                "299.24%",
+                "318.43%",
+                "340.50%",
+                "371.20%",
+                "401.90%",
+                "432.60%",
+                "465.22%",
+                "503.60%",
+                "541.97%",
+                "580.35%",
+                "618.72%",
+                "657.10%",
+                "695.48%",
+                "733.85%",
+                "772.23%",
+                "810.60%",
+                "848.98%"
+              ]
+            ],
+            "Format": null
+          },
+          "23": {
+            "Name": "忘れられし深淵のワルツ協奏エネルギー獲得",
+            "Param": [
+              [
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20"
+              ]
+            ],
+            "Format": null
+          },
+          "24": {
+            "Name": "忘れられし深淵のワルツ持続時間",
+            "Param": [
+              [
+                "24",
+                "24",
+                "24",
+                "24",
+                "24",
+                "24",
+                "24",
+                "24",
+                "24",
+                "24",
+                "24",
+                "24",
+                "24",
+                "24",
+                "24",
+                "24",
+                "24",
+                "24",
+                "24",
+                "24"
+              ]
+            ],
+            "Format": "{0}秒"
+          }
+        },
+        "Consume": {
+          "1": [],
+          "2": [
+            {
+              "Key": 43020031,
+              "Value": 2
+            },
+            {
+              "Key": 41100041,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 1500
+            }
+          ],
+          "3": [
+            {
+              "Key": 43020031,
+              "Value": 3
+            },
+            {
+              "Key": 41100041,
+              "Value": 3
+            },
+            {
+              "Key": 2,
+              "Value": 2000
+            }
+          ],
+          "4": [
+            {
+              "Key": 43020032,
+              "Value": 2
+            },
+            {
+              "Key": 41100042,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 4500
+            }
+          ],
+          "5": [
+            {
+              "Key": 43020032,
+              "Value": 3
+            },
+            {
+              "Key": 41100042,
+              "Value": 3
+            },
+            {
+              "Key": 2,
+              "Value": 6000
+            }
+          ],
+          "6": [
+            {
+              "Key": 43020033,
+              "Value": 3
+            },
+            {
+              "Key": 41100043,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 16000
+            }
+          ],
+          "7": [
+            {
+              "Key": 43020033,
+              "Value": 5
+            },
+            {
+              "Key": 41100043,
+              "Value": 3
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 30000
+            }
+          ],
+          "8": [
+            {
+              "Key": 43020034,
+              "Value": 2
+            },
+            {
+              "Key": 41100044,
+              "Value": 2
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 50000
+            }
+          ],
+          "9": [
+            {
+              "Key": 43020034,
+              "Value": 3
+            },
+            {
+              "Key": 41100044,
+              "Value": 3
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 70000
+            }
+          ],
+          "10": [
+            {
+              "Key": 43020034,
+              "Value": 6
+            },
+            {
+              "Key": 41100044,
+              "Value": 4
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 100000
+            }
+          ]
+        },
+        "Damage": {
+          "1608301111": {
+            "Element": 6,
+            "RelatedProperty": "攻撃力",
+            "Type": 5,
+            "RateLv": [
+              5250,
+              5681,
+              6111,
+              6714,
+              7145,
+              7640,
+              8329,
+              9017,
+              9706,
+              10438,
+              11299,
+              12160,
+              13021,
+              13882,
+              14743,
+              15604,
+              16465,
+              17326,
+              18187,
+              19048
+            ],
+            "Energy": 0,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 3000
+          },
+          "1608301112": {
+            "Element": 6,
+            "RelatedProperty": "攻撃力",
+            "Type": 5,
+            "RateLv": [
+              12250,
+              13255,
+              14259,
+              15666,
+              16670,
+              17825,
+              19433,
+              21040,
+              22647,
+              24355,
+              26364,
+              28373,
+              30382,
+              32391,
+              34400,
+              36409,
+              38418,
+              40427,
+              42436,
+              44445
+            ],
+            "Energy": 0,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 7000
+          },
+          "1608301113": {
+            "Element": 6,
+            "RelatedProperty": "攻撃力",
+            "Type": 5,
+            "RateLv": [
+              5250,
+              5681,
+              6111,
+              6714,
+              7145,
+              7640,
+              8329,
+              9017,
+              9706,
+              10438,
+              11299,
+              12160,
+              13021,
+              13882,
+              14743,
+              15604,
+              16465,
+              17326,
+              18187,
+              19048
+            ],
+            "Energy": 0,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 3000
+          },
+          "1608301114": {
+            "Element": 6,
+            "RelatedProperty": "攻撃力",
+            "Type": 5,
+            "RateLv": [
+              12250,
+              13255,
+              14259,
+              15666,
+              16670,
+              17825,
+              19433,
+              21040,
+              22647,
+              24355,
+              26364,
+              28373,
+              30382,
+              32391,
+              34400,
+              36409,
+              38418,
+              40427,
+              42436,
+              44445
+            ],
+            "Energy": 0,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 7000
+          },
+          "1608301121": {
+            "Element": 6,
+            "RelatedProperty": "攻撃力",
+            "Type": 5,
+            "RateLv": [
+              4988,
+              5397,
+              5806,
+              6379,
+              6787,
+              7258,
+              7912,
+              8567,
+              9221,
+              9916,
+              10734,
+              11552,
+              12370,
+              13188,
+              14006,
+              14824,
+              15642,
+              16460,
+              17278,
+              18096
+            ],
+            "Energy": 0,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 3000
+          },
+          "1608301122": {
+            "Element": 6,
+            "RelatedProperty": "攻撃力",
+            "Type": 5,
+            "RateLv": [
+              11638,
+              12592,
+              13547,
+              14883,
+              15837,
+              16934,
+              18461,
+              19988,
+              21515,
+              23137,
+              25046,
+              26954,
+              28863,
+              30771,
+              32680,
+              34588,
+              36497,
+              38405,
+              40314,
+              42223
+            ],
+            "Energy": 0,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 7000
+          },
+          "1608301123": {
+            "Element": 6,
+            "RelatedProperty": "攻撃力",
+            "Type": 5,
+            "RateLv": [
+              4988,
+              5397,
+              5806,
+              6379,
+              6787,
+              7258,
+              7912,
+              8567,
+              9221,
+              9916,
+              10734,
+              11552,
+              12370,
+              13188,
+              14006,
+              14824,
+              15642,
+              16460,
+              17278,
+              18096
+            ],
+            "Energy": 0,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 3000
+          },
+          "1608301001": {
+            "Element": 6,
+            "RelatedProperty": "攻撃力",
+            "Type": 5,
+            "RateLv": [
+              1400,
+              1515,
+              1630,
+              1791,
+              1906,
+              2038,
+              2221,
+              2405,
+              2589,
+              2784,
+              3013,
+              3243,
+              3473,
+              3702,
+              3932,
+              4161,
+              4391,
+              4621,
+              4850,
+              5080
+            ],
+            "Energy": 0,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 5000
+          },
+          "1608301002": {
+            "Element": 6,
+            "RelatedProperty": "攻撃力",
+            "Type": 5,
+            "RateLv": [
+              700,
+              758,
+              815,
+              896,
+              953,
+              1019,
+              1111,
+              1203,
+              1295,
+              1392,
+              1507,
+              1622,
+              1737,
+              1851,
+              1966,
+              2081,
+              2196,
+              2311,
+              2425,
+              2540
+            ],
+            "Energy": 0,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 2500
+          },
+          "1608301003": {
+            "Element": 6,
+            "RelatedProperty": "攻撃力",
+            "Type": 5,
+            "RateLv": [
+              700,
+              758,
+              815,
+              896,
+              953,
+              1019,
+              1111,
+              1203,
+              1295,
+              1392,
+              1507,
+              1622,
+              1737,
+              1851,
+              1966,
+              2081,
+              2196,
+              2311,
+              2425,
+              2540
+            ],
+            "Energy": 0,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 2500
+          },
+          "1608301131": {
+            "Element": 6,
+            "RelatedProperty": "攻撃力",
+            "Type": 5,
+            "RateLv": [
+              5250,
+              5681,
+              6111,
+              6714,
+              7145,
+              7640,
+              8329,
+              9017,
+              9706,
+              10438,
+              11299,
+              12160,
+              13021,
+              13882,
+              14743,
+              15604,
+              16465,
+              17326,
+              18187,
+              19048
+            ],
+            "Energy": 0,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 3000
+          },
+          "1608301132": {
+            "Element": 6,
+            "RelatedProperty": "攻撃力",
+            "Type": 5,
+            "RateLv": [
+              12250,
+              13255,
+              14259,
+              15666,
+              16670,
+              17825,
+              19433,
+              21040,
+              22647,
+              24355,
+              26364,
+              28373,
+              30382,
+              32391,
+              34400,
+              36409,
+              38418,
+              40427,
+              42436,
+              44445
+            ],
+            "Energy": 0,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 7000
+          },
+          "1608301134": {
+            "Element": 6,
+            "RelatedProperty": "攻撃力",
+            "Type": 5,
+            "RateLv": [
+              5250,
+              5681,
+              6111,
+              6714,
+              7145,
+              7640,
+              8329,
+              9017,
+              9706,
+              10438,
+              11299,
+              12160,
+              13021,
+              13882,
+              14743,
+              15604,
+              16465,
+              17326,
+              18187,
+              19048
+            ],
+            "Energy": 0,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 3000
+          },
+          "1608301135": {
+            "Element": 6,
+            "RelatedProperty": "攻撃力",
+            "Type": 5,
+            "RateLv": [
+              12250,
+              13255,
+              14259,
+              15666,
+              16670,
+              17825,
+              19433,
+              21040,
+              22647,
+              24355,
+              26364,
+              28373,
+              30382,
+              32391,
+              34400,
+              36409,
+              38418,
+              40427,
+              42436,
+              44445
+            ],
+            "Energy": 0,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 7000
+          },
+          "1608361111": {
+            "Element": 6,
+            "RelatedProperty": "攻撃力",
+            "Type": 5,
+            "RateLv": [
+              6510,
+              7044,
+              7578,
+              8325,
+              8859,
+              9473,
+              10327,
+              11181,
+              12036,
+              12943,
+              14011,
+              15078,
+              16146,
+              17214,
+              18281,
+              19349,
+              20417,
+              21484,
+              22552,
+              23619
+            ],
+            "Energy": 0,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 3000
+          },
+          "1608361112": {
+            "Element": 6,
+            "RelatedProperty": "攻撃力",
+            "Type": 5,
+            "RateLv": [
+              15190,
+              16436,
+              17682,
+              19425,
+              20671,
+              22103,
+              24096,
+              26089,
+              28082,
+              30200,
+              32691,
+              35182,
+              37673,
+              40164,
+              42656,
+              45147,
+              47638,
+              50129,
+              52620,
+              55111
+            ],
+            "Energy": 0,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 7000
+          },
+          "1608361113": {
+            "Element": 6,
+            "RelatedProperty": "攻撃力",
+            "Type": 5,
+            "RateLv": [
+              6510,
+              7044,
+              7578,
+              8325,
+              8859,
+              9473,
+              10327,
+              11181,
+              12036,
+              12943,
+              14011,
+              15078,
+              16146,
+              17214,
+              18281,
+              19349,
+              20417,
+              21484,
+              22552,
+              23619
+            ],
+            "Energy": 0,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 3000
+          },
+          "1608361114": {
+            "Element": 6,
+            "RelatedProperty": "攻撃力",
+            "Type": 5,
+            "RateLv": [
+              15190,
+              16436,
+              17682,
+              19425,
+              20671,
+              22103,
+              24096,
+              26089,
+              28082,
+              30200,
+              32691,
+              35182,
+              37673,
+              40164,
+              42656,
+              45147,
+              47638,
+              50129,
+              52620,
+              55111
+            ],
+            "Energy": 0,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 7000
+          },
+          "1608361121": {
+            "Element": 6,
+            "RelatedProperty": "攻撃力",
+            "Type": 5,
+            "RateLv": [
+              6185,
+              6692,
+              7199,
+              7909,
+              8416,
+              9000,
+              9811,
+              10622,
+              11434,
+              12296,
+              13310,
+              14324,
+              15339,
+              16353,
+              17367,
+              18381,
+              19396,
+              20410,
+              21424,
+              22438
+            ],
+            "Energy": 0,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 3000
+          },
+          "1608361122": {
+            "Element": 6,
+            "RelatedProperty": "攻撃力",
+            "Type": 5,
+            "RateLv": [
+              14431,
+              15614,
+              16798,
+              18454,
+              19638,
+              20998,
+              22892,
+              24785,
+              26678,
+              28690,
+              31056,
+              33423,
+              35790,
+              38156,
+              40523,
+              42889,
+              45256,
+              47623,
+              49989,
+              52356
+            ],
+            "Energy": 0,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 7000
+          },
+          "1608361123": {
+            "Element": 6,
+            "RelatedProperty": "攻撃力",
+            "Type": 5,
+            "RateLv": [
+              6185,
+              6692,
+              7199,
+              7909,
+              8416,
+              9000,
+              9811,
+              10622,
+              11434,
+              12296,
+              13310,
+              14324,
+              15339,
+              16353,
+              17367,
+              18381,
+              19396,
+              20410,
+              21424,
+              22438
+            ],
+            "Energy": 0,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 3000
+          },
+          "1608361124": {
+            "Element": 6,
+            "RelatedProperty": "攻撃力",
+            "Type": 5,
+            "RateLv": [
+              14431,
+              15614,
+              16798,
+              18454,
+              19638,
+              20998,
+              22892,
+              24785,
+              26678,
+              28690,
+              31056,
+              33423,
+              35790,
+              38156,
+              40523,
+              42889,
+              45256,
+              47623,
+              49989,
+              52356
+            ],
+            "Energy": 0,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 7000
+          },
+          "1608361131": {
+            "Element": 6,
+            "RelatedProperty": "攻撃力",
+            "Type": 5,
+            "RateLv": [
+              6510,
+              7044,
+              7578,
+              8325,
+              8859,
+              9473,
+              10327,
+              11181,
+              12036,
+              12943,
+              14011,
+              15078,
+              16146,
+              17214,
+              18281,
+              19349,
+              20417,
+              21484,
+              22552,
+              23619
+            ],
+            "Energy": 0,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 3000
+          },
+          "1608361132": {
+            "Element": 6,
+            "RelatedProperty": "攻撃力",
+            "Type": 5,
+            "RateLv": [
+              15190,
+              16436,
+              17682,
+              19425,
+              20671,
+              22103,
+              24096,
+              26089,
+              28082,
+              30200,
+              32691,
+              35182,
+              37673,
+              40164,
+              42656,
+              45147,
+              47638,
+              50129,
+              52620,
+              55111
+            ],
+            "Energy": 0,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 7000
+          },
+          "1608361134": {
+            "Element": 6,
+            "RelatedProperty": "攻撃力",
+            "Type": 5,
+            "RateLv": [
+              6510,
+              7044,
+              7578,
+              8325,
+              8859,
+              9473,
+              10327,
+              11181,
+              12036,
+              12943,
+              14011,
+              15078,
+              16146,
+              17214,
+              18281,
+              19349,
+              20417,
+              21484,
+              22552,
+              23619
+            ],
+            "Energy": 0,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 3000
+          },
+          "1608361135": {
+            "Element": 6,
+            "RelatedProperty": "攻撃力",
+            "Type": 5,
+            "RateLv": [
+              15190,
+              16436,
+              17682,
+              19425,
+              20671,
+              22103,
+              24096,
+              26089,
+              28082,
+              30200,
+              32691,
+              35182,
+              37673,
+              40164,
+              42656,
+              45147,
+              47638,
+              50129,
+              52620,
+              55111
+            ],
+            "Energy": 0,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 7000
+          },
+          "1608361001": {
+            "Element": 6,
+            "RelatedProperty": "攻撃力",
+            "Type": 5,
+            "RateLv": [
+              1400,
+              1515,
+              1630,
+              1791,
+              1906,
+              2038,
+              2221,
+              2405,
+              2589,
+              2784,
+              3013,
+              3243,
+              3473,
+              3702,
+              3932,
+              4161,
+              4391,
+              4621,
+              4850,
+              5080
+            ],
+            "Energy": 0,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 5000
+          },
+          "1608361002": {
+            "Element": 6,
+            "RelatedProperty": "攻撃力",
+            "Type": 5,
+            "RateLv": [
+              700,
+              758,
+              815,
+              896,
+              953,
+              1019,
+              1111,
+              1203,
+              1295,
+              1392,
+              1507,
+              1622,
+              1737,
+              1851,
+              1966,
+              2081,
+              2196,
+              2311,
+              2425,
+              2540
+            ],
+            "Energy": 0,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 2500
+          },
+          "1608361003": {
+            "Element": 6,
+            "RelatedProperty": "攻撃力",
+            "Type": 5,
+            "RateLv": [
+              700,
+              758,
+              815,
+              896,
+              953,
+              1019,
+              1111,
+              1203,
+              1295,
+              1392,
+              1507,
+              1622,
+              1737,
+              1851,
+              1966,
+              2081,
+              2196,
+              2311,
+              2425,
+              2540
+            ],
+            "Energy": 0,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 2500
+          },
+          "1608302006": {
+            "Element": 6,
+            "RelatedProperty": "攻撃力",
+            "Type": 2,
+            "RateLv": [
+              23400,
+              25319,
+              27238,
+              29924,
+              31843,
+              34050,
+              37120,
+              40190,
+              43260,
+              46522,
+              50360,
+              54197,
+              58035,
+              61872,
+              65710,
+              69548,
+              73385,
+              77223,
+              81060,
+              84898
+            ],
+            "Energy": 293,
+            "ElementPower": 585,
+            "HardnessLv": 10000,
+            "ToughLv": 11700
+          },
+          "1608301124": {
+            "Element": 6,
+            "RelatedProperty": "攻撃力",
+            "Type": 5,
+            "RateLv": [
+              11638,
+              12592,
+              13547,
+              14883,
+              15837,
+              16934,
+              18461,
+              19988,
+              21515,
+              23137,
+              25046,
+              26954,
+              28863,
+              30771,
+              32680,
+              34588,
+              36497,
+              38405,
+              40314,
+              42223
+            ],
+            "Energy": 0,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 7000
+          }
+        }
+      }
+    },
+    "4": {
+      "ParentNodes": [
+        7
+      ],
+      "NodeType": 3,
+      "Coordinate": 2,
+      "UnLockCondition": 0,
+      "Consume": [
+        {
+          "Key": 43020032,
+          "Value": 2
+        },
+        {
+          "Key": 41100022,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 3900
+        }
+      ],
+      "Skill": {
+        "Name": "変化記号",
+        "Desc": "<color=Highlight>音骸スキル</color>を発動時、中断耐性がアップ、かつ被ダメージが{0}軽減され、{1}秒間持続。\n<color=Highlight>死を告げる組曲</color>、<color=Highlight>永遠なる命の組曲</color>、<color=Highlight>音骸スキル</color>を発動時、次に獲得する<color=Highlight>【<te href=160801>楽の音</te>】</color>は<color=Highlight>【楽の音・カデンツァ】</color>に転換される。",
+        "Param": [
+          "30%",
+          "15"
+        ],
+        "SimpleDesc": "<color=Highlight>音骸スキル</color>を発動時、中断耐性がアップ、かつ被ダメージが軽減される。\n<color=Highlight>変奏スキル</color>、<color=Highlight>強化変奏スキル</color>、<color=Highlight>音骸スキル</color>を発動時、次に獲得する<color=Highlight>【特殊エネルギー】</color>は<color=Highlight>【特殊エネルギー・彩色】</color>に変わる。",
+        "SimpleParam": [
+          "30%",
+          "15"
+        ],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconFuluoluo/SP_IconFuluoluoD1.SP_IconFuluoluoD1",
+        "Type": "固有スキル",
+        "Level": {},
+        "Consume": {
+          "1": [
+            {
+              "Key": 43020032,
+              "Value": 3
+            },
+            {
+              "Key": 41100042,
+              "Value": 3
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 10000
+            }
+          ]
+        },
+        "Damage": {}
+      }
+    },
+    "5": {
+      "ParentNodes": [
+        4
+      ],
+      "NodeType": 3,
+      "Coordinate": 3,
+      "UnLockCondition": 0,
+      "Consume": [
+        {
+          "Key": 43020032,
+          "Value": 2
+        },
+        {
+          "Key": 41100022,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 3900
+        }
+      ],
+      "Skill": {
+        "Name": "オクテット",
+        "Desc": "戦闘状態に入ると<color=Highlight><te href=160803>余韻</te></color>を{0}スタック獲得する。戦闘離脱状態に入ってから{1}秒間はこの効果を発動できない。\n所持する<color=Highlight>余韻</color>{2}スタックにつき、クリティカルダメージが{3}アップ。\nスタック数が上限に達している状態で、さらに<color=Highlight>余韻</color>を獲得した場合、超過した<color=Highlight>余韻</color>1スタックにつき、フローヴァのクリティカルダメージが{4}アップ、この方法で最大{5}まで。<color=Highlight>余韻</color>のスタックがリセットされると、この方法によるクリティカルダメージアップ効果も同時に解除される。",
+        "Param": [
+          "10",
+          "4",
+          "1",
+          "2.5%",
+          "1%",
+          "100%"
+        ],
+        "SimpleDesc": "<color=Highlight>戦闘状態</color>に入ると<color=Highlight>余韻</color>を獲得する。\n<color=Highlight>余韻</color>があると、クリティカルダメージがアップする。\n<color=Highlight>余韻</color>のスタック数が上限に達している状態で、さらに<color=Highlight>余韻</color>を獲得した場合、クリティカルダメージが小幅アップ。",
+        "SimpleParam": [
+          "10",
+          "4",
+          "1",
+          "2.5%",
+          "1%",
+          "100%"
+        ],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconFuluoluo/SP_IconFuluoluoD2.SP_IconFuluoluoD2",
+        "Type": "固有スキル",
+        "Level": {},
+        "Consume": {
+          "1": [
+            {
+              "Key": 43020033,
+              "Value": 3
+            },
+            {
+              "Key": 41100043,
+              "Value": 3
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 20000
+            }
+          ]
+        },
+        "Damage": {}
+      }
+    },
+    "6": {
+      "ParentNodes": [],
+      "NodeType": 2,
+      "Coordinate": 4,
+      "UnLockCondition": 0,
+      "Consume": [
+        {
+          "Key": 43020032,
+          "Value": 2
+        },
+        {
+          "Key": 41100022,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 3900
+        }
+      ],
+      "Skill": {
+        "Name": "死を告げる組曲",
+        "Desc": "<size=40><color=Title>死を告げる組曲</color></size>\n目標を攻撃し、<color=Dark>消滅ダメージ</color>を与える。\nこのスキルを発動後、一定時間内に<color=Highlight>通常攻撃</color>を一回押しすると、<color=Highlight>通常攻撃3段目</color>を発動する。\n<size=10></size>\n<size=40><color=Title>永遠なる命の組曲</color></size>\n<color=Highlight><te href=160804>コンダクター状態</te></color>に入ると、次回の<color=Highlight>死を告げる組曲</color>が<color=Highlight>永遠なる命の組曲</color>に代わる。期間中<color=Highlight>終幕</color>を発動すると、この効果は無効となる。\n<color=Highlight>永遠なる命の組曲</color>を発動後、目標を停滞させ、<color=Dark>消滅ダメージ</color>を与える。このダメージは<color=Highlight>共鳴スキルダメージ</color>と見なされる。\nこのスキルを発動後、一定時間内に<color=Highlight>通常攻撃</color>を一回押すと、<color=Highlight>通常攻撃3段目</color>を発動する。",
+        "Param": [],
+        "SimpleDesc": "<size=40><color=Title>変奏スキル</color></size>\n<color=Dark>消滅ダメージ</color>を与え、<color=Highlight>通常攻撃3段目</color>に繋げることができる。\n<size=10></size>\n<size=40><color=Title>強化変奏スキル</color></size>\n<color=Highlight>強化状態</color>に入ると、次回の<color=Highlight>変奏スキル</color>が<color=Highlight>強化変奏スキル</color>に代わり、<color=Dark>消滅ダメージ</color>を与える。このダメージは<color=Highlight>共鳴スキルダメージ</color>と見なされる。\n<color=Highlight>強化変奏スキル</color>を発動後、<color=Highlight>通常攻撃3段目</color>に繋げることができる。",
+        "SimpleParam": [],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconFuluoluo/SP_IconFuluoluoQTE.SP_IconFuluoluoQTE",
+        "Type": "変奏スキル",
+        "Level": {
+          "25": {
+            "Name": "死を告げる組曲ダメージ",
+            "Param": [
+              [
+                "40.55%+60.82%",
+                "43.87%+65.81%",
+                "47.20%+70.79%",
+                "51.85%+77.78%",
+                "55.18%+82.76%",
+                "59.00%+88.50%",
+                "64.32%+96.48%",
+                "69.64%+104.46%",
+                "74.96%+112.44%",
+                "80.61%+120.91%",
+                "87.26%+130.89%",
+                "93.91%+140.86%",
+                "100.56%+150.83%",
+                "107.21%+160.81%",
+                "113.86%+170.78%",
+                "120.51%+180.76%",
+                "127.16%+190.73%",
+                "133.80%+200.70%",
+                "140.45%+210.68%",
+                "147.10%+220.65%"
+              ]
+            ],
+            "Format": null
+          },
+          "26": {
+            "Name": "永遠なる命の組曲ダメージ",
+            "Param": [
+              [
+                "300.00%",
+                "324.60%",
+                "349.20%",
+                "383.64%",
+                "408.24%",
+                "436.53%",
+                "475.89%",
+                "515.25%",
+                "554.61%",
+                "596.43%",
+                "645.63%",
+                "694.83%",
+                "744.03%",
+                "793.23%",
+                "842.43%",
+                "891.63%",
+                "940.83%",
+                "990.03%",
+                "1039.23%",
+                "1088.43%"
+              ]
+            ],
+            "Format": null
+          },
+          "27": {
+            "Name": "死を告げる組曲協奏エネルギー獲得",
+            "Param": [
+              [
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10"
+              ]
+            ],
+            "Format": null
+          },
+          "28": {
+            "Name": "永遠なる命の組曲協奏エネルギー獲得",
+            "Param": [
+              [
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10"
+              ]
+            ],
+            "Format": null
+          }
+        },
+        "Consume": {
+          "1": [],
+          "2": [
+            {
+              "Key": 43020031,
+              "Value": 2
+            },
+            {
+              "Key": 41100041,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 1500
+            }
+          ],
+          "3": [
+            {
+              "Key": 43020031,
+              "Value": 3
+            },
+            {
+              "Key": 41100041,
+              "Value": 3
+            },
+            {
+              "Key": 2,
+              "Value": 2000
+            }
+          ],
+          "4": [
+            {
+              "Key": 43020032,
+              "Value": 2
+            },
+            {
+              "Key": 41100042,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 4500
+            }
+          ],
+          "5": [
+            {
+              "Key": 43020032,
+              "Value": 3
+            },
+            {
+              "Key": 41100042,
+              "Value": 3
+            },
+            {
+              "Key": 2,
+              "Value": 6000
+            }
+          ],
+          "6": [
+            {
+              "Key": 43020033,
+              "Value": 3
+            },
+            {
+              "Key": 41100043,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 16000
+            }
+          ],
+          "7": [
+            {
+              "Key": 43020033,
+              "Value": 5
+            },
+            {
+              "Key": 41100043,
+              "Value": 3
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 30000
+            }
+          ],
+          "8": [
+            {
+              "Key": 43020034,
+              "Value": 2
+            },
+            {
+              "Key": 41100044,
+              "Value": 2
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 50000
+            }
+          ],
+          "9": [
+            {
+              "Key": 43020034,
+              "Value": 3
+            },
+            {
+              "Key": 41100044,
+              "Value": 3
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 70000
+            }
+          ],
+          "10": [
+            {
+              "Key": 43020034,
+              "Value": 6
+            },
+            {
+              "Key": 41100044,
+              "Value": 4
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 100000
+            }
+          ]
+        },
+        "Damage": {
+          "1608302002": {
+            "Element": 6,
+            "RelatedProperty": "攻撃力",
+            "Type": 4,
+            "RateLv": [
+              30000,
+              32460,
+              34920,
+              38364,
+              40824,
+              43653,
+              47589,
+              51525,
+              55461,
+              59643,
+              64563,
+              69483,
+              74403,
+              79323,
+              84243,
+              89163,
+              94083,
+              99003,
+              103923,
+              108843
+            ],
+            "Energy": 1000,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 12000
+          },
+          "1608201001": {
+            "Element": 6,
+            "RelatedProperty": "攻撃力",
+            "Type": 3,
+            "RateLv": [
+              4055,
+              4387,
+              4720,
+              5185,
+              5518,
+              5900,
+              6432,
+              6964,
+              7496,
+              8061,
+              8726,
+              9391,
+              10056,
+              10721,
+              11386,
+              12051,
+              12716,
+              13380,
+              14045,
+              14710
+            ],
+            "Energy": 400,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 5068
+          },
+          "1608201002": {
+            "Element": 6,
+            "RelatedProperty": "攻撃力",
+            "Type": 3,
+            "RateLv": [
+              6082,
+              6581,
+              7079,
+              7778,
+              8276,
+              8850,
+              9648,
+              10446,
+              11244,
+              12091,
+              13089,
+              14086,
+              15083,
+              16081,
+              17078,
+              18076,
+              19073,
+              20070,
+              21068,
+              22065
+            ],
+            "Energy": 600,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 7602
+          },
+          "1608332002": {
+            "Element": 6,
+            "RelatedProperty": "攻撃力",
+            "Type": 4,
+            "RateLv": [
+              30000,
+              32460,
+              34920,
+              38364,
+              40824,
+              43653,
+              47589,
+              51525,
+              55461,
+              59643,
+              64563,
+              69483,
+              74403,
+              79323,
+              84243,
+              89163,
+              94083,
+              99003,
+              103923,
+              108843
+            ],
+            "Energy": 1000,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 12000
+          }
+        }
+      }
+    },
+    "7": {
+      "ParentNodes": [],
+      "NodeType": 1,
+      "Coordinate": 1,
+      "UnLockCondition": 0,
+      "Consume": [
+        {
+          "Key": 43020032,
+          "Value": 2
+        },
+        {
+          "Key": 41100022,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 3900
+        }
+      ],
+      "Skill": {
+        "Name": "新世界へ至るラプソディー",
+        "Desc": "<size=40><color=Title>通常攻撃・滅びと終焉のカンタータ</color></size>\n<color=Highlight>幾重世界</color>状態中、地面で<color=Highlight>通常攻撃</color>を一回押しすると、<color=Highlight>滅びと終焉のカンタータ</color>を発動し、命中した目標を停滞させ、<color=Dark>消滅ダメージ</color>を与える。このダメージは<color=Highlight>共鳴スキルダメージ</color>と見なされる。\n発動時、<color=Highlight>幾重世界</color>状態を終了する。\n<size=10></size>\n<size=40><color=Title>共鳴スキル・果てなき夢語り</color></size>\n<color=Highlight>幾重世界</color>状態中、地面で<color=Highlight>共鳴スキル</color>を一回押しすると、<color=Highlight>果てなき夢語り</color>を発動し、<color=Dark>消滅ダメージ</color>を与える。このダメージは<color=Highlight>共鳴スキルダメージ</color>と見なされる。\n発動時、<color=Highlight>幾重世界</color>状態を終了する。\n<size=10></size>\n<size=40><color=Title>余韻獲得方法</color></size>\n余韻は最大{0}スタック。\nフローヴァがチーム内の登場キャラでない場合、<color=Highlight>強化攻撃・弦楽・ヘカテー</color>、<color=Highlight>強化攻撃・管楽・ヘカテー</color>、<color=Highlight>強化攻撃・カデンツァ・ヘカテー</color>を発動時、余韻を{1}スタック獲得できる。\nフローヴァが戦闘離脱状態中は、{2}秒ごとに全ての余韻スタックがリセットされる。\n<size=10></size>\n<size=40><color=Title>【楽の音】獲得方法</color></size>\n<color=Highlight>【楽の音】</color>は最大6Pt。上限に達している状態で、さらに<color=Highlight>【楽の音】</color>を獲得した場合、全ての<color=Highlight>【楽の音】</color>が左に1スロット移動し、一番左の<color=Highlight>【楽の音・弦楽】</color>、<color=Highlight>【楽の音・管楽】</color>は取り除かれる。\n<color=Highlight>通常攻撃3段目</color>、<color=Highlight>滅びと終焉のカンタータ</color>が目標に命中時、<color=Highlight>【楽の音・弦楽】</color>を1Pt獲得できる。\n共鳴スキル<color=Highlight>泡沫の夢語り</color>、共鳴スキル<color=Highlight>果てなき夢語り</color>が目標に命中時、<color=Highlight>【楽の音・管楽】</color>を1Pt獲得できる。\n<color=Highlight>固有スキル・変化記号</color>を有効にした後、死を告げる組曲、永遠なる命の組曲、音骸スキルを発動すると、次に獲得する楽の音が<color=Highlight>【楽の音・カデンツァ】</color>に転換される。\n<color=Highlight>【基音】</color>状態中、<color=Highlight>【楽の音】</color>は獲得できない。",
+        "Param": [
+          "24",
+          "1",
+          "30"
+        ],
+        "SimpleDesc": "<size=40><color=Title>特殊エネルギーの仕組み</color></size>\n<color=Highlight>通常攻撃3段目</color>または<color=Highlight>共鳴スキル</color>を発動時、<color=Highlight>強化通常攻撃</color>または<color=Highlight>強化共鳴スキル</color>に繋げることができ、<color=Dark>消滅ダメージ</color>を与える。このダメージは<color=Highlight>共鳴スキルダメージ</color>と見なされる。\n<color=Highlight>通常攻撃3段目</color>、<color=Highlight>強化通常攻撃</color>は<color=Highlight>【特殊エネルギー・赤】</color>を獲得できる。\n<color=Highlight>共鳴スキル</color>、<color=Highlight>強化共鳴スキル</color>は<color=Highlight>【特殊エネルギー・紫】</color>を獲得できる。\n<color=Highlight>強化状態</color>中、現在の<color=Highlight>【特殊エネルギー】</color>の色に応じて、<color=Highlight>強化攻撃・ヘカテー</color>は異なる効果を獲得する。\n· <color=Highlight>【特殊エネルギー・赤】</color>：<color=Highlight>強化攻撃・ヘカテー</color>は目標を停滞させる。\n· <color=Highlight>【特殊エネルギー・紫】</color>：<color=Highlight>強化攻撃・ヘカテー</color>は目標を牽引する。\n· <color=Highlight>【特殊エネルギー・彩色】</color>：<color=Highlight>強化攻撃・ヘカテー</color>は目標を停滞させ牽引する。",
+        "SimpleParam": [
+          "24",
+          "1",
+          "30"
+        ],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconFuluoluo/SP_IconFuluoluoY.SP_IconFuluoluoY",
+        "Type": "共鳴回路",
+        "Level": {
+          "29": {
+            "Name": "滅びと終焉のカンタータダメージ",
+            "Param": [
+              [
+                "19.05%*4+59.27%*3",
+                "20.62%*4+64.13%*3",
+                "22.18%*4+68.99%*3",
+                "24.37%*4+75.80%*3",
+                "25.93%*4+80.66%*3",
+                "27.72%*4+86.24%*3",
+                "30.22%*4+94.02%*3",
+                "32.72%*4+101.80%*3",
+                "35.22%*4+109.57%*3",
+                "37.88%*4+117.83%*3",
+                "41.00%*4+127.55%*3",
+                "44.13%*4+137.27%*3",
+                "47.25%*4+146.99%*3",
+                "50.38%*4+156.71%*3",
+                "53.50%*4+166.43%*3",
+                "56.62%*4+176.15%*3",
+                "59.75%*4+185.87%*3",
+                "62.87%*4+195.59%*3",
+                "66.00%*4+205.31%*3",
+                "69.12%*4+215.03%*3"
+              ]
+            ],
+            "Format": null
+          },
+          "30": {
+            "Name": "果てなき夢語りダメージ",
+            "Param": [
+              [
+                "11.67%*4+23.34%+163.38%",
+                "12.63%*4+25.26%+176.78%",
+                "13.59%*4+27.17%+190.18%",
+                "14.93%*4+29.85%+208.94%",
+                "15.89%*4+31.77%+222.33%",
+                "16.99%*4+33.97%+237.74%",
+                "18.52%*4+37.03%+259.17%",
+                "20.05%*4+40.09%+280.61%",
+                "21.58%*4+43.15%+302.05%",
+                "23.21%*4+46.41%+324.82%",
+                "25.12%*4+50.24%+351.62%",
+                "27.03%*4+54.06%+378.41%",
+                "28.95%*4+57.89%+405.20%",
+                "30.86%*4+61.72%+432.00%",
+                "32.78%*4+65.55%+458.79%",
+                "34.69%*4+69.37%+485.59%",
+                "36.60%*4+73.20%+512.38%",
+                "38.52%*4+77.03%+539.18%",
+                "40.43%*4+80.86%+565.97%",
+                "42.34%*4+84.68%+592.76%"
+              ]
+            ],
+            "Format": null
+          }
+        },
+        "Consume": {
+          "1": [],
+          "2": [
+            {
+              "Key": 43020031,
+              "Value": 2
+            },
+            {
+              "Key": 41100041,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 1500
+            }
+          ],
+          "3": [
+            {
+              "Key": 43020031,
+              "Value": 3
+            },
+            {
+              "Key": 41100041,
+              "Value": 3
+            },
+            {
+              "Key": 2,
+              "Value": 2000
+            }
+          ],
+          "4": [
+            {
+              "Key": 43020032,
+              "Value": 2
+            },
+            {
+              "Key": 41100042,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 4500
+            }
+          ],
+          "5": [
+            {
+              "Key": 43020032,
+              "Value": 3
+            },
+            {
+              "Key": 41100042,
+              "Value": 3
+            },
+            {
+              "Key": 2,
+              "Value": 6000
+            }
+          ],
+          "6": [
+            {
+              "Key": 43020033,
+              "Value": 3
+            },
+            {
+              "Key": 41100043,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 16000
+            }
+          ],
+          "7": [
+            {
+              "Key": 43020033,
+              "Value": 5
+            },
+            {
+              "Key": 41100043,
+              "Value": 3
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 30000
+            }
+          ],
+          "8": [
+            {
+              "Key": 43020034,
+              "Value": 2
+            },
+            {
+              "Key": 41100044,
+              "Value": 2
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 50000
+            }
+          ],
+          "9": [
+            {
+              "Key": 43020034,
+              "Value": 3
+            },
+            {
+              "Key": 41100044,
+              "Value": 3
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 70000
+            }
+          ],
+          "10": [
+            {
+              "Key": 43020034,
+              "Value": 6
+            },
+            {
+              "Key": 41100044,
+              "Value": 4
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 100000
+            }
+          ]
+        },
+        "Damage": {
+          "1608004013": {
+            "Element": 6,
+            "RelatedProperty": "攻撃力",
+            "Type": 4,
+            "RateLv": [
+              1905,
+              2062,
+              2218,
+              2437,
+              2593,
+              2772,
+              3022,
+              3272,
+              3522,
+              3788,
+              4100,
+              4413,
+              4725,
+              5038,
+              5350,
+              5662,
+              5975,
+              6287,
+              6600,
+              6912
+            ],
+            "Energy": 24,
+            "ElementPower": 75,
+            "HardnessLv": 10000,
+            "ToughLv": 953
+          },
+          "1608004014": {
+            "Element": 6,
+            "RelatedProperty": "攻撃力",
+            "Type": 4,
+            "RateLv": [
+              5927,
+              6413,
+              6899,
+              7580,
+              8066,
+              8624,
+              9402,
+              10180,
+              10957,
+              11783,
+              12755,
+              13727,
+              14699,
+              15671,
+              16643,
+              17615,
+              18587,
+              19559,
+              20531,
+              21503
+            ],
+            "Energy": 75,
+            "ElementPower": 234,
+            "HardnessLv": 10000,
+            "ToughLv": 2964
+          },
+          "1608102001": {
+            "Element": 6,
+            "RelatedProperty": "攻撃力",
+            "Type": 4,
+            "RateLv": [
+              1167,
+              1263,
+              1359,
+              1493,
+              1589,
+              1699,
+              1852,
+              2005,
+              2158,
+              2321,
+              2512,
+              2703,
+              2895,
+              3086,
+              3278,
+              3469,
+              3660,
+              3852,
+              4043,
+              4234
+            ],
+            "Energy": 15,
+            "ElementPower": 50,
+            "HardnessLv": 10000,
+            "ToughLv": 1000
+          },
+          "1608102002": {
+            "Element": 6,
+            "RelatedProperty": "攻撃力",
+            "Type": 4,
+            "RateLv": [
+              2334,
+              2526,
+              2717,
+              2985,
+              3177,
+              3397,
+              3703,
+              4009,
+              4315,
+              4641,
+              5024,
+              5406,
+              5789,
+              6172,
+              6555,
+              6937,
+              7320,
+              7703,
+              8086,
+              8468
+            ],
+            "Energy": 30,
+            "ElementPower": 100,
+            "HardnessLv": 10000,
+            "ToughLv": 2000
+          },
+          "1608102004": {
+            "Element": 6,
+            "RelatedProperty": "攻撃力",
+            "Type": 4,
+            "RateLv": [
+              16338,
+              17678,
+              19018,
+              20894,
+              22233,
+              23774,
+              25917,
+              28061,
+              30205,
+              32482,
+              35162,
+              37841,
+              40520,
+              43200,
+              45879,
+              48559,
+              51238,
+              53918,
+              56597,
+              59276
+            ],
+            "Energy": 205,
+            "ElementPower": 700,
+            "HardnessLv": 10000,
+            "ToughLv": 14000
+          },
+          "1608014013": {
+            "Element": 6,
+            "RelatedProperty": "攻撃力",
+            "Type": 4,
+            "RateLv": [
+              3429,
+              3711,
+              3992,
+              4386,
+              4667,
+              4990,
+              5440,
+              5890,
+              6340,
+              6818,
+              7380,
+              7942,
+              8505,
+              9067,
+              9629,
+              10192,
+              10754,
+              11317,
+              11879,
+              12441
+            ],
+            "Energy": 24,
+            "ElementPower": 75,
+            "HardnessLv": 10000,
+            "ToughLv": 953
+          },
+          "1608014014": {
+            "Element": 6,
+            "RelatedProperty": "攻撃力",
+            "Type": 4,
+            "RateLv": [
+              10668,
+              11543,
+              12418,
+              13643,
+              14518,
+              15524,
+              16923,
+              18323,
+              19722,
+              21210,
+              22959,
+              24709,
+              26458,
+              28208,
+              29957,
+              31707,
+              33456,
+              35206,
+              36956,
+              38705
+            ],
+            "Energy": 75,
+            "ElementPower": 234,
+            "HardnessLv": 10000,
+            "ToughLv": 2964
+          },
+          "1608112001": {
+            "Element": 6,
+            "RelatedProperty": "攻撃力",
+            "Type": 4,
+            "RateLv": [
+              2101,
+              2273,
+              2446,
+              2687,
+              2859,
+              3057,
+              3333,
+              3608,
+              3884,
+              4177,
+              4521,
+              4866,
+              5210,
+              5555,
+              5899,
+              6244,
+              6588,
+              6933,
+              7277,
+              7622
+            ],
+            "Energy": 15,
+            "ElementPower": 50,
+            "HardnessLv": 10000,
+            "ToughLv": 1000
+          },
+          "1608112002": {
+            "Element": 6,
+            "RelatedProperty": "攻撃力",
+            "Type": 4,
+            "RateLv": [
+              4202,
+              4546,
+              4891,
+              5373,
+              5717,
+              6114,
+              6665,
+              7216,
+              7767,
+              8353,
+              9042,
+              9731,
+              10420,
+              11109,
+              11798,
+              12487,
+              13176,
+              13865,
+              14554,
+              15243
+            ],
+            "Energy": 30,
+            "ElementPower": 100,
+            "HardnessLv": 10000,
+            "ToughLv": 2000
+          },
+          "1608112004": {
+            "Element": 6,
+            "RelatedProperty": "攻撃力",
+            "Type": 4,
+            "RateLv": [
+              29409,
+              31820,
+              34232,
+              37608,
+              40019,
+              42793,
+              46651,
+              50509,
+              54368,
+              58467,
+              63290,
+              68113,
+              72936,
+              77759,
+              82582,
+              87405,
+              92228,
+              97051,
+              101874,
+              106697
+            ],
+            "Energy": 205,
+            "ElementPower": 700,
+            "HardnessLv": 10000,
+            "ToughLv": 14000
+          }
+        }
+      }
+    },
+    "8": {
+      "ParentNodes": [],
+      "NodeType": 3,
+      "Coordinate": 1,
+      "UnLockCondition": 0,
+      "Consume": [
+        {
+          "Key": 43020032,
+          "Value": 2
+        },
+        {
+          "Key": 41100022,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 3900
+        }
+      ],
+      "Skill": {
+        "Name": "未完成の楽曲",
+        "Desc": "次に登場するキャラに{0}の消滅ダメージブーストと{1}の重撃ダメージブーストを付与する、{2}秒間持続。 他のキャラに切り替えると、この効果は消える。\n<color=Highlight><te href=160804>コンダクター状態</te></color>中にこのスキルを発動し、その<color=Highlight>コンダクター状態</color>中にフローヴァが他のキャラに切り替わると、ヘカテーは追加で<color=Highlight>強化攻撃・ヘカテー</color>を{3}回発動する。",
+        "Param": [
+          "20%",
+          "25%",
+          "14",
+          "2",
+          "1"
+        ],
+        "SimpleDesc": "次の登場キャラに消滅ダメージブーストと重撃ダメージブーストを付与する。他のキャラに切り替えると、この効果は消える。\nフローヴァが<color=Highlight>強化状態</color>中にこのスキルを発動すると、ヘカテーは追加で<color=Highlight>強化攻撃・ヘカテー</color>を発動する。",
+        "SimpleParam": [
+          "20%",
+          "25%",
+          "14",
+          "2",
+          "1"
+        ],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconFuluoluo/SP_IconFuluoluoT.SP_IconFuluoluoT",
+        "Type": "終奏スキル",
+        "Level": {},
+        "Consume": {
+          "1": []
+        },
+        "Damage": {}
+      }
+    },
+    "9": {
+      "ParentNodes": [
+        1
+      ],
+      "NodeType": 4,
+      "Coordinate": 1,
+      "UnLockCondition": 500006,
+      "Consume": [
+        {
+          "Key": 43020033,
+          "Value": 3
+        },
+        {
+          "Key": 41100043,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 50000
+        }
+      ],
+      "Skill": {
+        "Name": "クリティカル率アップ",
+        "Desc": "クリティカル率{0}アップ",
+        "Param": [
+          "1.20%"
+        ],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredbaoji_UI.T_Iconpropertyredbaoji_UI"
+      }
+    },
+    "10": {
+      "ParentNodes": [
+        2
+      ],
+      "NodeType": 4,
+      "Coordinate": 1,
+      "UnLockCondition": 500005,
+      "Consume": [
+        {
+          "Key": 43020033,
+          "Value": 3
+        },
+        {
+          "Key": 41100043,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 50000
+        }
+      ],
+      "Skill": {
+        "Name": "攻撃力アップ",
+        "Desc": "攻撃力{0}アップ",
+        "Param": [
+          "1.80%"
+        ],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredattack_UI.T_Iconpropertyredattack_UI"
+      }
+    },
+    "11": {
+      "ParentNodes": [
+        3
+      ],
+      "NodeType": 4,
+      "Coordinate": 1,
+      "UnLockCondition": 500005,
+      "Consume": [
+        {
+          "Key": 43020033,
+          "Value": 3
+        },
+        {
+          "Key": 41100043,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 50000
+        }
+      ],
+      "Skill": {
+        "Name": "攻撃力アップ",
+        "Desc": "攻撃力{0}アップ",
+        "Param": [
+          "1.80%"
+        ],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredattack_UI.T_Iconpropertyredattack_UI"
+      }
+    },
+    "12": {
+      "ParentNodes": [
+        6
+      ],
+      "NodeType": 4,
+      "Coordinate": 1,
+      "UnLockCondition": 500006,
+      "Consume": [
+        {
+          "Key": 43020033,
+          "Value": 3
+        },
+        {
+          "Key": 41100043,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 50000
+        }
+      ],
+      "Skill": {
+        "Name": "クリティカル率アップ",
+        "Desc": "クリティカル率{0}アップ",
+        "Param": [
+          "1.20%"
+        ],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredbaoji_UI.T_Iconpropertyredbaoji_UI"
+      }
+    },
+    "13": {
+      "ParentNodes": [
+        9
+      ],
+      "NodeType": 4,
+      "Coordinate": 2,
+      "UnLockCondition": 500008,
+      "Consume": [
+        {
+          "Key": 43020034,
+          "Value": 3
+        },
+        {
+          "Key": 41100044,
+          "Value": 3
+        },
+        {
+          "Key": 41400194,
+          "Value": 1
+        },
+        {
+          "Key": 2,
+          "Value": 100000
+        }
+      ],
+      "Skill": {
+        "Name": "クリティカル率アップ",
+        "Desc": "クリティカル率{0}アップ",
+        "Param": [
+          "2.80%"
+        ],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredbaoji_UI.T_Iconpropertyredbaoji_UI"
+      }
+    },
+    "14": {
+      "ParentNodes": [
+        10
+      ],
+      "NodeType": 4,
+      "Coordinate": 2,
+      "UnLockCondition": 500007,
+      "Consume": [
+        {
+          "Key": 43020034,
+          "Value": 3
+        },
+        {
+          "Key": 41100044,
+          "Value": 3
+        },
+        {
+          "Key": 41400194,
+          "Value": 1
+        },
+        {
+          "Key": 2,
+          "Value": 100000
+        }
+      ],
+      "Skill": {
+        "Name": "攻撃力アップ",
+        "Desc": "攻撃力{0}アップ",
+        "Param": [
+          "4.20%"
+        ],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredattack_UI.T_Iconpropertyredattack_UI"
+      }
+    },
+    "15": {
+      "ParentNodes": [
+        11
+      ],
+      "NodeType": 4,
+      "Coordinate": 2,
+      "UnLockCondition": 500007,
+      "Consume": [
+        {
+          "Key": 43020034,
+          "Value": 3
+        },
+        {
+          "Key": 41100044,
+          "Value": 3
+        },
+        {
+          "Key": 41400194,
+          "Value": 1
+        },
+        {
+          "Key": 2,
+          "Value": 100000
+        }
+      ],
+      "Skill": {
+        "Name": "攻撃力アップ",
+        "Desc": "攻撃力{0}アップ",
+        "Param": [
+          "4.20%"
+        ],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredattack_UI.T_Iconpropertyredattack_UI"
+      }
+    },
+    "16": {
+      "ParentNodes": [
+        12
+      ],
+      "NodeType": 4,
+      "Coordinate": 2,
+      "UnLockCondition": 500008,
+      "Consume": [
+        {
+          "Key": 43020034,
+          "Value": 3
+        },
+        {
+          "Key": 41100044,
+          "Value": 3
+        },
+        {
+          "Key": 41400194,
+          "Value": 1
+        },
+        {
+          "Key": 2,
+          "Value": 100000
+        }
+      ],
+      "Skill": {
+        "Name": "クリティカル率アップ",
+        "Desc": "クリティカル率{0}アップ",
+        "Param": [
+          "2.80%"
+        ],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredbaoji_UI.T_Iconpropertyredbaoji_UI"
+      }
+    },
+    "17": {
+      "ParentNodes": [],
+      "NodeType": 5,
+      "Coordinate": 1,
+      "UnLockCondition": 0,
+      "Consume": [
+        {
+          "Key": 43020032,
+          "Value": 2
+        },
+        {
+          "Key": 41100022,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 3900
+        }
+      ],
+      "Skill": {
+        "Name": "協和破壊・増幅器",
+        "Desc": "目標の<color=Highlight>【不協和値】</color>が最大まで溜まった時、<color=Highlight><te href=100001>【協和破壊】</te></color>ダメージを与えることができる。",
+        "Param": [],
+        "SimpleDesc": "目標の<color=Highlight>【不協和値】</color>が最大まで溜まった時、<color=Highlight>【協和破壊】</color>ダメージを与えることができる。",
+        "SimpleParam": [],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconWeakPointBreakMagic.SP_IconWeakPointBreakMagic",
+        "Type": "協和破壊",
+        "Level": {},
+        "Consume": {
+          "1": []
+        },
+        "Damage": {}
+      }
+    }
+  },
+  "Chains": {
+    "1": {
+      "Name": "鍵、其は冥府の扉を開くもの",
+      "Desc": "<color=Highlight>滅びと終焉のカンタータ</color>のダメージ倍率が{0}アップ。\n<color=Highlight>果てなき夢語り</color>のダメージ倍率が{1}アップ。\nフローヴァが<color=Highlight><te href=160804>コンダクター状態</te></color>でなく、戦闘離脱状態に入ってから{2}秒経過、かつ<color=Highlight>【<te href=160801>楽の音</te>】</color>が{3}Pt未満の場合、<color=Highlight>【楽の音・カデンツァ】</color>を獲得する。この効果は<color=Highlight>【楽の音】</color>が{4}Pt以上になるまで続く。",
+      "Param": [
+        "80%",
+        "80%",
+        "4",
+        "2",
+        "2"
+      ],
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconDevice/T_IconDevice_FuluoluoM1_UI.T_IconDevice_FuluoluoM1_UI"
+    },
+    "2": {
+      "Name": "綱、其は再生と更新の絆",
+      "Desc": "<color=Highlight>終の楽譜の書き手</color>のダメージ倍率が{0}アップし、<color=Highlight><te href=160803>余韻</te></color>による<color=Highlight>終の楽譜の書き手</color>への倍率増加効果が{1}アップ。\n<color=Highlight>終の楽譜の書き手</color>を発動時、<color=Highlight>余韻</color>を{2}スタック獲得できる。",
+      "Param": [
+        "75%",
+        "75%",
+        "14"
+      ],
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconDevice/T_IconDevice_FuluoluoM2_UI.T_IconDevice_FuluoluoM2_UI"
+    },
+    "3": {
+      "Name": "刃、其は妄想を断つ力",
+      "Desc": "音骸スキルダメージに{0}のダメージブーストが付与される。\n<color=Highlight>終の楽譜の書き手</color>を発動中、全ての<color=Highlight>【<te href=160801>楽の音</te>】</color>が<color=Highlight>【楽の音・カデンツァ】</color>に順次転換される。\n<color=Highlight>強化攻撃・カデンツァ・ヘカテー</color>が命中した目標は、攻撃力が{2}ダウン、{3}秒間持続。",
+      "Param": [
+        "80%",
+        "80%",
+        "20%",
+        "15"
+      ],
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconDevice/T_IconDevice_FuluoluoM3_UI.T_IconDevice_FuluoluoM3_UI"
+    },
+    "4": {
+      "Name": "灯火、其は未知なる旅路の標",
+      "Desc": "<color=Highlight>音骸スキル</color>を発動時、チーム内全員の全属性ダメージが{0}アップ。この効果は{1}秒間持続。",
+      "Param": [
+        "20%",
+        "30"
+      ],
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconDevice/T_IconDevice_FuluoluoM5_UI.T_IconDevice_FuluoluoM5_UI"
+    },
+    "5": {
+      "Name": "岐路、其は生が交差する場所",
+      "Desc": "<color=Highlight><te href=160804>コンダクター状態</te></color>に入ると、周囲の目標を停滞させる領域を展開し、領域は{1}秒間持続。<color=Highlight><te href=160804>コンダクター状態</te></color>を終了するか、他のキャラに切り替えると、停滞効果は消える。\n<color=Highlight><te href=160804>コンダクター状態</te></color>中、被ダメージが{0}軽減される。",
+      "Param": [
+        "30%",
+        "4"
+      ],
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconDevice/T_IconDevice_FuluoluoM4_UI.T_IconDevice_FuluoluoM4_UI"
+    },
+    "6": {
+      "Name": "闇夜、其は安息と終焉より目覚めし時",
+      "Desc": "<color=Highlight>強化攻撃・ヘカテー</color>のダメージ倍率が{0}アップ。\n<size=10></size>\n<color=Highlight>滅びと終焉のカンタータ</color>、<color=Highlight>果てなき夢語り</color>の発動期間中、ヘカテーを召喚し、<color=Highlight>幾重世界の幻像・ヘカテー</color>を{3}回発動させ、フローヴァの攻撃力{7}分の<color=Dark>消滅ダメージ</color>を与える。目標に命中した時、<color=Highlight>余韻</color>を{4}スタック獲得する。このダメージは<color=Highlight>音骸スキルダメージ</color>と見なされる。\n<size=10></size>\n<color=Highlight><te href=160804>コンダクター状態</te></color>中、フローヴァがチーム内の登場キャラではない場合、目標が受けるヘカテーとフローヴァからのダメージが{1}アップ。\n<color=Highlight><te href=160804>コンダクター状態</te></color>中、フローヴァがチーム内の登場キャラの場合、消滅ダメージが{2}アップ。",
+      "Param": [
+        "24%",
+        "40%",
+        "60%",
+        "1",
+        "8",
+        "300%",
+        "40%",
+        "216.42%"
+      ],
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconDevice/T_IconDevice_FuluoluoM6_UI.T_IconDevice_FuluoluoM6_UI"
+    }
+  },
+  "Ascensions": {
+    "1": [
+      {
+        "Key": 41100041,
+        "Value": 4
+      },
+      {
+        "Key": 2,
+        "Value": 5000
+      }
+    ],
+    "2": [
+      {
+        "Key": 41400224,
+        "Value": 3
+      },
+      {
+        "Key": 42601250,
+        "Value": 4
+      },
+      {
+        "Key": 41100042,
+        "Value": 4
+      },
+      {
+        "Key": 2,
+        "Value": 10000
+      }
+    ],
+    "3": [
+      {
+        "Key": 41400224,
+        "Value": 6
+      },
+      {
+        "Key": 42601250,
+        "Value": 8
+      },
+      {
+        "Key": 41100042,
+        "Value": 8
+      },
+      {
+        "Key": 2,
+        "Value": 15000
+      }
+    ],
+    "4": [
+      {
+        "Key": 41400224,
+        "Value": 9
+      },
+      {
+        "Key": 42601250,
+        "Value": 12
+      },
+      {
+        "Key": 41100043,
+        "Value": 4
+      },
+      {
+        "Key": 2,
+        "Value": 20000
+      }
+    ],
+    "5": [
+      {
+        "Key": 41400224,
+        "Value": 12
+      },
+      {
+        "Key": 42601250,
+        "Value": 16
+      },
+      {
+        "Key": 41100043,
+        "Value": 8
+      },
+      {
+        "Key": 2,
+        "Value": 40000
+      }
+    ],
+    "6": [
+      {
+        "Key": 41400224,
+        "Value": 16
+      },
+      {
+        "Key": 42601250,
+        "Value": 20
+      },
+      {
+        "Key": 41100044,
+        "Value": 4
+      },
+      {
+        "Key": 2,
+        "Value": 80000
+      }
+    ]
+  },
+  "Skin": {
+    "81001608": {
+      "Id": 81001608,
+      "SuitWeaponSkinId": 0,
+      "QualityId": 3,
+      "Name": "フローヴァ",
+      "TitleName": "彼方へ響く余韻",
+      "SubDecName": "フローヴァ　デフォルト",
+      "BgDescription": "コンダクターである自分のために用意した特別な礼服。幾重もの花びらが舞い落ちては、此岸と彼岸の境に咲き誇る。紅い一輪が水面に口づけし、叶わぬ願いの余韻は今もなお、彼女の耳元で静かに囁き続けている。",
+      "Background": "/Game/Aki/UI/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_fuluoluo_UI.T_IconRole_Pile_fuluoluo_UI",
+      "Portrait": "/Game/Aki/UI/UIResources/Common/Image/PixActivity/T_ActivityRoleFuluoluo.T_ActivityRoleFuluoluo",
+      "SortIndex": 0,
+      "FormationSpineSkel": "/Game/Aki/UI/UIResources/Common/Spine/Portraits/Portraits_Fuluoluo/Portraits_Fuluoluo.Portraits_Fuluoluo-data",
+      "FormationSpineAtlas": "/Game/Aki/UI/UIResources/Common/Spine/Portraits/Portraits_Fuluoluo/Portraits_Fuluoluo.Portraits_Fuluoluo-atlas"
+    }
+  },
+  "Forte": {
+    "SkillInputList": {
+      "160801": {
+        "Desc": "滅びと終焉のカンタータ：{0}+{0}+{0}+{0}または{1}+{0}",
+        "InputList": [
+          "攻击",
+          "技能1"
+        ]
+      },
+      "160802": {
+        "Desc": "果てなき夢語り：{0}+{0}+{0}+{1}または{1}+{1}",
+        "InputList": [
+          "攻击",
+          "技能1"
+        ]
+      },
+      "160803": {
+        "Desc": "終の楽譜の書き手：【楽の音】を6Pt所持、かつ【基音】状態でない時、{0}を長押し",
+        "InputList": [
+          "攻击"
+        ]
+      },
+      "160804": {
+        "Desc": "強化攻撃・ヘカテー：コンダクター状態中、{0}+{0}+{0}またはチーム内キャラが音骸スキルを発動。",
+        "InputList": [
+          "攻击"
+        ]
+      }
+    },
+    "Icon": "/Game/Aki/UI/UIResources/UiRole/Image/T_RoleSkillTreeFuluoluo.T_RoleSkillTreeFuluoluo",
+    "DescList": [
+      "フローヴァの通常攻撃3段目、および共鳴スキルは、強化通常攻撃または強化共鳴スキルに繋げることで、異なる種類の【特殊エネルギー】を獲得できる。",
+      "【特殊エネルギー】を6Pt獲得した後、強化重撃を発動でき、大量のダメージを与えられる。また、共鳴解放も発動可能になる。",
+      "共鳴解放を発動後、フローヴァは順番に【特殊エネルギー】を読み取り、ヘカテーの攻撃パターンを変化させる。",
+      "強化状態中、チーム内キャラが音骸スキルを発動すると、ヘカテーは強力な攻撃を繰り出す。"
+    ]
+  },
+  "Live2d": "Fuluoluo",
+  "Audio": "fuluoluo",
+  "Recommend": {
+    "Weapon": [
+      21050066,
+      21050015,
+      21050104
+    ],
+    "Property": "",
+    "Param": []
+  }
+}

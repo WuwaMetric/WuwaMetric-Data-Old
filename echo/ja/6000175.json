@@ -1,0 +1,136 @@
+{
+  "Id": 6000175,
+  "Code": "T01-",
+  "Name": "カフンクマバチ",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31077_UI.T_IconMonsterHead_31077_UI",
+  "Skill": {
+    "Desc": "音骸スキルを発動すると、カフンクマバチを召喚し、敵に{0}の気動ダメージを与える。範囲内のキャラに、HP上限の{1}と追加で{2}のHPを回復。\nクールタイム：{3}秒",
+    "SimpleDesc": "カフンクマバチを召喚し、敵に気動ダメージを与える。さらに、キャラのHPを回復。",
+    "Param": [
+      [
+        "36.00%",
+        "2.00%",
+        "160",
+        "8"
+      ],
+      [
+        "43.20%",
+        "2.40%",
+        "160",
+        "8"
+      ],
+      [
+        "50.40%",
+        "2.80%",
+        "160",
+        "8"
+      ],
+      [
+        "57.60%",
+        "3.20%",
+        "160",
+        "8"
+      ],
+      [
+        "64.80%",
+        "3.60%",
+        "160",
+        "8"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_31077_UI.T_MstSkil_31077_UI",
+    "Damage": {
+      "20012601": {
+        "Element": 4,
+        "RelatedProperty": "攻撃力",
+        "Type": 5,
+        "RateLv": [
+          3600,
+          4320,
+          5040,
+          5760,
+          6480
+        ],
+        "Energy": 45,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 3600
+      },
+      "20012602": {
+        "Element": 0,
+        "RelatedProperty": "HP",
+        "Type": 5,
+        "RateLv": [
+          200,
+          240,
+          280,
+          320,
+          360
+        ],
+        "Energy": 0,
+        "ElementPower": 0,
+        "HardnessLv": 0,
+        "ToughLv": 0
+      }
+    }
+  },
+  "Group": {
+    "24": {
+      "Id": 24,
+      "Name": "リフレクト・ブレイズ",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriLightWeakness.T_IconElementAttriLightWeakness",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "回折ダメージが{0}アップ",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "終奏スキルを発動後、次に変奏スキルで登場するキャラの攻撃力が{0}アップ、協和破壊増強1Ptにつき、攻撃力が追加で{1}アップ、最大{2}アップ可能、{3}秒間持続。他のキャラに切り替えるとこの効果は消える。",
+          "Param": [
+            "15%",
+            "0.3%",
+            "15%",
+            "15"
+          ]
+        }
+      }
+    },
+    "26": {
+      "Id": 26,
+      "Name": "ゴールデン・ヴァリアント",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriAttackWeakness.T_IconElementAttriAttackWeakness",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "回折ダメージが{0}アップ",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "通常攻撃ダメージを与えると、自身の回折ダメージが{0}アップ、最大{1}スタック、{2}秒間持続。{1}スタックに到達時、共鳴解放を発動すると通常攻撃ダメージが{3}アップ。",
+          "Param": [
+            "10%",
+            "3",
+            "5",
+            "40%"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 0,
+  "MonsterInfo": 310000770
+}

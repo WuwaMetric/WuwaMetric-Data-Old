@@ -1,0 +1,122 @@
+{
+  "Id": 6000118,
+  "Code": "W26-",
+  "Name": "Nightmare: Glacio Predator",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31064_UI.T_IconMonsterHead_31064_UI",
+  "Skill": {
+    "Desc": "Summon a Glacio Predator that throws an ice spear, dealing {0} Glacio DMG on hit. Deal {1} Glacio DMG up to 10 times during the charging time, and {2} Glacio DMG when the spear explodes.\n\nCD: {3}s",
+    "SimpleDesc": "Summon a Glacio Predator to throw ice spears and deal Glacio DMG.",
+    "Param": [
+      [
+        "28.80%",
+        "2.88%",
+        "14.40%",
+        "8"
+      ],
+      [
+        "33.12%",
+        "3.31%",
+        "16.56%",
+        "8"
+      ],
+      [
+        "37.44%",
+        "3.74%",
+        "18.72%",
+        "8"
+      ],
+      [
+        "41.76%",
+        "4.18%",
+        "20.88%",
+        "8"
+      ],
+      [
+        "46.08%",
+        "4.61%",
+        "23.04%",
+        "8"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_Z_Z9_UI.T_MstSkil_Z_Z9_UI",
+    "Damage": {
+      "20001401": {
+        "Element": 1,
+        "RelatedProperty": "ATK",
+        "Type": 5,
+        "RateLv": [
+          2880,
+          3312,
+          3744,
+          4176,
+          4608
+        ],
+        "Energy": 72,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 2880
+      },
+      "20001402": {
+        "Element": 1,
+        "RelatedProperty": "ATK",
+        "Type": 5,
+        "RateLv": [
+          288,
+          331,
+          374,
+          417,
+          460
+        ],
+        "Energy": 7,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 288
+      },
+      "20001403": {
+        "Element": 1,
+        "RelatedProperty": "ATK",
+        "Type": 5,
+        "RateLv": [
+          1440,
+          1656,
+          1872,
+          2088,
+          2304
+        ],
+        "Energy": 36,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 1440
+      }
+    }
+  },
+  "Group": {
+    "19": {
+      "Id": 19,
+      "Name": "Dream of the Lost",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriDarkVision.T_IconElementAttriDarkVision",
+      "Color": "FFFFFF00",
+      "Set": {
+        "3": {
+          "Desc": "Holding {0} Resonance Energy increases Crit. Rate by {1} and grants {2} Echo Skill DMG Bonus.",
+          "Param": [
+            "0",
+            "20%",
+            "35%"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 0,
+  "MonsterInfo": 310000640
+}

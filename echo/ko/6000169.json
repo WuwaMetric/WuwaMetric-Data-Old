@@ -1,0 +1,73 @@
+{
+  "Id": 6000169,
+  "Code": "H06-",
+  "Name": "악몽 · 그린멜팅카멜레온(유체)",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31072_UI.T_IconMonsterHead_31072_UI",
+  "Skill": {
+    "Desc": "에코 어빌리티를 사용하여 그린멜팅카멜레온(유체)으로 변신한 후 제자리에서 휴식을 취하며 HP를 천천히 회복한다.\n스킬 쿨타임: {0}초",
+    "SimpleDesc": "그린멜팅카멜레온(유체)으로 변하여 제자리에서 휴식하며 HP를 회복한다",
+    "Param": [
+      [
+        "8"
+      ],
+      [
+        "8"
+      ],
+      [
+        "8"
+      ],
+      [
+        "8"
+      ],
+      [
+        "8"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_285_UI.T_MstSkil_285_UI",
+    "Damage": {
+      "20002902": {
+        "Element": 0,
+        "RelatedProperty": "공격력",
+        "Type": 0,
+        "RateLv": [
+          0
+        ],
+        "Energy": 0,
+        "ElementPower": 0,
+        "HardnessLv": 0,
+        "ToughLv": 0
+      }
+    }
+  },
+  "Group": {
+    "22": {
+      "Id": 22,
+      "Name": "불타는 깃털을 펼친 사냥꾼의 그림자",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriFireA.T_IconElementAttriFireA",
+      "Color": "FFFFFF00",
+      "Set": {
+        "3": {
+          "Desc": "캐릭터가 에코 어빌리티 피해를 입힐 시, 강공격 피해의 크리티컬이 {0} 증가되고 {1}초간 지속된다. 강공격 피해를 입힐 시, 에코 어빌리티 피해의 크리티컬이 {2} 증가되고 {3}초간 지속된다. 두 가지 효과를 동시에 보유 시, 자신의 용융 피해가 {4} 증가된다",
+          "Param": [
+            "20%",
+            "6",
+            "20%",
+            "6",
+            "16%"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 0,
+  "MonsterInfo": 310000720
+}

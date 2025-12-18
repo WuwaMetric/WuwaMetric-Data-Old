@@ -1,0 +1,110 @@
+{
+  "Id": 6000064,
+  "Code": "R01-",
+  "Name": "유령 인형 · 헤드",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31040_UI.T_IconMonsterHead_31040_UI",
+  "Skill": {
+    "Desc": "에코 어빌리티를 사용하여 유령 인형 · 헤드를 소환해 공격을 가하고 {0}의 용융 피해를 입힌다.\n스킬 쿨타임: {1}초",
+    "SimpleDesc": "유령 인형 · 헤드를 소환하여 공격을 가하고, 적에게 용융 피해를 입힌다",
+    "Param": [
+      [
+        "72.00%",
+        "8"
+      ],
+      [
+        "86.40%",
+        "8"
+      ],
+      [
+        "100.80%",
+        "8"
+      ],
+      [
+        "115.20%",
+        "8"
+      ],
+      [
+        "129.60%",
+        "8"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/MstSkil_31040_UI.MstSkil_31040_UI",
+    "Damage": {
+      "20006701": {
+        "Element": 2,
+        "RelatedProperty": "공격력",
+        "Type": 5,
+        "RateLv": [
+          7200,
+          8640,
+          10080,
+          11520,
+          12960
+        ],
+        "Energy": 180,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 7200
+      }
+    }
+  },
+  "Group": {
+    "11": {
+      "Id": 11,
+      "Name": "영원의 광채",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriLightError.T_IconElementAttriLightError",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "회절 피해가 {0} 증가된다",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "캐릭터가 적에게 「광학 효과」를 추가 시, 자신의 크리티컬이 {0} 증가되고 {1}초간 지속된다. 「광학 효과」가 {2}스택인 적을 공격 시, 자신의 회절 피해 보너스가 {3} 증가되고 {4}초간 지속된다",
+          "Param": [
+            "20%",
+            "15",
+            "10",
+            "15%",
+            "15"
+          ]
+        }
+      }
+    },
+    "14": {
+      "Id": 14,
+      "Name": "파도에 맞선 용기",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriEnergy.T_IconElementAttriEnergy",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "공명 효율이 {0} 증가된다",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "캐릭터의 공격력이 {0} 증가되고, 공명 효율이 {1}에 도달한 후 현재 캐릭터의 전체 속성 피해가 {2} 증가된다",
+          "Param": [
+            "15%",
+            "250%",
+            "30%"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 0,
+  "MonsterInfo": 310000400
+}

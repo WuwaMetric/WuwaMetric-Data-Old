@@ -1,0 +1,108 @@
+{
+  "Id": 6000108,
+  "Code": "H30-",
+  "Name": "Spectro Drake",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31059_UI.T_IconMonsterHead_31059_UI",
+  "Skill": {
+    "Desc": "Summon a Spectro Drake to attack enemies, dealing {0} Spectro DMG 3 times.\nCD: {1}s",
+    "SimpleDesc": "Summon a Spectro Drake to deal Spectro DMG to enemies.",
+    "Param": [
+      [
+        "24.00%",
+        "8"
+      ],
+      [
+        "28.80%",
+        "8"
+      ],
+      [
+        "33.60%",
+        "8"
+      ],
+      [
+        "38.40%",
+        "8"
+      ],
+      [
+        "43.20%",
+        "8"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_31059_UI.T_MstSkil_31059_UI",
+    "Damage": {
+      "20009001": {
+        "Element": 5,
+        "RelatedProperty": "ATK",
+        "Type": 5,
+        "RateLv": [
+          2400,
+          2880,
+          3360,
+          3840,
+          4320
+        ],
+        "Energy": 60,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 2400
+      }
+    }
+  },
+  "Group": {
+    "17": {
+      "Id": 17,
+      "Name": "Windward Pilgrimage",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriWindErrorA.T_IconElementAttriWindErrorA",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "Aero DMG + {0}",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "Hitting a target with Aero Erosion increases Crit. Rate by {0} and grants {1} Aero DMG Bonus, lasting for {2}s.",
+          "Param": [
+            "10%",
+            "30%",
+            "10"
+          ]
+        }
+      }
+    },
+    "18": {
+      "Id": 18,
+      "Name": "Flaming Clawprint",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriFireUltimateSkill.T_IconElementAttriFireUltimateSkill",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "Fusion DMG + {0}",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "Casting Resonance Liberation grants all Resonators in the team {0} Fusion DMG Bonus and the caster {1} Resonance Liberation DMG Bonus, lasting for {2}s.",
+          "Param": [
+            "15%",
+            "20%",
+            "35"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 0,
+  "MonsterInfo": 310000590
+}

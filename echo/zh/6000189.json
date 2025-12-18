@@ -1,0 +1,125 @@
+{
+  "Id": 6000189,
+  "Code": "T01-",
+  "Name": "海维夏",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34021_UI.T_IconMonsterHead_34021_UI",
+  "Skill": {
+    "Desc": "使用声骸技能，召唤海维夏，在空中发射激光对敌人造成十段{0}的衍射伤害。\n在此后{1}秒内，若自身施放延奏技能，使下一个变奏技能登场的角色全属性伤害加成提升{2}，持续{3}秒。\n技能冷却：{4}秒",
+    "SimpleDesc": "召唤海维夏，对敌人造成衍射伤害，并使下一个变奏技能登场的角色全属性伤害提升。",
+    "Param": [
+      [
+        "15.20%",
+        "15",
+        "10.00%",
+        "15",
+        "20"
+      ],
+      [
+        "18.24%",
+        "15",
+        "10.00%",
+        "15",
+        "20"
+      ],
+      [
+        "21.28%",
+        "15",
+        "10.00%",
+        "15",
+        "20"
+      ],
+      [
+        "24.32%",
+        "15",
+        "10.00%",
+        "15",
+        "20"
+      ],
+      [
+        "27.36%",
+        "15",
+        "10.00%",
+        "15",
+        "20"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_34021_UI.T_MstSkil_34021_UI",
+    "Damage": {
+      "28003601": {
+        "Element": 5,
+        "RelatedProperty": "攻击",
+        "Type": 5,
+        "RateLv": [
+          1520,
+          1824,
+          2128,
+          2432,
+          2736
+        ],
+        "Energy": 3,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 1520
+      }
+    }
+  },
+  "Group": {
+    "24": {
+      "Id": 24,
+      "Name": "逆光跃彩之约",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriLightWeakness.T_IconElementAttriLightWeakness",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "衍射伤害提升{0}",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "角色施放延奏技能后，下一个变奏技能登场的角色攻击提升{0}，其每点谐度破坏增幅还会使攻击额外提升{1}，上限{2}，持续{3}秒，若切换至其他角色则该效果提前结束。",
+          "Param": [
+            "15%",
+            "0.3%",
+            "15%",
+            "15"
+          ]
+        }
+      }
+    },
+    "26": {
+      "Id": 26,
+      "Name": "流金溯真之式",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriAttackWeakness.T_IconElementAttriAttackWeakness",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "衍射伤害提升{0}",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "角色造成普攻伤害时，自身衍射伤害提升{0}，该效果可叠加{1}层，持续{2}秒。叠至{1}层时，施放共鸣解放时，普攻伤害加成提升{3}。",
+          "Param": [
+            "10%",
+            "3",
+            "5",
+            "40%"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 2,
+  "MonsterInfo": 340000210
+}

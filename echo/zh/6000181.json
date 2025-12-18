@@ -1,0 +1,87 @@
+{
+  "Id": 6000181,
+  "Code": "T01-",
+  "Name": "莳植机麋",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_32051_UI.T_IconMonsterHead_32051_UI",
+  "Skill": {
+    "Desc": "使用声骸技能，召唤莳植机麋，对大范围内的敌人造成{0}的气动伤害。\n技能冷却：{1}秒",
+    "SimpleDesc": "召唤莳植机麋，造成气动伤害。",
+    "Param": [
+      [
+        "107.00%",
+        "15"
+      ],
+      [
+        "128.40%",
+        "15"
+      ],
+      [
+        "149.80%",
+        "15"
+      ],
+      [
+        "171.20%",
+        "15"
+      ],
+      [
+        "192.60%",
+        "15"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_32051_UI.T_MstSkil_32051_UI",
+    "Damage": {
+      "20011801": {
+        "Element": 4,
+        "RelatedProperty": "攻击",
+        "Type": 5,
+        "RateLv": [
+          10700,
+          12840,
+          14980,
+          17120,
+          19260
+        ],
+        "Energy": 267,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 10700
+      }
+    }
+  },
+  "Group": {
+    "26": {
+      "Id": 26,
+      "Name": "流金溯真之式",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriAttackWeakness.T_IconElementAttriAttackWeakness",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "衍射伤害提升{0}",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "角色造成普攻伤害时，自身衍射伤害提升{0}，该效果可叠加{1}层，持续{2}秒。叠至{1}层时，施放共鸣解放时，普攻伤害加成提升{3}。",
+          "Param": [
+            "10%",
+            "3",
+            "5",
+            "40%"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 1,
+  "MonsterInfo": 320000510
+}

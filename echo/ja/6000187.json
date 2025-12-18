@@ -1,0 +1,87 @@
+{
+  "Id": 6000187,
+  "Code": "T01-",
+  "Name": "霜纏いの寄生甲",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_32057_UI.T_IconMonsterHead_32057_UI",
+  "Skill": {
+    "Desc": "音骸スキルを発動すると、霜纏いの寄生甲を召喚し、強力な重拳で敵に{0}の凝縮ダメージを与える。\nクールタイム：{1}秒",
+    "SimpleDesc": "霜纏いの寄生甲を召喚し、強力な重拳で敵に凝縮ダメージを与える。",
+    "Param": [
+      [
+        "107.00%",
+        "15"
+      ],
+      [
+        "128.40%",
+        "15"
+      ],
+      [
+        "149.80%",
+        "15"
+      ],
+      [
+        "171.20%",
+        "15"
+      ],
+      [
+        "192.60%",
+        "15"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_32057_UI.T_MstSkil_32057_UI",
+    "Damage": {
+      "20012401": {
+        "Element": 1,
+        "RelatedProperty": "攻撃力",
+        "Type": 5,
+        "RateLv": [
+          10700,
+          12840,
+          14980,
+          17120,
+          19260
+        ],
+        "Energy": 267,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 10700
+      }
+    }
+  },
+  "Group": {
+    "25": {
+      "Id": 25,
+      "Name": "スターブライト・リング",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriCureWeakness.T_IconElementAttriCureWeakness",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "HP回復効果{0}アップ",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "チーム内キャラのHPを回復時、自身の不協和値蓄積効率の{0}につき、チーム内キャラの攻撃力が{1}アップ、最大{2}アップ可能、{3}秒間持続、同名効果を重複発動できない。",
+          "Param": [
+            "1%",
+            "0.2%",
+            "25%",
+            "4"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 1,
+  "MonsterInfo": 320000570
+}

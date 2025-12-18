@@ -1,0 +1,131 @@
+{
+  "Id": 6000177,
+  "Code": "T01-",
+  "Name": "Geospider S4",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31079_UI.T_IconMonsterHead_31079_UI",
+  "Skill": {
+    "Desc": "Summon a Geospider S4 to attack enemies, dealing an instance of {0} Spectro DMG and an instance of {1} Spectro DMG.\n\nCD: {1}s.",
+    "SimpleDesc": "Summon a Geospider S4 to attack enemies, dealing Spectro DMG.",
+    "Param": [
+      [
+        "28.80%",
+        "43.20%",
+        "8"
+      ],
+      [
+        "34.56%",
+        "51.84%",
+        "8"
+      ],
+      [
+        "40.32%",
+        "60.48%",
+        "8"
+      ],
+      [
+        "46.08%",
+        "69.12%",
+        "8"
+      ],
+      [
+        "51.84%",
+        "77.76%",
+        "8"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_31079_UI.T_MstSkil_31079_UI",
+    "Damage": {
+      "20012801": {
+        "Element": 5,
+        "RelatedProperty": "ATK",
+        "Type": 5,
+        "RateLv": [
+          2880,
+          3456,
+          4032,
+          4608,
+          5184
+        ],
+        "Energy": 28,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 2880
+      },
+      "20012802": {
+        "Element": 5,
+        "RelatedProperty": "ATK",
+        "Type": 5,
+        "RateLv": [
+          4320,
+          5184,
+          6048,
+          6912,
+          7776
+        ],
+        "Energy": 64,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 4320
+      }
+    }
+  },
+  "Group": {
+    "24": {
+      "Id": 24,
+      "Name": "Pact of Neonlight Leap",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriLightWeakness.T_IconElementAttriLightWeakness",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "Spectro DMG + {0}",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "Casting Outro Skill increases the ATK of the incoming Resonator by {0}, with each point of Tune Break Boost additionally increasing ATK by {1}, up to {2}. This effect lasts for {3}s, or until the Resonator is switched out.",
+          "Param": [
+            "15%",
+            "0.3%",
+            "15%",
+            "15"
+          ]
+        }
+      }
+    },
+    "25": {
+      "Id": 25,
+      "Name": "Halo of Starry Radiance",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriCureWeakness.T_IconElementAttriCureWeakness",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "Healing Bonus + {0}.",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "When healing a Resonator in the team, every {0} of Off-Tune Buildup Rate grants a {1} ATK increase to all Resonators in the team for {3}s, up to {2}. Effects of the same name cannot be stacked.",
+          "Param": [
+            "1%",
+            "0.2%",
+            "25%",
+            "4"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 0,
+  "MonsterInfo": 310000790
+}

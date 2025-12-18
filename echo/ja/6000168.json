@@ -1,0 +1,82 @@
+{
+  "Id": 6000168,
+  "Code": "H46-",
+  "Name": "ナイトメア・熔解トカゲ",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_32047_UI.T_IconMonsterHead_32047_UI",
+  "Skill": {
+    "Desc": "音骸スキルを発動すると、熔解トカゲを召喚。熔解トカゲは継続的に噴火し、敵に{0}の焦熱ダメージを10回与える。\nクールタイム：{1}秒",
+    "SimpleDesc": "熔解トカゲを召喚し継続的に噴火させ、焦熱ダメージを与える。",
+    "Param": [
+      [
+        "10.70%",
+        "15"
+      ],
+      [
+        "12.31%",
+        "15"
+      ],
+      [
+        "13.91%",
+        "15"
+      ],
+      [
+        "15.52%",
+        "15"
+      ],
+      [
+        "17.12%",
+        "15"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_295_UI.T_MstSkil_295_UI",
+    "Damage": {
+      "20003001": {
+        "Element": 2,
+        "RelatedProperty": "攻撃力",
+        "Type": 5,
+        "RateLv": [
+          1070,
+          1230,
+          1391,
+          1551,
+          1712
+        ],
+        "Energy": 26,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 1070
+      }
+    }
+  },
+  "Group": {
+    "22": {
+      "Id": 22,
+      "Name": "インフェルノ・シャドウ",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriFireA.T_IconElementAttriFireA",
+      "Color": "FFFFFF00",
+      "Set": {
+        "3": {
+          "Desc": "キャラが音骸スキルダメージを与えた時、重撃ダメージのクリティカル率が{0}アップ、{1}秒間持続。また、重撃ダメージを与えた時、音骸スキルダメージのクリティカル率が{2}アップ、{3}秒間持続。両方の効果を持つ間、自身の焦熱ダメージが{4}アップ。",
+          "Param": [
+            "20%",
+            "6",
+            "20%",
+            "6",
+            "16%"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 1,
+  "MonsterInfo": 320000470
+}

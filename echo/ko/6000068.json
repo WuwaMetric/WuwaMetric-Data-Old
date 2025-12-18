@@ -1,0 +1,130 @@
+{
+  "Id": 6000068,
+  "Code": "R05-",
+  "Name": "구름 바다 요정",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31044_UI.T_IconMonsterHead_31044_UI",
+  "Skill": {
+    "Desc": "에코 어빌리티를 사용하여 구름 바다 요정을 소환해 파티 내 등장 캐릭터 HP 최대치의 {0}에 해당하는 HP를 회복시키며, 최대 치료 가능 횟수는 4회이다.\n스킬 쿨타임: {1}초",
+    "SimpleDesc": "구름 바다 요정을 소환하여 파티 내 등장 캐릭터의 HP를 회복시킨다",
+    "Param": [
+      [
+        "1.50%",
+        "15"
+      ],
+      [
+        "1.80%",
+        "15"
+      ],
+      [
+        "2.10%",
+        "15"
+      ],
+      [
+        "2.40%",
+        "15"
+      ],
+      [
+        "2.70%",
+        "15"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/MstSkil_31044_UI.MstSkil_31044_UI",
+    "Damage": {
+      "20006901": {
+        "Element": 0,
+        "RelatedProperty": "HP",
+        "Type": 5,
+        "RateLv": [
+          150,
+          180,
+          210,
+          240,
+          270
+        ],
+        "Energy": 0,
+        "ElementPower": 0,
+        "HardnessLv": 0,
+        "ToughLv": 0
+      }
+    }
+  },
+  "Group": {
+    "12": {
+      "Id": 12,
+      "Name": "어둠의 장막",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriDarkAssist.T_IconElementAttriDarkAssist",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "인멸 피해가 {0} 증가된다",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "캐릭터가 반주 스킬을 발생시키고 퇴장 시, 추가로 주변 적에게 {0}의 인멸 피해를 입히고, 해당 피해는 반주 스킬 피해로 적용되며, 다음에 등장하는 캐릭터의 인멸 피해 보너스를 {1} 증가시키고, {2}초간 지속된다",
+          "Param": [
+            "480%",
+            "15%",
+            "15"
+          ]
+        }
+      }
+    },
+    "13": {
+      "Id": 13,
+      "Name": "하늘의 합주곡",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriCooperate.T_IconElementAttriCooperate",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "공명 효율이 {0} 증가된다",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "현재 캐릭터의 협동 공격이 입히는 피해가 {0} 증가된다. 협동 공격으로 적을 명중하여 크리티컬이 발생할 경우, 파티 내 등장 캐릭터의 공격력이 {1} 증가되고, {2}초간 지속된다",
+          "Param": [
+            "80%",
+            "20%",
+            "4"
+          ]
+        }
+      }
+    },
+    "22": {
+      "Id": 22,
+      "Name": "불타는 깃털을 펼친 사냥꾼의 그림자",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriFireA.T_IconElementAttriFireA",
+      "Color": "FFFFFF00",
+      "Set": {
+        "3": {
+          "Desc": "캐릭터가 에코 어빌리티 피해를 입힐 시, 강공격 피해의 크리티컬이 {0} 증가되고 {1}초간 지속된다. 강공격 피해를 입힐 시, 에코 어빌리티 피해의 크리티컬이 {2} 증가되고 {3}초간 지속된다. 두 가지 효과를 동시에 보유 시, 자신의 용융 피해가 {4} 증가된다",
+          "Param": [
+            "20%",
+            "6",
+            "20%",
+            "6",
+            "16%"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 0,
+  "MonsterInfo": 310000440,
+  "Phantom": {
+    "Name": "이상 · 구름 바다 요정",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_SG_31044_UI.T_IconMonsterGoods_SG_31044_UI"
+  }
+}

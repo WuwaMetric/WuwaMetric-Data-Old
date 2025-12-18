@@ -1,0 +1,75 @@
+{
+  "Id": 6000184,
+  "Code": "T01-",
+  "Name": "스페이스트렉 탐색기",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_32054_UI.T_IconMonsterHead_32054_UI",
+  "Skill": {
+    "Desc": "에코 어빌리티를 사용하여 스페이스트렉 탐색기를 소환한 후, 근처 파티 내 등장 캐릭터는 소환자의 HP 최대치의 {0}에 해당하는 실드를 획득하며 {1}초간 지속된다.\n스킬 쿨타임: {2}초",
+    "SimpleDesc": "스페이스트렉 탐색기를 소환한 후, 캐릭터는 실드를 획득한다",
+    "Param": [
+      [
+        "10%",
+        "4",
+        "20"
+      ],
+      [
+        "10%",
+        "4",
+        "20"
+      ],
+      [
+        "10%",
+        "4",
+        "20"
+      ],
+      [
+        "10%",
+        "4",
+        "20"
+      ],
+      [
+        "10%",
+        "4",
+        "20"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_32054_UI.T_MstSkil_32054_UI",
+    "Damage": {}
+  },
+  "Group": {
+    "25": {
+      "Id": 25,
+      "Name": "빛을 쫓는 별의 고리",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriCureWeakness.T_IconElementAttriCureWeakness",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "치료 효과가 {0} 증가된다",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "캐릭터가 파티원 치료 시, 자신의 부조화 수치 누적 효율 {0} 당 파티 내 캐릭터의 공격력을 {1} 증가시키고, 최대 {2}까지 증가시키며, {3}초간 지속된다. 같은 이름의 효과는 중첩이 불가하다",
+          "Param": [
+            "1%",
+            "0.2%",
+            "25%",
+            "4"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 1,
+  "MonsterInfo": 320000540
+}

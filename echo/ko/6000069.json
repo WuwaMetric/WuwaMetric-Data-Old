@@ -1,0 +1,110 @@
+{
+  "Id": 6000069,
+  "Code": "R06-",
+  "Name": "미스터 매직",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31045_UI.T_IconMonsterHead_31045_UI",
+  "Skill": {
+    "Desc": "에코 어빌리티를 사용하여 미스터 매직을 소환해 공격을 가하고 3단 {0}의 인멸 피해를 입힌다.\n스킬 쿨타임: {1}초",
+    "SimpleDesc": "미스터 매직을 소환하여 공격을 가하고, 적에게 인멸 피해를 입힌다",
+    "Param": [
+      [
+        "24.00%",
+        "8"
+      ],
+      [
+        "28.80%",
+        "8"
+      ],
+      [
+        "33.60%",
+        "8"
+      ],
+      [
+        "38.40%",
+        "8"
+      ],
+      [
+        "43.20%",
+        "8"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/MstSkil_31045_UI.MstSkil_31045_UI",
+    "Damage": {
+      "20007001": {
+        "Element": 6,
+        "RelatedProperty": "공격력",
+        "Type": 5,
+        "RateLv": [
+          2400,
+          2880,
+          3360,
+          3840,
+          4320
+        ],
+        "Energy": 60,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 2400
+      }
+    }
+  },
+  "Group": {
+    "10": {
+      "Id": 10,
+      "Name": "냉철한 결단",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriIceUltimateSkill.T_IconElementAttriIceUltimateSkill",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "공명 스킬 피해가 {0} 증가된다",
+          "Param": [
+            "12%"
+          ]
+        },
+        "5": {
+          "Desc": "공명 스킬 발동 시, 자신의 응결 피해가 {0} 증가되고, {1}초간 지속된다. 공명 해방 발동 시, 자신의 공명 스킬 피해가 {2} 증가되고, {3}초간 지속되며, 최대 {4}스택 중첩이 가능하다",
+          "Param": [
+            "22.5%",
+            "15",
+            "18%",
+            "5",
+            "2"
+          ]
+        }
+      }
+    },
+    "13": {
+      "Id": 13,
+      "Name": "하늘의 합주곡",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriCooperate.T_IconElementAttriCooperate",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "공명 효율이 {0} 증가된다",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "현재 캐릭터의 협동 공격이 입히는 피해가 {0} 증가된다. 협동 공격으로 적을 명중하여 크리티컬이 발생할 경우, 파티 내 등장 캐릭터의 공격력이 {1} 증가되고, {2}초간 지속된다",
+          "Param": [
+            "80%",
+            "20%",
+            "4"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 0,
+  "MonsterInfo": 310000450
+}

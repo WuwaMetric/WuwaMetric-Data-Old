@@ -1,0 +1,110 @@
+{
+  "Id": 6000178,
+  "Code": "T01-",
+  "Name": "Zip Zap",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31082_UI.T_IconMonsterHead_31082_UI",
+  "Skill": {
+    "Desc": "Summon a Zip Zap to launch spinning attacks at enemies, dealing {0} Electro DMG 5 times.\n\nCD: {1}s.",
+    "SimpleDesc": "Summon a Zip Zap to attack enemies, dealing Electro DMG.",
+    "Param": [
+      [
+        "14.40%",
+        "8"
+      ],
+      [
+        "17.28%",
+        "8"
+      ],
+      [
+        "20.16%",
+        "8"
+      ],
+      [
+        "23.04%",
+        "8"
+      ],
+      [
+        "25.92%",
+        "8"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_31082_UI.T_MstSkil_31082_UI",
+    "Damage": {
+      "20011501": {
+        "Element": 3,
+        "RelatedProperty": "ATK",
+        "Type": 5,
+        "RateLv": [
+          1440,
+          1728,
+          2016,
+          2304,
+          2592
+        ],
+        "Energy": 7,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 1440
+      }
+    }
+  },
+  "Group": {
+    "24": {
+      "Id": 24,
+      "Name": "Pact of Neonlight Leap",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriLightWeakness.T_IconElementAttriLightWeakness",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "Spectro DMG + {0}",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "Casting Outro Skill increases the ATK of the incoming Resonator by {0}, with each point of Tune Break Boost additionally increasing ATK by {1}, up to {2}. This effect lasts for {3}s, or until the Resonator is switched out.",
+          "Param": [
+            "15%",
+            "0.3%",
+            "15%",
+            "15"
+          ]
+        }
+      }
+    },
+    "26": {
+      "Id": 26,
+      "Name": "Rite of Gilded Revelation",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriAttackWeakness.T_IconElementAttriAttackWeakness",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "Spectro DMG + {0}",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "Dealing Basic Attack DMG increases Spectro DMG by {0} for {2}s, stacking up to {1} times. With {1} stacks, casting Resonance Liberation grants {3} Basic Attack DMG Bonus.",
+          "Param": [
+            "10%",
+            "3",
+            "5",
+            "40%"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 0,
+  "MonsterInfo": 310000820
+}

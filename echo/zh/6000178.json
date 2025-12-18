@@ -1,0 +1,110 @@
+{
+  "Id": 6000178,
+  "Code": "T01-",
+  "Name": "噼啪啪",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31082_UI.T_IconMonsterHead_31082_UI",
+  "Skill": {
+    "Desc": "使用声骸技能，召唤噼啪啪，旋转攻击敌人造成五段{0}的导电伤害。\n技能冷却：{1}秒",
+    "SimpleDesc": "召唤噼啪啪，造成导电伤害。",
+    "Param": [
+      [
+        "14.40%",
+        "8"
+      ],
+      [
+        "17.28%",
+        "8"
+      ],
+      [
+        "20.16%",
+        "8"
+      ],
+      [
+        "23.04%",
+        "8"
+      ],
+      [
+        "25.92%",
+        "8"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_31082_UI.T_MstSkil_31082_UI",
+    "Damage": {
+      "20011501": {
+        "Element": 3,
+        "RelatedProperty": "攻击",
+        "Type": 5,
+        "RateLv": [
+          1440,
+          1728,
+          2016,
+          2304,
+          2592
+        ],
+        "Energy": 7,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 1440
+      }
+    }
+  },
+  "Group": {
+    "24": {
+      "Id": 24,
+      "Name": "逆光跃彩之约",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriLightWeakness.T_IconElementAttriLightWeakness",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "衍射伤害提升{0}",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "角色施放延奏技能后，下一个变奏技能登场的角色攻击提升{0}，其每点谐度破坏增幅还会使攻击额外提升{1}，上限{2}，持续{3}秒，若切换至其他角色则该效果提前结束。",
+          "Param": [
+            "15%",
+            "0.3%",
+            "15%",
+            "15"
+          ]
+        }
+      }
+    },
+    "26": {
+      "Id": 26,
+      "Name": "流金溯真之式",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriAttackWeakness.T_IconElementAttriAttackWeakness",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "衍射伤害提升{0}",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "角色造成普攻伤害时，自身衍射伤害提升{0}，该效果可叠加{1}层，持续{2}秒。叠至{1}层时，施放共鸣解放时，普攻伤害加成提升{3}。",
+          "Param": [
+            "10%",
+            "3",
+            "5",
+            "40%"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 0,
+  "MonsterInfo": 310000820
+}

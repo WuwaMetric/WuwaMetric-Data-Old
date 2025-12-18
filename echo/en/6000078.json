@@ -1,0 +1,112 @@
+{
+  "Id": 6000078,
+  "Code": "W69-",
+  "Name": "Abyssal Mercator",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_32027_UI.T_IconMonsterHead_32027_UI",
+  "Skill": {
+    "Desc": "Transform into Abyssal Mercator and summon 3 Ice Spikes to attack enemies, each dealing {0} Glacio DMG.\nCD: {1}s.",
+    "SimpleDesc": "Transform into Abyssal Mercator and summon 3 Ice Spikes that deal Glacio DMG to enemies.",
+    "Param": [
+      [
+        "49.66%",
+        "15"
+      ],
+      [
+        "59.59%",
+        "15"
+      ],
+      [
+        "69.52%",
+        "15"
+      ],
+      [
+        "79.46%",
+        "15"
+      ],
+      [
+        "89.39%",
+        "15"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/MstSkil_32026_UI.MstSkil_32026_UI",
+    "Damage": {
+      "20006001": {
+        "Element": 1,
+        "RelatedProperty": "ATK",
+        "Type": 5,
+        "RateLv": [
+          4966,
+          5960,
+          6953,
+          7946,
+          8940
+        ],
+        "Energy": 124,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 4966
+      }
+    }
+  },
+  "Group": {
+    "10": {
+      "Id": 10,
+      "Name": "Frosty Resolve",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriIceUltimateSkill.T_IconElementAttriIceUltimateSkill",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "Resonance Skill DMG + {0}",
+          "Param": [
+            "12%"
+          ]
+        },
+        "5": {
+          "Desc": "Casting Resonance Skill grants {0} Glacio DMG Bonus for {1}s and casting Resonance Liberation increases Resonance Skill DMG by {2}, lasting for {3}s. This effect stacks up to {4} times.",
+          "Param": [
+            "22.5%",
+            "15",
+            "18%",
+            "5",
+            "2"
+          ]
+        }
+      }
+    },
+    "11": {
+      "Id": 11,
+      "Name": "Eternal Radiance",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriLightError.T_IconElementAttriLightError",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "Spectro DMG + {0}",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "Inflicting Spectro Frazzle on enemies increases Crit. Rate by {0} for {1}s. Attacking enemies inflicted with {2} stacks of Spectro Frazzle grants {3} Spectro DMG Bonus for {4}s.",
+          "Param": [
+            "20%",
+            "15",
+            "10",
+            "15%",
+            "15"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 1,
+  "MonsterInfo": 320000270
+}

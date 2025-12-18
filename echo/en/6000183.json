@@ -1,0 +1,129 @@
+{
+  "Id": 6000183,
+  "Code": "T01-",
+  "Name": "Ironhoof",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_32053_UI.T_IconMonsterHead_32053_UI",
+  "Skill": {
+    "Desc": "Transform into an Ironhoof to charge at enemies, dealing {0} Fusion DMG. At the end of the charge, unleash a goring attack that deals {1} Fusion DMG 3 times and {2} Fusion DMG once.\n\nCD: {3}s.",
+    "SimpleDesc": "Transform into an Ironhoof to charge at enemies, dealing Fusion DMG.",
+    "Param": [
+      [
+        "29.80%",
+        "7.45%",
+        "96.85%",
+        "15"
+      ],
+      [
+        "35.76%",
+        "8.94%",
+        "116.22%",
+        "15"
+      ],
+      [
+        "41.72%",
+        "10.43%",
+        "135.59%",
+        "15"
+      ],
+      [
+        "47.68%",
+        "11.92%",
+        "154.96%",
+        "15"
+      ],
+      [
+        "53.64%",
+        "13.41%",
+        "174.33%",
+        "15"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_32053_UI.T_MstSkil_32053_UI",
+    "Damage": {
+      "20012001": {
+        "Element": 2,
+        "RelatedProperty": "ATK",
+        "Type": 5,
+        "RateLv": [
+          2980,
+          3576,
+          4172,
+          4768,
+          5364
+        ],
+        "Energy": 14,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 2980
+      },
+      "20012002": {
+        "Element": 2,
+        "RelatedProperty": "ATK",
+        "Type": 5,
+        "RateLv": [
+          745,
+          894,
+          1043,
+          1192,
+          1341
+        ],
+        "Energy": 0,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 745
+      },
+      "20012003": {
+        "Element": 2,
+        "RelatedProperty": "ATK",
+        "Type": 5,
+        "RateLv": [
+          9685,
+          11622,
+          13559,
+          15496,
+          17433
+        ],
+        "Energy": 157,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 14527
+      }
+    }
+  },
+  "Group": {
+    "24": {
+      "Id": 24,
+      "Name": "Pact of Neonlight Leap",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriLightWeakness.T_IconElementAttriLightWeakness",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "Spectro DMG + {0}",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "Casting Outro Skill increases the ATK of the incoming Resonator by {0}, with each point of Tune Break Boost additionally increasing ATK by {1}, up to {2}. This effect lasts for {3}s, or until the Resonator is switched out.",
+          "Param": [
+            "15%",
+            "0.3%",
+            "15%",
+            "15"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 1,
+  "MonsterInfo": 320000530
+}

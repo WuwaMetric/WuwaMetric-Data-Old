@@ -1,0 +1,82 @@
+{
+  "Id": 6000162,
+  "Code": "H41-",
+  "Name": "ナイトメア・青羽サギ",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_32046_UI.T_IconMonsterHead_32046_UI",
+  "Skill": {
+    "Desc": "音骸スキルを発動すると、青羽サギに変身し、旋風を起こして突進し、{0}の気動ダメージを与える、<color=Highlight>特殊技</color>を使おうとする敵に命中すると、相手の<color=Highlight>特殊技</color>を中断可能。\nクールタイム：{1}秒",
+    "SimpleDesc": "青羽サギに変身し、気動ダメージを与え、敵の<color=Highlight>特殊技</color>を中断する。",
+    "Param": [
+      [
+        "148.00%",
+        "15"
+      ],
+      [
+        "170.20%",
+        "15"
+      ],
+      [
+        "192.40%",
+        "15"
+      ],
+      [
+        "214.60%",
+        "15"
+      ],
+      [
+        "236.80%",
+        "15"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_Z_B1_UI.T_MstSkil_Z_B1_UI",
+    "Damage": {
+      "20001801": {
+        "Element": 4,
+        "RelatedProperty": "攻撃力",
+        "Type": 5,
+        "RateLv": [
+          14800,
+          17020,
+          19240,
+          21460,
+          23680
+        ],
+        "Energy": 370,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 14800
+      }
+    }
+  },
+  "Group": {
+    "21": {
+      "Id": 21,
+      "Name": "エーテル・レゾナンス",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriSupport.T_IconElementAttriSupport",
+      "Color": "FFFFFF00",
+      "Set": {
+        "3": {
+          "Desc": "キャラが音骸スキルを発動時、自身の重撃ダメージが{0}アップ、{1}秒間持続。さらにチーム内全員の音骸スキルダメージが{2}アップ、最大{3}スタック、{4}秒間持続。同名の音骸による発動は1回のみで、効果が切れると発動記録もリセットされる。{3}スタックの状態で音骸スキルを発動すると、持続時間がリセットされる。",
+          "Param": [
+            "30%",
+            "4",
+            "4%",
+            "4",
+            "30"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 1,
+  "MonsterInfo": 320000460
+}

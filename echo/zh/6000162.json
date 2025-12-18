@@ -1,0 +1,82 @@
+{
+  "Id": 6000162,
+  "Code": "H41-",
+  "Name": "梦魇·青羽鹭",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_32046_UI.T_IconMonsterHead_32046_UI",
+  "Skill": {
+    "Desc": "使用声骸技能，幻形为青羽鹭，携卷旋风进行冲锋，造成{0}气动伤害；对施放<color=Highlight>特殊技</color>的敌人造成伤害时能够击破对方的<color=Highlight>特殊技</color>。\n技能冷却：{1}秒",
+    "SimpleDesc": "幻形为青羽鹭发动旋转冲锋，造成气动伤害，击破敌人的<color=Highlight>特殊技</color>。",
+    "Param": [
+      [
+        "148.00%",
+        "15"
+      ],
+      [
+        "170.20%",
+        "15"
+      ],
+      [
+        "192.40%",
+        "15"
+      ],
+      [
+        "214.60%",
+        "15"
+      ],
+      [
+        "236.80%",
+        "15"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_Z_B1_UI.T_MstSkil_Z_B1_UI",
+    "Damage": {
+      "20001801": {
+        "Element": 4,
+        "RelatedProperty": "攻击",
+        "Type": 5,
+        "RateLv": [
+          14800,
+          17020,
+          19240,
+          21460,
+          23680
+        ],
+        "Energy": 370,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 14800
+      }
+    }
+  },
+  "Group": {
+    "21": {
+      "Id": 21,
+      "Name": "息界同调之律",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriSupport.T_IconElementAttriSupport",
+      "Color": "FFFFFF00",
+      "Set": {
+        "3": {
+          "Desc": "角色施放声骸技能时，自身重击伤害加成提升{0}，持续{1}秒；队伍中角色声骸技能伤害加成提升{2}，该效果可叠加{3}层，持续{4}秒，同名声骸仅可触发1次该效果，效果消失时重置同名声骸记录，{3}层时施放声骸技能可刷新持续时间。",
+          "Param": [
+            "30%",
+            "4",
+            "4%",
+            "4",
+            "30"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 1,
+  "MonsterInfo": 320000460
+}

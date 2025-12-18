@@ -1,0 +1,149 @@
+{
+  "Id": 6000096,
+  "Code": "S56-",
+  "Name": "조각상을 재구성하는 돌멩이",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_32031_UI.T_IconMonsterHead_32031_UI",
+  "Skill": {
+    "Desc": "에코 어빌리티를 사용하여 조각상을 재구성하는 돌멩이로 변신한 후, 목표를 공격하여 {0}의 회절 피해를 입힌다. 에코 어빌리티를 길게 누르면 변신 상태를 유지하며 전방으로 돌진하고, 목표를 공격하여 {1}의 회절 피해를 입힌다.\n스킬 쿨타임: {2}초",
+    "SimpleDesc": "조각상을 재구성하는 돌멩이로 변신한 후, 적을 공격하여 회절 피해를 입힌다. 에코 어빌리티를 길게 누르면 전방으로 돌진하여, 적을 공격하고 회절 피해를 입힌다",
+    "Param": [
+      [
+        "174.00%",
+        "261.00%",
+        "20"
+      ],
+      [
+        "208.80%",
+        "313.20%",
+        "20"
+      ],
+      [
+        "243.60%",
+        "365.40%",
+        "20"
+      ],
+      [
+        "278.40%",
+        "417.60%",
+        "20"
+      ],
+      [
+        "313.20%",
+        "469.80%",
+        "20"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_Mstskil_31031_UI.T_Mstskil_31031_UI",
+    "Damage": {
+      "20008001": {
+        "Element": 5,
+        "RelatedProperty": "공격력",
+        "Type": 5,
+        "RateLv": [
+          17400,
+          20880,
+          24360,
+          27840,
+          31320
+        ],
+        "Energy": 435,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 17400
+      },
+      "20008002": {
+        "Element": 5,
+        "RelatedProperty": "공격력",
+        "Type": 5,
+        "RateLv": [
+          26100,
+          31320,
+          36540,
+          41760,
+          46980
+        ],
+        "Energy": 652,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 26100
+      }
+    }
+  },
+  "Group": {
+    "11": {
+      "Id": 11,
+      "Name": "영원의 광채",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriLightError.T_IconElementAttriLightError",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "회절 피해가 {0} 증가된다",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "캐릭터가 적에게 「광학 효과」를 추가 시, 자신의 크리티컬이 {0} 증가되고 {1}초간 지속된다. 「광학 효과」가 {2}스택인 적을 공격 시, 자신의 회절 피해 보너스가 {3} 증가되고 {4}초간 지속된다",
+          "Param": [
+            "20%",
+            "15",
+            "10",
+            "15%",
+            "15"
+          ]
+        }
+      }
+    },
+    "16": {
+      "Id": 16,
+      "Name": "끝없는 하늘",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriWindError.T_IconElementAttriWindError",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "기류 피해가 {0} 증가된다",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "캐릭터가 적에게 「풍식 효과」를 추가 시, 파티 내 캐릭터의 기류 피해가 {0} 증가되고, 자신의 기류 피해가 추가로 {1} 증가되며, {2}초간 지속된다",
+          "Param": [
+            "15%",
+            "15%",
+            "20"
+          ]
+        }
+      }
+    },
+    "21": {
+      "Id": 21,
+      "Name": "만물의 숨결에 비롯된 울림",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriSupport.T_IconElementAttriSupport",
+      "Color": "FFFFFF00",
+      "Set": {
+        "3": {
+          "Desc": "캐릭터가 에코 어빌리티 발동 시, 자신의 강공격 피해 보너스가 {0} 증가되고 {1}초간 지속된다. 파티 내 캐릭터의 에코 어빌리티 피해 보너스가 {2} 증가되고, 최대 {3}스택 중첩이 가능하며 {4}초간 지속된다. 같은 이름의 에코일 시 해당 효과는 1회만 발생할 수 있으며, 효과 종료 시 같은 이름의 에코의 기록은 리셋되고, {3}스택까지 중첩 시 에코 어빌리티를 발동할 경우 지속시간은 리셋된다",
+          "Param": [
+            "30%",
+            "4",
+            "4%",
+            "4",
+            "30"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 1,
+  "MonsterInfo": 320000310
+}

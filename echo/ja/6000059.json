@@ -1,0 +1,178 @@
+{
+  "Id": 6000059,
+  "Code": "Z01-",
+  "Name": "角",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_327_UI.T_IconMonsterHead_327_UI",
+  "Skill": {
+    "Desc": "音骸スキルを発動すると、「角」を召喚する。「角」は敵に{0}の回折ダメージを与えて雷を落とす。落雷は最大5段で、1段につき、周りの敵に{1}の回折ダメージを与える。そして「角」は下方に向かって旋回して周りの敵を攻撃し、{2}の回折ダメージを2回与える。\n音骸スキルを発動時、「光陰のご加護」が付与され、持続時間{3}秒。\n「光陰のご加護」持続時間中：\n・自身の共鳴スキルダメージ{4}アップ\n・自身の共鳴スキル命中後、命中した敵は1秒に{5}の回折ダメージを1回受ける。このダメージはキャラの共鳴スキルダメージと見なされ、持続時間{6}秒。\nクールタイム：{7}秒",
+    "SimpleDesc": "「角」を召喚し、敵を攻撃して回折ダメージを与える。音骸スキル発動後、装備キャラクターが共鳴スキルを発動すると敵に持続的に回折ダメージを与える。",
+    "Param": [
+      [
+        "30.40%",
+        "12.16%",
+        "30.40%",
+        "15",
+        "16.00%",
+        "10.00%",
+        "15",
+        "20"
+      ],
+      [
+        "34.96%",
+        "13.98%",
+        "34.96%",
+        "15",
+        "16.00%",
+        "11.50%",
+        "15",
+        "20"
+      ],
+      [
+        "39.52%",
+        "15.81%",
+        "39.52%",
+        "15",
+        "16.00%",
+        "13.00%",
+        "15",
+        "20"
+      ],
+      [
+        "44.08%",
+        "17.63%",
+        "44.08%",
+        "15",
+        "16.00%",
+        "14.50%",
+        "15",
+        "20"
+      ],
+      [
+        "48.64%",
+        "19.46%",
+        "48.64%",
+        "15",
+        "16.00%",
+        "16.00%",
+        "15",
+        "20"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_328_UI.T_MstSkil_328_UI",
+    "Damage": {
+      "28001201": {
+        "Element": 5,
+        "RelatedProperty": "攻撃力",
+        "Type": 4,
+        "RateLv": [
+          4000,
+          4600,
+          5200,
+          5800,
+          6400
+        ],
+        "Energy": 0,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 4000
+      },
+      "28001202": {
+        "Element": 5,
+        "RelatedProperty": "攻撃力",
+        "Type": 4,
+        "RateLv": [
+          1000,
+          1150,
+          1300,
+          1450,
+          1600
+        ],
+        "Energy": 0,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 800
+      },
+      "280012002": {
+        "Element": 5,
+        "RelatedProperty": "攻撃力",
+        "Type": 5,
+        "RateLv": [
+          3040,
+          3496,
+          3952,
+          4408,
+          4864
+        ],
+        "Energy": 76,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 3040
+      },
+      "280012003": {
+        "Element": 5,
+        "RelatedProperty": "攻撃力",
+        "Type": 5,
+        "RateLv": [
+          1216,
+          1398,
+          1580,
+          1763,
+          1945
+        ],
+        "Energy": 30,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 1216
+      },
+      "280012004": {
+        "Element": 5,
+        "RelatedProperty": "攻撃力",
+        "Type": 5,
+        "RateLv": [
+          3040,
+          3496,
+          3952,
+          4408,
+          4864
+        ],
+        "Energy": 76,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 3040
+      }
+    }
+  },
+  "Group": {
+    "5": {
+      "Id": 5,
+      "Name": "闇を取り払う浮星",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriLight.T_IconElementAttriLight",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "回折ダメージが10%アップ",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "変奏スキルで登場する時、回折ダメージが30%アップ。この効果は15秒間持続する",
+          "Param": [
+            "30%"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 3,
+  "MonsterInfo": 340000090
+}

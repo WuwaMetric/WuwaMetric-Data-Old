@@ -1,0 +1,136 @@
+{
+  "Id": 6000072,
+  "Code": "R09-",
+  "Name": "秘蔵ミミック",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31048_UI.T_IconMonsterHead_31048_UI",
+  "Skill": {
+    "Desc": "音骸スキルを発動すると、秘蔵ミミックを召喚して、連続攻撃で3段の{0}の回折ダメージを与える。\nクールタイム：{1}秒",
+    "SimpleDesc": "秘蔵ミミックを召喚して、連続攻撃で敵に回折ダメージを与える。",
+    "Param": [
+      [
+        "35.66%",
+        "15"
+      ],
+      [
+        "42.79%",
+        "15"
+      ],
+      [
+        "49.92%",
+        "15"
+      ],
+      [
+        "57.06%",
+        "15"
+      ],
+      [
+        "64.19%",
+        "15"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/MstSkil_31048_UI.MstSkil_31048_UI",
+    "Damage": {
+      "20007601": {
+        "Element": 5,
+        "RelatedProperty": "攻撃力",
+        "Type": 5,
+        "RateLv": [
+          3566,
+          4280,
+          4993,
+          5706,
+          6420
+        ],
+        "Energy": 89,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 3566
+      }
+    }
+  },
+  "Group": {
+    "10": {
+      "Id": 10,
+      "Name": "フロステッド・ハート",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriIceUltimateSkill.T_IconElementAttriIceUltimateSkill",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "共鳴スキルダメージが{0}アップ",
+          "Param": [
+            "12%"
+          ]
+        },
+        "5": {
+          "Desc": "共鳴スキル発動時、自身の凝縮ダメージが{0}アップ、{1}秒間持続；共鳴解放発動時、自身の共鳴スキルダメージが{2}アップ、{3}秒間持続、最大{4}スタック。",
+          "Param": [
+            "22.5%",
+            "15",
+            "18%",
+            "5",
+            "2"
+          ]
+        }
+      }
+    },
+    "12": {
+      "Id": 12,
+      "Name": "ミッドナイト・ベール",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriDarkAssist.T_IconElementAttriDarkAssist",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "消滅ダメージが{0}アップ",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "終奏スキルで退場時、追加で周囲の敵に{0}の消滅ダメージを与え、このダメージは終奏スキルダメージと見なされる。次の登場キャラに{1}の消滅ダメージアップ効果を付与し、{2}秒間持続。",
+          "Param": [
+            "480%",
+            "15%",
+            "15"
+          ]
+        }
+      }
+    },
+    "13": {
+      "Id": 13,
+      "Name": "セレッシャル・アンサム",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriCooperate.T_IconElementAttriCooperate",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "共鳴効率が{0}アップ",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "装備キャラの協同攻撃によるダメージが{0}アップ。協同攻撃がクリティカル時、チーム内の登場キャラの攻撃力を{1}アップさせ、{2}秒間持続。",
+          "Param": [
+            "80%",
+            "20%",
+            "4"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 0,
+  "MonsterInfo": 310000480,
+  "Phantom": {
+    "Name": "異相・秘蔵ミミック",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_SG_31048_UI.T_IconMonsterGoods_SG_31048_UI"
+  }
+}

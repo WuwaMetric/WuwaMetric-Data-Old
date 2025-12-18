@@ -1,0 +1,177 @@
+{
+  "Id": 6000098,
+  "Code": "W32-",
+  "Name": "라 과디어",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31052_UI.T_IconMonsterHead_31052_UI",
+  "Skill": {
+    "Desc": "에코 어빌리티를 사용하여 라 과디어로 변신하고, 주변 목표에게 {0}의 물리 피해를 1회 입힌다.\n에코 어빌리티를 길게 누르면 변신이 지속되고, 일정 시간 후 검을 휘두르며 전방에 대해 원거리 참격을 가한다. 검으로는 {1}의 물리 피해를 입히며, 참격으로는 지속적으로 최대 {3}의 물리 피해를 {2}회 입힌다.\n쿨타임: {4}초",
+    "SimpleDesc": "라 과디어로 변신하여, 적에게 물리 피해를 입힌다. 에코 어빌리티를 길게 누르면 원거리 참격을 발동할 수 있으며, 적에게 물리 피해를 입힌다",
+    "Param": [
+      [
+        "149.00%",
+        "149.00%",
+        "15",
+        "9.93%",
+        "15"
+      ],
+      [
+        "178.80%",
+        "178.80%",
+        "15",
+        "11.92%",
+        "15"
+      ],
+      [
+        "208.60%",
+        "208.60%",
+        "15",
+        "13.90%",
+        "15"
+      ],
+      [
+        "238.40%",
+        "238.40%",
+        "15",
+        "15.89%",
+        "15"
+      ],
+      [
+        "268.20%",
+        "268.20%",
+        "15",
+        "17.87%",
+        "15"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_31052_UI.T_MstSkil_31052_UI",
+    "Damage": {
+      "20008201": {
+        "Element": 0,
+        "RelatedProperty": "공격력",
+        "Type": 5,
+        "RateLv": [
+          14900,
+          17880,
+          20860,
+          23840,
+          26820
+        ],
+        "Energy": 372,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 14900
+      },
+      "20008202": {
+        "Element": 0,
+        "RelatedProperty": "공격력",
+        "Type": 5,
+        "RateLv": [
+          14900,
+          17880,
+          20860,
+          23840,
+          26820
+        ],
+        "Energy": 372,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 14900
+      },
+      "20008203": {
+        "Element": 0,
+        "RelatedProperty": "공격력",
+        "Type": 5,
+        "RateLv": [
+          993,
+          1192,
+          1390,
+          1589,
+          1788
+        ],
+        "Energy": 24,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 993
+      }
+    }
+  },
+  "Group": {
+    "12": {
+      "Id": 12,
+      "Name": "어둠의 장막",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriDarkAssist.T_IconElementAttriDarkAssist",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "인멸 피해가 {0} 증가된다",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "캐릭터가 반주 스킬을 발생시키고 퇴장 시, 추가로 주변 적에게 {0}의 인멸 피해를 입히고, 해당 피해는 반주 스킬 피해로 적용되며, 다음에 등장하는 캐릭터의 인멸 피해 보너스를 {1} 증가시키고, {2}초간 지속된다",
+          "Param": [
+            "480%",
+            "15%",
+            "15"
+          ]
+        }
+      }
+    },
+    "16": {
+      "Id": 16,
+      "Name": "끝없는 하늘",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriWindError.T_IconElementAttriWindError",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "기류 피해가 {0} 증가된다",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "캐릭터가 적에게 「풍식 효과」를 추가 시, 파티 내 캐릭터의 기류 피해가 {0} 증가되고, 자신의 기류 피해가 추가로 {1} 증가되며, {2}초간 지속된다",
+          "Param": [
+            "15%",
+            "15%",
+            "20"
+          ]
+        }
+      }
+    },
+    "18": {
+      "Id": 18,
+      "Name": "울부짖는 늑대의 불꽃",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriFireUltimateSkill.T_IconElementAttriFireUltimateSkill",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "용융 피해가 {0} 증가된다",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "공명 해방 발동 시, 파티 내 캐릭터의 용융 피해가 {0} 증가되고, 자신의 공명 해방 피해가 {1} 증가되며, {2}초간 지속된다",
+          "Param": [
+            "15%",
+            "20%",
+            "35"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 0,
+  "MonsterInfo": 310000520
+}

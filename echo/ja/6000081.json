@@ -1,0 +1,135 @@
+{
+  "Id": 6000081,
+  "Code": "R42-",
+  "Name": "ビッグベア",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_32030_UI.T_IconMonsterHead_32030_UI",
+  "Skill": {
+    "Desc": "音骸スキルを発動すると、ビッグベアに変身し、連続攻撃で{0}の物理ダメージを4段、{1}の物理ダメージを1段与える。\nクールタイム：{2}秒",
+    "SimpleDesc": "ビッグベアに変身し、連続攻撃で物理ダメージを与える。",
+    "Param": [
+      [
+        "26.10%",
+        "69.60%",
+        "20"
+      ],
+      [
+        "31.32%",
+        "83.52%",
+        "20"
+      ],
+      [
+        "36.54%",
+        "97.44%",
+        "20"
+      ],
+      [
+        "41.76%",
+        "111.36%",
+        "20"
+      ],
+      [
+        "46.98%",
+        "125.28%",
+        "20"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/MstSkil_32030_UI.MstSkil_32030_UI",
+    "Damage": {
+      "20006401": {
+        "Element": 0,
+        "RelatedProperty": "攻撃力",
+        "Type": 5,
+        "RateLv": [
+          2610,
+          3132,
+          3654,
+          4176,
+          4698
+        ],
+        "Energy": 65,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 2610
+      },
+      "20006402": {
+        "Element": 0,
+        "RelatedProperty": "攻撃力",
+        "Type": 5,
+        "RateLv": [
+          6960,
+          8352,
+          9744,
+          11136,
+          12528
+        ],
+        "Energy": 174,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 6960
+      }
+    }
+  },
+  "Group": {
+    "10": {
+      "Id": 10,
+      "Name": "フロステッド・ハート",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriIceUltimateSkill.T_IconElementAttriIceUltimateSkill",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "共鳴スキルダメージが{0}アップ",
+          "Param": [
+            "12%"
+          ]
+        },
+        "5": {
+          "Desc": "共鳴スキル発動時、自身の凝縮ダメージが{0}アップ、{1}秒間持続；共鳴解放発動時、自身の共鳴スキルダメージが{2}アップ、{3}秒間持続、最大{4}スタック。",
+          "Param": [
+            "22.5%",
+            "15",
+            "18%",
+            "5",
+            "2"
+          ]
+        }
+      }
+    },
+    "12": {
+      "Id": 12,
+      "Name": "ミッドナイト・ベール",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriDarkAssist.T_IconElementAttriDarkAssist",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "消滅ダメージが{0}アップ",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "終奏スキルで退場時、追加で周囲の敵に{0}の消滅ダメージを与え、このダメージは終奏スキルダメージと見なされる。次の登場キャラに{1}の消滅ダメージアップ効果を付与し、{2}秒間持続。",
+          "Param": [
+            "480%",
+            "15%",
+            "15"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 1,
+  "MonsterInfo": 320000300,
+  "Phantom": {
+    "Name": "異相・ビッグベア",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_SG_32030_UI.T_IconMonsterGoods_SG_32030_UI"
+  }
+}

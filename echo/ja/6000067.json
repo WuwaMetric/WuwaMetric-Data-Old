@@ -1,0 +1,130 @@
+{
+  "Id": 6000067,
+  "Code": "R04-",
+  "Name": "フェイイグニス",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31043_UI.T_IconMonsterHead_31043_UI",
+  "Skill": {
+    "Desc": "音骸スキルを発動すると、フェイイグニスを召喚して敵に{0}の消滅ダメージを与える。\nクールタイム：{1}秒",
+    "SimpleDesc": "フェイイグニスを召喚して敵に消滅ダメージを与える。",
+    "Param": [
+      [
+        "72.00%",
+        "8"
+      ],
+      [
+        "86.40%",
+        "8"
+      ],
+      [
+        "100.80%",
+        "8"
+      ],
+      [
+        "115.20%",
+        "8"
+      ],
+      [
+        "129.60%",
+        "8"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/MstSkil_31043_UI.MstSkil_31043_UI",
+    "Damage": {
+      "20006801": {
+        "Element": 6,
+        "RelatedProperty": "攻撃力",
+        "Type": 5,
+        "RateLv": [
+          7200,
+          8640,
+          10080,
+          11520,
+          12960
+        ],
+        "Energy": 180,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 7200
+      }
+    }
+  },
+  "Group": {
+    "11": {
+      "Id": 11,
+      "Name": "エターナル・ライト",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriLightError.T_IconElementAttriLightError",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "回折ダメージが{0}アップ",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "敵に【騒光効果】を付与時、自身のクリティカル率が{0}アップ、{1}秒間持続。【騒光効果】が{2}スタック付与された敵を攻撃時、自身の回折ダメージが{3}アップ、{4}秒間持続。",
+          "Param": [
+            "20%",
+            "15",
+            "10",
+            "15%",
+            "15"
+          ]
+        }
+      }
+    },
+    "12": {
+      "Id": 12,
+      "Name": "ミッドナイト・ベール",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriDarkAssist.T_IconElementAttriDarkAssist",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "消滅ダメージが{0}アップ",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "終奏スキルで退場時、追加で周囲の敵に{0}の消滅ダメージを与え、このダメージは終奏スキルダメージと見なされる。次の登場キャラに{1}の消滅ダメージアップ効果を付与し、{2}秒間持続。",
+          "Param": [
+            "480%",
+            "15%",
+            "15"
+          ]
+        }
+      }
+    },
+    "19": {
+      "Id": 19,
+      "Name": "ロスト・ドリーム",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriDarkVision.T_IconElementAttriDarkVision",
+      "Color": "FFFFFF00",
+      "Set": {
+        "3": {
+          "Desc": "キャラの共鳴エネルギーが{0}の時、自身のクリティカル率が{1}アップ、音骸スキルダメージが{2}アップ。",
+          "Param": [
+            "0",
+            "20%",
+            "35%"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 0,
+  "MonsterInfo": 310000430,
+  "Phantom": {
+    "Name": "異相・フェイイグニス",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_SG_31043_UI.T_IconMonsterGoods_SG_31043_UI"
+  }
+}

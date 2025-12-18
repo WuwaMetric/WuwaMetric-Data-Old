@@ -1,0 +1,115 @@
+{
+  "Id": 6000076,
+  "Code": "W67-",
+  "Name": "파트리시우스 귀족",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_32025_UI.T_IconMonsterHead_32025_UI",
+  "Skill": {
+    "Desc": "에코 어빌리티를 사용하여 파트리시우스 귀족으로 변신한 후, 전방으로 돌진하여 적을 공격하고 {0}의 응결 피해를 입힌다.\n메인 슬롯에 해당 에코 어빌리티를 장착 시, 자신의 응결 피해 보너스가 {1} 증가한다.\n스킬 쿨타임: {2}초",
+    "SimpleDesc": "파트리시우스 귀족으로 변신한 후, 전방으로 돌진하여 적을 공격하고 응결 피해를 입힌다. 메인 슬롯에 해당 에코 어빌리티를 장착 시 자신의 응결 피해를 증가시킨다",
+    "Param": [
+      [
+        "149.00%",
+        "12.00%",
+        "15"
+      ],
+      [
+        "178.80%",
+        "12.00%",
+        "15"
+      ],
+      [
+        "208.60%",
+        "12.00%",
+        "15"
+      ],
+      [
+        "238.40%",
+        "12.00%",
+        "15"
+      ],
+      [
+        "268.20%",
+        "12.00%",
+        "15"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/MstSkil_32025_UI.MstSkil_32025_UI",
+    "Damage": {
+      "20006101": {
+        "Element": 1,
+        "RelatedProperty": "공격력",
+        "Type": 5,
+        "RateLv": [
+          14900,
+          17880,
+          20860,
+          23840,
+          26820
+        ],
+        "Energy": 372,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 14900
+      }
+    }
+  },
+  "Group": {
+    "10": {
+      "Id": 10,
+      "Name": "냉철한 결단",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriIceUltimateSkill.T_IconElementAttriIceUltimateSkill",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "공명 스킬 피해가 {0} 증가된다",
+          "Param": [
+            "12%"
+          ]
+        },
+        "5": {
+          "Desc": "공명 스킬 발동 시, 자신의 응결 피해가 {0} 증가되고, {1}초간 지속된다. 공명 해방 발동 시, 자신의 공명 스킬 피해가 {2} 증가되고, {3}초간 지속되며, 최대 {4}스택 중첩이 가능하다",
+          "Param": [
+            "22.5%",
+            "15",
+            "18%",
+            "5",
+            "2"
+          ]
+        }
+      }
+    },
+    "13": {
+      "Id": 13,
+      "Name": "하늘의 합주곡",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriCooperate.T_IconElementAttriCooperate",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "공명 효율이 {0} 증가된다",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "현재 캐릭터의 협동 공격이 입히는 피해가 {0} 증가된다. 협동 공격으로 적을 명중하여 크리티컬이 발생할 경우, 파티 내 등장 캐릭터의 공격력이 {1} 증가되고, {2}초간 지속된다",
+          "Param": [
+            "80%",
+            "20%",
+            "4"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 1,
+  "MonsterInfo": 320000250
+}

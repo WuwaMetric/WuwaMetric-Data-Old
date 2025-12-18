@@ -1,0 +1,136 @@
+{
+  "Id": 6000072,
+  "Code": "R09-",
+  "Name": "Chest Mimic",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31048_UI.T_IconMonsterHead_31048_UI",
+  "Skill": {
+    "Desc": "Summon a Chest Mimic to attack enemies with 3 consecutive strikes, each dealing {0} Spectro DMG.\nCD: {1}s.",
+    "SimpleDesc": "Summon a Chest Mimic to deal consecutive Spectro DMG to enemies.",
+    "Param": [
+      [
+        "35.66%",
+        "15"
+      ],
+      [
+        "42.79%",
+        "15"
+      ],
+      [
+        "49.92%",
+        "15"
+      ],
+      [
+        "57.06%",
+        "15"
+      ],
+      [
+        "64.19%",
+        "15"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/MstSkil_31048_UI.MstSkil_31048_UI",
+    "Damage": {
+      "20007601": {
+        "Element": 5,
+        "RelatedProperty": "ATK",
+        "Type": 5,
+        "RateLv": [
+          3566,
+          4280,
+          4993,
+          5706,
+          6420
+        ],
+        "Energy": 89,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 3566
+      }
+    }
+  },
+  "Group": {
+    "10": {
+      "Id": 10,
+      "Name": "Frosty Resolve",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriIceUltimateSkill.T_IconElementAttriIceUltimateSkill",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "Resonance Skill DMG + {0}",
+          "Param": [
+            "12%"
+          ]
+        },
+        "5": {
+          "Desc": "Casting Resonance Skill grants {0} Glacio DMG Bonus for {1}s and casting Resonance Liberation increases Resonance Skill DMG by {2}, lasting for {3}s. This effect stacks up to {4} times.",
+          "Param": [
+            "22.5%",
+            "15",
+            "18%",
+            "5",
+            "2"
+          ]
+        }
+      }
+    },
+    "12": {
+      "Id": 12,
+      "Name": "Midnight Veil",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriDarkAssist.T_IconElementAttriDarkAssist",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "Havoc DMG + {0}",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "When Outro Skill is triggered, deal additional {0} Havoc DMG to surrounding enemies, considered Outro Skill DMG, and grant the incoming Resonator {1} Havoc DMG Bonus for {2}s.",
+          "Param": [
+            "480%",
+            "15%",
+            "15"
+          ]
+        }
+      }
+    },
+    "13": {
+      "Id": 13,
+      "Name": "Empyrean Anthem",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriCooperate.T_IconElementAttriCooperate",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "Energy Regen + {0}",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "Increase the Resonator's Coordinated Attack DMG by {0}. Upon a critical hit of Coordinated Attack, increase the active Resonator's ATK by {1} for {2}s.",
+          "Param": [
+            "80%",
+            "20%",
+            "4"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 0,
+  "MonsterInfo": 310000480,
+  "Phantom": {
+    "Name": "Phantom: Chest Mimic",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_SG_31048_UI.T_IconMonsterGoods_SG_31048_UI"
+  }
+}

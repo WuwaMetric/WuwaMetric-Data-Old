@@ -1,0 +1,161 @@
+{
+  "Id": 6000112,
+  "Code": "H55-",
+  "Name": "Kerasaur",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31062_UI.T_IconMonsterHead_31062_UI",
+  "Skill": {
+    "Desc": "Transform into Kerasaur to leap into the air and slam down, dealing {0} Aero DMG. Shortly after hitting the target, cast Echo Skill again to charge at the target, dealing {1} Aero DMG.\nThe Resonator with this Echo equipped in the main slot gains {2} Aero DMG Bonus and {3} Resonance Liberation DMG Bonus.\nCD: {4}s",
+    "SimpleDesc": "Transform into Kerasaur to leap into the air and slam down, dealing Aero DMG. Shortly after hitting the target, cast Echo Skill again to charge at the target, dealing Aero DMG.\nThe Resonator with this Echo equipped in the main slot gains Aero and Resonance Liberation DMG Bonus.",
+    "Param": [
+      [
+        "149.00%",
+        "149.00%",
+        "12.00%",
+        "12.00%",
+        "15"
+      ],
+      [
+        "178.80%",
+        "178.80%",
+        "12.00%",
+        "12.00%",
+        "15"
+      ],
+      [
+        "208.60%",
+        "208.60%",
+        "12.00%",
+        "12.00%",
+        "15"
+      ],
+      [
+        "238.40%",
+        "238.40%",
+        "12.00%",
+        "12.00%",
+        "15"
+      ],
+      [
+        "268.20%",
+        "268.20%",
+        "12.00%",
+        "12.00%",
+        "15"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_31062_UI.T_MstSkil_31062_UI",
+    "Damage": {
+      "20009401": {
+        "Element": 4,
+        "RelatedProperty": "ATK",
+        "Type": 5,
+        "RateLv": [
+          14900,
+          17880,
+          20860,
+          23840,
+          26820
+        ],
+        "Energy": 372,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 14900
+      },
+      "20009402": {
+        "Element": 4,
+        "RelatedProperty": "ATK",
+        "Type": 5,
+        "RateLv": [
+          14900,
+          17880,
+          20860,
+          23840,
+          26820
+        ],
+        "Energy": 372,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 14900
+      }
+    }
+  },
+  "Group": {
+    "17": {
+      "Id": 17,
+      "Name": "Windward Pilgrimage",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriWindErrorA.T_IconElementAttriWindErrorA",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "Aero DMG + {0}",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "Hitting a target with Aero Erosion increases Crit. Rate by {0} and grants {1} Aero DMG Bonus, lasting for {2}s.",
+          "Param": [
+            "10%",
+            "30%",
+            "10"
+          ]
+        }
+      }
+    },
+    "18": {
+      "Id": 18,
+      "Name": "Flaming Clawprint",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriFireUltimateSkill.T_IconElementAttriFireUltimateSkill",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "Fusion DMG + {0}",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "Casting Resonance Liberation grants all Resonators in the team {0} Fusion DMG Bonus and the caster {1} Resonance Liberation DMG Bonus, lasting for {2}s.",
+          "Param": [
+            "15%",
+            "20%",
+            "35"
+          ]
+        }
+      }
+    },
+    "22": {
+      "Id": 22,
+      "Name": "Flamewing's Shadow",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriFireA.T_IconElementAttriFireA",
+      "Color": "FFFFFF00",
+      "Set": {
+        "3": {
+          "Desc": "Dealing Echo Skill DMG increases Heavy Attack Crit. Rate by {0} for {1}s. Dealing Heavy Attack DMG increases Echo Skill Crit. Rate by {2} for {3}s. While both effects are active, gain {4} Fusion DMG Bonus.",
+          "Param": [
+            "20%",
+            "6",
+            "20%",
+            "6",
+            "16%"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 1,
+  "MonsterInfo": 320000340,
+  "Phantom": {
+    "Name": "Phantom: Kerasaur",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_SG_31062_UI.T_IconMonsterGoods_SG_31062_UI"
+  }
+}

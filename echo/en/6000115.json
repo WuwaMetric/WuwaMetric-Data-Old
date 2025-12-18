@@ -1,0 +1,90 @@
+{
+  "Id": 6000115,
+  "Code": "W93-",
+  "Name": "Nightmare: Hecate",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34016_UI.T_IconMonsterHead_34016_UI",
+  "Skill": {
+    "Desc": "Transform into Nightmare: Hecate. Leap up and smash down, dealing 3 stages of damage, each dealing Havoc DMG equal to {0} of her ATK.\nThe Resonator with the Echo equipped in the main slot gains {1} Havoc DMG Bonus and {2} Echo Skill DMG Bonus.\nCD: {3}s",
+    "SimpleDesc": "Transform into Nightmare: Hecate. Leap up and smash down to deliver 3 stages of Havoc DMG.\nThe Resonator with the Echo equipped in the main slot gains Havoc DMG Bonus and Echo Skill DMG Bonus.",
+    "Param": [
+      [
+        "84.66%",
+        "12.00%",
+        "20.00%",
+        "25"
+      ],
+      [
+        "101.59%",
+        "12.00%",
+        "20.00%",
+        "25"
+      ],
+      [
+        "118.52%",
+        "12.00%",
+        "20.00%",
+        "25"
+      ],
+      [
+        "135.46%",
+        "12.00%",
+        "20.00%",
+        "25"
+      ],
+      [
+        "152.39%",
+        "12.00%",
+        "20.00%",
+        "25"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/MstSkil_34010_UI.MstSkil_34010_UI",
+    "Damage": {
+      "28002901": {
+        "Element": 6,
+        "RelatedProperty": "ATK",
+        "Type": 5,
+        "RateLv": [
+          8466,
+          10159,
+          11852,
+          13545,
+          15238
+        ],
+        "Energy": 105,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 8466
+      }
+    }
+  },
+  "Group": {
+    "19": {
+      "Id": 19,
+      "Name": "Dream of the Lost",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriDarkVision.T_IconElementAttriDarkVision",
+      "Color": "FFFFFF00",
+      "Set": {
+        "3": {
+          "Desc": "Holding {0} Resonance Energy increases Crit. Rate by {1} and grants {2} Echo Skill DMG Bonus.",
+          "Param": [
+            "0",
+            "20%",
+            "35%"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 3,
+  "MonsterInfo": 340000160
+}

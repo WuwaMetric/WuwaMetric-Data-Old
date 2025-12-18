@@ -1,0 +1,110 @@
+{
+  "Id": 6000065,
+  "Code": "R02-",
+  "Name": "Chop Chop: Leftless",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31041_UI.T_IconMonsterHead_31041_UI",
+  "Skill": {
+    "Desc": "Summon a Chop Chop: Leftless to attack enemies, dealing {0} Spectro DMG.\nCD: {1}s.",
+    "SimpleDesc": "Summon a Chop Chop: Leftless to deal Spectro DMG to enemies.",
+    "Param": [
+      [
+        "72.00%",
+        "8"
+      ],
+      [
+        "86.40%",
+        "8"
+      ],
+      [
+        "100.80%",
+        "8"
+      ],
+      [
+        "115.20%",
+        "8"
+      ],
+      [
+        "129.60%",
+        "8"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/MstSkil_31041_UI.MstSkil_31041_UI",
+    "Damage": {
+      "20006501": {
+        "Element": 5,
+        "RelatedProperty": "ATK",
+        "Type": 5,
+        "RateLv": [
+          7200,
+          8640,
+          10080,
+          11520,
+          12960
+        ],
+        "Energy": 180,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 7200
+      }
+    }
+  },
+  "Group": {
+    "10": {
+      "Id": 10,
+      "Name": "Frosty Resolve",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriIceUltimateSkill.T_IconElementAttriIceUltimateSkill",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "Resonance Skill DMG + {0}",
+          "Param": [
+            "12%"
+          ]
+        },
+        "5": {
+          "Desc": "Casting Resonance Skill grants {0} Glacio DMG Bonus for {1}s and casting Resonance Liberation increases Resonance Skill DMG by {2}, lasting for {3}s. This effect stacks up to {4} times.",
+          "Param": [
+            "22.5%",
+            "15",
+            "18%",
+            "5",
+            "2"
+          ]
+        }
+      }
+    },
+    "14": {
+      "Id": 14,
+      "Name": "Tidebreaking Courage",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriEnergy.T_IconElementAttriEnergy",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "Energy Regen + {0}",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "Increase the Resonator's ATK by {0}. Reaching {1} Energy Regen increases all Attribute DMG by {2} for the Resonator.",
+          "Param": [
+            "15%",
+            "250%",
+            "30%"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 0,
+  "MonsterInfo": 310000410
+}

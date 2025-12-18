@@ -1,0 +1,96 @@
+{
+  "Id": 6000084,
+  "Code": "H82-",
+  "Name": "탄식의 고룡",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_33013_UI.T_IconMonsterHead_33013_UI",
+  "Skill": {
+    "Desc": "에코 어빌리티를 사용하여 탄식의 고룡으로 변신한 후, 5초간 지속되는 「비통의 영역」을 소환하고 주기적으로 「비통의 영역」 내에 있는 적에게 {0}의 용융 피해를 입힌다.\n메인 슬롯에 해당 에코 어빌리티를 장착 시, 자신의 용융 피해 보너스가 {1} 증가하고, 일반 공격 피해 보너스가 {2} 증가한다.\n스킬 쿨타임: {3}초",
+    "SimpleDesc": "탄식의 고룡으로 변신한 후, 「비통의 영역」을 소환하여 일정 범위 내의 적에게 지속적으로 용융 피해를 입힌다. 메인 슬롯에 장착 시 자신의 용융과 일반 공격 피해를 증가시킨다",
+    "Param": [
+      [
+        "20.45%",
+        "12.00%",
+        "12.00%",
+        "25"
+      ],
+      [
+        "24.54%",
+        "12.00%",
+        "12.00%",
+        "25"
+      ],
+      [
+        "28.63%",
+        "12.00%",
+        "12.00%",
+        "25"
+      ],
+      [
+        "32.72%",
+        "12.00%",
+        "12.00%",
+        "25"
+      ],
+      [
+        "36.81%",
+        "12.00%",
+        "12.00%",
+        "25"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/MstSkil_33013_UI.MstSkil_33013_UI",
+    "Damage": {
+      "28001501": {
+        "Element": 2,
+        "RelatedProperty": "공격력",
+        "Type": 5,
+        "RateLv": [
+          2045,
+          2454,
+          2863,
+          3272,
+          3681
+        ],
+        "Energy": 51,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 2045
+      }
+    }
+  },
+  "Group": {
+    "14": {
+      "Id": 14,
+      "Name": "파도에 맞선 용기",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriEnergy.T_IconElementAttriEnergy",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "공명 효율이 {0} 증가된다",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "캐릭터의 공격력이 {0} 증가되고, 공명 효율이 {1}에 도달한 후 현재 캐릭터의 전체 속성 피해가 {2} 증가된다",
+          "Param": [
+            "15%",
+            "250%",
+            "30%"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 2,
+  "MonsterInfo": 330000130
+}

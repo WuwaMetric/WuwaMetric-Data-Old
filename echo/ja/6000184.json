@@ -1,0 +1,75 @@
+{
+  "Id": 6000184,
+  "Code": "T01-",
+  "Name": "スペーストレック重機",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_32054_UI.T_IconMonsterHead_32054_UI",
+  "Skill": {
+    "Desc": "音骸スキルを発動すると、トレックシーカーを召喚し、チーム内の登場キャラは召喚者HP上限の{0}のシールドを獲得し、{1}秒間持続。\nクールタイム：{2}秒",
+    "SimpleDesc": "トレックシーカーを召喚し、キャラにシールドを付与。",
+    "Param": [
+      [
+        "10%",
+        "4",
+        "20"
+      ],
+      [
+        "10%",
+        "4",
+        "20"
+      ],
+      [
+        "10%",
+        "4",
+        "20"
+      ],
+      [
+        "10%",
+        "4",
+        "20"
+      ],
+      [
+        "10%",
+        "4",
+        "20"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_32054_UI.T_MstSkil_32054_UI",
+    "Damage": {}
+  },
+  "Group": {
+    "25": {
+      "Id": 25,
+      "Name": "スターブライト・リング",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriCureWeakness.T_IconElementAttriCureWeakness",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "HP回復効果{0}アップ",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "チーム内キャラのHPを回復時、自身の不協和値蓄積効率の{0}につき、チーム内キャラの攻撃力が{1}アップ、最大{2}アップ可能、{3}秒間持続、同名効果を重複発動できない。",
+          "Param": [
+            "1%",
+            "0.2%",
+            "25%",
+            "4"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 1,
+  "MonsterInfo": 320000540
+}

@@ -1,0 +1,5187 @@
+{
+  "Id": 1411,
+  "Rarity": 5,
+  "Weapon": 2,
+  "Element": 4,
+  "Tag": {
+    "3": {
+      "Name": "協奏効率",
+      "Desc": "高い協奏効率を持つ",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/RoleLabel/SP_RoleLabelA3.SP_RoleLabelA3",
+      "Color": "ff4040"
+    },
+    "5": {
+      "Name": "重撃ダメージ",
+      "Desc": "重撃のダメージが高い",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/RoleLabel/SP_RoleLabelB2.SP_RoleLabelB2",
+      "Color": "ffde73"
+    },
+    "32": {
+      "Name": "音骸スキルダメージブースト",
+      "Desc": "特定のチームメイトに音骸スキルダメージブースト効果を付与する",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/RoleLabel/SP_RoleLabelD12.SP_RoleLabelD12",
+      "Color": "ff7777"
+    }
+  },
+  "Name": "仇遠",
+  "NickName": "仇遠",
+  "Desc": "その両目は光を失い、ただ独り行く剣客。以前は明庭鎮撫司に勤めており、官職は千戸であった。\n若き日は、数多の仇敵と刃を交え、長じては、法の下に人を捕らえた。されど、濡れ衣を着せられ獄に下り、今や、天涯孤独の風来坊となった。",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_56_UI.T_IconRoleHead256_56_UI",
+  "Background": "/Game/Aki/UI/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Qiuyuan_UI.T_IconRole_Pile_Qiuyuan_UI",
+  "BackgroundStand": "/Game/Aki/UI/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyQiuyuan.T_ActivityRoleOntrialHalfBodyQiuyuan",
+  "CharaInfo": {
+    "Birth": "不明",
+    "Sex": "男",
+    "Country": "瑝瓏",
+    "Influence": "明庭",
+    "Info": "その両目は光を失い、ただ独り行く剣客。以前は明庭鎮撫司に勤めており、官職は千戸であった。\n若き日は、数多の仇敵と刃を交え、長じては、法の下に人を捕らえた。されど、濡れ衣を着せられ獄に下り、今や、天涯孤独の風来坊となった。",
+    "TalentName": "竹に隠れし刃",
+    "TalentDoc": "「<te href=260009>明庭</te>諦天鑑監正雑録――書状編」\n東園兄へ。\n先日、<te href=260001>鎮撫司</te>より三法司及び華胥研究院を経て、諦天鑑へ回付された文書の件、私も直ちに重州の州監に協力を命じ、重州の共鳴者名簿を精査させました。現時点にて、当該人物と重州の<te href=850083>歳主</te>及び<te href=850074>鳴式</te>との間に関連無きこと、判明しております。\n<te href=260002>諦天鑑</te>の調査によれば、当該人物の共鳴歴は十五年余り。所謂「心の中に竹有り、それを裁ちて刃と為す」とのこと。両目は見えずも、「<te href=260003>心の鏡</te>」を有し、心中に具象化された「竹林」を通じて外界の事象を感知し、敵の心境や隙を見破ることができる。更には「心の鏡」を外部に投影することも可能であり、侮りがたき相手です。\nまた、彼の剣術は共鳴能力よりも、彼自身の技量に由来するところが大きいように見受けられます。常に己の共鳴能力を抑制していることは、明らかです。本人の言によれば、携帯する竹筒には、彼の「心の鏡」と共鳴エナジーを増幅させる薬液が入っており、重州のある医者が調合したもので、必要な時にのみ服用するとのこと。この件、東園兄より別途研究院に回付し、成分解析を依頼されてもよろしいかと。\n当該人物の詳細な検査データにつきましては、東園兄におかれましても、研究院の報告をお待ちいただければと存じます……\n――東園の注釈：正式な報告書に記録さえすればよい。全ては諦天鑑の意向を基準とせよ……やれやれ、林も、相変わらずこうも持って回った言い方をするな。",
+    "TalentCertification": "「<te href=260009>明庭</te><te href=260002>諦天鑑</te>監正雑録――書状編」\n……ここ数日、私が見るに、彼は共鳴能力を使用しないと言うより、むしろ、常に意図してそれを使用せぬよう、自ら抑え込んでいるかのようです。この能力そのものについては、本人は固く口を閉ざしており、研究院の報告書から、その一端を垣間見るしかありません。\n<i>被検者の波形測定は楕円形の変動を示し、時間領域は安定、異常波形は見られず。\n現在の<te href=850073>オーバークロック</te>臨界値は極めて高く、安定性も高い。オーバークロックのリスクなし。\n過去のオーバークロック歴、なし。心理カウンセリングの必要もなし……\n備考：被検者は、過去に数々の罪を犯し、武を以て禁を破ったと自白。しかし、その口調は極めて平然としており、刑部及び重州地方にて調査することを推奨する。</i>\n……しかし、私が見るに、この男には殺気がなく、落ち着き払っています。そして剣術の腕前は、明庭広しといえども敵う者は稀であり、まさに<te href=260001>鎮撫司</te>にほしい逸材。三法司の記録にあるような、武を以て禁を破ったという罪状、実に信じ難いものです。弟、既に礼部に上申し、利害を陳述いたしました。東園兄がこの男を用いるに当たり、礼部が障害となることは、まずありますまい。\n――東園の注釈：オーバークロックときたら、当然、安定していればいるほど良い。とはいえ、この報告書を見る限り、なんだか、少し穏やかすぎやしませんかね……",
+    "CVNameCn": "Gan Ziqi",
+    "CVNameJp": "三木眞一郎",
+    "CVNameKo": "Kim Min Ju",
+    "CVNameEn": "Jeremy Ang Jones"
+  },
+  "Stories": [
+    {
+      "Title": "剣の砥ぎ方",
+      "Content": "「一重の山、即ち一つの関なり。その山を越えりゃ、お前さんは自由だ。山を越えさえすりゃ、好きにしていい。だが、越えられなかったら、お前が背負ってるもんは、この山に置いていってもらう」\n仇遠は当然、覚えていた。これは5年前、血と炎の廃墟の中でかの老人と出会った時、彼が自分にかけた最初の言葉だ。\n彼はその老人を「師匠」と呼んだ。だが、彼はそう呼ぶ人物の顔を、自らの目で見たことは一度もなかった。ただ、師匠がおそらくは髭を蓄え、穴の開いた粗い麻の上着を纏った老人であろうことだけは知っていた。彼は自分を導き、一身の武芸を学ばせ、日々の鍛錬の中で、心の中にある、山風に揺れるあの竹林を垣間見させた。\nある者は語った。彼の師匠は、かつての重州の剣鬼。人を殺すこと数知れず、その刃の錆となった亡魂は無数。歳主の赦しを得て死罪を免れたのだと。ある者は語った。老人は、<te href=260009>明庭</te>に武名を轟かせた大将軍。人臣の位を極め、領土を開拓した功績があったが、後にこの地に流され、孤独な最期を賜ったのだと。またある者は語った。年老いた剣士は単なる伝説で、実在などしない。そもそも竹竿一本で、山を埋めるほどの残像を退けられる者などいるはずがない、と。\nだが、彼は信じている。5年もの間、彼は世間を渡り歩き、負け知らずであったが、この老人の手からは、ただの一合たりとも勝利を収めたことはなかった。\n「師匠は、5年前も同じ言葉を口にしました」\n「あっという間だな。もう5年か」\n彼はこの日を、ずっと……師匠に勝てさえすれば、この竹林を、この山を、そして、一度も勝てなかったこの人を、越えられる。\n「お前に教えることは、もう何もない。あとは、一番大事な教えだけ。この最後の難関が何か、分かるか？」\n「ぜひ、ご教示ください」\n「仇遠よ、この竹林に何が見える」\n「葉は槍、竹は棍棒。まるで人で埋め尽くされているかのようです。無数の影が、その中に」\n「5年前のあの大火が、まだお前さんの心で燃えとる」\n「あの火は、師匠の心にも、未だ燃えておられる……違うか、元『剣鬼』よ」\n「……久しいな。生ける者からそう呼ばれるのは。まあよい。ならば、もう、これ以上説明する必要もあるまい。最後の教え、それはこの身にある。さあ、取りに参れ」\n5年前、あの地獄絵図を作り出した元凶は、まさに彼本人だった。そして、仇遠を修羅の巷から救い出したのも、また彼だった。\n「抜きしこの剣 教えに恥じる立ち合いはせぬ」\nあの劫火は、今も鎮まってはいなかったのだ。"
+    },
+    {
+      "Title": "剣の隠し方",
+      "Content": "「横になったまま動くなかれ」\n彼が再び目覚めた時、幾重にも包帯で巻かれた痛みとは別に、その厳しい声から、殺意とは全く逆の何かを感じ取った。そしてまさにその時、その違いが、この全身を走る痛みの原因を彼に思い出させた。\n「某は……」\n「丸腰で数十人を相手にするなど、死に急ぐにも程がある」\n「某は……死んだはずだ」\n「生きながらえる者の多くは死すべきであり、死したる者の多くは、本来生きるべきであった。人の命とは、かようなものよ」\n憎しみと入り混じった悔やみが、彼に剣をいつ鞘に納めるべきかを教えた。だが、その悔やみですら、5年もの間、一日たりとも忘れなかった憎しみを押しとどめることはできなかった。彼は今でも覚えている。5年前、あの土砂降りの雨ですら消せなかった烈火と、その中で、長剣を手に目の前に立ったあの老人を。\nそして5年後、彼が山を下りた日、剣を洗う雨は降らず、ただ自分の頬を伝う辛い酒と、一つのため息だけがあった。\n憎しみというもの、或いは血で洗い流すしかない。しかし、洗い流した後に何が残るのか、誰も知る由もない。\n彼もまた、既に剣を握る動機を失っており、数多の刃が己が身に迫るのを、ただなすがままにさせていた――\n「ふん、もっとも、そなたが死すべきか、生くべきか、わしにも分からぬがな。死ぬも生くるも、そなたの内にある」\nその日から、彼は二度と剣を手にすることなく、ただ手元にあった竹枝を掴み、あばら家の前で、日夜薬を煎じる土鍋の番をしながら、ぼんやりと座っていた。薬を求めてここを往来する患者たちと、「張太医」と呼ばれる、あの頑固な中年男の姿を、心に思い浮かべながら。\nそして、過去数年間、一度も味わうことのなかった静寂を、ただ享受していた。\nこの「張太医」という男に地獄の縁から引き戻されてからというもの、彼は心の中にあった刀や槍でできた竹林を、二度と「見る」ことはなかった。目の前には、ただどこまでも純粋で、静かな闇があるだけ。彼はもう、他人の目の中にある憎しみの炎を「見る」必要はなかった。鼻をくすぐるは、濃密な薬香。耳に届くは、炉の薪が日々パチパチと鳴る音と、人々の苦しみ、涙、感謝、そして笑い声だけだった。\nその時、彼は初めて、自分も他の人と何ら変わりはないのだと思い至った。\n「この薬筒を持っておけ。薬を作る時は、処方箋通り、三杯の水を一杯になるまで煎じるがよい」\n「これは？」\n「そなたが重傷を負った折、血の巡りが弱いと見て、劇薬を以て、かろうじてその命を繋ぎ止めた。だが、その代償として、そなたの共鳴の力は傷つき、ほとんど残っておらん」\n「これは、そなたの『<te href=260003>心の鏡</te>』を再び呼び覚ます薬よ。いつの日か、そなたが再び刃を握るのであれば、役に立とう」\n「あるまい。そのような日は、二度と。先生には命を救われ、この御恩に報いる術もない。某はここで、火の番をする下男として、先生のために雑事をこなそう」\n「そなたは生まれついての修羅の相。手のひらの命脈はことごとく断たれ、『情ある者はそれに突き動かされ驚き怯み……そして常に苦悩に苛まれる』。刀剣に囲まれて果てるのみ。どうして、このあばら家で穏やかに老い死ぬことができようか」\n「『情ある者はそれに突き動かされ驚き怯み……そして常に苦悩に苛まれる』、師匠も、同じようなことを仰っておった」\n「ふん、そなたのような弟子を育てるのだ、その師もまともな人間ではなかろう」\n「……いずれにせよ、某は二度と剣を手にするまい。されど、薬は頂戴し、先生のもとに某を留め置いていただきたく。もし某のことで、誰かがこの地に厄介事を持ち込むようならば、すぐに立ち去ろう」\n「やれやれ。薬もな、剣も同じよ。使い方と量、それ次第で全く違う。人を殺すこともできれば、活かすこともできる」\n「仇遠、門を開けよ。炉の火もおこすがよい。一つ、わしがそなたより優れておることがある。まだ、このわしに面倒事を持ち込む勇気のある者は、おらぬということよ」"
+    },
+    {
+      "Title": "剣の使い方",
+      "Content": "「へぇ、それほどの腕を持ちながら、田舎で朽ち果てるつもりとは。お前の手にかかって死んだ者たちに、顔向けできまい」\n「人違いだ。先生、この患者に薬を」\n彼はただ炉中の薪を操るのみで、傍らの老人を気にしなかった。当初、その男は時折あばら家に来ては張太医と無駄話をするだけだったが、そのうち何度も仇遠を訪ねてきては、どうでもいいことを話して聞かせるようになった。\nただこの時ばかりは、男は仇遠に向かって、なんの前触れもなく拳ほどある鉄の塊を放り投げた。彼はとっさに額を守るため手を伸ばし、それをがっちりと掴むしかなかった。\n「先生のご友人であろう。何故、かくも難癖を」\n「お前、それが何であるか、分かるはずだ」\n特別に精製された鋼でできた獣の頭は、ひんやりとした冷気を放っていた。間違いない。\n「<te href=260001>鎮撫司</te>……某を捕らえに来たのか？」\n「お前を捕らえるために、そもそも私が直々に出向く必要などない。お前の身には、かなりの人命がかかっているのは確かだが。筋を通すなら、三法司がお前を裁くべきだろうな」\n「裁くというなら、そうするがよい」\n「しかしだ、お前は本当に、刑場の露と消えることのみを望むのか？」\n「しょせん死ぬ身、どこで果てようと変わりはない」\n「それこそ、お前のその腕に対して、相済まぬというものだ」\n「…………」\n「命は命で、血は血で償うのは当然。いずれお前は刑場で死ぬやもしれん。だがその前に、その罪をいくらかは贖ってもらおう」\n「私と来い。お前が刑場に上がるその前までは、牢獄の中や、病床の上で死ぬことのないよう、私が保証しよう」\n彼は<te href=260009>明庭</te>鎮撫司の恐ろしさを知っていた。あれは、特製の鉄鋼で作られた、「窮奇」という珍獣の頭の形をした飾りで、龍主から賜った物であった。それを前にした者は、各地の役人であれその官位にかかわらず、龍主に拝謁するような礼を執らねばならない。この飾りを身に付ける者たちは、<te href=850093>瑝瓏</te>各地を自由に行き来し、龍主直轄以外の官庁の制約を受けず、各地の重大事件を専門に扱う――「彼らが子の刻に汝の死を命ずれば、無常という死を司る冥界の役人とて、寅の刻にその魂を勾引すること能わず」と。\n「お前は、ただ己のためだけに剣を振るうのではなく、明庭のために、そして天下万民のために悪を討つこともできるのだ」\n「某はただの、しがない盲人。天下万民という四文字は、あまりに大きすぎる。某には抱えきれぬほどに」\nその男は、そばにあった薪を一本拾い上げ、目の前の炉火を見つめた。\n「張先生が、明庭を離れた理由は知っているか？」\n「……存じない。先生は一度も語らず、某も一度も尋ねたことはない」\n「一人を医するは、万人を医するに如かず」\n男はそれ以上語らず、ただ薬を煎じる炉の中に、もう一本の薪をくべた。\n三日後、彼と男は並んであばら家の門前に立っていた。重州の山奥の朝露も、薬を煎じる炉の青煙も、二人を送ることなく、ただほのかな夜明けの光だけが差し込んでいた。\n「奴は、そなたに話したであろう。わしが明庭を去った訳を……ふん」\n「あの鎮撫司の男は、わしと似た昔からの偏屈者よ。されど、それこそが、彼がそなたを口説き落とし、共に歩ませる所以でもあろう」\n「世の中は広い。わしが救えるのは一人ずつ。されど、あの男、梁東園こそが、朝廷にて病根を断つことのできる男よ」\n「時は来た、参れ。そなたらがいつまでもここに突っ立っておっては、後でわしの患者が参った折に、皆そなたらに恐れをなして逃げてしまうわ」\n医者は彼の肩を叩き、振り返ることなくあばら家の中へ入っていった。彼に一言も残す暇さえ与えずに。\n何年経とうと、仇遠は今なお覚えている。無数の患者が踏み固めたこの田舎道の上で、ひざをついた、あの清々しい朝のことを。\n「この仇遠、先生の御恩、肝に銘じる」"
+    },
+    {
+      "Title": "剣の壊し方",
+      "Content": "手には枷、足には鎖。\nかつて、多くの汚職役人や大盗賊を、彼自身の手でこの牢獄へと送った。あの頃、彼は牢の外の人間であったが、今はあの者らと同じく、牢の中にいる。\n「開けよ」\n「林様、まもなく刻限にございます。これは……」\n「開けよと言っておる」\nほぞとかんぬきが、かさかさと音を立てる。やって来た男は彼の前に座り、それと共に、微かな食事と酒の香りが漂ってきた。\n「諦天鑑による問罪であるぞ。そなたも、ここで見物するつもりか？」\n「下官はただ、命令に従い職務を……」\n「よろしい。本官もまた、勅命を奉じておるのだ。天牢の重罪人の処刑には、古来より諦天鑑の尋問が必須。この者に問わねばならぬことがある。皆、下がれ」\n「は、監正様……」\n「門を閉じよ。本官が出る時、改めて開けの命を下す」\n慌ただしい足音が遠ざかり、牢の中には、二人だけが残された。\n「刑が執り行われるのは午三つ時の正刻であり、今は、午一つ時の初刻」\n「林様、某を見送りに？」\n「まず杯を干すがよい……東園兄の弔いだと思ってな」\n彼は、林監正が満たした杯を飲まず、重き鎖を引きずり、杯を捧げ、地面にそれを注いだ。\n「あの時、現場にはそなたら二人きり。東園兄は、あのようにして無惨に……されど、これは天をも衝く大罪。かの真犯人は、罪の証を一つたりとも残さなんだ。三法司も、そなたを罪人として差し出すほかなかったのだ」\n「某が、梁様を救えなかった」\n「そなた、未だ東園兄の身より……『切り離された』犯人のことを覚えておるか？」\n「たとえ灰になろうとも、あの気配、某が忘れることはない」\n「諦天鑑にて古今東西の書を調べしも、他人の姿に化け、その肉体を切り離すことのできる共鳴者など、いまだ見つからなかった……」\n「あの時、梁様に、一体どれほどの意識が残っておったのか……」\n「あるいは、東園兄が最後にそなたに託した今州での一件、あれは彼の本意ではなかったやもしれん。彼の品位を思えば、たかが残像を斬れる程度の兵士に、追討の令を下すなど、あり得ぬこと」\n「故に……某は見逃した。哥舒臨という男を。あの時、某はこう考え申した。某の知る恩人であれば、このような命令は下さぬ、と」\n「東園兄は、やはりそなたを見誤ってはおらなんだな。探るとすれば、あの一件より他なし。されど、その内実は……あるいは、永遠に明らかにならぬかもしれぬ」\n「某が一生にて負いし血債、数知れず。また、梁様と林様両、ならびに張先生より受けし恩は、返す術なく……」\n「来世にて、お返しする所存」\n「東園兄は言っておった。そなたを牢の中や、病床の上では死なせぬと」\n監正は立ち上がり、牢の門前で諭すように言った。\n「<te href=260009>明庭</te>天牢の重罪人、その刑が執り行われるのは午三つ時の正刻。午三つ時の初刻には、三法司から諦天鑑へ、龍主と歳主の聖断を仰ぐための上奏文が届けられねばならぬ。龍主と<te href=850083>歳主</te>の承認文書があって初めて、一時間後に刑を執り行うことができる」\n「<te href=260002>諦天鑑</te>より三法司へ、龍主と歳主の文書が返送されなければ、刑を執り行うことはできぬ」\n「この先の道、そなた、独り進む外なし。心に刻め。この一件、そなたの命に代えても、必ずや真実を明らかにせよ。死ぬのであれば、東園兄の仇を討つ、その道すがらに死ぬがよい」"
+    },
+    {
+      "Title": "剣の鍛え方",
+      "Content": "彼が<te href=260009>明庭</te>から命からがら逃げ出し、六州全域から追われる逃亡犯となってから、すでに5年が過ぎていた。\n5年の月日が流れても、明庭という街は相変わらずの繁栄を誇っていた。ただ、彼の身なりはますますみすぼらしくなり、各地の風霜に染まっている。<te href=260002>諦天鑑</te>の林監正は重い病に罹り、老いを理由に官職を辞した。かつて彼の手から生き延びたあの若者は、辺境の将軍となったが、また鳴式の手に攫われた。\n師匠は剣を抜く時期と納める時期を彼に教えていたが、彼が剣を納めていた頃、全ては闇の淵へと滑り落ちていった。\n恩人は、剣は人を殺すこともできれば、人を活かすこともできると教えた。だが彼は、救いたい人を救うことができなかった。\n変幻極まりない運命は、常に彼に付き纏う。万物は移ろえど、なお何一つ変わらぬかのようにも思えた。\nそして今も変わらないのは、恩人を殺害したあの犯人を、彼は未だに見つけ出せていないということだ。もっとも、彼もまた、真相の究明を諦めたことは一度もなかった。\nもし、林監正が人を遣わして彼を探し出し、明庭<te href=260010>軍策府</te>の<te href=260008>本兵</te>が重要な手がかりを握っていると告げなければ、おそらく彼は、この瀬戸際に、危険を冒してまで明庭へ戻ってくることはなかっただろう。\n「来たか」\n糸が連なるような豪雨の中、同じく笠を被り、顔の分からない人物が、漆黒の橋の下から歩み出てきた。\n「先頃、残星組織の『スカー』という名の監察が、今州の牢獄から脱走した」\n「我々の情報によれば、数日前、<te href=850096>リナシータ</te>のセブン・ヒルズ近辺に現れた。奴は<te href=850091>今州</te>の罪人であり、我ら<te href=850093>瑝瓏</te>の罪人でもある。どう言おうと、捕らえねばならん」\n「その儀、お主らでやればよかろう」\n「リナシータときたら、少々勝手が違う。あそこには、鳴式の共鳴者に似たような人間が存在するのだ」\n「……故に、某を思い出したと？」\n「梁東園殺害事件の問題点は、そなたにある。そしてそなたの問題点は哥舒臨にあり、哥舒臨の問題点は今州の<te href=850074>鳴式</te>にある。こうして手繰っていけば、あるいは、当時東園がなぜお前にあの命令を下したのかが分かり、真犯人の手がかりも見つかるやもしれん」\n「残星組織とリナシータの鳴式については、この文書の中に全て記してある。本官印信の文書を持ち、まずは今州へ赴き話を聞け」\n「そなたの遠い親戚、あの<te href=850124>令尹近衛</te>も今州におる。『スカー』の脱獄方を突き止め、その後、東へ海を渡り、リナシータへ向かえ」\n仇遠には、確かにそのような遠縁の親戚がいた。もっとも、距離が遠いゆえ、ほとんど交流はない。ただ、その者が近頃、今<te href=850084>令尹</te>の近衛になったと知るのみだ。\n「彼女が、某に会うとは限るまい」\n「どう言おうと、そなたらは叔父と姪の間柄だ。如実に話せば、彼女も信じよう。そうだ、今州から出発するのなら……あの{PlayerName}も、今はリナシータにおるぞ」\n「{PlayerName}……かの者も、か？」\n「うむ。今州の件については、{Male=彼;Female=彼女}に聞くこともできよう」\n「……よい。文書をいただく。直に出発の支度をする」\n「待て！」\n仇遠が文書を受け取り、振り返って去ろうとした時、その者に呼び止められた。\n「戻ってきたからには、東園に会いに行くが良い。知っておるぞ。毎年命日には、そなたが戻ってきては、お香をあげていることを」\n「……戻ってから、改めて。必ずや手がかりを見つけ、その時こそ、戻って恩人の御霊に報告いたす」\n「お主の言う、あの逃亡犯だが……」\n「捕らえて連れ帰るのが最善。だが、状況が切迫しておれば、その場での処刑も許可する。三法司の方には、本官が話を通しておこう」\n「承知した」\n仇遠は頷き、それ以上話すことなく、雨の帳の向こうへと消えていった。\n彼は知っていた。己が身に、朝廷の数えきれないほどの権力争いを担っていることを。例えば、「スカー」の逮捕ですら、明庭は正式に人員を派遣することを望まず、ただ自分という、記録上は逃亡犯の男に、単独で行動させていることを。\nだが、それも彼とは何の関係もない。彼は気にしないし、関心もない。彼はただ、自分が見ることのできなかった、あの真相を見つけ出したいだけだ。\nしかし、仇を討ち、恩を返した後、またどうすればよいというのか？ それが、彼の鞘となるのだろうか？\nおそらく、彼がもう少し年老いた時、その答えも分かるのだろう。"
+    }
+  ],
+  "Voices": [
+    {
+      "Type": 1,
+      "Title": "心の声・その一",
+      "Content": "<te href=260009>明庭</te>の情報網は天下に遍く広がっている。<te href=850091>今州</te>で戦が起これば半刻と経たず、明庭内部の瑝覧類書に情報が書き記され、某の手に届くほどだ。どうやって見るのか、だと？無論、機器に読み上げさせておる。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_sys_toplayer01.play_favor_word_qiuyuan_sys_toplayer01"
+    },
+    {
+      "Type": 1,
+      "Title": "心の声・その二",
+      "Content": "国の運営に関わる問題とあらば、たとえ道を塞ぐのが瑞草であろうと、薙ぎ払うまで。<te href=260001>鎮撫司</te>の務めは、世の人が思うほど単純ではない。梁様が存命だった頃、我らは<te href=260009>明庭</te>、そして<te href=850093>瑝瓏</te>のためだけに動いておった。だが、時と共に人も物事も移ろいゆく定め……",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_sys_toplayer02.play_favor_word_qiuyuan_sys_toplayer02"
+    },
+    {
+      "Type": 1,
+      "Title": "心の声・その三",
+      "Content": "某の目には、光が届かぬ。しかし、人の心は別。傲慢、憎悪、殺意、愉悦……それらは様々な色を持った人影として見える。だが、お主の色は判別できぬ。底が知れぬからか……あるいは彼女の言う通り、ありのままに生きているからか。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_sys_toplayer03.play_favor_word_qiuyuan_sys_toplayer03"
+    },
+    {
+      "Type": 1,
+      "Title": "心の声・その四",
+      "Content": "この十数年、某は一度も敗北を喫しておらぬ。光を失ったとて、剣筋はかつてのまま。むしろ、一振りに全てを込められるようになった……機会があれば、ぜひ手合わせ願いたい。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_sys_toplayer04.play_favor_word_qiuyuan_sys_toplayer04"
+    },
+    {
+      "Type": 1,
+      "Title": "心の声・その五",
+      "Content": "昔の某は、己のために剣を振るっていた。しかし、やがて恩人のため、そして<te href=260009>明庭</te>のためにと、変化していった。だが今は、再び鞘なき剣に……お主の姿が見えなくとも、胸に宿す崇高な志は感じる。いずれ剣を必要とする日が来たら、某に任せよ。お主の信念に従って、この剣を解き放とう。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_sys_toplayer05.play_favor_word_qiuyuan_sys_toplayer05"
+    },
+    {
+      "Type": 1,
+      "Title": "好きなこと",
+      "Content": "張先生のもとに身を寄せていた数年間、某は患者の食事を賄っていた。人の体質は千差万別。<ano=きょじつかんねつ>虚実寒熱</ano>、どの体質にも合うような薄味の料理以外に、重州料理も多少は心得ている……もっとも、強い辛味がお主の口に合うかは分からぬが。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_sys_taste.play_favor_word_qiuyuan_sys_taste"
+    },
+    {
+      "Type": 1,
+      "Title": "悩み",
+      "Content": "<te href=260001>鎮撫司</te>が「動く」際は、一枚の名簿が渡されるのだ。そこには誰を生かし、誰を殺すのか記されている。手元の名簿に残る名は二つ……恩人の敵である残星組織と哥舒臨。命は命で、血は血で償うのは当然。この剣の錆は、奴らの血で落とすしか術はない。宿願を果たすまで、某は歩みを止めぬ。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_sys_worry.play_favor_word_qiuyuan_sys_worry"
+    },
+    {
+      "Type": 1,
+      "Title": "好きな食べ物",
+      "Content": "遠い昔の話だ。越州の任を終え、昼夜を跨いでようやく<te href=260009>明庭</te>に戻った夜に食した夕餉が、今も忘れられぬ。腹が空腹を訴え、旅の汚れそのままに道端の食事処へ足が向かった。そこで出てきた白い米と肉、そして酒……あれほど美味しく感じた食事は、後にも先にもない。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_sys_foodlike.play_favor_word_qiuyuan_sys_foodlike"
+    },
+    {
+      "Type": 1,
+      "Title": "嫌いな食べ物",
+      "Content": "<te href=260009>明庭</te>には、奇妙な飲み物がある……緑色にも灰色にも見え、独特な匂いがする代物だ。忠告しておく。興味本位で手を出さぬほうが、お主の身のためだ。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_sys_foodhate.play_favor_word_qiuyuan_sys_foodhate"
+    },
+    {
+      "Type": 1,
+      "Title": "夢",
+      "Content": "理想、願望……どちらも某には縁遠い言葉。明日の朝日を拝める保証もない身に、何を語れというのか。無論、まだ死ぬわけにはいかぬ。討つべき仇、果たすべき恩義が残っておるからだ……その先は、天のみぞ知るであろう。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_sys_dream.play_favor_word_qiuyuan_sys_dream"
+    },
+    {
+      "Type": 1,
+      "Title": "伝えたいこと・その一",
+      "Content": "これは酒ではなく薬だ。かつて重傷を負った某は、張先生の劇薬で一命を取り留めた。だが、その代償として持病が残ったのだ。これがあれば、「心眼」を開き全身全霊で戦える。副作用として一時的な心の乱れが生ずるが……ほとんどの相手に、剣を抜く価値はない。この竹枝で事足りよう。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_sys_storyobj.play_favor_word_qiuyuan_sys_storyobj"
+    },
+    {
+      "Type": 1,
+      "Title": "伝えたいこと・その二",
+      "Content": "某の過去が気になるのか？ふっ……話すのは構わぬが、語り尽くすには一晩を明かせるくらい良い酒が要るぞ。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_sys_storyexp.play_favor_word_qiuyuan_sys_storyexp"
+    },
+    {
+      "Type": 1,
+      "Title": "散華について",
+      "Content": "師から聞いた覚えがある。かつて、父の遠縁が重州を離れ辺境へ移った、と。もしや彼女は、その末裔かもしれぬ。某と同じく、剣を振るうことしか知らぬ身だったはずが……今は<te href=850091>今州</te>の<te href=850084>令尹</te>に付き従っておるのか。うむ、それもまた良かろう。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_sys_about_sanhua.play_favor_word_qiuyuan_sys_about_sanhua"
+    },
+    {
+      "Type": 1,
+      "Title": "長離について",
+      "Content": "<te href=260009>明庭</te>にいた頃、我らのような「駒」が高官と会う機会などなかった。そもそも、会いたくなかったであろう。我らの出番は、何か問題が発生した時に訪れるからだ……長史の席から彼女が去って以来、穴埋めできる器が見つかっていないことは聞いておる。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_sys_about_changli.play_favor_word_qiuyuan_sys_about_changli"
+    },
+    {
+      "Type": 1,
+      "Title": "忌炎について",
+      "Content": "<te href=850093>瑝瓏</te>一庭六州において、<te href=260010>軍策府</te>の管轄下にある軍隊中を探しても、若くして将軍の大任を担える者は、おそらく彼くらいのもの。聞けば、<te href=850086>夜帰</te>将軍となる前は医者であったとか……形は違えど、人の命を救っていることには変わりあるまい。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_sys_about_jiyan.play_favor_word_qiuyuan_sys_about_jiyan"
+    },
+    {
+      "Type": 1,
+      "Title": "スカーについて",
+      "Content": "奴については、書類上の知識しかない。だが、仲間の助力がなければ、某が剣を3回振るだけで決着がついていたであろう。<te href=260009>明庭</te>は奴にさほど関心がない。残星組織の一人という認識に過ぎぬ。もっとも、<te href=850091>今州</te>の者は骨の髄まで憎んでいよう。あれだけの騒ぎを起こしたのだから、自業自得と言える。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_sys_about_shanghen.play_favor_word_qiuyuan_sys_about_shanghen"
+    },
+    {
+      "Type": 1,
+      "Title": "自分について",
+      "Content": "某が命を度々狙われている理由は、それだけの者が真実を闇に葬ろうとしているからに他ならぬ。奴らは某と関与した者に、平然と手を下す。某を知る者は、少ないに越したことはない……皆にとっても、某にとっても。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_sys_about_ziji.play_favor_word_qiuyuan_sys_about_ziji"
+    },
+    {
+      "Type": 1,
+      "Title": "誕生日祝い",
+      "Content": "誕生日であったか……めでたいことだ。お主の道は長い。これからも傍らには多くの者が集まり続けるであろう。この世の全ては仮の宿。お主の旅路からすれば、某は一時の存在かもしれぬ。だが……今日に限っては、お供させてくれまいか？",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_sys_birthcele.play_favor_word_qiuyuan_sys_birthcele"
+    },
+    {
+      "Type": 1,
+      "Title": "余暇・その一",
+      "Content": "台詞なし。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_idle_idle01.play_favor_word_qiuyuan_idle_idle01"
+    },
+    {
+      "Type": 1,
+      "Title": "余暇・その二",
+      "Content": "台詞なし。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_idle_idle02.play_favor_word_qiuyuan_idle_idle02"
+    },
+    {
+      "Type": 1,
+      "Title": "余暇・その三",
+      "Content": "台詞なし。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_idle_idle03.play_favor_word_qiuyuan_idle_idle03"
+    },
+    {
+      "Type": 1,
+      "Title": "自己紹介",
+      "Content": "仇遠と申す。某はただの剣でしかない。使い方はお主に任せよう。多くは問わぬ。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_sys_introduction.play_favor_word_qiuyuan_sys_introduction"
+    },
+    {
+      "Type": 1,
+      "Title": "最初の音",
+      "Content": "相手の名はなんと言う？某が片付ける。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_sys_gacha.play_favor_word_qiuyuan_sys_gacha"
+    },
+    {
+      "Type": 1,
+      "Title": "チームに編入・その一",
+      "Content": "剣を養って千日以上、しかし勝負は一瞬にあり。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_sys_jointeam_01.play_favor_word_qiuyuan_sys_jointeam_01"
+    },
+    {
+      "Type": 1,
+      "Title": "チームに編入・その二",
+      "Content": "始めるとしよう。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_sys_jointeam_02.play_favor_word_qiuyuan_sys_jointeam_02"
+    },
+    {
+      "Type": 1,
+      "Title": "チームに編入・その三",
+      "Content": "最も危険な場所は、某が引き受ける。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_sys_jointeam_03.play_favor_word_qiuyuan_sys_jointeam_03"
+    },
+    {
+      "Type": 1,
+      "Title": "突破・その一",
+      "Content": "心に曇りなし。一切の無駄を感じぬ。どうやらお主は、剣の極みに達した様子。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_sys_rankup01.play_favor_word_qiuyuan_sys_rankup01"
+    },
+    {
+      "Type": 1,
+      "Title": "突破・その二",
+      "Content": "お主に見出されたことで、第二の生を手に入れたようなもの。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_sys_rankup02.play_favor_word_qiuyuan_sys_rankup02"
+    },
+    {
+      "Type": 1,
+      "Title": "突破・その三",
+      "Content": "剣は岩や甲冑、兵器……そして命によって磨かれる。たとえ折れようと、再び研ぎ澄ますまで。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_sys_rankup03.play_favor_word_qiuyuan_sys_rankup03"
+    },
+    {
+      "Type": 1,
+      "Title": "突破・その四",
+      "Content": "ならば、強敵の二人でも三人でも見つけるのだ。そして、磨き上げた剣の力を心ゆくまで試すが良い。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_sys_rankup04.play_favor_word_qiuyuan_sys_rankup04"
+    },
+    {
+      "Type": 1,
+      "Title": "突破・その五",
+      "Content": "若かりし頃は、いかに己の剣を鋭くするかしか頭になかったのだ。昔は某の剣も、まるで羽のように軽かった。しかし、今となっては背負うものが増えすぎてしまった。故に、剣は日に日に重くなるばかり。腕が落ちたとは思えぬが……実に奇妙な感覚で仕方ない。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_sys_rankup05.play_favor_word_qiuyuan_sys_rankup05"
+    },
+    {
+      "Type": 2,
+      "Title": "通常攻撃・1",
+      "Content": "杯よ、来い。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_atk_atk03_01.play_favor_word_qiuyuan_atk_atk03_01"
+    },
+    {
+      "Type": 2,
+      "Title": "通常攻撃・2",
+      "Content": "行け。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_atk_atk03_02.play_favor_word_qiuyuan_atk_atk03_02"
+    },
+    {
+      "Type": 2,
+      "Title": "通常攻撃・3",
+      "Content": "戻れ。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_atk_atk03_03.play_favor_word_qiuyuan_atk_atk03_03"
+    },
+    {
+      "Type": 2,
+      "Title": "通常攻撃・4",
+      "Content": "移れ、星々よ。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_atk_atk02_pro_01.play_favor_word_qiuyuan_atk_atk02_pro_01"
+    },
+    {
+      "Type": 2,
+      "Title": "重撃・1",
+      "Content": "落ちよ。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_atk_heavyatk02_pro_01.play_favor_word_qiuyuan_atk_heavyatk02_pro_01"
+    },
+    {
+      "Type": 2,
+      "Title": "重撃・2",
+      "Content": "決した。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_atk_heavyatk03_pro_01.play_favor_word_qiuyuan_atk_heavyatk03_pro_01"
+    },
+    {
+      "Type": 2,
+      "Title": "重撃・3",
+      "Content": "破竹の勢い。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_atk_heavyatk03_pro_02.play_favor_word_qiuyuan_atk_heavyatk03_pro_02"
+    },
+    {
+      "Type": 2,
+      "Title": "共鳴スキル・1",
+      "Content": "通るぞ。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_skill_skill01_01.play_favor_word_qiuyuan_skill_skill01_01"
+    },
+    {
+      "Type": 2,
+      "Title": "共鳴スキル・2",
+      "Content": "風を斬る。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_skill_skill01_02.play_favor_word_qiuyuan_skill_skill01_02"
+    },
+    {
+      "Type": 2,
+      "Title": "共鳴スキル・3",
+      "Content": "聞こえておる。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_skill_skill02_01.play_favor_word_qiuyuan_skill_skill02_01"
+    },
+    {
+      "Type": 2,
+      "Title": "共鳴スキル・4",
+      "Content": "どこまでも行こう。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_skill_skill03_sp_02.play_favor_word_qiuyuan_skill_skill03_sp_02"
+    },
+    {
+      "Type": 2,
+      "Title": "共鳴スキル・5",
+      "Content": "起きよ。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_skill_skill01_sp_01.play_favor_word_qiuyuan_skill_skill01_sp_01"
+    },
+    {
+      "Type": 2,
+      "Title": "共鳴スキル・6",
+      "Content": "斬る。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_skill_skill01_sp_02.play_favor_word_qiuyuan_skill_skill01_sp_02"
+    },
+    {
+      "Type": 2,
+      "Title": "共鳴スキル・7",
+      "Content": "逃がさぬ。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_skill_skill01_sp_03.play_favor_word_qiuyuan_skill_skill01_sp_03"
+    },
+    {
+      "Type": 2,
+      "Title": "共鳴スキル・8",
+      "Content": "遅い。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_skill_skill03_sp_01.play_favor_word_qiuyuan_skill_skill03_sp_01"
+    },
+    {
+      "Type": 2,
+      "Title": "共鳴スキル・9",
+      "Content": "捉えた。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_skill_skill04_sp_01.play_favor_word_qiuyuan_skill_skill04_sp_01"
+    },
+    {
+      "Type": 2,
+      "Title": "共鳴スキル・10",
+      "Content": "諦めよ。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_skill_skill04_sp_02.play_favor_word_qiuyuan_skill_skill04_sp_02"
+    },
+    {
+      "Type": 2,
+      "Title": "共鳴解放・1",
+      "Content": "その命、もらい受ける。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_burst_burst01_01.play_favor_word_qiuyuan_burst_burst01_01"
+    },
+    {
+      "Type": 2,
+      "Title": "共鳴解放・2",
+      "Content": "天命が下った。時は待たぬ。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_burst_burst01_02.play_favor_word_qiuyuan_burst_burst01_02"
+    },
+    {
+      "Type": 2,
+      "Title": "共鳴解放・3",
+      "Content": "一振りで事足りよう。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_burst_burst01_03.play_favor_word_qiuyuan_burst_burst01_03"
+    },
+    {
+      "Type": 2,
+      "Title": "変奏スキル",
+      "Content": "竹林に刃あり。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_skill_qte.play_favor_word_qiuyuan_skill_qte"
+    },
+    {
+      "Type": 2,
+      "Title": "回避",
+      "Content": "遅い。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_com_limitdodge_01.play_favor_word_qiuyuan_com_limitdodge_01"
+    },
+    {
+      "Type": 2,
+      "Title": "パリィ",
+      "Content": "隙だらけだ。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_com_parry_01.play_favor_word_qiuyuan_com_parry_01"
+    },
+    {
+      "Type": 2,
+      "Title": "回避反撃",
+      "Content": "はっ！",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_atk_dodgeatk_01.play_favor_word_qiuyuan_atk_dodgeatk_01"
+    },
+    {
+      "Type": 2,
+      "Title": "ダメージ・1",
+      "Content": "聞き違いか？",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_com_behitfly_01.play_favor_word_qiuyuan_com_behitfly_01"
+    },
+    {
+      "Type": 2,
+      "Title": "ダメージ・2",
+      "Content": "進むための後退。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_com_behitfly_02.play_favor_word_qiuyuan_com_behitfly_02"
+    },
+    {
+      "Type": 2,
+      "Title": "重傷・1",
+      "Content": "かすり傷だ、問題ない。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_com_hpdown01.play_favor_word_qiuyuan_com_hpdown01"
+    },
+    {
+      "Type": 2,
+      "Title": "重傷・2",
+      "Content": "少しは楽しめそうだ。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_com_hpdown02.play_favor_word_qiuyuan_com_hpdown02"
+    },
+    {
+      "Type": 2,
+      "Title": "重傷・3",
+      "Content": "捨て身の陽動にも、限度があったか。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_com_hpdown03.play_favor_word_qiuyuan_com_hpdown03"
+    },
+    {
+      "Type": 2,
+      "Title": "戦闘不能・1",
+      "Content": "この恩は……必ずや、来世で。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_com_die_01.play_favor_word_qiuyuan_com_die_01"
+    },
+    {
+      "Type": 2,
+      "Title": "戦闘不能・2",
+      "Content": "風が……止んだか。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_com_die_02.play_favor_word_qiuyuan_com_die_02"
+    },
+    {
+      "Type": 2,
+      "Title": "戦闘不能・3",
+      "Content": "眼前に広がるは、闇のみ。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_com_die_03.play_favor_word_qiuyuan_com_die_03"
+    },
+    {
+      "Type": 2,
+      "Title": "音骸スキル・召喚",
+      "Content": "この剣を受けてみよ。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_com_hxsummon.play_favor_word_qiuyuan_com_hxsummon"
+    },
+    {
+      "Type": 2,
+      "Title": "音骸スキル・変身",
+      "Content": "変化すれど、常あり。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_com_hxchange.play_favor_word_qiuyuan_com_hxchange"
+    },
+    {
+      "Type": 2,
+      "Title": "敵に遭遇",
+      "Content": "長居は無用。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_com_engage.play_favor_word_qiuyuan_com_engage"
+    },
+    {
+      "Type": 2,
+      "Title": "滑空",
+      "Content": "風と共に。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_com_fly_01.play_favor_word_qiuyuan_com_fly_01"
+    },
+    {
+      "Type": 2,
+      "Title": "スキャン",
+      "Content": "聞こえておる。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_com_scan.play_favor_word_qiuyuan_com_scan"
+    },
+    {
+      "Type": 2,
+      "Title": "ダッシュ・1",
+      "Content": "行くぞ。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_com_dash_01.play_favor_word_qiuyuan_com_dash_01"
+    },
+    {
+      "Type": 2,
+      "Title": "ダッシュ・2",
+      "Content": "付いてこられるか？",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_com_accelerate.play_favor_word_qiuyuan_com_accelerate"
+    },
+    {
+      "Type": 2,
+      "Title": "補給獲得・1",
+      "Content": "これはお主に預ける。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_com_openbox_01.play_favor_word_qiuyuan_com_openbox_01"
+    },
+    {
+      "Type": 2,
+      "Title": "補給獲得・2",
+      "Content": "よかろう。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_com_openbox_02.play_favor_word_qiuyuan_com_openbox_02"
+    },
+    {
+      "Type": 2,
+      "Title": "補給獲得・3",
+      "Content": "ならば、もらい受ける。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_com_openbox_03.play_favor_word_qiuyuan_com_openbox_03"
+    }
+  ],
+  "Goods": [
+    {
+      "Title": "さかずきの中のもの",
+      "Content": "仇遠が肌身離さず持ち歩く竹筒。\n重州特産の黒竹製だが、長きにわたり薬湯を汲み続けてきたせいか、本来の竹の香りは失せ、濃密な薬の匂いだけが漂っている。\nかの重州の医者が劇薬を用いて彼を黄泉路から引き戻した。だがその代償として、共鳴能力が著しく弱まるという持病を抱えることとなった。\n竹筒に入れてある特製の薬を飲んで初めて、彼は力を完全に発揮できる。\nとはいえ、彼にしてみれば、共鳴能力など誇りとする剣技の添え物に過ぎない。",
+      "Icon": "/Game/Aki/UI/UIResources/UiRole/Image/Treasure/T_Treasure116_UI.T_Treasure116_UI"
+    },
+    {
+      "Title": "鉄の中の剣",
+      "Content": "仇遠が普段から身につけている、明庭<te href=260001>鎮撫司</te>の印。\n本来であれば、役人の衣と共に、この証もとうに没収されているはずだった。\nどうも、明庭の何者かが裏で手を回してくれたらしく、こうして今も彼の手元に残っている。\n「……剣を、汝らに授ける。百官各州、およそこの物を見る者は、朕を見るが如しと心得よ」",
+      "Icon": "/Game/Aki/UI/UIResources/UiRole/Image/Treasure/T_Treasure117_UI.T_Treasure117_UI"
+    },
+    {
+      "Title": "竹の中の音",
+      "Content": "仇遠がこの世について得た原初の記憶は、目に映る光景ではなく、耳に届く音であった。\n父母の嘆き、重州の竹林に響く空虚、刃の音、師の血潮、仇敵の咆哮を、彼はすべて聞いた。\nやがて彼は、光をも、明庭の水面下に渦巻く無数の闘争をも、汚職役人の命乞いをも、陰謀をも、そして、憎悪と希望をも聞いた。\n彼の目には、光が届かない。だが、すべてはっきりと音になって伝わってくる。多くの音は、彼が耳にする前に既にそこに在った。剣が鉄から、玉が石から、そして、音が竹から生まれるかのように。",
+      "Icon": "/Game/Aki/UI/UIResources/UiRole/Image/Treasure/T_Treasure118_UI.T_Treasure118_UI"
+    }
+  ],
+  "SpecialCook": {
+    "Id": 80001028,
+    "Name": "重州マーラー豆腐",
+    "Desc": "フィールド探索で敵を倒した時、シェルコインの獲得量+55%。持続時間30分、マルチプレイ中は自分のキャラにのみ有効。",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconCook/T_IconCook_SP_21_UI.T_IconCook_SP_21_UI",
+    "Rarity": 5
+  },
+  "Stats": {
+    "0": {
+      "1": {
+        "Life": 979.0,
+        "Atk": 30.0,
+        "Def": 98.0
+      },
+      "2": {
+        "Life": 1061.4318,
+        "Atk": 32.526,
+        "Def": 106.0654
+      },
+      "3": {
+        "Life": 1143.9615,
+        "Atk": 35.055,
+        "Def": 114.1406
+      },
+      "4": {
+        "Life": 1226.4912,
+        "Atk": 37.584,
+        "Def": 122.2158
+      },
+      "5": {
+        "Life": 1308.923,
+        "Atk": 40.11,
+        "Def": 130.291
+      },
+      "6": {
+        "Life": 1391.4527,
+        "Atk": 42.639,
+        "Def": 138.3662
+      },
+      "7": {
+        "Life": 1473.9824,
+        "Atk": 45.168,
+        "Def": 146.4414
+      },
+      "8": {
+        "Life": 1556.4142,
+        "Atk": 47.694,
+        "Def": 154.5166
+      },
+      "9": {
+        "Life": 1638.9439,
+        "Atk": 50.223,
+        "Def": 162.5918
+      },
+      "10": {
+        "Life": 1721.4736,
+        "Atk": 52.752,
+        "Def": 170.667
+      },
+      "11": {
+        "Life": 1803.9054,
+        "Atk": 55.278,
+        "Def": 178.7422
+      },
+      "12": {
+        "Life": 1886.4351,
+        "Atk": 57.807,
+        "Def": 186.8174
+      },
+      "13": {
+        "Life": 1968.9648,
+        "Atk": 60.336,
+        "Def": 194.8926
+      },
+      "14": {
+        "Life": 2051.4945,
+        "Atk": 62.865,
+        "Def": 202.9678
+      },
+      "15": {
+        "Life": 2133.9263,
+        "Atk": 65.391,
+        "Def": 211.043
+      },
+      "16": {
+        "Life": 2216.456,
+        "Atk": 67.92,
+        "Def": 219.1182
+      },
+      "17": {
+        "Life": 2298.9857,
+        "Atk": 70.449,
+        "Def": 227.1934
+      },
+      "18": {
+        "Life": 2381.4175,
+        "Atk": 72.975,
+        "Def": 235.2686
+      },
+      "19": {
+        "Life": 2463.9472,
+        "Atk": 75.504,
+        "Def": 243.3438
+      },
+      "20": {
+        "Life": 2546.4769,
+        "Atk": 78.033,
+        "Def": 251.419
+      }
+    },
+    "1": {
+      "20": {
+        "Life": 3199.0783,
+        "Atk": 100.533,
+        "Def": 314.9328
+      },
+      "21": {
+        "Life": 3281.608,
+        "Atk": 103.059,
+        "Def": 323.008
+      },
+      "22": {
+        "Life": 3364.1377,
+        "Atk": 105.588,
+        "Def": 331.0832
+      },
+      "23": {
+        "Life": 3446.5695,
+        "Atk": 108.117,
+        "Def": 339.1584
+      },
+      "24": {
+        "Life": 3529.0992,
+        "Atk": 110.646,
+        "Def": 347.2336
+      },
+      "25": {
+        "Life": 3611.6289,
+        "Atk": 113.172,
+        "Def": 355.3088
+      },
+      "26": {
+        "Life": 3694.1586,
+        "Atk": 115.701,
+        "Def": 363.384
+      },
+      "27": {
+        "Life": 3776.5904,
+        "Atk": 118.23,
+        "Def": 371.4592
+      },
+      "28": {
+        "Life": 3859.1201,
+        "Atk": 120.756,
+        "Def": 379.5344
+      },
+      "29": {
+        "Life": 3941.6498,
+        "Atk": 123.285,
+        "Def": 387.6096
+      },
+      "30": {
+        "Life": 4024.0816,
+        "Atk": 125.814,
+        "Def": 395.6848
+      },
+      "31": {
+        "Life": 4106.6113,
+        "Atk": 128.34,
+        "Def": 403.76
+      },
+      "32": {
+        "Life": 4189.141,
+        "Atk": 130.869,
+        "Def": 411.8352
+      },
+      "33": {
+        "Life": 4271.5728,
+        "Atk": 133.398,
+        "Def": 419.9104
+      },
+      "34": {
+        "Life": 4354.1025,
+        "Atk": 135.924,
+        "Def": 427.9856
+      },
+      "35": {
+        "Life": 4436.6322,
+        "Atk": 138.453,
+        "Def": 436.0608
+      },
+      "36": {
+        "Life": 4519.1619,
+        "Atk": 140.982,
+        "Def": 444.136
+      },
+      "37": {
+        "Life": 4601.5937,
+        "Atk": 143.511,
+        "Def": 452.2112
+      },
+      "38": {
+        "Life": 4684.1234,
+        "Atk": 146.037,
+        "Def": 460.2864
+      },
+      "39": {
+        "Life": 4766.6531,
+        "Atk": 148.566,
+        "Def": 468.3616
+      },
+      "40": {
+        "Life": 4849.0849,
+        "Atk": 151.095,
+        "Def": 476.4368
+      }
+    },
+    "2": {
+      "40": {
+        "Life": 5501.7842,
+        "Atk": 173.595,
+        "Def": 539.9506
+      },
+      "41": {
+        "Life": 5584.3139,
+        "Atk": 176.121,
+        "Def": 548.0258
+      },
+      "42": {
+        "Life": 5666.7457,
+        "Atk": 178.65,
+        "Def": 556.101
+      },
+      "43": {
+        "Life": 5749.2754,
+        "Atk": 181.179,
+        "Def": 564.1762
+      },
+      "44": {
+        "Life": 5831.8051,
+        "Atk": 183.705,
+        "Def": 572.2514
+      },
+      "45": {
+        "Life": 5914.2369,
+        "Atk": 186.234,
+        "Def": 580.3266
+      },
+      "46": {
+        "Life": 5996.7666,
+        "Atk": 188.763,
+        "Def": 588.4018
+      },
+      "47": {
+        "Life": 6079.2963,
+        "Atk": 191.292,
+        "Def": 596.477
+      },
+      "48": {
+        "Life": 6161.826,
+        "Atk": 193.818,
+        "Def": 604.5522
+      },
+      "49": {
+        "Life": 6244.2578,
+        "Atk": 196.347,
+        "Def": 612.6274
+      },
+      "50": {
+        "Life": 6326.7875,
+        "Atk": 198.876,
+        "Def": 620.7026
+      }
+    },
+    "3": {
+      "50": {
+        "Life": 6979.4868,
+        "Atk": 221.376,
+        "Def": 684.2164
+      },
+      "51": {
+        "Life": 7061.9186,
+        "Atk": 223.902,
+        "Def": 692.2916
+      },
+      "52": {
+        "Life": 7144.4483,
+        "Atk": 226.431,
+        "Def": 700.3668
+      },
+      "53": {
+        "Life": 7226.978,
+        "Atk": 228.96,
+        "Def": 708.442
+      },
+      "54": {
+        "Life": 7309.4098,
+        "Atk": 231.486,
+        "Def": 716.5172
+      },
+      "55": {
+        "Life": 7391.9395,
+        "Atk": 234.015,
+        "Def": 724.5924
+      },
+      "56": {
+        "Life": 7474.4692,
+        "Atk": 236.544,
+        "Def": 732.6676
+      },
+      "57": {
+        "Life": 7556.9989,
+        "Atk": 239.073,
+        "Def": 740.7428
+      },
+      "58": {
+        "Life": 7639.4307,
+        "Atk": 241.599,
+        "Def": 748.818
+      },
+      "59": {
+        "Life": 7721.9604,
+        "Atk": 244.128,
+        "Def": 756.8932
+      },
+      "60": {
+        "Life": 7804.4901,
+        "Atk": 246.657,
+        "Def": 764.9684
+      }
+    },
+    "4": {
+      "60": {
+        "Life": 8457.0915,
+        "Atk": 269.157,
+        "Def": 828.492
+      },
+      "61": {
+        "Life": 8539.6212,
+        "Atk": 271.683,
+        "Def": 836.5672
+      },
+      "62": {
+        "Life": 8622.1509,
+        "Atk": 274.212,
+        "Def": 844.6424
+      },
+      "63": {
+        "Life": 8704.5827,
+        "Atk": 276.741,
+        "Def": 852.7176
+      },
+      "64": {
+        "Life": 8787.1124,
+        "Atk": 279.267,
+        "Def": 860.7928
+      },
+      "65": {
+        "Life": 8869.6421,
+        "Atk": 281.796,
+        "Def": 868.868
+      },
+      "66": {
+        "Life": 8952.0739,
+        "Atk": 284.325,
+        "Def": 876.9334
+      },
+      "67": {
+        "Life": 9034.6036,
+        "Atk": 286.851,
+        "Def": 885.0086
+      },
+      "68": {
+        "Life": 9117.1333,
+        "Atk": 289.38,
+        "Def": 893.0838
+      },
+      "69": {
+        "Life": 9199.663,
+        "Atk": 291.909,
+        "Def": 901.159
+      },
+      "70": {
+        "Life": 9282.0948,
+        "Atk": 294.438,
+        "Def": 909.2342
+      }
+    },
+    "5": {
+      "70": {
+        "Life": 9934.7941,
+        "Atk": 309.438,
+        "Def": 972.7578
+      },
+      "71": {
+        "Life": 10017.3238,
+        "Atk": 311.964,
+        "Def": 980.833
+      },
+      "72": {
+        "Life": 10099.7556,
+        "Atk": 314.493,
+        "Def": 988.9082
+      },
+      "73": {
+        "Life": 10182.2853,
+        "Atk": 317.022,
+        "Def": 996.9834
+      },
+      "74": {
+        "Life": 10264.815,
+        "Atk": 319.548,
+        "Def": 1005.0586
+      },
+      "75": {
+        "Life": 10347.2468,
+        "Atk": 322.077,
+        "Def": 1013.1338
+      },
+      "76": {
+        "Life": 10429.7765,
+        "Atk": 324.606,
+        "Def": 1021.209
+      },
+      "77": {
+        "Life": 10512.3062,
+        "Atk": 327.132,
+        "Def": 1029.2842
+      },
+      "78": {
+        "Life": 10594.738,
+        "Atk": 329.661,
+        "Def": 1037.3594
+      },
+      "79": {
+        "Life": 10677.2677,
+        "Atk": 332.19,
+        "Def": 1045.4346
+      },
+      "80": {
+        "Life": 10759.7974,
+        "Atk": 334.719,
+        "Def": 1053.5098
+      }
+    },
+    "6": {
+      "80": {
+        "Life": 11412.4967,
+        "Atk": 349.719,
+        "Def": 1117.0236
+      },
+      "81": {
+        "Life": 11494.9285,
+        "Atk": 352.245,
+        "Def": 1125.0988
+      },
+      "82": {
+        "Life": 11577.4582,
+        "Atk": 354.774,
+        "Def": 1133.174
+      },
+      "83": {
+        "Life": 11659.9879,
+        "Atk": 357.303,
+        "Def": 1141.2492
+      },
+      "84": {
+        "Life": 11742.4197,
+        "Atk": 359.829,
+        "Def": 1149.3244
+      },
+      "85": {
+        "Life": 11824.9494,
+        "Atk": 362.358,
+        "Def": 1157.3996
+      },
+      "86": {
+        "Life": 11907.4791,
+        "Atk": 364.887,
+        "Def": 1165.4748
+      },
+      "87": {
+        "Life": 11989.9109,
+        "Atk": 367.413,
+        "Def": 1173.55
+      },
+      "88": {
+        "Life": 12072.4406,
+        "Atk": 369.942,
+        "Def": 1181.6252
+      },
+      "89": {
+        "Life": 12154.9703,
+        "Atk": 372.471,
+        "Def": 1189.7004
+      },
+      "90": {
+        "Life": 12237.5,
+        "Atk": 375.0,
+        "Def": 1197.7756
+      }
+    }
+  },
+  "LevelEXP": [
+    0,
+    400,
+    400,
+    500,
+    600,
+    700,
+    900,
+    1000,
+    1200,
+    1300,
+    1500,
+    1700,
+    2000,
+    2200,
+    2400,
+    2700,
+    3000,
+    3300,
+    3600,
+    3900,
+    4300,
+    4600,
+    5000,
+    5400,
+    5800,
+    6300,
+    6700,
+    7200,
+    7700,
+    8200,
+    8700,
+    9300,
+    9800,
+    10400,
+    11000,
+    11700,
+    12300,
+    13000,
+    13700,
+    14400,
+    15100,
+    15900,
+    16700,
+    17500,
+    18300,
+    19200,
+    20000,
+    20900,
+    21900,
+    22800,
+    23800,
+    24800,
+    25800,
+    26900,
+    28000,
+    29100,
+    30300,
+    31400,
+    32600,
+    33900,
+    35100,
+    36400,
+    37700,
+    39100,
+    40500,
+    41900,
+    43300,
+    44800,
+    46300,
+    47900,
+    49500,
+    51100,
+    52800,
+    54500,
+    56200,
+    58000,
+    59800,
+    61600,
+    63500,
+    65400,
+    67400,
+    69400,
+    71400,
+    73500,
+    75600,
+    77800,
+    80000,
+    82300,
+    84600,
+    86900,
+    105600,
+    107400,
+    110000,
+    113600,
+    118600,
+    125500,
+    134900,
+    147300,
+    163600,
+    184500
+  ],
+  "SkillTrees": {
+    "1": {
+      "ParentNodes": [],
+      "NodeType": 2,
+      "Coordinate": 1,
+      "UnLockCondition": 0,
+      "Consume": [
+        {
+          "Key": 43020032,
+          "Value": 2
+        },
+        {
+          "Key": 41100022,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 3900
+        }
+      ],
+      "Skill": {
+        "Name": "黒中の蒼",
+        "Desc": "<size=40><color=Title>通常攻撃</color></size>\n最大3段の連続攻撃を行い、<color=Wind>気動ダメージ</color>を与える。\n<size=10></size>\n<size=40><color=Title>重撃</color></size>\nスタミナを消費して目標を攻撃し、<color=Wind>気動ダメージ</color>を与える。このスキルを発動後、一定時間内に<color=Highlight>通常攻撃</color>を一回押しすると、通常攻撃<color=Highlight>応剣・黒中の蒼</color>4段目を発動する。\n<size=10></size>\n<size=40><color=Title>空中攻撃</color></size>\nスタミナを消費して落下攻撃を行い、<color=Wind>気動ダメージ</color>を与える。\n<size=10></size>\n<size=40><color=Title>回避反撃</color></size>\n<color=Highlight>回避</color>成功後、<color=Highlight>通常攻撃</color>を一回押しすると、目標を攻撃して<color=Wind>気動ダメージ</color>を与える。このダメージは重撃ダメージと見なされる。\n<color=Highlight>通常攻撃</color>と<color=Highlight>重撃</color>発動直後に攻撃を受けると、そのダメージを1回無効かし、さらに<color=Highlight>回避反撃</color>で目標に<color=Wind>気動ダメージ</color>を与える。",
+        "Param": [],
+        "SimpleDesc": "<size=40><color=Title>通常攻撃</color></size>\n<color=Wind>気動ダメージ</color>を与える。\n<size=10></size>\n<size=40><color=Title>重撃</color></size>\n<color=Wind>気動ダメージ</color>を与える。\n<size=10></size>\n<size=40><color=Title>空中攻撃</color></size>\n<color=Wind>気動ダメージ</color>を与える。\n<size=10></size>\n<size=40><color=Title>回避反撃</color></size>\n<color=Wind>気動ダメージ</color>を与える。",
+        "SimpleParam": [],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorKnife.SP_IconNorKnife",
+        "Type": "基本攻撃",
+        "Level": {
+          "1": {
+            "Name": "1段目ダメージ",
+            "Param": [
+              [
+                "21.00%",
+                "22.73%",
+                "24.45%",
+                "26.86%",
+                "28.58%",
+                "30.56%",
+                "33.32%",
+                "36.07%",
+                "38.83%",
+                "41.76%",
+                "45.20%",
+                "48.64%",
+                "52.09%",
+                "55.53%",
+                "58.98%",
+                "62.42%",
+                "65.86%",
+                "69.31%",
+                "72.75%",
+                "76.20%"
+              ]
+            ],
+            "Format": null
+          },
+          "2": {
+            "Name": "2段目ダメージ",
+            "Param": [
+              [
+                "17.50%+17.50%",
+                "18.94%+18.94%",
+                "20.37%+20.37%",
+                "22.38%+22.38%",
+                "23.82%+23.82%",
+                "25.47%+25.47%",
+                "27.77%+27.77%",
+                "30.06%+30.06%",
+                "32.36%+32.36%",
+                "34.80%+34.80%",
+                "37.67%+37.67%",
+                "40.54%+40.54%",
+                "43.41%+43.41%",
+                "46.28%+46.28%",
+                "49.15%+49.15%",
+                "52.02%+52.02%",
+                "54.89%+54.89%",
+                "57.76%+57.76%",
+                "60.63%+60.63%",
+                "63.50%+63.50%"
+              ]
+            ],
+            "Format": null
+          },
+          "3": {
+            "Name": "3段目ダメージ",
+            "Param": [
+              [
+                "12.39%+12.39%+12.39%+12.39%+33.04%",
+                "13.41%+13.41%+13.41%+13.41%+35.75%",
+                "14.43%+14.43%+14.43%+14.43%+38.46%",
+                "15.85%+15.85%+15.85%+15.85%+42.26%",
+                "16.87%+16.87%+16.87%+16.87%+44.97%",
+                "18.03%+18.03%+18.03%+18.03%+48.08%",
+                "19.66%+19.66%+19.66%+19.66%+52.42%",
+                "21.28%+21.28%+21.28%+21.28%+56.75%",
+                "22.91%+22.91%+22.91%+22.91%+61.09%",
+                "24.64%+24.64%+24.64%+24.64%+65.69%",
+                "26.67%+26.67%+26.67%+26.67%+71.11%",
+                "28.70%+28.70%+28.70%+28.70%+76.53%",
+                "30.73%+30.73%+30.73%+30.73%+81.95%",
+                "32.77%+32.77%+32.77%+32.77%+87.37%",
+                "34.80%+34.80%+34.80%+34.80%+92.78%",
+                "36.83%+36.83%+36.83%+36.83%+98.20%",
+                "38.86%+38.86%+38.86%+38.86%+103.62%",
+                "40.89%+40.89%+40.89%+40.89%+109.04%",
+                "42.93%+42.93%+42.93%+42.93%+114.46%",
+                "44.96%+44.96%+44.96%+44.96%+119.88%"
+              ]
+            ],
+            "Format": null
+          },
+          "4": {
+            "Name": "空中攻撃ダメージ",
+            "Param": [
+              [
+                "58.80%",
+                "63.63%",
+                "68.45%",
+                "75.20%",
+                "80.02%",
+                "85.56%",
+                "93.28%",
+                "100.99%",
+                "108.71%",
+                "116.91%",
+                "126.55%",
+                "136.19%",
+                "145.83%",
+                "155.48%",
+                "165.12%",
+                "174.76%",
+                "184.41%",
+                "194.05%",
+                "203.69%",
+                "213.34%"
+              ]
+            ],
+            "Format": null
+          },
+          "5": {
+            "Name": "重撃ダメージ",
+            "Param": [
+              [
+                "83.30%",
+                "90.14%",
+                "96.97%",
+                "106.53%",
+                "113.36%",
+                "121.21%",
+                "132.14%",
+                "143.07%",
+                "154.00%",
+                "165.61%",
+                "179.27%",
+                "192.94%",
+                "206.60%",
+                "220.26%",
+                "233.92%",
+                "247.58%",
+                "261.24%",
+                "274.90%",
+                "288.56%",
+                "302.23%"
+              ]
+            ],
+            "Format": null
+          },
+          "6": {
+            "Name": "回避反撃ダメージ",
+            "Param": [
+              [
+                "98.00%+14.00%*3",
+                "106.04%+15.15%*3",
+                "114.08%+16.30%*3",
+                "125.33%+17.91%*3",
+                "133.36%+19.06%*3",
+                "142.60%+20.38%*3",
+                "155.46%+22.21%*3",
+                "168.32%+24.05%*3",
+                "181.18%+25.89%*3",
+                "194.84%+27.84%*3",
+                "210.91%+30.13%*3",
+                "226.98%+32.43%*3",
+                "243.05%+34.73%*3",
+                "259.13%+37.02%*3",
+                "275.20%+39.32%*3",
+                "291.27%+41.61%*3",
+                "307.34%+43.91%*3",
+                "323.41%+46.21%*3",
+                "339.49%+48.50%*3",
+                "355.56%+50.80%*3"
+              ]
+            ],
+            "Format": null
+          },
+          "10": {
+            "Name": "空中攻撃スタミナ消費",
+            "Param": [
+              [
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30"
+              ]
+            ],
+            "Format": null
+          },
+          "10-2": {
+            "Name": "重撃スタミナ消費",
+            "Param": [
+              [
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20"
+              ]
+            ],
+            "Format": null
+          }
+        },
+        "Consume": {
+          "1": [],
+          "2": [
+            {
+              "Key": 43020011,
+              "Value": 2
+            },
+            {
+              "Key": 41100011,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 1500
+            }
+          ],
+          "3": [
+            {
+              "Key": 43020011,
+              "Value": 3
+            },
+            {
+              "Key": 41100011,
+              "Value": 3
+            },
+            {
+              "Key": 2,
+              "Value": 2000
+            }
+          ],
+          "4": [
+            {
+              "Key": 43020012,
+              "Value": 2
+            },
+            {
+              "Key": 41100012,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 4500
+            }
+          ],
+          "5": [
+            {
+              "Key": 43020012,
+              "Value": 3
+            },
+            {
+              "Key": 41100012,
+              "Value": 3
+            },
+            {
+              "Key": 2,
+              "Value": 6000
+            }
+          ],
+          "6": [
+            {
+              "Key": 43020013,
+              "Value": 3
+            },
+            {
+              "Key": 41100013,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 16000
+            }
+          ],
+          "7": [
+            {
+              "Key": 43020013,
+              "Value": 5
+            },
+            {
+              "Key": 41100013,
+              "Value": 3
+            },
+            {
+              "Key": 41400254,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 30000
+            }
+          ],
+          "8": [
+            {
+              "Key": 43020014,
+              "Value": 2
+            },
+            {
+              "Key": 41100014,
+              "Value": 2
+            },
+            {
+              "Key": 41400254,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 50000
+            }
+          ],
+          "9": [
+            {
+              "Key": 43020014,
+              "Value": 3
+            },
+            {
+              "Key": 41100014,
+              "Value": 3
+            },
+            {
+              "Key": 41400254,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 70000
+            }
+          ],
+          "10": [
+            {
+              "Key": 43020014,
+              "Value": 6
+            },
+            {
+              "Key": 41100014,
+              "Value": 4
+            },
+            {
+              "Key": 41400254,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 100000
+            }
+          ]
+        },
+        "Damage": {
+          "1411001001": {
+            "Element": 4,
+            "RelatedProperty": "攻撃力",
+            "Type": 0,
+            "RateLv": [
+              2100,
+              2273,
+              2445,
+              2686,
+              2858,
+              3056,
+              3332,
+              3607,
+              3883,
+              4176,
+              4520,
+              4864,
+              5209,
+              5553,
+              5898,
+              6242,
+              6586,
+              6931,
+              7275,
+              7620
+            ],
+            "Energy": 75,
+            "ElementPower": 240,
+            "HardnessLv": 10000,
+            "ToughLv": 3000
+          },
+          "1411002001": {
+            "Element": 4,
+            "RelatedProperty": "攻撃力",
+            "Type": 0,
+            "RateLv": [
+              1750,
+              1894,
+              2037,
+              2238,
+              2382,
+              2547,
+              2777,
+              3006,
+              3236,
+              3480,
+              3767,
+              4054,
+              4341,
+              4628,
+              4915,
+              5202,
+              5489,
+              5776,
+              6063,
+              6350
+            ],
+            "Energy": 63,
+            "ElementPower": 200,
+            "HardnessLv": 10000,
+            "ToughLv": 2500
+          },
+          "1411002002": {
+            "Element": 4,
+            "RelatedProperty": "攻撃力",
+            "Type": 0,
+            "RateLv": [
+              1750,
+              1894,
+              2037,
+              2238,
+              2382,
+              2547,
+              2777,
+              3006,
+              3236,
+              3480,
+              3767,
+              4054,
+              4341,
+              4628,
+              4915,
+              5202,
+              5489,
+              5776,
+              6063,
+              6350
+            ],
+            "Energy": 63,
+            "ElementPower": 200,
+            "HardnessLv": 10000,
+            "ToughLv": 2500
+          },
+          "1411003002": {
+            "Element": 4,
+            "RelatedProperty": "攻撃力",
+            "Type": 0,
+            "RateLv": [
+              1239,
+              1341,
+              1443,
+              1585,
+              1687,
+              1803,
+              1966,
+              2128,
+              2291,
+              2464,
+              2667,
+              2870,
+              3073,
+              3277,
+              3480,
+              3683,
+              3886,
+              4089,
+              4293,
+              4496
+            ],
+            "Energy": 45,
+            "ElementPower": 142,
+            "HardnessLv": 10000,
+            "ToughLv": 1770
+          },
+          "1411003003": {
+            "Element": 4,
+            "RelatedProperty": "攻撃力",
+            "Type": 0,
+            "RateLv": [
+              1239,
+              1341,
+              1443,
+              1585,
+              1687,
+              1803,
+              1966,
+              2128,
+              2291,
+              2464,
+              2667,
+              2870,
+              3073,
+              3277,
+              3480,
+              3683,
+              3886,
+              4089,
+              4293,
+              4496
+            ],
+            "Energy": 45,
+            "ElementPower": 142,
+            "HardnessLv": 10000,
+            "ToughLv": 1770
+          },
+          "1411003004": {
+            "Element": 4,
+            "RelatedProperty": "攻撃力",
+            "Type": 0,
+            "RateLv": [
+              1239,
+              1341,
+              1443,
+              1585,
+              1687,
+              1803,
+              1966,
+              2128,
+              2291,
+              2464,
+              2667,
+              2870,
+              3073,
+              3277,
+              3480,
+              3683,
+              3886,
+              4089,
+              4293,
+              4496
+            ],
+            "Energy": 45,
+            "ElementPower": 142,
+            "HardnessLv": 10000,
+            "ToughLv": 1770
+          },
+          "1411003005": {
+            "Element": 4,
+            "RelatedProperty": "攻撃力",
+            "Type": 0,
+            "RateLv": [
+              1239,
+              1341,
+              1443,
+              1585,
+              1687,
+              1803,
+              1966,
+              2128,
+              2291,
+              2464,
+              2667,
+              2870,
+              3073,
+              3277,
+              3480,
+              3683,
+              3886,
+              4089,
+              4293,
+              4496
+            ],
+            "Energy": 45,
+            "ElementPower": 142,
+            "HardnessLv": 10000,
+            "ToughLv": 1770
+          },
+          "1411003006": {
+            "Element": 4,
+            "RelatedProperty": "攻撃力",
+            "Type": 0,
+            "RateLv": [
+              3304,
+              3575,
+              3846,
+              4226,
+              4497,
+              4808,
+              5242,
+              5675,
+              6109,
+              6569,
+              7111,
+              7653,
+              8195,
+              8737,
+              9278,
+              9820,
+              10362,
+              10904,
+              11446,
+              11988
+            ],
+            "Energy": 118,
+            "ElementPower": 378,
+            "HardnessLv": 10000,
+            "ToughLv": 4720
+          },
+          "1411010001": {
+            "Element": 4,
+            "RelatedProperty": "攻撃力",
+            "Type": 0,
+            "RateLv": [
+              5880,
+              6363,
+              6845,
+              7520,
+              8002,
+              8556,
+              9328,
+              10099,
+              10871,
+              11691,
+              12655,
+              13619,
+              14583,
+              15548,
+              16512,
+              17476,
+              18441,
+              19405,
+              20369,
+              21334
+            ],
+            "Energy": 210,
+            "ElementPower": 672,
+            "HardnessLv": 10000,
+            "ToughLv": 8400
+          },
+          "1411100001": {
+            "Element": 4,
+            "RelatedProperty": "攻撃力",
+            "Type": 1,
+            "RateLv": [
+              8330,
+              9014,
+              9697,
+              10653,
+              11336,
+              12121,
+              13214,
+              14307,
+              15400,
+              16561,
+              17927,
+              19294,
+              20660,
+              22026,
+              23392,
+              24758,
+              26124,
+              27490,
+              28856,
+              30223
+            ],
+            "Energy": 209,
+            "ElementPower": 667,
+            "HardnessLv": 10000,
+            "ToughLv": 8330
+          },
+          "1411500001": {
+            "Element": 4,
+            "RelatedProperty": "攻撃力",
+            "Type": 1,
+            "RateLv": [
+              9800,
+              10604,
+              11408,
+              12533,
+              13336,
+              14260,
+              15546,
+              16832,
+              18118,
+              19484,
+              21091,
+              22698,
+              24305,
+              25913,
+              27520,
+              29127,
+              30734,
+              32341,
+              33949,
+              35556
+            ],
+            "Energy": 245,
+            "ElementPower": 784,
+            "HardnessLv": 10000,
+            "ToughLv": 9800
+          },
+          "1411500002": {
+            "Element": 4,
+            "RelatedProperty": "攻撃力",
+            "Type": 1,
+            "RateLv": [
+              1400,
+              1515,
+              1630,
+              1791,
+              1906,
+              2038,
+              2221,
+              2405,
+              2589,
+              2784,
+              3013,
+              3243,
+              3473,
+              3702,
+              3932,
+              4161,
+              4391,
+              4621,
+              4850,
+              5080
+            ],
+            "Energy": 35,
+            "ElementPower": 112,
+            "HardnessLv": 10000,
+            "ToughLv": 1400
+          }
+        }
+      }
+    },
+    "2": {
+      "ParentNodes": [],
+      "NodeType": 2,
+      "Coordinate": 2,
+      "UnLockCondition": 0,
+      "Consume": [
+        {
+          "Key": 43020032,
+          "Value": 2
+        },
+        {
+          "Key": 41100022,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 3900
+        }
+      ],
+      "Skill": {
+        "Name": "枝葉をよぎる剣影",
+        "Desc": "<color=Highlight>共鳴スキル</color>を一回押しすると、仇遠は前方に突進し、<color=Wind>気動ダメージ</color>を与える。このダメージは音骸スキルダメージと見なされる。攻撃を受ける直前に<color=Highlight>共鳴スキル</color>を発動すると、ダメージを1回無効化し、さらに周囲の敵を停滞させる。この時の<color=Highlight>共鳴スキル</color>は中断されない。\n他のキャラに切り替えると目標の停滞効果は解除される。\n<size=10></size>\n<size=40><color=Title>千里をも辞せず</color></size>\n<color=Highlight>共鳴スキル</color>を長押しすると、仇遠は前方に突進し、目標に<color=Wind>気動ダメージ</color>を与える。このダメージは音骸スキルダメージと見なされる。\n<color=Highlight>共鳴スキル</color>を長押しする際、周囲に目標がいない場合、仇遠は空へ飛び上がり、スタミナを消費しながら一定時間前方へ突進し続ける。空中でスタミナが尽きる、または<color=Highlight>共鳴スキル</color>ボタンを離すと突進を中断する。突進終了時、近くに目標がいる場合、目標に<color=Wind>気動ダメージ</color>を与える。このダメージは音骸スキルダメージと見なされる。このスキルは空中でも発動可能。",
+        "Param": [],
+        "SimpleDesc": "<color=Wind>気動ダメージ</color>を与える。\n<size=10></size>\n<size=40><color=Title>千里をも辞せず</color></size>\n<color=Highlight>共鳴スキル</color>を長押しすると、仇遠は前方に突進し、目標に<color=Wind>気動ダメージ</color>を与える。\n<color=Highlight>共鳴スキル</color>を長押しする際、周囲に目標がいない場合、仇遠は空へ飛び上がり、スタミナを消費しながら一定時間前方へ突進し続ける。空中でスタミナが尽きる、または<color=Highlight>共鳴スキル</color>ボタンを離すと突進を中断する。突進終了時近くに目標がいる場合、目標に<color=Wind>気動ダメージ</color>を与える。",
+        "SimpleParam": [],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconQiuyuan/SP_IconQiuyuanB1.SP_IconQiuyuanB1",
+        "Type": "共鳴スキル",
+        "Level": {
+          "7": {
+            "Name": "スキルダメージ",
+            "Param": [
+              [
+                "36.14%*3",
+                "39.10%*3",
+                "42.06%*3",
+                "46.21%*3",
+                "49.18%*3",
+                "52.58%*3",
+                "57.32%*3",
+                "62.06%*3",
+                "66.80%*3",
+                "71.84%*3",
+                "77.77%*3",
+                "83.69%*3",
+                "89.62%*3",
+                "95.55%*3",
+                "101.47%*3",
+                "107.40%*3",
+                "113.32%*3",
+                "119.25%*3",
+                "125.17%*3",
+                "131.10%*3"
+              ]
+            ],
+            "Format": null
+          },
+          "8": {
+            "Name": "千里をも辞せずダメージ",
+            "Param": [
+              [
+                "16.26%+16.26%*3+43.36%",
+                "17.60%+17.60%*3+46.92%",
+                "18.93%+18.93%*3+50.48%",
+                "20.80%+20.80%*3+55.45%",
+                "22.13%+22.13%*3+59.01%",
+                "23.66%+23.66%*3+63.10%",
+                "25.80%+25.80%*3+68.79%",
+                "27.93%+27.93%*3+74.48%",
+                "30.06%+30.06%*3+80.16%",
+                "32.33%+32.33%*3+86.21%",
+                "35.00%+35.00%*3+93.32%",
+                "37.66%+37.66%*3+100.43%",
+                "40.33%+40.33%*3+107.54%",
+                "43.00%+43.00%*3+114.65%",
+                "45.66%+45.66%*3+121.76%",
+                "48.33%+48.33%*3+128.88%",
+                "51.00%+51.00%*3+135.99%",
+                "53.66%+53.66%*3+143.10%",
+                "56.33%+56.33%*3+150.21%",
+                "59.00%+59.00%*3+157.32%"
+              ]
+            ],
+            "Format": null
+          },
+          "9": {
+            "Name": "クールタイム",
+            "Param": [
+              [
+                "14",
+                "14",
+                "14",
+                "14",
+                "14",
+                "14",
+                "14",
+                "14",
+                "14",
+                "14",
+                "14",
+                "14",
+                "14",
+                "14",
+                "14",
+                "14",
+                "14",
+                "14",
+                "14",
+                "14"
+              ]
+            ],
+            "Format": "{0}秒"
+          },
+          "10": {
+            "Name": "協奏エネルギー獲得",
+            "Param": [
+              [
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10"
+              ]
+            ],
+            "Format": null
+          },
+          "11": {
+            "Name": "千里をも辞せず協奏エネルギー獲得",
+            "Param": [
+              [
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10"
+              ]
+            ],
+            "Format": null
+          }
+        },
+        "Consume": {
+          "1": [],
+          "2": [
+            {
+              "Key": 43020011,
+              "Value": 2
+            },
+            {
+              "Key": 41100011,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 1500
+            }
+          ],
+          "3": [
+            {
+              "Key": 43020011,
+              "Value": 3
+            },
+            {
+              "Key": 41100011,
+              "Value": 3
+            },
+            {
+              "Key": 2,
+              "Value": 2000
+            }
+          ],
+          "4": [
+            {
+              "Key": 43020012,
+              "Value": 2
+            },
+            {
+              "Key": 41100012,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 4500
+            }
+          ],
+          "5": [
+            {
+              "Key": 43020012,
+              "Value": 3
+            },
+            {
+              "Key": 41100012,
+              "Value": 3
+            },
+            {
+              "Key": 2,
+              "Value": 6000
+            }
+          ],
+          "6": [
+            {
+              "Key": 43020013,
+              "Value": 3
+            },
+            {
+              "Key": 41100013,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 16000
+            }
+          ],
+          "7": [
+            {
+              "Key": 43020013,
+              "Value": 5
+            },
+            {
+              "Key": 41100013,
+              "Value": 3
+            },
+            {
+              "Key": 41400254,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 30000
+            }
+          ],
+          "8": [
+            {
+              "Key": 43020014,
+              "Value": 2
+            },
+            {
+              "Key": 41100014,
+              "Value": 2
+            },
+            {
+              "Key": 41400254,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 50000
+            }
+          ],
+          "9": [
+            {
+              "Key": 43020014,
+              "Value": 3
+            },
+            {
+              "Key": 41100014,
+              "Value": 3
+            },
+            {
+              "Key": 41400254,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 70000
+            }
+          ],
+          "10": [
+            {
+              "Key": 43020014,
+              "Value": 6
+            },
+            {
+              "Key": 41100014,
+              "Value": 4
+            },
+            {
+              "Key": 41400254,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 100000
+            }
+          ]
+        },
+        "Damage": {
+          "1411220000": {
+            "Element": 4,
+            "RelatedProperty": "攻撃力",
+            "Type": 5,
+            "RateLv": [
+              1626,
+              1760,
+              1893,
+              2080,
+              2213,
+              2366,
+              2580,
+              2793,
+              3006,
+              3233,
+              3500,
+              3766,
+              4033,
+              4300,
+              4566,
+              4833,
+              5100,
+              5366,
+              5633,
+              5900
+            ],
+            "Energy": 231,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 3000
+          },
+          "1411200001": {
+            "Element": 4,
+            "RelatedProperty": "攻撃力",
+            "Type": 5,
+            "RateLv": [
+              3614,
+              3910,
+              4206,
+              4621,
+              4918,
+              5258,
+              5732,
+              6206,
+              6680,
+              7184,
+              7777,
+              8369,
+              8962,
+              9555,
+              10147,
+              10740,
+              11332,
+              11925,
+              12517,
+              13110
+            ],
+            "Energy": 503,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 6667
+          },
+          "1411220002": {
+            "Element": 4,
+            "RelatedProperty": "攻撃力",
+            "Type": 5,
+            "RateLv": [
+              1626,
+              1760,
+              1893,
+              2080,
+              2213,
+              2366,
+              2580,
+              2793,
+              3006,
+              3233,
+              3500,
+              3766,
+              4033,
+              4300,
+              4566,
+              4833,
+              5100,
+              5366,
+              5633,
+              5900
+            ],
+            "Energy": 231,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 3000
+          },
+          "1411220003": {
+            "Element": 4,
+            "RelatedProperty": "攻撃力",
+            "Type": 5,
+            "RateLv": [
+              4336,
+              4692,
+              5048,
+              5545,
+              5901,
+              6310,
+              6879,
+              7448,
+              8016,
+              8621,
+              9332,
+              10043,
+              10754,
+              11465,
+              12176,
+              12888,
+              13599,
+              14310,
+              15021,
+              15732
+            ],
+            "Energy": 614,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 8000
+          },
+          "1411900002": {
+            "Element": 4,
+            "RelatedProperty": "攻撃力",
+            "Type": 5,
+            "RateLv": [
+              7500,
+              7500,
+              7500,
+              7500,
+              7500,
+              7500,
+              7500,
+              7500,
+              7500,
+              7500,
+              7500,
+              7500,
+              7500,
+              7500,
+              7500,
+              7500,
+              7500,
+              7500,
+              7500,
+              7500
+            ],
+            "Energy": 231,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 3000
+          },
+          "1411900003": {
+            "Element": 4,
+            "RelatedProperty": "攻撃力",
+            "Type": 5,
+            "RateLv": [
+              7500,
+              7500,
+              7500,
+              7500,
+              7500,
+              7500,
+              7500,
+              7500,
+              7500,
+              7500,
+              7500,
+              7500,
+              7500,
+              7500,
+              7500,
+              7500,
+              7500,
+              7500,
+              7500,
+              7500
+            ],
+            "Energy": 231,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 3000
+          },
+          "1411900004": {
+            "Element": 4,
+            "RelatedProperty": "攻撃力",
+            "Type": 5,
+            "RateLv": [
+              20000,
+              20000,
+              20000,
+              20000,
+              20000,
+              20000,
+              20000,
+              20000,
+              20000,
+              20000,
+              20000,
+              20000,
+              20000,
+              20000,
+              20000,
+              20000,
+              20000,
+              20000,
+              20000,
+              20000
+            ],
+            "Energy": 614,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 8000
+          }
+        }
+      }
+    },
+    "3": {
+      "ParentNodes": [],
+      "NodeType": 2,
+      "Coordinate": 3,
+      "UnLockCondition": 0,
+      "Consume": [
+        {
+          "Key": 43020032,
+          "Value": 2
+        },
+        {
+          "Key": 41100022,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 3900
+        }
+      ],
+      "Skill": {
+        "Name": "万鈞の一振り",
+        "Desc": "範囲内の目標に<color=Wind>気動ダメージ</color>を与える。このダメージは音骸スキルダメージと見なされる。\nスキル発動時、仇遠のクリティカル率が{0}を上回った場合、超過分{1}につき、近くにいるチーム内登場キャラのクリティカルダメージは{2}アップ、{3}秒間持続、最大{4}アップ可能。",
+        "Param": [
+          "50%",
+          "1%",
+          "2%",
+          "30",
+          "30%"
+        ],
+        "SimpleDesc": "<color=Wind>気動ダメージ</color>を与える。\nスキル発動時、仇遠のクリティカル率が{0}を上回った場合、超過分{1}につき、近くにいるチーム内登場キャラのクリティカルダメージは{2}アップ、{3}秒間持続、最大{4}アップ可能。",
+        "SimpleParam": [
+          "50%",
+          "1%",
+          "2%",
+          "30",
+          "30%"
+        ],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconQiuyuan/SP_IconQiuyuanC1.SP_IconQiuyuanC1",
+        "Type": "共鳴解放",
+        "Level": {
+          "13": {
+            "Name": "スキルダメージ",
+            "Param": [
+              [
+                "400.00%",
+                "432.80%",
+                "465.60%",
+                "511.52%",
+                "544.32%",
+                "582.04%",
+                "634.52%",
+                "687.00%",
+                "739.48%",
+                "795.24%",
+                "860.84%",
+                "926.44%",
+                "992.04%",
+                "1057.64%",
+                "1123.24%",
+                "1188.84%",
+                "1254.44%",
+                "1320.04%",
+                "1385.64%",
+                "1451.24%"
+              ]
+            ],
+            "Format": null
+          },
+          "14": {
+            "Name": "クールタイム",
+            "Param": [
+              [
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25"
+              ]
+            ],
+            "Format": "{0}秒"
+          },
+          "15": {
+            "Name": "共鳴エネルギー消費",
+            "Param": [
+              [
+                "125",
+                "125",
+                "125",
+                "125",
+                "125",
+                "125",
+                "125",
+                "125",
+                "125",
+                "125"
+              ]
+            ],
+            "Format": null
+          },
+          "16": {
+            "Name": "協奏エネルギー獲得",
+            "Param": [
+              [
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20"
+              ]
+            ],
+            "Format": null
+          }
+        },
+        "Consume": {
+          "1": [],
+          "2": [
+            {
+              "Key": 43020011,
+              "Value": 2
+            },
+            {
+              "Key": 41100011,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 1500
+            }
+          ],
+          "3": [
+            {
+              "Key": 43020011,
+              "Value": 3
+            },
+            {
+              "Key": 41100011,
+              "Value": 3
+            },
+            {
+              "Key": 2,
+              "Value": 2000
+            }
+          ],
+          "4": [
+            {
+              "Key": 43020012,
+              "Value": 2
+            },
+            {
+              "Key": 41100012,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 4500
+            }
+          ],
+          "5": [
+            {
+              "Key": 43020012,
+              "Value": 3
+            },
+            {
+              "Key": 41100012,
+              "Value": 3
+            },
+            {
+              "Key": 2,
+              "Value": 6000
+            }
+          ],
+          "6": [
+            {
+              "Key": 43020013,
+              "Value": 3
+            },
+            {
+              "Key": 41100013,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 16000
+            }
+          ],
+          "7": [
+            {
+              "Key": 43020013,
+              "Value": 5
+            },
+            {
+              "Key": 41100013,
+              "Value": 3
+            },
+            {
+              "Key": 41400254,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 30000
+            }
+          ],
+          "8": [
+            {
+              "Key": 43020014,
+              "Value": 2
+            },
+            {
+              "Key": 41100014,
+              "Value": 2
+            },
+            {
+              "Key": 41400254,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 50000
+            }
+          ],
+          "9": [
+            {
+              "Key": 43020014,
+              "Value": 3
+            },
+            {
+              "Key": 41100014,
+              "Value": 3
+            },
+            {
+              "Key": 41400254,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 70000
+            }
+          ],
+          "10": [
+            {
+              "Key": 43020014,
+              "Value": 6
+            },
+            {
+              "Key": 41100014,
+              "Value": 4
+            },
+            {
+              "Key": 41400254,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 100000
+            }
+          ]
+        },
+        "Damage": {
+          "1411230001": {
+            "Element": 4,
+            "RelatedProperty": "攻撃力",
+            "Type": 5,
+            "RateLv": [
+              40000,
+              43280,
+              46560,
+              51152,
+              54432,
+              58204,
+              63452,
+              68700,
+              73948,
+              79524,
+              86084,
+              92644,
+              99204,
+              105764,
+              112324,
+              118884,
+              125444,
+              132004,
+              138564,
+              145124
+            ],
+            "Energy": 0,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 40000
+          },
+          "1411230011": {
+            "Element": 4,
+            "RelatedProperty": "攻撃力",
+            "Type": 5,
+            "RateLv": [
+              90000,
+              93280,
+              96560,
+              101152,
+              104432,
+              108204,
+              113452,
+              118700,
+              123948,
+              129524,
+              136084,
+              142644,
+              149204,
+              155764,
+              162324,
+              168884,
+              175444,
+              182004,
+              188564,
+              195124
+            ],
+            "Energy": 0,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 40000
+          },
+          "14112300010": {
+            "Element": 0,
+            "RelatedProperty": "攻撃力",
+            "Type": 0,
+            "RateLv": [
+              0
+            ],
+            "Energy": 0,
+            "ElementPower": 0,
+            "HardnessLv": 0,
+            "ToughLv": 0
+          }
+        }
+      }
+    },
+    "4": {
+      "ParentNodes": [
+        7
+      ],
+      "NodeType": 3,
+      "Coordinate": 2,
+      "UnLockCondition": 0,
+      "Consume": [
+        {
+          "Key": 43020032,
+          "Value": 2
+        },
+        {
+          "Key": 41100022,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 3900
+        }
+      ],
+      "Skill": {
+        "Name": "心は従容なり",
+        "Desc": "【<te href=141102>酔墨淋漓</te>】状態に入ると、仇遠は<color=Highlight>心は従容なり</color>效果を獲得、{0}秒間持続。この効果は{3}秒ごとに1回発動可能。\n目標が受ける重撃<color=Highlight>応剣・伝承の音律</color>、<color=Highlight>応剣・献身の決意</color>、<color=Highlight>応剣・不変の忠節</color>のダメージが{1}アップ。<color=Highlight>応剣・不変の忠節</color>が目標に命中すると、追加で{2}Ptの協奏エネルギーを獲得。\n· 他のキャラに切り替えると、この効果は消える。",
+        "Param": [
+          "10",
+          "50%",
+          "30",
+          "22"
+        ],
+        "SimpleDesc": "【<te href=141102>酔墨淋漓</te>】状態に入ると、仇遠は<color=Highlight>心は従容なり</color>效果を獲得、{0}秒間持続。この効果は{3}秒ごとに1回発動可能。\n目標が受ける重撃<color=Highlight>応剣・伝承の音律</color>、<color=Highlight>応剣・献身の決意</color>、<color=Highlight>応剣・不変の忠節</color>のダメージが{1}アップ。<color=Highlight>応剣・不変の忠節</color>が目標に命中すると、追加で{2}Ptの協奏エネルギーを獲得。\n· 他のキャラに切り替えると、この効果は消える。",
+        "SimpleParam": [
+          "10",
+          "50%",
+          "30",
+          "22"
+        ],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconQiuyuan/SP_IconQiuyuanD1.SP_IconQiuyuanD1",
+        "Type": "固有スキル",
+        "Level": {},
+        "Consume": {
+          "1": [
+            {
+              "Key": 43020012,
+              "Value": 3
+            },
+            {
+              "Key": 41100012,
+              "Value": 3
+            },
+            {
+              "Key": 41400254,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 10000
+            }
+          ]
+        },
+        "Damage": {}
+      }
+    },
+    "5": {
+      "ParentNodes": [
+        4
+      ],
+      "NodeType": 3,
+      "Coordinate": 3,
+      "UnLockCondition": 0,
+      "Consume": [
+        {
+          "Key": 43020032,
+          "Value": 2
+        },
+        {
+          "Key": 41100022,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 3900
+        }
+      ],
+      "Skill": {
+        "Name": "万古の愁を共に晴らさん",
+        "Desc": "仇遠が音骸スキルを発動時、竹筒が散逸したエネルギーを吸収し、<color=Highlight>【妙薬玉膳】</color>に変換する。\n次に【<te href=141101>灯りにかざす剣舞</te>】を獲得時、<color=Highlight>【妙薬玉膳】</color>を消費して仇遠の攻撃力が{0}アップ、{1}秒間持続。",
+        "Param": [
+          "10%",
+          "20"
+        ],
+        "SimpleDesc": "仇遠が音骸スキルを発動時、竹筒が散逸したエネルギーを吸収し、<color=Highlight>【妙薬玉膳】</color>に変換する。\n次に【<te href=141101>灯りにかざす剣舞</te>】を獲得時、<color=Highlight>【妙薬玉膳】</color>を消費して仇遠の攻撃力が{0}アップ、{1}秒間持続。",
+        "SimpleParam": [
+          "10%",
+          "20"
+        ],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconQiuyuan/SP_IconQiuyuanD2.SP_IconQiuyuanD2",
+        "Type": "固有スキル",
+        "Level": {},
+        "Consume": {
+          "1": [
+            {
+              "Key": 43020013,
+              "Value": 3
+            },
+            {
+              "Key": 41100013,
+              "Value": 3
+            },
+            {
+              "Key": 41400254,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 20000
+            }
+          ]
+        },
+        "Damage": {}
+      }
+    },
+    "6": {
+      "ParentNodes": [],
+      "NodeType": 2,
+      "Coordinate": 4,
+      "UnLockCondition": 0,
+      "Consume": [
+        {
+          "Key": 43020032,
+          "Value": 2
+        },
+        {
+          "Key": 41100022,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 3900
+        }
+      ],
+      "Skill": {
+        "Name": "急所を狙う一撃",
+        "Desc": "目標を攻撃し<color=Wind>気動ダメージ</color>を与える。このダメージは重撃ダメージと見なされる。\nこのスキルを発動後、一定時間内に<color=Highlight>通常攻撃</color>を一回押しすると、通常攻撃<color=Highlight>応剣・黒中の蒼</color>3段目を発動する。",
+        "Param": [],
+        "SimpleDesc": "<color=Wind>気動ダメージ</color>を与える。\nこのスキルを発動後、一定時間内に<color=Highlight>通常攻撃</color>を一回押しすると、通常攻撃<color=Highlight>応剣・黒中の蒼</color>3段目を発動する。",
+        "SimpleParam": [],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconQiuyuan/SP_IconQiuyuanQTE.SP_IconQiuyuanQTE",
+        "Type": "変奏スキル",
+        "Level": {
+          "18": {
+            "Name": "スキルダメージ",
+            "Param": [
+              [
+                "4.80%*5+24.00%+72.00%",
+                "5.20%*5+25.97%+77.91%",
+                "5.59%*5+27.94%+83.81%",
+                "6.14%*5+30.70%+92.08%",
+                "6.54%*5+32.66%+97.98%",
+                "6.99%*5+34.93%+104.77%",
+                "7.62%*5+38.08%+114.22%",
+                "8.25%*5+41.22%+123.66%",
+                "8.88%*5+44.37%+133.11%",
+                "9.55%*5+47.72%+143.15%",
+                "10.34%*5+51.66%+154.96%",
+                "11.12%*5+55.59%+166.76%",
+                "11.91%*5+59.53%+178.57%",
+                "12.70%*5+63.46%+190.38%",
+                "13.48%*5+67.40%+202.19%",
+                "14.27%*5+71.34%+214.00%",
+                "15.06%*5+75.27%+225.80%",
+                "15.85%*5+79.21%+237.61%",
+                "16.63%*5+83.14%+249.42%",
+                "17.42%*5+87.08%+261.23%"
+              ]
+            ],
+            "Format": null
+          },
+          "19": {
+            "Name": "協奏エネルギー獲得",
+            "Param": [
+              [
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10"
+              ]
+            ],
+            "Format": null
+          }
+        },
+        "Consume": {
+          "1": [],
+          "2": [
+            {
+              "Key": 43020011,
+              "Value": 2
+            },
+            {
+              "Key": 41100011,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 1500
+            }
+          ],
+          "3": [
+            {
+              "Key": 43020011,
+              "Value": 3
+            },
+            {
+              "Key": 41100011,
+              "Value": 3
+            },
+            {
+              "Key": 2,
+              "Value": 2000
+            }
+          ],
+          "4": [
+            {
+              "Key": 43020012,
+              "Value": 2
+            },
+            {
+              "Key": 41100012,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 4500
+            }
+          ],
+          "5": [
+            {
+              "Key": 43020012,
+              "Value": 3
+            },
+            {
+              "Key": 41100012,
+              "Value": 3
+            },
+            {
+              "Key": 2,
+              "Value": 6000
+            }
+          ],
+          "6": [
+            {
+              "Key": 43020013,
+              "Value": 3
+            },
+            {
+              "Key": 41100013,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 16000
+            }
+          ],
+          "7": [
+            {
+              "Key": 43020013,
+              "Value": 5
+            },
+            {
+              "Key": 41100013,
+              "Value": 3
+            },
+            {
+              "Key": 41400254,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 30000
+            }
+          ],
+          "8": [
+            {
+              "Key": 43020014,
+              "Value": 2
+            },
+            {
+              "Key": 41100014,
+              "Value": 2
+            },
+            {
+              "Key": 41400254,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 50000
+            }
+          ],
+          "9": [
+            {
+              "Key": 43020014,
+              "Value": 3
+            },
+            {
+              "Key": 41100014,
+              "Value": 3
+            },
+            {
+              "Key": 41400254,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 70000
+            }
+          ],
+          "10": [
+            {
+              "Key": 43020014,
+              "Value": 6
+            },
+            {
+              "Key": 41100014,
+              "Value": 4
+            },
+            {
+              "Key": 41400254,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 100000
+            }
+          ]
+        },
+        "Damage": {
+          "1411900005": {
+            "Element": 4,
+            "RelatedProperty": "攻撃力",
+            "Type": 1,
+            "RateLv": [
+              480,
+              520,
+              559,
+              614,
+              654,
+              699,
+              762,
+              825,
+              888,
+              955,
+              1034,
+              1112,
+              1191,
+              1270,
+              1348,
+              1427,
+              1506,
+              1585,
+              1663,
+              1742
+            ],
+            "Energy": 40,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 800
+          },
+          "1411900006": {
+            "Element": 4,
+            "RelatedProperty": "攻撃力",
+            "Type": 1,
+            "RateLv": [
+              2400,
+              2597,
+              2794,
+              3070,
+              3266,
+              3493,
+              3808,
+              4122,
+              4437,
+              4772,
+              5166,
+              5559,
+              5953,
+              6346,
+              6740,
+              7134,
+              7527,
+              7921,
+              8314,
+              8708
+            ],
+            "Energy": 200,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 4000
+          },
+          "1411900007": {
+            "Element": 4,
+            "RelatedProperty": "攻撃力",
+            "Type": 1,
+            "RateLv": [
+              7200,
+              7791,
+              8381,
+              9208,
+              9798,
+              10477,
+              11422,
+              12366,
+              13311,
+              14315,
+              15496,
+              16676,
+              17857,
+              19038,
+              20219,
+              21400,
+              22580,
+              23761,
+              24942,
+              26123
+            ],
+            "Energy": 600,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 12000
+          }
+        }
+      }
+    },
+    "7": {
+      "ParentNodes": [],
+      "NodeType": 1,
+      "Coordinate": 1,
+      "UnLockCondition": 0,
+      "Consume": [
+        {
+          "Key": 43020032,
+          "Value": 2
+        },
+        {
+          "Key": 41100022,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 3900
+        }
+      ],
+      "Skill": {
+        "Name": "竹裁り鋒あり",
+        "Desc": "<size=40><color=Title>通常攻撃・応剣・黒中の蒼</color></size>\n【<te href=141101>灯りにかざす剣舞</te>】が{0}Ptに達すると、<color=Highlight>通常攻撃</color>は通常攻撃<color=Highlight>応剣・黒中の蒼</color>に代わり、最大4段の連続攻撃を行い、<color=Wind>気動ダメージ</color>を与える。このダメージは重撃ダメージと見なされる。\n<size=10></size>\n<size=10></size><size=40><color=Title>竹映</color></size>\n【<te href=141101>灯りにかざす剣舞</te>】が{1}Ptに達すると、<color=Highlight>【竹映】</color>効果を獲得し、近くにいるチーム内登場キャラの音骸スキルダメージが{2}アップ、{3}秒間持続。\n<size=10></size>\n<size=40><color=Title>酔墨淋漓</color></size>\n【<te href=141101>灯りにかざす剣舞</te>】が満タン時、仇遠は<color=Highlight>【酔墨淋漓】</color>状態に入り、<color=Highlight>重撃</color>は重撃<color=Highlight>応剣・献身の決意</color>に代わり、{4}秒間持続。\n【酔墨淋漓】状態中、<color=Highlight>通常攻撃</color>を長押しすると【灯りにかざす剣舞】を消費して、順に重撃<color=Highlight>応剣・伝承の音律</color>、<color=Highlight>応剣・献身の決意</color>、<color=Highlight>応剣・不変の忠節</color>を発動し、<color=Wind>気動ダメージ</color>を与える。このダメージは重撃ダメージと見なされる。\n· <color=Highlight>応剣・伝承の音律</color>、<color=Highlight>応剣・献身の決意</color>、<color=Highlight>応剣・不変の忠節</color>の発動は、<color=Highlight>音骸スキル</color>の発動と見なされる。\n· 【灯りにかざす剣舞】を全て消費すると、仇遠の【酔墨淋漓】状態は解除される。\n<size=10></size>\n<size=40><color=Title>【灯りにかざす剣舞】の獲得方法</color></size>\n【灯りにかざす剣舞】は最大{5}Pt。\n· <color=Highlight>通常攻撃</color>3段目を発動時、【灯りにかざす剣舞】を{6}Pt獲得。\n· 通常攻撃<color=Highlight>応剣・黒中の蒼</color>を発動時、1段につき【灯りにかざす剣舞】を{7}Pt獲得。\n· <color=Highlight>回避反撃</color>を発動時、【灯りにかざす剣舞】を{8}Pt獲得。\n· <color=Highlight>変奏スキル</color>を発動時、【灯りにかざす剣舞】を{9}Pt獲得。\n· 【酔墨淋漓】状態中、【灯りにかざす剣舞】は獲得できない。\n· 【酔墨淋漓】状態終了時、【灯りにかざす剣舞】を全て消費する。",
+        "Param": [
+          "200",
+          "400",
+          "30%",
+          "30",
+          "8",
+          "600",
+          "100",
+          "100",
+          "100",
+          "400"
+        ],
+        "SimpleDesc": "<size=40><color=Title>通常攻撃・応剣・黒中の蒼</color></size>\n【<te href=141101>灯りにかざす剣舞</te>】が{0}Ptに達すると、<color=Highlight>通常攻撃</color>は通常攻撃<color=Highlight>応剣・黒中の蒼</color>に代わり、最大4段の連続攻撃を行い、<color=Wind>気動ダメージ</color>を与える。\n<size=10></size>\n<size=10></size><size=40><color=Title>竹映</color></size>\n【<te href=141101>灯りにかざす剣舞</te>】が{1}Ptに達すると、<color=Highlight>【竹映】</color>効果を獲得し、近くにいるチーム内登場キャラの音骸スキルダメージが{2}アップし、{3}秒間持続。\n<size=10></size>\n<size=40><color=Title>酔墨淋漓</color></size>\n【<te href=141101>灯りにかざす剣舞</te>】が満タン時、仇遠は<color=Highlight>【酔墨淋漓】</color>状態に入り、<color=Highlight>重撃</color>は重撃<color=Highlight>応剣・献身の決意</color>に代わり、{4}秒間持続。\n【酔墨淋漓】状態中、<color=Highlight>通常攻撃</color>を長押しすると【灯りにかざす剣舞】を消費して、順に重撃<color=Highlight>応剣・伝承の音律</color>、<color=Highlight>応剣・献身の決意</color>、<color=Highlight>応剣・不変の忠節</color>を発動し、<color=Wind>気動ダメージ</color>を与える。このダメージは重撃ダメージと見なされる。\n<size=10></size>\n<size=40><color=Title>【灯りにかざす剣舞】の獲得方法</color></size>\n【灯りにかざす剣舞】は最大{5}Pt。\n· <color=Highlight>通常攻撃</color>3段目、通常攻撃<color=Highlight>応剣・黒中の蒼</color>、<color=Highlight>回避反撃</color>、<color=Highlight>変奏スキル</color>を発動時、【灯りにかざす剣舞】を獲得。\n· 【酔墨淋漓】状態中、【灯りにかざす剣舞】は獲得できない。\n· 【酔墨淋漓】状態終了時、【灯りにかざす剣舞】を全て消費する。",
+        "SimpleParam": [
+          "200",
+          "400",
+          "30%",
+          "30",
+          "8",
+          "600"
+        ],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconQiuyuan/SP_IconQiuyuanY.SP_IconQiuyuanY",
+        "Type": "共鳴回路",
+        "Level": {
+          "21": {
+            "Name": "応剣・黒中の蒼1段目ダメージ",
+            "Param": [
+              [
+                "30.00%+30.00%",
+                "32.46%+32.46%",
+                "34.92%+34.92%",
+                "38.37%+38.37%",
+                "40.83%+40.83%",
+                "43.66%+43.66%",
+                "47.59%+47.59%",
+                "51.53%+51.53%",
+                "55.47%+55.47%",
+                "59.65%+59.65%",
+                "64.57%+64.57%",
+                "69.49%+69.49%",
+                "74.41%+74.41%",
+                "79.33%+79.33%",
+                "84.25%+84.25%",
+                "89.17%+89.17%",
+                "94.09%+94.09%",
+                "99.01%+99.01%",
+                "103.93%+103.93%",
+                "108.85%+108.85%"
+              ]
+            ],
+            "Format": null
+          },
+          "22": {
+            "Name": "応剣・黒中の蒼2段目ダメージ",
+            "Param": [
+              [
+                "27.99%+27.99%+37.32%",
+                "30.29%+30.29%+40.39%",
+                "32.59%+32.59%+43.45%",
+                "35.80%+35.80%+47.73%",
+                "38.09%+38.09%+50.79%",
+                "40.73%+40.73%+54.31%",
+                "44.41%+44.41%+59.21%",
+                "48.08%+48.08%+64.10%",
+                "51.75%+51.75%+69.00%",
+                "55.65%+55.65%+74.20%",
+                "60.24%+60.24%+80.32%",
+                "64.83%+64.83%+86.44%",
+                "69.42%+69.42%+92.56%",
+                "74.01%+74.01%+98.68%",
+                "78.60%+78.60%+104.80%",
+                "83.19%+83.19%+110.92%",
+                "87.78%+87.78%+117.04%",
+                "92.37%+92.37%+123.16%",
+                "96.97%+96.97%+129.29%",
+                "101.56%+101.56%+135.41%"
+              ]
+            ],
+            "Format": null
+          },
+          "23": {
+            "Name": "応剣・黒中の蒼3段目ダメージ",
+            "Param": [
+              [
+                "7.33%+7.33%*4+36.65%",
+                "7.94%+7.94%*4+39.66%",
+                "8.54%+8.54%*4+42.67%",
+                "9.38%+9.38%*4+46.87%",
+                "9.98%+9.98%*4+49.88%",
+                "10.67%+10.67%*4+53.33%",
+                "11.63%+11.63%*4+58.14%",
+                "12.59%+12.59%*4+62.95%",
+                "13.56%+13.56%*4+67.76%",
+                "14.58%+14.58%*4+72.87%",
+                "15.78%+15.78%*4+78.88%",
+                "16.98%+16.98%*4+84.89%",
+                "18.18%+18.18%*4+90.90%",
+                "19.39%+19.39%*4+96.91%",
+                "20.59%+20.59%*4+102.92%",
+                "21.79%+21.79%*4+108.93%",
+                "22.99%+22.99%*4+114.94%",
+                "24.19%+24.19%*4+120.95%",
+                "25.40%+25.40%*4+126.96%",
+                "26.60%+26.60%*4+132.97%"
+              ]
+            ],
+            "Format": null
+          },
+          "24": {
+            "Name": "応剣・黒中の蒼4段目ダメージ",
+            "Param": [
+              [
+                "86.70%",
+                "93.81%",
+                "100.92%",
+                "110.88%",
+                "117.99%",
+                "126.16%",
+                "137.54%",
+                "148.91%",
+                "160.29%",
+                "172.37%",
+                "186.59%",
+                "200.81%",
+                "215.03%",
+                "229.25%",
+                "243.47%",
+                "257.69%",
+                "271.90%",
+                "286.12%",
+                "300.34%",
+                "314.56%"
+              ]
+            ],
+            "Format": null
+          },
+          "25": {
+            "Name": "応剣・伝承の音律ダメージ",
+            "Param": [
+              [
+                "45.99%+45.99%+45.99%+45.99%+45.99%",
+                "49.77%+49.77%+49.77%+49.77%+49.77%",
+                "53.54%+53.54%+53.54%+53.54%+53.54%",
+                "58.82%+58.82%+58.82%+58.82%+58.82%",
+                "62.59%+62.59%+62.59%+62.59%+62.59%",
+                "66.93%+66.93%+66.93%+66.93%+66.93%",
+                "72.96%+72.96%+72.96%+72.96%+72.96%",
+                "78.99%+78.99%+78.99%+78.99%+78.99%",
+                "85.03%+85.03%+85.03%+85.03%+85.03%",
+                "91.44%+91.44%+91.44%+91.44%+91.44%",
+                "98.98%+98.98%+98.98%+98.98%+98.98%",
+                "106.52%+106.52%+106.52%+106.52%+106.52%",
+                "114.06%+114.06%+114.06%+114.06%+114.06%",
+                "121.61%+121.61%+121.61%+121.61%+121.61%",
+                "129.15%+129.15%+129.15%+129.15%+129.15%",
+                "136.69%+136.69%+136.69%+136.69%+136.69%",
+                "144.23%+144.23%+144.23%+144.23%+144.23%",
+                "151.78%+151.78%+151.78%+151.78%+151.78%",
+                "159.32%+159.32%+159.32%+159.32%+159.32%",
+                "166.86%+166.86%+166.86%+166.86%+166.86%"
+              ]
+            ],
+            "Format": null
+          },
+          "26": {
+            "Name": "応剣・献身の決意ダメージ",
+            "Param": [
+              [
+                "19.34%*3+15.82%+15.82%+15.82%",
+                "20.92%*3+17.12%+17.12%+17.12%",
+                "22.51%*3+18.42%+18.42%+18.42%",
+                "24.73%*3+20.23%+20.23%+20.23%",
+                "26.31%*3+21.53%+21.53%+21.53%",
+                "28.14%*3+23.02%+23.02%+23.02%",
+                "30.67%*3+25.10%+25.10%+25.10%",
+                "33.21%*3+27.17%+27.17%+27.17%",
+                "35.74%*3+29.25%+29.25%+29.25%",
+                "38.44%*3+31.45%+31.45%+31.45%",
+                "41.61%*3+34.05%+34.05%+34.05%",
+                "44.78%*3+36.64%+36.64%+36.64%",
+                "47.95%*3+39.23%+39.23%+39.23%",
+                "51.12%*3+41.83%+41.83%+41.83%",
+                "54.29%*3+44.42%+44.42%+44.42%",
+                "57.46%*3+47.02%+47.02%+47.02%",
+                "60.63%*3+49.61%+49.61%+49.61%",
+                "63.80%*3+52.20%+52.20%+52.20%",
+                "66.97%*3+54.80%+54.80%+54.80%",
+                "70.15%*3+57.39%+57.39%+57.39%"
+              ]
+            ],
+            "Format": null
+          },
+          "27": {
+            "Name": "応剣・不変の忠節ダメージ",
+            "Param": [
+              [
+                "109.50%",
+                "118.48%",
+                "127.46%",
+                "140.03%",
+                "149.01%",
+                "159.34%",
+                "173.70%",
+                "188.07%",
+                "202.44%",
+                "217.70%",
+                "235.66%",
+                "253.62%",
+                "271.58%",
+                "289.53%",
+                "307.49%",
+                "325.45%",
+                "343.41%",
+                "361.37%",
+                "379.32%",
+                "397.28%"
+              ]
+            ],
+            "Format": null
+          }
+        },
+        "Consume": {
+          "1": [],
+          "2": [
+            {
+              "Key": 43020011,
+              "Value": 2
+            },
+            {
+              "Key": 41100011,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 1500
+            }
+          ],
+          "3": [
+            {
+              "Key": 43020011,
+              "Value": 3
+            },
+            {
+              "Key": 41100011,
+              "Value": 3
+            },
+            {
+              "Key": 2,
+              "Value": 2000
+            }
+          ],
+          "4": [
+            {
+              "Key": 43020012,
+              "Value": 2
+            },
+            {
+              "Key": 41100012,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 4500
+            }
+          ],
+          "5": [
+            {
+              "Key": 43020012,
+              "Value": 3
+            },
+            {
+              "Key": 41100012,
+              "Value": 3
+            },
+            {
+              "Key": 2,
+              "Value": 6000
+            }
+          ],
+          "6": [
+            {
+              "Key": 43020013,
+              "Value": 3
+            },
+            {
+              "Key": 41100013,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 16000
+            }
+          ],
+          "7": [
+            {
+              "Key": 43020013,
+              "Value": 5
+            },
+            {
+              "Key": 41100013,
+              "Value": 3
+            },
+            {
+              "Key": 41400254,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 30000
+            }
+          ],
+          "8": [
+            {
+              "Key": 43020014,
+              "Value": 2
+            },
+            {
+              "Key": 41100014,
+              "Value": 2
+            },
+            {
+              "Key": 41400254,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 50000
+            }
+          ],
+          "9": [
+            {
+              "Key": 43020014,
+              "Value": 3
+            },
+            {
+              "Key": 41100014,
+              "Value": 3
+            },
+            {
+              "Key": 41400254,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 70000
+            }
+          ],
+          "10": [
+            {
+              "Key": 43020014,
+              "Value": 6
+            },
+            {
+              "Key": 41100014,
+              "Value": 4
+            },
+            {
+              "Key": 41400254,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 100000
+            }
+          ]
+        },
+        "Damage": {
+          "1411110001": {
+            "Element": 4,
+            "RelatedProperty": "攻撃力",
+            "Type": 1,
+            "RateLv": [
+              4599,
+              4977,
+              5354,
+              5882,
+              6259,
+              6693,
+              7296,
+              7899,
+              8503,
+              9144,
+              9898,
+              10652,
+              11406,
+              12161,
+              12915,
+              13669,
+              14423,
+              15178,
+              15932,
+              16686
+            ],
+            "Energy": 154,
+            "ElementPower": 295,
+            "HardnessLv": 10000,
+            "ToughLv": 3066
+          },
+          "1411110002": {
+            "Element": 4,
+            "RelatedProperty": "攻撃力",
+            "Type": 1,
+            "RateLv": [
+              4599,
+              4977,
+              5354,
+              5882,
+              6259,
+              6693,
+              7296,
+              7899,
+              8503,
+              9144,
+              9898,
+              10652,
+              11406,
+              12161,
+              12915,
+              13669,
+              14423,
+              15178,
+              15932,
+              16686
+            ],
+            "Energy": 154,
+            "ElementPower": 295,
+            "HardnessLv": 10000,
+            "ToughLv": 3066
+          },
+          "1411110003": {
+            "Element": 4,
+            "RelatedProperty": "攻撃力",
+            "Type": 1,
+            "RateLv": [
+              4599,
+              4977,
+              5354,
+              5882,
+              6259,
+              6693,
+              7296,
+              7899,
+              8503,
+              9144,
+              9898,
+              10652,
+              11406,
+              12161,
+              12915,
+              13669,
+              14423,
+              15178,
+              15932,
+              16686
+            ],
+            "Energy": 154,
+            "ElementPower": 295,
+            "HardnessLv": 10000,
+            "ToughLv": 3066
+          },
+          "1411110004": {
+            "Element": 4,
+            "RelatedProperty": "攻撃力",
+            "Type": 1,
+            "RateLv": [
+              4599,
+              4977,
+              5354,
+              5882,
+              6259,
+              6693,
+              7296,
+              7899,
+              8503,
+              9144,
+              9898,
+              10652,
+              11406,
+              12161,
+              12915,
+              13669,
+              14423,
+              15178,
+              15932,
+              16686
+            ],
+            "Energy": 154,
+            "ElementPower": 295,
+            "HardnessLv": 10000,
+            "ToughLv": 3066
+          },
+          "1411110005": {
+            "Element": 4,
+            "RelatedProperty": "攻撃力",
+            "Type": 1,
+            "RateLv": [
+              4599,
+              4977,
+              5354,
+              5882,
+              6259,
+              6693,
+              7296,
+              7899,
+              8503,
+              9144,
+              9898,
+              10652,
+              11406,
+              12161,
+              12915,
+              13669,
+              14423,
+              15178,
+              15932,
+              16686
+            ],
+            "Energy": 154,
+            "ElementPower": 295,
+            "HardnessLv": 10000,
+            "ToughLv": 3066
+          },
+          "1411120001": {
+            "Element": 4,
+            "RelatedProperty": "攻撃力",
+            "Type": 1,
+            "RateLv": [
+              1934,
+              2092,
+              2251,
+              2473,
+              2631,
+              2814,
+              3067,
+              3321,
+              3574,
+              3844,
+              4161,
+              4478,
+              4795,
+              5112,
+              5429,
+              5746,
+              6063,
+              6380,
+              6697,
+              7015
+            ],
+            "Energy": 65,
+            "ElementPower": 124,
+            "HardnessLv": 10000,
+            "ToughLv": 1289
+          },
+          "1411120002": {
+            "Element": 4,
+            "RelatedProperty": "攻撃力",
+            "Type": 1,
+            "RateLv": [
+              1582,
+              1712,
+              1842,
+              2023,
+              2153,
+              2302,
+              2510,
+              2717,
+              2925,
+              3145,
+              3405,
+              3664,
+              3923,
+              4183,
+              4442,
+              4702,
+              4961,
+              5220,
+              5480,
+              5739
+            ],
+            "Energy": 53,
+            "ElementPower": 102,
+            "HardnessLv": 10000,
+            "ToughLv": 1055
+          },
+          "1411120003": {
+            "Element": 4,
+            "RelatedProperty": "攻撃力",
+            "Type": 1,
+            "RateLv": [
+              10950,
+              11848,
+              12746,
+              14003,
+              14901,
+              15934,
+              17370,
+              18807,
+              20244,
+              21770,
+              23566,
+              25362,
+              27158,
+              28953,
+              30749,
+              32545,
+              34341,
+              36137,
+              37932,
+              39728
+            ],
+            "Energy": 365,
+            "ElementPower": 701,
+            "HardnessLv": 10000,
+            "ToughLv": 7300
+          },
+          "1411020001": {
+            "Element": 4,
+            "RelatedProperty": "攻撃力",
+            "Type": 1,
+            "RateLv": [
+              3000,
+              3246,
+              3492,
+              3837,
+              4083,
+              4366,
+              4759,
+              5153,
+              5547,
+              5965,
+              6457,
+              6949,
+              7441,
+              7933,
+              8425,
+              8917,
+              9409,
+              9901,
+              10393,
+              10885
+            ],
+            "Energy": 75,
+            "ElementPower": 240,
+            "HardnessLv": 10000,
+            "ToughLv": 3000
+          },
+          "1411020002": {
+            "Element": 4,
+            "RelatedProperty": "攻撃力",
+            "Type": 1,
+            "RateLv": [
+              3000,
+              3246,
+              3492,
+              3837,
+              4083,
+              4366,
+              4759,
+              5153,
+              5547,
+              5965,
+              6457,
+              6949,
+              7441,
+              7933,
+              8425,
+              8917,
+              9409,
+              9901,
+              10393,
+              10885
+            ],
+            "Energy": 75,
+            "ElementPower": 240,
+            "HardnessLv": 10000,
+            "ToughLv": 3000
+          },
+          "1411030001": {
+            "Element": 4,
+            "RelatedProperty": "攻撃力",
+            "Type": 1,
+            "RateLv": [
+              2799,
+              3029,
+              3259,
+              3580,
+              3809,
+              4073,
+              4441,
+              4808,
+              5175,
+              5565,
+              6024,
+              6483,
+              6942,
+              7401,
+              7860,
+              8319,
+              8778,
+              9237,
+              9697,
+              10156
+            ],
+            "Energy": 70,
+            "ElementPower": 224,
+            "HardnessLv": 10000,
+            "ToughLv": 2799
+          },
+          "1411030002": {
+            "Element": 4,
+            "RelatedProperty": "攻撃力",
+            "Type": 1,
+            "RateLv": [
+              2799,
+              3029,
+              3259,
+              3580,
+              3809,
+              4073,
+              4441,
+              4808,
+              5175,
+              5565,
+              6024,
+              6483,
+              6942,
+              7401,
+              7860,
+              8319,
+              8778,
+              9237,
+              9697,
+              10156
+            ],
+            "Energy": 70,
+            "ElementPower": 224,
+            "HardnessLv": 10000,
+            "ToughLv": 2799
+          },
+          "1411030003": {
+            "Element": 4,
+            "RelatedProperty": "攻撃力",
+            "Type": 1,
+            "RateLv": [
+              3732,
+              4039,
+              4345,
+              4773,
+              5079,
+              5431,
+              5921,
+              6410,
+              6900,
+              7420,
+              8032,
+              8644,
+              9256,
+              9868,
+              10480,
+              11092,
+              11704,
+              12316,
+              12929,
+              13541
+            ],
+            "Energy": 94,
+            "ElementPower": 299,
+            "HardnessLv": 10000,
+            "ToughLv": 3732
+          },
+          "1411040001": {
+            "Element": 4,
+            "RelatedProperty": "攻撃力",
+            "Type": 1,
+            "RateLv": [
+              733,
+              794,
+              854,
+              938,
+              998,
+              1067,
+              1163,
+              1259,
+              1356,
+              1458,
+              1578,
+              1698,
+              1818,
+              1939,
+              2059,
+              2179,
+              2299,
+              2419,
+              2540,
+              2660
+            ],
+            "Energy": 37,
+            "ElementPower": 71,
+            "HardnessLv": 10000,
+            "ToughLv": 733
+          },
+          "1411040002": {
+            "Element": 4,
+            "RelatedProperty": "攻撃力",
+            "Type": 1,
+            "RateLv": [
+              733,
+              794,
+              854,
+              938,
+              998,
+              1067,
+              1163,
+              1259,
+              1356,
+              1458,
+              1578,
+              1698,
+              1818,
+              1939,
+              2059,
+              2179,
+              2299,
+              2419,
+              2540,
+              2660
+            ],
+            "Energy": 37,
+            "ElementPower": 71,
+            "HardnessLv": 10000,
+            "ToughLv": 733
+          },
+          "1411040003": {
+            "Element": 4,
+            "RelatedProperty": "攻撃力",
+            "Type": 1,
+            "RateLv": [
+              3665,
+              3966,
+              4267,
+              4687,
+              4988,
+              5333,
+              5814,
+              6295,
+              6776,
+              7287,
+              7888,
+              8489,
+              9090,
+              9691,
+              10292,
+              10893,
+              11494,
+              12095,
+              12696,
+              13297
+            ],
+            "Energy": 184,
+            "ElementPower": 352,
+            "HardnessLv": 10000,
+            "ToughLv": 3665
+          },
+          "1411050001": {
+            "Element": 4,
+            "RelatedProperty": "攻撃力",
+            "Type": 1,
+            "RateLv": [
+              8670,
+              9381,
+              10092,
+              11088,
+              11799,
+              12616,
+              13754,
+              14891,
+              16029,
+              17237,
+              18659,
+              20081,
+              21503,
+              22925,
+              24347,
+              25769,
+              27190,
+              28612,
+              30034,
+              31456
+            ],
+            "Energy": 434,
+            "ElementPower": 833,
+            "HardnessLv": 10000,
+            "ToughLv": 8670
+          },
+          "1411110011": {
+            "Element": 4,
+            "RelatedProperty": "攻撃力",
+            "Type": 1,
+            "RateLv": [
+              16599,
+              16977,
+              17354,
+              17882,
+              18259,
+              18693,
+              19296,
+              19899,
+              20503,
+              21144,
+              21898,
+              22652,
+              23406,
+              24161,
+              24915,
+              25669,
+              26423,
+              27178,
+              27932,
+              28686
+            ],
+            "Energy": 154,
+            "ElementPower": 295,
+            "HardnessLv": 10000,
+            "ToughLv": 3066
+          },
+          "1411110012": {
+            "Element": 4,
+            "RelatedProperty": "攻撃力",
+            "Type": 1,
+            "RateLv": [
+              16599,
+              16977,
+              17354,
+              17882,
+              18259,
+              18693,
+              19296,
+              19899,
+              20503,
+              21144,
+              21898,
+              22652,
+              23406,
+              24161,
+              24915,
+              25669,
+              26423,
+              27178,
+              27932,
+              28686
+            ],
+            "Energy": 154,
+            "ElementPower": 295,
+            "HardnessLv": 10000,
+            "ToughLv": 3066
+          },
+          "1411110013": {
+            "Element": 4,
+            "RelatedProperty": "攻撃力",
+            "Type": 1,
+            "RateLv": [
+              16599,
+              16977,
+              17354,
+              17882,
+              18259,
+              18693,
+              19296,
+              19899,
+              20503,
+              21144,
+              21898,
+              22652,
+              23406,
+              24161,
+              24915,
+              25669,
+              26423,
+              27178,
+              27932,
+              28686
+            ],
+            "Energy": 154,
+            "ElementPower": 295,
+            "HardnessLv": 10000,
+            "ToughLv": 3066
+          },
+          "1411110014": {
+            "Element": 4,
+            "RelatedProperty": "攻撃力",
+            "Type": 1,
+            "RateLv": [
+              16599,
+              16977,
+              17354,
+              17882,
+              18259,
+              18693,
+              19296,
+              19899,
+              20503,
+              21144,
+              21898,
+              22652,
+              23406,
+              24161,
+              24915,
+              25669,
+              26423,
+              27178,
+              27932,
+              28686
+            ],
+            "Energy": 154,
+            "ElementPower": 295,
+            "HardnessLv": 10000,
+            "ToughLv": 3066
+          },
+          "1411110015": {
+            "Element": 4,
+            "RelatedProperty": "攻撃力",
+            "Type": 1,
+            "RateLv": [
+              16599,
+              16977,
+              17354,
+              17882,
+              18259,
+              18693,
+              19296,
+              19899,
+              20503,
+              21144,
+              21898,
+              22652,
+              23406,
+              24161,
+              24915,
+              25669,
+              26423,
+              27178,
+              27932,
+              28686
+            ],
+            "Energy": 154,
+            "ElementPower": 295,
+            "HardnessLv": 10000,
+            "ToughLv": 3066
+          },
+          "1411120011": {
+            "Element": 4,
+            "RelatedProperty": "攻撃力",
+            "Type": 1,
+            "RateLv": [
+              12932,
+              13090,
+              13249,
+              13471,
+              13629,
+              13812,
+              14065,
+              14319,
+              14572,
+              14842,
+              15159,
+              15476,
+              15793,
+              16110,
+              16427,
+              16744,
+              17061,
+              17378,
+              17695,
+              18013
+            ],
+            "Energy": 65,
+            "ElementPower": 124,
+            "HardnessLv": 10000,
+            "ToughLv": 1289
+          },
+          "1411120012": {
+            "Element": 4,
+            "RelatedProperty": "攻撃力",
+            "Type": 1,
+            "RateLv": [
+              10582,
+              10712,
+              10842,
+              11023,
+              11153,
+              11302,
+              11510,
+              11717,
+              11925,
+              12145,
+              12405,
+              12664,
+              12923,
+              13183,
+              13442,
+              13702,
+              13961,
+              14220,
+              14480,
+              14739
+            ],
+            "Energy": 53,
+            "ElementPower": 102,
+            "HardnessLv": 10000,
+            "ToughLv": 1055
+          },
+          "1411120013": {
+            "Element": 4,
+            "RelatedProperty": "攻撃力",
+            "Type": 1,
+            "RateLv": [
+              70950,
+              71848,
+              72746,
+              74003,
+              74901,
+              75934,
+              77370,
+              78807,
+              80244,
+              81770,
+              83566,
+              85362,
+              87158,
+              88953,
+              90749,
+              92545,
+              94341,
+              96137,
+              97932,
+              99728
+            ],
+            "Energy": 365,
+            "ElementPower": 701,
+            "HardnessLv": 10000,
+            "ToughLv": 7300
+          },
+          "14111100010": {
+            "Element": 0,
+            "RelatedProperty": "攻撃力",
+            "Type": 0,
+            "RateLv": [
+              0
+            ],
+            "Energy": 0,
+            "ElementPower": 0,
+            "HardnessLv": 0,
+            "ToughLv": 0
+          },
+          "14111100020": {
+            "Element": 0,
+            "RelatedProperty": "攻撃力",
+            "Type": 0,
+            "RateLv": [
+              0
+            ],
+            "Energy": 0,
+            "ElementPower": 0,
+            "HardnessLv": 0,
+            "ToughLv": 0
+          },
+          "14111100030": {
+            "Element": 0,
+            "RelatedProperty": "攻撃力",
+            "Type": 0,
+            "RateLv": [
+              0
+            ],
+            "Energy": 0,
+            "ElementPower": 0,
+            "HardnessLv": 0,
+            "ToughLv": 0
+          },
+          "14111100040": {
+            "Element": 0,
+            "RelatedProperty": "攻撃力",
+            "Type": 0,
+            "RateLv": [
+              0
+            ],
+            "Energy": 0,
+            "ElementPower": 0,
+            "HardnessLv": 0,
+            "ToughLv": 0
+          },
+          "14111100050": {
+            "Element": 0,
+            "RelatedProperty": "攻撃力",
+            "Type": 0,
+            "RateLv": [
+              0
+            ],
+            "Energy": 0,
+            "ElementPower": 0,
+            "HardnessLv": 0,
+            "ToughLv": 0
+          },
+          "14111200010": {
+            "Element": 0,
+            "RelatedProperty": "攻撃力",
+            "Type": 0,
+            "RateLv": [
+              0
+            ],
+            "Energy": 0,
+            "ElementPower": 0,
+            "HardnessLv": 0,
+            "ToughLv": 0
+          },
+          "14111200020": {
+            "Element": 0,
+            "RelatedProperty": "攻撃力",
+            "Type": 0,
+            "RateLv": [
+              0
+            ],
+            "Energy": 0,
+            "ElementPower": 0,
+            "HardnessLv": 0,
+            "ToughLv": 0
+          },
+          "14111200030": {
+            "Element": 0,
+            "RelatedProperty": "攻撃力",
+            "Type": 0,
+            "RateLv": [
+              0
+            ],
+            "Energy": 0,
+            "ElementPower": 0,
+            "HardnessLv": 0,
+            "ToughLv": 0
+          },
+          "1411900008": {
+            "Element": 4,
+            "RelatedProperty": "攻撃力",
+            "Type": 5,
+            "RateLv": [
+              60000,
+              60000,
+              60000,
+              60000,
+              60000,
+              60000,
+              60000,
+              60000,
+              60000,
+              60000,
+              60000,
+              60000,
+              60000,
+              60000,
+              60000,
+              60000,
+              60000,
+              60000,
+              60000,
+              60000
+            ],
+            "Energy": 0,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 0
+          }
+        }
+      }
+    },
+    "8": {
+      "ParentNodes": [],
+      "NodeType": 3,
+      "Coordinate": 1,
+      "UnLockCondition": 0,
+      "Consume": [
+        {
+          "Key": 43020032,
+          "Value": 2
+        },
+        {
+          "Key": 41100022,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 3900
+        }
+      ],
+      "Skill": {
+        "Name": "不意を突く",
+        "Desc": "目標を攻撃し、仇遠自身の攻撃力{0}分の<color=Wind>気動ダメージ</color>を与える。このダメージは音骸スキルダメージと見なされる。\n次の登場キャラに{1}の音骸スキルダメージブーストを付与し、{2}秒間持続。他のキャラに切り替えると、この効果は消える。",
+        "Param": [
+          "100%",
+          "50%",
+          "14"
+        ],
+        "SimpleDesc": "<color=Wind>気動ダメージ</color>を与える。\n次の登場キャラに{0}の音骸スキルダメージブーストを付与し、{1}秒間持続。他のキャラに切り替えると、この効果は消える。",
+        "SimpleParam": [
+          "50%",
+          "14"
+        ],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconQiuyuan/SP_IconQiuyuanT.SP_IconQiuyuanT",
+        "Type": "終奏スキル",
+        "Level": {},
+        "Consume": {
+          "1": []
+        },
+        "Damage": {
+          "1411900019": {
+            "Element": 4,
+            "RelatedProperty": "攻撃力",
+            "Type": 5,
+            "RateLv": [
+              50000,
+              50000,
+              50000,
+              50000,
+              50000,
+              50000,
+              50000,
+              50000,
+              50000,
+              50000,
+              50000,
+              50000,
+              50000,
+              50000,
+              50000,
+              50000,
+              50000,
+              50000,
+              50000,
+              50000
+            ],
+            "Energy": 0,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 0
+          },
+          "1411900009": {
+            "Element": 4,
+            "RelatedProperty": "攻撃力",
+            "Type": 5,
+            "RateLv": [
+              10000,
+              10000,
+              10000,
+              10000,
+              10000,
+              10000,
+              10000,
+              10000,
+              10000,
+              10000,
+              10000,
+              10000,
+              10000,
+              10000,
+              10000,
+              10000,
+              10000,
+              10000,
+              10000,
+              10000
+            ],
+            "Energy": 0,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 0
+          },
+          "14119000090": {
+            "Element": 0,
+            "RelatedProperty": "攻撃力",
+            "Type": 0,
+            "RateLv": [
+              0
+            ],
+            "Energy": 0,
+            "ElementPower": 0,
+            "HardnessLv": 0,
+            "ToughLv": 0
+          }
+        }
+      }
+    },
+    "9": {
+      "ParentNodes": [
+        1
+      ],
+      "NodeType": 4,
+      "Coordinate": 1,
+      "UnLockCondition": 500006,
+      "Consume": [
+        {
+          "Key": 43020013,
+          "Value": 3
+        },
+        {
+          "Key": 41100013,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 50000
+        }
+      ],
+      "Skill": {
+        "Name": "クリティカル率アップ",
+        "Desc": "クリティカル率{0}アップ",
+        "Param": [
+          "1.20%"
+        ],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredbaoji_UI.T_Iconpropertyredbaoji_UI"
+      }
+    },
+    "10": {
+      "ParentNodes": [
+        2
+      ],
+      "NodeType": 4,
+      "Coordinate": 1,
+      "UnLockCondition": 500005,
+      "Consume": [
+        {
+          "Key": 43020013,
+          "Value": 3
+        },
+        {
+          "Key": 41100013,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 50000
+        }
+      ],
+      "Skill": {
+        "Name": "攻撃力アップ",
+        "Desc": "攻撃力{0}アップ",
+        "Param": [
+          "1.80%"
+        ],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredattack_UI.T_Iconpropertyredattack_UI"
+      }
+    },
+    "11": {
+      "ParentNodes": [
+        3
+      ],
+      "NodeType": 4,
+      "Coordinate": 1,
+      "UnLockCondition": 500005,
+      "Consume": [
+        {
+          "Key": 43020013,
+          "Value": 3
+        },
+        {
+          "Key": 41100013,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 50000
+        }
+      ],
+      "Skill": {
+        "Name": "攻撃力アップ",
+        "Desc": "攻撃力{0}アップ",
+        "Param": [
+          "1.80%"
+        ],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredattack_UI.T_Iconpropertyredattack_UI"
+      }
+    },
+    "12": {
+      "ParentNodes": [
+        6
+      ],
+      "NodeType": 4,
+      "Coordinate": 1,
+      "UnLockCondition": 500006,
+      "Consume": [
+        {
+          "Key": 43020013,
+          "Value": 3
+        },
+        {
+          "Key": 41100013,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 50000
+        }
+      ],
+      "Skill": {
+        "Name": "クリティカル率アップ",
+        "Desc": "クリティカル率{0}アップ",
+        "Param": [
+          "1.20%"
+        ],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredbaoji_UI.T_Iconpropertyredbaoji_UI"
+      }
+    },
+    "13": {
+      "ParentNodes": [
+        9
+      ],
+      "NodeType": 4,
+      "Coordinate": 2,
+      "UnLockCondition": 500008,
+      "Consume": [
+        {
+          "Key": 43020014,
+          "Value": 3
+        },
+        {
+          "Key": 41100014,
+          "Value": 3
+        },
+        {
+          "Key": 41400254,
+          "Value": 1
+        },
+        {
+          "Key": 2,
+          "Value": 100000
+        }
+      ],
+      "Skill": {
+        "Name": "クリティカル率アップ",
+        "Desc": "クリティカル率{0}アップ",
+        "Param": [
+          "2.80%"
+        ],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredbaoji_UI.T_Iconpropertyredbaoji_UI"
+      }
+    },
+    "14": {
+      "ParentNodes": [
+        10
+      ],
+      "NodeType": 4,
+      "Coordinate": 2,
+      "UnLockCondition": 500007,
+      "Consume": [
+        {
+          "Key": 43020014,
+          "Value": 3
+        },
+        {
+          "Key": 41100014,
+          "Value": 3
+        },
+        {
+          "Key": 41400254,
+          "Value": 1
+        },
+        {
+          "Key": 2,
+          "Value": 100000
+        }
+      ],
+      "Skill": {
+        "Name": "攻撃力アップ",
+        "Desc": "攻撃力{0}アップ",
+        "Param": [
+          "4.20%"
+        ],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredattack_UI.T_Iconpropertyredattack_UI"
+      }
+    },
+    "15": {
+      "ParentNodes": [
+        11
+      ],
+      "NodeType": 4,
+      "Coordinate": 2,
+      "UnLockCondition": 500007,
+      "Consume": [
+        {
+          "Key": 43020014,
+          "Value": 3
+        },
+        {
+          "Key": 41100014,
+          "Value": 3
+        },
+        {
+          "Key": 41400254,
+          "Value": 1
+        },
+        {
+          "Key": 2,
+          "Value": 100000
+        }
+      ],
+      "Skill": {
+        "Name": "攻撃力アップ",
+        "Desc": "攻撃力{0}アップ",
+        "Param": [
+          "4.20%"
+        ],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredattack_UI.T_Iconpropertyredattack_UI"
+      }
+    },
+    "16": {
+      "ParentNodes": [
+        12
+      ],
+      "NodeType": 4,
+      "Coordinate": 2,
+      "UnLockCondition": 500008,
+      "Consume": [
+        {
+          "Key": 43020014,
+          "Value": 3
+        },
+        {
+          "Key": 41100014,
+          "Value": 3
+        },
+        {
+          "Key": 41400254,
+          "Value": 1
+        },
+        {
+          "Key": 2,
+          "Value": 100000
+        }
+      ],
+      "Skill": {
+        "Name": "クリティカル率アップ",
+        "Desc": "クリティカル率{0}アップ",
+        "Param": [
+          "2.80%"
+        ],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredbaoji_UI.T_Iconpropertyredbaoji_UI"
+      }
+    },
+    "17": {
+      "ParentNodes": [],
+      "NodeType": 5,
+      "Coordinate": 1,
+      "UnLockCondition": 0,
+      "Consume": [
+        {
+          "Key": 43020032,
+          "Value": 2
+        },
+        {
+          "Key": 41100022,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 3900
+        }
+      ],
+      "Skill": {
+        "Name": "協和破壊・迅刀",
+        "Desc": "目標の<color=Highlight>【不協和値】</color>が最大まで溜まった時、<color=Highlight><te href=100001>【協和破壊】</te></color>ダメージを与えることができる。",
+        "Param": [],
+        "SimpleDesc": "目標の<color=Highlight>【不協和値】</color>が最大まで溜まった時、<color=Highlight>【協和破壊】</color>ダメージを与えることができる。",
+        "SimpleParam": [],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconWeakPointBreakKnife.SP_IconWeakPointBreakKnife",
+        "Type": "協和破壊",
+        "Level": {},
+        "Consume": {
+          "1": []
+        },
+        "Damage": {}
+      }
+    }
+  },
+  "Chains": {
+    "1": {
+      "Name": "不動の剣、万象を起こす心",
+      "Desc": "<color=Highlight>応剣・伝承の音律</color>、<color=Highlight>応剣・献身の決意</color>、<color=Highlight>応剣・不変の忠節</color>は中断されない。\n仇遠のクリティカル率が{0}アップ。",
+      "Param": [
+        "20%"
+      ],
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconDevice/T_IconDevice_QiuyuanM1_UI.T_IconDevice_QiuyuanM1_UI"
+    },
+    "2": {
+      "Name": "剣よ、某を伝承の音律を断ち切った者と謂うか",
+      "Desc": "【<te href=141103>竹映</te>】が追加効果を獲得：近くにいるチーム内キャラに{0}の音骸スキルダメージブーストを付与する。",
+      "Param": [
+        "30%"
+      ],
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconDevice/T_IconDevice_QiuyuanM2_UI.T_IconDevice_QiuyuanM2_UI"
+    },
+    "3": {
+      "Name": "剣よ、某を献身の決意を踏み躙った者と謂うか",
+      "Desc": "共鳴解放<color=Highlight>万鈞の一振り</color>のダメージ倍率+{0}。\n協奏エネルギー満タン、かつ【酔墨淋漓】状態でない場合、仇遠の<color=Highlight>共鳴スキル</color>は共鳴スキル<color=Highlight>竹林より出づる<ano=みの>蓑</ano></color>に代わり、20秒ごとに1回発動可能。\n<color=Highlight>竹林より出づる<ano=みの>蓑</ano></color>を発動時、<color=Highlight>心は従容なり</color>効果は消え、{1}Ptの協奏エネルギーを消費した後【<te href=141101>灯りにかざす剣舞</te>】を{2}Pt獲得し、目標に仇遠の攻撃力{3}分の<color=Wind>気動ダメージ</color>を与える。このダメージは音骸スキルダメージと見なされる。次の基本攻撃<color=Highlight>通常攻撃</color>は<color=Highlight>応剣・黒中の蒼</color>3段目に代わる。\n<color=Highlight>竹林より出づる<ano=みの>蓑</ano></color>を発動後、次回の【<te href=141102>酔墨淋漓</te>】状態中、仇遠は<color=Highlight>心は従容なり</color>効果を獲得できない代わりに、<color=Highlight>応剣・伝承の音律</color>、<color=Highlight>応剣・献身の決意</color>、<color=Highlight>応剣・不変の忠節</color>のダメージ倍率+{4}。また、<color=Highlight>応剣・不変の忠節</color>が命中時、協奏エネルギーを追加で{5}Pt獲得。\n<color=Highlight>竹林より出づる<ano=みの>蓑</ano></color>を発動後、非マルチプレイ状態では、次の<color=Highlight>終奏スキル</color>は終奏スキル<color=Highlight>若竹の一新</color>に代わり、仇遠自身の攻撃力{6}分の<color=Wind>気動ダメージ</color>を与える。このダメージは音骸スキルダメージと見なされる。",
+      "Param": [
+        "500%",
+        "60",
+        "400",
+        "500%",
+        "600%",
+        "30",
+        "500%"
+      ],
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconDevice/T_IconDevice_QiuyuanM3_UI.T_IconDevice_QiuyuanM3_UI"
+    },
+    "4": {
+      "Name": "剣よ、某を不変の忠節を斬り刻んだ者と謂うか",
+      "Desc": "仇遠の攻撃力が{0}アップ。",
+      "Param": [
+        "20%"
+      ],
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconDevice/T_IconDevice_QiuyuanM4_UI.T_IconDevice_QiuyuanM4_UI"
+    },
+    "5": {
+      "Name": "剣よ、今は某と高らかに歌おう",
+      "Desc": "仇遠は目標の防御力を{0}無視。",
+      "Param": [
+        "15%"
+      ],
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconDevice/T_IconDevice_QiuyuanM5_UI.T_IconDevice_QiuyuanM5_UI"
+    },
+    "6": {
+      "Name": "己を成す傾聴、心象、言葉",
+      "Desc": "重撃<color=Highlight>応剣・不変の忠節</color>を発動時、周囲の目標を{0}秒間停滞させる。マルチプレイ中、この効果は発動しない。キャラを切り替える、または目標がダメージを受けると停滞効果は解除される。\nチーム内登場キャラである仇遠が、【<te href=141102>酔墨淋漓</te>】状態を解除した時、範囲内の敵に自身の攻撃力{1}分の<color=Wind>気動ダメージ</color>を与える。このダメージは音骸スキルダメージと見なされる。\n共鳴スキル<color=Highlight>竹林より出づる<ano=みの>蓑</ano></color>発動時、仇遠のクリティカルダメージ+{2}、{3}秒間持続。他のキャラに切り替えると、この効果は消える。",
+      "Param": [
+        "5",
+        "600%",
+        "100%",
+        "6"
+      ],
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconDevice/T_IconDevice_QiuyuanM6_UI.T_IconDevice_QiuyuanM6_UI"
+    }
+  },
+  "Ascensions": {
+    "1": [
+      {
+        "Key": 41100011,
+        "Value": 4
+      },
+      {
+        "Key": 2,
+        "Value": 5000
+      }
+    ],
+    "2": [
+      {
+        "Key": 41400224,
+        "Value": 3
+      },
+      {
+        "Key": 42300090,
+        "Value": 4
+      },
+      {
+        "Key": 41100012,
+        "Value": 4
+      },
+      {
+        "Key": 2,
+        "Value": 10000
+      }
+    ],
+    "3": [
+      {
+        "Key": 41400224,
+        "Value": 6
+      },
+      {
+        "Key": 42300090,
+        "Value": 8
+      },
+      {
+        "Key": 41100012,
+        "Value": 8
+      },
+      {
+        "Key": 2,
+        "Value": 15000
+      }
+    ],
+    "4": [
+      {
+        "Key": 41400224,
+        "Value": 9
+      },
+      {
+        "Key": 42300090,
+        "Value": 12
+      },
+      {
+        "Key": 41100013,
+        "Value": 4
+      },
+      {
+        "Key": 2,
+        "Value": 20000
+      }
+    ],
+    "5": [
+      {
+        "Key": 41400224,
+        "Value": 12
+      },
+      {
+        "Key": 42300090,
+        "Value": 16
+      },
+      {
+        "Key": 41100013,
+        "Value": 8
+      },
+      {
+        "Key": 2,
+        "Value": 40000
+      }
+    ],
+    "6": [
+      {
+        "Key": 41400224,
+        "Value": 16
+      },
+      {
+        "Key": 42300090,
+        "Value": 20
+      },
+      {
+        "Key": 41100014,
+        "Value": 4
+      },
+      {
+        "Key": 2,
+        "Value": 80000
+      }
+    ]
+  },
+  "Skin": {
+    "81001411": {
+      "Id": 81001411,
+      "SuitWeaponSkinId": 0,
+      "QualityId": 3,
+      "Name": "仇遠",
+      "TitleName": "さびしい宿に灯る蒼き光",
+      "SubDecName": "仇遠　デフォルト",
+      "BgDescription": "この装い纏いて、重州から明庭へ、明庭から六州へ。\n来たりし道は、連峰幾重。\n去りゆく道は、天涯孤独。",
+      "Background": "/Game/Aki/UI/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Qiuyuan_UI.T_IconRole_Pile_Qiuyuan_UI",
+      "Portrait": "/Game/Aki/UI/UIResources/Common/Image/TitleDesc/Avatar/T_ActivityRoleQiuyuan.T_ActivityRoleQiuyuan",
+      "SortIndex": 0,
+      "FormationSpineSkel": "/Game/Aki/UI/UIResources/Common/Spine/Portraits/Portraits_Qiuyuan/Portraits_Qiuyuan.Portraits_Qiuyuan-data",
+      "FormationSpineAtlas": "/Game/Aki/UI/UIResources/Common/Spine/Portraits/Portraits_Qiuyuan/Portraits_Qiuyuan.Portraits_Qiuyuan-atlas"
+    }
+  },
+  "Forte": {
+    "SkillInputList": {
+      "141101": {
+        "Desc": "【千里をも辞せず】：{0}を長押しして空へ飛び上がり、前方に突進して遠距離の目標を追撃する。目標に近づいた時、{0}ボタンを離して攻撃を行う。",
+        "InputList": [
+          "技能1",
+          "技能1"
+        ]
+      },
+      "141102": {
+        "Desc": "【応剣・黒中の蒼】：【灯りにかざす剣舞】が200Ptに達した時、{0}を一回押しすると、スキル攻撃の各段発動時に竹筒を飲み、【灯りにかざす剣舞】を獲得。",
+        "InputList": [
+          "攻击"
+        ]
+      },
+      "141103": {
+        "Desc": "【応剣・伝承の音律】：【酔墨淋漓】状態で{0}を長押しし、【灯りにかざす剣舞】を消費することで発動。",
+        "InputList": [
+          "攻击"
+        ]
+      },
+      "141104": {
+        "Desc": "【応剣・献身の決意】：【酔墨淋漓】状態で【応剣・伝承の音律】を発動後、{0}を一回押しし、【灯りにかざす剣舞】を消費することで発動。",
+        "InputList": [
+          "攻击"
+        ]
+      },
+      "141105": {
+        "Desc": "【応剣・不変の忠節】：【酔墨淋漓】状態で【応剣・伝承の音律】を発動後、{0}を一回押しし、【灯りにかざす剣舞】を消費することで発動。",
+        "InputList": [
+          "攻击"
+        ]
+      }
+    },
+    "Icon": "/Game/Aki/UI/UIResources/UiRole/Image/T_RoleSkillTreeQiuyuan.T_RoleSkillTreeQiuyuan",
+    "DescList": [
+      "仇遠が通常攻撃3段目と回避反撃を発動時、<color=Highlight>【灯りにかざす剣舞】</color>を獲得。<color=Highlight>【灯りにかざす剣舞】</color>が200/400/600Ptに達すると、通常攻撃<color=Highlight>【応剣・黒中の蒼】</color>/<color=Highlight>【竹映】</color>状態/<color=Highlight>【酔墨淋漓】</color>状態が発動可能になる。",
+      "<color=Highlight>【酔墨淋漓】</color>状態中、仇遠は<color=Highlight>【灯りにかざす剣舞】</color>を獲得できない。ただし、<color=Highlight>【灯りにかざす剣舞】</color>を消費して強力なスキルを発動し、より大きなダメージを与えられる。"
+    ]
+  },
+  "Live2d": "QiuYuan",
+  "Audio": "qiuyuan",
+  "Recommend": {
+    "Weapon": [
+      21020066,
+      21020015,
+      21020104
+    ],
+    "Property": "クリティカル",
+    "Param": [
+      2,
+      6500
+    ]
+  }
+}

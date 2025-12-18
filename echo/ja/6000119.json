@@ -1,0 +1,80 @@
+{
+  "Id": 6000119,
+  "Code": "W60-",
+  "Name": "ナイトメア・金鈴の楽手",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_32043_UI.T_IconMonsterHead_32043_UI",
+  "Skill": {
+    "Desc": "音骸スキルを発動すると、金鈴の楽手を召喚。金鈴の楽手は一定の間隔で消滅のエコーを発生し、命中したチーム内キャラに「最大10回の攻撃に{0}の消滅ダメージが追加される」の効果を付与。\nクールタイム：{1}秒",
+    "SimpleDesc": "金鈴の楽手を召喚し、味方の攻撃に消滅ダメージが追加発生する効果を付与する。",
+    "Param": [
+      [
+        "9.00%",
+        "15"
+      ],
+      [
+        "10.35%",
+        "15"
+      ],
+      [
+        "11.70%",
+        "15"
+      ],
+      [
+        "13.05%",
+        "15"
+      ],
+      [
+        "14.40%",
+        "15"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_205_UI.T_MstSkil_205_UI",
+    "Damage": {
+      "20002001": {
+        "Element": 6,
+        "RelatedProperty": "攻撃力",
+        "Type": 5,
+        "RateLv": [
+          900,
+          1035,
+          1170,
+          1305,
+          1440
+        ],
+        "Energy": 22,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 900
+      }
+    }
+  },
+  "Group": {
+    "19": {
+      "Id": 19,
+      "Name": "ロスト・ドリーム",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriDarkVision.T_IconElementAttriDarkVision",
+      "Color": "FFFFFF00",
+      "Set": {
+        "3": {
+          "Desc": "キャラの共鳴エネルギーが{0}の時、自身のクリティカル率が{1}アップ、音骸スキルダメージが{2}アップ。",
+          "Param": [
+            "0",
+            "20%",
+            "35%"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 1,
+  "MonsterInfo": 320000430
+}

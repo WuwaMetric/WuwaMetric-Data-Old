@@ -1,0 +1,80 @@
+{
+  "Id": 6000119,
+  "Code": "W60-",
+  "Name": "Nightmare: Tambourinist",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_32043_UI.T_IconMonsterHead_32043_UI",
+  "Skill": {
+    "Desc": "Summon a Tambourinist that plays out Melodies of Annihilation. Any Resonator on the team gains the following effect for 10s upon obtaining a Melody of Annihilation: When the Resonator hits a target, the Tambourinist deals {0} Havoc DMG to the target, up to 10 times.\n\nCD: {1}s",
+    "SimpleDesc": "Summon a Tambourinist to aid the Resonators on the team in combat with Havoc DMG attacks.",
+    "Param": [
+      [
+        "9.00%",
+        "15"
+      ],
+      [
+        "10.35%",
+        "15"
+      ],
+      [
+        "11.70%",
+        "15"
+      ],
+      [
+        "13.05%",
+        "15"
+      ],
+      [
+        "14.40%",
+        "15"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_205_UI.T_MstSkil_205_UI",
+    "Damage": {
+      "20002001": {
+        "Element": 6,
+        "RelatedProperty": "ATK",
+        "Type": 5,
+        "RateLv": [
+          900,
+          1035,
+          1170,
+          1305,
+          1440
+        ],
+        "Energy": 22,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 900
+      }
+    }
+  },
+  "Group": {
+    "19": {
+      "Id": 19,
+      "Name": "Dream of the Lost",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriDarkVision.T_IconElementAttriDarkVision",
+      "Color": "FFFFFF00",
+      "Set": {
+        "3": {
+          "Desc": "Holding {0} Resonance Energy increases Crit. Rate by {1} and grants {2} Echo Skill DMG Bonus.",
+          "Param": [
+            "0",
+            "20%",
+            "35%"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 1,
+  "MonsterInfo": 320000430
+}

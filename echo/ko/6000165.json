@@ -1,0 +1,87 @@
+{
+  "Id": 6000165,
+  "Code": "H01-",
+  "Name": "악몽 · 꾹꾹복어",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31067_UI.T_IconMonsterHead_31067_UI",
+  "Skill": {
+    "Desc": "에코 어빌리티를 사용하여 꾹꾹복어를 소환해 전방으로 거품을 {0}회 내뿜어, 매회 {1}의 응결 피해를 입힌다.\n스킬 쿨타임: {2}초",
+    "SimpleDesc": "꾹꾹복어를 소환한 후 거품을 내뿜어 응결 피해를 입힌다",
+    "Param": [
+      [
+        "5",
+        "14.40%",
+        "8"
+      ],
+      [
+        "5",
+        "16.56%",
+        "8"
+      ],
+      [
+        "5",
+        "18.72%",
+        "8"
+      ],
+      [
+        "5",
+        "20.88%",
+        "8"
+      ],
+      [
+        "5",
+        "23.04%",
+        "8"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_115_UI.T_MstSkil_115_UI",
+    "Damage": {
+      "20002601": {
+        "Element": 1,
+        "RelatedProperty": "공격력",
+        "Type": 5,
+        "RateLv": [
+          1440,
+          1656,
+          1872,
+          2088,
+          2304
+        ],
+        "Energy": 36,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 1440
+      }
+    }
+  },
+  "Group": {
+    "21": {
+      "Id": 21,
+      "Name": "만물의 숨결에 비롯된 울림",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriSupport.T_IconElementAttriSupport",
+      "Color": "FFFFFF00",
+      "Set": {
+        "3": {
+          "Desc": "캐릭터가 에코 어빌리티 발동 시, 자신의 강공격 피해 보너스가 {0} 증가되고 {1}초간 지속된다. 파티 내 캐릭터의 에코 어빌리티 피해 보너스가 {2} 증가되고, 최대 {3}스택 중첩이 가능하며 {4}초간 지속된다. 같은 이름의 에코일 시 해당 효과는 1회만 발생할 수 있으며, 효과 종료 시 같은 이름의 에코의 기록은 리셋되고, {3}스택까지 중첩 시 에코 어빌리티를 발동할 경우 지속시간은 리셋된다",
+          "Param": [
+            "30%",
+            "4",
+            "4%",
+            "4",
+            "30"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 0,
+  "MonsterInfo": 310000670
+}

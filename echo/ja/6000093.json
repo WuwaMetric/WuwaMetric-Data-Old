@@ -1,0 +1,130 @@
+{
+  "Id": 6000093,
+  "Code": "S10-",
+  "Name": "愚者のゴールドの岩塊",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31049_UI.T_IconMonsterHead_31049_UI",
+  "Skill": {
+    "Desc": "音骸スキルを発動すると、愚者のゴールドの岩塊を召喚。愚者のゴールドの岩塊は前に撲ち攻撃を行う。攻撃範囲内の敵に{0}の回折ダメージを与える。\nクールタイム：{1}秒",
+    "SimpleDesc": "愚者のゴールドの岩塊を召喚して敵に回折ダメージを与える。",
+    "Param": [
+      [
+        "72.00%",
+        "8"
+      ],
+      [
+        "86.40%",
+        "8"
+      ],
+      [
+        "100.80%",
+        "8"
+      ],
+      [
+        "115.20%",
+        "8"
+      ],
+      [
+        "129.60%",
+        "8"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_Mstskil_31049_UI.T_Mstskil_31049_UI",
+    "Damage": {
+      "20007701": {
+        "Element": 5,
+        "RelatedProperty": "攻撃力",
+        "Type": 5,
+        "RateLv": [
+          7200,
+          8640,
+          10080,
+          11520,
+          12960
+        ],
+        "Energy": 180,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 7200
+      }
+    }
+  },
+  "Group": {
+    "10": {
+      "Id": 10,
+      "Name": "フロステッド・ハート",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriIceUltimateSkill.T_IconElementAttriIceUltimateSkill",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "共鳴スキルダメージが{0}アップ",
+          "Param": [
+            "12%"
+          ]
+        },
+        "5": {
+          "Desc": "共鳴スキル発動時、自身の凝縮ダメージが{0}アップ、{1}秒間持続；共鳴解放発動時、自身の共鳴スキルダメージが{2}アップ、{3}秒間持続、最大{4}スタック。",
+          "Param": [
+            "22.5%",
+            "15",
+            "18%",
+            "5",
+            "2"
+          ]
+        }
+      }
+    },
+    "11": {
+      "Id": 11,
+      "Name": "エターナル・ライト",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriLightError.T_IconElementAttriLightError",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "回折ダメージが{0}アップ",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "敵に【騒光効果】を付与時、自身のクリティカル率が{0}アップ、{1}秒間持続。【騒光効果】が{2}スタック付与された敵を攻撃時、自身の回折ダメージが{3}アップ、{4}秒間持続。",
+          "Param": [
+            "20%",
+            "15",
+            "10",
+            "15%",
+            "15"
+          ]
+        }
+      }
+    },
+    "21": {
+      "Id": 21,
+      "Name": "エーテル・レゾナンス",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriSupport.T_IconElementAttriSupport",
+      "Color": "FFFFFF00",
+      "Set": {
+        "3": {
+          "Desc": "キャラが音骸スキルを発動時、自身の重撃ダメージが{0}アップ、{1}秒間持続。さらにチーム内全員の音骸スキルダメージが{2}アップ、最大{3}スタック、{4}秒間持続。同名の音骸による発動は1回のみで、効果が切れると発動記録もリセットされる。{3}スタックの状態で音骸スキルを発動すると、持続時間がリセットされる。",
+          "Param": [
+            "30%",
+            "4",
+            "4%",
+            "4",
+            "30"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 0,
+  "MonsterInfo": 310000490
+}

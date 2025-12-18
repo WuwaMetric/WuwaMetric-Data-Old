@@ -1,0 +1,150 @@
+{
+  "Id": 6000077,
+  "Code": "W68-",
+  "Name": "글라디우스 귀족",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_32026_UI.T_IconMonsterHead_32026_UI",
+  "Skill": {
+    "Desc": "에코 어빌리티를 사용하여 글라디우스 귀족으로 변신한 후, 검을 휘둘러 전방의 적을 공격하고 {0}의 응결 피해를 입힌다.\n에코 어빌리티를 길게 눌러 변신 상태를 유지하면, 일정 시간 후 검을 휘둘러 전방으로 원거리 참격 1회를 가하여 전방의 적에게 각각 {1}, {2}의 응결 피해를 입힌다.\n스킬 쿨타임: {3}초",
+    "SimpleDesc": "글라디우스 귀족으로 변신한 후, 검을 휘둘러 전방의 적을 공격하고 응결 피해를 입힌다. 에코 어빌리티를 길게 누르면 차지 후 원거리 참격을 가하여 전방의 적에게 응결 피해를 입힌다",
+    "Param": [
+      [
+        "149.00%",
+        "149.00%",
+        "372.50%",
+        "15"
+      ],
+      [
+        "178.80%",
+        "178.80%",
+        "447.00%",
+        "15"
+      ],
+      [
+        "208.60%",
+        "208.60%",
+        "521.50%",
+        "15"
+      ],
+      [
+        "238.40%",
+        "238.40%",
+        "596.00%",
+        "15"
+      ],
+      [
+        "268.20%",
+        "268.20%",
+        "670.50%",
+        "15"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/MstSkil_32027_UI.MstSkil_32027_UI",
+    "Damage": {
+      "20005901": {
+        "Element": 1,
+        "RelatedProperty": "공격력",
+        "Type": 5,
+        "RateLv": [
+          14900,
+          17880,
+          20860,
+          23840,
+          26820
+        ],
+        "Energy": 372,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 14900
+      },
+      "20005902": {
+        "Element": 1,
+        "RelatedProperty": "공격력",
+        "Type": 5,
+        "RateLv": [
+          37250,
+          44700,
+          52150,
+          59600,
+          67050
+        ],
+        "Energy": 931,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 37250
+      }
+    }
+  },
+  "Group": {
+    "12": {
+      "Id": 12,
+      "Name": "어둠의 장막",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriDarkAssist.T_IconElementAttriDarkAssist",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "인멸 피해가 {0} 증가된다",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "캐릭터가 반주 스킬을 발생시키고 퇴장 시, 추가로 주변 적에게 {0}의 인멸 피해를 입히고, 해당 피해는 반주 스킬 피해로 적용되며, 다음에 등장하는 캐릭터의 인멸 피해 보너스를 {1} 증가시키고, {2}초간 지속된다",
+          "Param": [
+            "480%",
+            "15%",
+            "15"
+          ]
+        }
+      }
+    },
+    "14": {
+      "Id": 14,
+      "Name": "파도에 맞선 용기",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriEnergy.T_IconElementAttriEnergy",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "공명 효율이 {0} 증가된다",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "캐릭터의 공격력이 {0} 증가되고, 공명 효율이 {1}에 도달한 후 현재 캐릭터의 전체 속성 피해가 {2} 증가된다",
+          "Param": [
+            "15%",
+            "250%",
+            "30%"
+          ]
+        }
+      }
+    },
+    "23": {
+      "Id": 23,
+      "Name": "운명을 붕괴시키는 현",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriQianXiao.T_IconElementAttriQianXiao",
+      "Color": "FFFFFF00",
+      "Set": {
+        "3": {
+          "Desc": "캐릭터가 적에게 「암흑 효과」 추가 시, 자신의 공격력이 {0} 증가되고 공명 해방 피해 보너스가 {1} 증가되며 {2}초간 지속된다",
+          "Param": [
+            "20%",
+            "30%",
+            "5"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 1,
+  "MonsterInfo": 320000260
+}

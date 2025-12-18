@@ -1,0 +1,73 @@
+{
+  "Id": 6000169,
+  "Code": "H06-",
+  "Name": "梦魇·绿熔蜥（稚形）",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31072_UI.T_IconMonsterHead_31072_UI",
+  "Skill": {
+    "Desc": "使用声骸技能，幻形为绿熔蜥（稚形），在原地休息，能够缓慢回复生命值。\n技能冷却：{0}秒",
+    "SimpleDesc": "幻形为绿熔蜥（稚形），在原地休息回复生命值。",
+    "Param": [
+      [
+        "8"
+      ],
+      [
+        "8"
+      ],
+      [
+        "8"
+      ],
+      [
+        "8"
+      ],
+      [
+        "8"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_285_UI.T_MstSkil_285_UI",
+    "Damage": {
+      "20002902": {
+        "Element": 0,
+        "RelatedProperty": "攻击",
+        "Type": 0,
+        "RateLv": [
+          0
+        ],
+        "Energy": 0,
+        "ElementPower": 0,
+        "HardnessLv": 0,
+        "ToughLv": 0
+      }
+    }
+  },
+  "Group": {
+    "22": {
+      "Id": 22,
+      "Name": "焚羽猎魔之影",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriFireA.T_IconElementAttriFireA",
+      "Color": "FFFFFF00",
+      "Set": {
+        "3": {
+          "Desc": "角色造成声骸技能伤害时，重击伤害的暴击提升{0}，持续{1}秒；造成重击伤害时，声骸技能伤害的暴击提升{2}，持续{3}秒。同时拥有两种效果时，自身热熔伤害提升{4}。",
+          "Param": [
+            "20%",
+            "6",
+            "20%",
+            "6",
+            "16%"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 0,
+  "MonsterInfo": 310000720
+}

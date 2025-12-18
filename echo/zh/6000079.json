@@ -1,0 +1,149 @@
+{
+  "Id": 6000079,
+  "Code": "R41-",
+  "Name": "浮灵偶",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_32028_UI.T_IconMonsterHead_32028_UI",
+  "Skill": {
+    "Desc": "使用声骸技能，召唤浮灵偶连续攻击，造成6段{0}和1段{1}的热熔伤害。\n技能冷却：{2}秒",
+    "SimpleDesc": "召唤浮灵偶连续攻击，对敌人造成热熔伤害。",
+    "Param": [
+      [
+        "10.70%",
+        "42.80%",
+        "15"
+      ],
+      [
+        "12.84%",
+        "51.36%",
+        "15"
+      ],
+      [
+        "14.98%",
+        "59.92%",
+        "15"
+      ],
+      [
+        "17.12%",
+        "68.48%",
+        "15"
+      ],
+      [
+        "19.26%",
+        "77.04%",
+        "15"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/MstSkil_32028_UI.MstSkil_32028_UI",
+    "Damage": {
+      "20006201": {
+        "Element": 2,
+        "RelatedProperty": "攻击",
+        "Type": 5,
+        "RateLv": [
+          1070,
+          1284,
+          1498,
+          1712,
+          1926
+        ],
+        "Energy": 26,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 1070
+      },
+      "20006202": {
+        "Element": 2,
+        "RelatedProperty": "攻击",
+        "Type": 5,
+        "RateLv": [
+          4280,
+          5136,
+          5992,
+          6848,
+          7704
+        ],
+        "Energy": 107,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 4280
+      }
+    }
+  },
+  "Group": {
+    "13": {
+      "Id": 13,
+      "Name": "高天共奏之曲",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriCooperate.T_IconElementAttriCooperate",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "共鸣效率提升{0}",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "当前角色协同攻击造成的伤害提升{0}；协同攻击命中敌人且暴击时，队伍中登场角色攻击力提升{1}，持续{2}秒。",
+          "Param": [
+            "80%",
+            "20%",
+            "4"
+          ]
+        }
+      }
+    },
+    "14": {
+      "Id": 14,
+      "Name": "无惧浪涛之勇",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriEnergy.T_IconElementAttriEnergy",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "共鸣效率提升{0}",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "角色攻击提升{0}，共鸣效率达到{1}后，当前角色全属性伤害提升{2}。",
+          "Param": [
+            "15%",
+            "250%",
+            "30%"
+          ]
+        }
+      }
+    },
+    "19": {
+      "Id": 19,
+      "Name": "失序彼岸之梦",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriDarkVision.T_IconElementAttriDarkVision",
+      "Color": "FFFFFF00",
+      "Set": {
+        "3": {
+          "Desc": "角色共鸣能量为{0}时，自身暴击率提升{1}，声骸技能伤害加成提升{2}。",
+          "Param": [
+            "0",
+            "20%",
+            "35%"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 1,
+  "MonsterInfo": 320000280,
+  "Phantom": {
+    "Name": "异相·浮灵偶",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_SG_32028_UI.T_IconMonsterGoods_SG_32028_UI"
+  }
+}

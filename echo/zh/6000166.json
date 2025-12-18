@@ -1,0 +1,87 @@
+{
+  "Id": 6000166,
+  "Code": "H02-",
+  "Name": "梦魇·啾啾河豚",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31068_UI.T_IconMonsterHead_31068_UI",
+  "Skill": {
+    "Desc": "使用声骸技能，召唤啾啾河豚，鼓气并向前喷气{0}次，每次造成{1}气动伤害并提供击退效果。\n技能冷却：{2}秒",
+    "SimpleDesc": "召唤啾啾河豚，吹吐泡泡造成气动伤害并击退敌人。",
+    "Param": [
+      [
+        "3",
+        "24.00%",
+        "8"
+      ],
+      [
+        "3",
+        "27.60%",
+        "8"
+      ],
+      [
+        "3",
+        "31.20%",
+        "8"
+      ],
+      [
+        "3",
+        "34.80%",
+        "8"
+      ],
+      [
+        "3",
+        "38.40%",
+        "8"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_971_UI.T_MstSkil_971_UI",
+    "Damage": {
+      "20002701": {
+        "Element": 4,
+        "RelatedProperty": "攻击",
+        "Type": 5,
+        "RateLv": [
+          2400,
+          2760,
+          3120,
+          3480,
+          3840
+        ],
+        "Energy": 60,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 2400
+      }
+    }
+  },
+  "Group": {
+    "21": {
+      "Id": 21,
+      "Name": "息界同调之律",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriSupport.T_IconElementAttriSupport",
+      "Color": "FFFFFF00",
+      "Set": {
+        "3": {
+          "Desc": "角色施放声骸技能时，自身重击伤害加成提升{0}，持续{1}秒；队伍中角色声骸技能伤害加成提升{2}，该效果可叠加{3}层，持续{4}秒，同名声骸仅可触发1次该效果，效果消失时重置同名声骸记录，{3}层时施放声骸技能可刷新持续时间。",
+          "Param": [
+            "30%",
+            "4",
+            "4%",
+            "4",
+            "30"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 0,
+  "MonsterInfo": 310000680
+}

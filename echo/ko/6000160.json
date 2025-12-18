@@ -1,0 +1,113 @@
+{
+  "Id": 6000160,
+  "Code": "W88-",
+  "Name": "바다의 여인",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34018_UI.T_IconMonsterHead_34018_UI",
+  "Skill": {
+    "Desc": "에코 어빌리티를 사용하여 「파도의 소용돌이」를 소환한 후, 적에게 최대 10단 {0} 및 1단 {1}의 기류 피해 입힌다.\n메인 슬롯에 해당 에코 어빌리티를 장착 시, 자신의 기류 피해 보너스가 {2} 증가되고, 공명 해방 피해 보너스가 {3} 증가된다.\n스킬 쿨타임: {4}초",
+    "SimpleDesc": "「파도의 소용돌이」를 소환한 후, 적에게 기류 피해를 입힌다.\n메인 슬롯에 장착 시, 자신의 기류 피해와 공명 해방 피해를 증가시킨다",
+    "Param": [
+      [
+        "7.60%",
+        "91.20%",
+        "12.00%",
+        "12.00%",
+        "20"
+      ],
+      [
+        "9.12%",
+        "109.44%",
+        "12.00%",
+        "12.00%",
+        "20"
+      ],
+      [
+        "10.64%",
+        "127.68%",
+        "12.00%",
+        "12.00%",
+        "20"
+      ],
+      [
+        "12.16%",
+        "145.92%",
+        "12.00%",
+        "12.00%",
+        "20"
+      ],
+      [
+        "13.68%",
+        "164.16%",
+        "12.00%",
+        "12.00%",
+        "20"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_34018_UI.T_MstSkil_34018_UI",
+    "Damage": {
+      "28003201": {
+        "Element": 4,
+        "RelatedProperty": "공격력",
+        "Type": 5,
+        "RateLv": [
+          760,
+          912,
+          1064,
+          1216,
+          1368
+        ],
+        "Energy": 19,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 760
+      },
+      "28003202": {
+        "Element": 4,
+        "RelatedProperty": "공격력",
+        "Type": 5,
+        "RateLv": [
+          9120,
+          10944,
+          12768,
+          14592,
+          16416
+        ],
+        "Energy": 228,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 9120
+      }
+    }
+  },
+  "Group": {
+    "20": {
+      "Id": 20,
+      "Name": "영광의 칼날로 만들어진 왕관",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriShield.T_IconElementAttriShield",
+      "Color": "FFFFFF00",
+      "Set": {
+        "3": {
+          "Desc": "캐릭터가 실드 획득 시, 자신의 공격력이 {0} 증가되고 크리티컬 피해가 {1} 증가된다. 해당 효과는 최대 {2}스택까지 중첩이 가능하며, {3}초간 지속되고 {4}초마다 1회 발생할 수 있다",
+          "Param": [
+            "6%",
+            "4%",
+            "5",
+            "4",
+            "0.5"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 2,
+  "MonsterInfo": 340000180
+}

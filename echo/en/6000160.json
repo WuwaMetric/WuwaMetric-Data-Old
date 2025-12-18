@@ -1,0 +1,113 @@
+{
+  "Id": 6000160,
+  "Code": "W88-",
+  "Name": "Lady of the Sea",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34018_UI.T_IconMonsterHead_34018_UI",
+  "Skill": {
+    "Desc": "Summon a Tidestorm to deal {0} Aero DMG ten times and {1} Aero DMG one time to enemies.\nThe Resonator with this Echo equipped in the main slot gains {2} Aero DMG Bonus and {3} Resonance Liberation DMG Bonus.\nCD: {4}s",
+    "SimpleDesc": "Summon a Tidestorm to deal Aero DMG to enemies.\nThe Resonator with this Echo equipped in the main slot gains Aero and Resonance Liberation DMG Bonus.",
+    "Param": [
+      [
+        "7.60%",
+        "91.20%",
+        "12.00%",
+        "12.00%",
+        "20"
+      ],
+      [
+        "9.12%",
+        "109.44%",
+        "12.00%",
+        "12.00%",
+        "20"
+      ],
+      [
+        "10.64%",
+        "127.68%",
+        "12.00%",
+        "12.00%",
+        "20"
+      ],
+      [
+        "12.16%",
+        "145.92%",
+        "12.00%",
+        "12.00%",
+        "20"
+      ],
+      [
+        "13.68%",
+        "164.16%",
+        "12.00%",
+        "12.00%",
+        "20"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_34018_UI.T_MstSkil_34018_UI",
+    "Damage": {
+      "28003201": {
+        "Element": 4,
+        "RelatedProperty": "ATK",
+        "Type": 5,
+        "RateLv": [
+          760,
+          912,
+          1064,
+          1216,
+          1368
+        ],
+        "Energy": 19,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 760
+      },
+      "28003202": {
+        "Element": 4,
+        "RelatedProperty": "ATK",
+        "Type": 5,
+        "RateLv": [
+          9120,
+          10944,
+          12768,
+          14592,
+          16416
+        ],
+        "Energy": 228,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 9120
+      }
+    }
+  },
+  "Group": {
+    "20": {
+      "Id": 20,
+      "Name": "Crown of Valor",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriShield.T_IconElementAttriShield",
+      "Color": "FFFFFF00",
+      "Set": {
+        "3": {
+          "Desc": "Upon gaining a Shield, increase the Resonator's ATK by {0} and Crit. DMG by {1} for {3}s. This effect can be triggered once every {4}s and stacks up to {2} times.",
+          "Param": [
+            "6%",
+            "4%",
+            "5",
+            "4",
+            "0.5"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 2,
+  "MonsterInfo": 340000180
+}

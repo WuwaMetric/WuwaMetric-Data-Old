@@ -1,0 +1,146 @@
+{
+  "Id": 6000058,
+  "Code": "H54-",
+  "Name": "Lightcrusher",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_328_UI.T_IconMonsterHead_328_UI",
+  "Skill": {
+    "Desc": "Lunge forward as a Lightcrusher, dealing {0} Spectro DMG. Generate {1} Ablucence on hit. Each Ablucence explosion deals {2} Spectro DMG.\nHold the Echo Skill to stay in the Lightcrusher form, which allows you to leap up and pounce forward in the air for a short distance.\n\nCooldown: {3}s",
+    "SimpleDesc": "Lunge forward as a Lightcrusher, dealing Spectro DMG.\nHold the Echo Skill to lunge for a longer distance after gathering momentum in the Lightcrusher form.",
+    "Param": [
+      [
+        "84.60%",
+        "6",
+        "9.40%",
+        "15"
+      ],
+      [
+        "97.29%",
+        "6",
+        "10.81%",
+        "15"
+      ],
+      [
+        "109.98%",
+        "6",
+        "12.22%",
+        "15"
+      ],
+      [
+        "122.67%",
+        "6",
+        "13.63%",
+        "15"
+      ],
+      [
+        "135.36%",
+        "6",
+        "15.04%",
+        "15"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_329_UI.T_MstSkil_329_UI",
+    "Damage": {
+      "20005201": {
+        "Element": 5,
+        "RelatedProperty": "ATK",
+        "Type": 5,
+        "RateLv": [
+          8460,
+          9729,
+          10998,
+          12267,
+          13536
+        ],
+        "Energy": 211,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 8460
+      },
+      "20005202": {
+        "Element": 5,
+        "RelatedProperty": "ATK",
+        "Type": 5,
+        "RateLv": [
+          9693,
+          11146,
+          12600,
+          14054,
+          15508
+        ],
+        "Energy": 242,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 9693
+      },
+      "20005203": {
+        "Element": 5,
+        "RelatedProperty": "ATK",
+        "Type": 5,
+        "RateLv": [
+          9693,
+          11146,
+          12600,
+          14054,
+          15508
+        ],
+        "Energy": 242,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 9693
+      },
+      "20005204": {
+        "Element": 5,
+        "RelatedProperty": "ATK",
+        "Type": 5,
+        "RateLv": [
+          940,
+          1081,
+          1222,
+          1363,
+          1504
+        ],
+        "Energy": 23,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 940
+      }
+    }
+  },
+  "Group": {
+    "5": {
+      "Id": 5,
+      "Name": "Celestial Light",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriLight.T_IconElementAttriLight",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "Spectro DMG + 10%.",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "Spectro DMG + 30% for 15s after releasing Intro Skill.",
+          "Param": [
+            "30%"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 1,
+  "MonsterInfo": 320000210,
+  "Phantom": {
+    "Name": "Phantom: Lightcrusher",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_1016_UI.T_IconMonsterHead_1016_UI"
+  }
+}

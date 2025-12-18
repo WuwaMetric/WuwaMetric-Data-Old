@@ -1,0 +1,147 @@
+{
+  "Id": 390077025,
+  "Code": "W62-",
+  "Name": "冥淵の守り手",
+  "Type": "残像-失序種",
+  "Intensity": "巨浪級",
+  "Place": "瑝瓏",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_211_UI.T_IconMonsterGoods_211_UI",
+  "Skill": {
+    "Desc": "音骸スキルを発動すると、冥淵の守り手に変身してジャンプ攻撃を行う。敵に{0}の消滅ダメージを与える。敵に命中した後、自身のHPを{1}減らし、{2}秒後に継続的に登場キャラクターのHPを回復し、合計HP上限の{3}のHPを回復する。\nクールタイム：{4}秒",
+    "SimpleDesc": "冥淵の守り手に変身し、重撃で一定のHPを消費して消滅ダメージを与える。その後HPは徐々に回復する。",
+    "Param": [
+      [
+        "171.00%",
+        "10.00%",
+        "5",
+        "10.00%",
+        "15"
+      ],
+      [
+        "196.65%",
+        "10.00%",
+        "5",
+        "10.00%",
+        "15"
+      ],
+      [
+        "222.30%",
+        "10.00%",
+        "5",
+        "10.00%",
+        "15"
+      ],
+      [
+        "247.95%",
+        "10.00%",
+        "5",
+        "10.00%",
+        "15"
+      ],
+      [
+        "273.60%",
+        "10.00%",
+        "5",
+        "10.00%",
+        "15"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_Z_B9_UI.T_MstSkil_Z_B9_UI",
+    "Damage": {
+      "20002301": {
+        "Element": 6,
+        "RelatedProperty": "攻撃力",
+        "Type": 5,
+        "RateLv": [
+          17100,
+          19665,
+          22230,
+          24795,
+          27360
+        ],
+        "Energy": 427,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 17100
+      },
+      "20002302": {
+        "Element": 6,
+        "RelatedProperty": "攻撃力",
+        "Type": 0,
+        "RateLv": [
+          0
+        ],
+        "Energy": 0,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 0
+      },
+      "20002303": {
+        "Element": 0,
+        "RelatedProperty": "攻撃力",
+        "Type": 0,
+        "RateLv": [
+          0
+        ],
+        "Energy": 0,
+        "ElementPower": 0,
+        "HardnessLv": 0,
+        "ToughLv": 0
+      }
+    }
+  },
+  "Group": {
+    "7": {
+      "Id": 7,
+      "Name": "喧騒に隠す回光",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriCure.T_IconElementAttriCure",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "HP回復効果10%アップ",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "味方を回復後、チーム内全員の攻撃力が15%アップ、30秒間持続",
+          "Param": [
+            "15%",
+            "30"
+          ]
+        }
+      }
+    },
+    "9": {
+      "Id": 9,
+      "Name": "絶えない余韻",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriAttack.T_IconElementAttriAttack",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "攻撃力10%アップ",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "場にいる時、攻撃力が1.5秒度に5%アップ、この効果は最大4スタック。終奏スキルのダメージが60%アップ",
+          "Param": [
+            "1.5",
+            "5%",
+            "20%",
+            "60%"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 1,
+  "MonsterInfo": 320000070
+}

@@ -1,0 +1,110 @@
+{
+  "Id": 6000176,
+  "Code": "T01-",
+  "Name": "Mining Drone",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31078_UI.T_IconMonsterHead_31078_UI",
+  "Skill": {
+    "Desc": "Transform into a Mining Drone to attack enemies, dealing {0} Havoc DMG twice.\nCD: {1}s.",
+    "SimpleDesc": "Transform into a Mining Drone to attack enemies, dealing Havoc DMG.",
+    "Param": [
+      [
+        "57.00%",
+        "8"
+      ],
+      [
+        "68.40%",
+        "8"
+      ],
+      [
+        "79.80%",
+        "8"
+      ],
+      [
+        "91.20%",
+        "8"
+      ],
+      [
+        "102.60%",
+        "8"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_31078_UI.T_MstSkil_31078_UI",
+    "Damage": {
+      "20012701": {
+        "Element": 6,
+        "RelatedProperty": "ATK",
+        "Type": 5,
+        "RateLv": [
+          5700,
+          6840,
+          7980,
+          9120,
+          10260
+        ],
+        "Energy": 71,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 5700
+      }
+    }
+  },
+  "Group": {
+    "25": {
+      "Id": 25,
+      "Name": "Halo of Starry Radiance",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriCureWeakness.T_IconElementAttriCureWeakness",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "Healing Bonus + {0}.",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "When healing a Resonator in the team, every {0} of Off-Tune Buildup Rate grants a {1} ATK increase to all Resonators in the team for {3}s, up to {2}. Effects of the same name cannot be stacked.",
+          "Param": [
+            "1%",
+            "0.2%",
+            "25%",
+            "4"
+          ]
+        }
+      }
+    },
+    "26": {
+      "Id": 26,
+      "Name": "Rite of Gilded Revelation",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriAttackWeakness.T_IconElementAttriAttackWeakness",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "Spectro DMG + {0}",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "Dealing Basic Attack DMG increases Spectro DMG by {0} for {2}s, stacking up to {1} times. With {1} stacks, casting Resonance Liberation grants {3} Basic Attack DMG Bonus.",
+          "Param": [
+            "10%",
+            "3",
+            "5",
+            "40%"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 0,
+  "MonsterInfo": 310000780
+}

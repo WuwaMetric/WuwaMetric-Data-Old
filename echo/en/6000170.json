@@ -1,0 +1,78 @@
+{
+  "Id": 6000170,
+  "Code": "S05-",
+  "Name": "Nightmare: Baby Roseshroom",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31073_UI.T_IconMonsterHead_31073_UI",
+  "Skill": {
+    "Desc": "Summon a Baby Roseshroom that fires a laser, dealing {0} Havoc DMG.\n\nCD: {1}s",
+    "SimpleDesc": "Summon a Baby Roseshroom to fire a laser, and deal Havoc DMG.",
+    "Param": [
+      [
+        "20.00%+40",
+        "8"
+      ],
+      [
+        "23.00%+46",
+        "8"
+      ],
+      [
+        "26.00%+52",
+        "8"
+      ],
+      [
+        "29.00%+58",
+        "8"
+      ],
+      [
+        "32.00%+64",
+        "8"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_305_UI.T_MstSkil_305_UI",
+    "Damage": {
+      "20003101": {
+        "Element": 6,
+        "RelatedProperty": "ATK",
+        "Type": 5,
+        "RateLv": [
+          0
+        ],
+        "Energy": 180,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 7500
+      }
+    }
+  },
+  "Group": {
+    "22": {
+      "Id": 22,
+      "Name": "Flamewing's Shadow",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriFireA.T_IconElementAttriFireA",
+      "Color": "FFFFFF00",
+      "Set": {
+        "3": {
+          "Desc": "Dealing Echo Skill DMG increases Heavy Attack Crit. Rate by {0} for {1}s. Dealing Heavy Attack DMG increases Echo Skill Crit. Rate by {2} for {3}s. While both effects are active, gain {4} Fusion DMG Bonus.",
+          "Param": [
+            "20%",
+            "6",
+            "20%",
+            "6",
+            "16%"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 0,
+  "MonsterInfo": 310000730
+}

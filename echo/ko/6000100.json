@@ -1,0 +1,108 @@
+{
+  "Id": 6000100,
+  "Code": "W34-",
+  "Name": "사체르도스",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31054_UI.T_IconMonsterHead_31054_UI",
+  "Skill": {
+    "Desc": "에코 어빌리티를 사용하여 사체르도스를 소환하고, {0}의 기류 피해를 2회 입힌다.\n쿨타임: {1}초",
+    "SimpleDesc": "사체르도스를 소환하여, 적에게 기류 피해를 입힌다",
+    "Param": [
+      [
+        "36.00%",
+        "8"
+      ],
+      [
+        "43.20%",
+        "8"
+      ],
+      [
+        "50.40%",
+        "8"
+      ],
+      [
+        "57.60%",
+        "8"
+      ],
+      [
+        "64.80%",
+        "8"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_Mstskil_31054.T_Mstskil_31054",
+    "Damage": {
+      "20008401": {
+        "Element": 4,
+        "RelatedProperty": "공격력",
+        "Type": 5,
+        "RateLv": [
+          3600,
+          4320,
+          5040,
+          5760,
+          6480
+        ],
+        "Energy": 90,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 3600
+      }
+    }
+  },
+  "Group": {
+    "16": {
+      "Id": 16,
+      "Name": "끝없는 하늘",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriWindError.T_IconElementAttriWindError",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "기류 피해가 {0} 증가된다",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "캐릭터가 적에게 「풍식 효과」를 추가 시, 파티 내 캐릭터의 기류 피해가 {0} 증가되고, 자신의 기류 피해가 추가로 {1} 증가되며, {2}초간 지속된다",
+          "Param": [
+            "15%",
+            "15%",
+            "20"
+          ]
+        }
+      }
+    },
+    "17": {
+      "Id": 17,
+      "Name": "영광이 깃든 바람",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriWindErrorA.T_IconElementAttriWindErrorA",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "기류 피해가 {0} 증가된다",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "공격으로 「풍식 효과」가 있는 목표 명중 시, 자신의 크리티컬이 {0} 증가되고, 기류 피해가 {1} 증가되며, {2}초간 지속된다",
+          "Param": [
+            "10%",
+            "30%",
+            "10"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 0,
+  "MonsterInfo": 310000540
+}

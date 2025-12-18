@@ -1,0 +1,107 @@
+{
+  "Id": 390077023,
+  "Code": "W60-",
+  "Name": "초혼의 악사",
+  "Type": "잔상-무질서종",
+  "Intensity": "거랑급",
+  "Place": "황룡",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_201_UI.T_IconMonsterGoods_201_UI",
+  "Skill": {
+    "Desc": "에코 어빌리티를 사용하여 초혼의 악사를 소환한다. 파티 내 캐릭터가 인멸 울림을 주울 시, 10초간 지속되는 강화 효과를 획득하며, 공격으로 목표에 명중할 시 초혼의 악사는 {0}의 인멸 피해를 입히고, 최대 10회  발생할 수 있다.\n스킬 쿨타임: {1}초",
+    "SimpleDesc": "초혼의 악사를 소환한 후, 파티 내 캐릭터가 공격을 가할 시 추가로 인멸 피해를 입힌다",
+    "Param": [
+      [
+        "9.00%",
+        "15"
+      ],
+      [
+        "10.35%",
+        "15"
+      ],
+      [
+        "11.70%",
+        "15"
+      ],
+      [
+        "13.05%",
+        "15"
+      ],
+      [
+        "14.40%",
+        "15"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_205_UI.T_MstSkil_205_UI",
+    "Damage": {
+      "20002001": {
+        "Element": 6,
+        "RelatedProperty": "공격력",
+        "Type": 5,
+        "RateLv": [
+          900,
+          1035,
+          1170,
+          1305,
+          1440
+        ],
+        "Energy": 22,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 900
+      }
+    }
+  },
+  "Group": {
+    "1": {
+      "Id": 1,
+      "Name": "야밤의 서리",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriIce.T_IconElementAttriIce",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "응결 피해가 10% 증가된다",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "일반 공격이나 강공격을 사용하면, 응결 피해가 10% 증가, 해당 효과는 3스택 중첩이 가능하며, 15초간 지속된다",
+          "Param": [
+            "30%",
+            "15"
+          ]
+        }
+      }
+    },
+    "6": {
+      "Id": 6,
+      "Name": "빛을 삼키는 해",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriDark.T_IconElementAttriDark",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "인멸 피해가 10% 증가된다",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "일반 공격 또는 강공격 사용 시, 인멸 피해가 7.5% 증가되고, 해당 효과는 4스택 중첩이 가능하며, 15초 동안 지속된다",
+          "Param": [
+            "6%",
+            "5",
+            "15"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 1,
+  "MonsterInfo": 320000050
+}

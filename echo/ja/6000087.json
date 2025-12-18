@@ -1,0 +1,96 @@
+{
+  "Id": 6000087,
+  "Code": "H72-",
+  "Name": "ナイトメア・無情のサギ",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_YZ_33015_UI.T_IconMonsterHead_YZ_33015_UI",
+  "Skill": {
+    "Desc": "音骸スキルを発動すると、ナイトメア・無情のサギに変身し、周囲の敵に{0}の消滅ダメージを与える、最大10段。\nメイン音骸スロットに装備時、自身の消滅ダメージが{1}アップ、重撃ダメージが{2}アップ。\nクールタイム：{3}秒",
+    "SimpleDesc": "ナイトメア・無情のサギに変身し、周囲の敵に複数段の消滅ダメージを与える。メイン音骸スロットに装備時、自身の消滅ダメージと重撃ダメージがアップ。",
+    "Param": [
+      [
+        "22.50%",
+        "12.00%",
+        "12.00%",
+        "25"
+      ],
+      [
+        "27.00%",
+        "12.00%",
+        "12.00%",
+        "25"
+      ],
+      [
+        "31.50%",
+        "12.00%",
+        "12.00%",
+        "25"
+      ],
+      [
+        "36.00%",
+        "12.00%",
+        "12.00%",
+        "25"
+      ],
+      [
+        "40.50%",
+        "12.00%",
+        "12.00%",
+        "25"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_995_UI.T_MstSkil_995_UI",
+    "Damage": {
+      "28001901": {
+        "Element": 6,
+        "RelatedProperty": "攻撃力",
+        "Type": 5,
+        "RateLv": [
+          2250,
+          2700,
+          3150,
+          3600,
+          4050
+        ],
+        "Energy": 56,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 2250
+      }
+    }
+  },
+  "Group": {
+    "12": {
+      "Id": 12,
+      "Name": "ミッドナイト・ベール",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriDarkAssist.T_IconElementAttriDarkAssist",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "消滅ダメージが{0}アップ",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "終奏スキルで退場時、追加で周囲の敵に{0}の消滅ダメージを与え、このダメージは終奏スキルダメージと見なされる。次の登場キャラに{1}の消滅ダメージアップ効果を付与し、{2}秒間持続。",
+          "Param": [
+            "480%",
+            "15%",
+            "15"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 2,
+  "MonsterInfo": 330000150
+}

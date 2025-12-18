@@ -1,0 +1,167 @@
+{
+  "Id": 6000104,
+  "Code": "W71-",
+  "Name": "カピタネウス",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_32033_UI.T_IconMonsterHead_32033_UI",
+  "Skill": {
+    "Desc": "音骸スキルを発動すると、カピタネウスを召喚。カピタネウスは目標にジャンプ攻撃して{0}の回折ダメージを与える他、追加で【凛冽の裁き】を4発生成し、1発につき{1}の回折ダメージを与える。\nメイン音骸スロットに装備時、自身の回折ダメージが{2}アップ、重撃ダメージが{3}アップ。\nクールタイム：{4}秒",
+    "SimpleDesc": "カピタネウスを召喚して敵に回折ダメージを与える。メイン音骸スロットに装備時、自身の回折ダメージと重撃ダメージがアップ。",
+    "Param": [
+      [
+        "66.00%",
+        "33.00%",
+        "12.00%",
+        "12.00%",
+        "20"
+      ],
+      [
+        "79.20%",
+        "39.60%",
+        "12.00%",
+        "12.00%",
+        "20"
+      ],
+      [
+        "92.40%",
+        "46.20%",
+        "12.00%",
+        "12.00%",
+        "20"
+      ],
+      [
+        "105.60%",
+        "52.80%",
+        "12.00%",
+        "12.00%",
+        "20"
+      ],
+      [
+        "118.80%",
+        "59.40%",
+        "12.00%",
+        "12.00%",
+        "20"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_32033_UI.T_MstSkil_32033_UI",
+    "Damage": {
+      "20008801": {
+        "Element": 5,
+        "RelatedProperty": "攻撃力",
+        "Type": 5,
+        "RateLv": [
+          6600,
+          7920,
+          9240,
+          10560,
+          11880
+        ],
+        "Energy": 165,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 6600
+      },
+      "20008802": {
+        "Element": 5,
+        "RelatedProperty": "攻撃力",
+        "Type": 5,
+        "RateLv": [
+          3300,
+          3960,
+          4620,
+          5280,
+          5940
+        ],
+        "Energy": 82,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 3300
+      }
+    }
+  },
+  "Group": {
+    "11": {
+      "Id": 11,
+      "Name": "エターナル・ライト",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriLightError.T_IconElementAttriLightError",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "回折ダメージが{0}アップ",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "敵に【騒光効果】を付与時、自身のクリティカル率が{0}アップ、{1}秒間持続。【騒光効果】が{2}スタック付与された敵を攻撃時、自身の回折ダメージが{3}アップ、{4}秒間持続。",
+          "Param": [
+            "20%",
+            "15",
+            "10",
+            "15%",
+            "15"
+          ]
+        }
+      }
+    },
+    "16": {
+      "Id": 16,
+      "Name": "バウンドレス・スカイ",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriWindError.T_IconElementAttriWindError",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "気動ダメージが{0}アップ",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "敵に【風蝕効果】を付与時、チーム内全員の気動ダメージが{0}アップ、自身の気動ダメージが追加で{1}アップ、{2}秒間持続。",
+          "Param": [
+            "15%",
+            "15%",
+            "20"
+          ]
+        }
+      }
+    },
+    "17": {
+      "Id": 17,
+      "Name": "グロリアス・ウィンド",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriWindErrorA.T_IconElementAttriWindErrorA",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "気動ダメージが{0}アップ",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "【風蝕効果】が付与されている敵への攻撃が命中時、自身のクリティカル率が{0}アップ、気動ダメージが{1}アップ、{2}秒間持続。",
+          "Param": [
+            "10%",
+            "30%",
+            "10"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 1,
+  "MonsterInfo": 320000330,
+  "Phantom": {
+    "Name": "異相・カピタネウス",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_32033_1_UI.T_IconMonsterGoods_32033_1_UI"
+  }
+}

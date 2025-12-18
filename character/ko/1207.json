@@ -1,0 +1,5410 @@
+{
+  "Id": 1207,
+  "Rarity": 5,
+  "Weapon": 1,
+  "Element": 2,
+  "Tag": {
+    "3": {
+      "Name": "빠른 협주",
+      "Desc": "짧은 시간에 비교적 높은 협주 효율 보유",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/RoleLabel/SP_RoleLabelA3.SP_RoleLabelA3",
+      "Color": "ff4040"
+    },
+    "7": {
+      "Name": "공명 해방 피해",
+      "Desc": "비교적 높은 공명 해방 피해",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/RoleLabel/SP_RoleLabelB4.SP_RoleLabelB4",
+      "Color": "ffde73"
+    },
+    "17": {
+      "Name": "용융 피해 부스트",
+      "Desc": "파티 내 특정 캐릭터의 용융 피해 부스트 가능",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/RoleLabel/SP_RoleLabelD6.SP_RoleLabelD6",
+      "Color": "ff7777"
+    },
+    "20": {
+      "Name": "일반 공격 피해 부스트",
+      "Desc": "파티 내 특정 캐릭터의 일반 공격 피해 부스트 가능",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/RoleLabel/SP_RoleLabelD7.SP_RoleLabelD7",
+      "Color": "ff7777"
+    }
+  },
+  "Name": "루파",
+  "NickName": "루파",
+  "Desc": "일곱 언덕의 검투사, 주목받는 스타 선수. \n열정적이고 직설적이며 외로운 늑대처럼 야성적인 소녀. 대결의 순수한 즐거움을 계속 누릴 수 있다면, 루파는 이 경기장에서 타올라 사라지게 되더라도 두려워하지 않을 것이다",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_46_UI.T_IconRoleHead256_46_UI",
+  "Background": "/Game/Aki/UI/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_lupa_UI.T_IconRole_Pile_lupa_UI",
+  "BackgroundStand": "/Game/Aki/UI/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyLupa.T_ActivityRoleOntrialHalfBodyLupa",
+  "CharaInfo": {
+    "Birth": "알수 없음",
+    "Sex": "여성",
+    "Country": "리나시타",
+    "Influence": "일곱 언덕",
+    "Info": "일곱 언덕의 검투사, 주목받는 스타 선수. \n열정적이고 직설적이며 외로운 늑대처럼 야성적인 소녀. 대결의 순수한 즐거움을 계속 누릴 수 있다면, 루파는 이 경기장에서 타올라 사라지게 되더라도 두려워하지 않을 것이다",
+    "TalentName": "이글거리는 포효",
+    "TalentDoc": "「검투사 신체 보고서 조회」\n선수 이름: 루파\n선수의 공명 어빌리티는 어린 시절 어느 검투에서 각성되었다. 후천성 공명자이며 공명 지속 시간은 약 10여 년이다.\n스펙트럼 테스트 그래프에 따르면 공명의 기원이 화염으로 추정되나, 다른 표준 스펙트럼과도 일부 유사성이 존재하여 공명의 기원을 완전히 확정할 수 없다.\n대회 참가 과정에서 어빌리티의 강도와 숙련도가 꾸준히 상승하고 있다.\n선수의 <te href=850072>성흔</te>은 허리의 왼쪽에 위치하며, 공명 후 늑대화 이형 신체 증상이 발생된다. (본인의 진술로는 늑대 꼬리 외에도 후각 및 청각이 예민해지는 현상이 발생한다고 함)\n<i>「자, 기록은 전부 끝났습니다. 수고하셨습니다, 루파 선수.\n...음, 그리고... 제 아이가 루파 선수의 경기를 좋아하는데 괜찮으시면 사인 좀 받을 수 있을까요?」</i>",
+    "TalentCertification": "「경기전 신체 보고서 조회」\n선수 이름: 루파\n참가 선수의 파형 테스트 그래프는 타원형 파동을 나타내며, 시간 영역 특성은 안정적이고 비정상적인 파형은 없다.\n진단 결과: <te href=850073>오버클럭</te> 임계치가 높고 안정적이며 오버클럭 위험이 없다.\n오버클럭 기록 없음.\n<i>「루파 선수는 항상 정기적으로 건강 검진을 진행해왔고, 인기 선수 중에서 그녀처럼 규칙적인 사람은 많지 않습니다」</i>",
+    "CVNameCn": "Shuo Xiaotu",
+    "CVNameJp": "Takahashi Minami",
+    "CVNameKo": "김예령",
+    "CVNameEn": "Kaja Chan"
+  },
+  "Stories": [
+    {
+      "Title": "마음속 불꽃",
+      "Content": "무더위는 루파가 태어난 마을에 대한 첫 기억이었다. \n여름은 길었고 호수마저 끓을 듯 달아올랐지만, 일곱 언덕의 아이들은 개의치 않았다. 먼 카피톨리누스 언덕 도시에선 검투 대회가 코앞이었다. 비록 이 마을에선 출전할 만한 검투사가 나온 적 없었지만, 대회의 열기는 사람들을 흥분하게 만들었고 아이들까지 무기를 들고 흉내 내며 모의 대결에 참가하였다.\n루파는 아이들과 경기하는 도중에 집으로 불려갔다.\n그녀는 집으로 들어가 평소와 다를 바 없는 대화를 나눴다. 부모가 그녀에게 카피톨리누스 언덕 도시로 이사 갈 생각이 있냐고 묻자, 그녀는 「좋아」라고 답했다. 부모는 또 공명자가 될 가능성이 높으니 검투사가 되고 싶냐고 물었고 그녀는 또 긍정했다. 이런 질문들은 수없이 반복됐고 루파는 매번 같은 대답으로 일관했다. 가족들은 그 대답에 안도했다. 그들은 딸이 거절할까 봐 두려워했지만 루파는 단 한 번도 거부 의사를 드러낸 적 없었다.\n하지만 그들은 또 말다툼을 벌이기 시작했다. 과거 자신들의 곤경을 외면했던 실바 가문에게 아첨해야 하는지, 아니면 새로운 길을 찾아야 하는지. 그 아름다운 도시와 의지했던 가문을 이야기할 때면, 그들은 인정받고 싶어 하지만 또 거절당할까 봐 두려워한다—— 루파의 생각을 물었을 때처럼 말이다.\n루파는 의자에 앉아 두 사람의 말다툼을 지켜보고 있었다. 하지만 이 싸움이 길어질 것 같다는 판단에 다시 경기장으로 돌아갔다. 몸속의 열기가 무거운 먹구름처럼 좁은 집 안에서 부풀어 올라 그녀를 뒤덮었다. 답답한 열기와 괴상한 분노가 혈관을 타고 흐르며 몸이 점점 뜨거워져, 루파는 마을의 작은 경기장에서 미친 듯이 뛰어다니며 다시 창을 휘둘러 앞으로 돌격했다.\n바로 그 순간, 주변 사람들의 비명소리가 들려왔다.\n루파가 고개를 숙여 살펴보니 자신의 몸에서 불꽃이 흘러나와 활활 타오르며 스스로를 휘감고 있었다"
+    },
+    {
+      "Title": "산속 도시에서",
+      "Content": "결국 그녀는 부모와 함께 일곱 언덕으로 이사했다. \n하얀 벽돌, 상쾌한 풍경소리, 곳곳에 서 있는 영웅 조각상들이 도시를 장식하고 있었다. 그중에서도 루파가 가장 눈여겨본 건 도시 곳곳의 검투사들이었다. 그들의 무기와 <te href=850082>에코</te>, 팀과 경기 성적에 대해 열정적으로 논의하는 모습은 모두 그녀를 흥분시켰다. 마음속에 작은 불꽃이 타오른 루파는 지금 당장 올림도스 콜로세움으로 달려가 통쾌한 승부를 벌이고 싶었다.\n하지만 소원대로 되지 않았다. 부모는 그녀를 실바 가문의 저택으로 데려갔고, 그곳엔 그녀와 같은 「후보자」들이 많이 기다리고 있었다.\n수십 번 계속된 전투 끝에, 루파는 이를 악물고 창을 쥐어 패배한 상대들을 지나 실바 가문의 화려한 거실에 들어갈 수 있었다.\n줄리아 여사는 여러 아이들 중에서 그녀를 택했다.\n루파는 그녀 앞으로 걸어갔고, 실바 가문 가주의 예리한 시선에 사로잡혔다. 상대의 비취색 눈동자는 심연같이 깊었고, 마치 그녀의 선수로서의 상업적 가치를 재고 있는 듯했다. 그녀는 문득 뒤를 돌아보았지만, 그곳에 서 있던 부모님의 모습은 어느새 사라져 보이지 않았다.\n그들은 실바 가문으로부터 후한 대가를 받은 게 분명하다. 자식을 버리고서도 후회하지 않을 정도로...\n루파는 그 슬픔에 오래 젖어있지 못했다—— 빡빡한 경기 일정과 끊임없는 응대가 이를 허락하지 않았기 때문이다. 그 후 줄리아 여사의 경영 수단 덕에 루파의 첫 경기는 순식간에 화제의 중심이 되었고, 그녀의 목소리는 우레 같은 환호 소리에 묻혀 침묵 속으로 사라졌다"
+    },
+    {
+      "Title": "나아갈 곳은 어디인가",
+      "Content": "루파가 훈련실로 돌아왔을 때, 몇 달간 함께했던 동료는 이미 자리를 떠난 후였다.\n그녀는 잠시 멍하니 서 있다가 불이 꺼진 실내로 계속 걸어갔다. 공명 어빌리티는 그녀에게 많은 선물을 줬다. 불꽃, 예민한 후각 그리고 밤에도 잘 보이는 눈. 루파는 의자 쪽으로 곧장 걸어가 앉았다. 그렇게 텅 빈 어둠 속에 조용히 앉아 있었다.\n그래, 그녀는 생각했다. 매니저와 가주가 곧 새로운 파트너를 붙여줄 테니.\n장난은 끝났다.\n그들은 팀 내 정보를 유출한 자를 찾아냈고, 그 유언비어의 근원도 밝혀냈다. 줄리아 여사는 관대한 사람이 아니었기에, 외부에 정보를 팔았던 그 동료는 앞으로 오랫동안 카피톨리누스 언덕 도시의 경기장에 발을 들일 수 없을 것이다.\n세월이 흐르며 루파의 명성은 커져갔고, 그녀의 동료들도 계속 교체됐다. 어떤 이는 그녀의 성장 속도와 전법을 따라가지 못해서, 어떤 이는 줄리아 여사의 마음에 들지 않아서, 악의를 품고 들어온 자들도 있었고... 또 어떤 이들은 그녀 곁에서 관중의 시선을 견디지 못했던 것 같았다. 모든 시선이 그녀에게만 집중되었기 때문이다.\n루파도 이를 위해 무언가 말하려 한 적이 있었지만 그녀는 곧 깨달았다. 「말하는 행위」 자체가 타인에게 상처가 될 수도 있다는 것을.\n처한 상황의 차이와 늘 승리를 거두는 루파는 「네가 뭘 알겠어」라는 말을 많이 들었었다. 주변 사람들이 보기에 그녀는 축복받은 존재로 여겨졌을지도 모른다.\n시간이 갈수록 루파는 침묵하는 법을 배웠다.\n잠시 더 앉아 있다가, 그녀는 영상 보관함으로 걸어가 수없이 본 경기 기록물 하나를 꺼냈다. 루파는 일종의 자기 최면을 위해 이 영상을 반복해서 보고 있었다. 재능 없이도 경기를 즐길 수 있다는 가능성을 찾기 위해서—— 비록 영상 속 인물도 경기장에서 끝까지 버티지 못하고 갑작스레 사라졌지만.\n중계 브라이언이 쏘아낸 빛이 그녀 얼굴 위를 스쳐 짙은 그림자를 남겼다"
+    },
+    {
+      "Title": "이름 없는 자",
+      "Content": "이름 없는 자는 비틀거리며 앞으로 걸어가 침묵하는 영광의 거대 조각상을 지나갔다. \n그녀의 발걸음은 전보다 무거워졌고, 기억도 흐려지기 시작했다. 온전히 생각하는 것조차 어려워졌다. 가끔 카르티시아가 말을 걸면, 그녀는 눈살을 찌푸리며 오랫동안 생각한 후에야 답을 할 수 있었다.\n이 짧은 여정이 곧 끝날 것 같았다.\n일곱 언덕, 그녀의 도시, 아름다운 도시는 이미 <ano=검은 파도>흑조(黑潮)</ano>에 잠식당한 상태였다... 이름 없는 자는 이 도시에게 구원받을 기회가 남아 있는지 알 수 없었다. 지금의 조사도 헛된 일일지 모른다. 비록 카르티시아는 그렇지 않다고 생각했지만, 그녀는 마지막까지 버틸 수 없었다. 역한 느낌, 차가운 바다가 점점 온몸을 잠식하는 그 감각이 몸속 깊숙한 곳으로부터 올라와 뼈와 피 속에서 자라나, 그녀를 또 다른 존재로 만들고 있었다.\n그나마 다행인 건 이름 없는 자도 자신의 존재감이 희미해져 가는 걸 느꼈다는 점이었다. 아마 완전히 <ano=검은 파도>흑조(黑潮)</ano>에 오염되기 전에 사라질 테니—— 적어도 카르티시아에게 폐가 되진 않을 거다.\n타인과 팀을 이뤄 행동할 땐 항상 그녀가 남을 돌보는 입장이었으나, 이렇게 무기력한 상태는 처음이라 낯설고도 괴로웠다. 카르티시아가 그녀를 배려해 속도를 늦추자, 이름 없는 자는 부끄러움에 휩싸였지만 어쩔 도리가 없었다. 오직 카르티시아가 언급한, 그녀가 신뢰하는 그 의인이 빨리 도착하기만을 바랄 뿐이었다.\n이 새로운 동료를 도울 수 있으면 좋겠다.\n그녀는 이를 악물고 창으로 몸을 지탱하며 한 발 더 내디뎠다.\n내가 더 많은 걸 할 수 있었으면...\n이름 없는 자가 고개를 들자, 일곱 언덕의 역사에 영광을 새긴 영웅 조각상이 창을 들고 그녀를 내려다보고 있었다. 조각상의 얼굴에선 어쩐지 비통한 표정이 흘러나오는 듯했고, 하늘에서 쏟아지는 검은 빗물을 막아 후예들에게 피신처를 만들어 주고 있었다"
+    },
+    {
+      "Title": "크고 작은 일",
+      "Content": "「이야기」가 끝난 후, 루파는 약속을 지켰다. {PlayerName}와(과) 카르티시아를 데리고 일곱 언덕에서 신나게 놀았다. \n비록 그들만 아는 비밀이었지만, 이는 시로 엮을 만한 극적인 모험이었다.\n모든 것이 정리되자 긴장이 풀린 루파는 살짝 불안해지기 시작했다.\n{PlayerName} 때문에, 그녀의 최고의 파트너 때문에.\n그녀는 {PlayerName}이(가) 강하다는 걸 알고 있다. 일곱 언덕을 구할 수 있었던 건 {PlayerName}의 도움 덕분이었다. 하지만 바로 그 {PlayerName}이(가) 또다시 평소처럼 당연한 일—— 승리를 거뒀기 때문에 루파는 걱정이 됐다. 그녀 자신도 승리에 익숙한 자인만큼, 연승이 가져오는 좋은 점과 나쁜 점을 잘 알고 있었다. 끝없는 승리 뒤에 찾아오는 실패... 단순한 좌절이 아닌 진정한 패배는 때론 한 사람을 무너뜨릴 수 있다.\n{PlayerName}은(는) 강하다. 루파는 어떤 운명이 그에게 실패를 가져올지 상상조차 못 하겠지만, 만약 그런 날이 온다면...\n더 이상 말할 수 없었고 단지 영원히 파트너에게 도움을 줄 거라는 약속밖에 할 수 없었다. 루파는 {PlayerName}이(가) 어떤 더 웅대한 운명에 놓여있다는 것을 어렴풋이 느낄 수 있었다. 그건 루파가 참여할 수도 영향을 줄 수도 없는 것이다. 모든 일이 같은 크기인 건 아니다. 한 도시를 구하는 것은 큰일이고 한 경기에서 승리하는 것은 작은 일이다.\n——물론 이 말이 항상 옳다고 할 순 없지만.\n그녀는 {PlayerName}에게 말하지 않았다. 함께 도시를 구한 여정은 엄청난 일이었지만, 그 과정에서 루파 역시 많은 것을 얻었다. 비록 파트너에게는 쉬운 승리였지만, 루파에게는 아니었다... 준결승전에서 승리를 거둔 후, 잠시 휴게실에서 서로 기대었을 때, 그녀는 정말로 행복했다. 과거엔 존재한 적 없던 감정이었다. 이 작은 승리가 {PlayerName}에게는 단순한 과정이었기 때문에 루파는 다시 한번 순수하게 검투를 즐기는 마음을 되찾을 수 있었다.\n그리고 그녀 마음속에서 계속 울부짖으며 타오르던 열기와 조급함도 마침내 잠잠해졌다"
+    }
+  ],
+  "Voices": [
+    {
+      "Type": 1,
+      "Title": "마음의 소리 · Ⅰ",
+      "Content": "하... 너랑 걷는 그 잠깐 사이에 기자들한테 엄청 찍혀 버렸네. 아니, 내 탓만은 아니야. 파트너도 챔피언이 됐으니까, 이젠 인기가 많아도 이상할 것 없잖아? 걱정 마, 내가 내일 어떻게든 해 줄게. 이상한 스캔들이 실리는 건 너도 싫지? 기쁜 일은 우리 둘만 기억하고 있어도 충분하잖아?",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_sys_toplayer01.play_favor_word_lupa_sys_toplayer01"
+    },
+    {
+      "Type": 1,
+      "Title": "마음의 소리 · Ⅱ",
+      "Content": "너랑 승부를 할 때면 항상 어렸을 때 일이 생각나. 관객도, 박수도 영예도 없이 그저 종이로 만든 무기를 가지고 싸우는 어린애 장난이었지만, 이기든 지든 마지막에는 서로 껴안으면서 즐겁게 칭찬해 줬지. 파트너, 지금 널 안아줘도 될까?",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_sys_toplayer02.play_favor_word_lupa_sys_toplayer02"
+    },
+    {
+      "Type": 1,
+      "Title": "마음의 소리 · Ⅲ",
+      "Content": "너도 해보고 싶다고? 그래, 좋아! 여기 내 빗이야. 매니저가 사 준 건데, 꼬리를 손질할 땐 이런 빗이 필수라나 뭐라나. 호오... 손재주가 꽤 있는데, 파트너? 기분이 막 좋아지는 것 같아. 내가 직접 빗어도 이렇게... 하암... 이렇게 졸린 적은...",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_sys_toplayer03.play_favor_word_lupa_sys_toplayer03"
+    },
+    {
+      "Type": 1,
+      "Title": "마음의 소리 · IV",
+      "Content": "너랑 헤어져서 혼자 행동했을 땐 솔직히 좀 불안했어. 희망은 카르티시아의 손에서 네 손으로, 그리고 내 손으로 넘어왔지. 무슨 일이 있어도 승리를 쟁취해야만 했어. 물론, 난 실패를 두려워하지 않아. 실패를 받아들일 수 없는 사람은 승리를 잡을 수도 없으니까. 하지만... 난 네가 선택한 「주인공」이잖아? 실패할 수는 없지",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_sys_toplayer04.play_favor_word_lupa_sys_toplayer04"
+    },
+    {
+      "Type": 1,
+      "Title": "마음의 소리 · V",
+      "Content": "나는 수많은 영예를 쥐고 있지만, 너랑 같이 따낸 챔피언이라는 이름은 그중에서도 가장 소중한 거야. 난 이 도시가 좋아. 일곱 언덕의 사람들, 풍경과 땅... 그리고 그 영광과 자부심, 더러움과 상실감까지. 모든 것이 사랑스러워. 언젠가 넌 여길 떠날 거고, 이 짧은 시간도 네 인생에 있어서는 아주 잠깐에 지나지 않겠지만... 나한테 있어서 너랑 함께한 시간은 타오르는 불꽃으로 남을 거야. 앞으로 다시 어둠이 쏟아져도, 이 추억만은 날 계속 비출 테니까",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_sys_toplayer05.play_favor_word_lupa_sys_toplayer05"
+    },
+    {
+      "Type": 1,
+      "Title": "루파의 취미",
+      "Content": "훈련이 끝나면 일곱 언덕의 목욕탕에서 목욕을 하는 걸 좋아해. 따뜻한 물은 피로 회복에도 좋거든. 파트너도 나중에 해 보는 게 어때?",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_sys_taste.play_favor_word_lupa_sys_taste"
+    },
+    {
+      "Type": 1,
+      "Title": "루파의 고민",
+      "Content": "겨울이 되면 항상 꼬리에 정전기가 일어난단 말이지... 손질하는데 귀찮아 죽겠어",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_sys_worry.play_favor_word_lupa_sys_worry"
+    },
+    {
+      "Type": 1,
+      "Title": "좋아하는 음식",
+      "Content": "당연히 신선한 고기로 만든 살팀보카지! 난 일곱 언덕의 전통 음식이 좋아. 고추라면 조금 넣어도 좋지만... <te href=850097>라군나</te> 사람처럼 시큼한 소스를 넣는 건 용서 못 해!",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_sys_foodlike.play_favor_word_lupa_sys_foodlike"
+    },
+    {
+      "Type": 1,
+      "Title": "싫어하는 음식",
+      "Content": "「비틀즈」는 별로야—— 아, 인간의 손길 없이 완전히 <te href=850082>에코</te>들에 의해 만들어진 음식을 뜻해. 아무래도 너무 싱겁고 밍밍하단 말이지... 일곱 언덕의 에코들은 조미료를 안 좋아하나?",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_sys_foodhate.play_favor_word_lupa_sys_foodhate"
+    },
+    {
+      "Type": 1,
+      "Title": "포부와 이상",
+      "Content": "난 단지 경기장에서 싸우는 기쁨을 즐기고 싶을 뿐이야. 이기고 지는 건 상관없어. 손에 든 무기로 상대를 찌를 때 느껴지는 심장 소리, 흥분으로 뜨거워지는 얼굴과 쏟아지는 갈채까지... 간단하지? 화려한 장식이나 선물 같은 건 다 필요 없어. 그 기쁨을 얻기 위해서라면, 아무리 힘들더라도 버틸 자신이 있으니까! 하하, 물론 평생 이 길을 걷는다는 건 어려운 일이겠지만... 나는 절대 쉽게 포기하지 않을 거야",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_sys_dream.play_favor_word_lupa_sys_dream"
+    },
+    {
+      "Type": 1,
+      "Title": "나의 이야기 · Ⅰ",
+      "Content": "줄리아 님한테 받은 이 창... 맞아. 내가 처음 일곱 언덕 경기장에 들어섰을 때 들었던 무기야. 그때의 난 그냥 「좀 재능이 있는」 아이였어. 줄리아 님은 날 골라서 경기장에 내보냈었고. 그 때문인지 세월이 흐른 뒤에도 난 그 불합리한 계약도, 그분이 무언가를 얻기 위해 날 이용했다는 사실도 무시해 왔어. 그분의 자부심이 어둠과 욕망을 이겨낼 거라 생각했지만, 결국...",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_sys_story_obj.play_favor_word_lupa_sys_story_obj"
+    },
+    {
+      "Type": 1,
+      "Title": "나의 이야기 · Ⅱ",
+      "Content": "텅 빈 거리를 끝없이 헤매던 일은 이제 내 기억 속에선 좀 희미해진 것 같아. 성벽은 조수의 침식으로 가득하고, 괴물들은 거리와 골목을 떠돌고, 사람들은 모두 사라져 버렸지... 그렇게 황폐한 일곱 언덕의 모습은 처음 봤어. 그저 보기만 해도 가슴이 아파 왔지. 그래서 난 생각했어. 아직 버틸 수 있고, 몇 번이고 쓰러져도 포기하지 않을 거라고... 일곱 언덕을 구할 수만 있다면, 몇 번이든 상관없다고...",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_sys_story_exp.play_favor_word_lupa_sys_story_exp"
+    },
+    {
+      "Type": 1,
+      "Title": "카르티시아에 관하여",
+      "Content": "그 텅 빈 성에서, 카르티시아는 가장 힘들었던 순간 나한테 손을 내밀어 준 사람이야. 사람과 대화하는 것은 오랜만이라 그런지 처음에는 좀 긴장하는 것 같았지만, 사실 아주 활발하고 자유로운 영혼을 가진 사람이라는 걸 깨달았어. 카르티시아한테 있어서 오랜 세월 동안 갇혀있는 건 분명 많이 힘든 일이었을 거야... 이젠 긴 여정이 끝났으니까, 이 순간의 평온함을 즐겼으면 좋겠어",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_sys_about_katixiya.play_favor_word_lupa_sys_about_katixiya"
+    },
+    {
+      "Type": 1,
+      "Title": "아우구스타에 관하여",
+      "Content": "장관님의 검투 영상을 볼 때마다 이런 생각이 들어. 장관님이 경기장에 발을 들인 건 정치상 필요한 일이었을까, 아니면 자신을 증명하기 위해서였을까... 어떤 이유든지 아우구스타 님이 장관이 된 건 잘된 일이야. 뭔가를 바꾸기 위해선 처음 한 발짝이 제일 어려운 법이잖아? 그래서 난 아우구스타 장관님을 정말 존경해",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_sys_about_aogusita.play_favor_word_lupa_sys_about_aogusita"
+    },
+    {
+      "Type": 1,
+      "Title": "유노에 관하여",
+      "Content": "아주 활발하고 톡톡 튀는 사람인 것 같아... 한 번은 유노가 높은 벽에 있는 벽돌 사이로 뛰어올라서, 고양이처럼 조각상에 뛰어오르는 걸 봤거든? 누구한테 쫓기고 있던 건진 몰라도, 그걸 보고 아래에 있던 다른 사람들이랑 같이 박수를 보냈어!",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_sys_about_younuo_b.play_favor_word_lupa_sys_about_younuo_b"
+    },
+    {
+      "Type": 1,
+      "Title": "브렌트에 관하여",
+      "Content": "푸른 물결 팀의 검투사들은 대부분 <te href=850108>우인 극단</te> 출신이야. 저번에 클리프 항구에 갈 때 그 선장이 갑판에서 뛰어내려선 검투사들이랑 대뜸 끌어안는 걸 봤거든? 서로 얘기를 나누더니 노래까지 부르더라고...!",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_sys_about_bulante.play_favor_word_lupa_sys_about_bulante"
+    },
+    {
+      "Type": 1,
+      "Title": "미아에 관하여",
+      "Content": "처음 미아 선수의 영상을 봤을 땐 그 사람의 순수함에 이끌렸어. 마침 그때 우리 팀에 문제가 많았거든. 난 버림받은 사람의 괴로움에 공감하지 못한다고 팀원들한테 나쁜 소리를 들었지. 원래 그런 데 신경 쓰는 편은 아니었지만, 주위에 점점 그런 슬픈 목소리들이 많아지기 시작하더라고. 강자와 약자, 승리와 패배... 그때부터 난 의문을 품기 시작했어. 여기까지 올 수 있었던 건 단지 운이 좋았기 때문일까, 하고 말이야... 그런 나한테 미아 선수는 자기의 삶을 통해 답을 보여준 거야. 승리란, 전력을 다하는 거라고",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_sys_about_miya.play_favor_word_lupa_sys_about_miya"
+    },
+    {
+      "Type": 1,
+      "Title": "생일 축하",
+      "Content": "생일 축하해, 파트너! 하하하, 놀랐지? 오늘 같은 날을 잊을 리가 없잖아? 진작에 레오니다스 호텔에 파티 준비를 해 놨어. 네가 언제 일곱 언덕에 돌아오든, 나는 항상 여기서 널 기다릴 거야. 자, 창밖을 봐봐! 파트너를 위한 불꽃이야. 일곱 언덕은 자주 경기를 치르니까 이렇게 축제 분위기를 만드는 것도 익숙하거든. 그럼 이 보리 주스로 오늘 밤을 열어 볼까! 뭐, 안 된다고? ...알았어. 그럼... 눈을 감고, 소원부터 빌자",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_sys_birthcele.play_favor_word_lupa_sys_birthcele"
+    },
+    {
+      "Type": 1,
+      "Title": "대기 · Ⅰ",
+      "Content": "어? 왔구나!",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_idle_idle01.play_favor_word_lupa_idle_idle01"
+    },
+    {
+      "Type": 1,
+      "Title": "대기 · Ⅱ",
+      "Content": "저번 검투대회 말인데, 초반엔 내가 불리했지만... 상대가 눈치를 못 채더라고. 결국 점점 밀리다가... 맞아, 바로 여기서부터 흔들리기 시작했어. 그리고... 한방에 아웃됐지!",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_idle_idle02.play_favor_word_lupa_idle_idle02"
+    },
+    {
+      "Type": 1,
+      "Title": "대기 · Ⅲ",
+      "Content": "(호흡)",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_idle_idle03.play_favor_word_lupa_idle_idle03"
+    },
+    {
+      "Type": 1,
+      "Title": "자기 소개",
+      "Content": "루파, 일곱 언덕의 검투사야. 남의 시선 따위 신경 쓸 필요 없어, 파트너—— 나랑 함께 승리의 맛을 만끽하자!",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_sys_introduction.play_favor_word_lupa_sys_introduction"
+    },
+    {
+      "Type": 1,
+      "Title": "시작의 연주",
+      "Content": "허, 새로운 대회가 시작됐나?",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_sys_gacha.play_favor_word_lupa_sys_gacha"
+    },
+    {
+      "Type": 1,
+      "Title": "파티 가입 · Ⅰ",
+      "Content": "나 불렀어, 파트너?",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_sys_jointeam_01.play_favor_word_lupa_sys_jointeam_01"
+    },
+    {
+      "Type": 1,
+      "Title": "파티 가입 · Ⅱ",
+      "Content": "사냥감을 쫓아 볼까!",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_sys_jointeam_02.play_favor_word_lupa_sys_jointeam_02"
+    },
+    {
+      "Type": 1,
+      "Title": "파티 가입 · Ⅲ",
+      "Content": "네가 있는 전장으로 달려갈게",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_sys_jointeam_03.play_favor_word_lupa_sys_jointeam_03"
+    },
+    {
+      "Type": 1,
+      "Title": "돌파 · Ⅰ",
+      "Content": "우리... 점점 호흡이 착착 맞는데?",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_sys_rankup01.play_favor_word_lupa_sys_rankup01"
+    },
+    {
+      "Type": 1,
+      "Title": "돌파 · Ⅱ",
+      "Content": "대단해! 이번 특훈은 녹화해 놨어. 나중에 천천히 보면서 공부할 거야",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_sys_rankup02.play_favor_word_lupa_sys_rankup02"
+    },
+    {
+      "Type": 1,
+      "Title": "돌파 · Ⅲ",
+      "Content": "흥분한 티가 그렇게 많이 났나? 그치만 이건 사실이야. 지금의 나는 파트너와 계속 승부를 겨루고 싶어...",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_sys_rankup03.play_favor_word_lupa_sys_rankup03"
+    },
+    {
+      "Type": 1,
+      "Title": "돌파 · IV",
+      "Content": "부족해... 아직 부족하다고... 한 판 더 하자, 파트너! 너랑 더 붙고 싶단 말이야!",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_sys_rankup04.play_favor_word_lupa_sys_rankup04"
+    },
+    {
+      "Type": 1,
+      "Title": "돌파 · V",
+      "Content": "쉴 새 없이 여러 전장을 누비면서 지쳐본 적, 있어? 난 더 강해지고 싶고, 앞으로 나아가고 싶어. 그리고... 네가 등을 맡길 수 있는 존재가 되고 싶어. 너의 가장 믿음직한... 파트너가 될 때까지",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_sys_rankup05.play_favor_word_lupa_sys_rankup05"
+    },
+    {
+      "Type": 2,
+      "Title": "강공격 · Ⅰ",
+      "Content": "피의 사투!",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_atk_heavyatk01_sp_01.play_favor_word_lupa_atk_heavyatk01_sp_01"
+    },
+    {
+      "Type": 2,
+      "Title": "강공격 · Ⅱ",
+      "Content": "승부다!",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_atk_heavyatk01_sp_02.play_favor_word_lupa_atk_heavyatk01_sp_02"
+    },
+    {
+      "Type": 2,
+      "Title": "강공격 · Ⅲ",
+      "Content": "결투다!",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_atk_heavyatk01_sp_03.play_favor_word_lupa_atk_heavyatk01_sp_03"
+    },
+    {
+      "Type": 2,
+      "Title": "공명 스킬 · Ⅰ",
+      "Content": "물어주마!",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_skill_skill01_01.play_favor_word_lupa_skill_skill01_01"
+    },
+    {
+      "Type": 2,
+      "Title": "공명 스킬 · Ⅱ",
+      "Content": "일단 너부터",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_skill_skill01_02.play_favor_word_lupa_skill_skill01_02"
+    },
+    {
+      "Type": 2,
+      "Title": "공명 스킬 · Ⅲ",
+      "Content": "겁먹지 마",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_skill_skill01_03.play_favor_word_lupa_skill_skill01_03"
+    },
+    {
+      "Type": 2,
+      "Title": "공명 스킬 · IV",
+      "Content": "지루하네",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_skill_skill02_01.play_favor_word_lupa_skill_skill02_01"
+    },
+    {
+      "Type": 2,
+      "Title": "공명 스킬 · V",
+      "Content": "떨고 있어?",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_skill_skill02_02.play_favor_word_lupa_skill_skill02_02"
+    },
+    {
+      "Type": 2,
+      "Title": "공명 스킬 · VI",
+      "Content": "이게 끝이야?",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_skill_skill02_03.play_favor_word_lupa_skill_skill02_03"
+    },
+    {
+      "Type": 2,
+      "Title": "공명 스킬 · VII",
+      "Content": "어둠을 부순다",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_skill_skill01_pro_01.play_favor_word_lupa_skill_skill01_pro_01"
+    },
+    {
+      "Type": 2,
+      "Title": "공명 스킬 · VIII",
+      "Content": "적을 부순다",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_skill_skill01_pro_02.play_favor_word_lupa_skill_skill01_pro_02"
+    },
+    {
+      "Type": 2,
+      "Title": "공명 스킬 · IX",
+      "Content": "추방한다",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_skill_skill01_pro_03.play_favor_word_lupa_skill_skill01_pro_03"
+    },
+    {
+      "Type": 2,
+      "Title": "공명 스킬 · Ⅹ",
+      "Content": "불꽃이여, 여기 모여라",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_skill_skill02_pro_01.play_favor_word_lupa_skill_skill02_pro_01"
+    },
+    {
+      "Type": 2,
+      "Title": "공명 스킬 · Ⅺ",
+      "Content": "영광이여, 이 몸을 덮어라",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_skill_skill02_pro_02.play_favor_word_lupa_skill_skill02_pro_02"
+    },
+    {
+      "Type": 2,
+      "Title": "공명 스킬 · Ⅻ",
+      "Content": "희망이여, 포효와 함께하라",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_skill_skill02_pro_03.play_favor_word_lupa_skill_skill02_pro_03"
+    },
+    {
+      "Type": 2,
+      "Title": "공명 스킬 · XIII",
+      "Content": "호흡 좋은데!",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_skill_skill01_sp_01.play_favor_word_lupa_skill_skill01_sp_01"
+    },
+    {
+      "Type": 2,
+      "Title": "공명 스킬 · XIV",
+      "Content": "타이밍 좋았지?",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_skill_skill01_sp_02.play_favor_word_lupa_skill_skill01_sp_02"
+    },
+    {
+      "Type": 2,
+      "Title": "공명 스킬 · XV",
+      "Content": "같이 가자!",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_skill_skill01_sp_03.play_favor_word_lupa_skill_skill01_sp_03"
+    },
+    {
+      "Type": 2,
+      "Title": "공명 해방 · Ⅰ",
+      "Content": "개선가를, 이 창으로!",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_burst_burst01_01.play_favor_word_lupa_burst_burst01_01"
+    },
+    {
+      "Type": 2,
+      "Title": "공명 해방 · Ⅱ",
+      "Content": "사투는... 지금부터야!",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_burst_burst01_02.play_favor_word_lupa_burst_burst01_02"
+    },
+    {
+      "Type": 2,
+      "Title": "공명 해방 · Ⅲ",
+      "Content": "승리를... 나와 함께!",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_burst_burst01_03.play_favor_word_lupa_burst_burst01_03"
+    },
+    {
+      "Type": 2,
+      "Title": "변주 스킬 · Ⅰ",
+      "Content": "갈채하라!",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_skill_qte_01.play_favor_word_lupa_skill_qte_01"
+    },
+    {
+      "Type": 2,
+      "Title": "변주 스킬 · Ⅱ",
+      "Content": "환호하라!",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_skill_qte_02.play_favor_word_lupa_skill_qte_02"
+    },
+    {
+      "Type": 2,
+      "Title": "피격 · Ⅰ",
+      "Content": "한 번 더!",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_com_behitfly_01.play_favor_word_lupa_com_behitfly_01"
+    },
+    {
+      "Type": 2,
+      "Title": "피격 · Ⅱ",
+      "Content": "재미없긴...",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_com_behitfly_02.play_favor_word_lupa_com_behitfly_02"
+    },
+    {
+      "Type": 2,
+      "Title": "중상 · Ⅰ",
+      "Content": "하, 제법 하는데?",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_com_hpdown01.play_favor_word_lupa_com_hpdown01"
+    },
+    {
+      "Type": 2,
+      "Title": "중상 · Ⅱ",
+      "Content": "이제부터 후반전이야!",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_com_hpdown02.play_favor_word_lupa_com_hpdown02"
+    },
+    {
+      "Type": 2,
+      "Title": "중상 · Ⅲ",
+      "Content": "젠장...!",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_com_hpdown03.play_favor_word_lupa_com_hpdown03"
+    },
+    {
+      "Type": 2,
+      "Title": "전투불가 · Ⅰ",
+      "Content": "전사는 고결하게 죽음을 맞이해야...",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_com_die_01.play_favor_word_lupa_com_die_01"
+    },
+    {
+      "Type": 2,
+      "Title": "전투불가 · Ⅱ",
+      "Content": "블러드 바이버넘의 향기가...",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_com_die_02.play_favor_word_lupa_com_die_02"
+    },
+    {
+      "Type": 2,
+      "Title": "전투불가 · Ⅲ",
+      "Content": "나도... 영광의 골짜기로 갈 수 있을까...?",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_com_die_03.play_favor_word_lupa_com_die_03"
+    },
+    {
+      "Type": 2,
+      "Title": "에코 어빌리티 · 소환",
+      "Content": "따라와!",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_skill_hxsummon.play_favor_word_lupa_skill_hxsummon"
+    },
+    {
+      "Type": 2,
+      "Title": "에코 어빌리티 · 변신",
+      "Content": "새 작전이야!",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_skill_hxchange.play_favor_word_lupa_skill_hxchange"
+    },
+    {
+      "Type": 2,
+      "Title": "전투 알림",
+      "Content": "들려? 사냥감이 숨을 죽이고 있어",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_com_engage.play_favor_word_lupa_com_engage"
+    },
+    {
+      "Type": 2,
+      "Title": "글라이딩 날개",
+      "Content": "황야의 바람!",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_com_fly_01.play_favor_word_lupa_com_fly_01"
+    },
+    {
+      "Type": 2,
+      "Title": "스캔",
+      "Content": "저쪽에 숨었나?",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_com_scan.play_favor_word_lupa_com_scan"
+    },
+    {
+      "Type": 2,
+      "Title": "보급 획득 · Ⅰ",
+      "Content": "사냥 성공!",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_com_openbox_01.play_favor_word_lupa_com_openbox_01"
+    },
+    {
+      "Type": 2,
+      "Title": "보급 획득 · Ⅱ",
+      "Content": "하, 괜찮은데?",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_com_openbox_02.play_favor_word_lupa_com_openbox_02"
+    },
+    {
+      "Type": 2,
+      "Title": "보급 획득 · Ⅲ",
+      "Content": "자, 네가 먼저 골라~",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_lupa_com_openbox_03.play_favor_word_lupa_com_openbox_03"
+    }
+  ],
+  "Goods": [
+    {
+      "Title": "오래된 휘장",
+      "Content": "부모에 대한 루파의 기억이 진작에 희미해졌고, 그들과의 연락도 관계 단절로 인해 끊어졌다. \n고향 마을에서 종종 카피톨리누스 언덕 도시에 대해 나누던 그들의 이야기만 기억날 뿐이다... 그들은 실바 가문의 방계였고, 오래전 경기 패배로 부득이하게 그 아름다운 도시를 떠나야 했다. 그들은 늘 고민에 잠겨 지금의 처지를 한탄하며 살았고, 생계를 위해 뛰어다녔으며 자주 다투고 서로를 탓하곤 했다.\n하지만 루파가 첫 승리를 따냈을 때는 축하의 기념으로 대장장이에게 주문 제작한 작은 휘장을 선물하였다",
+      "Icon": "/Game/Aki/UI/UIResources/UiRole/Image/Treasure/T_Treasure103_UI.T_Treasure103_UI"
+    },
+    {
+      "Title": "바이버넘 꽃다발",
+      "Content": "경기장에서 받은 수많은 선물 중 하나였다.\n블러드 바이버넘, 검투사에게 바치는 꽃으로 승리와 영광을 상징한다. 루파는 올림도스 콜로세움에서의 첫 등장부터 맹렬한 공격과 직감적인 반응으로 긴 박수를 이끌어냈다. 경기장 주변에 모인 사람들이 갈수록 많아졌고 함성은 귀를 멍하게 만들었으며 빛은 그녀의 눈을 찌를 듯했다.\n루파가 수많은 꽃을 안고 휴게실로 향할 때서야, 환호와 축하 소리 속에서 자신의 큰 웃음소리를 들을 수 있었다",
+      "Icon": "/Game/Aki/UI/UIResources/UiRole/Image/Treasure/T_Treasure105_UI.T_Treasure105_UI"
+    },
+    {
+      "Title": "미니 파닥 장식품",
+      "Content": "일곱 언덕에서는 조각 예술이 성행하였는데 사람들은 그리핀과 영웅, 전설을 형상화했을 뿐만 아니라... 귀여운 <te href=850082>에코</te> 조각상도 만들었다.\n루파는 파닥을 아주 좋아했다. 활발한 성격, 동글동글한 체형에 부드러운 배 때문에 보기만 해도 기분이 좋아졌다.\n그래서 파트너에게 한 쌍의 파닥 장식품을 선물했다.\n두 마리의 파닥이 귀를 휘저으며 경기장으로 향하려는 모습이, 루파와 {PlayerName}이(가) 함께한 찬란한 여정을 떠올리게 한다",
+      "Icon": "/Game/Aki/UI/UIResources/UiRole/Image/Treasure/T_Treasure104_UI.T_Treasure104_UI"
+    }
+  ],
+  "SpecialCook": {
+    "Id": 80001061,
+    "Name": "「심장의 선택」",
+    "Desc": "파티 내 모든 공명자의 공명 효율을 34% 증가시키고, 30분간 지속된다. 멀티플레이 시 자신의 캐릭터에 대해서만 유효하다",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconCook/T_IconCook_078_UI.T_IconCook_078_UI",
+    "Rarity": 4
+  },
+  "Stats": {
+    "0": {
+      "1": {
+        "Life": 953.0,
+        "Atk": 31.0,
+        "Def": 97.0
+      },
+      "2": {
+        "Life": 1033.2426,
+        "Atk": 33.6102,
+        "Def": 104.9831
+      },
+      "3": {
+        "Life": 1113.5805,
+        "Atk": 36.2235,
+        "Def": 112.9759
+      },
+      "4": {
+        "Life": 1193.9184,
+        "Atk": 38.8368,
+        "Def": 120.9687
+      },
+      "5": {
+        "Life": 1274.161,
+        "Atk": 41.447,
+        "Def": 128.9615
+      },
+      "6": {
+        "Life": 1354.4989,
+        "Atk": 44.0603,
+        "Def": 136.9543
+      },
+      "7": {
+        "Life": 1434.8368,
+        "Atk": 46.6736,
+        "Def": 144.9471
+      },
+      "8": {
+        "Life": 1515.0794,
+        "Atk": 49.2838,
+        "Def": 152.9399
+      },
+      "9": {
+        "Life": 1595.4173,
+        "Atk": 51.8971,
+        "Def": 160.9327
+      },
+      "10": {
+        "Life": 1675.7552,
+        "Atk": 54.5104,
+        "Def": 168.9255
+      },
+      "11": {
+        "Life": 1755.9978,
+        "Atk": 57.1206,
+        "Def": 176.9183
+      },
+      "12": {
+        "Life": 1836.3357,
+        "Atk": 59.7339,
+        "Def": 184.9111
+      },
+      "13": {
+        "Life": 1916.6736,
+        "Atk": 62.3472,
+        "Def": 192.9039
+      },
+      "14": {
+        "Life": 1997.0115,
+        "Atk": 64.9605,
+        "Def": 200.8967
+      },
+      "15": {
+        "Life": 2077.2541,
+        "Atk": 67.5707,
+        "Def": 208.8895
+      },
+      "16": {
+        "Life": 2157.592,
+        "Atk": 70.184,
+        "Def": 216.8823
+      },
+      "17": {
+        "Life": 2237.9299,
+        "Atk": 72.7973,
+        "Def": 224.8751
+      },
+      "18": {
+        "Life": 2318.1725,
+        "Atk": 75.4075,
+        "Def": 232.8679
+      },
+      "19": {
+        "Life": 2398.5104,
+        "Atk": 78.0208,
+        "Def": 240.8607
+      },
+      "20": {
+        "Life": 2478.8483,
+        "Atk": 80.6341,
+        "Def": 248.8535
+      }
+    },
+    "1": {
+      "20": {
+        "Life": 3114.1181,
+        "Atk": 103.8841,
+        "Def": 311.7192
+      },
+      "21": {
+        "Life": 3194.456,
+        "Atk": 106.4943,
+        "Def": 319.712
+      },
+      "22": {
+        "Life": 3274.7939,
+        "Atk": 109.1076,
+        "Def": 327.7048
+      },
+      "23": {
+        "Life": 3355.0365,
+        "Atk": 111.7209,
+        "Def": 335.6976
+      },
+      "24": {
+        "Life": 3435.3744,
+        "Atk": 114.3342,
+        "Def": 343.6904
+      },
+      "25": {
+        "Life": 3515.7123,
+        "Atk": 116.9444,
+        "Def": 351.6832
+      },
+      "26": {
+        "Life": 3596.0502,
+        "Atk": 119.5577,
+        "Def": 359.676
+      },
+      "27": {
+        "Life": 3676.2928,
+        "Atk": 122.171,
+        "Def": 367.6688
+      },
+      "28": {
+        "Life": 3756.6307,
+        "Atk": 124.7812,
+        "Def": 375.6616
+      },
+      "29": {
+        "Life": 3836.9686,
+        "Atk": 127.3945,
+        "Def": 383.6544
+      },
+      "30": {
+        "Life": 3917.2112,
+        "Atk": 130.0078,
+        "Def": 391.6472
+      },
+      "31": {
+        "Life": 3997.5491,
+        "Atk": 132.618,
+        "Def": 399.64
+      },
+      "32": {
+        "Life": 4077.887,
+        "Atk": 135.2313,
+        "Def": 407.6328
+      },
+      "33": {
+        "Life": 4158.1296,
+        "Atk": 137.8446,
+        "Def": 415.6256
+      },
+      "34": {
+        "Life": 4238.4675,
+        "Atk": 140.4548,
+        "Def": 423.6184
+      },
+      "35": {
+        "Life": 4318.8054,
+        "Atk": 143.0681,
+        "Def": 431.6112
+      },
+      "36": {
+        "Life": 4399.1433,
+        "Atk": 145.6814,
+        "Def": 439.604
+      },
+      "37": {
+        "Life": 4479.3859,
+        "Atk": 148.2947,
+        "Def": 447.5968
+      },
+      "38": {
+        "Life": 4559.7238,
+        "Atk": 150.9049,
+        "Def": 455.5896
+      },
+      "39": {
+        "Life": 4640.0617,
+        "Atk": 153.5182,
+        "Def": 463.5824
+      },
+      "40": {
+        "Life": 4720.3043,
+        "Atk": 156.1315,
+        "Def": 471.5752
+      }
+    },
+    "2": {
+      "40": {
+        "Life": 5355.6694,
+        "Atk": 179.3815,
+        "Def": 534.4409
+      },
+      "41": {
+        "Life": 5436.0073,
+        "Atk": 181.9917,
+        "Def": 542.4337
+      },
+      "42": {
+        "Life": 5516.2499,
+        "Atk": 184.605,
+        "Def": 550.4265
+      },
+      "43": {
+        "Life": 5596.5878,
+        "Atk": 187.2183,
+        "Def": 558.4193
+      },
+      "44": {
+        "Life": 5676.9257,
+        "Atk": 189.8285,
+        "Def": 566.4121
+      },
+      "45": {
+        "Life": 5757.1683,
+        "Atk": 192.4418,
+        "Def": 574.4049
+      },
+      "46": {
+        "Life": 5837.5062,
+        "Atk": 195.0551,
+        "Def": 582.3977
+      },
+      "47": {
+        "Life": 5917.8441,
+        "Atk": 197.6684,
+        "Def": 590.3905
+      },
+      "48": {
+        "Life": 5998.182,
+        "Atk": 200.2786,
+        "Def": 598.3833
+      },
+      "49": {
+        "Life": 6078.4246,
+        "Atk": 202.8919,
+        "Def": 606.3761
+      },
+      "50": {
+        "Life": 6158.7625,
+        "Atk": 205.5052,
+        "Def": 614.3689
+      }
+    },
+    "3": {
+      "50": {
+        "Life": 6794.1276,
+        "Atk": 228.7552,
+        "Def": 677.2346
+      },
+      "51": {
+        "Life": 6874.3702,
+        "Atk": 231.3654,
+        "Def": 685.2274
+      },
+      "52": {
+        "Life": 6954.7081,
+        "Atk": 233.9787,
+        "Def": 693.2202
+      },
+      "53": {
+        "Life": 7035.046,
+        "Atk": 236.592,
+        "Def": 701.213
+      },
+      "54": {
+        "Life": 7115.2886,
+        "Atk": 239.2022,
+        "Def": 709.2058
+      },
+      "55": {
+        "Life": 7195.6265,
+        "Atk": 241.8155,
+        "Def": 717.1986
+      },
+      "56": {
+        "Life": 7275.9644,
+        "Atk": 244.4288,
+        "Def": 725.1914
+      },
+      "57": {
+        "Life": 7356.3023,
+        "Atk": 247.0421,
+        "Def": 733.1842
+      },
+      "58": {
+        "Life": 7436.5449,
+        "Atk": 249.6523,
+        "Def": 741.177
+      },
+      "59": {
+        "Life": 7516.8828,
+        "Atk": 252.2656,
+        "Def": 749.1698
+      },
+      "60": {
+        "Life": 7597.2207,
+        "Atk": 254.8789,
+        "Def": 757.1626
+      }
+    },
+    "4": {
+      "60": {
+        "Life": 8232.4905,
+        "Atk": 278.1289,
+        "Def": 820.038
+      },
+      "61": {
+        "Life": 8312.8284,
+        "Atk": 280.7391,
+        "Def": 828.0308
+      },
+      "62": {
+        "Life": 8393.1663,
+        "Atk": 283.3524,
+        "Def": 836.0236
+      },
+      "63": {
+        "Life": 8473.4089,
+        "Atk": 285.9657,
+        "Def": 844.0164
+      },
+      "64": {
+        "Life": 8553.7468,
+        "Atk": 288.5759,
+        "Def": 852.0092
+      },
+      "65": {
+        "Life": 8634.0847,
+        "Atk": 291.1892,
+        "Def": 860.002
+      },
+      "66": {
+        "Life": 8714.3273,
+        "Atk": 293.8025,
+        "Def": 867.9851
+      },
+      "67": {
+        "Life": 8794.6652,
+        "Atk": 296.4127,
+        "Def": 875.9779
+      },
+      "68": {
+        "Life": 8875.0031,
+        "Atk": 299.026,
+        "Def": 883.9707
+      },
+      "69": {
+        "Life": 8955.341,
+        "Atk": 301.6393,
+        "Def": 891.9635
+      },
+      "70": {
+        "Life": 9035.5836,
+        "Atk": 304.2526,
+        "Def": 899.9563
+      }
+    },
+    "5": {
+      "70": {
+        "Life": 9670.9487,
+        "Atk": 319.7526,
+        "Def": 962.8317
+      },
+      "71": {
+        "Life": 9751.2866,
+        "Atk": 322.3628,
+        "Def": 970.8245
+      },
+      "72": {
+        "Life": 9831.5292,
+        "Atk": 324.9761,
+        "Def": 978.8173
+      },
+      "73": {
+        "Life": 9911.8671,
+        "Atk": 327.5894,
+        "Def": 986.8101
+      },
+      "74": {
+        "Life": 9992.205,
+        "Atk": 330.1996,
+        "Def": 994.8029
+      },
+      "75": {
+        "Life": 10072.4476,
+        "Atk": 332.8129,
+        "Def": 1002.7957
+      },
+      "76": {
+        "Life": 10152.7855,
+        "Atk": 335.4262,
+        "Def": 1010.7885
+      },
+      "77": {
+        "Life": 10233.1234,
+        "Atk": 338.0364,
+        "Def": 1018.7813
+      },
+      "78": {
+        "Life": 10313.366,
+        "Atk": 340.6497,
+        "Def": 1026.7741
+      },
+      "79": {
+        "Life": 10393.7039,
+        "Atk": 343.263,
+        "Def": 1034.7669
+      },
+      "80": {
+        "Life": 10474.0418,
+        "Atk": 345.8763,
+        "Def": 1042.7597
+      }
+    },
+    "6": {
+      "80": {
+        "Life": 11109.4069,
+        "Atk": 361.3763,
+        "Def": 1105.6254
+      },
+      "81": {
+        "Life": 11189.6495,
+        "Atk": 363.9865,
+        "Def": 1113.6182
+      },
+      "82": {
+        "Life": 11269.9874,
+        "Atk": 366.5998,
+        "Def": 1121.611
+      },
+      "83": {
+        "Life": 11350.3253,
+        "Atk": 369.2131,
+        "Def": 1129.6038
+      },
+      "84": {
+        "Life": 11430.5679,
+        "Atk": 371.8233,
+        "Def": 1137.5966
+      },
+      "85": {
+        "Life": 11510.9058,
+        "Atk": 374.4366,
+        "Def": 1145.5894
+      },
+      "86": {
+        "Life": 11591.2437,
+        "Atk": 377.0499,
+        "Def": 1153.5822
+      },
+      "87": {
+        "Life": 11671.4863,
+        "Atk": 379.6601,
+        "Def": 1161.575
+      },
+      "88": {
+        "Life": 11751.8242,
+        "Atk": 382.2734,
+        "Def": 1169.5678
+      },
+      "89": {
+        "Life": 11832.1621,
+        "Atk": 384.8867,
+        "Def": 1177.5606
+      },
+      "90": {
+        "Life": 11912.5,
+        "Atk": 387.5,
+        "Def": 1185.5534
+      }
+    }
+  },
+  "LevelEXP": [
+    0,
+    400,
+    400,
+    500,
+    600,
+    700,
+    900,
+    1000,
+    1200,
+    1300,
+    1500,
+    1700,
+    2000,
+    2200,
+    2400,
+    2700,
+    3000,
+    3300,
+    3600,
+    3900,
+    4300,
+    4600,
+    5000,
+    5400,
+    5800,
+    6300,
+    6700,
+    7200,
+    7700,
+    8200,
+    8700,
+    9300,
+    9800,
+    10400,
+    11000,
+    11700,
+    12300,
+    13000,
+    13700,
+    14400,
+    15100,
+    15900,
+    16700,
+    17500,
+    18300,
+    19200,
+    20000,
+    20900,
+    21900,
+    22800,
+    23800,
+    24800,
+    25800,
+    26900,
+    28000,
+    29100,
+    30300,
+    31400,
+    32600,
+    33900,
+    35100,
+    36400,
+    37700,
+    39100,
+    40500,
+    41900,
+    43300,
+    44800,
+    46300,
+    47900,
+    49500,
+    51100,
+    52800,
+    54500,
+    56200,
+    58000,
+    59800,
+    61600,
+    63500,
+    65400,
+    67400,
+    69400,
+    71400,
+    73500,
+    75600,
+    77800,
+    80000,
+    82300,
+    84600,
+    86900,
+    105600,
+    107400,
+    110000,
+    113600,
+    118600,
+    125500,
+    134900,
+    147300,
+    163600,
+    184500
+  ],
+  "SkillTrees": {
+    "1": {
+      "ParentNodes": [],
+      "NodeType": 2,
+      "Coordinate": 1,
+      "UnLockCondition": 0,
+      "Consume": [
+        {
+          "Key": 43020032,
+          "Value": 2
+        },
+        {
+          "Key": 41100022,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 3900
+        }
+      ],
+      "Skill": {
+        "Name": "불타는 별",
+        "Desc": "<size=40><color=Title>일반 공격</color></size>\n최대 4단 연속 공격을 가하여 <color=Fire>용융 피해</color>를 입힌다.\n· 일반 공격 3단 후, 적절한 타이밍에 일반 공격을 짧게 누르면 <color=Highlight>공중 공격 1단</color>을 발동할 수 있다.\n· <color=Highlight>회피 반격</color>, <color=Highlight>별의 소멸</color>, 공명 스킬 <color=Highlight>포위 사냥</color> 혹은 공명 스킬 <color=Highlight>흉악한 포식</color> 발동 후 일정 시간 내에 <color=Highlight>일반 공격</color>을 짧게 누르면 <color=Highlight>일반 공격 2단</color>을 발동할 수 있다.\n\n<size=40><color=Title>강공격</color></size>\n스태미나를 소모하여 목표를 공격하고, <color=Fire>용융 피해</color>를 입힌다.\n\n<size=40><color=Title>강공격 · 늑대의 송곳니</color></size>\n루파의 「<te href=850174>늑대의 불</te>」이 {0}pt 도달 시 발동한 <color=Highlight>강공격</color>은 <color=Highlight>늑대의 송곳니</color>로 대체되며, 스태미나를 소모하여 목표를 공격하고 <color=Fire>용융 피해</color>를 입힌다.\n· 「<te href=850174>늑대의 불</te>」을 회복할 수 없으며, 발동 시 {1}pt의 「<te href=850174>늑대의 불</te>」을 소모하고, {2}pt의 「<te href=850175>늑대의 혼</te>」을 획득한다.\n\n<size=40><color=Title>강공격 · 예리한 발톱</color></size>\n루파의 「<te href=850174>늑대의 불</te>」이 {3}pt에 도달하고 {4}pt의 「<te href=850175>늑대의 혼</te>」을 보유할 경우, 발동한 <color=Highlight>강공격</color>은 <color=Highlight>예리한 발톱</color>으로 대체되며, 스태미나를 소모하여 목표를 공격하고 <color=Fire>용융 피해</color>를 입힌다.\n· <color=Highlight>공중 공격 · 불의 습격</color>, <color=Highlight>강공격 · 늑대의 송곳니</color> 발동 후 루파의 「<te href=850174>늑대의 불</te>」이 {5}pt에 도달하고 {6}pt의 「<te href=850175>늑대의 혼</te>」을 보유할 경우, 일정 시간 내에 <color=Highlight>일반 공격</color>을 짧게 누르면 <color=Highlight>강공격 · 예리한 발톱</color>을 발동할 수 있다.\n· 「<te href=850174>늑대의 불</te>」을 회복할 수 없으며, 발동 시 {7}pt의 「<te href=850174>늑대의 불</te>」을 소모하고, {8}pt의 「<te href=850175>늑대의 혼</te>」을 획득한다.\n\n<size=40><color=Title>공중 공격</color></size>\n스태미나를 소모하여 최대 3단 공중 공격을 가하고, <color=Fire>용융 피해</color>를 입힌다. <color=Highlight>공중 공격</color>의 연속 공격 단수는 리셋되지 않는다.\n\n<size=40><color=Title>공중 공격 · 불의 습격</color></size>\n루파의 「<te href=850174>늑대의 불</te>」이 {9}pt 도달 시 발동한 <color=Highlight>공중 공격 3단</color>은 <color=Highlight>공중 공격 · 불의 습격</color>으로 대체되며, 스태미나를 소모하여 목표를 공격하고 <color=Fire>용융 피해</color>를 입힌다. 해당 피해는 강공격 피해로 적용된다.\n· 「<te href=850174>늑대의 불</te>」을 회복할 수 없으며, 발동 시 {10}pt의 「<te href=850174>늑대의 불</te>」을 소모하고, {11}pt의 「<te href=850175>늑대의 혼</te>」을 획득한다.\n\n<size=40><color=Title>공중 낙하 공격</color></size>\n공중에서 일반 공격을 길게 누르면 스태미나를 소모하여 공중 낙하 공격을 가하고 <color=Fire>용융 피해</color>를 입힌다. <color=Highlight>공중 낙하 공격</color> 발동 후 일정 시간 내에 일반 공격을 짧게 누르면 <color=Highlight>별의 소멸</color>을 발동할 수 있다.\n· <color=Highlight>공중 공격 3단</color> 혹은 <color=Highlight>공중 공격 · 불의 습격</color> 발동 기간에 <color=Highlight>회피</color>를 발동하면 일정 시간 내에 <color=Highlight>일반 공격</color>을 짧게 눌러 스태미나를 소모하여 <color=Highlight>공중 낙하 공격</color>을 발동할 수 있다.\n\n<size=40><color=Title>일반 공격 · 별의 소멸</color></size>\n목표를 공격하여 <color=Fire>용융 피해</color>를 입힌다.\n\n<size=40><color=Title>회피 반격</color></size>\n회피 성공 후 일정 시간 내에 일반 공격을 짧게 누르면, 목표를 공격하여 <color=Fire>용융 피해</color>를 입힌다",
+        "Param": [
+          "50",
+          "50",
+          "1",
+          "50",
+          "1",
+          "50",
+          "1",
+          "50",
+          "1",
+          "50",
+          "50",
+          "1"
+        ],
+        "SimpleDesc": "<size=40><color=Title>일반 공격</color></size>\n<color=Fire>용융 피해</color>를 입힌다.\n<size=10></size>\n<size=40><color=Title>강공격</color></size>\n<color=Fire>용융 피해</color>를 입힌다.\n<size=10></size>\n<size=40><color=Title>강화된 강공격</color></size>\n<color=Highlight>「늑대의 불」</color>이 일정량에 도달 시, <color=Highlight>강화된 강공격</color>을 발동하여 <color=Fire>용융 피해</color>를 입힌다.\n<size=10></size>\n<size=40><color=Title>공중 공격</color></size>\n<color=Fire>용융 피해</color>를 입힌다.\n<size=10></size>\n<size=40><color=Title>강화된 공중 공격</color></size>\n<color=Highlight>「늑대의 불」</color>이 일정량에 도달 시, <color=Highlight>강화된 공중 공격</color>을 발동하여 <color=Fire>용융 피해</color>를 입히며, 해당 피해는 <color=Highlight>강공격 피해</color>로 적용된다.\n<size=10></size>\n<size=40><color=Title>파생 일반 공격</color></size>\n<color=Fire>용융 피해</color>를 입힌다.\n<size=10></size>\n<size=40><color=Title>회피 반격</color></size>\n<color=Fire>용융 피해</color>를 입힌다",
+        "SimpleParam": [],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorSword.SP_IconNorSword",
+        "Type": "기본 공격",
+        "Level": {
+          "1": {
+            "Name": "1단 피해",
+            "Param": [
+              [
+                "11.33%+11.33%+22.66%",
+                "12.26%+12.26%+24.52%",
+                "13.19%+13.19%+26.37%",
+                "14.49%+14.49%+28.97%",
+                "15.42%+15.42%+30.83%",
+                "16.49%+16.49%+32.97%",
+                "17.97%+17.97%+35.94%",
+                "19.46%+19.46%+38.91%",
+                "20.94%+20.94%+41.88%",
+                "22.52%+22.52%+45.04%",
+                "24.38%+24.38%+48.76%",
+                "26.24%+26.24%+52.47%",
+                "28.10%+28.10%+56.19%",
+                "29.95%+29.95%+59.90%",
+                "31.81%+31.81%+63.62%",
+                "33.67%+33.67%+67.33%",
+                "35.53%+35.53%+71.05%",
+                "37.38%+37.38%+74.76%",
+                "39.24%+39.24%+78.48%",
+                "41.10%+41.10%+82.19%"
+              ]
+            ],
+            "Format": null
+          },
+          "2": {
+            "Name": "2단 피해",
+            "Param": [
+              [
+                "45.31%",
+                "49.03%",
+                "52.74%",
+                "57.94%",
+                "61.66%",
+                "65.93%",
+                "71.87%",
+                "77.82%",
+                "83.76%",
+                "90.08%",
+                "97.51%",
+                "104.94%",
+                "112.37%",
+                "119.80%",
+                "127.23%",
+                "134.66%",
+                "142.09%",
+                "149.52%",
+                "156.95%",
+                "164.38%"
+              ]
+            ],
+            "Format": null
+          },
+          "3": {
+            "Name": "3단 피해",
+            "Param": [
+              [
+                "39.66%+6.61%*6",
+                "42.91%+7.16%*6",
+                "46.16%+7.70%*6",
+                "50.71%+8.46%*6",
+                "53.96%+9.00%*6",
+                "57.70%+9.62%*6",
+                "62.91%+10.49%*6",
+                "68.11%+11.36%*6",
+                "73.31%+12.22%*6",
+                "78.84%+13.14%*6",
+                "85.34%+14.23%*6",
+                "91.84%+15.31%*6",
+                "98.35%+16.40%*6",
+                "104.85%+17.48%*6",
+                "111.35%+18.56%*6",
+                "117.86%+19.65%*6",
+                "124.36%+20.73%*6",
+                "130.86%+21.81%*6",
+                "137.37%+22.90%*6",
+                "143.87%+23.98%*6"
+              ]
+            ],
+            "Format": null
+          },
+          "4": {
+            "Name": "4단 피해",
+            "Param": [
+              [
+                "37.16%+37.16%+24.77%*2",
+                "40.21%+40.21%+26.81%*2",
+                "43.25%+43.25%+28.84%*2",
+                "47.52%+47.52%+31.68%*2",
+                "50.56%+50.56%+33.71%*2",
+                "54.07%+54.07%+36.05%*2",
+                "58.94%+58.94%+39.30%*2",
+                "63.82%+63.82%+42.55%*2",
+                "68.69%+68.69%+45.80%*2",
+                "73.87%+73.87%+49.25%*2",
+                "79.96%+79.96%+53.31%*2",
+                "86.06%+86.06%+57.37%*2",
+                "92.15%+92.15%+61.43%*2",
+                "98.24%+98.24%+65.50%*2",
+                "104.34%+104.34%+69.56%*2",
+                "110.43%+110.43%+73.62%*2",
+                "116.52%+116.52%+77.68%*2",
+                "122.62%+122.62%+81.75%*2",
+                "128.71%+128.71%+85.81%*2",
+                "134.80%+134.80%+89.87%*2"
+              ]
+            ],
+            "Format": null
+          },
+          "5": {
+            "Name": "강공격 피해",
+            "Param": [
+              [
+                "28.35%+28.35%",
+                "30.68%+30.68%",
+                "33.00%+33.00%",
+                "36.26%+36.26%",
+                "38.58%+38.58%",
+                "41.25%+41.25%",
+                "44.97%+44.97%",
+                "48.69%+48.69%",
+                "52.41%+52.41%",
+                "56.36%+56.36%",
+                "61.01%+61.01%",
+                "65.66%+65.66%",
+                "70.31%+70.31%",
+                "74.96%+74.96%",
+                "79.61%+79.61%",
+                "84.26%+84.26%",
+                "88.91%+88.91%",
+                "93.55%+93.55%",
+                "98.20%+98.20%",
+                "102.85%+102.85%"
+              ]
+            ],
+            "Format": null
+          },
+          "6": {
+            "Name": "강공격 · 늑대의 송곳니 피해",
+            "Param": [
+              [
+                "28.22%+28.22%",
+                "30.54%+30.54%",
+                "32.85%+32.85%",
+                "36.09%+36.09%",
+                "38.41%+38.41%",
+                "41.07%+41.07%",
+                "44.77%+44.77%",
+                "48.47%+48.47%",
+                "52.18%+52.18%",
+                "56.11%+56.11%",
+                "60.74%+60.74%",
+                "65.37%+65.37%",
+                "69.99%+69.99%",
+                "74.62%+74.62%",
+                "79.25%+79.25%",
+                "83.88%+83.88%",
+                "88.51%+88.51%",
+                "93.13%+93.13%",
+                "97.76%+97.76%",
+                "102.39%+102.39%"
+              ]
+            ],
+            "Format": null
+          },
+          "7": {
+            "Name": "강공격 · 예리한 발톱 피해",
+            "Param": [
+              [
+                "36.29%+9.08%*4+48.39%",
+                "39.27%+9.82%*4+52.35%",
+                "42.24%+10.56%*4+56.32%",
+                "46.41%+11.61%*4+61.88%",
+                "49.38%+12.35%*4+65.84%",
+                "52.81%+13.21%*4+70.41%",
+                "57.57%+14.40%*4+76.75%",
+                "62.33%+15.59%*4+83.10%",
+                "67.09%+16.78%*4+89.45%",
+                "72.15%+18.04%*4+96.19%",
+                "78.10%+19.53%*4+104.13%",
+                "84.05%+21.02%*4+112.06%",
+                "90.00%+22.50%*4+120.00%",
+                "95.95%+23.99%*4+127.93%",
+                "101.90%+25.48%*4+135.87%",
+                "107.85%+26.97%*4+143.80%",
+                "113.80%+28.45%*4+151.74%",
+                "119.75%+29.94%*4+159.67%",
+                "125.71%+31.43%*4+167.61%",
+                "131.66%+32.92%*4+175.54%"
+              ]
+            ],
+            "Format": null
+          },
+          "8": {
+            "Name": "공중 공격 1단 피해",
+            "Param": [
+              [
+                "38.59%",
+                "41.76%",
+                "44.92%",
+                "49.35%",
+                "52.52%",
+                "56.16%",
+                "61.22%",
+                "66.28%",
+                "71.35%",
+                "76.73%",
+                "83.05%",
+                "89.38%",
+                "95.71%",
+                "102.04%",
+                "108.37%",
+                "114.70%",
+                "121.03%",
+                "127.36%",
+                "133.68%",
+                "140.01%"
+              ]
+            ],
+            "Format": null
+          },
+          "9": {
+            "Name": "공중 공격 2단 피해",
+            "Param": [
+              [
+                "38.85%+9.72%*4",
+                "42.04%+10.51%*4",
+                "45.22%+11.31%*4",
+                "49.68%+12.42%*4",
+                "52.87%+13.22%*4",
+                "56.53%+14.14%*4",
+                "61.62%+15.41%*4",
+                "66.72%+16.68%*4",
+                "71.82%+17.96%*4",
+                "77.23%+19.31%*4",
+                "83.60%+20.90%*4",
+                "89.97%+22.50%*4",
+                "96.34%+24.09%*4",
+                "102.72%+25.68%*4",
+                "109.09%+27.28%*4",
+                "115.46%+28.87%*4",
+                "121.83%+30.46%*4",
+                "128.20%+32.05%*4",
+                "134.57%+33.65%*4",
+                "140.94%+35.24%*4"
+              ]
+            ],
+            "Format": null
+          },
+          "10": {
+            "Name": "공중 공격 3단 피해",
+            "Param": [
+              [
+                "14.33%+14.33%",
+                "15.50%+15.50%",
+                "16.68%+16.68%",
+                "18.32%+18.32%",
+                "19.50%+19.50%",
+                "20.85%+20.85%",
+                "22.72%+22.72%",
+                "24.60%+24.60%",
+                "26.48%+26.48%",
+                "28.48%+28.48%",
+                "30.83%+30.83%",
+                "33.18%+33.18%",
+                "35.53%+35.53%",
+                "37.88%+37.88%",
+                "40.22%+40.22%",
+                "42.57%+42.57%",
+                "44.92%+44.92%",
+                "47.27%+47.27%",
+                "49.62%+49.62%",
+                "51.97%+51.97%"
+              ]
+            ],
+            "Format": null
+          },
+          "11": {
+            "Name": "공중 공격 · 불의 습격 피해",
+            "Param": [
+              [
+                "14.33%+14.33%",
+                "15.50%+15.50%",
+                "16.68%+16.68%",
+                "18.32%+18.32%",
+                "19.50%+19.50%",
+                "20.85%+20.85%",
+                "22.72%+22.72%",
+                "24.60%+24.60%",
+                "26.48%+26.48%",
+                "28.48%+28.48%",
+                "30.83%+30.83%",
+                "33.18%+33.18%",
+                "35.53%+35.53%",
+                "37.88%+37.88%",
+                "40.22%+40.22%",
+                "42.57%+42.57%",
+                "44.92%+44.92%",
+                "47.27%+47.27%",
+                "49.62%+49.62%",
+                "51.97%+51.97%"
+              ]
+            ],
+            "Format": null
+          },
+          "12": {
+            "Name": "공중 낙하 공격 피해",
+            "Param": [
+              [
+                "13.18%+26.35%+13.18%",
+                "14.26%+28.52%+14.26%",
+                "15.34%+30.68%+15.34%",
+                "16.85%+33.70%+16.85%",
+                "17.93%+35.86%+17.93%",
+                "19.18%+38.35%+19.18%",
+                "20.90%+41.80%+20.90%",
+                "22.63%+45.26%+22.63%",
+                "24.36%+48.72%+24.36%",
+                "26.20%+52.39%+26.20%",
+                "28.36%+56.71%+28.36%",
+                "30.52%+61.03%+30.52%",
+                "32.68%+65.36%+32.68%",
+                "34.84%+69.68%+34.84%",
+                "37.00%+74.00%+37.00%",
+                "39.16%+78.32%+39.16%",
+                "41.32%+82.64%+41.32%",
+                "43.48%+86.96%+43.48%",
+                "45.64%+91.28%+45.64%",
+                "47.81%+95.61%+47.81%"
+              ]
+            ],
+            "Format": null
+          },
+          "13": {
+            "Name": "일반 공격 · 별의 소멸 피해",
+            "Param": [
+              [
+                "6.37%*4+59.39%",
+                "6.89%*4+64.26%",
+                "7.41%*4+69.12%",
+                "8.14%*4+75.94%",
+                "8.66%*4+80.81%",
+                "9.26%*4+86.41%",
+                "10.10%*4+94.20%",
+                "10.93%*4+101.99%",
+                "11.77%*4+109.78%",
+                "12.65%*4+118.06%",
+                "13.70%*4+127.80%",
+                "14.74%*4+137.54%",
+                "15.78%*4+147.28%",
+                "16.83%*4+157.01%",
+                "17.87%*4+166.75%",
+                "18.91%*4+176.49%",
+                "19.96%*4+186.23%",
+                "21.00%*4+195.97%",
+                "22.04%*4+205.71%",
+                "23.09%*4+215.45%"
+              ]
+            ],
+            "Format": null
+          },
+          "14": {
+            "Name": "회피 반격 피해",
+            "Param": [
+              [
+                "17.20%*4+68.77%",
+                "18.61%*4+74.41%",
+                "20.02%*4+80.05%",
+                "21.99%*4+87.94%",
+                "23.40%*4+93.58%",
+                "25.02%*4+100.06%",
+                "27.28%*4+109.09%",
+                "29.53%*4+118.11%",
+                "31.79%*4+127.13%",
+                "34.18%*4+136.72%",
+                "37.00%*4+147.99%",
+                "39.82%*4+159.27%",
+                "42.64%*4+170.55%",
+                "45.46%*4+181.83%",
+                "48.28%*4+193.10%",
+                "51.10%*4+204.38%",
+                "53.92%*4+215.66%",
+                "56.74%*4+226.94%",
+                "59.56%*4+238.21%",
+                "62.38%*4+249.49%"
+              ]
+            ],
+            "Format": null
+          },
+          "15": {
+            "Name": "강공격 스태미나 소모",
+            "Param": [
+              [
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25"
+              ]
+            ],
+            "Format": null
+          },
+          "16": {
+            "Name": "강공격 · 늑대의 송곳니 스태미나 소모",
+            "Param": [
+              [
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25"
+              ]
+            ],
+            "Format": null
+          },
+          "17": {
+            "Name": "강공격 · 예리한 발톱 스태미나 소모",
+            "Param": [
+              [
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25"
+              ]
+            ],
+            "Format": null
+          },
+          "18": {
+            "Name": "공중 공격 스태미나 소모",
+            "Param": [
+              [
+                "5",
+                "5",
+                "5",
+                "5",
+                "5",
+                "5",
+                "5",
+                "5",
+                "5",
+                "5",
+                "5",
+                "5",
+                "5",
+                "5",
+                "5",
+                "5",
+                "5",
+                "5",
+                "5",
+                "5"
+              ]
+            ],
+            "Format": null
+          },
+          "19": {
+            "Name": "공중 낙하 공격 스태미나 소모",
+            "Param": [
+              [
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30"
+              ]
+            ],
+            "Format": null
+          },
+          "20": {
+            "Name": "공중 공격 · 불의 습격 스태미나 소모",
+            "Param": [
+              [
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30"
+              ]
+            ],
+            "Format": null
+          }
+        },
+        "Consume": {
+          "1": [],
+          "2": [
+            {
+              "Key": 43020041,
+              "Value": 2
+            },
+            {
+              "Key": 41100021,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 1500
+            }
+          ],
+          "3": [
+            {
+              "Key": 43020041,
+              "Value": 3
+            },
+            {
+              "Key": 41100021,
+              "Value": 3
+            },
+            {
+              "Key": 2,
+              "Value": 2000
+            }
+          ],
+          "4": [
+            {
+              "Key": 43020042,
+              "Value": 2
+            },
+            {
+              "Key": 41100022,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 4500
+            }
+          ],
+          "5": [
+            {
+              "Key": 43020042,
+              "Value": 3
+            },
+            {
+              "Key": 41100022,
+              "Value": 3
+            },
+            {
+              "Key": 2,
+              "Value": 6000
+            }
+          ],
+          "6": [
+            {
+              "Key": 43020043,
+              "Value": 3
+            },
+            {
+              "Key": 41100023,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 16000
+            }
+          ],
+          "7": [
+            {
+              "Key": 43020043,
+              "Value": 5
+            },
+            {
+              "Key": 41100023,
+              "Value": 3
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 30000
+            }
+          ],
+          "8": [
+            {
+              "Key": 43020044,
+              "Value": 2
+            },
+            {
+              "Key": 41100024,
+              "Value": 2
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 50000
+            }
+          ],
+          "9": [
+            {
+              "Key": 43020044,
+              "Value": 3
+            },
+            {
+              "Key": 41100024,
+              "Value": 3
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 70000
+            }
+          ],
+          "10": [
+            {
+              "Key": 43020044,
+              "Value": 6
+            },
+            {
+              "Key": 41100024,
+              "Value": 4
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 100000
+            }
+          ]
+        },
+        "Damage": {
+          "120710101": {
+            "Element": 2,
+            "RelatedProperty": "공격력",
+            "Type": 0,
+            "RateLv": [
+              1133,
+              1226,
+              1319,
+              1449,
+              1542,
+              1649,
+              1797,
+              1946,
+              2094,
+              2252,
+              2438,
+              2624,
+              2810,
+              2995,
+              3181,
+              3367,
+              3553,
+              3738,
+              3924,
+              4110
+            ],
+            "Energy": 34,
+            "ElementPower": 67,
+            "HardnessLv": 10000,
+            "ToughLv": 1599
+          },
+          "120710102": {
+            "Element": 2,
+            "RelatedProperty": "공격력",
+            "Type": 0,
+            "RateLv": [
+              1133,
+              1226,
+              1319,
+              1449,
+              1542,
+              1649,
+              1797,
+              1946,
+              2094,
+              2252,
+              2438,
+              2624,
+              2810,
+              2995,
+              3181,
+              3367,
+              3553,
+              3738,
+              3924,
+              4110
+            ],
+            "Energy": 34,
+            "ElementPower": 67,
+            "HardnessLv": 10000,
+            "ToughLv": 1599
+          },
+          "120710103": {
+            "Element": 2,
+            "RelatedProperty": "공격력",
+            "Type": 0,
+            "RateLv": [
+              2266,
+              2452,
+              2637,
+              2897,
+              3083,
+              3297,
+              3594,
+              3891,
+              4188,
+              4504,
+              4876,
+              5247,
+              5619,
+              5990,
+              6362,
+              6733,
+              7105,
+              7476,
+              7848,
+              8219
+            ],
+            "Energy": 67,
+            "ElementPower": 134,
+            "HardnessLv": 10000,
+            "ToughLv": 3198
+          },
+          "120710201": {
+            "Element": 2,
+            "RelatedProperty": "공격력",
+            "Type": 0,
+            "RateLv": [
+              4531,
+              4903,
+              5274,
+              5794,
+              6166,
+              6593,
+              7187,
+              7782,
+              8376,
+              9008,
+              9751,
+              10494,
+              11237,
+              11980,
+              12723,
+              13466,
+              14209,
+              14952,
+              15695,
+              16438
+            ],
+            "Energy": 134,
+            "ElementPower": 267,
+            "HardnessLv": 10000,
+            "ToughLv": 6396
+          },
+          "120710301": {
+            "Element": 2,
+            "RelatedProperty": "공격력",
+            "Type": 0,
+            "RateLv": [
+              3966,
+              4291,
+              4616,
+              5071,
+              5396,
+              5770,
+              6291,
+              6811,
+              7331,
+              7884,
+              8534,
+              9184,
+              9835,
+              10485,
+              11135,
+              11786,
+              12436,
+              13086,
+              13737,
+              14387
+            ],
+            "Energy": 117,
+            "ElementPower": 234,
+            "HardnessLv": 10000,
+            "ToughLv": 5598
+          },
+          "120710302": {
+            "Element": 2,
+            "RelatedProperty": "공격력",
+            "Type": 0,
+            "RateLv": [
+              661,
+              716,
+              770,
+              846,
+              900,
+              962,
+              1049,
+              1136,
+              1222,
+              1314,
+              1423,
+              1531,
+              1640,
+              1748,
+              1856,
+              1965,
+              2073,
+              2181,
+              2290,
+              2398
+            ],
+            "Energy": 20,
+            "ElementPower": 39,
+            "HardnessLv": 10000,
+            "ToughLv": 933
+          },
+          "120710401": {
+            "Element": 2,
+            "RelatedProperty": "공격력",
+            "Type": 0,
+            "RateLv": [
+              3716,
+              4021,
+              4325,
+              4752,
+              5056,
+              5407,
+              5894,
+              6382,
+              6869,
+              7387,
+              7996,
+              8606,
+              9215,
+              9824,
+              10434,
+              11043,
+              11652,
+              12262,
+              12871,
+              13480
+            ],
+            "Energy": 110,
+            "ElementPower": 219,
+            "HardnessLv": 10000,
+            "ToughLv": 5246
+          },
+          "120710402": {
+            "Element": 2,
+            "RelatedProperty": "공격력",
+            "Type": 0,
+            "RateLv": [
+              3716,
+              4021,
+              4325,
+              4752,
+              5056,
+              5407,
+              5894,
+              6382,
+              6869,
+              7387,
+              7996,
+              8606,
+              9215,
+              9824,
+              10434,
+              11043,
+              11652,
+              12262,
+              12871,
+              13480
+            ],
+            "Energy": 110,
+            "ElementPower": 219,
+            "HardnessLv": 10000,
+            "ToughLv": 5246
+          },
+          "120710403": {
+            "Element": 2,
+            "RelatedProperty": "공격력",
+            "Type": 0,
+            "RateLv": [
+              2477,
+              2681,
+              2884,
+              3168,
+              3371,
+              3605,
+              3930,
+              4255,
+              4580,
+              4925,
+              5331,
+              5737,
+              6143,
+              6550,
+              6956,
+              7362,
+              7768,
+              8175,
+              8581,
+              8987
+            ],
+            "Energy": 73,
+            "ElementPower": 146,
+            "HardnessLv": 10000,
+            "ToughLv": 3497
+          },
+          "120720103": {
+            "Element": 2,
+            "RelatedProperty": "공격력",
+            "Type": 0,
+            "RateLv": [
+              1318,
+              1426,
+              1534,
+              1685,
+              1793,
+              1918,
+              2090,
+              2263,
+              2436,
+              2620,
+              2836,
+              3052,
+              3268,
+              3484,
+              3700,
+              3916,
+              4132,
+              4348,
+              4564,
+              4781
+            ],
+            "Energy": 39,
+            "ElementPower": 78,
+            "HardnessLv": 10000,
+            "ToughLv": 1860
+          },
+          "120720101": {
+            "Element": 2,
+            "RelatedProperty": "공격력",
+            "Type": 0,
+            "RateLv": [
+              2635,
+              2852,
+              3068,
+              3370,
+              3586,
+              3835,
+              4180,
+              4526,
+              4872,
+              5239,
+              5671,
+              6103,
+              6536,
+              6968,
+              7400,
+              7832,
+              8264,
+              8696,
+              9128,
+              9561
+            ],
+            "Energy": 78,
+            "ElementPower": 155,
+            "HardnessLv": 10000,
+            "ToughLv": 3720
+          },
+          "120720102": {
+            "Element": 2,
+            "RelatedProperty": "공격력",
+            "Type": 0,
+            "RateLv": [
+              1318,
+              1426,
+              1534,
+              1685,
+              1793,
+              1918,
+              2090,
+              2263,
+              2436,
+              2620,
+              2836,
+              3052,
+              3268,
+              3484,
+              3700,
+              3916,
+              4132,
+              4348,
+              4564,
+              4781
+            ],
+            "Energy": 39,
+            "ElementPower": 78,
+            "HardnessLv": 10000,
+            "ToughLv": 1860
+          },
+          "120730101": {
+            "Element": 2,
+            "RelatedProperty": "공격력",
+            "Type": 0,
+            "RateLv": [
+              1720,
+              1861,
+              2002,
+              2199,
+              2340,
+              2502,
+              2728,
+              2953,
+              3179,
+              3418,
+              3700,
+              3982,
+              4264,
+              4546,
+              4828,
+              5110,
+              5392,
+              5674,
+              5956,
+              6238
+            ],
+            "Energy": 51,
+            "ElementPower": 102,
+            "HardnessLv": 10000,
+            "ToughLv": 1875
+          },
+          "120730102": {
+            "Element": 2,
+            "RelatedProperty": "공격력",
+            "Type": 0,
+            "RateLv": [
+              6877,
+              7441,
+              8005,
+              8794,
+              9358,
+              10006,
+              10909,
+              11811,
+              12713,
+              13672,
+              14799,
+              15927,
+              17055,
+              18183,
+              19310,
+              20438,
+              21566,
+              22694,
+              23821,
+              24949
+            ],
+            "Energy": 203,
+            "ElementPower": 405,
+            "HardnessLv": 10000,
+            "ToughLv": 7500
+          },
+          "120740101": {
+            "Element": 2,
+            "RelatedProperty": "공격력",
+            "Type": 0,
+            "RateLv": [
+              3859,
+              4176,
+              4492,
+              4935,
+              5252,
+              5616,
+              6122,
+              6628,
+              7135,
+              7673,
+              8305,
+              8938,
+              9571,
+              10204,
+              10837,
+              11470,
+              12103,
+              12736,
+              13368,
+              14001
+            ],
+            "Energy": 114,
+            "ElementPower": 227,
+            "HardnessLv": 10000,
+            "ToughLv": 5448
+          },
+          "120740201": {
+            "Element": 2,
+            "RelatedProperty": "공격력",
+            "Type": 0,
+            "RateLv": [
+              3885,
+              4204,
+              4522,
+              4968,
+              5287,
+              5653,
+              6162,
+              6672,
+              7182,
+              7723,
+              8360,
+              8997,
+              9634,
+              10272,
+              10909,
+              11546,
+              12183,
+              12820,
+              13457,
+              14094
+            ],
+            "Energy": 115,
+            "ElementPower": 229,
+            "HardnessLv": 10000,
+            "ToughLv": 5484
+          },
+          "120740202": {
+            "Element": 2,
+            "RelatedProperty": "공격력",
+            "Type": 0,
+            "RateLv": [
+              972,
+              1051,
+              1131,
+              1242,
+              1322,
+              1414,
+              1541,
+              1668,
+              1796,
+              1931,
+              2090,
+              2250,
+              2409,
+              2568,
+              2728,
+              2887,
+              3046,
+              3205,
+              3365,
+              3524
+            ],
+            "Energy": 29,
+            "ElementPower": 58,
+            "HardnessLv": 10000,
+            "ToughLv": 1371
+          },
+          "120740301": {
+            "Element": 2,
+            "RelatedProperty": "공격력",
+            "Type": 0,
+            "RateLv": [
+              1433,
+              1550,
+              1668,
+              1832,
+              1950,
+              2085,
+              2272,
+              2460,
+              2648,
+              2848,
+              3083,
+              3318,
+              3553,
+              3788,
+              4022,
+              4257,
+              4492,
+              4727,
+              4962,
+              5197
+            ],
+            "Energy": 43,
+            "ElementPower": 85,
+            "HardnessLv": 10000,
+            "ToughLv": 2022
+          },
+          "120740302": {
+            "Element": 2,
+            "RelatedProperty": "공격력",
+            "Type": 0,
+            "RateLv": [
+              1433,
+              1550,
+              1668,
+              1832,
+              1950,
+              2085,
+              2272,
+              2460,
+              2648,
+              2848,
+              3083,
+              3318,
+              3553,
+              3788,
+              4022,
+              4257,
+              4492,
+              4727,
+              4962,
+              5197
+            ],
+            "Energy": 43,
+            "ElementPower": 85,
+            "HardnessLv": 10000,
+            "ToughLv": 2022
+          },
+          "120740401": {
+            "Element": 2,
+            "RelatedProperty": "공격력",
+            "Type": 1,
+            "RateLv": [
+              1433,
+              1550,
+              1668,
+              1832,
+              1950,
+              2085,
+              2272,
+              2460,
+              2648,
+              2848,
+              3083,
+              3318,
+              3553,
+              3788,
+              4022,
+              4257,
+              4492,
+              4727,
+              4962,
+              5197
+            ],
+            "Energy": 43,
+            "ElementPower": 500,
+            "HardnessLv": 10000,
+            "ToughLv": 2022
+          },
+          "120740402": {
+            "Element": 2,
+            "RelatedProperty": "공격력",
+            "Type": 1,
+            "RateLv": [
+              1433,
+              1550,
+              1668,
+              1832,
+              1950,
+              2085,
+              2272,
+              2460,
+              2648,
+              2848,
+              3083,
+              3318,
+              3553,
+              3788,
+              4022,
+              4257,
+              4492,
+              4727,
+              4962,
+              5197
+            ],
+            "Energy": 43,
+            "ElementPower": 500,
+            "HardnessLv": 10000,
+            "ToughLv": 2022
+          },
+          "120750101": {
+            "Element": 2,
+            "RelatedProperty": "공격력",
+            "Type": 1,
+            "RateLv": [
+              2835,
+              3068,
+              3300,
+              3626,
+              3858,
+              4125,
+              4497,
+              4869,
+              5241,
+              5636,
+              6101,
+              6566,
+              7031,
+              7496,
+              7961,
+              8426,
+              8891,
+              9355,
+              9820,
+              10285
+            ],
+            "Energy": 84,
+            "ElementPower": 167,
+            "HardnessLv": 10000,
+            "ToughLv": 4002
+          },
+          "120750102": {
+            "Element": 2,
+            "RelatedProperty": "공격력",
+            "Type": 1,
+            "RateLv": [
+              2835,
+              3068,
+              3300,
+              3626,
+              3858,
+              4125,
+              4497,
+              4869,
+              5241,
+              5636,
+              6101,
+              6566,
+              7031,
+              7496,
+              7961,
+              8426,
+              8891,
+              9355,
+              9820,
+              10285
+            ],
+            "Energy": 84,
+            "ElementPower": 167,
+            "HardnessLv": 10000,
+            "ToughLv": 4002
+          },
+          "120751101": {
+            "Element": 2,
+            "RelatedProperty": "공격력",
+            "Type": 1,
+            "RateLv": [
+              2822,
+              3054,
+              3285,
+              3609,
+              3841,
+              4107,
+              4477,
+              4847,
+              5218,
+              5611,
+              6074,
+              6537,
+              6999,
+              7462,
+              7925,
+              8388,
+              8851,
+              9313,
+              9776,
+              10239
+            ],
+            "Energy": 83,
+            "ElementPower": 500,
+            "HardnessLv": 10000,
+            "ToughLv": 3984
+          },
+          "120751102": {
+            "Element": 2,
+            "RelatedProperty": "공격력",
+            "Type": 1,
+            "RateLv": [
+              2822,
+              3054,
+              3285,
+              3609,
+              3841,
+              4107,
+              4477,
+              4847,
+              5218,
+              5611,
+              6074,
+              6537,
+              6999,
+              7462,
+              7925,
+              8388,
+              8851,
+              9313,
+              9776,
+              10239
+            ],
+            "Energy": 83,
+            "ElementPower": 500,
+            "HardnessLv": 10000,
+            "ToughLv": 3984
+          },
+          "120751201": {
+            "Element": 2,
+            "RelatedProperty": "공격력",
+            "Type": 1,
+            "RateLv": [
+              3629,
+              3927,
+              4224,
+              4641,
+              4938,
+              5281,
+              5757,
+              6233,
+              6709,
+              7215,
+              7810,
+              8405,
+              9000,
+              9595,
+              10190,
+              10785,
+              11380,
+              11975,
+              12571,
+              13166
+            ],
+            "Energy": 107,
+            "ElementPower": 300,
+            "HardnessLv": 10000,
+            "ToughLv": 5825
+          },
+          "120751202": {
+            "Element": 2,
+            "RelatedProperty": "공격력",
+            "Type": 1,
+            "RateLv": [
+              908,
+              982,
+              1056,
+              1161,
+              1235,
+              1321,
+              1440,
+              1559,
+              1678,
+              1804,
+              1953,
+              2102,
+              2250,
+              2399,
+              2548,
+              2697,
+              2845,
+              2994,
+              3143,
+              3292
+            ],
+            "Energy": 27,
+            "ElementPower": 75,
+            "HardnessLv": 10000,
+            "ToughLv": 1457
+          },
+          "120751203": {
+            "Element": 2,
+            "RelatedProperty": "공격력",
+            "Type": 1,
+            "RateLv": [
+              4839,
+              5235,
+              5632,
+              6188,
+              6584,
+              7041,
+              7675,
+              8310,
+              8945,
+              9619,
+              10413,
+              11206,
+              12000,
+              12793,
+              13587,
+              14380,
+              15174,
+              15967,
+              16761,
+              17554
+            ],
+            "Energy": 143,
+            "ElementPower": 400,
+            "HardnessLv": 10000,
+            "ToughLv": 7767
+          },
+          "120721101": {
+            "Element": 2,
+            "RelatedProperty": "공격력",
+            "Type": 0,
+            "RateLv": [
+              637,
+              689,
+              741,
+              814,
+              866,
+              926,
+              1010,
+              1093,
+              1177,
+              1265,
+              1370,
+              1474,
+              1578,
+              1683,
+              1787,
+              1891,
+              1996,
+              2100,
+              2204,
+              2309
+            ],
+            "Energy": 19,
+            "ElementPower": 38,
+            "HardnessLv": 10000,
+            "ToughLv": 558
+          },
+          "120721102": {
+            "Element": 2,
+            "RelatedProperty": "공격력",
+            "Type": 0,
+            "RateLv": [
+              5939,
+              6426,
+              6912,
+              7594,
+              8081,
+              8641,
+              9420,
+              10199,
+              10978,
+              11806,
+              12780,
+              13754,
+              14728,
+              15701,
+              16675,
+              17649,
+              18623,
+              19597,
+              20571,
+              21545
+            ],
+            "Energy": 175,
+            "ElementPower": 350,
+            "HardnessLv": 10000,
+            "ToughLv": 5208
+          },
+          "120780201": {
+            "Element": 2,
+            "RelatedProperty": "공격력",
+            "Type": 0,
+            "RateLv": [
+              637,
+              689,
+              741,
+              814,
+              866,
+              926,
+              1010,
+              1093,
+              1177,
+              1265,
+              1370,
+              1474,
+              1578,
+              1683,
+              1787,
+              1891,
+              1996,
+              2100,
+              2204,
+              2309
+            ],
+            "Energy": 19,
+            "ElementPower": 38,
+            "HardnessLv": 10000,
+            "ToughLv": 558
+          },
+          "120780202": {
+            "Element": 2,
+            "RelatedProperty": "공격력",
+            "Type": 0,
+            "RateLv": [
+              5939,
+              6426,
+              6912,
+              7594,
+              8081,
+              8641,
+              9420,
+              10199,
+              10978,
+              11806,
+              12780,
+              13754,
+              14728,
+              15701,
+              16675,
+              17649,
+              18623,
+              19597,
+              20571,
+              21545
+            ],
+            "Energy": 175,
+            "ElementPower": 350,
+            "HardnessLv": 10000,
+            "ToughLv": 5208
+          }
+        }
+      }
+    },
+    "2": {
+      "ParentNodes": [],
+      "NodeType": 2,
+      "Coordinate": 2,
+      "UnLockCondition": 0,
+      "Consume": [
+        {
+          "Key": 43020032,
+          "Value": 2
+        },
+        {
+          "Key": 41100022,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 3900
+        }
+      ],
+      "Skill": {
+        "Name": "포위 사냥",
+        "Desc": "루파가 목표를 향해 화염의 깃발을 던진다. 발동 기간에 {0}pt의 「<te href=850174>늑대의 불</te>」을 회복하고, <color=Fire>용융 피해</color>를 입힌다. 동시에 목표에게 <color=Highlight>표식</color>을 추가하고 {1}초간 지속된다. 공명 스킬 <color=Highlight>포위 사냥</color> 발동 후 일정 시간 내에 <color=Highlight>흉악한 포식</color>을 발동할 수 있다.\n낮은 공중에서 발동 가능하다.\n· 공명 스킬을 길게 누르면 루파가 공중으로 뛰어오르며, 일정 시간 내에 <color=Highlight>일반 공격</color>을 짧게 누르면 <color=Highlight>공중 공격 1단</color>을 발동한다.\n\n<size=40><color=Title>공명 스킬 · 흉악한 포식</color></size>\n루파가 목표를 추격한다. 발동 기간에 {2}pt의 「<te href=850174>늑대의 불</te>」을 회복하고, <color=Fire>용융 피해</color>를 입히며, <color=Highlight>표식</color>이 있는 목표에 대한 피해 배율이 {3} 상승된다. 일정 시간 내에 공명 스킬 · 흉악한 포식을 발동하지 않거나 다른 캐릭터로 전환하면 해당 스킬은 쿨타임 상태에 진입한다.\n낮은 공중에서 발동 가능하다",
+        "Param": [
+          "15",
+          "8",
+          "15",
+          "50%"
+        ],
+        "SimpleDesc": "<size=40><color=Title>공명 스킬</color></size>\n<color=Fire>용융 피해</color>를 입히고 목표에게 <color=Highlight>표식</color>을 추가한다.\n일정 시간 내에 <color=Highlight>파생 공명 스킬</color>을 발동할 수 있다.\n<size=10></size>\n<size=40><color=Title>파생 공명 스킬</color></size>\n<color=Fire>용융 피해</color>를 입히고, <color=Highlight>표식</color>이 있는 목표에게 추가 피해를 입힌다",
+        "SimpleParam": [],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconLupa/SP_IconLupaB1.SP_IconLupaB1",
+        "Type": "공명 스킬",
+        "Level": {
+          "1": {
+            "Name": "스킬 피해",
+            "Param": [
+              [
+                "70.81%",
+                "76.62%",
+                "82.42%",
+                "90.55%",
+                "96.36%",
+                "103.03%",
+                "112.32%",
+                "121.61%",
+                "130.90%",
+                "140.77%",
+                "152.38%",
+                "164.00%",
+                "175.61%",
+                "187.22%",
+                "198.83%",
+                "210.44%",
+                "222.06%",
+                "233.67%",
+                "245.28%",
+                "256.89%"
+              ]
+            ],
+            "Format": null
+          },
+          "2": {
+            "Name": "흉악한 포식 피해",
+            "Param": [
+              [
+                "157.74%",
+                "170.68%",
+                "183.61%",
+                "201.72%",
+                "214.66%",
+                "229.53%",
+                "250.23%",
+                "270.92%",
+                "291.62%",
+                "313.61%",
+                "339.48%",
+                "365.35%",
+                "391.22%",
+                "417.09%",
+                "442.95%",
+                "468.82%",
+                "494.69%",
+                "520.56%",
+                "546.43%",
+                "572.30%"
+              ]
+            ],
+            "Format": null
+          },
+          "3": {
+            "Name": "쿨타임",
+            "Param": [
+              [
+                "12",
+                "12",
+                "12",
+                "12",
+                "12",
+                "12",
+                "12",
+                "12",
+                "12",
+                "12",
+                "12",
+                "12",
+                "12",
+                "12",
+                "12",
+                "12",
+                "12",
+                "12",
+                "12",
+                "12"
+              ]
+            ],
+            "Format": "{0}초"
+          }
+        },
+        "Consume": {
+          "1": [],
+          "2": [
+            {
+              "Key": 43020041,
+              "Value": 2
+            },
+            {
+              "Key": 41100021,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 1500
+            }
+          ],
+          "3": [
+            {
+              "Key": 43020041,
+              "Value": 3
+            },
+            {
+              "Key": 41100021,
+              "Value": 3
+            },
+            {
+              "Key": 2,
+              "Value": 2000
+            }
+          ],
+          "4": [
+            {
+              "Key": 43020042,
+              "Value": 2
+            },
+            {
+              "Key": 41100022,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 4500
+            }
+          ],
+          "5": [
+            {
+              "Key": 43020042,
+              "Value": 3
+            },
+            {
+              "Key": 41100022,
+              "Value": 3
+            },
+            {
+              "Key": 2,
+              "Value": 6000
+            }
+          ],
+          "6": [
+            {
+              "Key": 43020043,
+              "Value": 3
+            },
+            {
+              "Key": 41100023,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 16000
+            }
+          ],
+          "7": [
+            {
+              "Key": 43020043,
+              "Value": 5
+            },
+            {
+              "Key": 41100023,
+              "Value": 3
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 30000
+            }
+          ],
+          "8": [
+            {
+              "Key": 43020044,
+              "Value": 2
+            },
+            {
+              "Key": 41100024,
+              "Value": 2
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 50000
+            }
+          ],
+          "9": [
+            {
+              "Key": 43020044,
+              "Value": 3
+            },
+            {
+              "Key": 41100024,
+              "Value": 3
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 70000
+            }
+          ],
+          "10": [
+            {
+              "Key": 43020044,
+              "Value": 6
+            },
+            {
+              "Key": 41100024,
+              "Value": 4
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 100000
+            }
+          ]
+        },
+        "Damage": {
+          "120760102": {
+            "Element": 2,
+            "RelatedProperty": "공격력",
+            "Type": 4,
+            "RateLv": [
+              7081,
+              7662,
+              8242,
+              9055,
+              9636,
+              10303,
+              11232,
+              12161,
+              13090,
+              14077,
+              15238,
+              16400,
+              17561,
+              18722,
+              19883,
+              21044,
+              22206,
+              23367,
+              24528,
+              25689
+            ],
+            "Energy": 209,
+            "ElementPower": 417,
+            "HardnessLv": 10000,
+            "ToughLv": 9996
+          },
+          "120760201": {
+            "Element": 2,
+            "RelatedProperty": "공격력",
+            "Type": 4,
+            "RateLv": [
+              15774,
+              17068,
+              18361,
+              20172,
+              21466,
+              22953,
+              25023,
+              27092,
+              29162,
+              31361,
+              33948,
+              36535,
+              39122,
+              41709,
+              44295,
+              46882,
+              49469,
+              52056,
+              54643,
+              57230
+            ],
+            "Energy": 1367,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 20000
+          },
+          "120760211": {
+            "Element": 2,
+            "RelatedProperty": "공격력",
+            "Type": 4,
+            "RateLv": [
+              23661,
+              25602,
+              27542,
+              30258,
+              32198,
+              34430,
+              37534,
+              40638,
+              43743,
+              47041,
+              50921,
+              54802,
+              58682,
+              62563,
+              66443,
+              70323,
+              74204,
+              78084,
+              81965,
+              85845
+            ],
+            "Energy": 1367,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 20000
+          }
+        }
+      }
+    },
+    "3": {
+      "ParentNodes": [],
+      "NodeType": 2,
+      "Coordinate": 3,
+      "UnLockCondition": 0,
+      "Consume": [
+        {
+          "Key": 43020032,
+          "Value": 2
+        },
+        {
+          "Key": 41100022,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 3900
+        }
+      ],
+      "Skill": {
+        "Name": "영광이 그려내는 불꽃의 단꿈",
+        "Desc": "목표를 공격하여 <color=Fire>용융 피해</color>를 입힌다. 발동 시 모든 「<te href=850175>늑대의 혼</te>」을 소모하고 {0}pt의 「<te href=850174>늑대의 불</te>」을 회복하며, 일정 시간 내에 일반 공격 혹은 공명 스킬을 짧게 누르면 공명 스킬 <color=Highlight>타파</color>를 발동할 수 있다.\n낮은 공중에서 발동 가능하다.\n해당 스킬 발동 시, 루파는 자신과 파티원을 강화하고 {1}초 동안 다음과 같은 효과를 획득한다.\n· 파티 내 모든 캐릭터는 <color=Highlight>추적 사냥</color> 효과를 획득한다.\n· 파티 내 등장 캐릭터가 공격을 받거나 피격 후 공중에 뜬 상태인 경우, 즉시 이 상태에서 자동적으로 벗어나게 되며, 이때 지상에 있을 경우 회피 성공으로 간주된다. 해당 효과는 최대 3회 발생할 수 있다.\n\n<size=40><color=Title>추적 사냥</color></size>\n<color=Highlight>추적 사냥</color>을 보유한 캐릭터의 공격력이 {2} 증가되고, 노도급 혹은 해일급 목표를 공격할 시 용융 피해 보너스가 {3} 증가되며, 중첩이 불가하다. 파티 내에 {7}명의 용융 속성 캐릭터가 존재할 경우, 노도급 혹은 해일급 목표를 공격할 시 용융 피해 보너스 효과가 추가로 {8} 증가된다. 파티 내 등장 캐릭터가 <color=Highlight>변주 스킬</color> 발동 시 추적 사냥 효과가 강화되며, 파티 내 캐릭터의 <color=Highlight>추적 사냥</color>의 공격력 증가 효과를 추가로 {4} 증가시키며, 최대 {5}까지 증가시킬 수 있다.\n루파의 <color=Highlight>추적 사냥</color> 효과가 최대치에 도달한 후, <color=Highlight>추적 사냥</color> 지속 시간 내에 <color=Highlight>죽음의 추격 상태</color>에 진입하게 되고, 변주 스킬 <color=Highlight>넌 도망칠 수 없어!</color>를 발동할 수 있다. 동일한 <color=Highlight>추적 사냥</color>일 경우 <color=Highlight>죽음의 추격 상태</color>에 한 번만 진입할 수 있다.\n\n<size=40><color=Title>공명 스킬 · 타파</color></size>\n모든 「<te href=850174>늑대의 불</te>」을 소모하여 <color=Fire>용융 피해</color>를 입힌다.\n<color=Highlight>타파</color> 발동 시, <color=Highlight>매치 포인트</color> 상태에 진입한다.\n\n<size=40><color=Title>매치 포인트</color></size>\n기본 공격으로 목표 명중 시 「<te href=850174>늑대의 불</te>」 획득 효율이 {6} 증가되고, 공명 스킬 <color=Highlight>포위 사냥</color>, 공명 스킬 <color=Highlight>흉악한 포식</color>을 발동할 수 없다",
+        "Param": [
+          "100",
+          "35",
+          "6%",
+          "10%",
+          "6%",
+          "18%",
+          "500%",
+          "3",
+          "10%"
+        ],
+        "SimpleDesc": "<size=40><color=Title>공명 해방</color></size>\n파티 내 캐릭터가 <color=Highlight>추적 사냥</color>을 획득한다. 모든 <color=Highlight>「늑대의 혼」</color>을 소모하여 <color=Fire>용융 피해</color>를 입힌다.\n일정 시간 내에 일반 공격 혹은 공명 스킬을 짧게 누르면 <color=Highlight>타파</color>를 발동할 수 있다.\n<color=Highlight>공명 해방</color>을 발동한 일정 시간 동안, 파티 내 캐릭터가 <color=Highlight>추적 사냥</color>을 획득하고 공격력 보너스가 증가되며, 파티 내 등장 캐릭터가 공격을 받거나 피격 후 공중에 뜬 상태인 경우, 즉시 이 상태에서 자동적으로 벗어나게 된다. 등장 캐릭터가 변주 스킬 발동 시 <color=Highlight>추적 사냥</color> 효과를 강화하여 공격력 보너스를 추가로 획득하며 최대 2회 강화할 수 있다. <color=Highlight>추적 사냥</color>을 보유한 캐릭터가 노도급 혹은 해일급 목표를 공격할 시 용융 피해가 추가로 증가된다.\n<size=10></size>\n<size=40><color=Title>타파</color></size>\n모든 <color=Highlight>「늑대의 불」</color>을 소모하여 <color=Fire>용융 피해</color>를 입히고, <color=Highlight>강화 상태</color>에 진입한다.\n<size=10></size>\n<size=40><color=Title>강화 상태</color></size>\n<color=Highlight>기본 공격</color>의 <color=Highlight>「늑대의 불」</color> 획득 효율이 증가되고, <color=Highlight>공명 스킬</color>과 <color=Highlight>파생 공명 스킬</color>을 발동할 수 없다",
+        "SimpleParam": [],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconLupa/SP_IconLupaC1.SP_IconLupaC1",
+        "Type": "공명 해방",
+        "Level": {
+          "1": {
+            "Name": "스킬 피해",
+            "Param": [
+              [
+                "412.68%",
+                "446.52%",
+                "480.36%",
+                "527.73%",
+                "561.57%",
+                "600.48%",
+                "654.63%",
+                "708.77%",
+                "762.91%",
+                "820.44%",
+                "888.12%",
+                "955.79%",
+                "1023.47%",
+                "1091.15%",
+                "1158.83%",
+                "1226.51%",
+                "1294.19%",
+                "1361.86%",
+                "1429.54%",
+                "1497.22%"
+              ]
+            ],
+            "Format": null
+          },
+          "2": {
+            "Name": "타파 피해",
+            "Param": [
+              [
+                "153.14%",
+                "165.70%",
+                "178.26%",
+                "195.84%",
+                "208.40%",
+                "222.84%",
+                "242.93%",
+                "263.02%",
+                "283.11%",
+                "304.46%",
+                "329.58%",
+                "354.69%",
+                "379.81%",
+                "404.92%",
+                "430.04%",
+                "455.15%",
+                "480.27%",
+                "505.38%",
+                "530.50%",
+                "555.61%"
+              ]
+            ],
+            "Format": null
+          },
+          "3": {
+            "Name": "매치 포인트 지속 시간",
+            "Param": [
+              [
+                "12",
+                "12",
+                "12",
+                "12",
+                "12",
+                "12",
+                "12",
+                "12",
+                "12",
+                "12",
+                "12",
+                "12",
+                "12",
+                "12",
+                "12",
+                "12",
+                "12",
+                "12",
+                "12",
+                "12"
+              ]
+            ],
+            "Format": "{0}초"
+          },
+          "4": {
+            "Name": "쿨타임",
+            "Param": [
+              [
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20"
+              ]
+            ],
+            "Format": "{0}초"
+          },
+          "5": {
+            "Name": "공명 에너지 소모",
+            "Param": [
+              [
+                "125",
+                "125",
+                "125",
+                "125",
+                "125",
+                "125",
+                "125",
+                "125",
+                "125",
+                "125",
+                "125",
+                "125",
+                "125",
+                "125",
+                "125",
+                "125",
+                "125",
+                "125",
+                "125",
+                "125"
+              ]
+            ],
+            "Format": null
+          },
+          "6": {
+            "Name": "협주 에너지 회복",
+            "Param": [
+              [
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20"
+              ]
+            ],
+            "Format": null
+          }
+        },
+        "Consume": {
+          "1": [],
+          "2": [
+            {
+              "Key": 43020041,
+              "Value": 2
+            },
+            {
+              "Key": 41100021,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 1500
+            }
+          ],
+          "3": [
+            {
+              "Key": 43020041,
+              "Value": 3
+            },
+            {
+              "Key": 41100021,
+              "Value": 3
+            },
+            {
+              "Key": 2,
+              "Value": 2000
+            }
+          ],
+          "4": [
+            {
+              "Key": 43020042,
+              "Value": 2
+            },
+            {
+              "Key": 41100022,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 4500
+            }
+          ],
+          "5": [
+            {
+              "Key": 43020042,
+              "Value": 3
+            },
+            {
+              "Key": 41100022,
+              "Value": 3
+            },
+            {
+              "Key": 2,
+              "Value": 6000
+            }
+          ],
+          "6": [
+            {
+              "Key": 43020043,
+              "Value": 3
+            },
+            {
+              "Key": 41100023,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 16000
+            }
+          ],
+          "7": [
+            {
+              "Key": 43020043,
+              "Value": 5
+            },
+            {
+              "Key": 41100023,
+              "Value": 3
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 30000
+            }
+          ],
+          "8": [
+            {
+              "Key": 43020044,
+              "Value": 2
+            },
+            {
+              "Key": 41100024,
+              "Value": 2
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 50000
+            }
+          ],
+          "9": [
+            {
+              "Key": 43020044,
+              "Value": 3
+            },
+            {
+              "Key": 41100024,
+              "Value": 3
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 70000
+            }
+          ],
+          "10": [
+            {
+              "Key": 43020044,
+              "Value": 6
+            },
+            {
+              "Key": 41100024,
+              "Value": 4
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 100000
+            }
+          ]
+        },
+        "Damage": {
+          "120761101": {
+            "Element": 2,
+            "RelatedProperty": "공격력",
+            "Type": 4,
+            "RateLv": [
+              15314,
+              16570,
+              17826,
+              19584,
+              20840,
+              22284,
+              24293,
+              26302,
+              28311,
+              30446,
+              32958,
+              35469,
+              37981,
+              40492,
+              43004,
+              45515,
+              48027,
+              50538,
+              53050,
+              55561
+            ],
+            "Energy": 0,
+            "ElementPower": 2000,
+            "HardnessLv": 10000,
+            "ToughLv": 20000
+          },
+          "120790101": {
+            "Element": 2,
+            "RelatedProperty": "공격력",
+            "Type": 2,
+            "RateLv": [
+              41268,
+              44652,
+              48036,
+              52773,
+              56157,
+              60048,
+              65463,
+              70877,
+              76291,
+              82044,
+              88812,
+              95579,
+              102347,
+              109115,
+              115883,
+              122651,
+              129419,
+              136186,
+              142954,
+              149722
+            ],
+            "Energy": 0,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 40000
+          }
+        }
+      }
+    },
+    "4": {
+      "ParentNodes": [
+        7
+      ],
+      "NodeType": 3,
+      "Coordinate": 2,
+      "UnLockCondition": 0,
+      "Consume": [
+        {
+          "Key": 43020032,
+          "Value": 2
+        },
+        {
+          "Key": 41100022,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 3900
+        }
+      ],
+      "Skill": {
+        "Name": "내 이름을 기억하라",
+        "Desc": "루파가 {0}초 동안 돌진 상태를 유지한 후 가속 돌진 상태에 진입하게 되며, 다음 기본 공격 · <color=Highlight>일반 공격</color>은 <color=Highlight>일반 공격 · 별의 소멸</color>로 대체된다.\n<color=Highlight>강공격 · 늑대의 송곳니</color>, <color=Highlight>강공격 · 예리한 발톱</color>, <color=Highlight>공중 공격 · 불의 습격</color>의 경직 저항력이 증가된다",
+        "Param": [
+          "2.5"
+        ],
+        "SimpleDesc": "돌진 상태에 진입하고 일정 시간이 지난 후 가속 돌진 상태에 진입하게 되며, 다음 기본 공격 · <color=Highlight>일반 공격</color>은 <color=Highlight>파생 일반 공격</color>으로 대체된다.\n<color=Highlight>강화된 강공격</color>, <color=Highlight>강화된 공중 공격</color>의 경직 저항력이 증가된다",
+        "SimpleParam": [],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconLupa/SP_IconLupaD1.SP_IconLupaD1",
+        "Type": "고유 스킬",
+        "Level": {},
+        "Consume": {
+          "1": [
+            {
+              "Key": 43020042,
+              "Value": 3
+            },
+            {
+              "Key": 41100022,
+              "Value": 3
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 10000
+            }
+          ]
+        },
+        "Damage": {}
+      }
+    },
+    "5": {
+      "ParentNodes": [
+        4
+      ],
+      "NodeType": 3,
+      "Coordinate": 3,
+      "UnLockCondition": 0,
+      "Consume": [
+        {
+          "Key": 43020032,
+          "Value": 2
+        },
+        {
+          "Key": 41100022,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 3900
+        }
+      ],
+      "Skill": {
+        "Name": "승리의 박수갈채",
+        "Desc": "루파가 <color=Highlight>표식</color>이 있는 목표를 처치 시 공명 스킬 <color=Highlight>포위 사냥</color>의 쿨타임이 리셋된다.\n\n<size=40><color=Title>공명 해방 · 영광</color></size>\n공명 해방 <color=Highlight>영광이 그려내는 불꽃의 단꿈</color> 발동 시 추가로 {0}초 동안 지속되는 <color=Highlight>영광</color> 효과를 획득한다.\n파티 내 캐릭터가 공격을 가할 시 목표의 {1}의 용융 저항을 무시하며, 파티 내 루파 외의 다른 용융 속성 캐릭터가 1명 존재할 때마다 용융 저항 무시 효과를 {2} 증가시키고, 최대 {3}까지 증가시킬 수 있다. 파티 내에 {4}명의 용융 속성 캐릭터가 존재할 경우 용융 저항 무시 효과를 추가로 {5} 증가시킨다",
+        "Param": [
+          "35",
+          "3%",
+          "3%",
+          "9%",
+          "3",
+          "6%"
+        ],
+        "SimpleDesc": "루파가 <color=Highlight>표식</color>이 있는 목표를 처치 시 <color=Highlight>공명 스킬</color> 쿨타임이 리셋된다.\n<color=Highlight>공명 해방</color> 발동 시 파티 내 캐릭터가 다음과 같은 <color=Highlight>영광</color> 효과를 획득한다.\n공격을 가할 때 목표의 일정한 용융 저항을 무시하고, 파티 내 용융 속성 캐릭터가 많을수록 해당 효과는 더 강해진다",
+        "SimpleParam": [],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconLupa/SP_IconLupaD2.SP_IconLupaD2",
+        "Type": "고유 스킬",
+        "Level": {},
+        "Consume": {
+          "1": [
+            {
+              "Key": 43020043,
+              "Value": 3
+            },
+            {
+              "Key": 41100023,
+              "Value": 3
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 20000
+            }
+          ]
+        },
+        "Damage": {}
+      }
+    },
+    "6": {
+      "ParentNodes": [],
+      "NodeType": 2,
+      "Coordinate": 4,
+      "UnLockCondition": 0,
+      "Consume": [
+        {
+          "Key": 43020032,
+          "Value": 2
+        },
+        {
+          "Key": 41100022,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 3900
+        }
+      ],
+      "Skill": {
+        "Name": "한 눈 팔지마!",
+        "Desc": "목표를 공격하여 <color=Fire>용융 피해</color>를 입힌다. 변주 스킬 <color=Highlight>한 눈 팔지마!</color> 발동 후 <color=Highlight>일반 공격</color>을 짧게 누르면 <color=Highlight>공중 공격 3단</color>을 발동할 수 있다.\n\n<size=40><color=Title>넌 도망칠 수 없어!</color></size>\n루파가 <color=Highlight>죽음의 추격 상태</color>에 있을 시, 다음 변주 스킬이 <color=Highlight>넌 도망칠 수 없어!</color>로 대체된다. <color=Highlight>넌 도망칠 수 없어!</color> 발동 시 파티 내 모든 캐릭터의 <color=Highlight><te href=850176>추적 사냥</te></color>과 <color=Highlight><te href=850178>영광</te></color> 효과를 제거하고 <color=Fire>용융 피해</color>를 입히며, 해당 피해는 공명 해방 피해로 적용된다",
+        "Param": [],
+        "SimpleDesc": "<size=40><color=Title>변주 스킬</color></size>\n<color=Fire>용융 피해</color>를 입힌다.\n<size=10></size>\n<size=40><color=Title>강화된 변주 스킬</color></size>\n<color=Highlight>추적 사냥</color>이 최대치까지 강화되면 <color=Highlight>강화된 변주 스킬</color>을 발동할 수 있다.\n발동 시 파티 내 모든 캐릭터의 <color=Highlight>추적 사냥</color>과 <color=Highlight>영광</color>을 제거하고 대량의 <color=Fire>용융 피해</color>를 입히며, 해당 피해는 <color=Highlight>공명 해방 피해</color>로 적용된다",
+        "SimpleParam": [],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconLupa/SP_IconLupaQTE.SP_IconLupaQTE",
+        "Type": "변주 스킬",
+        "Level": {
+          "1": {
+            "Name": "스킬 피해",
+            "Param": [
+              [
+                "14.97%+21.21%*4",
+                "16.20%+22.95%*4",
+                "17.43%+24.69%*4",
+                "19.15%+27.12%*4",
+                "20.37%+28.86%*4",
+                "21.79%+30.86%*4",
+                "23.75%+33.64%*4",
+                "25.71%+36.43%*4",
+                "27.68%+39.21%*4",
+                "29.76%+42.16%*4",
+                "32.22%+45.64%*4",
+                "34.67%+49.12%*4",
+                "37.13%+52.60%*4",
+                "39.58%+56.07%*4",
+                "42.04%+59.55%*4",
+                "44.49%+63.03%*4",
+                "46.95%+66.51%*4",
+                "49.40%+69.98%*4",
+                "51.86%+73.46%*4",
+                "54.31%+76.94%*4"
+              ]
+            ],
+            "Format": null
+          },
+          "2": {
+            "Name": "넌 도망칠 수 없어! 피해",
+            "Param": [
+              [
+                "399.16%+24.95%*4",
+                "431.90%+27.00%*4",
+                "464.63%+29.04%*4",
+                "510.45%+31.91%*4",
+                "543.18%+33.95%*4",
+                "580.82%+36.31%*4",
+                "633.19%+39.58%*4",
+                "685.56%+42.85%*4",
+                "737.93%+46.13%*4",
+                "793.57%+49.60%*4",
+                "859.04%+53.69%*4",
+                "924.50%+57.79%*4",
+                "989.96%+61.88%*4",
+                "1055.42%+65.97%*4",
+                "1120.89%+70.06%*4",
+                "1186.35%+74.15%*4",
+                "1251.81%+78.24%*4",
+                "1317.27%+82.33%*4",
+                "1382.74%+86.43%*4",
+                "1448.20%+90.52%*4"
+              ]
+            ],
+            "Format": null
+          },
+          "3": {
+            "Name": "협주 에너지 회복",
+            "Param": [
+              [
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10"
+              ]
+            ],
+            "Format": null
+          },
+          "4": {
+            "Name": "넌 도망칠 수 없어!로 회복하는 협주 에너지",
+            "Param": [
+              [
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10"
+              ]
+            ],
+            "Format": null
+          }
+        },
+        "Consume": {
+          "1": [],
+          "2": [
+            {
+              "Key": 43020041,
+              "Value": 2
+            },
+            {
+              "Key": 41100021,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 1500
+            }
+          ],
+          "3": [
+            {
+              "Key": 43020041,
+              "Value": 3
+            },
+            {
+              "Key": 41100021,
+              "Value": 3
+            },
+            {
+              "Key": 2,
+              "Value": 2000
+            }
+          ],
+          "4": [
+            {
+              "Key": 43020042,
+              "Value": 2
+            },
+            {
+              "Key": 41100022,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 4500
+            }
+          ],
+          "5": [
+            {
+              "Key": 43020042,
+              "Value": 3
+            },
+            {
+              "Key": 41100022,
+              "Value": 3
+            },
+            {
+              "Key": 2,
+              "Value": 6000
+            }
+          ],
+          "6": [
+            {
+              "Key": 43020043,
+              "Value": 3
+            },
+            {
+              "Key": 41100023,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 16000
+            }
+          ],
+          "7": [
+            {
+              "Key": 43020043,
+              "Value": 5
+            },
+            {
+              "Key": 41100023,
+              "Value": 3
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 30000
+            }
+          ],
+          "8": [
+            {
+              "Key": 43020044,
+              "Value": 2
+            },
+            {
+              "Key": 41100024,
+              "Value": 2
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 50000
+            }
+          ],
+          "9": [
+            {
+              "Key": 43020044,
+              "Value": 3
+            },
+            {
+              "Key": 41100024,
+              "Value": 3
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 70000
+            }
+          ],
+          "10": [
+            {
+              "Key": 43020044,
+              "Value": 6
+            },
+            {
+              "Key": 41100024,
+              "Value": 4
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 100000
+            }
+          ]
+        },
+        "Damage": {
+          "120780001": {
+            "Element": 2,
+            "RelatedProperty": "공격력",
+            "Type": 3,
+            "RateLv": [
+              1497,
+              1620,
+              1743,
+              1915,
+              2037,
+              2179,
+              2375,
+              2571,
+              2768,
+              2976,
+              3222,
+              3467,
+              3713,
+              3958,
+              4204,
+              4449,
+              4695,
+              4940,
+              5186,
+              5431
+            ],
+            "Energy": 150,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 2114
+          },
+          "120780002": {
+            "Element": 2,
+            "RelatedProperty": "공격력",
+            "Type": 3,
+            "RateLv": [
+              2121,
+              2295,
+              2469,
+              2712,
+              2886,
+              3086,
+              3364,
+              3643,
+              3921,
+              4216,
+              4564,
+              4912,
+              5260,
+              5607,
+              5955,
+              6303,
+              6651,
+              6998,
+              7346,
+              7694
+            ],
+            "Energy": 213,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 2994
+          },
+          "120780101": {
+            "Element": 2,
+            "RelatedProperty": "공격력",
+            "Type": 2,
+            "RateLv": [
+              39916,
+              43190,
+              46463,
+              51045,
+              54318,
+              58082,
+              63319,
+              68556,
+              73793,
+              79357,
+              85904,
+              92450,
+              98996,
+              105542,
+              112089,
+              118635,
+              125181,
+              131727,
+              138274,
+              144820
+            ],
+            "Energy": 800,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 11271
+          },
+          "120780102": {
+            "Element": 2,
+            "RelatedProperty": "공격력",
+            "Type": 2,
+            "RateLv": [
+              2495,
+              2700,
+              2904,
+              3191,
+              3395,
+              3631,
+              3958,
+              4285,
+              4613,
+              4960,
+              5369,
+              5779,
+              6188,
+              6597,
+              7006,
+              7415,
+              7824,
+              8233,
+              8643,
+              9052
+            ],
+            "Energy": 50,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 705
+          },
+          "120780111": {
+            "Element": 2,
+            "RelatedProperty": "공격력",
+            "Type": 2,
+            "RateLv": [
+              79832,
+              86379,
+              92925,
+              102090,
+              108636,
+              116164,
+              126638,
+              137112,
+              147586,
+              158714,
+              171807,
+              184899,
+              197992,
+              211084,
+              224177,
+              237269,
+              250362,
+              263454,
+              276547,
+              289639
+            ],
+            "Energy": 800,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 11271
+          },
+          "120780112": {
+            "Element": 2,
+            "RelatedProperty": "공격력",
+            "Type": 2,
+            "RateLv": [
+              4990,
+              5399,
+              5808,
+              6381,
+              6790,
+              7261,
+              7915,
+              8570,
+              9225,
+              9920,
+              10738,
+              11557,
+              12375,
+              13193,
+              14012,
+              14830,
+              15648,
+              16466,
+              17285,
+              18103
+            ],
+            "Energy": 50,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 705
+          }
+        }
+      }
+    },
+    "7": {
+      "ParentNodes": [],
+      "NodeType": 1,
+      "Coordinate": 1,
+      "UnLockCondition": 0,
+      "Consume": [
+        {
+          "Key": 43020032,
+          "Value": 2
+        },
+        {
+          "Key": 41100022,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 3900
+        }
+      ],
+      "Skill": {
+        "Name": "불꽃 늑대의 선고",
+        "Desc": "<size=40><color=Title>타오르는 깃발</color></size>\n루파가 다음과 같은 조작을 진행 시 공격력이 {0} 증가되고 {1}초간 지속된다.\n· 공명 스킬 <color=Highlight>흉악한 포식</color> 발동 기간.\n· <color=Highlight>강공격 · 늑대의 송곳니</color>, <color=Highlight>강공격 · 예리한 발톱</color> 혹은 <color=Highlight>공중 공격 · 불의 습격</color> 발동 기간.\n· 공명 해방 <color=Highlight>영광이 그려내는 불꽃의 단꿈</color> 발동 기간.\n· <color=Highlight>늑대의 춤에 비롯된 결심</color>, <color=Highlight>늑대의 춤에 비롯된 결심 · 극</color> 발동 기간.\n\n<size=40><color=Title>공명 스킬 · 늑대의 춤에 비롯된 결심</color></size>\n「<te href=850175>늑대의 혼</te>」이 {2}pt에 도달 시, 공명 스킬은 <color=Highlight>늑대의 춤에 비롯된 결심</color>으로 대체된다. <color=Highlight>늑대의 춤에 비롯된 결심</color> 발동 시, 모든 「<te href=850175>늑대의 혼</te>」을 소모하여 <color=Fire>용융 피해</color>를 입히며, 해당 피해는 공명 해방 피해로 적용된다.\n낮은 공중에서 발동 가능하다.\n\n<size=40><color=Title>공명 스킬 · 늑대의 춤에 비롯된 결심 · 극</color></size>\n「<te href=850175>늑대의 혼</te>」이 {3}pt에 도달하고 <color=Highlight><te href=850177>매치 포인트</te></color> 상태에 있을 시, 공명 스킬은 <color=Highlight>늑대의 춤에 비롯된 결심 · 극</color>으로 대체된다. <color=Highlight>늑대의 춤에 비롯된 결심 · 극</color> 발동 시, 모든 「<te href=850175>늑대의 혼</te>」을 소모하고, <color=Highlight><te href=850177>매치 포인트</te></color> 상태가 종료되며, <color=Fire>용융 피해</color>를 입힌다. 해당 피해는 공명 해방 피해로 적용된다.\n낮은 공중에서 발동 가능하다.\n\n<size=40><color=Title>공명 스킬 · 지금이야, 경기장을 뜨겁게 불태워</color></size>\n<color=Highlight>늑대의 춤에 비롯된 결심</color> 혹은 <color=Highlight>늑대의 춤에 비롯된 결심 · 극</color>을 발동한 {4}초 내에, 다른 캐릭터로 전환하면 루파는 필드에 머물러 파티원이 <color=Highlight>공명 해방</color>을 발동 시 파티원과 협력하여 공격을 가하고 <color=Fire>용융 피해</color>를 입힌다. 해당 피해는 공명 스킬 피해로 적용되고 최대 1회 발생할 수 있다.\n\n<size=40><color=Title>「늑대의 불」 획득 규칙</color></size>\n「늑대의 불」 최대 누적 가능: {5}pt\n기본 공격으로 목표 명중 시 「늑대의 불」을 회복한다.\n공명 스킬 발동 기간 동안 「늑대의 불」을 회복한다.\n공명 해방 발동 시 「늑대의 불」을 회복한다.\n\n<size=40><color=Title>「늑대의 혼」 획득 규칙</color></size>\n「늑대의 혼」 최대 누적 가능: {6}pt\n「늑대의 혼」의 지속 시간은 {7}초이며, 중복 획득 시 지속 시간이 리셋된다. 지속 시간 종료 후 소모되지 않은 「늑대의 혼」 1pt 당 {8}pt의 「늑대의 불」로 반환된다.\n<color=Highlight>강공격 · 늑대의 송곳니</color>, <color=Highlight>강공격 · 예리한 발톱</color>, <color=Highlight>공중 공격 · 불의 습격</color> 발동 시 {9}pt 획득한다",
+        "Param": [
+          "12%",
+          "8",
+          "2",
+          "2",
+          "8",
+          "100",
+          "2",
+          "10",
+          "50",
+          "1"
+        ],
+        "SimpleDesc": "<color=Highlight>강화된 강공격</color>, <color=Highlight>강화된 공중 공격</color>, <color=Highlight>공명 해방</color>, <color=Highlight>파생 공명 스킬</color>, <color=Highlight>강화된 공명 스킬</color>, <color=Highlight>최종 공명 스킬</color> 기간 자신의 공격력을 증가시킬 수 있다.\n<size=10></size>\n<size=40><color=Title>특수 에너지 「늑대의 불」 및 「늑대의 혼」</color></size>\n<color=Highlight>기본 공격</color>, <color=Highlight>공명 스킬</color>, <color=Highlight>파생 공명 스킬</color>, <color=Highlight>공명 해방</color>으로 <color=Highlight>「늑대의 불」</color>을 획득할 수 있다.\n<color=Highlight>「늑대의 불」</color>이 일정량에 도달 시 <color=Highlight>강화된 강공격</color>, <color=Highlight>강화된 공중 공격</color>을 발동하여 <color=Highlight>「늑대의 혼」</color>을 획득할 수 있다.\n<color=Highlight>「늑대의 혼」</color>이 가득 찰 시 <color=Highlight>강화된 공명 스킬</color>을 발동하여 <color=Fire>용융 피해</color>를 입힐 수 있으며, 해당 피해는 <color=Highlight>공명 해방 피해</color>로 적용된다.\n<color=Highlight>「늑대의 혼」</color>이 가득 차고 <color=Highlight>강화 상태</color>에 있을 시 <color=Highlight>최종 공명 스킬</color>을 발동하여 <color=Fire>용융 피해</color>를 입힐 수 있으며, 해당 피해는 <color=Highlight>공명 해방 피해</color>로 적용되고, 동시에 <color=Highlight>강화 상태</color>가 종료된다.\n<size=10></size>\n<size=40><color=Title>협력 공격</color></size>\n<color=Highlight>강화된 공명 스킬</color>, <color=Highlight>최종 공명 스킬</color>을 발동한 일정 시간 내에, 파티원이 <color=Highlight>공명 해방</color>을 발동 시 루파가 파티원과 협력하여 공격을 가하고 <color=Fire>용융 피해</color>를 입히며, 해당 피해는 <color=Highlight>공명 스킬 피해</color>로 적용된다",
+        "SimpleParam": [],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconLupa/SP_IconLupaY.SP_IconLupaY",
+        "Type": "공명 회로",
+        "Level": {
+          "1": {
+            "Name": "늑대의 춤에 비롯된 결심 피해",
+            "Param": [
+              [
+                "28.18%+21.14%*4+169.06%",
+                "30.49%+22.87%*4+182.93%",
+                "32.80%+24.60%*4+196.79%",
+                "36.04%+27.03%*4+216.20%",
+                "38.35%+28.76%*4+230.06%",
+                "41.00%+30.75%*4+246.00%",
+                "44.70%+33.53%*4+268.18%",
+                "48.40%+36.30%*4+290.36%",
+                "52.09%+39.07%*4+312.54%",
+                "56.02%+42.02%*4+336.11%",
+                "60.64%+45.48%*4+363.83%",
+                "65.26%+48.95%*4+391.56%",
+                "69.89%+52.42%*4+419.29%",
+                "74.51%+55.88%*4+447.01%",
+                "79.13%+59.35%*4+474.74%",
+                "83.75%+62.81%*4+502.46%",
+                "88.37%+66.28%*4+530.19%",
+                "92.99%+69.74%*4+557.91%",
+                "97.61%+73.21%*4+585.64%",
+                "102.23%+76.67%*4+613.36%"
+              ]
+            ],
+            "Format": null
+          },
+          "2": {
+            "Name": "늑대의 춤에 비롯된 결심 · 극 피해",
+            "Param": [
+              [
+                "38.04%+28.53%*4+228.23%",
+                "41.16%+30.87%*4+246.95%",
+                "44.28%+33.21%*4+265.66%",
+                "48.65%+36.49%*4+291.86%",
+                "51.77%+38.83%*4+310.58%",
+                "55.35%+41.52%*4+332.10%",
+                "60.34%+45.26%*4+362.04%",
+                "65.34%+49.00%*4+391.99%",
+                "70.33%+52.75%*4+421.93%",
+                "75.63%+56.72%*4+453.75%",
+                "81.87%+61.40%*4+491.17%",
+                "88.10%+66.08%*4+528.60%",
+                "94.34%+70.76%*4+566.03%",
+                "100.58%+75.44%*4+603.46%",
+                "106.82%+80.12%*4+640.89%",
+                "113.06%+84.79%*4+678.32%",
+                "119.30%+89.47%*4+715.75%",
+                "125.53%+94.15%*4+753.18%",
+                "131.77%+98.83%*4+790.61%",
+                "138.01%+103.51%*4+828.04%"
+              ]
+            ],
+            "Format": null
+          },
+          "3": {
+            "Name": "지금이야, 경기장을 뜨겁게 불태워 피해",
+            "Param": [
+              [
+                "21.31%+85.21%",
+                "23.05%+92.20%",
+                "24.80%+99.18%",
+                "27.25%+108.97%",
+                "28.99%+115.95%",
+                "31.00%+123.99%",
+                "33.80%+135.17%",
+                "36.59%+146.34%",
+                "39.38%+157.52%",
+                "42.35%+169.40%",
+                "45.85%+183.37%",
+                "49.34%+197.35%",
+                "52.83%+211.32%",
+                "56.33%+225.30%",
+                "59.82%+239.27%",
+                "63.31%+253.24%",
+                "66.81%+267.22%",
+                "70.30%+281.19%",
+                "73.79%+295.16%",
+                "77.29%+309.14%"
+              ]
+            ],
+            "Format": null
+          }
+        },
+        "Consume": {
+          "1": [],
+          "2": [
+            {
+              "Key": 43020041,
+              "Value": 2
+            },
+            {
+              "Key": 41100021,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 1500
+            }
+          ],
+          "3": [
+            {
+              "Key": 43020041,
+              "Value": 3
+            },
+            {
+              "Key": 41100021,
+              "Value": 3
+            },
+            {
+              "Key": 2,
+              "Value": 2000
+            }
+          ],
+          "4": [
+            {
+              "Key": 43020042,
+              "Value": 2
+            },
+            {
+              "Key": 41100022,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 4500
+            }
+          ],
+          "5": [
+            {
+              "Key": 43020042,
+              "Value": 3
+            },
+            {
+              "Key": 41100022,
+              "Value": 3
+            },
+            {
+              "Key": 2,
+              "Value": 6000
+            }
+          ],
+          "6": [
+            {
+              "Key": 43020043,
+              "Value": 3
+            },
+            {
+              "Key": 41100023,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 16000
+            }
+          ],
+          "7": [
+            {
+              "Key": 43020043,
+              "Value": 5
+            },
+            {
+              "Key": 41100023,
+              "Value": 3
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 30000
+            }
+          ],
+          "8": [
+            {
+              "Key": 43020044,
+              "Value": 2
+            },
+            {
+              "Key": 41100024,
+              "Value": 2
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 50000
+            }
+          ],
+          "9": [
+            {
+              "Key": 43020044,
+              "Value": 3
+            },
+            {
+              "Key": 41100024,
+              "Value": 3
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 70000
+            }
+          ],
+          "10": [
+            {
+              "Key": 43020044,
+              "Value": 6
+            },
+            {
+              "Key": 41100024,
+              "Value": 4
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 100000
+            }
+          ]
+        },
+        "Damage": {
+          "120751301": {
+            "Element": 2,
+            "RelatedProperty": "공격력",
+            "Type": 2,
+            "RateLv": [
+              3804,
+              4116,
+              4428,
+              4865,
+              5177,
+              5535,
+              6034,
+              6534,
+              7033,
+              7563,
+              8187,
+              8810,
+              9434,
+              10058,
+              10682,
+              11306,
+              11930,
+              12553,
+              13177,
+              13801
+            ],
+            "Energy": 300,
+            "ElementPower": 300,
+            "HardnessLv": 10000,
+            "ToughLv": 2000
+          },
+          "120751302": {
+            "Element": 2,
+            "RelatedProperty": "공격력",
+            "Type": 2,
+            "RateLv": [
+              2853,
+              3087,
+              3321,
+              3649,
+              3883,
+              4152,
+              4526,
+              4900,
+              5275,
+              5672,
+              6140,
+              6608,
+              7076,
+              7544,
+              8012,
+              8479,
+              8947,
+              9415,
+              9883,
+              10351
+            ],
+            "Energy": 225,
+            "ElementPower": 225,
+            "HardnessLv": 10000,
+            "ToughLv": 1500
+          },
+          "120751303": {
+            "Element": 2,
+            "RelatedProperty": "공격력",
+            "Type": 2,
+            "RateLv": [
+              22823,
+              24695,
+              26566,
+              29186,
+              31058,
+              33210,
+              36204,
+              39199,
+              42193,
+              45375,
+              49117,
+              52860,
+              56603,
+              60346,
+              64089,
+              67832,
+              71575,
+              75318,
+              79061,
+              82804
+            ],
+            "Energy": 1800,
+            "ElementPower": 1800,
+            "HardnessLv": 10000,
+            "ToughLv": 12000
+          },
+          "120751311": {
+            "Element": 2,
+            "RelatedProperty": "공격력",
+            "Type": 2,
+            "RateLv": [
+              8559,
+              9261,
+              9963,
+              10945,
+              11647,
+              12454,
+              13577,
+              14700,
+              15823,
+              17016,
+              18419,
+              19823,
+              21227,
+              22630,
+              24034,
+              25437,
+              26841,
+              28245,
+              29648,
+              31052
+            ],
+            "Energy": 300,
+            "ElementPower": 300,
+            "HardnessLv": 10000,
+            "ToughLv": 2000
+          },
+          "120751312": {
+            "Element": 2,
+            "RelatedProperty": "공격력",
+            "Type": 2,
+            "RateLv": [
+              6419,
+              6946,
+              7472,
+              8209,
+              8735,
+              9341,
+              10183,
+              11025,
+              11867,
+              12762,
+              13815,
+              14867,
+              15920,
+              16973,
+              18025,
+              19078,
+              20131,
+              21184,
+              22236,
+              23289
+            ],
+            "Energy": 225,
+            "ElementPower": 225,
+            "HardnessLv": 10000,
+            "ToughLv": 1500
+          },
+          "120751313": {
+            "Element": 2,
+            "RelatedProperty": "공격력",
+            "Type": 2,
+            "RateLv": [
+              51352,
+              55563,
+              59773,
+              65669,
+              69879,
+              74722,
+              81459,
+              88196,
+              94934,
+              102092,
+              110514,
+              118935,
+              127357,
+              135778,
+              144200,
+              152622,
+              161043,
+              169465,
+              177887,
+              186308
+            ],
+            "Energy": 1800,
+            "ElementPower": 1800,
+            "HardnessLv": 10000,
+            "ToughLv": 12000
+          },
+          "120761201": {
+            "Element": 2,
+            "RelatedProperty": "공격력",
+            "Type": 2,
+            "RateLv": [
+              2818,
+              3049,
+              3280,
+              3604,
+              3835,
+              4100,
+              4470,
+              4840,
+              5209,
+              5602,
+              6064,
+              6526,
+              6989,
+              7451,
+              7913,
+              8375,
+              8837,
+              9299,
+              9761,
+              10223
+            ],
+            "Energy": 300,
+            "ElementPower": 150,
+            "HardnessLv": 10000,
+            "ToughLv": 2000
+          },
+          "120761202": {
+            "Element": 2,
+            "RelatedProperty": "공격력",
+            "Type": 2,
+            "RateLv": [
+              2114,
+              2287,
+              2460,
+              2703,
+              2876,
+              3075,
+              3353,
+              3630,
+              3907,
+              4202,
+              4548,
+              4895,
+              5242,
+              5588,
+              5935,
+              6281,
+              6628,
+              6974,
+              7321,
+              7667
+            ],
+            "Energy": 225,
+            "ElementPower": 113,
+            "HardnessLv": 10000,
+            "ToughLv": 1500
+          },
+          "120761203": {
+            "Element": 2,
+            "RelatedProperty": "공격력",
+            "Type": 2,
+            "RateLv": [
+              16906,
+              18293,
+              19679,
+              21620,
+              23006,
+              24600,
+              26818,
+              29036,
+              31254,
+              33611,
+              36383,
+              39156,
+              41929,
+              44701,
+              47474,
+              50246,
+              53019,
+              55791,
+              58564,
+              61336
+            ],
+            "Energy": 1800,
+            "ElementPower": 900,
+            "HardnessLv": 10000,
+            "ToughLv": 12000
+          },
+          "120790202": {
+            "Element": 2,
+            "RelatedProperty": "공격력",
+            "Type": 4,
+            "RateLv": [
+              2131,
+              2305,
+              2480,
+              2725,
+              2899,
+              3100,
+              3380,
+              3659,
+              3938,
+              4235,
+              4585,
+              4934,
+              5283,
+              5633,
+              5982,
+              6331,
+              6681,
+              7030,
+              7379,
+              7729
+            ],
+            "Energy": 0,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 1000
+          },
+          "120790203": {
+            "Element": 2,
+            "RelatedProperty": "공격력",
+            "Type": 4,
+            "RateLv": [
+              8521,
+              9220,
+              9918,
+              10897,
+              11595,
+              12399,
+              13517,
+              14634,
+              15752,
+              16940,
+              18337,
+              19735,
+              21132,
+              22530,
+              23927,
+              25324,
+              26722,
+              28119,
+              29516,
+              30914
+            ],
+            "Energy": 0,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 4000
+          }
+        }
+      }
+    },
+    "8": {
+      "ParentNodes": [],
+      "NodeType": 3,
+      "Coordinate": 1,
+      "UnLockCondition": 0,
+      "Consume": [
+        {
+          "Key": 43020032,
+          "Value": 2
+        },
+        {
+          "Key": 41100022,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 3900
+        }
+      ],
+      "Skill": {
+        "Name": "함께 싸우자 파트너!",
+        "Desc": "다음 등장 캐릭터의 용융 피해가 {0} 부스트되고, 일반 공격 피해가 {1} 부스트되며, {2}초간 지속된다. 다른 캐릭터로 전환하면 해당 효과는 즉시 종료된다",
+        "Param": [
+          "20%",
+          "25%",
+          "14"
+        ],
+        "SimpleDesc": "다음 등장 캐릭터의 용융 피해와 일반 공격 피해가 부스트된다. 다른 캐릭터로 전환하면 해당 효과는 즉시 종료된다",
+        "SimpleParam": [],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconLupa/SP_IconLupaT.SP_IconLupaT",
+        "Type": "반주 스킬",
+        "Level": {},
+        "Consume": {
+          "1": []
+        },
+        "Damage": {}
+      }
+    },
+    "9": {
+      "ParentNodes": [
+        1
+      ],
+      "NodeType": 4,
+      "Coordinate": 1,
+      "UnLockCondition": 500006,
+      "Consume": [
+        {
+          "Key": 43020043,
+          "Value": 3
+        },
+        {
+          "Key": 41100023,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 50000
+        }
+      ],
+      "Skill": {
+        "Name": "크리티컬 증가",
+        "Desc": "크리티컬이 {0} 증가한다",
+        "Param": [
+          "1.20%"
+        ],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredbaoji_UI.T_Iconpropertyredbaoji_UI"
+      }
+    },
+    "10": {
+      "ParentNodes": [
+        2
+      ],
+      "NodeType": 4,
+      "Coordinate": 1,
+      "UnLockCondition": 500005,
+      "Consume": [
+        {
+          "Key": 43020043,
+          "Value": 3
+        },
+        {
+          "Key": 41100023,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 50000
+        }
+      ],
+      "Skill": {
+        "Name": "공격력 증가",
+        "Desc": "공격력이 {0} 증가한다",
+        "Param": [
+          "1.80%"
+        ],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredattack_UI.T_Iconpropertyredattack_UI"
+      }
+    },
+    "11": {
+      "ParentNodes": [
+        3
+      ],
+      "NodeType": 4,
+      "Coordinate": 1,
+      "UnLockCondition": 500005,
+      "Consume": [
+        {
+          "Key": 43020043,
+          "Value": 3
+        },
+        {
+          "Key": 41100023,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 50000
+        }
+      ],
+      "Skill": {
+        "Name": "공격력 증가",
+        "Desc": "공격력이 {0} 증가한다",
+        "Param": [
+          "1.80%"
+        ],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredattack_UI.T_Iconpropertyredattack_UI"
+      }
+    },
+    "12": {
+      "ParentNodes": [
+        6
+      ],
+      "NodeType": 4,
+      "Coordinate": 1,
+      "UnLockCondition": 500006,
+      "Consume": [
+        {
+          "Key": 43020043,
+          "Value": 3
+        },
+        {
+          "Key": 41100023,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 50000
+        }
+      ],
+      "Skill": {
+        "Name": "크리티컬 증가",
+        "Desc": "크리티컬이 {0} 증가한다",
+        "Param": [
+          "1.20%"
+        ],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredbaoji_UI.T_Iconpropertyredbaoji_UI"
+      }
+    },
+    "13": {
+      "ParentNodes": [
+        9
+      ],
+      "NodeType": 4,
+      "Coordinate": 2,
+      "UnLockCondition": 500008,
+      "Consume": [
+        {
+          "Key": 43020044,
+          "Value": 3
+        },
+        {
+          "Key": 41100024,
+          "Value": 3
+        },
+        {
+          "Key": 41400194,
+          "Value": 1
+        },
+        {
+          "Key": 2,
+          "Value": 100000
+        }
+      ],
+      "Skill": {
+        "Name": "크리티컬 증가",
+        "Desc": "크리티컬이 {0} 증가한다",
+        "Param": [
+          "2.80%"
+        ],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredbaoji_UI.T_Iconpropertyredbaoji_UI"
+      }
+    },
+    "14": {
+      "ParentNodes": [
+        10
+      ],
+      "NodeType": 4,
+      "Coordinate": 2,
+      "UnLockCondition": 500007,
+      "Consume": [
+        {
+          "Key": 43020044,
+          "Value": 3
+        },
+        {
+          "Key": 41100024,
+          "Value": 3
+        },
+        {
+          "Key": 41400194,
+          "Value": 1
+        },
+        {
+          "Key": 2,
+          "Value": 100000
+        }
+      ],
+      "Skill": {
+        "Name": "공격력 증가",
+        "Desc": "공격력이 {0} 증가한다",
+        "Param": [
+          "4.20%"
+        ],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredattack_UI.T_Iconpropertyredattack_UI"
+      }
+    },
+    "15": {
+      "ParentNodes": [
+        11
+      ],
+      "NodeType": 4,
+      "Coordinate": 2,
+      "UnLockCondition": 500007,
+      "Consume": [
+        {
+          "Key": 43020044,
+          "Value": 3
+        },
+        {
+          "Key": 41100024,
+          "Value": 3
+        },
+        {
+          "Key": 41400194,
+          "Value": 1
+        },
+        {
+          "Key": 2,
+          "Value": 100000
+        }
+      ],
+      "Skill": {
+        "Name": "공격력 증가",
+        "Desc": "공격력이 {0} 증가한다",
+        "Param": [
+          "4.20%"
+        ],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredattack_UI.T_Iconpropertyredattack_UI"
+      }
+    },
+    "16": {
+      "ParentNodes": [
+        12
+      ],
+      "NodeType": 4,
+      "Coordinate": 2,
+      "UnLockCondition": 500008,
+      "Consume": [
+        {
+          "Key": 43020044,
+          "Value": 3
+        },
+        {
+          "Key": 41100024,
+          "Value": 3
+        },
+        {
+          "Key": 41400194,
+          "Value": 1
+        },
+        {
+          "Key": 2,
+          "Value": 100000
+        }
+      ],
+      "Skill": {
+        "Name": "크리티컬 증가",
+        "Desc": "크리티컬이 {0} 증가한다",
+        "Param": [
+          "2.80%"
+        ],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredbaoji_UI.T_Iconpropertyredbaoji_UI"
+      }
+    },
+    "17": {
+      "ParentNodes": [],
+      "NodeType": 5,
+      "Coordinate": 1,
+      "UnLockCondition": 0,
+      "Consume": [
+        {
+          "Key": 43020032,
+          "Value": 2
+        },
+        {
+          "Key": 41100022,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 3900
+        }
+      ],
+      "Skill": {
+        "Name": "조화도 파괴 · 대검",
+        "Desc": "목표의 <color=Highlight>「부조화 수치」</color>가 가득찰 시, 해당 목표에게 <color=Highlight><a href=「谐度破坏」></a></color> 피해를 입힌다",
+        "Param": [],
+        "SimpleDesc": "목표의 <color=Highlight>「부조화 수치」</color>가 가득찰 시, 해당 목표에게 <color=Highlight>「조화도 파괴」</color> 피해를 입힌다",
+        "SimpleParam": [],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconWeakPointBreakSword.SP_IconWeakPointBreakSword",
+        "Type": "조화도 파괴",
+        "Level": {},
+        "Consume": {
+          "1": []
+        },
+        "Damage": {}
+      }
+    }
+  },
+  "Chains": {
+    "1": {
+      "Name": "이름 없는 자여",
+      "Desc": "공명 해방 <color=Highlight>영광이 그려내는 불꽃의 단꿈</color> 발동 시, 루파는 추가로 {0}pt의 협주 에너지를 회복하며, 크리티컬이 {1} 증가되고 {2}초간 지속된다.\n<color=Highlight>늑대의 춤에 비롯된 결심 · 극</color>은 적의 공격에 의해 중단되지 않는다",
+      "Param": [
+        "10",
+        "20%",
+        "10"
+      ],
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconDevice/T_IconDevice_LupaM1_UI.T_IconDevice_LupaM1_UI"
+    },
+    "2": {
+      "Name": "발 딛는 곳마다 사냥터",
+      "Desc": "공명 해방 <color=Highlight>영광이 그려내는 불꽃의 단꿈</color>, <color=Highlight>강공격 · 늑대의 송곳니</color>, <color=Highlight>강공격 · 예리한 발톱</color>, <color=Highlight>공중 공격 · 불의 습격</color> 발동 시 파티 내 캐릭터의 용융 피해 보너스가 {0} 증가되고 {1}초간 지속되며, 최대 {2}스택 중첩이 가능하다",
+      "Param": [
+        "20%",
+        "30",
+        "2"
+      ],
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconDevice/T_IconDevice_LupaM2_UI.T_IconDevice_LupaM2_UI"
+    },
+    "3": {
+      "Name": "이글거리는 늑대의 포효",
+      "Desc": "· 변주 스킬 <color=Highlight>넌 도망칠 수 없어!</color>의 피해 배율이 {0} 상승된다.\n· 파티 내 용융 속성 캐릭터가 {3}명 미만이어도 공명 해방 <color=Highlight><te href=850176>추적 사냥</te></color>의 추가 효과를 획득할 수 있다.\n· 공명 해방 <color=Highlight><te href=850178>영광</te></color> 효과가 다음과 같은 효과로 대체된다.\n공명 해방 <color=Highlight>영광이 그려내는 불꽃의 단꿈</color> 발동 시 추가로 {1}초 동안 지속되는 <color=Highlight><te href=850178>영광</te></color> 효과를 획득한다: 파티 내 캐릭터가 공격을 가할 시 {2}의 용융 저항을 무시한다",
+      "Param": [
+        "100%",
+        "35",
+        "15%",
+        "3",
+        "1"
+      ],
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconDevice/T_IconDevice_LupaM3_UI.T_IconDevice_LupaM3_UI"
+    },
+    "4": {
+      "Name": "높고 뜨겁게 휘날리는 깃발",
+      "Desc": "<color=Highlight>늑대의 춤에 비롯된 결심 · 극</color>의 피해 배율이 {0} 상승된다",
+      "Param": [
+        "125%"
+      ],
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconDevice/T_IconDevice_LupaM4_UI.T_IconDevice_LupaM4_UI"
+    },
+    "5": {
+      "Name": "승리가 부른 박수갈채",
+      "Desc": "변주 스킬 <color=Highlight>한 눈 팔지마!</color> 혹은 <color=Highlight>넌 도망칠 수 없어!</color> 발동 시 공명 해방 피해 보너스가 {0} 증가되고 {1}초간 지속된다",
+      "Param": [
+        "15%",
+        "10"
+      ],
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconDevice/T_IconDevice_LupaM5_UI.T_IconDevice_LupaM5_UI"
+    },
+    "6": {
+      "Name": "가장 눈부신 별에게",
+      "Desc": "· 공명 회로 <color=Highlight>늑대의 춤에 비롯된 결심 · 극</color>, 공명 해방 <color=Highlight>영광이 그려내는 불꽃의 단꿈</color>, 변주 스킬 <color=Highlight>넌 도망칠 수 없어!</color>로 공격하여 피해를 입힐 시 목표의 {0} 방어력을 무시한다.\n· 공명 스킬 <color=Highlight>흉악한 포식</color>으로 목표 명중 시 {1}pt의 「<te href=850174>늑대의 불</te>」을 회복하고, {2}초마다 1회 발생할 수 있다.\n· 공명 회로 <color=Highlight>늑대의 춤에 비롯된 결심</color>이 <color=Highlight>늑대의 춤에 비롯된 결심 · 극</color>으로 대체되고, <color=Highlight><te href=850177>매치 포인트</te></color> 상태가 아닌 경우에도 <color=Highlight>늑대의 춤에 비롯된 결심 · 극</color>을 발동할 수 있다.\n· 변주 스킬 <color=Highlight>넌 도망칠 수 없어!</color> 발동 후에도 <color=Highlight><te href=850176>추적 사냥</te></color>과 <color=Highlight><te href=850178>영광</te></color> 효과는 종료되지 않는다",
+      "Param": [
+        "30%",
+        "100",
+        "20"
+      ],
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconDevice/T_IconDevice_LupaM6_UI.T_IconDevice_LupaM6_UI"
+    }
+  },
+  "Ascensions": {
+    "1": [
+      {
+        "Key": 41100021,
+        "Value": 4
+      },
+      {
+        "Key": 2,
+        "Value": 5000
+      }
+    ],
+    "2": [
+      {
+        "Key": 41400214,
+        "Value": 3
+      },
+      {
+        "Key": 42601230,
+        "Value": 4
+      },
+      {
+        "Key": 41100022,
+        "Value": 4
+      },
+      {
+        "Key": 2,
+        "Value": 10000
+      }
+    ],
+    "3": [
+      {
+        "Key": 41400214,
+        "Value": 6
+      },
+      {
+        "Key": 42601230,
+        "Value": 8
+      },
+      {
+        "Key": 41100022,
+        "Value": 8
+      },
+      {
+        "Key": 2,
+        "Value": 15000
+      }
+    ],
+    "4": [
+      {
+        "Key": 41400214,
+        "Value": 9
+      },
+      {
+        "Key": 42601230,
+        "Value": 12
+      },
+      {
+        "Key": 41100023,
+        "Value": 4
+      },
+      {
+        "Key": 2,
+        "Value": 20000
+      }
+    ],
+    "5": [
+      {
+        "Key": 41400214,
+        "Value": 12
+      },
+      {
+        "Key": 42601230,
+        "Value": 16
+      },
+      {
+        "Key": 41100023,
+        "Value": 8
+      },
+      {
+        "Key": 2,
+        "Value": 40000
+      }
+    ],
+    "6": [
+      {
+        "Key": 41400214,
+        "Value": 16
+      },
+      {
+        "Key": 42601230,
+        "Value": 20
+      },
+      {
+        "Key": 41100024,
+        "Value": 4
+      },
+      {
+        "Key": 2,
+        "Value": 80000
+      }
+    ]
+  },
+  "Skin": {
+    "81001207": {
+      "Id": 81001207,
+      "SuitWeaponSkinId": 0,
+      "QualityId": 3,
+      "Name": "루파",
+      "TitleName": "솟구치는 불꽃",
+      "SubDecName": "루파 - 기본 코스튬",
+      "BgDescription": "일곱 언덕 검투사의 경기 코스튬이다. 루파의 경기 스타일에 맞추기 위해 여러 차례 수정을 거쳤다. 그녀와 함께 외로운 낮과 밤을 보냈으며, 그녀와 함께 경기장의 박수갈채도 받아왔다",
+      "Background": "/Game/Aki/UI/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_lupa_UI.T_IconRole_Pile_lupa_UI",
+      "Portrait": "/Game/Aki/UI/UIResources/Common/Image/TitleDesc/Avatar/T_ActivityRoleLupa.T_ActivityRoleLupa",
+      "SortIndex": 0,
+      "FormationSpineSkel": "/Game/Aki/UI/UIResources/Common/Spine/Portraits/Portraits_Lupa/Portraits_Lupa.Portraits_Lupa-data",
+      "FormationSpineAtlas": "/Game/Aki/UI/UIResources/Common/Spine/Portraits/Portraits_Lupa/Portraits_Lupa.Portraits_Lupa-atlas"
+    }
+  },
+  "Forte": {
+    "SkillInputList": {
+      "120701": {
+        "Desc": "강공격 · 늑대의 송곳니: 50pt 이상의 「늑대의 불」을 보유할 경우 {0} 길게 누르기",
+        "InputList": [
+          "攻击"
+        ]
+      },
+      "120702": {
+        "Desc": "강공격 · 예리한 발톱: 50pt 이상의 「늑대의 불」과 1pt의 「늑대의 혼」을 보유할 경우 {0} 길게 누르기",
+        "InputList": [
+          "攻击"
+        ]
+      },
+      "120703": {
+        "Desc": "일반 공격 · 별의 소멸: 공중에서 {0} 길게 누르기 + 착지 후 {0} 짧게 누르기",
+        "InputList": [
+          "攻击"
+        ]
+      },
+      "120704": {
+        "Desc": "지금이야, 경기장을 뜨겁게 불태워: 「늑대의 혼」이 가득 찰 경우 {0} 짧게 누르고, 다른 캐릭터로 전환한 후 {1} 짧게 누르기",
+        "InputList": [
+          "技能1",
+          "大招"
+        ]
+      },
+      "120705": {
+        "Desc": "추적 사냥: 루파가 공명 해방 발동 후 파티 내 캐릭터는 추적 사냥 버프를 획득하고, 피해 보너스가 증가되며, 파티 내 캐릭터가 변주 스킬을 발동하면 추적 사냥 효과를 강화할 수 있다",
+        "InputList": [
+          "大招"
+        ]
+      },
+      "120706": {
+        "Desc": "변주 스킬 넌 도망칠 수 없어!: 추적 사냥 효과가 최대치까지 강화된 후, 루파는 변주 스킬을 발동한다",
+        "InputList": [
+          "攻击"
+        ]
+      }
+    },
+    "Icon": "/Game/Aki/UI/UIResources/UiRole/Image/T_RoleSkillTreeLupa.T_RoleSkillTreeLupa",
+    "DescList": [
+      "공격으로 목표 명중 시 특수 에너지 「늑대의 불」을 회복한다. 50pt 이상의 「늑대의 불」을 보유할 경우 강공격 혹은 공중 공격 3단을 발동하고 「늑대의 불」을 소모하여 「늑대의 혼」을 획득할 수 있다",
+      "「늑대의 혼」이 가득 찰 시 강화된 공명 스킬을 발동할 수 있다"
+    ]
+  },
+  "Live2d": "Lupa",
+  "Audio": "lupa",
+  "Recommend": {
+    "Weapon": [
+      21010036,
+      21010015,
+      21010074
+    ],
+    "Property": "",
+    "Param": []
+  }
+}

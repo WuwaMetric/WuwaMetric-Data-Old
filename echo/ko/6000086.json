@@ -1,0 +1,115 @@
+{
+  "Id": 6000086,
+  "Code": "H71-",
+  "Name": "악몽 · 폭주의 고릴라",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_YZ_33014_UI.T_IconMonsterHead_YZ_33014_UI",
+  "Skill": {
+    "Desc": "에코 어빌리티를 사용하여 악몽 · 폭주의 고릴라를 소환해 적을 공격하고 {0}의 기류 피해를 입힌다. 남겨진 「바람의 기둥」은 지속적으로 주변의 적을 공격하고, 적에게 최대 5단, 매 단마다 {1}의 기류 피해를 입힌다.\n메인 슬롯에 해당 에코 어빌리티를 장착 시 자신의 기류 피해 보너스가 {2} 증가하고 강공격 피해 보너스가 {3} 증가한다.\n스킬 쿨타임: {4}초",
+    "SimpleDesc": "악몽 · 폭주의 고릴라를 소환하여 적을 공격하고 기류 피해를 입힌다. 남겨진 「바람의 기둥」도 주변의 적에게 지속적으로 기류 피해를 입힌다. 메인 슬롯에 장착 시 자신의 기류와 강공격 피해를 증가시킨다",
+    "Param": [
+      [
+        "91.20%",
+        "12.16%",
+        "12.00%",
+        "12.00%",
+        "20"
+      ],
+      [
+        "109.44%",
+        "14.59%",
+        "12.00%",
+        "12.00%",
+        "20"
+      ],
+      [
+        "127.68%",
+        "17.02%",
+        "12.00%",
+        "12.00%",
+        "20"
+      ],
+      [
+        "145.92%",
+        "19.46%",
+        "12.00%",
+        "12.00%",
+        "20"
+      ],
+      [
+        "164.16%",
+        "21.89%",
+        "12.00%",
+        "12.00%",
+        "20"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_Mstskil_996_UI.T_Mstskil_996_UI",
+    "Damage": {
+      "28001801": {
+        "Element": 4,
+        "RelatedProperty": "공격력",
+        "Type": 5,
+        "RateLv": [
+          9120,
+          10944,
+          12768,
+          14592,
+          16416
+        ],
+        "Energy": 228,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 9120
+      },
+      "28001802": {
+        "Element": 4,
+        "RelatedProperty": "공격력",
+        "Type": 5,
+        "RateLv": [
+          1216,
+          1459,
+          1702,
+          1945,
+          2188
+        ],
+        "Energy": 30,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 1216
+      }
+    }
+  },
+  "Group": {
+    "4": {
+      "Id": 4,
+      "Name": "스쳐가는 바람",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriWind.T_IconElementAttriWind",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "기류 피해가 10% 증가된다",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "변주 스킬을 사용하여 등장 시, 기류 피해가 30% 증가하고, 15초 동안 지속된다",
+          "Param": [
+            "30%"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 2,
+  "MonsterInfo": 330000140
+}

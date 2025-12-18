@@ -1,0 +1,108 @@
+{
+  "Id": 6000075,
+  "Code": "W66-",
+  "Name": "Nocturnus Knight",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_32024_UI.T_IconMonsterHead_32024_UI",
+  "Skill": {
+    "Desc": "Transform into Nocturnus Knight and strike enemies in front of you from the air, dealing {0} Havoc DMG.\nCD: {1}s.",
+    "SimpleDesc": "Transform into Nocturnus Knight and deal Havoc DMG to enemies.",
+    "Param": [
+      [
+        "149.00%",
+        "15"
+      ],
+      [
+        "178.80%",
+        "15"
+      ],
+      [
+        "208.60%",
+        "15"
+      ],
+      [
+        "238.40%",
+        "15"
+      ],
+      [
+        "268.20%",
+        "15"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/MstSkil_32024_UI.MstSkil_32024_UI",
+    "Damage": {
+      "20005801": {
+        "Element": 6,
+        "RelatedProperty": "ATK",
+        "Type": 5,
+        "RateLv": [
+          14900,
+          17880,
+          20860,
+          23840,
+          26820
+        ],
+        "Energy": 372,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 14900
+      }
+    }
+  },
+  "Group": {
+    "12": {
+      "Id": 12,
+      "Name": "Midnight Veil",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriDarkAssist.T_IconElementAttriDarkAssist",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "Havoc DMG + {0}",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "When Outro Skill is triggered, deal additional {0} Havoc DMG to surrounding enemies, considered Outro Skill DMG, and grant the incoming Resonator {1} Havoc DMG Bonus for {2}s.",
+          "Param": [
+            "480%",
+            "15%",
+            "15"
+          ]
+        }
+      }
+    },
+    "13": {
+      "Id": 13,
+      "Name": "Empyrean Anthem",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriCooperate.T_IconElementAttriCooperate",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "Energy Regen + {0}",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "Increase the Resonator's Coordinated Attack DMG by {0}. Upon a critical hit of Coordinated Attack, increase the active Resonator's ATK by {1} for {2}s.",
+          "Param": [
+            "80%",
+            "20%",
+            "4"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 1,
+  "MonsterInfo": 320000240
+}

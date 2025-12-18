@@ -1,0 +1,91 @@
+{
+  "Id": 6000085,
+  "Code": "W93-",
+  "Name": "Hecate",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34010_1_UI.T_IconMonsterHead_34010_1_UI",
+  "Skill": {
+    "Desc": "Summon 3 twirling Crescent Servants around you. Crescent Servants attack enemies with their spinning blades, dealing {0} Havoc DMG. Triggering a Counterattack with the Echo attacks resets the Crescent Servants' duration.\nThe Resonator with this Echo equipped in the main slot has their Coordinated Attack DMG increased by {1}.\nCD: {2}s.",
+    "SimpleDesc": "Summon Crescent Servants to deal Havoc DMG to enemies. Triggering a Counterattack with the attacks resets the summon duration. Equipping this Echo in the main slot increases Coordinated Attack DMG.",
+    "Param": [
+      [
+        "25.33%",
+        "40.00%",
+        "20"
+      ],
+      [
+        "30.40%",
+        "40.00%",
+        "20"
+      ],
+      [
+        "35.46%",
+        "40.00%",
+        "20"
+      ],
+      [
+        "40.53%",
+        "40.00%",
+        "20"
+      ],
+      [
+        "45.59%",
+        "40.00%",
+        "20"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/MstSkil_34010_UI.MstSkil_34010_UI",
+    "Damage": {
+      "28001601": {
+        "Element": 6,
+        "RelatedProperty": "ATK",
+        "Type": 5,
+        "RateLv": [
+          2533,
+          3040,
+          3546,
+          4053,
+          4559
+        ],
+        "Energy": 63,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 0
+      }
+    }
+  },
+  "Group": {
+    "13": {
+      "Id": 13,
+      "Name": "Empyrean Anthem",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriCooperate.T_IconElementAttriCooperate",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "Energy Regen + {0}",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "Increase the Resonator's Coordinated Attack DMG by {0}. Upon a critical hit of Coordinated Attack, increase the active Resonator's ATK by {1} for {2}s.",
+          "Param": [
+            "80%",
+            "20%",
+            "4"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 3,
+  "MonsterInfo": 340000100
+}

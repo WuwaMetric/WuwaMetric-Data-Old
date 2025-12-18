@@ -1,0 +1,150 @@
+{
+  "Id": 6000077,
+  "Code": "W68-",
+  "Name": "アビサル・グラディウス",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_32026_UI.T_IconMonsterHead_32026_UI",
+  "Skill": {
+    "Desc": "音骸スキルを発動すると、アビサル・グラディウスに変身し、斬撃で前方の敵に{0}の凝縮ダメージを与える。\n音骸スキルを長押しで変身状態を持続させ、一定時間後に斬撃してさらに前へ斬撃波を放ち、それぞれ{1}、{2}の凝縮ダメージを与える。\nクールタイム：{3}秒",
+    "SimpleDesc": "アビサル・グラディウスに変身し、斬撃で前方の敵に凝縮ダメージを与える。音骸スキルを長押しすることで、溜め後に遠距離斬撃を発動でき、前方の敵に凝縮ダメージを与える。",
+    "Param": [
+      [
+        "149.00%",
+        "149.00%",
+        "372.50%",
+        "15"
+      ],
+      [
+        "178.80%",
+        "178.80%",
+        "447.00%",
+        "15"
+      ],
+      [
+        "208.60%",
+        "208.60%",
+        "521.50%",
+        "15"
+      ],
+      [
+        "238.40%",
+        "238.40%",
+        "596.00%",
+        "15"
+      ],
+      [
+        "268.20%",
+        "268.20%",
+        "670.50%",
+        "15"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/MstSkil_32027_UI.MstSkil_32027_UI",
+    "Damage": {
+      "20005901": {
+        "Element": 1,
+        "RelatedProperty": "攻撃力",
+        "Type": 5,
+        "RateLv": [
+          14900,
+          17880,
+          20860,
+          23840,
+          26820
+        ],
+        "Energy": 372,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 14900
+      },
+      "20005902": {
+        "Element": 1,
+        "RelatedProperty": "攻撃力",
+        "Type": 5,
+        "RateLv": [
+          37250,
+          44700,
+          52150,
+          59600,
+          67050
+        ],
+        "Energy": 931,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 37250
+      }
+    }
+  },
+  "Group": {
+    "12": {
+      "Id": 12,
+      "Name": "ミッドナイト・ベール",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriDarkAssist.T_IconElementAttriDarkAssist",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "消滅ダメージが{0}アップ",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "終奏スキルで退場時、追加で周囲の敵に{0}の消滅ダメージを与え、このダメージは終奏スキルダメージと見なされる。次の登場キャラに{1}の消滅ダメージアップ効果を付与し、{2}秒間持続。",
+          "Param": [
+            "480%",
+            "15%",
+            "15"
+          ]
+        }
+      }
+    },
+    "14": {
+      "Id": 14,
+      "Name": "タイズターニング・ヴァラ",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriEnergy.T_IconElementAttriEnergy",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "共鳴効率が{0}アップ",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "キャラの攻撃力が{0}アップ、共鳴効率が{1}以上時、装備キャラの全属性ダメージが{2}アップ。",
+          "Param": [
+            "15%",
+            "250%",
+            "30%"
+          ]
+        }
+      }
+    },
+    "23": {
+      "Id": 23,
+      "Name": "命理崩壊の弦",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriQianXiao.T_IconElementAttriQianXiao",
+      "Color": "FFFFFF00",
+      "Set": {
+        "3": {
+          "Desc": "キャラが敵に【虚滅効果】を付与時、自身の攻撃力が{0}アップ、共鳴解放ダメージが{1}アップ、{2}秒間持続。",
+          "Param": [
+            "20%",
+            "30%",
+            "5"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 1,
+  "MonsterInfo": 320000260
+}

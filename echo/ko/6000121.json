@@ -1,0 +1,132 @@
+{
+  "Id": 6000121,
+  "Code": "W87-",
+  "Name": "거짓의 신왕",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34017_UI.T_IconMonsterHead_34017_UI",
+  "Skill": {
+    "Desc": "에코 어빌리티를 사용하여 거짓의 신왕으로 변신한 후 회전하면서 돌진하여 적에게 {0}의 전도 피해를 4단 입힌다.\n메인 슬롯에 해당 에코 어빌리티를 장착 시, 자신의 전도 피해 보너스가 {1} 증가되고, 강공격 피해 보너스가 {2} 증가된다. 변주 스킬을 사용하여 등장 시 거짓의 신왕을 소환하여 적에게 {3}의 전도 피해를 입힌다.\n초기 {4}회 사용 가능 횟수를 보유하며, {5}초마다 사용 횟수가 1회씩 증가하고, 사용 가능 횟수의 누적 최대치는 {6}회이다.\n스킬 쿨타임: {7}초",
+    "SimpleDesc": "거짓의 신왕으로 변신한 후, 주변의 적에게 전도 피해를 입힌다.\n메인 슬롯에 장착 시, 자신의 전도 피해와 강공격 피해를 증가시킨다. 변주 스킬을 사용하여 등장 시 거짓의 신왕을 소환하여 적에게 전도 피해를 입힌다",
+    "Param": [
+      [
+        "30.75%",
+        "12.00%",
+        "12.00%",
+        "225.00%",
+        "2",
+        "8",
+        "2",
+        "8"
+      ],
+      [
+        "36.90%",
+        "12.00%",
+        "12.00%",
+        "270.00%",
+        "2",
+        "8",
+        "2",
+        "8"
+      ],
+      [
+        "43.05%",
+        "12.00%",
+        "12.00%",
+        "315.00%",
+        "2",
+        "8",
+        "2",
+        "8"
+      ],
+      [
+        "49.20%",
+        "12.00%",
+        "12.00%",
+        "360.00%",
+        "2",
+        "8",
+        "2",
+        "8"
+      ],
+      [
+        "55.35%",
+        "12.00%",
+        "12.00%",
+        "405.00%",
+        "2",
+        "8",
+        "2",
+        "8"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_34017_UI.T_MstSkil_34017_UI",
+    "Damage": {
+      "28003101": {
+        "Element": 3,
+        "RelatedProperty": "공격력",
+        "Type": 5,
+        "RateLv": [
+          3075,
+          3690,
+          4305,
+          4920,
+          5535
+        ],
+        "Energy": 76,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 3075
+      },
+      "28003102": {
+        "Element": 3,
+        "RelatedProperty": "공격력",
+        "Type": 5,
+        "RateLv": [
+          22500,
+          27000,
+          31500,
+          36000,
+          40500
+        ],
+        "Energy": 0,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 22500
+      }
+    }
+  },
+  "Group": {
+    "20": {
+      "Id": 20,
+      "Name": "영광의 칼날로 만들어진 왕관",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriShield.T_IconElementAttriShield",
+      "Color": "FFFFFF00",
+      "Set": {
+        "3": {
+          "Desc": "캐릭터가 실드 획득 시, 자신의 공격력이 {0} 증가되고 크리티컬 피해가 {1} 증가된다. 해당 효과는 최대 {2}스택까지 중첩이 가능하며, {3}초간 지속되고 {4}초마다 1회 발생할 수 있다",
+          "Param": [
+            "6%",
+            "4%",
+            "5",
+            "4",
+            "0.5"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 2,
+  "MonsterInfo": 340000170,
+  "Phantom": {
+    "Name": "이상 · 거짓의 신왕",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_SG_34017_UI.T_IconMonsterGoods_SG_34017_UI"
+  }
+}

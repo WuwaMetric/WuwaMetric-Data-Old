@@ -1,0 +1,105 @@
+{
+  "Id": 6000051,
+  "Code": "G05-",
+  "Name": "딩동동",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_1001_UI.T_IconMonsterHead_1001_UI",
+  "Skill": {
+    "Desc": "에코 어빌리티를 사용하여 딩동동을 소환한 후 적을 추적해 자폭한다. 폭발 시 {0}의 응결 피해를 입힌다.\n스킬 쿨타임: {1}초",
+    "SimpleDesc": "딩동동을 소환한 후 적을 추적하여 자폭해 응결 피해를 입힌다",
+    "Param": [
+      [
+        "20.00%+40",
+        "8"
+      ],
+      [
+        "23.00%+46",
+        "8"
+      ],
+      [
+        "26.00%+52",
+        "8"
+      ],
+      [
+        "29.00%+58",
+        "8"
+      ],
+      [
+        "32.00%+64",
+        "8"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_998_UI.T_MstSkil_998_UI",
+    "Damage": {
+      "20005001": {
+        "Element": 1,
+        "RelatedProperty": "공격력",
+        "Type": 5,
+        "RateLv": [
+          0
+        ],
+        "Energy": 275,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 5800
+      }
+    }
+  },
+  "Group": {
+    "1": {
+      "Id": 1,
+      "Name": "야밤의 서리",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriIce.T_IconElementAttriIce",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "응결 피해가 10% 증가된다",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "일반 공격이나 강공격을 사용하면, 응결 피해가 10% 증가, 해당 효과는 3스택 중첩이 가능하며, 15초간 지속된다",
+          "Param": [
+            "30%",
+            "15"
+          ]
+        }
+      }
+    },
+    "5": {
+      "Id": 5,
+      "Name": "빛나는 별",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriLight.T_IconElementAttriLight",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "회절 피해가 10% 증가된다",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "변주 스킬을 사용하여 등장 시, 회절 피해가 30% 증가되고, 15초 동안 지속된다",
+          "Param": [
+            "30%"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 0,
+  "MonsterInfo": 310000340,
+  "Phantom": {
+    "Name": "이상 · 딩동동",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_1015_UI.T_IconMonsterHead_1015_UI"
+  }
+}

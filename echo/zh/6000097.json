@@ -1,0 +1,147 @@
+{
+  "Id": 6000097,
+  "Code": "H47-",
+  "Name": "飓力熊",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_32032_UI.T_IconMonsterHead_32032_UI",
+  "Skill": {
+    "Desc": "使用声骸技能，可幻形为飓力熊向前冲锋，命中时造成{0}的气动伤害，结束时挥击造成{1}的气动伤害。长按可持续冲锋，冲锋过程中再次使用声骸技能可施放挥击。\n技能冷却：{2}秒",
+    "SimpleDesc": "幻形为飓力熊，向前冲锋，造成气动伤害。",
+    "Param": [
+      [
+        "87.00%",
+        "87.00%",
+        "20"
+      ],
+      [
+        "104.40%",
+        "104.40%",
+        "20"
+      ],
+      [
+        "121.80%",
+        "121.80%",
+        "20"
+      ],
+      [
+        "139.20%",
+        "139.20%",
+        "20"
+      ],
+      [
+        "156.60%",
+        "156.60%",
+        "20"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_Mstskil_31032_UI.T_Mstskil_31032_UI",
+    "Damage": {
+      "20008101": {
+        "Element": 4,
+        "RelatedProperty": "攻击",
+        "Type": 5,
+        "RateLv": [
+          8700,
+          10440,
+          12180,
+          13920,
+          15660
+        ],
+        "Energy": 217,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 8700
+      },
+      "20008102": {
+        "Element": 4,
+        "RelatedProperty": "攻击",
+        "Type": 5,
+        "RateLv": [
+          8700,
+          10440,
+          12180,
+          13920,
+          15660
+        ],
+        "Energy": 217,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 8700
+      }
+    }
+  },
+  "Group": {
+    "14": {
+      "Id": 14,
+      "Name": "无惧浪涛之勇",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriEnergy.T_IconElementAttriEnergy",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "共鸣效率提升{0}",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "角色攻击提升{0}，共鸣效率达到{1}后，当前角色全属性伤害提升{2}。",
+          "Param": [
+            "15%",
+            "250%",
+            "30%"
+          ]
+        }
+      }
+    },
+    "16": {
+      "Id": 16,
+      "Name": "流云逝尽之空",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriWindError.T_IconElementAttriWindError",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "气动伤害提升{0}",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "角色为敌人添加【风蚀效应】时，队伍中角色气动伤害提升{0}，自身气动伤害额外提升{1}，持续{2}秒。",
+          "Param": [
+            "15%",
+            "15%",
+            "20"
+          ]
+        }
+      }
+    },
+    "20": {
+      "Id": 20,
+      "Name": "荣斗铸锋之冠",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriShield.T_IconElementAttriShield",
+      "Color": "FFFFFF00",
+      "Set": {
+        "3": {
+          "Desc": "角色获得护盾时，自身攻击提升{0}，暴击伤害提升{1}，该效果可叠加{2}层，持续{3}秒，每{4}秒可触发一次。",
+          "Param": [
+            "6%",
+            "4%",
+            "5",
+            "4",
+            "0.5"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 1,
+  "MonsterInfo": 320000320
+}

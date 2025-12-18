@@ -1,0 +1,82 @@
+{
+  "Id": 6000164,
+  "Code": "W27-",
+  "Name": "악몽 · 부메랑 사냥꾼",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31066_UI.T_IconMonsterHead_31066_UI",
+  "Skill": {
+    "Desc": "에코 어빌리티를 사용하여 부메랑 사냥꾼을 소환해 전방에 부메랑 1개를 날려 적에게 명중 시 1회 발사가 진행되며 최대 3회까지 발사가 진행된다. 명중할 때마다 {0}의 기류 피해를 입힌다.\n스킬 쿨타임: {1}초",
+    "SimpleDesc": "부메랑 사냥꾼을 소환한 후 부메랑을 던져 기류 피해를 입힌다",
+    "Param": [
+      [
+        "18.00%",
+        "8"
+      ],
+      [
+        "20.70%",
+        "8"
+      ],
+      [
+        "23.40%",
+        "8"
+      ],
+      [
+        "26.10%",
+        "8"
+      ],
+      [
+        "28.80%",
+        "8"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_235_UI.T_MstSkil_235_UI",
+    "Damage": {
+      "20001601": {
+        "Element": 4,
+        "RelatedProperty": "공격력",
+        "Type": 5,
+        "RateLv": [
+          1800,
+          2070,
+          2340,
+          2610,
+          2880
+        ],
+        "Energy": 45,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 1800
+      }
+    }
+  },
+  "Group": {
+    "20": {
+      "Id": 20,
+      "Name": "영광의 칼날로 만들어진 왕관",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriShield.T_IconElementAttriShield",
+      "Color": "FFFFFF00",
+      "Set": {
+        "3": {
+          "Desc": "캐릭터가 실드 획득 시, 자신의 공격력이 {0} 증가되고 크리티컬 피해가 {1} 증가된다. 해당 효과는 최대 {2}스택까지 중첩이 가능하며, {3}초간 지속되고 {4}초마다 1회 발생할 수 있다",
+          "Param": [
+            "6%",
+            "4%",
+            "5",
+            "4",
+            "0.5"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 0,
+  "MonsterInfo": 310000660
+}

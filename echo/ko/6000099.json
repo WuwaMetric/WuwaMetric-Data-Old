@@ -1,0 +1,174 @@
+{
+  "Id": 6000099,
+  "Code": "W33-",
+  "Name": "사지타리오",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31053_UI.T_IconMonsterHead_31053_UI",
+  "Skill": {
+    "Desc": "에코 어빌리티를 사용하여 사지타리오로 변신하고, 일정 거리를 이동한 후 원거리 공격 1회를 가하여, {0}의 회절 피해를 입힌다.\n이동 중 공격을 받으면, 피해를 받지 않고 강화된 반격을 발생시켜, {1}의 회절 피해를 1회 입히고 {2}의 회절 피해를 5회 입힌다.\n쿨타임: {3}초",
+    "SimpleDesc": "사지타리오로 변신하여, 일정 거리를 이동하고 적에게 회절 피해를 입힌다. 이동 중 공격을 받으면, 피해를 받지 않고 강화된 반격을 발생시킬 수 있다",
+    "Param": [
+      [
+        "149.00%",
+        "149.00%",
+        "29.80%",
+        "15"
+      ],
+      [
+        "178.80%",
+        "178.80%",
+        "35.76%",
+        "15"
+      ],
+      [
+        "208.60%",
+        "208.60%",
+        "41.72%",
+        "15"
+      ],
+      [
+        "238.40%",
+        "238.40%",
+        "47.68%",
+        "15"
+      ],
+      [
+        "268.20%",
+        "268.20%",
+        "53.64%",
+        "15"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_Mstskil_31053.T_Mstskil_31053",
+    "Damage": {
+      "20008301": {
+        "Element": 5,
+        "RelatedProperty": "공격력",
+        "Type": 5,
+        "RateLv": [
+          14900,
+          17880,
+          20860,
+          23840,
+          26820
+        ],
+        "Energy": 372,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 14900
+      },
+      "20008302": {
+        "Element": 5,
+        "RelatedProperty": "공격력",
+        "Type": 5,
+        "RateLv": [
+          14900,
+          17880,
+          20860,
+          23840,
+          26820
+        ],
+        "Energy": 372,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 14900
+      },
+      "20008303": {
+        "Element": 5,
+        "RelatedProperty": "공격력",
+        "Type": 5,
+        "RateLv": [
+          2980,
+          3576,
+          4172,
+          4768,
+          5364
+        ],
+        "Energy": 74,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 2980
+      }
+    }
+  },
+  "Group": {
+    "11": {
+      "Id": 11,
+      "Name": "영원의 광채",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriLightError.T_IconElementAttriLightError",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "회절 피해가 {0} 증가된다",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "캐릭터가 적에게 「광학 효과」를 추가 시, 자신의 크리티컬이 {0} 증가되고 {1}초간 지속된다. 「광학 효과」가 {2}스택인 적을 공격 시, 자신의 회절 피해 보너스가 {3} 증가되고 {4}초간 지속된다",
+          "Param": [
+            "20%",
+            "15",
+            "10",
+            "15%",
+            "15"
+          ]
+        }
+      }
+    },
+    "16": {
+      "Id": 16,
+      "Name": "끝없는 하늘",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriWindError.T_IconElementAttriWindError",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "기류 피해가 {0} 증가된다",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "캐릭터가 적에게 「풍식 효과」를 추가 시, 파티 내 캐릭터의 기류 피해가 {0} 증가되고, 자신의 기류 피해가 추가로 {1} 증가되며, {2}초간 지속된다",
+          "Param": [
+            "15%",
+            "15%",
+            "20"
+          ]
+        }
+      }
+    },
+    "18": {
+      "Id": 18,
+      "Name": "울부짖는 늑대의 불꽃",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriFireUltimateSkill.T_IconElementAttriFireUltimateSkill",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "용융 피해가 {0} 증가된다",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "공명 해방 발동 시, 파티 내 캐릭터의 용융 피해가 {0} 증가되고, 자신의 공명 해방 피해가 {1} 증가되며, {2}초간 지속된다",
+          "Param": [
+            "15%",
+            "20%",
+            "35"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 0,
+  "MonsterInfo": 310000530
+}

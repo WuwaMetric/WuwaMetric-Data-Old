@@ -1,0 +1,117 @@
+{
+  "Id": 6000089,
+  "Code": "W75-",
+  "Name": "ナイトメア・雷刹のウロコ",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_YZ_33017_UI.T_IconMonsterHead_YZ_33017_UI",
+  "Skill": {
+    "Desc": "音骸スキルを発動すると、ナイトメア・雷刹のウロコに変身し、周囲の敵に{0}の電導ダメージを与える。\nメイン音骸スロットに装備時、自身の電導ダメージが{1}アップ、共鳴スキルダメージが{2}アップ。\nクールタイム：{3}秒",
+    "SimpleDesc": "ナイトメア・雷刹のウロコに変身し、周囲の敵に電導ダメージを与える。メイン音骸スロットに装備時、自身の電導ダメージと共鳴スキルダメージがアップ。",
+    "Param": [
+      [
+        "225.00%",
+        "12.00%",
+        "12.00%",
+        "25"
+      ],
+      [
+        "270.00%",
+        "12.00%",
+        "12.00%",
+        "25"
+      ],
+      [
+        "315.00%",
+        "12.00%",
+        "12.00%",
+        "25"
+      ],
+      [
+        "360.00%",
+        "12.00%",
+        "12.00%",
+        "25"
+      ],
+      [
+        "405.00%",
+        "12.00%",
+        "12.00%",
+        "25"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_Z_B3_UI.T_MstSkil_Z_B3_UI",
+    "Damage": {
+      "28002101": {
+        "Element": 3,
+        "RelatedProperty": "攻撃力",
+        "Type": 5,
+        "RateLv": [
+          22500,
+          27000,
+          31500,
+          36000,
+          40500
+        ],
+        "Energy": 562,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 22500
+      }
+    }
+  },
+  "Group": {
+    "3": {
+      "Id": 3,
+      "Name": "空を切り裂く冥雷",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriThunder.T_IconElementAttriThunder",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "電導ダメージが10%アップ",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "重撃、共鳴スキルを発動する時、電導ダメージが15%アップ、この効果は最大2スタック、1スタックごと15秒間持続する",
+          "Param": [
+            "15%",
+            "15"
+          ]
+        }
+      }
+    },
+    "13": {
+      "Id": 13,
+      "Name": "セレッシャル・アンサム",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriCooperate.T_IconElementAttriCooperate",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "共鳴効率が{0}アップ",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "装備キャラの協同攻撃によるダメージが{0}アップ。協同攻撃がクリティカル時、チーム内の登場キャラの攻撃力を{1}アップさせ、{2}秒間持続。",
+          "Param": [
+            "80%",
+            "20%",
+            "4"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 2,
+  "MonsterInfo": 330000170
+}

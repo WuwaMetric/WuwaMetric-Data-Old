@@ -1,0 +1,124 @@
+{
+  "Id": 6000109,
+  "Code": "H31-",
+  "Name": "ドレイクの幼体・消滅",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31060_UI.T_IconMonsterHead_31060_UI",
+  "Skill": {
+    "Desc": "音骸スキルを発動すると、ドレイクの幼体・消滅を召喚して{0}の消滅ダメージを与える。\nクールタイム：{1}秒",
+    "SimpleDesc": "ドレイクの幼体・消滅を召喚して消滅ダメージを与える。",
+    "Param": [
+      [
+        "72.00%",
+        "8"
+      ],
+      [
+        "86.40%",
+        "8"
+      ],
+      [
+        "100.80%",
+        "8"
+      ],
+      [
+        "115.20%",
+        "8"
+      ],
+      [
+        "129.60%",
+        "8"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_31060_UI.T_MstSkil_31060_UI",
+    "Damage": {
+      "20009101": {
+        "Element": 6,
+        "RelatedProperty": "攻撃力",
+        "Type": 5,
+        "RateLv": [
+          7200,
+          8640,
+          10080,
+          11520,
+          12960
+        ],
+        "Energy": 180,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 7200
+      }
+    }
+  },
+  "Group": {
+    "17": {
+      "Id": 17,
+      "Name": "グロリアス・ウィンド",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriWindErrorA.T_IconElementAttriWindErrorA",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "気動ダメージが{0}アップ",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "【風蝕効果】が付与されている敵への攻撃が命中時、自身のクリティカル率が{0}アップ、気動ダメージが{1}アップ、{2}秒間持続。",
+          "Param": [
+            "10%",
+            "30%",
+            "10"
+          ]
+        }
+      }
+    },
+    "18": {
+      "Id": 18,
+      "Name": "ハウリング・フレイム",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriFireUltimateSkill.T_IconElementAttriFireUltimateSkill",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "焦熱ダメージが{0}アップ",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "共鳴解放発動時、チーム内全員の焦熱ダメージが{0}アップ、自身の共鳴解放ダメージが{1}アップ、{2}秒間持続。",
+          "Param": [
+            "15%",
+            "20%",
+            "35"
+          ]
+        }
+      }
+    },
+    "23": {
+      "Id": 23,
+      "Name": "命理崩壊の弦",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriQianXiao.T_IconElementAttriQianXiao",
+      "Color": "FFFFFF00",
+      "Set": {
+        "3": {
+          "Desc": "キャラが敵に【虚滅効果】を付与時、自身の攻撃力が{0}アップ、共鳴解放ダメージが{1}アップ、{2}秒間持続。",
+          "Param": [
+            "20%",
+            "30%",
+            "5"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 0,
+  "MonsterInfo": 310000600
+}

@@ -1,0 +1,130 @@
+{
+  "Id": 6000101,
+  "Code": "H26-",
+  "Name": "드레이크 · 기류",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31055_UI.T_IconMonsterHead_31055_UI",
+  "Skill": {
+    "Desc": "에코 어빌리티를 사용하여 드레이크 · 기류를 소환하고, {0}의 기류 피해를 입힌다.\n쿨타임: {1}초",
+    "SimpleDesc": "드레이크 · 기류를 소환하여, 적에게 기류 피해를 입힌다",
+    "Param": [
+      [
+        "72.00%",
+        "8"
+      ],
+      [
+        "86.40%",
+        "8"
+      ],
+      [
+        "100.80%",
+        "8"
+      ],
+      [
+        "115.20%",
+        "8"
+      ],
+      [
+        "129.60%",
+        "8"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_Mstskil_31055_UI.T_Mstskil_31055_UI",
+    "Damage": {
+      "20008501": {
+        "Element": 4,
+        "RelatedProperty": "공격력",
+        "Type": 5,
+        "RateLv": [
+          7200,
+          8640,
+          10080,
+          11520,
+          12960
+        ],
+        "Energy": 180,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 7200
+      }
+    }
+  },
+  "Group": {
+    "14": {
+      "Id": 14,
+      "Name": "파도에 맞선 용기",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriEnergy.T_IconElementAttriEnergy",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "공명 효율이 {0} 증가된다",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "캐릭터의 공격력이 {0} 증가되고, 공명 효율이 {1}에 도달한 후 현재 캐릭터의 전체 속성 피해가 {2} 증가된다",
+          "Param": [
+            "15%",
+            "250%",
+            "30%"
+          ]
+        }
+      }
+    },
+    "16": {
+      "Id": 16,
+      "Name": "끝없는 하늘",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriWindError.T_IconElementAttriWindError",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "기류 피해가 {0} 증가된다",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "캐릭터가 적에게 「풍식 효과」를 추가 시, 파티 내 캐릭터의 기류 피해가 {0} 증가되고, 자신의 기류 피해가 추가로 {1} 증가되며, {2}초간 지속된다",
+          "Param": [
+            "15%",
+            "15%",
+            "20"
+          ]
+        }
+      }
+    },
+    "18": {
+      "Id": 18,
+      "Name": "울부짖는 늑대의 불꽃",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriFireUltimateSkill.T_IconElementAttriFireUltimateSkill",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "용융 피해가 {0} 증가된다",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "공명 해방 발동 시, 파티 내 캐릭터의 용융 피해가 {0} 증가되고, 자신의 공명 해방 피해가 {1} 증가되며, {2}초간 지속된다",
+          "Param": [
+            "15%",
+            "20%",
+            "35"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 0,
+  "MonsterInfo": 310000550
+}

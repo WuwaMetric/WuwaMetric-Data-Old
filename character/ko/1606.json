@@ -1,0 +1,4103 @@
+{
+  "Id": 1606,
+  "Rarity": 5,
+  "Weapon": 4,
+  "Element": 6,
+  "Tag": {
+    "3": {
+      "Name": "빠른 협주",
+      "Desc": "짧은 시간에 비교적 높은 협주 효율 보유",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/RoleLabel/SP_RoleLabelA3.SP_RoleLabelA3",
+      "Color": "ff4040"
+    },
+    "5": {
+      "Name": "강공격 피해",
+      "Desc": "비교적 높은 강공격 피해",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/RoleLabel/SP_RoleLabelB2.SP_RoleLabelB2",
+      "Color": "ffde73"
+    },
+    "8": {
+      "Name": "견인",
+      "Desc": "일정 범위 내의 목표를 특정 위치로 끌어당기기 가능",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/RoleLabel/SP_RoleLabelC1.SP_RoleLabelC1",
+      "Color": "77adff"
+    },
+    "14": {
+      "Name": "인멸 피해 부스트",
+      "Desc": "파티 내 특정 캐릭터의 인멸 피해 부스트 가능",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/RoleLabel/SP_RoleLabelD4.SP_RoleLabelD4",
+      "Color": "ff7777"
+    },
+    "20": {
+      "Name": "일반 공격 피해 부스트",
+      "Desc": "파티 내 특정 캐릭터의 일반 공격 피해 부스트 가능",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/RoleLabel/SP_RoleLabelD7.SP_RoleLabelD7",
+      "Color": "ff7777"
+    }
+  },
+  "Name": "로코코",
+  "NickName": "로코코",
+  "Desc": "<te href=850108>우인 극단</te> 조수, 만능 소품 담당자와 즉흥 연극배우를 겸하고 있는 로코코는 극단을 질서정연하게 잘 운영한다.\n로코코가 항상 가지고 다니는, 온 세상을 담은 듯한 진기한 상자는 그녀에 의해 만들어진 또 다른 세상 같기도 하다",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_33_UI.T_IconRoleHead256_33_UI",
+  "Background": "/Game/Aki/UI/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_luokeke_UI.T_IconRole_Pile_luokeke_UI",
+  "BackgroundStand": "/Game/Aki/UI/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyLuokeke.T_ActivityRoleOntrialHalfBodyLuokeke",
+  "CharaInfo": {
+    "Birth": "1월 31일",
+    "Sex": "여성",
+    "Country": "리나시타",
+    "Influence": "우인 극단",
+    "Info": "<te href=850108>우인 극단</te> 조수, 만능 소품 담당자와 즉흥 연극배우를 겸하고 있는 로코코는 극단을 질서정연하게 잘 운영한다.\n로코코가 항상 가지고 다니는, 온 세상을 담은 듯한 진기한 상자는 그녀에 의해 만들어진 또 다른 세상 같기도 하다",
+    "TalentName": "상자 속 펼쳐지는 무대",
+    "TalentDoc": "「극단 떠돌이 의사 베니르의 노트 - R103」\n\n몇 차례의 현장 관찰 및 행위 분석 끝에, 로코코 일등 항해사가 신비한 생물 「<te href=850122>펠로</te>」와 소통할 수 있는 능력을 가졌다는 결론을 얻게 되었다. 「펠로」의 번역을 통해, 이 능력은 더 나아가 다른 <te href=850082>에코</te>와 소통할 수 있는 능력으로 발전되었다. 해당 능력은 어느 정도의 성장성을 보여줬다. 처음에는 말로만 소통이 가능했지만, 지금은 그럴 필요 없이 직접 주파수를 통해 소통할 수 있다.\n\n로코코 일등 항해사가 극단에 가입하고, 「펠로」를 만나고 나서야 점차적으로 그 능력을 드러내는 것으로 보아 「펠로」와 공명한 후천적 공명자일 것으로 추정된다. \n\n비고: 위의 결론은 모두 추론이며, 현재 의료 여건상 더 이상의 유형은 세분화할 수 없었다. 극소수의 확률로 추론해 보면, 일등 항해사는 공명자가 아니라, 단지 특정 주파수와 소통할 수 있는 능력을 가졌을 뿐일 수도 있다. 어? 하지만 특정 주파수랑 소통할 수 있다는 건... 공명자로 간주되어야 하지 않을까...? 음, 시간을 두고 더 생각해 봐야겠다...",
+    "TalentCertification": "「극단 떠돌이 의사 베니르의 노트 - R103」\n\n검사할 때 로코코 일등 항해사는 흰 조개, 해초, 장미 소금, 여과수로 조개 스프를 끓였다.\n스프의 색은 깔끔했고, 조개껍질도 온전했다. 막 익었을 때, 조개와 해초는 하나의 섬과 상자처럼 보였다.\n스프의 모양을 보아, 로코코 일등 항해사의 오감은 예민하고, 정신도 평화로웠으며, 극단을 마음에 두고 있으며, <te href=850073>오버클럭</te>의 위험은 없다.\n\n비고: 스프 치료법을 발명해 찻잔 치료법을 대체한 로코코 일등 항해사는 그야말로 천재라 할 수 있다! 스프의 양이 많아 검사가 끝나고, 모두가 배부르게 한 끼를 먹는데도 충분했으며, 맛도 정말 끝내줬다",
+    "CVNameCn": "Shen Huasang",
+    "CVNameJp": "Kohara Konomi",
+    "CVNameKo": "장미",
+    "CVNameEn": "Holly Earl"
+  },
+  "Stories": [
+    {
+      "Title": "황금 작살",
+      "Content": "낚시꾼 바티르는 어느 날 낚시를 하던 중 위험에 직면했다. 갑자기 수생 <te href=850081>잔상</te>이 나타나 작살을 잡고 맞서 싸웠지만, 결국 잔상에 의해 물속으로 끌려가게 되었다. 다행히 로코코가 낚시 시간이 평소보다 너무 오래 걸린다는 것을 알아차리고 긴급 구조를 요청했고, <te href=850108>우인 극단</te>의 구조 소대를 이끌고 인근 해역을 수색한 끝에 온몸이 물에 젖은 바티르를 발견해 건져 올렸다. \n하지만 바티르와 함께 전투를 치렀던 그 작살은 그렇지 못했다. 작살은 마지막까지 사나운 잔상을 찌른 채, 맑은 소리와 함께 작살과 잔상 모두 바다의 소용돌이에 집어삼켜져 버렸다. \n작살을 잃어버린 바티르는 마치 영혼을 잃어버린 듯 보였다. 심리적 이유인지 다른 이유 때문인지는 알 수 없지만, 작살이 없는 바티르에게는 물고기들도 더 이상 다가오지 않았다. 때로는 오전 내내 자리를 잡고 낚시를 해 봤지만 허탕을 칠 때도 더러 있었다. 바티르는 아무 일도 하지 않은 채 어두운 해변의 모래 위에 누워 잿빛 하늘을 바라볼 수밖에 없었다. 하늘의 구름과 안개마저 물고기 모양으로 변해 자신을 비웃는 듯 멀리 헤엄쳐 갔다.\n\n「아~!」 답답함을 참다못해 그는 크게 소리를 질렀다.\n이에 대답하듯, 겹겹이 쌓인 구름들이 서서히 흩어지며 틈새 사이로 몽롱한 햇빛이 새어 나와 온 하늘이 반짝이는 바다처럼 보였다. 그때 반짝이는 하늘의 바다 한가운데서, 그가 그리워하던 오랜 친구인 자신의 작살이 금빛 햇살로 뒤덮인 채 하늘에서 내려와, 마침내 그의 손아귀로 돌아왔다. 하늘과 바다의 물고기 떼도 작살과 함께 그에게 헤엄쳐 왔다.\n\n바티르의 잿빛 얼굴에 생기가 돌았다. 그는 즉시 정신을 차리고 물고기를 잔뜩 잡아 극단으로 돌아갔다. 로코코와 <te href=850122>펠로</te>는 능숙하게 생선을 받아, 재빠르게 각양각색의 해산물 요리를 한상 가득 요리했다. 숯불 오징어, 크림 바지락탕, 매운맛 생선 스테이크... 모두들 모닥불을 에워싸고 생선을 먹어치우며 칭찬을 하였다. 누군가는 신나서 생선구이를 칼처럼 들고 현장에서 즉석으로 새로운 희극 공연을 하기도 했다. 사람들의 웃음은 극단 안에서 모락모락 피어오르는 생선구이의 연기와 함께 피어올랐다. 바티르는 다시 자신의 존재감을 되찾았고, 그 속에서 낚시의 즐거움을 이어갔다.\n\n로코코와 펠로는 서로 마주 보며 웃더니 오후에 썼던 구름 제조기를 몰래 풀더미 속으로 밀어 넣었다. 물건에는 종종 사람들의 감정과 생각이 담긴다는 것을 소품 담당자인 로코코는 잘 알고 있었다. 그래서 그녀는 그곳이 바다 한가운데든 하늘 위든, 아무리 힘들어도 갖은 방법을 다해 잃어버린 물건들을 찾아온다. 로코코는 물건을 먼저 꼼꼼히 수리한 뒤, 기발한 방법으로 마치 흥분되는 희극 같은 재회를 위한 준비를 한다. 사실 바티르의 황금 작살이 그랬다. \n\n그날부터 극단에는 즉흥 희극 『황금 작살 바티르』가 새롭게 생겨났다. 모두들 싱싱한 생선구이를 신나게 먹으며, 춤을 추며 즉흥 공연을 시작한다"
+    },
+    {
+      "Title": "하나의 항로",
+      "Content": "극단의 일등 항해사가 되기 위해서는 여러 극단적인 해상 상황에 안정적으로 대처하는 것이 필수 조건이다. 그래서 모든 일등 항해사는 극단적인 항해에 대한 시험을 치르게 된다. 항해 거리와 위험 수위로 인해, 이러한 항해의 경우 보통 가장 경험이 풍부한 조타수가 키를 잡게 되는데, 티나는 로코코와 가장 잘 맞는 조타수였다. 설령 배 안에 아이 한 명 밖에 없더라도, 티나는 열심히 배를 운행했다. 그녀가 운행하는 배는 풍랑을 헤치며, 폭풍이 도사리는 어두운 바닷속으로 종횡무진 나아갔고, 캄캄한 바다를 누비며 항해했다.\n\n시작은 괜찮았다. 아무리 거센 파도에도 로코코의 표정은 한결같이 담담했고, 심지어 <te href=850122>펠로</te>가 준 시나리오를 꺼내 여유롭게 읽기까지 했다. 위아래로 흔들리고 때로는 공중을 360도 선회하는 배 위에 로코코는 편안히 앉은 채, 얼굴에 튀는 바닷물을 담담하게 닦아냈다. 마치 격렬히 나뒹구는 에코선이 아닌 극단 텐트에 앉아 있는 듯 보였다. 극단의 소품 담당자이자 즉흥 연극배우인 로코코는 신체 조건과 적응력이 뛰어났다. 게다가 오랜 세월 펠로와 함께 지내며 로코코는 에코의 주파수를 어느 정도 알아들을 수 있었고, 자연히 에코선과 어떻게 소통할지도 알 수 있게 되었다.\n\n배가 해역의 가장 깊은 곳으로 진입하자 상황은 조금 더 악화되어, 수많은 빛나는 두 눈이 어둠 속에서 솟아올랐다. 이들은 이리저리 뛰어다니는 작은 배를 노려보았고, 어둡고 기괴한 소리가 사방에서 들려왔다. 로코코의 표정은 여전히 평온했지만, 이내 시나리오를 집어넣었고, 선실 가장자리를 꼭 잡은 손은 자세히 보면 손가락이 가늘게 떨리고 있었다. 호탕하고 거친 티나조차 로코코의 떨림을 느낄 수 있었고, 위로가 서툰 티나는 어쩔 줄 몰라 큰 소리로 계속 노래하며 에코선을 진정시키려는 게 전부였다. 이런 상황에서 에코선을 조종하려면 단순히 힘에만 의존하기보다 <te href=850082>에코</te>와 공명하는 것이 중요하다는 것을 그녀 역시 알고 있었다. 하지만 지금은 로코코를 돌볼 겨를이 없어 큰 소리로 노래만 부를 수밖에 없었다.\n\n티나가 노래를 부르던 중 귓가에 가볍고 부드러운 흥얼거림이 들려왔고, 그 소리에는 알아채기 어려운 울음소리도 섞여 있었다. 그녀가 곁눈질로 로코코 쪽을 힐끗 바라보니 로코코는 선실에 바짝 기댄 채 티나의 선율에 맞추고 있었다. 그녀는 흥얼거리면서도 일등 항해사로서의 책무를 잊지 않고, 미리 준비한 망원경을 꺼내 올바른 방향을 찾으려고 애썼다. 로코코의 화음과 지휘 아래 티나가 더 크게 노래하자 고음은 마침내 불길한 소음을 압도했고, 작은 배도 다시 정확한 항로에 올라 어둠을 뚫고 새벽을 맞이했다.\n배는 무사히 극단으로 돌아왔고 로코코의 표정은 한결같이 평온했다. 그 후 로코코 일등 항해사는 자주 배를 몰고 바다로 나갔고, 매번 순조로웠다.\n\n「로코코? 그녀는 책임감 있는 일등 항해사이자 사랑이 필요한 소녀죠... 아 참, 좀 음치긴 하지만, 그래도 노래가 나쁘진 않아요.」\n극단에서 특유의 솔직한 성격으로 명성이 자자한 티나는 그녀를 이렇게 평가했다"
+    },
+    {
+      "Title": "낡은 배표",
+      "Content": "루카에게 가장 소중한 것이 있다면 낡은 배표이다. 밤하늘의 별은 빼고 말이다.\n루카는 자신이 어둠의 해변에서 구조되던 날, 로코코 언니가 자신에게 준 것을 기억한다.\n\n로코코 언니는 자신보다 그리 크지도 않고 어린아이처럼 보였지만, 차분하고 일사불란하게 모든 일을 처리할 수 있었다. 표류한 순례자 구조하기, 극단의 식사 준비하기, 선실에서 벌어지는 에피소드 기록하기, 해변의 조개껍데기와 바다반디석 수집하기, 소품 총에 리본 달기 등... 언니는 극단에 새로 들어와 고향을 그리워하며 울고 있는 아이들을 위로하기도 했다.\n\n「루카는 엄마가 보고 싶어, 엄마 보러 갈래... 하지만 가는 배표만 있고 돌아오는 배표는 실수로 잃어버렸어...」\n루카의 손에는 아름다운 필체로 「환상의 섬으로」라고 적힌 배표가 쥐어져 있었고, 거기엔 귀여운 작은 꽃들이 그려져 있었다. \n수도회는 자신들의 권위를 흔들 수 있는 사람들을 모조리 추방하려 했고, 아이들조차 가차 없이 쫓아냈다. 그들에게 이런 귀여운 배표를 만들 만큼의 여유도, 따뜻한 인정도 있을리 없었다.\n로코코는 배표의 정체를 금방 알아차렸지만, 어떻게 말해야 할지 조금 고민했다... 「수도회는 이런 배표를 만들지 않아. 필체로 보니 어떤 여성이 손으로 직접 그린 것 같아」 「가는 배표처럼, 돌아오는 배표도 네 엄마가 널 달래려고 만든 걸 거야. 이런 배표는 진짜 표가 아니라서 잃어버렸다고 걱정할 필요 없어」...라고 말한다면, 루카는 엉엉 울어버릴 거라는 걸 로코코 역시 알고 있었다. \n\n로코코는 잠시 생각하다가 그대로 가버렸다.\n얼마 지나지 않아 로코코는 「돌아오는 배표」를 손에 들고 돌아왔다. 아기자기한 꽃과 조개껍데기가 그려져 있고, 「환상의 섬에 도착하였습니다」라는 도장도 찍혀 있었다. 루카는 배표를 움켜쥔 채 글썽이던 눈물을 멈추고 얼굴에 다시금 웃음을 지었다.\n\n극단의 소품 담당자인 로코코는 재빨리 비슷한 배표 한 장을 만들 수 있었다... 로코코가 처음 섬에 왔을 때 <te href=850122>펠로</te> 역시 비슷한 배표를 만들어준 적이 있었고 그녀는 그 일을 생생히 기억하고 있었다. 그렇기에 그녀는 이런 작은 종이 조각에도 희망의 힘이 담겨 있다는 것을 잘 알고 있었다"
+    },
+    {
+      "Title": "진기한 상자",
+      "Content": "어린 로코코가 어둠의 해변에 맥없이 엎드려 있고, 그 뒤의 순례선은 파도에 부딪혀 산산조각이 나 있었다.\n빛을 잃어가는 그녀의 눈동자에 수많은 <te href=850081>잔상</te>들이 비쳤다. 「순례」의 끝은 여기일까... 그녀는 눈을 감고 「신의 징벌」이 내리기를 기다렸다.\n주위에 속삭이는 소리가 그녀의 고막을 스치고 지나갔지만, 예상한 죽음은 오지 않았다.\n다시 눈을 뜬 그녀 앞에는 기괴한 모양의 상자가 있었고, 긴 손을 뻗더니 그녀를 새로운 삶으로 초대했다.\n\n막 극단에 들어온 로코코는 오랜 시간 동안 의기소침한 상태였다. 그녀의 작은 세계를 구성했던 모든 것이 무너져 내렸기 때문이었다. 그녀는 자신이 금지된 내용의 연극을 공연했기 때문에 추방되었다는 것을 뒤늦게 깨닫게 되었다. 자유분방했던 <te href=850097>라군나</te>는 사라졌고, 온 성에 가득 피었던 꽃들은 불타버린 연극처럼 시들어 버렸다. 순례라는 것은 허술하게 포장된 거짓말일 뿐, 다시 돌아온다는 약속을 믿을 사람은 로코코와 같은 어린아이들뿐이었다. 그녀가 신뢰하던 모든 것이 하루아침에 무너졌고, 그녀는 자신의 순수한 취향이 정말 「옳은 것」인지까지도 의심하기 시작했다... 그리고 무인도에 떨어진 그녀는 당분간 자신의 세계를 재구성할 다른 무언가를 찾을 수 없었다.\n\n「펠로펠로!」 이상한 모양의 캐리어는 「돌아오는 배표」라는 글귀와 함께 귀여운 조개껍데기 그림이 그려진 예쁜 배표를 가지고 왔다.\n「펠로펠로!」 이상한 모양의 캐리어는 노랗게 색이 바랜 시나리오 한 권 건네주었고, 그 시나리오는 <te href=850097>라군나</te>의 과거를 자세히 묘사하며 무죄의 자유를 찬미하고 있었다.\n「펠로펠로!」 이상한 모양의 캐리어는 정교한 가면을 건네주며, 가면의 무늬를 물감으로 꼼꼼히 그린 후 진주와 흰 조개껍데기로 정성껏 장식했다.\n「펠로펠로!」 이상한 모양의 캐리어는 다시 손을 내밀어 로코코를 극단의 공연에 초대했다. 티나는 고음으로 목을 풀었고, 바도리오는 풍선을 매달며 꽃잎을 던졌다. 브렌트는 로프를 타고 공중에서 날아와 커다란 환영 현수막을 펼쳤고, <te href=850122>펠로</te>는 타이밍을 맞춰 리본 총을 터뜨리고 덩실덩실 춤추며 로코코를 무대로 초대했다. 이 허술하지만 떠들썩한 환영식 연극은 로코코에게 연극이 이렇게 즐거울 수 있다는 것을 처음으로 알려주었다.\n이때부터 로코코는 상자 속의 연극으로 자신만의 세계를 다시 만들기 시작했다. 이제 라군나의 빛나는 무대 위에는 하나같이 규율이라는 이름의 그림자를 노래하고 있다는 것을 알게 된 그녀는, 추방된 모든 우인들과 함께 진정한 연극을 통해 거침없이 희로애락을 표현하며 또 다른 낙원을 개척하고 보금자리를 마련하였다.\n\n이제 로코코는 차분한 얼굴로 상자를 타고 극단과 어둠의 해변을 오가며 새로운 순례자들의 구조를 지휘하고, 어렵게 얻은 이 항만의 질서를 관리한다. 겉보기에는 사소해 보이는 이 잡다한 일들은, 그녀에게는 이 집을 짓기 위한 벽돌과 지붕과도 같다. 그녀는 늘 매우 바빠 보이지만, 그 바쁨 속에 그녀의 즐거움이 있다"
+    },
+    {
+      "Title": "새로운 무대",
+      "Content": "극단 내 사람들은 끊임없이 왕래한다. 로코코는 선원들에게 영감을 받아 재미있는 즉흥 연극을 많이 선보인다. 『황금 작살 바티르』, 『물의 지배자 장미 티나』, 『자유로운 브렌트 선장』, 『신비한 보물 상자 <te href=850122>펠로</te>』 등... 지금까지 그녀와 선원들은 탄식 무덤의 섬과 그 주변 해역에서 200여 차례의 순회공연을 펼치며 구석구석을 누볐다. \n극단 사정이 넉넉하지는 못했지만, 소품 담당자로서 로코코는 모두의 일상용품을 소품으로 만들어 연극에 써먹는 데 재주가 있었다. 바티르의 황금 작살은 이미 수좌의 권력을 상징하는 지팡이, 방랑 기사의 날카로운 검, 라 과디어의 총검 역할을 해냈고... <te href=850082>에코</te>선 역시 탈출하는 작은 카약, 풍차 거인의 부츠, 해저 고래의 눈 역할을 맡기도 했다...\n수년간, 로코코는 펠로와 함께 극단 곳곳에 발자취를 남기고, 무덤의 섬 주변의 해역 곳곳을 돌아다닌데다가, 어둠의 해변에서 수백 개의 바다반디석을 줍고, 수천 번의 일출과 일몰을 지켜보았다. 그들은 극단의 다른 사람들처럼 이미 이 세상에 너무 오래 있었다. 극단의 동굴은 밝고 따뜻했지만, 바깥 세상과 고향을 그리워하는 이들이 있을 수 밖에 없었다.\n\n오랫동안 잊혔던 <te href=850102>카니발</te> 노래가 <te href=850097>라군나</te>에 울려 퍼지며, <te href=850103>월계관</te> 쟁취를 축하하는 꽃잎이 거리를 뒤덮었고... 밖에서 떠돌던 <te href=850108>우인 극단</te>도 돛을 올려 귀환할 바람을 기다렸다.\n\n어린 시절의 기억은 희미해졌음에도, 로코코는 선장을 따라 극단 사람들과 함께 다시 한번 라군나 거리에 당당히 발을 내디뎠다. \n마거리트의 식당에서 흘러나오는 갓 구운 피자 냄새, 오디세이 극장에서 울려 퍼지는 웅장한 노랫소리... 그녀는 자신과 함께 했던 사람들에 대한 흐릿해진 기억과 그리움을 떠올렸다. 맑은 하늘에는 금빛 태양이 높이 떠 있었고, 넓은 성안의 거리가 한눈에 들어오며 새로운 무대가 그녀의 눈앞에 펼쳐졌다.\n바람이 불어와 닫힌 상자 문을 열자, 내성적인 소녀는 더 이상 상자 속에 숨지 않고 기지개를 켜며 상자 문을 열고 나왔다. 그녀는 라군나 전체와 함께 더 나은 내일을 향해 걸어 나갔다.\n우인 극단의 일등 항해사 로코코의 유쾌한 즉흥 연극은 라군나 거리 곳곳에서 반드시 다시 피어날 것이다"
+    }
+  ],
+  "Voices": [
+    {
+      "Type": 1,
+      "Title": "마음의 소리 · Ⅰ",
+      "Content": "「보물」 찾기, 어려운 사람 돕기, 무대 꾸미기, 의상 만들기, 무대장치 정비하기... 매일 할 일은 많지만 하나도 힘들지 않아요. 여러분을 기쁘게 해드리는 게 가장 행복한 일이니까",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_luokeke_sys_toplayer01.play_favor_word_luokeke_sys_toplayer01"
+    },
+    {
+      "Type": 1,
+      "Title": "마음의 소리 · Ⅱ",
+      "Content": "이 상자는 보물 상자이기도 하지만 제가 쉬는 공간이기도 해요. 보이는 것보다 안이 더 넓거든요. 수집한 보물들을 보관하기도 하지만, 로코코가 그 밖에도 재밌는 것들을 많이 만들어 놨어요. {PlayerName}도 들어와 보세요. <te href=850122>펠로</te>, 문 좀 열어 봐... 펠로, 문 좀 열어 봐",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_luokeke_sys_toplayer02.play_favor_word_luokeke_sys_toplayer02"
+    },
+    {
+      "Type": 1,
+      "Title": "마음의 소리 · Ⅲ",
+      "Content": "사람들이 그러는데, 로코코가 아무 표정 없이 오버해서 연기를 하면 관객분들이 엄청나게 좋아한대요. 이렇게요. 어때요? {PlayerName}도 웃으셨네요. 그럼, 앞으로도 계속 이렇게 할게요",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_luokeke_sys_toplayer03.play_favor_word_luokeke_sys_toplayer03"
+    },
+    {
+      "Type": 1,
+      "Title": "마음의 소리 · IV",
+      "Content": "극단의 연극은 모든 사람들이 참여해서, 슬픔도 두려움도 잊어버리고 삶의 희망을 되찾게 해 줘요. 슬프고 힘든 일이 있다면 한 번 보러 오세요. 로코코는 {PlayerName}이(가) 행복하길 바라니까요",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_luokeke_sys_toplayer04.play_favor_word_luokeke_sys_toplayer04"
+    },
+    {
+      "Type": 1,
+      "Title": "마음의 소리 · V",
+      "Content": "사람들이 그러는데, 진정한 가족은 서로 돕고 치유해 줄 수 있는 존재래요. 방랑자는 따뜻하고 편안한 사람이니까, 로코코한테는 가족처럼 느껴져요",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_luokeke_sys_toplayer05.play_favor_word_luokeke_sys_toplayer05"
+    },
+    {
+      "Type": 1,
+      "Title": "로코코의 취미",
+      "Content": "수집한 물건들로 무대 소품을 만드는 게 좋아요. 화려하진 않지만... 소품 하나하나가 각자의 이야기를 가지고 극 중에서 다시 소중한 존재로 새로 태어나거든요",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_luokeke_sys_taste.play_favor_word_luokeke_sys_taste"
+    },
+    {
+      "Type": 1,
+      "Title": "로코코의 고민",
+      "Content": "배 위에서 제일 머리 아픈 일은 대청소예요. 여기저기 붙어 있는 해조류랑, 사방에 튄 더러운 물이랑, 갈기갈기 찢어진 돛천이랑... 그럴 때마다 꼭 급한 일이 생긴 것처럼 갑자기 사라지는 누구누구까지... 쾌적한 생활공간과 무대공간이 얼마나 중요한데요. 제 말 맞죠?",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_luokeke_sys_worry.play_favor_word_luokeke_sys_worry"
+    },
+    {
+      "Type": 1,
+      "Title": "좋아하는 음식",
+      "Content": "미트소스 파스타는 정말 맛있어요. 다 함께 모여서 먹으면 더 맛있고요... 식사는 다 같이 해야 더 맛있어서가 아닐까요?",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_luokeke_sys_foodlike.play_favor_word_luokeke_sys_foodlike"
+    },
+    {
+      "Type": 1,
+      "Title": "싫어하는 음식",
+      "Content": "매번 극단에서 술에 취해 곯아떨어진 사람들이 벌여 놓은 난장판을 볼 때마다, 로코코는 남은 술들을 전부 다 바다에 버려버리고 싶어요",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_luokeke_sys_foodhate.play_favor_word_luokeke_sys_foodhate"
+    },
+    {
+      "Type": 1,
+      "Title": "포부와 이상",
+      "Content": "전 언젠가 자유의 연극이 다시 <te href=850097>라군나</te>에서 유행할 거라고 믿어요. 그날이 올 때까지 극단에서 자유의 분위기를 한껏 끌어 올려서, 슬픈 사람들한테는 웃음을 주고, 포기한 사람들한테는 희망을 주고, 두려워하는 사람들한테는 삶의 용기를 줘서 우리가 존재하는 이유를 떠올리게 해주고 싶어요",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_luokeke_sys_dream.play_favor_word_luokeke_sys_dream"
+    },
+    {
+      "Type": 1,
+      "Title": "나의 이야기 · Ⅰ",
+      "Content": "<te href=850122>펠로</te>는 저의 가장 친한 친구이자 대단한 친구예요. 물건들이 가지고 있는 특유의 주파수를 구분할 수도 있고, 제가 수집한 물건들이랑 나쁜 감정, 스트레스, 그리고 영감까지 전부 삼켜서 저장할 수 있거든요. 걱정 마세요. 독이 있거나 위험한 물건, 주인이 있는 물건 같은 건 절대 삼키지 않으니까",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_luokeke_sys_story_obj.play_favor_word_luokeke_sys_story_obj"
+    },
+    {
+      "Type": 1,
+      "Title": "나의 이야기 · Ⅱ",
+      "Content": "해변가에만 있는 「바다반디석」은 제때 줍지 않으면 언젠가 그 빛을 잃고 모래 속에 묻혀버리지만... 곤경에 빠졌던 작고 나약한 「바다반디석」은, <te href=850108>우인 극단</te> 사람들의 보살핌으로 이제는 다른 「바다반디석」을 빛낼 수 있는 존재가 됐어요",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_luokeke_sys_story_exp.play_favor_word_luokeke_sys_story_exp"
+    },
+    {
+      "Type": 1,
+      "Title": "브렌트에 관하여",
+      "Content": "「이 세상에서 가장 위대한 선장」. 브렌트가 다른 사람들한테 자기소개를 할 때면 항상 이렇게 말하라고 했어요. 하지만 정말로, 브렌트가 이끌어준 덕분에 저희 극단은 상상할 수도 없을 만큼 많은 일을 해냈어요. 브렌트가 있는 것만으로도 사람들의 잠재력을 이끌어낼 수 있었으니까요. 사람들의 마음에 스미는 자유분방한 생각이나, 자유롭고 확고한 신념은 선원들의 마음속에 늘 우뚝 솟아있는 돛대와도 같거든요",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_luokeke_sys_about_bulante.play_favor_word_luokeke_sys_about_bulante"
+    },
+    {
+      "Type": 1,
+      "Title": "카를로타에 관하여",
+      "Content": "대가족이란 커다란 배 같은 거예요. 조타수로서 안정적인 항해를 하려면 더 많은 노력이 필요하겠죠. 로코코도 배를 관리하는 일이 얼마나 힘든지 아니까, 카를로타 아가씨의 능력과 용기를 존경하고 있어요",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_luokeke_sys_about_kelaita.play_favor_word_luokeke_sys_about_kelaita"
+    },
+    {
+      "Type": 1,
+      "Title": "젠니에 관하여",
+      "Content": "젠니는 로코코의 마음속에서 가장 어른스러운 존재예요. 함께 있으면 편하고 유쾌한 데다가 든든하기까지 해서, 아무 걱정 할 필요도 없거든요",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_luokeke_sys_about_zanni.play_favor_word_luokeke_sys_about_zanni"
+    },
+    {
+      "Type": 1,
+      "Title": "페비에 관하여",
+      "Content": "<te href=850099>깊은 바다 수도회</te>에 대해서 로코코는 아는 게 많이 없지만... 페비는 상자에 노크를 하고도 <te href=850122>펠로</te>한테 물리지 않은 첫 번째 <te href=850100>성직자</te>예요",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_luokeke_sys_about_feibi.play_favor_word_luokeke_sys_about_feibi"
+    },
+    {
+      "Type": 1,
+      "Title": "생일 축하",
+      "Content": "저희 극단에서 새로운 연극을 만들었는데, 시간이 나시면 꼭 보러오셨으면 좋겠어요. 조금만 내용을 알려 드리면... {PlayerName}이(가) 극 중 꼭 필요한 존재로 나와요. 왜냐하면... 이번 연극은 제가 쓴 건데, 진짜 주인공은 {PlayerName}(이)거든요. 생일 축하해요!",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_luokeke_sys_birthcele.play_favor_word_luokeke_sys_birthcele"
+    },
+    {
+      "Type": 1,
+      "Title": "대기 · Ⅰ",
+      "Content": "공연 시작 *펠로!*",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_luokeke_idle_idle01.play_favor_word_luokeke_idle_idle01"
+    },
+    {
+      "Type": 1,
+      "Title": "대기 · Ⅱ",
+      "Content": "(호흡)",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_luokeke_idle_idle02.play_favor_word_luokeke_idle_idle02"
+    },
+    {
+      "Type": 1,
+      "Title": "대기 · Ⅲ",
+      "Content": "(호흡)",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_luokeke_idle_idle03.play_favor_word_luokeke_idle_idle03"
+    },
+    {
+      "Type": 1,
+      "Title": "자기 소개",
+      "Content": "로코코는 <te href=850108>우인 극단</te>의 부선장이자, 무대 장치 디자이너, 그리고 즉흥 코미디언 역할까지 다 맡고 있어요. 평소에 {PlayerName}한테 재미있는 일이 생기면 저한테도 꼭 알려주세요. <te href=850122>펠로</te>가 {PlayerName}의 영감을 삼키면, 제가 재밌는 연극을 만들 수 있을 거예요",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_luokeke_sys_introduction.play_favor_word_luokeke_sys_introduction"
+    },
+    {
+      "Type": 1,
+      "Title": "시작의 연주",
+      "Content": "세상이란 무대에, 우리는... 연기자예요",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_luokeke_sys_gacha.play_favor_word_luokeke_sys_gacha"
+    },
+    {
+      "Type": 1,
+      "Title": "파티 가입 · Ⅰ",
+      "Content": "<te href=850122>펠로</te> 배가 꼬르르, 아이디어는 스르르",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_luokeke_sys_jointeam_01.play_favor_word_luokeke_sys_jointeam_01"
+    },
+    {
+      "Type": 1,
+      "Title": "파티 가입 · Ⅱ",
+      "Content": "폭풍 제조기, 공간 전환 등불... 로코코한테 좋은 도구가 많아요",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_luokeke_sys_jointeam_02.play_favor_word_luokeke_sys_jointeam_02"
+    },
+    {
+      "Type": 1,
+      "Title": "파티 가입 · Ⅲ",
+      "Content": "웃음을 잃지 말아요",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_luokeke_sys_jointeam_03.play_favor_word_luokeke_sys_jointeam_03"
+    },
+    {
+      "Type": 1,
+      "Title": "돌파 · Ⅰ",
+      "Content": "<te href=850122>펠로</te>가 그러는데, 지금 기분이 너무 좋아서, {PlayerName}을(를) 위해 기쁨의 춤을 추고 싶대요",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_luokeke_sys_rankup01.play_favor_word_luokeke_sys_rankup01"
+    },
+    {
+      "Type": 1,
+      "Title": "돌파 · Ⅱ",
+      "Content": "<te href=850122>펠로</te>가 그러는데, 지금 엄청나게 세져서 한 번에 백 명도 쓰러뜨릴 수 있을 것 같대요",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_luokeke_sys_rankup02.play_favor_word_luokeke_sys_rankup02"
+    },
+    {
+      "Type": 1,
+      "Title": "돌파 · Ⅲ",
+      "Content": "<te href=850122>펠로</te>가 그러는데, {PlayerName}이(가) 전보다 더 마음에 드는 것 같대요. 그리고 힘도 자신감도 훨씬 더 세지고 더 커졌대요",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_luokeke_sys_rankup03.play_favor_word_luokeke_sys_rankup03"
+    },
+    {
+      "Type": 1,
+      "Title": "돌파 · IV",
+      "Content": "<te href=850122>펠로</te>가 그러는데, 드디어 모두를 보호할 수 있게 됐대요",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_luokeke_sys_rankup04.play_favor_word_luokeke_sys_rankup04"
+    },
+    {
+      "Type": 1,
+      "Title": "돌파 · V",
+      "Content": "<te href=850122>펠로</te>가 그러는데, 이렇게 성장할 수 있어서 너무너무 기쁘고, {PlayerName}한테도 정말 감사하대요... 우우... 죄송해요. 사실 펠로는 여태까지 아무 말도 안 했어요. 전부 로코코가 하고 싶던 말이었어요...",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_luokeke_sys_rankup05.play_favor_word_luokeke_sys_rankup05"
+    },
+    {
+      "Type": 2,
+      "Title": "일반 공격",
+      "Content": "*펠로!*",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_luokeke_atk_atk04_01.play_favor_word_luokeke_atk_atk04_01"
+    },
+    {
+      "Type": 2,
+      "Title": "강공격",
+      "Content": "깜짝 놀랐지",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_luokeke_atk_heavyatk_success_03.play_favor_word_luokeke_atk_heavyatk_success_03"
+    },
+    {
+      "Type": 2,
+      "Title": "공중 공격 · Ⅰ",
+      "Content": "받아라",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_luokeke_atk_fallingatk02.play_favor_word_luokeke_atk_fallingatk02"
+    },
+    {
+      "Type": 2,
+      "Title": "공중 공격 · Ⅱ",
+      "Content": "더 많이",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_luokeke_atk_fallingatk03.play_favor_word_luokeke_atk_fallingatk03"
+    },
+    {
+      "Type": 2,
+      "Title": "공중 공격 · Ⅲ",
+      "Content": "질문 금지",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_luokeke_atk_fallingatk04.play_favor_word_luokeke_atk_fallingatk04"
+    },
+    {
+      "Type": 2,
+      "Title": "공명 스킬 · Ⅰ",
+      "Content": "기묘한 폭풍\n *펠~ 로~*",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_luokeke_skill_skill01_01.play_favor_word_luokeke_skill_skill01_01"
+    },
+    {
+      "Type": 2,
+      "Title": "공명 스킬 · Ⅱ",
+      "Content": "폭풍 제조기\n *휘~ 휘~*",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_luokeke_skill_skill01_02.play_favor_word_luokeke_skill_skill01_02"
+    },
+    {
+      "Type": 2,
+      "Title": "공명 스킬 · Ⅲ",
+      "Content": "<te href=850122>펠로</te>, 힘내\n\n*하잇~*",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_luokeke_skill_skill01_03.play_favor_word_luokeke_skill_skill01_03"
+    },
+    {
+      "Type": 2,
+      "Title": "공명 해방 · Ⅰ",
+      "Content": "제가 있는 곳이, 무대죠\n\n*펠로! 흥!*",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_luokeke_burst_burst01_01.play_favor_word_luokeke_burst_burst01_01"
+    },
+    {
+      "Type": 2,
+      "Title": "공명 해방 · Ⅱ",
+      "Content": "소통할 시간이야\n\n*펠로! 후!*",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_luokeke_burst_burst01_02.play_favor_word_luokeke_burst_burst01_02"
+    },
+    {
+      "Type": 2,
+      "Title": "공명 해방 · Ⅲ",
+      "Content": "여기부터는 애드리브예요\n\n*펠로! 펠로!*",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_luokeke_burst_burst01_03.play_favor_word_luokeke_burst_burst01_03"
+    },
+    {
+      "Type": 2,
+      "Title": "변주 스킬",
+      "Content": "화려하게",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_luokeke_skill_qte.play_favor_word_luokeke_skill_qte"
+    },
+    {
+      "Type": 2,
+      "Title": "피격 · Ⅰ",
+      "Content": "윽, 분위기를 망치면...",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_luokeke_com_behitfly_02.play_favor_word_luokeke_com_behitfly_02"
+    },
+    {
+      "Type": 2,
+      "Title": "피격 · Ⅱ",
+      "Content": "이런 장면도 필요하죠...",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_luokeke_com_behitfly_03.play_favor_word_luokeke_com_behitfly_03"
+    },
+    {
+      "Type": 2,
+      "Title": "중상 · Ⅰ",
+      "Content": "뜻밖의 전개...",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_luokeke_com_hpdown01.play_favor_word_luokeke_com_hpdown01"
+    },
+    {
+      "Type": 2,
+      "Title": "중상 · Ⅱ",
+      "Content": "흐름을 바꿔야...",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_luokeke_com_hpdown02.play_favor_word_luokeke_com_hpdown02"
+    },
+    {
+      "Type": 2,
+      "Title": "중상 · Ⅲ",
+      "Content": "두 배로 갚자",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_luokeke_com_hpdown03.play_favor_word_luokeke_com_hpdown03"
+    },
+    {
+      "Type": 2,
+      "Title": "전투불가 · Ⅰ",
+      "Content": "포기해야 할 때인가...",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_luokeke_com_die_01.play_favor_word_luokeke_com_die_01"
+    },
+    {
+      "Type": 2,
+      "Title": "전투불가 · Ⅱ",
+      "Content": "공연 중단...",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_luokeke_com_die_02.play_favor_word_luokeke_com_die_02"
+    },
+    {
+      "Type": 2,
+      "Title": "전투불가 · Ⅲ",
+      "Content": "영감이 사라져요...",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_luokeke_com_die_03.play_favor_word_luokeke_com_die_03"
+    },
+    {
+      "Type": 2,
+      "Title": "에코 어빌리티 · 소환",
+      "Content": "조연 차례네",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_luokeke_skill_hxsummon.play_favor_word_luokeke_skill_hxsummon"
+    },
+    {
+      "Type": 2,
+      "Title": "에코 어빌리티 · 변신",
+      "Content": "분위기를 띄워 줘",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_luokeke_skill_hxchange.play_favor_word_luokeke_skill_hxchange"
+    },
+    {
+      "Type": 2,
+      "Title": "전투 알림",
+      "Content": "잇츠 쇼 타임",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_luokeke_com_engage.play_favor_word_luokeke_com_engage"
+    },
+    {
+      "Type": 2,
+      "Title": "스캔",
+      "Content": "뭔가 있는 것 같아요",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_luokeke_com_scan.play_favor_word_luokeke_com_scan"
+    },
+    {
+      "Type": 2,
+      "Title": "보급 획득 · Ⅰ",
+      "Content": "꼭 필요한 데 쓸게요",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_luokeke_com_openbox_01.play_favor_word_luokeke_com_openbox_01"
+    },
+    {
+      "Type": 2,
+      "Title": "보급 획득 · Ⅱ",
+      "Content": "<te href=850122>펠로</te>, 먹는 거 아니야",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_luokeke_com_openbox_02.play_favor_word_luokeke_com_openbox_02"
+    },
+    {
+      "Type": 2,
+      "Title": "보급 획득 · Ⅲ",
+      "Content": "예쁘게 반짝이고 있어요",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_luokeke_com_openbox_03.play_favor_word_luokeke_com_openbox_03"
+    }
+  ],
+  "Goods": [
+    {
+      "Title": "휴대용 불꽃 소품",
+      "Content": "로코코는 자신이 수집한 버려진 물건들을 개조하여 불꽃놀이 장치를 만들었다.\n평소 말수가 적은 편인 그녀는 흥미로운 일이 벌어지거나 동료들이 재미있는 말을 할 때면 불꽃놀이를 펼쳐 그녀가 좋아하는 드라마틱한 순간에 즐거운 분위기를 더하곤 한다",
+      "Icon": "/Game/Aki/UI/UIResources/UiRole/Image/Treasure/T_Treasure79_UI.T_Treasure79_UI"
+    },
+    {
+      "Title": "펠로의 소품함",
+      "Content": "로코코를 구했던 <te href=850122>펠로</te>는 상자 속 풍부한 연극과 그것이 주는 감정들을 통해 그녀를 성장시켰다.\n펠로의 보살핌 아래, 연극에 대한 로코코의 관심은 펠로만큼이나 풍부해졌다. 그들은 함께 무대 소품을 만들고 무대에 올라 공연하는 최고의 파트너이다. 펠로 역시 그녀의 확연한 변화 덕분에, 백여 년 동안 단단히 굳어 있던 감정이 한결 부드러워졌다. 펠로는 로코코에게 생명을, 로코코 또한 펠로에게 생명을 선사해 준 것이다",
+      "Icon": "/Game/Aki/UI/UIResources/UiRole/Image/Treasure/T_Treasure80_UI.T_Treasure80_UI"
+    },
+    {
+      "Title": "바다반디석 무대 소품",
+      "Content": "바다반디석은 사람들의 생각과 감정의 빛을 담고 있다. 그것은 로코코의 손을 거쳐 무대 소품이 되어 빛을 발한다. 소품의 감정은 연극을 통해 세상 사람들에게 전달되고, 소품의 사상은 연극을 통해 다시 살아난다. 로코코는 이를 통해 떠난 사람들이 여전히 생생하게 곁에 있는 것 같다고 여긴다",
+      "Icon": "/Game/Aki/UI/UIResources/UiRole/Image/Treasure/T_Treasure81_UI.T_Treasure81_UI"
+    }
+  ],
+  "SpecialCook": {
+    "Id": 80001043,
+    "Name": "스쿱 아이스크림",
+    "Desc": "파티 내 모든 공명자의 활공 스태미나 소모를 18% 감소시키며, 30분간 지속된다. 멀티플레이 시 자신의 캐릭터에 대해서만 유효하다",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconCook/T_IconCook_066_UI.T_IconCook_066_UI",
+    "Rarity": 3
+  },
+  "Stats": {
+    "0": {
+      "1": {
+        "Life": 980.0,
+        "Atk": 30.0,
+        "Def": 98.0
+      },
+      "2": {
+        "Life": 1062.516,
+        "Atk": 32.526,
+        "Def": 106.0654
+      },
+      "3": {
+        "Life": 1145.13,
+        "Atk": 35.055,
+        "Def": 114.1406
+      },
+      "4": {
+        "Life": 1227.744,
+        "Atk": 37.584,
+        "Def": 122.2158
+      },
+      "5": {
+        "Life": 1310.26,
+        "Atk": 40.11,
+        "Def": 130.291
+      },
+      "6": {
+        "Life": 1392.874,
+        "Atk": 42.639,
+        "Def": 138.3662
+      },
+      "7": {
+        "Life": 1475.488,
+        "Atk": 45.168,
+        "Def": 146.4414
+      },
+      "8": {
+        "Life": 1558.004,
+        "Atk": 47.694,
+        "Def": 154.5166
+      },
+      "9": {
+        "Life": 1640.618,
+        "Atk": 50.223,
+        "Def": 162.5918
+      },
+      "10": {
+        "Life": 1723.232,
+        "Atk": 52.752,
+        "Def": 170.667
+      },
+      "11": {
+        "Life": 1805.748,
+        "Atk": 55.278,
+        "Def": 178.7422
+      },
+      "12": {
+        "Life": 1888.362,
+        "Atk": 57.807,
+        "Def": 186.8174
+      },
+      "13": {
+        "Life": 1970.976,
+        "Atk": 60.336,
+        "Def": 194.8926
+      },
+      "14": {
+        "Life": 2053.59,
+        "Atk": 62.865,
+        "Def": 202.9678
+      },
+      "15": {
+        "Life": 2136.106,
+        "Atk": 65.391,
+        "Def": 211.043
+      },
+      "16": {
+        "Life": 2218.72,
+        "Atk": 67.92,
+        "Def": 219.1182
+      },
+      "17": {
+        "Life": 2301.334,
+        "Atk": 70.449,
+        "Def": 227.1934
+      },
+      "18": {
+        "Life": 2383.85,
+        "Atk": 72.975,
+        "Def": 235.2686
+      },
+      "19": {
+        "Life": 2466.464,
+        "Atk": 75.504,
+        "Def": 243.3438
+      },
+      "20": {
+        "Life": 2549.078,
+        "Atk": 78.033,
+        "Def": 251.419
+      }
+    },
+    "1": {
+      "20": {
+        "Life": 3202.346,
+        "Atk": 100.533,
+        "Def": 314.9328
+      },
+      "21": {
+        "Life": 3284.96,
+        "Atk": 103.059,
+        "Def": 323.008
+      },
+      "22": {
+        "Life": 3367.574,
+        "Atk": 105.588,
+        "Def": 331.0832
+      },
+      "23": {
+        "Life": 3450.09,
+        "Atk": 108.117,
+        "Def": 339.1584
+      },
+      "24": {
+        "Life": 3532.704,
+        "Atk": 110.646,
+        "Def": 347.2336
+      },
+      "25": {
+        "Life": 3615.318,
+        "Atk": 113.172,
+        "Def": 355.3088
+      },
+      "26": {
+        "Life": 3697.932,
+        "Atk": 115.701,
+        "Def": 363.384
+      },
+      "27": {
+        "Life": 3780.448,
+        "Atk": 118.23,
+        "Def": 371.4592
+      },
+      "28": {
+        "Life": 3863.062,
+        "Atk": 120.756,
+        "Def": 379.5344
+      },
+      "29": {
+        "Life": 3945.676,
+        "Atk": 123.285,
+        "Def": 387.6096
+      },
+      "30": {
+        "Life": 4028.192,
+        "Atk": 125.814,
+        "Def": 395.6848
+      },
+      "31": {
+        "Life": 4110.806,
+        "Atk": 128.34,
+        "Def": 403.76
+      },
+      "32": {
+        "Life": 4193.42,
+        "Atk": 130.869,
+        "Def": 411.8352
+      },
+      "33": {
+        "Life": 4275.936,
+        "Atk": 133.398,
+        "Def": 419.9104
+      },
+      "34": {
+        "Life": 4358.55,
+        "Atk": 135.924,
+        "Def": 427.9856
+      },
+      "35": {
+        "Life": 4441.164,
+        "Atk": 138.453,
+        "Def": 436.0608
+      },
+      "36": {
+        "Life": 4523.778,
+        "Atk": 140.982,
+        "Def": 444.136
+      },
+      "37": {
+        "Life": 4606.294,
+        "Atk": 143.511,
+        "Def": 452.2112
+      },
+      "38": {
+        "Life": 4688.908,
+        "Atk": 146.037,
+        "Def": 460.2864
+      },
+      "39": {
+        "Life": 4771.522,
+        "Atk": 148.566,
+        "Def": 468.3616
+      },
+      "40": {
+        "Life": 4854.038,
+        "Atk": 151.095,
+        "Def": 476.4368
+      }
+    },
+    "2": {
+      "40": {
+        "Life": 5507.404,
+        "Atk": 173.595,
+        "Def": 539.9506
+      },
+      "41": {
+        "Life": 5590.018,
+        "Atk": 176.121,
+        "Def": 548.0258
+      },
+      "42": {
+        "Life": 5672.534,
+        "Atk": 178.65,
+        "Def": 556.101
+      },
+      "43": {
+        "Life": 5755.148,
+        "Atk": 181.179,
+        "Def": 564.1762
+      },
+      "44": {
+        "Life": 5837.762,
+        "Atk": 183.705,
+        "Def": 572.2514
+      },
+      "45": {
+        "Life": 5920.278,
+        "Atk": 186.234,
+        "Def": 580.3266
+      },
+      "46": {
+        "Life": 6002.892,
+        "Atk": 188.763,
+        "Def": 588.4018
+      },
+      "47": {
+        "Life": 6085.506,
+        "Atk": 191.292,
+        "Def": 596.477
+      },
+      "48": {
+        "Life": 6168.12,
+        "Atk": 193.818,
+        "Def": 604.5522
+      },
+      "49": {
+        "Life": 6250.636,
+        "Atk": 196.347,
+        "Def": 612.6274
+      },
+      "50": {
+        "Life": 6333.25,
+        "Atk": 198.876,
+        "Def": 620.7026
+      }
+    },
+    "3": {
+      "50": {
+        "Life": 6986.616,
+        "Atk": 221.376,
+        "Def": 684.2164
+      },
+      "51": {
+        "Life": 7069.132,
+        "Atk": 223.902,
+        "Def": 692.2916
+      },
+      "52": {
+        "Life": 7151.746,
+        "Atk": 226.431,
+        "Def": 700.3668
+      },
+      "53": {
+        "Life": 7234.36,
+        "Atk": 228.96,
+        "Def": 708.442
+      },
+      "54": {
+        "Life": 7316.876,
+        "Atk": 231.486,
+        "Def": 716.5172
+      },
+      "55": {
+        "Life": 7399.49,
+        "Atk": 234.015,
+        "Def": 724.5924
+      },
+      "56": {
+        "Life": 7482.104,
+        "Atk": 236.544,
+        "Def": 732.6676
+      },
+      "57": {
+        "Life": 7564.718,
+        "Atk": 239.073,
+        "Def": 740.7428
+      },
+      "58": {
+        "Life": 7647.234,
+        "Atk": 241.599,
+        "Def": 748.818
+      },
+      "59": {
+        "Life": 7729.848,
+        "Atk": 244.128,
+        "Def": 756.8932
+      },
+      "60": {
+        "Life": 7812.462,
+        "Atk": 246.657,
+        "Def": 764.9684
+      }
+    },
+    "4": {
+      "60": {
+        "Life": 8465.73,
+        "Atk": 269.157,
+        "Def": 828.492
+      },
+      "61": {
+        "Life": 8548.344,
+        "Atk": 271.683,
+        "Def": 836.5672
+      },
+      "62": {
+        "Life": 8630.958,
+        "Atk": 274.212,
+        "Def": 844.6424
+      },
+      "63": {
+        "Life": 8713.474,
+        "Atk": 276.741,
+        "Def": 852.7176
+      },
+      "64": {
+        "Life": 8796.088,
+        "Atk": 279.267,
+        "Def": 860.7928
+      },
+      "65": {
+        "Life": 8878.702,
+        "Atk": 281.796,
+        "Def": 868.868
+      },
+      "66": {
+        "Life": 8961.218,
+        "Atk": 284.325,
+        "Def": 876.9334
+      },
+      "67": {
+        "Life": 9043.832,
+        "Atk": 286.851,
+        "Def": 885.0086
+      },
+      "68": {
+        "Life": 9126.446,
+        "Atk": 289.38,
+        "Def": 893.0838
+      },
+      "69": {
+        "Life": 9209.06,
+        "Atk": 291.909,
+        "Def": 901.159
+      },
+      "70": {
+        "Life": 9291.576,
+        "Atk": 294.438,
+        "Def": 909.2342
+      }
+    },
+    "5": {
+      "70": {
+        "Life": 9944.942,
+        "Atk": 309.438,
+        "Def": 972.7578
+      },
+      "71": {
+        "Life": 10027.556,
+        "Atk": 311.964,
+        "Def": 980.833
+      },
+      "72": {
+        "Life": 10110.072,
+        "Atk": 314.493,
+        "Def": 988.9082
+      },
+      "73": {
+        "Life": 10192.686,
+        "Atk": 317.022,
+        "Def": 996.9834
+      },
+      "74": {
+        "Life": 10275.3,
+        "Atk": 319.548,
+        "Def": 1005.0586
+      },
+      "75": {
+        "Life": 10357.816,
+        "Atk": 322.077,
+        "Def": 1013.1338
+      },
+      "76": {
+        "Life": 10440.43,
+        "Atk": 324.606,
+        "Def": 1021.209
+      },
+      "77": {
+        "Life": 10523.044,
+        "Atk": 327.132,
+        "Def": 1029.2842
+      },
+      "78": {
+        "Life": 10605.56,
+        "Atk": 329.661,
+        "Def": 1037.3594
+      },
+      "79": {
+        "Life": 10688.174,
+        "Atk": 332.19,
+        "Def": 1045.4346
+      },
+      "80": {
+        "Life": 10770.788,
+        "Atk": 334.719,
+        "Def": 1053.5098
+      }
+    },
+    "6": {
+      "80": {
+        "Life": 11424.154,
+        "Atk": 349.719,
+        "Def": 1117.0236
+      },
+      "81": {
+        "Life": 11506.67,
+        "Atk": 352.245,
+        "Def": 1125.0988
+      },
+      "82": {
+        "Life": 11589.284,
+        "Atk": 354.774,
+        "Def": 1133.174
+      },
+      "83": {
+        "Life": 11671.898,
+        "Atk": 357.303,
+        "Def": 1141.2492
+      },
+      "84": {
+        "Life": 11754.414,
+        "Atk": 359.829,
+        "Def": 1149.3244
+      },
+      "85": {
+        "Life": 11837.028,
+        "Atk": 362.358,
+        "Def": 1157.3996
+      },
+      "86": {
+        "Life": 11919.642,
+        "Atk": 364.887,
+        "Def": 1165.4748
+      },
+      "87": {
+        "Life": 12002.158,
+        "Atk": 367.413,
+        "Def": 1173.55
+      },
+      "88": {
+        "Life": 12084.772,
+        "Atk": 369.942,
+        "Def": 1181.6252
+      },
+      "89": {
+        "Life": 12167.386,
+        "Atk": 372.471,
+        "Def": 1189.7004
+      },
+      "90": {
+        "Life": 12250.0,
+        "Atk": 375.0,
+        "Def": 1197.7756
+      }
+    }
+  },
+  "LevelEXP": [
+    0,
+    400,
+    400,
+    500,
+    600,
+    700,
+    900,
+    1000,
+    1200,
+    1300,
+    1500,
+    1700,
+    2000,
+    2200,
+    2400,
+    2700,
+    3000,
+    3300,
+    3600,
+    3900,
+    4300,
+    4600,
+    5000,
+    5400,
+    5800,
+    6300,
+    6700,
+    7200,
+    7700,
+    8200,
+    8700,
+    9300,
+    9800,
+    10400,
+    11000,
+    11700,
+    12300,
+    13000,
+    13700,
+    14400,
+    15100,
+    15900,
+    16700,
+    17500,
+    18300,
+    19200,
+    20000,
+    20900,
+    21900,
+    22800,
+    23800,
+    24800,
+    25800,
+    26900,
+    28000,
+    29100,
+    30300,
+    31400,
+    32600,
+    33900,
+    35100,
+    36400,
+    37700,
+    39100,
+    40500,
+    41900,
+    43300,
+    44800,
+    46300,
+    47900,
+    49500,
+    51100,
+    52800,
+    54500,
+    56200,
+    58000,
+    59800,
+    61600,
+    63500,
+    65400,
+    67400,
+    69400,
+    71400,
+    73500,
+    75600,
+    77800,
+    80000,
+    82300,
+    84600,
+    86900,
+    105600,
+    107400,
+    110000,
+    113600,
+    118600,
+    125500,
+    134900,
+    147300,
+    163600,
+    184500
+  ],
+  "SkillTrees": {
+    "1": {
+      "ParentNodes": [],
+      "NodeType": 2,
+      "Coordinate": 1,
+      "UnLockCondition": 0,
+      "Consume": [
+        {
+          "Key": 43020032,
+          "Value": 2
+        },
+        {
+          "Key": 41100022,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 3900
+        }
+      ],
+      "Skill": {
+        "Name": "펠로, 천천히",
+        "Desc": "<size=40><color=Title>일반 공격</color></size>\n최대 4단의 연속 공격을 가하여 <color=Dark>인멸 피해</color>를 입힌다.\n<size=10> </size>\n<size=40><color=Title>강공격</color></size>\n스태미나를 소모하여 목표를 공격하고 <color=Dark>인멸 피해</color>를 입힌다. 목표 명중 시 「<te href=850015>상상력</te>」이 {0}pt 이상일 경우, 로코코를 공중으로 띄워 <color=Highlight>비약의 환상</color> 상태에 진입한다. <color=Highlight>일반 공격</color>을 길게 누르면 차지를 진행할 수 있으며, 차지 시간이 길수록 더 많은 「<te href=850015>상상력</te>」을 획득할 수 있고, 차지 기간 동안 모든 스태미나가 소진되어도 계속 차지할 수 있다. 차지 도중 <color=Highlight>일반 공격</color>에서 손을 떼거나 최대 차지 시간에 도달할 때 자동으로 강공격을 발동한다.\n<size=10> </size>\n<size=40><color=Title>공중 공격</color></size>\n스태미나를 소모하여 공중 낙하 공격을 가하고 <color=Dark>인멸 피해</color>를 입힌다.\n<size=10> </size>\n<size=40><color=Title>회피 반격</color></size>\n<color=Highlight>회피</color> 성공 후, 일정 기간 내에 <color=Highlight>일반 공격</color>을 짧게 누르면 목표를 공격하여 <color=Dark>인멸 피해</color>를 입힌다",
+        "Param": [
+          "100"
+        ],
+        "SimpleDesc": "<size=40><color=Title>일반 공격</color></size>\n<color=Dark>인멸 피해</color>를 입힌다.\n<size=10> </size>\n<size=40><color=Title>강공격</color></size>\n스태미나를 소모하여 <color=Dark>인멸 피해</color>를 입힌다. 목표 명중 시 「상상력」이 {0}pt 이상일 경우, 로코코를 공중으로 띄워 <color=Highlight>비약의 환상</color> 상태에 진입한다. <color=Highlight>일반 공격</color>을 길게 누르면 차지를 진행할 수 있으며, 차지 시간이 길수록 더 많은 「상상력」을 획득할 수 있다. 차지 도중 <color=Highlight>일반 공격</color>에서 손을 떼거나 최대 차지 시간에 도달할 때 자동으로 강공격을 발동한다.\n<size=10> </size>\n<size=40><color=Title>공중 공격</color></size>\n스태미나를 소모하여 <color=Dark>인멸 피해</color>를 입힌다.\n<size=10> </size>\n<size=40><color=Title>회피 반격</color></size>\n<color=Dark>인멸 피해</color>를 입힌다",
+        "SimpleParam": [
+          "100"
+        ],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorFist.SP_IconNorFist",
+        "Type": "기본 공격",
+        "Level": {
+          "1": {
+            "Name": "1단 피해",
+            "Param": [
+              [
+                "36.81%",
+                "39.83%",
+                "42.85%",
+                "47.07%",
+                "50.09%",
+                "53.56%",
+                "58.39%",
+                "63.22%",
+                "68.05%",
+                "73.18%",
+                "79.21%",
+                "85.25%",
+                "91.29%",
+                "97.32%",
+                "103.36%",
+                "109.39%",
+                "115.43%",
+                "121.47%",
+                "127.50%",
+                "133.54%"
+              ]
+            ],
+            "Format": null
+          },
+          "2": {
+            "Name": "2단 피해",
+            "Param": [
+              [
+                "19.19%*3",
+                "20.76%*3",
+                "22.33%*3",
+                "24.53%*3",
+                "26.11%*3",
+                "27.92%*3",
+                "30.43%*3",
+                "32.95%*3",
+                "35.47%*3",
+                "38.14%*3",
+                "41.29%*3",
+                "44.43%*3",
+                "47.58%*3",
+                "50.72%*3",
+                "53.87%*3",
+                "57.01%*3",
+                "60.16%*3",
+                "63.31%*3",
+                "66.45%*3",
+                "69.60%*3"
+              ]
+            ],
+            "Format": null
+          },
+          "3": {
+            "Name": "3단 피해",
+            "Param": [
+              [
+                "17.00%*2+51.00%",
+                "18.40%*2+55.19%",
+                "19.79%*2+59.37%",
+                "21.74%*2+65.22%",
+                "23.14%*2+69.41%",
+                "24.74%*2+74.22%",
+                "26.97%*2+80.91%",
+                "29.20%*2+87.60%",
+                "31.43%*2+94.29%",
+                "33.80%*2+101.40%",
+                "36.59%*2+109.76%",
+                "39.38%*2+118.13%",
+                "42.17%*2+126.49%",
+                "44.95%*2+134.85%",
+                "47.74%*2+143.22%",
+                "50.53%*2+151.58%",
+                "53.32%*2+159.95%",
+                "56.11%*2+168.31%",
+                "58.89%*2+176.67%",
+                "61.68%*2+185.04%"
+              ]
+            ],
+            "Format": null
+          },
+          "4": {
+            "Name": "4단 피해",
+            "Param": [
+              [
+                "52.41%*2",
+                "56.70%*2",
+                "61.00%*2",
+                "67.02%*2",
+                "71.31%*2",
+                "76.26%*2",
+                "83.13%*2",
+                "90.01%*2",
+                "96.88%*2",
+                "104.19%*2",
+                "112.78%*2",
+                "121.37%*2",
+                "129.97%*2",
+                "138.56%*2",
+                "147.16%*2",
+                "155.75%*2",
+                "164.34%*2",
+                "172.94%*2",
+                "181.53%*2",
+                "190.13%*2"
+              ]
+            ],
+            "Format": null
+          },
+          "5": {
+            "Name": "강공격 피해",
+            "Param": [
+              [
+                "85.00%",
+                "91.97%",
+                "98.94%",
+                "108.70%",
+                "115.67%",
+                "123.69%",
+                "134.84%",
+                "145.99%",
+                "157.14%",
+                "168.99%",
+                "182.93%",
+                "196.87%",
+                "210.81%",
+                "224.75%",
+                "238.69%",
+                "252.63%",
+                "266.57%",
+                "280.51%",
+                "294.45%",
+                "308.39%"
+              ]
+            ],
+            "Format": null
+          },
+          "6": {
+            "Name": "공중 공격 피해",
+            "Param": [
+              [
+                "52.70%",
+                "57.03%",
+                "61.35%",
+                "67.40%",
+                "71.72%",
+                "76.69%",
+                "83.60%",
+                "90.52%",
+                "97.43%",
+                "104.78%",
+                "113.42%",
+                "122.06%",
+                "130.71%",
+                "139.35%",
+                "147.99%",
+                "156.63%",
+                "165.28%",
+                "173.92%",
+                "182.56%",
+                "191.21%"
+              ]
+            ],
+            "Format": null
+          },
+          "7": {
+            "Name": "회피 반격 피해",
+            "Param": [
+              [
+                "34.66%*3",
+                "37.50%*3",
+                "40.34%*3",
+                "44.32%*3",
+                "47.16%*3",
+                "50.43%*3",
+                "54.97%*3",
+                "59.52%*3",
+                "64.07%*3",
+                "68.90%*3",
+                "74.58%*3",
+                "80.26%*3",
+                "85.94%*3",
+                "91.63%*3",
+                "97.31%*3",
+                "102.99%*3",
+                "108.68%*3",
+                "114.36%*3",
+                "120.04%*3",
+                "125.72%*3"
+              ]
+            ],
+            "Format": null
+          },
+          "8": {
+            "Name": "강공격 스태미나 소모",
+            "Param": [
+              [
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10"
+              ]
+            ],
+            "Format": null
+          },
+          "9": {
+            "Name": "강공격 차지 시 스태미나 소모(초당)",
+            "Param": [
+              [
+                "15",
+                "15",
+                "15",
+                "15",
+                "15",
+                "15",
+                "15",
+                "15",
+                "15",
+                "15",
+                "15",
+                "15",
+                "15",
+                "15",
+                "15",
+                "15",
+                "15",
+                "15",
+                "15",
+                "15"
+              ]
+            ],
+            "Format": null
+          },
+          "10": {
+            "Name": "공중 공격 스태미나 소모",
+            "Param": [
+              [
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30"
+              ]
+            ],
+            "Format": null
+          }
+        },
+        "Consume": {
+          "1": [],
+          "2": [
+            {
+              "Key": 43020051,
+              "Value": 2
+            },
+            {
+              "Key": 41100051,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 1500
+            }
+          ],
+          "3": [
+            {
+              "Key": 43020051,
+              "Value": 3
+            },
+            {
+              "Key": 41100051,
+              "Value": 3
+            },
+            {
+              "Key": 2,
+              "Value": 2000
+            }
+          ],
+          "4": [
+            {
+              "Key": 43020052,
+              "Value": 2
+            },
+            {
+              "Key": 41100052,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 4500
+            }
+          ],
+          "5": [
+            {
+              "Key": 43020052,
+              "Value": 3
+            },
+            {
+              "Key": 41100052,
+              "Value": 3
+            },
+            {
+              "Key": 2,
+              "Value": 6000
+            }
+          ],
+          "6": [
+            {
+              "Key": 43020053,
+              "Value": 3
+            },
+            {
+              "Key": 41100053,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 16000
+            }
+          ],
+          "7": [
+            {
+              "Key": 43020053,
+              "Value": 5
+            },
+            {
+              "Key": 41100053,
+              "Value": 3
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 30000
+            }
+          ],
+          "8": [
+            {
+              "Key": 43020054,
+              "Value": 2
+            },
+            {
+              "Key": 41100054,
+              "Value": 2
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 50000
+            }
+          ],
+          "9": [
+            {
+              "Key": 43020054,
+              "Value": 3
+            },
+            {
+              "Key": 41100054,
+              "Value": 3
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 70000
+            }
+          ],
+          "10": [
+            {
+              "Key": 43020054,
+              "Value": 6
+            },
+            {
+              "Key": 41100054,
+              "Value": 4
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 100000
+            }
+          ]
+        },
+        "Damage": {
+          "1606001001": {
+            "Element": 6,
+            "RelatedProperty": "공격력",
+            "Type": 0,
+            "RateLv": [
+              3681,
+              3983,
+              4285,
+              4707,
+              5009,
+              5356,
+              5839,
+              6322,
+              6805,
+              7318,
+              7921,
+              8525,
+              9129,
+              9732,
+              10336,
+              10939,
+              11543,
+              12147,
+              12750,
+              13354
+            ],
+            "Energy": 109,
+            "ElementPower": 347,
+            "HardnessLv": 10000,
+            "ToughLv": 4330
+          },
+          "1606002001": {
+            "Element": 6,
+            "RelatedProperty": "공격력",
+            "Type": 0,
+            "RateLv": [
+              1919,
+              2076,
+              2233,
+              2453,
+              2611,
+              2792,
+              3043,
+              3295,
+              3547,
+              3814,
+              4129,
+              4443,
+              4758,
+              5072,
+              5387,
+              5701,
+              6016,
+              6331,
+              6645,
+              6960
+            ],
+            "Energy": 57,
+            "ElementPower": 181,
+            "HardnessLv": 10000,
+            "ToughLv": 2257
+          },
+          "1606003001": {
+            "Element": 6,
+            "RelatedProperty": "공격력",
+            "Type": 0,
+            "RateLv": [
+              1700,
+              1840,
+              1979,
+              2174,
+              2314,
+              2474,
+              2697,
+              2920,
+              3143,
+              3380,
+              3659,
+              3938,
+              4217,
+              4495,
+              4774,
+              5053,
+              5332,
+              5611,
+              5889,
+              6168
+            ],
+            "Energy": 50,
+            "ElementPower": 160,
+            "HardnessLv": 10000,
+            "ToughLv": 2000
+          },
+          "1606003003": {
+            "Element": 6,
+            "RelatedProperty": "공격력",
+            "Type": 0,
+            "RateLv": [
+              5100,
+              5519,
+              5937,
+              6522,
+              6941,
+              7422,
+              8091,
+              8760,
+              9429,
+              10140,
+              10976,
+              11813,
+              12649,
+              13485,
+              14322,
+              15158,
+              15995,
+              16831,
+              17667,
+              18504
+            ],
+            "Energy": 150,
+            "ElementPower": 480,
+            "HardnessLv": 10000,
+            "ToughLv": 6000
+          },
+          "1606004002": {
+            "Element": 6,
+            "RelatedProperty": "공격력",
+            "Type": 0,
+            "RateLv": [
+              5241,
+              5670,
+              6100,
+              6702,
+              7131,
+              7626,
+              8313,
+              9001,
+              9688,
+              10419,
+              11278,
+              12137,
+              12997,
+              13856,
+              14716,
+              15575,
+              16434,
+              17294,
+              18153,
+              19013
+            ],
+            "Energy": 155,
+            "ElementPower": 494,
+            "HardnessLv": 10000,
+            "ToughLv": 6165
+          },
+          "1606006001": {
+            "Element": 6,
+            "RelatedProperty": "공격력",
+            "Type": 1,
+            "RateLv": [
+              8500,
+              9197,
+              9894,
+              10870,
+              11567,
+              12369,
+              13484,
+              14599,
+              15714,
+              16899,
+              18293,
+              19687,
+              21081,
+              22475,
+              23869,
+              25263,
+              26657,
+              28051,
+              29445,
+              30839
+            ],
+            "Energy": 250,
+            "ElementPower": 800,
+            "HardnessLv": 10000,
+            "ToughLv": 10000
+          },
+          "1606002005": {
+            "Element": 6,
+            "RelatedProperty": "공격력",
+            "Type": 0,
+            "RateLv": [
+              3466,
+              3750,
+              4034,
+              4432,
+              4716,
+              5043,
+              5497,
+              5952,
+              6407,
+              6890,
+              7458,
+              8026,
+              8594,
+              9163,
+              9731,
+              10299,
+              10868,
+              11436,
+              12004,
+              12572
+            ],
+            "Energy": 52,
+            "ElementPower": 167,
+            "HardnessLv": 10000,
+            "ToughLv": 5000
+          },
+          "1606015001": {
+            "Element": 6,
+            "RelatedProperty": "공격력",
+            "Type": 0,
+            "RateLv": [
+              5270,
+              5703,
+              6135,
+              6740,
+              7172,
+              7669,
+              8360,
+              9052,
+              9743,
+              10478,
+              11342,
+              12206,
+              13071,
+              13935,
+              14799,
+              15663,
+              16528,
+              17392,
+              18256,
+              19121
+            ],
+            "Energy": 155,
+            "ElementPower": 496,
+            "HardnessLv": 10000,
+            "ToughLv": 6200
+          },
+          "1606006002": {
+            "Element": 6,
+            "RelatedProperty": "공격력",
+            "Type": 1,
+            "RateLv": [
+              15300,
+              16555,
+              17810,
+              19566,
+              20821,
+              22264,
+              24271,
+              26278,
+              28286,
+              30418,
+              32928,
+              35437,
+              37946,
+              40455,
+              42964,
+              45474,
+              47983,
+              50492,
+              53001,
+              55510
+            ],
+            "Energy": 250,
+            "ElementPower": 800,
+            "HardnessLv": 10000,
+            "ToughLv": 10000
+          }
+        }
+      }
+    },
+    "2": {
+      "ParentNodes": [],
+      "NodeType": 2,
+      "Coordinate": 2,
+      "UnLockCondition": 0,
+      "Consume": [
+        {
+          "Key": 43020032,
+          "Value": 2
+        },
+        {
+          "Key": 41100022,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 3900
+        }
+      ],
+      "Skill": {
+        "Name": "고난이도 설정",
+        "Desc": "로코코는 자신의 머릿속 폭풍의 사고력을 투영하고, 주변 목표를 끌어당겨 <color=Dark>인멸 피해</color>를 입힌다. 동시에 로코코를 공중으로 띄워 <color=Highlight><te href=850016>비약의 환상</te></color> 상태에 진입한다",
+        "Param": [],
+        "SimpleDesc": "주변 목표를 끌어당겨 <color=Dark>인멸 피해</color>를 입힌다. 동시에 로코코를 공중으로 띄워 <color=Highlight>비약의 환상</color> 상태에 진입한다",
+        "SimpleParam": [],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconLuokeke/SP_IconLuokekeB1.SP_IconLuokekeB1",
+        "Type": "공명 스킬",
+        "Level": {
+          "1": {
+            "Name": "스킬 피해",
+            "Param": [
+              [
+                "30.92%*8",
+                "33.46%*8",
+                "35.99%*8",
+                "39.54%*8",
+                "42.07%*8",
+                "44.99%*8",
+                "49.05%*8",
+                "53.10%*8",
+                "57.16%*8",
+                "61.47%*8",
+                "66.54%*8",
+                "71.61%*8",
+                "76.68%*8",
+                "81.75%*8",
+                "86.82%*8",
+                "91.89%*8",
+                "96.96%*8",
+                "102.03%*8",
+                "107.10%*8",
+                "112.17%*8"
+              ]
+            ],
+            "Format": null
+          },
+          "2": {
+            "Name": "쿨타임",
+            "Param": [
+              [
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10"
+              ]
+            ],
+            "Format": "{0}초"
+          },
+          "3": {
+            "Name": "협주 에너지 회복",
+            "Param": [
+              [
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20"
+              ]
+            ],
+            "Format": null
+          }
+        },
+        "Consume": {
+          "1": [],
+          "2": [
+            {
+              "Key": 43020051,
+              "Value": 2
+            },
+            {
+              "Key": 41100051,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 1500
+            }
+          ],
+          "3": [
+            {
+              "Key": 43020051,
+              "Value": 3
+            },
+            {
+              "Key": 41100051,
+              "Value": 3
+            },
+            {
+              "Key": 2,
+              "Value": 2000
+            }
+          ],
+          "4": [
+            {
+              "Key": 43020052,
+              "Value": 2
+            },
+            {
+              "Key": 41100052,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 4500
+            }
+          ],
+          "5": [
+            {
+              "Key": 43020052,
+              "Value": 3
+            },
+            {
+              "Key": 41100052,
+              "Value": 3
+            },
+            {
+              "Key": 2,
+              "Value": 6000
+            }
+          ],
+          "6": [
+            {
+              "Key": 43020053,
+              "Value": 3
+            },
+            {
+              "Key": 41100053,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 16000
+            }
+          ],
+          "7": [
+            {
+              "Key": 43020053,
+              "Value": 5
+            },
+            {
+              "Key": 41100053,
+              "Value": 3
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 30000
+            }
+          ],
+          "8": [
+            {
+              "Key": 43020054,
+              "Value": 2
+            },
+            {
+              "Key": 41100054,
+              "Value": 2
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 50000
+            }
+          ],
+          "9": [
+            {
+              "Key": 43020054,
+              "Value": 3
+            },
+            {
+              "Key": 41100054,
+              "Value": 3
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 70000
+            }
+          ],
+          "10": [
+            {
+              "Key": 43020054,
+              "Value": 6
+            },
+            {
+              "Key": 41100054,
+              "Value": 4
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 100000
+            }
+          ]
+        },
+        "Damage": {
+          "1606009001": {
+            "Element": 6,
+            "RelatedProperty": "공격력",
+            "Type": 4,
+            "RateLv": [
+              3092,
+              3346,
+              3599,
+              3954,
+              4207,
+              4499,
+              4905,
+              5310,
+              5716,
+              6147,
+              6654,
+              7161,
+              7668,
+              8175,
+              8682,
+              9189,
+              9696,
+              10203,
+              10710,
+              11217
+            ],
+            "Energy": 175,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 2500
+          }
+        }
+      }
+    },
+    "3": {
+      "ParentNodes": [],
+      "NodeType": 2,
+      "Coordinate": 3,
+      "UnLockCondition": 0,
+      "Consume": [
+        {
+          "Key": 43020032,
+          "Value": 2
+        },
+        {
+          "Key": 41100022,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 3900
+        }
+      ],
+      "Skill": {
+        "Name": "즉흥 공연, 시작",
+        "Desc": "로코코의 즉흥 공연, 시작! 목표에게 <color=Dark>인멸 피해</color>를 입히며, 해당 피해는 강공격 피해로 적용된다. 해당 스킬 발동 시, 로코코의 크리티컬이 {0}를 초과할 경우, 초과한 크리티컬 {1} 당, 파티 내 캐릭터의 공격력을 {2}pt 증가시키고, {3}초간 지속되며, 최대 {4}pt까지 증가시킬 수 있다",
+        "Param": [
+          "50%",
+          "0.1%",
+          "1",
+          "30",
+          "200"
+        ],
+        "SimpleDesc": "<color=Dark>인멸 피해</color>를 입힌다. 해당 스킬 발동 시, 로코코의 크리티컬이 {0}를 초과할 경우, 초과한 크리티컬 {1} 당, 파티 내 캐릭터의 공격력을 {2}pt 증가시키고, {3}초간 지속되며, 최대 {4}pt까지 증가시킬 수 있다",
+        "SimpleParam": [
+          "50%",
+          "0.1%",
+          "1",
+          "30",
+          "200"
+        ],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconLuokeke/SP_IconLuokekeC1.SP_IconLuokekeC1",
+        "Type": "공명 해방",
+        "Level": {
+          "1": {
+            "Name": "스킬 피해",
+            "Param": [
+              [
+                "140.00%*3",
+                "151.48%*3",
+                "162.96%*3",
+                "179.04%*3",
+                "190.52%*3",
+                "203.72%*3",
+                "222.09%*3",
+                "240.45%*3",
+                "258.82%*3",
+                "278.34%*3",
+                "301.30%*3",
+                "324.26%*3",
+                "347.22%*3",
+                "370.18%*3",
+                "393.14%*3",
+                "416.10%*3",
+                "439.06%*3",
+                "462.02%*3",
+                "484.98%*3",
+                "507.94%*3"
+              ]
+            ],
+            "Format": null
+          },
+          "2": {
+            "Name": "쿨타임",
+            "Param": [
+              [
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20"
+              ]
+            ],
+            "Format": "{0}초"
+          },
+          "3": {
+            "Name": "공명 에너지 소모",
+            "Param": [
+              [
+                "125",
+                "125",
+                "125",
+                "125",
+                "125",
+                "125",
+                "125",
+                "125",
+                "125",
+                "125",
+                "125",
+                "125",
+                "125",
+                "125",
+                "125",
+                "125",
+                "125",
+                "125",
+                "125",
+                "125"
+              ]
+            ],
+            "Format": null
+          },
+          "4": {
+            "Name": "협주 에너지 회복",
+            "Param": [
+              [
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20"
+              ]
+            ],
+            "Format": null
+          }
+        },
+        "Consume": {
+          "1": [],
+          "2": [
+            {
+              "Key": 43020051,
+              "Value": 2
+            },
+            {
+              "Key": 41100051,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 1500
+            }
+          ],
+          "3": [
+            {
+              "Key": 43020051,
+              "Value": 3
+            },
+            {
+              "Key": 41100051,
+              "Value": 3
+            },
+            {
+              "Key": 2,
+              "Value": 2000
+            }
+          ],
+          "4": [
+            {
+              "Key": 43020052,
+              "Value": 2
+            },
+            {
+              "Key": 41100052,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 4500
+            }
+          ],
+          "5": [
+            {
+              "Key": 43020052,
+              "Value": 3
+            },
+            {
+              "Key": 41100052,
+              "Value": 3
+            },
+            {
+              "Key": 2,
+              "Value": 6000
+            }
+          ],
+          "6": [
+            {
+              "Key": 43020053,
+              "Value": 3
+            },
+            {
+              "Key": 41100053,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 16000
+            }
+          ],
+          "7": [
+            {
+              "Key": 43020053,
+              "Value": 5
+            },
+            {
+              "Key": 41100053,
+              "Value": 3
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 30000
+            }
+          ],
+          "8": [
+            {
+              "Key": 43020054,
+              "Value": 2
+            },
+            {
+              "Key": 41100054,
+              "Value": 2
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 50000
+            }
+          ],
+          "9": [
+            {
+              "Key": 43020054,
+              "Value": 3
+            },
+            {
+              "Key": 41100054,
+              "Value": 3
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 70000
+            }
+          ],
+          "10": [
+            {
+              "Key": 43020054,
+              "Value": 6
+            },
+            {
+              "Key": 41100054,
+              "Value": 4
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 100000
+            }
+          ]
+        },
+        "Damage": {
+          "1606010001": {
+            "Element": 6,
+            "RelatedProperty": "공격력",
+            "Type": 1,
+            "RateLv": [
+              14000,
+              15148,
+              16296,
+              17904,
+              19052,
+              20372,
+              22209,
+              24045,
+              25882,
+              27834,
+              30130,
+              32426,
+              34722,
+              37018,
+              39314,
+              41610,
+              43906,
+              46202,
+              48498,
+              50794
+            ],
+            "Energy": 0,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 13334
+          },
+          "1606010004": {
+            "Element": 6,
+            "RelatedProperty": "공격력",
+            "Type": 1,
+            "RateLv": [
+              16800,
+              18178,
+              19556,
+              21484,
+              22862,
+              24446,
+              26650,
+              28854,
+              31059,
+              33401,
+              36156,
+              38911,
+              41666,
+              44421,
+              47177,
+              49932,
+              52687,
+              55442,
+              58197,
+              60953
+            ],
+            "Energy": 0,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 13334
+          }
+        }
+      }
+    },
+    "4": {
+      "ParentNodes": [
+        7
+      ],
+      "NodeType": 3,
+      "Coordinate": 2,
+      "UnLockCondition": 0,
+      "Consume": [
+        {
+          "Key": 43020032,
+          "Value": 2
+        },
+        {
+          "Key": 41100022,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 3900
+        }
+      ],
+      "Skill": {
+        "Name": "몰입형 공연",
+        "Desc": "공명 스킬 혹은 강공격 발동 시, 로코코의 공격력이 {0} 증가되며, {1}초간 지속된다",
+        "Param": [
+          "20%",
+          "12"
+        ],
+        "SimpleDesc": "공명 스킬 혹은 강공격 발동 시, 로코코의 공격력이 {0} 증가되며, {1}초간 지속된다",
+        "SimpleParam": [
+          "20%",
+          "12"
+        ],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconLuokeke/SP_IconLuokekeD2.SP_IconLuokekeD2",
+        "Type": "고유 스킬",
+        "Level": {},
+        "Consume": {
+          "1": [
+            {
+              "Key": 43020052,
+              "Value": 3
+            },
+            {
+              "Key": 41100052,
+              "Value": 3
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 10000
+            }
+          ]
+        },
+        "Damage": {}
+      }
+    },
+    "5": {
+      "ParentNodes": [
+        4
+      ],
+      "NodeType": 3,
+      "Coordinate": 3,
+      "UnLockCondition": 0,
+      "Consume": [
+        {
+          "Key": 43020032,
+          "Value": 2
+        },
+        {
+          "Key": 41100022,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 3900
+        }
+      ],
+      "Skill": {
+        "Name": "끌리는 진기한 상자",
+        "Desc": "반주 스킬 발동 후, 다음 등장 캐릭터의 탐색 도구는 「진기한 상자」로 대체된다.\n<size=10> </size>\n<size=40><color=Title>「진기한 상자」</color></size>\n· 사용 후 「진기한 상자」를 중심으로 주변 목표를 끌어당기고, 총 {1}pt의 <color=Dark>인멸 피해</color>를 입히며, 해당 피해는 탐색 도구 피해로 적용된다. 해당 스킬 발동 시, 에코 어빌리티를 발동한 것으로 간주된다.\n· 「진기한 상자」는 {0}초간 지속된다. 다른 캐릭터로 전환하면 「진기한 상자」는 즉시 사라진다",
+        "Param": [
+          "14",
+          "100"
+        ],
+        "SimpleDesc": "반주 스킬 발동 후, 다음 등장 캐릭터의 탐색 도구는 「진기한 상자」로 대체된다.\n<size=10> </size>\n<size=40><color=Title>「진기한 상자」</color></size>\n· 사용 후 「진기한 상자」를 중심으로 주변 목표를 끌어당기고, <color=Dark>인멸 피해</color>를 입힌다.\n· 「진기한 상자」는 {0}초간 지속된다. 다른 캐릭터로 전환하면 「진기한 상자」는 즉시 사라진다",
+        "SimpleParam": [
+          "14",
+          "100"
+        ],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconLuokeke/SP_IconLuokekeD1.SP_IconLuokekeD1",
+        "Type": "고유 스킬",
+        "Level": {},
+        "Consume": {
+          "1": [
+            {
+              "Key": 43020053,
+              "Value": 3
+            },
+            {
+              "Key": 41100053,
+              "Value": 3
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 20000
+            }
+          ]
+        },
+        "Damage": {}
+      }
+    },
+    "6": {
+      "ParentNodes": [],
+      "NodeType": 2,
+      "Coordinate": 4,
+      "UnLockCondition": 0,
+      "Consume": [
+        {
+          "Key": 43020032,
+          "Value": 2
+        },
+        {
+          "Key": 41100022,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 3900
+        }
+      ],
+      "Skill": {
+        "Name": "펠로, 도와줘",
+        "Desc": "목표를 공격하여 <color=Dark>인멸 피해</color>를 입힌다. 해당 스킬 발동 후 일정 시간 내에 <color=Highlight>일반 공격</color>을 짧게 누르면 <color=Highlight>일반 공격 4단</color>을 발동한다",
+        "Param": [],
+        "SimpleDesc": "목표를 공격하여 <color=Dark>인멸 피해</color>를 입힌다. 해당 스킬 발동 후 일정 시간 내에 <color=Highlight>일반 공격</color>을 짧게 누르면 <color=Highlight>일반 공격 4단</color>을 발동한다",
+        "SimpleParam": [],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconLuokeke/SP_IconLuokekeQTE.SP_IconLuokekeQTE",
+        "Type": "변주 스킬",
+        "Level": {
+          "1": {
+            "Name": "스킬 피해",
+            "Param": [
+              [
+                "85.00%",
+                "91.97%",
+                "98.94%",
+                "108.70%",
+                "115.67%",
+                "123.69%",
+                "134.84%",
+                "145.99%",
+                "157.14%",
+                "168.99%",
+                "182.93%",
+                "196.87%",
+                "210.81%",
+                "224.75%",
+                "238.69%",
+                "252.63%",
+                "266.57%",
+                "280.51%",
+                "294.45%",
+                "308.39%"
+              ]
+            ],
+            "Format": null
+          },
+          "2": {
+            "Name": "협주 에너지 회복",
+            "Param": [
+              [
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10"
+              ]
+            ],
+            "Format": null
+          }
+        },
+        "Consume": {
+          "1": [],
+          "2": [
+            {
+              "Key": 43020051,
+              "Value": 2
+            },
+            {
+              "Key": 41100051,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 1500
+            }
+          ],
+          "3": [
+            {
+              "Key": 43020051,
+              "Value": 3
+            },
+            {
+              "Key": 41100051,
+              "Value": 3
+            },
+            {
+              "Key": 2,
+              "Value": 2000
+            }
+          ],
+          "4": [
+            {
+              "Key": 43020052,
+              "Value": 2
+            },
+            {
+              "Key": 41100052,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 4500
+            }
+          ],
+          "5": [
+            {
+              "Key": 43020052,
+              "Value": 3
+            },
+            {
+              "Key": 41100052,
+              "Value": 3
+            },
+            {
+              "Key": 2,
+              "Value": 6000
+            }
+          ],
+          "6": [
+            {
+              "Key": 43020053,
+              "Value": 3
+            },
+            {
+              "Key": 41100053,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 16000
+            }
+          ],
+          "7": [
+            {
+              "Key": 43020053,
+              "Value": 5
+            },
+            {
+              "Key": 41100053,
+              "Value": 3
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 30000
+            }
+          ],
+          "8": [
+            {
+              "Key": 43020054,
+              "Value": 2
+            },
+            {
+              "Key": 41100054,
+              "Value": 2
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 50000
+            }
+          ],
+          "9": [
+            {
+              "Key": 43020054,
+              "Value": 3
+            },
+            {
+              "Key": 41100054,
+              "Value": 3
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 70000
+            }
+          ],
+          "10": [
+            {
+              "Key": 43020054,
+              "Value": 6
+            },
+            {
+              "Key": 41100054,
+              "Value": 4
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 100000
+            }
+          ]
+        },
+        "Damage": {
+          "1606024001": {
+            "Element": 6,
+            "RelatedProperty": "공격력",
+            "Type": 3,
+            "RateLv": [
+              8500,
+              9197,
+              9894,
+              10870,
+              11567,
+              12369,
+              13484,
+              14599,
+              15714,
+              16899,
+              18293,
+              19687,
+              21081,
+              22475,
+              23869,
+              25263,
+              26657,
+              28051,
+              29445,
+              30839
+            ],
+            "Energy": 1000,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 13530
+          }
+        }
+      }
+    },
+    "7": {
+      "ParentNodes": [],
+      "NodeType": 1,
+      "Coordinate": 1,
+      "UnLockCondition": 0,
+      "Consume": [
+        {
+          "Key": 43020032,
+          "Value": 2
+        },
+        {
+          "Key": 41100022,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 3900
+        }
+      ],
+      "Skill": {
+        "Name": "소품 담당자의 자체 수양",
+        "Desc": "<size=40><color=Title>비약의 환상</color></size>\n· 로코코가 <color=Highlight>비약의 환상</color> 상태에서, {0}pt 이상의 「상상력」을 보유할 경우, <color=Highlight>일반 공격</color>을 짧게 누르면 {0}pt의 「상상력」을 소모하여 일반 공격 <color=Highlight>현실에 비추는 환상</color>을 발동할 수 있다.\n· 해당 상태는 로코코가 공중 상태에 있지 않거나 미출전 상태에 있을 시 해제된다.\n<size=10> </size>\n<size=40><color=Title>일반 공격 · 현실에 비추는 환상</color></size>\n· 최대 3단의 연속 공격을 가하여 <color=Dark>인멸 피해</color>를 입히며, 해당 피해는 강공격 피해로 적용된다. 공격 1단, 2단을 가하고 착지 후, 「상상력」이 {0}pt 이상일 경우, 로코코를 공중으로 띄워 <color=Highlight>비약의 환상</color> 상태에 진입한다.\n<size=10> </size>\n<size=40><color=Title>「상상력」 획득 규칙</color></size>\n· 「상상력」 최대 누적 가능: {1}pt\n· 기본 공격으로 피해를 입힐 시 「상상력」을 회복할 수 있다.\n· <color=Highlight>일반 공격</color>을 길게 눌러 차지하면 「상상력」을 회복할 수 있다.\n· 공명 스킬 <color=Highlight>고난이도 설정</color> 발동 시, 「상상력」 {2}pt를 회복한다.\n· 변주 스킬 <color=Highlight>펠로, 도와줘</color> 발동 시, 「상상력」 {3}pt를 회복한다",
+        "Param": [
+          "100",
+          "300",
+          "100",
+          "100"
+        ],
+        "SimpleDesc": "<size=40><color=Title>비약의 환상</color></size>\n · 로코코가 <color=Highlight>비약의 환상</color> 상태에서, {0}pt 이상의 「상상력」을 보유할 경우, <color=Highlight>일반 공격</color>을 짧게 눌러 {0}pt의 「상상력」을 소모하여 일반 공격 <color=Highlight>현실에 비추는 환상</color>을 발동할 수 있다.\n · 해당 상태는 로코코가 공중 상태에 있지 않거나 미출전 상태에 있을 시 해제된다.\n <size=10> </size>\n <size=40><color=Title>일반 공격 · 현실에 비추는 환상</color></size>\n · 최대 3단의 연속 공격을 가하여 <color=Dark>인멸 피해</color>를 입힌다. 공격 1단, 2단을 가하고 착지 후 로코코를 공중으로 띄워 <color=Highlight>비약의 환상</color> 상태에 진입한다.\n <size=10> </size>\n <size=40><color=Title>「상상력」 획득 규칙</color></size>\n · 「상상력」 최대 누적 가능: {1}pt\n · 「상상력」 획득 방법: 기본 공격, 공명 스킬 <color=Highlight>고난이도 설정</color>, 변주 스킬 <color=Highlight>펠로, 도와줘</color>",
+        "SimpleParam": [
+          "100",
+          "300",
+          "100",
+          "100"
+        ],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconLuokeke/SP_IconLuokekeY.SP_IconLuokekeY",
+        "Type": "공명 회로",
+        "Level": {
+          "1": {
+            "Name": "1단 피해",
+            "Param": [
+              [
+                "162.00%",
+                "175.29%",
+                "188.57%",
+                "207.17%",
+                "220.45%",
+                "235.73%",
+                "256.99%",
+                "278.24%",
+                "299.49%",
+                "322.08%",
+                "348.65%",
+                "375.21%",
+                "401.78%",
+                "428.35%",
+                "454.92%",
+                "481.49%",
+                "508.05%",
+                "534.62%",
+                "561.19%",
+                "587.76%"
+              ]
+            ],
+            "Format": null
+          },
+          "2": {
+            "Name": "2단 피해",
+            "Param": [
+              [
+                "171.00%",
+                "185.03%",
+                "199.05%",
+                "218.68%",
+                "232.70%",
+                "248.83%",
+                "271.26%",
+                "293.70%",
+                "316.13%",
+                "339.97%",
+                "368.01%",
+                "396.06%",
+                "424.10%",
+                "452.15%",
+                "480.19%",
+                "508.23%",
+                "536.28%",
+                "564.32%",
+                "592.37%",
+                "620.41%"
+              ]
+            ],
+            "Format": null
+          },
+          "3": {
+            "Name": "3단 피해",
+            "Param": [
+              [
+                "180.00%",
+                "194.76%",
+                "209.52%",
+                "230.19%",
+                "244.95%",
+                "261.92%",
+                "285.54%",
+                "309.15%",
+                "332.77%",
+                "357.86%",
+                "387.38%",
+                "416.90%",
+                "446.42%",
+                "475.94%",
+                "505.46%",
+                "534.98%",
+                "564.50%",
+                "594.02%",
+                "623.54%",
+                "653.06%"
+              ]
+            ],
+            "Format": null
+          },
+          "4": {
+            "Name": "1단으로 회복하는 협주 에너지",
+            "Param": [
+              [
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10"
+              ]
+            ],
+            "Format": null
+          },
+          "5": {
+            "Name": "2단으로 회복하는 협주 에너지",
+            "Param": [
+              [
+                "16",
+                "16",
+                "16",
+                "16",
+                "16",
+                "16",
+                "16",
+                "16",
+                "16",
+                "16",
+                "16",
+                "16",
+                "16",
+                "16",
+                "16",
+                "16",
+                "16",
+                "16",
+                "16",
+                "16"
+              ]
+            ],
+            "Format": null
+          },
+          "6": {
+            "Name": "3단으로 회복하는 협주 에너지",
+            "Param": [
+              [
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25"
+              ]
+            ],
+            "Format": null
+          }
+        },
+        "Consume": {
+          "1": [],
+          "2": [
+            {
+              "Key": 43020051,
+              "Value": 2
+            },
+            {
+              "Key": 41100051,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 1500
+            }
+          ],
+          "3": [
+            {
+              "Key": 43020051,
+              "Value": 3
+            },
+            {
+              "Key": 41100051,
+              "Value": 3
+            },
+            {
+              "Key": 2,
+              "Value": 2000
+            }
+          ],
+          "4": [
+            {
+              "Key": 43020052,
+              "Value": 2
+            },
+            {
+              "Key": 41100052,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 4500
+            }
+          ],
+          "5": [
+            {
+              "Key": 43020052,
+              "Value": 3
+            },
+            {
+              "Key": 41100052,
+              "Value": 3
+            },
+            {
+              "Key": 2,
+              "Value": 6000
+            }
+          ],
+          "6": [
+            {
+              "Key": 43020053,
+              "Value": 3
+            },
+            {
+              "Key": 41100053,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 16000
+            }
+          ],
+          "7": [
+            {
+              "Key": 43020053,
+              "Value": 5
+            },
+            {
+              "Key": 41100053,
+              "Value": 3
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 30000
+            }
+          ],
+          "8": [
+            {
+              "Key": 43020054,
+              "Value": 2
+            },
+            {
+              "Key": 41100054,
+              "Value": 2
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 50000
+            }
+          ],
+          "9": [
+            {
+              "Key": 43020054,
+              "Value": 3
+            },
+            {
+              "Key": 41100054,
+              "Value": 3
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 70000
+            }
+          ],
+          "10": [
+            {
+              "Key": 43020054,
+              "Value": 6
+            },
+            {
+              "Key": 41100054,
+              "Value": 4
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 100000
+            }
+          ]
+        },
+        "Damage": {
+          "1606012001": {
+            "Element": 6,
+            "RelatedProperty": "공격력",
+            "Type": 1,
+            "RateLv": [
+              16200,
+              17529,
+              18857,
+              20717,
+              22045,
+              23573,
+              25699,
+              27824,
+              29949,
+              32208,
+              34865,
+              37521,
+              40178,
+              42835,
+              45492,
+              48149,
+              50805,
+              53462,
+              56119,
+              58776
+            ],
+            "Energy": 800,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 10000
+          },
+          "1606012002": {
+            "Element": 6,
+            "RelatedProperty": "공격력",
+            "Type": 1,
+            "RateLv": [
+              17100,
+              18503,
+              19905,
+              21868,
+              23270,
+              24883,
+              27126,
+              29370,
+              31613,
+              33997,
+              36801,
+              39606,
+              42410,
+              45215,
+              48019,
+              50823,
+              53628,
+              56432,
+              59237,
+              62041
+            ],
+            "Energy": 800,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 10000
+          },
+          "1606012003": {
+            "Element": 6,
+            "RelatedProperty": "공격력",
+            "Type": 1,
+            "RateLv": [
+              18000,
+              19476,
+              20952,
+              23019,
+              24495,
+              26192,
+              28554,
+              30915,
+              33277,
+              35786,
+              38738,
+              41690,
+              44642,
+              47594,
+              50546,
+              53498,
+              56450,
+              59402,
+              62354,
+              65306
+            ],
+            "Energy": 800,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 10000
+          },
+          "1606012010": {
+            "Element": 6,
+            "RelatedProperty": "공격력",
+            "Type": 1,
+            "RateLv": [
+              25920,
+              28046,
+              30171,
+              33147,
+              35272,
+              37717,
+              41117,
+              44518,
+              47919,
+              51532,
+              55783,
+              60034,
+              64285,
+              68536,
+              72786,
+              77037,
+              81288,
+              85539,
+              89790,
+              94041
+            ],
+            "Energy": 800,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 10000
+          },
+          "1606012011": {
+            "Element": 6,
+            "RelatedProperty": "공격력",
+            "Type": 1,
+            "RateLv": [
+              27360,
+              29604,
+              31848,
+              34988,
+              37232,
+              39812,
+              43402,
+              46991,
+              50581,
+              54395,
+              58882,
+              63369,
+              67856,
+              72343,
+              76830,
+              81317,
+              85804,
+              90291,
+              94778,
+              99265
+            ],
+            "Energy": 800,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 10000
+          },
+          "1606012012": {
+            "Element": 6,
+            "RelatedProperty": "공격력",
+            "Type": 1,
+            "RateLv": [
+              28800,
+              31162,
+              33524,
+              36830,
+              39192,
+              41907,
+              45686,
+              49464,
+              53243,
+              57258,
+              61981,
+              66704,
+              71427,
+              76151,
+              80874,
+              85597,
+              90320,
+              95043,
+              99767,
+              104490
+            ],
+            "Energy": 800,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 10000
+          },
+          "1606012013": {
+            "Element": 6,
+            "RelatedProperty": "공격력",
+            "Type": 1,
+            "RateLv": [
+              18000,
+              19476,
+              20952,
+              23019,
+              24495,
+              26192,
+              28554,
+              30915,
+              33277,
+              35786,
+              38738,
+              41690,
+              44642,
+              47594,
+              50546,
+              53498,
+              56450,
+              59402,
+              62354,
+              65306
+            ],
+            "Energy": 120,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 10000
+          },
+          "1606012014": {
+            "Element": 6,
+            "RelatedProperty": "공격력",
+            "Type": 1,
+            "RateLv": [
+              28800,
+              31162,
+              33524,
+              36830,
+              39192,
+              41907,
+              45686,
+              49464,
+              53243,
+              57258,
+              61981,
+              66704,
+              71427,
+              76151,
+              80874,
+              85597,
+              90320,
+              95043,
+              99767,
+              104490
+            ],
+            "Energy": 120,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 10000
+          },
+          "1606912008": {
+            "Element": 6,
+            "RelatedProperty": "공격력",
+            "Type": 1,
+            "RateLv": [
+              25650,
+              27754,
+              29857,
+              32802,
+              34905,
+              37324,
+              40689,
+              44055,
+              47419,
+              50995,
+              55201,
+              59409,
+              63615,
+              67822,
+              72028,
+              76234,
+              80442,
+              84648,
+              88855,
+              93061
+            ],
+            "Energy": 800,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 10000
+          },
+          "1606912009": {
+            "Element": 6,
+            "RelatedProperty": "공격력",
+            "Type": 1,
+            "RateLv": [
+              36000,
+              38952,
+              41904,
+              46038,
+              48990,
+              52384,
+              57108,
+              61830,
+              66554,
+              71572,
+              77476,
+              83380,
+              89284,
+              95188,
+              101092,
+              106996,
+              112900,
+              118804,
+              124708,
+              130612
+            ],
+            "Energy": 800,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 10000
+          },
+          "1606912010": {
+            "Element": 6,
+            "RelatedProperty": "공격력",
+            "Type": 1,
+            "RateLv": [
+              41040,
+              44406,
+              47772,
+              52482,
+              55848,
+              59718,
+              65103,
+              70486,
+              75871,
+              81592,
+              88323,
+              95053,
+              101784,
+              108514,
+              115245,
+              121975,
+              128706,
+              135436,
+              142167,
+              148897
+            ],
+            "Energy": 800,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 10000
+          },
+          "1606912011": {
+            "Element": 6,
+            "RelatedProperty": "공격력",
+            "Type": 1,
+            "RateLv": [
+              57600,
+              62324,
+              67048,
+              73660,
+              78384,
+              83814,
+              91372,
+              98928,
+              106486,
+              114516,
+              123962,
+              133408,
+              142854,
+              152302,
+              161748,
+              171194,
+              180640,
+              190086,
+              199534,
+              208980
+            ],
+            "Energy": 800,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 10000
+          }
+        }
+      }
+    },
+    "8": {
+      "ParentNodes": [],
+      "NodeType": 3,
+      "Coordinate": 1,
+      "UnLockCondition": 0,
+      "Consume": [
+        {
+          "Key": 43020032,
+          "Value": 2
+        },
+        {
+          "Key": 41100022,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 3900
+        }
+      ],
+      "Skill": {
+        "Name": "뜨거운 박수",
+        "Desc": "다음 등장 캐릭터의 인멸 피해가 {0} 부스트되고, 일반 공격 피해가 {1} 부스트되며, 해당 효과는 {2}초간 지속된다. 다른 캐릭터로 전환하면 효과는 즉시 종료된다",
+        "Param": [
+          "20%",
+          "25%",
+          "14"
+        ],
+        "SimpleDesc": "다음 등장 캐릭터의 인멸 피해가 {0} 부스트하고, 일반 공격 피해가 {1} 부스트한다. 다른 캐릭터로 전환하면 효과는 즉시 종료된다",
+        "SimpleParam": [
+          "20%",
+          "25%",
+          "14"
+        ],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconLuokeke/SP_IconLuokekeT.SP_IconLuokekeT",
+        "Type": "반주 스킬",
+        "Level": {},
+        "Consume": {
+          "1": []
+        },
+        "Damage": {}
+      }
+    },
+    "9": {
+      "ParentNodes": [
+        1
+      ],
+      "NodeType": 4,
+      "Coordinate": 1,
+      "UnLockCondition": 500006,
+      "Consume": [
+        {
+          "Key": 43020053,
+          "Value": 3
+        },
+        {
+          "Key": 41100053,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 50000
+        }
+      ],
+      "Skill": {
+        "Name": "크리티컬 피해 증가",
+        "Desc": "크리티컬 피해가 {0} 증가한다",
+        "Param": [
+          "2.40%"
+        ],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredcrit_UI.T_Iconpropertyredcrit_UI"
+      }
+    },
+    "10": {
+      "ParentNodes": [
+        2
+      ],
+      "NodeType": 4,
+      "Coordinate": 1,
+      "UnLockCondition": 500005,
+      "Consume": [
+        {
+          "Key": 43020053,
+          "Value": 3
+        },
+        {
+          "Key": 41100053,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 50000
+        }
+      ],
+      "Skill": {
+        "Name": "공격력 증가",
+        "Desc": "공격력이 {0} 증가한다",
+        "Param": [
+          "1.80%"
+        ],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredattack_UI.T_Iconpropertyredattack_UI"
+      }
+    },
+    "11": {
+      "ParentNodes": [
+        3
+      ],
+      "NodeType": 4,
+      "Coordinate": 1,
+      "UnLockCondition": 500005,
+      "Consume": [
+        {
+          "Key": 43020053,
+          "Value": 3
+        },
+        {
+          "Key": 41100053,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 50000
+        }
+      ],
+      "Skill": {
+        "Name": "공격력 증가",
+        "Desc": "공격력이 {0} 증가한다",
+        "Param": [
+          "1.80%"
+        ],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredattack_UI.T_Iconpropertyredattack_UI"
+      }
+    },
+    "12": {
+      "ParentNodes": [
+        6
+      ],
+      "NodeType": 4,
+      "Coordinate": 1,
+      "UnLockCondition": 500006,
+      "Consume": [
+        {
+          "Key": 43020053,
+          "Value": 3
+        },
+        {
+          "Key": 41100053,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 50000
+        }
+      ],
+      "Skill": {
+        "Name": "크리티컬 피해 증가",
+        "Desc": "크리티컬 피해가 {0} 증가한다",
+        "Param": [
+          "2.40%"
+        ],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredcrit_UI.T_Iconpropertyredcrit_UI"
+      }
+    },
+    "13": {
+      "ParentNodes": [
+        9
+      ],
+      "NodeType": 4,
+      "Coordinate": 2,
+      "UnLockCondition": 500008,
+      "Consume": [
+        {
+          "Key": 43020054,
+          "Value": 3
+        },
+        {
+          "Key": 41100054,
+          "Value": 3
+        },
+        {
+          "Key": 41400194,
+          "Value": 1
+        },
+        {
+          "Key": 2,
+          "Value": 100000
+        }
+      ],
+      "Skill": {
+        "Name": "크리티컬 피해 증가",
+        "Desc": "크리티컬 피해가 {0} 증가한다",
+        "Param": [
+          "5.60%"
+        ],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredcrit_UI.T_Iconpropertyredcrit_UI"
+      }
+    },
+    "14": {
+      "ParentNodes": [
+        10
+      ],
+      "NodeType": 4,
+      "Coordinate": 2,
+      "UnLockCondition": 500007,
+      "Consume": [
+        {
+          "Key": 43020054,
+          "Value": 3
+        },
+        {
+          "Key": 41100054,
+          "Value": 3
+        },
+        {
+          "Key": 41400194,
+          "Value": 1
+        },
+        {
+          "Key": 2,
+          "Value": 100000
+        }
+      ],
+      "Skill": {
+        "Name": "공격력 증가",
+        "Desc": "공격력이 {0} 증가한다",
+        "Param": [
+          "4.20%"
+        ],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredattack_UI.T_Iconpropertyredattack_UI"
+      }
+    },
+    "15": {
+      "ParentNodes": [
+        11
+      ],
+      "NodeType": 4,
+      "Coordinate": 2,
+      "UnLockCondition": 500007,
+      "Consume": [
+        {
+          "Key": 43020054,
+          "Value": 3
+        },
+        {
+          "Key": 41100054,
+          "Value": 3
+        },
+        {
+          "Key": 41400194,
+          "Value": 1
+        },
+        {
+          "Key": 2,
+          "Value": 100000
+        }
+      ],
+      "Skill": {
+        "Name": "공격력 증가",
+        "Desc": "공격력이 {0} 증가한다",
+        "Param": [
+          "4.20%"
+        ],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredattack_UI.T_Iconpropertyredattack_UI"
+      }
+    },
+    "16": {
+      "ParentNodes": [
+        12
+      ],
+      "NodeType": 4,
+      "Coordinate": 2,
+      "UnLockCondition": 500008,
+      "Consume": [
+        {
+          "Key": 43020054,
+          "Value": 3
+        },
+        {
+          "Key": 41100054,
+          "Value": 3
+        },
+        {
+          "Key": 41400194,
+          "Value": 1
+        },
+        {
+          "Key": 2,
+          "Value": 100000
+        }
+      ],
+      "Skill": {
+        "Name": "크리티컬 피해 증가",
+        "Desc": "크리티컬 피해가 {0} 증가한다",
+        "Param": [
+          "5.60%"
+        ],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredcrit_UI.T_Iconpropertyredcrit_UI"
+      }
+    },
+    "17": {
+      "ParentNodes": [],
+      "NodeType": 5,
+      "Coordinate": 1,
+      "UnLockCondition": 0,
+      "Consume": [
+        {
+          "Key": 43020032,
+          "Value": 2
+        },
+        {
+          "Key": 41100022,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 3900
+        }
+      ],
+      "Skill": {
+        "Name": "조화도 파괴 · 권갑",
+        "Desc": "목표의 <color=Highlight>「부조화 수치」</color>가 가득찰 시, 해당 목표에게 <color=Highlight><a href=「谐度破坏」></a></color> 피해를 입힌다",
+        "Param": [],
+        "SimpleDesc": "목표의 <color=Highlight>「부조화 수치」</color>가 가득찰 시, 해당 목표에게 <color=Highlight>「조화도 파괴」</color> 피해를 입힌다",
+        "SimpleParam": [],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconWeakPointBreakFist.SP_IconWeakPointBreakFist",
+        "Type": "조화도 파괴",
+        "Level": {},
+        "Consume": {
+          "1": []
+        },
+        "Damage": {}
+      }
+    }
+  },
+  "Chains": {
+    "1": {
+      "Name": "선실로 몰려오는 캄캄한 어둠",
+      "Desc": "공명 스킬 <color=Highlight>고난이도 설정</color> 발동 시, 추가로 {0}pt의 「<te href=850015>상상력</te>」과 {1}pt의 협주 에너지를 회복한다.\n일반 공격 <color=Highlight>현실에 비추는 환상</color> 상태는 적의 공격에 의해 중단되지 않는다",
+      "Param": [
+        "100",
+        "10"
+      ],
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconDevice/T_IconDevice_LuokekeM1_UI.T_IconDevice_LuokekeM1_UI"
+    },
+    "2": {
+      "Name": "미약하게 반짝이는 바다반디석",
+      "Desc": "일반 공격 <color=Highlight>현실에 비추는 환상</color> 발동 시, 파티 내 캐릭터의 인멸 피해 보너스가 {0} 증가되고, 최대 {1}스택 중첩이 가능하며, {2}초간 지속된다. 스택 최대치까지 중첩 시, 파티 내 캐릭터의 인멸 피해 보너스가 추가로 {3} 증가되며, {4}초간 지속된다",
+      "Param": [
+        "10%",
+        "3",
+        "30",
+        "10%",
+        "30"
+      ],
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconDevice/T_IconDevice_LuokekeM2_UI.T_IconDevice_LuokekeM2_UI"
+    },
+    "3": {
+      "Name": "마음으로 보고, 손으로 측정하기",
+      "Desc": "변주 스킬 <color=Highlight>펠로, 도와줘</color> 발동 시, 로코코의 크리티컬이 {0} 증가되고, 크리티컬 피해가 {1} 증가되며, {2}초간 지속된다",
+      "Param": [
+        "10%",
+        "30%",
+        "15"
+      ],
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconDevice/T_IconDevice_LuokekeM3_UI.T_IconDevice_LuokekeM3_UI"
+    },
+    "4": {
+      "Name": "수많은 「보물」로 가득 찬 상자",
+      "Desc": "공명 스킬 <color=Highlight>고난이도 설정</color> 발동 시, 일반 공격 <color=Highlight>현실에 비추는 환상</color>의 피해 배율이 {0} 상승되며, {1}초간 지속된다",
+      "Param": [
+        "60%",
+        "12"
+      ],
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconDevice/T_IconDevice_LuokekeM4_UI.T_IconDevice_LuokekeM4_UI"
+    },
+    "5": {
+      "Name": "무대 위의 낙원 재건",
+      "Desc": "공명 해방 <color=Highlight>즉흥 공연, 시작</color>의 피해 배율이 {0} 상승되며, <color=Highlight>강공격</color>의 피해 배율이 {1} 상승된다",
+      "Param": [
+        "20%",
+        "80%"
+      ],
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconDevice/T_IconDevice_LuokekeM5_UI.T_IconDevice_LuokekeM5_UI"
+    },
+    "6": {
+      "Name": "금빛 날개 타고 비상",
+      "Desc": "공명 해방 <color=Highlight>즉흥 공연, 시작</color> 발동 시, {0}초 내에 다음과 같은 효과를 획득한다.\n· 일반 공격 <color=Highlight>현실에 비추는 환상</color>으로 목표 공격 시, 목표의 {1} 방어력을 무시한다.\n· 일반 공격 <color=Highlight>현실에 비추는 환상</color> 3단 착지 후, 로코코를 공중으로 띄워 <color=Highlight><te href=850016>비약의 환상</te></color> 상태에 진입하고, 이때 <color=Highlight>일반 공격</color>을 짧게 누르면 일반 공격 <color=Highlight>현실 구축</color>을 발동하여, 일반 공격 <color=Highlight>현실 구축</color> 상태는 적의 공격에 의해 중단되지 않는다. 일반 공격 <color=Highlight>현실에 비추는 환상</color> 3단 피해량의 {2}에 해당하는 피해를 입힐 수 있으며, 해당 피해는 강공격 피해로 적용된다.\n· 일반 공격 <color=Highlight>현실 구축</color> 착지 후, 로코코를 공중으로 띄워 <color=Highlight><te href=850016>비약의 환상</te></color> 상태에 진입한다. 일반 공격 <color=Highlight>현실 구축</color>은 <color=Highlight><te href=850016>비약의 환상</te></color> 상태일 때만 발동할 수 있다",
+      "Param": [
+        "12",
+        "60%",
+        "100%"
+      ],
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconDevice/T_IconDevice_LuokekeM6_UI.T_IconDevice_LuokekeM6_UI"
+    }
+  },
+  "Ascensions": {
+    "1": [
+      {
+        "Key": 41100051,
+        "Value": 4
+      },
+      {
+        "Key": 2,
+        "Value": 5000
+      }
+    ],
+    "2": [
+      {
+        "Key": 41400164,
+        "Value": 3
+      },
+      {
+        "Key": 42601160,
+        "Value": 4
+      },
+      {
+        "Key": 41100052,
+        "Value": 4
+      },
+      {
+        "Key": 2,
+        "Value": 10000
+      }
+    ],
+    "3": [
+      {
+        "Key": 41400164,
+        "Value": 6
+      },
+      {
+        "Key": 42601160,
+        "Value": 8
+      },
+      {
+        "Key": 41100052,
+        "Value": 8
+      },
+      {
+        "Key": 2,
+        "Value": 15000
+      }
+    ],
+    "4": [
+      {
+        "Key": 41400164,
+        "Value": 9
+      },
+      {
+        "Key": 42601160,
+        "Value": 12
+      },
+      {
+        "Key": 41100053,
+        "Value": 4
+      },
+      {
+        "Key": 2,
+        "Value": 20000
+      }
+    ],
+    "5": [
+      {
+        "Key": 41400164,
+        "Value": 12
+      },
+      {
+        "Key": 42601160,
+        "Value": 16
+      },
+      {
+        "Key": 41100053,
+        "Value": 8
+      },
+      {
+        "Key": 2,
+        "Value": 40000
+      }
+    ],
+    "6": [
+      {
+        "Key": 41400164,
+        "Value": 16
+      },
+      {
+        "Key": 42601160,
+        "Value": 20
+      },
+      {
+        "Key": 41100054,
+        "Value": 4
+      },
+      {
+        "Key": 2,
+        "Value": 80000
+      }
+    ]
+  },
+  "Skin": {
+    "81001606": {
+      "Id": 81001606,
+      "SuitWeaponSkinId": 0,
+      "QualityId": 3,
+      "Name": "로코코",
+      "TitleName": "상자 속 보물",
+      "SubDecName": "로코코 - 기본 코스튬",
+      "BgDescription": "디자인이 독특한 즉흥 코미디 연출 복장. \n로코코가 평소에 주운 물건에다가 펠로가 오랫동안 수집한 소장품까지 더 하여, 정성껏 만들어졌다",
+      "Background": "/Game/Aki/UI/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_luokeke_UI.T_IconRole_Pile_luokeke_UI",
+      "Portrait": "/Game/Aki/UI/UIResources/Common/Image/PixActivity/T_ActivityRoleLuokeke.T_ActivityRoleLuokeke",
+      "SortIndex": 0,
+      "FormationSpineSkel": "/Game/Aki/UI/UIResources/Common/Spine/Portraits/Portraits_Luokeke/Portraits_Luokeke.Portraits_Luokeke-data",
+      "FormationSpineAtlas": "/Game/Aki/UI/UIResources/Common/Spine/Portraits/Portraits_Luokeke/Portraits_Luokeke.Portraits_Luokeke-atlas"
+    }
+  },
+  "Forte": {
+    "SkillInputList": {
+      "160601": {
+        "Desc": "{0} 짧게 눌러 주변 목표를 끌어당겨 로코코를 공중으로 띄워 비약의 환상 상태에 진입한다",
+        "InputList": [
+          "技能1"
+        ]
+      },
+      "160602": {
+        "Desc": "비약의 환상 상태에서 특수 에너지가 일정량에 도달 시, {0} 짧게 눌러 파생 낙하 공격을 발동할 수 있다. 최대 연속으로 3회 발동할 수 있다",
+        "InputList": [
+          "攻击"
+        ]
+      }
+    },
+    "Icon": "/Game/Aki/UI/UIResources/UiRole/Image/T_RoleSkillTreeLuokeke.T_RoleSkillTreeLuokeke",
+    "DescList": [
+      "특수 에너지가 일정량에 도달 시, 비약의 환상 상태에 있을 경우 파생 낙하 공격을 발동할 수 있다",
+      "반주 스킬 발동 후, 다음 등장 캐릭터에게 몹몰이가 가능한 탐색 도구가 제공된다"
+    ]
+  },
+  "Live2d": "luoKeKe",
+  "Audio": "luokeke",
+  "Recommend": {
+    "Weapon": [
+      21040026,
+      21040015,
+      21040024
+    ],
+    "Property": "크리티컬",
+    "Param": [
+      2,
+      8000
+    ]
+  }
+}

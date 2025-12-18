@@ -1,0 +1,75 @@
+{
+  "Id": 6000184,
+  "Code": "T01-",
+  "Name": "探隧重机",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_32054_UI.T_IconMonsterHead_32054_UI",
+  "Skill": {
+    "Desc": "使用声骸技能，召唤探隧重机，使附近队伍中登场角色获得召唤者生命上限{0}的护盾，持续{1}秒。\n技能冷却：{2}秒",
+    "SimpleDesc": "召唤探隧重机，使角色获得护盾。",
+    "Param": [
+      [
+        "10%",
+        "4",
+        "20"
+      ],
+      [
+        "10%",
+        "4",
+        "20"
+      ],
+      [
+        "10%",
+        "4",
+        "20"
+      ],
+      [
+        "10%",
+        "4",
+        "20"
+      ],
+      [
+        "10%",
+        "4",
+        "20"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_32054_UI.T_MstSkil_32054_UI",
+    "Damage": {}
+  },
+  "Group": {
+    "25": {
+      "Id": 25,
+      "Name": "星构寻辉之环",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriCureWeakness.T_IconElementAttriCureWeakness",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "治疗效果提升{0}",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "为队伍中角色提供治疗时，自身每{0}的偏谐值累积效率使队伍中角色攻击提升{1}，上限{2}，持续{3}秒，同名效果之间不可叠加。",
+          "Param": [
+            "1%",
+            "0.2%",
+            "25%",
+            "4"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 1,
+  "MonsterInfo": 320000540
+}

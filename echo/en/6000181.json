@@ -1,0 +1,87 @@
+{
+  "Id": 6000181,
+  "Code": "T01-",
+  "Name": "Flora Reindeer",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_32051_UI.T_IconMonsterHead_32051_UI",
+  "Skill": {
+    "Desc": "Summon a Flora Reindeer to attack enemies within a large range, dealing {0} Aero DMG.\n\nCD: {1}s.",
+    "SimpleDesc": "Summon a Flora Reindeer to attack enemies, dealing Aero DMG.",
+    "Param": [
+      [
+        "107.00%",
+        "15"
+      ],
+      [
+        "128.40%",
+        "15"
+      ],
+      [
+        "149.80%",
+        "15"
+      ],
+      [
+        "171.20%",
+        "15"
+      ],
+      [
+        "192.60%",
+        "15"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_32051_UI.T_MstSkil_32051_UI",
+    "Damage": {
+      "20011801": {
+        "Element": 4,
+        "RelatedProperty": "ATK",
+        "Type": 5,
+        "RateLv": [
+          10700,
+          12840,
+          14980,
+          17120,
+          19260
+        ],
+        "Energy": 267,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 10700
+      }
+    }
+  },
+  "Group": {
+    "26": {
+      "Id": 26,
+      "Name": "Rite of Gilded Revelation",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriAttackWeakness.T_IconElementAttriAttackWeakness",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "Spectro DMG + {0}",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "Dealing Basic Attack DMG increases Spectro DMG by {0} for {2}s, stacking up to {1} times. With {1} stacks, casting Resonance Liberation grants {3} Basic Attack DMG Bonus.",
+          "Param": [
+            "10%",
+            "3",
+            "5",
+            "40%"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 1,
+  "MonsterInfo": 320000510
+}

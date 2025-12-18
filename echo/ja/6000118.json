@@ -1,0 +1,122 @@
+{
+  "Id": 6000118,
+  "Code": "W26-",
+  "Name": "ナイトメア・破霜の狩人",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31064_UI.T_IconMonsterHead_31064_UI",
+  "Skill": {
+    "Desc": "音骸スキルを発動すると、破霜の狩人を召喚。破霜の狩人は氷の矛を敵に投げつける。命中した敵に{0}の凝縮ダメージを与える。エナジー収束中に10回{1}の凝縮ダメージ、爆発した時に{2}の凝縮ダメージを与える。\nクールタイム：{3}秒",
+    "SimpleDesc": "破霜の狩人を召喚し、氷の矛を投げ、凝縮ダメージを与える。",
+    "Param": [
+      [
+        "28.80%",
+        "2.88%",
+        "14.40%",
+        "8"
+      ],
+      [
+        "33.12%",
+        "3.31%",
+        "16.56%",
+        "8"
+      ],
+      [
+        "37.44%",
+        "3.74%",
+        "18.72%",
+        "8"
+      ],
+      [
+        "41.76%",
+        "4.18%",
+        "20.88%",
+        "8"
+      ],
+      [
+        "46.08%",
+        "4.61%",
+        "23.04%",
+        "8"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_Z_Z9_UI.T_MstSkil_Z_Z9_UI",
+    "Damage": {
+      "20001401": {
+        "Element": 1,
+        "RelatedProperty": "攻撃力",
+        "Type": 5,
+        "RateLv": [
+          2880,
+          3312,
+          3744,
+          4176,
+          4608
+        ],
+        "Energy": 72,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 2880
+      },
+      "20001402": {
+        "Element": 1,
+        "RelatedProperty": "攻撃力",
+        "Type": 5,
+        "RateLv": [
+          288,
+          331,
+          374,
+          417,
+          460
+        ],
+        "Energy": 7,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 288
+      },
+      "20001403": {
+        "Element": 1,
+        "RelatedProperty": "攻撃力",
+        "Type": 5,
+        "RateLv": [
+          1440,
+          1656,
+          1872,
+          2088,
+          2304
+        ],
+        "Energy": 36,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 1440
+      }
+    }
+  },
+  "Group": {
+    "19": {
+      "Id": 19,
+      "Name": "ロスト・ドリーム",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriDarkVision.T_IconElementAttriDarkVision",
+      "Color": "FFFFFF00",
+      "Set": {
+        "3": {
+          "Desc": "キャラの共鳴エネルギーが{0}の時、自身のクリティカル率が{1}アップ、音骸スキルダメージが{2}アップ。",
+          "Param": [
+            "0",
+            "20%",
+            "35%"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 0,
+  "MonsterInfo": 310000640
+}

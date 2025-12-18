@@ -1,0 +1,129 @@
+{
+  "Id": 6000183,
+  "Code": "T01-",
+  "Name": "重工铁蹄",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_32053_UI.T_IconMonsterHead_32053_UI",
+  "Skill": {
+    "Desc": "使用声骸技能，幻形为重工铁蹄，冲向敌人造成{0}的热熔伤害，并在终点处进行一次强力的上撩攻击造成三段{1}和一段{2}的热熔伤害。\n技能冷却：{3}秒",
+    "SimpleDesc": "幻形为重工铁蹄，冲向敌人造成热熔伤害。",
+    "Param": [
+      [
+        "29.80%",
+        "7.45%",
+        "96.85%",
+        "15"
+      ],
+      [
+        "35.76%",
+        "8.94%",
+        "116.22%",
+        "15"
+      ],
+      [
+        "41.72%",
+        "10.43%",
+        "135.59%",
+        "15"
+      ],
+      [
+        "47.68%",
+        "11.92%",
+        "154.96%",
+        "15"
+      ],
+      [
+        "53.64%",
+        "13.41%",
+        "174.33%",
+        "15"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_32053_UI.T_MstSkil_32053_UI",
+    "Damage": {
+      "20012001": {
+        "Element": 2,
+        "RelatedProperty": "攻击",
+        "Type": 5,
+        "RateLv": [
+          2980,
+          3576,
+          4172,
+          4768,
+          5364
+        ],
+        "Energy": 14,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 2980
+      },
+      "20012002": {
+        "Element": 2,
+        "RelatedProperty": "攻击",
+        "Type": 5,
+        "RateLv": [
+          745,
+          894,
+          1043,
+          1192,
+          1341
+        ],
+        "Energy": 0,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 745
+      },
+      "20012003": {
+        "Element": 2,
+        "RelatedProperty": "攻击",
+        "Type": 5,
+        "RateLv": [
+          9685,
+          11622,
+          13559,
+          15496,
+          17433
+        ],
+        "Energy": 157,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 14527
+      }
+    }
+  },
+  "Group": {
+    "24": {
+      "Id": 24,
+      "Name": "逆光跃彩之约",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriLightWeakness.T_IconElementAttriLightWeakness",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "衍射伤害提升{0}",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "角色施放延奏技能后，下一个变奏技能登场的角色攻击提升{0}，其每点谐度破坏增幅还会使攻击额外提升{1}，上限{2}，持续{3}秒，若切换至其他角色则该效果提前结束。",
+          "Param": [
+            "15%",
+            "0.3%",
+            "15%",
+            "15"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 1,
+  "MonsterInfo": 320000530
+}

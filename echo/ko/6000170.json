@@ -1,0 +1,78 @@
+{
+  "Id": 6000170,
+  "Code": "S05-",
+  "Name": "악몽 · 가시장미버섯(유체)",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31073_UI.T_IconMonsterHead_31073_UI",
+  "Skill": {
+    "Desc": "에코 어빌리티를 사용하여 가시장미버섯(유체)을 소환해 레이저 한줄기를 발사하여 {0}의 인멸 피해를 입힌다.\n스킬 쿨타임: {1}초",
+    "SimpleDesc": "가시장미버섯(유체)를 소환, 레이저를 발사해 인멸 피해를 입힌다",
+    "Param": [
+      [
+        "20.00%+40",
+        "8"
+      ],
+      [
+        "23.00%+46",
+        "8"
+      ],
+      [
+        "26.00%+52",
+        "8"
+      ],
+      [
+        "29.00%+58",
+        "8"
+      ],
+      [
+        "32.00%+64",
+        "8"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_305_UI.T_MstSkil_305_UI",
+    "Damage": {
+      "20003101": {
+        "Element": 6,
+        "RelatedProperty": "공격력",
+        "Type": 5,
+        "RateLv": [
+          0
+        ],
+        "Energy": 180,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 7500
+      }
+    }
+  },
+  "Group": {
+    "22": {
+      "Id": 22,
+      "Name": "불타는 깃털을 펼친 사냥꾼의 그림자",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriFireA.T_IconElementAttriFireA",
+      "Color": "FFFFFF00",
+      "Set": {
+        "3": {
+          "Desc": "캐릭터가 에코 어빌리티 피해를 입힐 시, 강공격 피해의 크리티컬이 {0} 증가되고 {1}초간 지속된다. 강공격 피해를 입힐 시, 에코 어빌리티 피해의 크리티컬이 {2} 증가되고 {3}초간 지속된다. 두 가지 효과를 동시에 보유 시, 자신의 용융 피해가 {4} 증가된다",
+          "Param": [
+            "20%",
+            "6",
+            "20%",
+            "6",
+            "16%"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 0,
+  "MonsterInfo": 310000730
+}

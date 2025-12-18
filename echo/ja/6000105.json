@@ -1,0 +1,120 @@
+{
+  "Id": 6000105,
+  "Code": "N74-",
+  "Name": "ナイトメア・輝き蛍の軍勢",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34013_UI.T_IconMonsterHead_34013_UI",
+  "Skill": {
+    "Desc": "ナイトメア・輝き蛍の軍勢を召喚して周囲の敵に凝縮ダメージを与える。\nメイン音骸スロットに装備時、自身の凝縮ダメージが{1}アップ、協同攻撃によるダメージが{2}アップ。\nクールタイム：{3}秒",
+    "SimpleDesc": "ナイトメア・輝き蛍の軍勢を召喚して周囲の敵に凝縮ダメージを与える。メイン音骸スロットに装備時、自身の凝縮ダメージと協同攻撃によるダメージがアップ。",
+    "Param": [
+      [
+        "152.00%",
+        "12.00%",
+        "30.00%",
+        "20"
+      ],
+      [
+        "182.40%",
+        "12.00%",
+        "30.00%",
+        "20"
+      ],
+      [
+        "212.80%",
+        "12.00%",
+        "30.00%",
+        "20"
+      ],
+      [
+        "243.20%",
+        "12.00%",
+        "30.00%",
+        "20"
+      ],
+      [
+        "273.60%",
+        "12.00%",
+        "30.00%",
+        "20"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_Mstskil_994_UI.T_Mstskil_994_UI",
+    "Damage": {
+      "28002501": {
+        "Element": 1,
+        "RelatedProperty": "攻撃力",
+        "Type": 5,
+        "RateLv": [
+          15200,
+          18240,
+          21280,
+          24320,
+          27360
+        ],
+        "Energy": 380,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 15200
+      }
+    }
+  },
+  "Group": {
+    "10": {
+      "Id": 10,
+      "Name": "フロステッド・ハート",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriIceUltimateSkill.T_IconElementAttriIceUltimateSkill",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "共鳴スキルダメージが{0}アップ",
+          "Param": [
+            "12%"
+          ]
+        },
+        "5": {
+          "Desc": "共鳴スキル発動時、自身の凝縮ダメージが{0}アップ、{1}秒間持続；共鳴解放発動時、自身の共鳴スキルダメージが{2}アップ、{3}秒間持続、最大{4}スタック。",
+          "Param": [
+            "22.5%",
+            "15",
+            "18%",
+            "5",
+            "2"
+          ]
+        }
+      }
+    },
+    "13": {
+      "Id": 13,
+      "Name": "セレッシャル・アンサム",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriCooperate.T_IconElementAttriCooperate",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "共鳴効率が{0}アップ",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "装備キャラの協同攻撃によるダメージが{0}アップ。協同攻撃がクリティカル時、チーム内の登場キャラの攻撃力を{1}アップさせ、{2}秒間持続。",
+          "Param": [
+            "80%",
+            "20%",
+            "4"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 2,
+  "MonsterInfo": 340000130
+}

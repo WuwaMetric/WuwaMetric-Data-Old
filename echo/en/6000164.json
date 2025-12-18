@@ -1,0 +1,82 @@
+{
+  "Id": 6000164,
+  "Code": "W27-",
+  "Name": "Nightmare: Aero Predator",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31066_UI.T_IconMonsterHead_31066_UI",
+  "Skill": {
+    "Desc": "Summon an Aero Predator that throws a dart forward. The dart will bounce between enemies up to three times, dealing {0} Aero DMG each time it hits.\n\nCD: {1}s",
+    "SimpleDesc": "Summon an Aero Predator to deal Aero DMG.",
+    "Param": [
+      [
+        "18.00%",
+        "8"
+      ],
+      [
+        "20.70%",
+        "8"
+      ],
+      [
+        "23.40%",
+        "8"
+      ],
+      [
+        "26.10%",
+        "8"
+      ],
+      [
+        "28.80%",
+        "8"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_235_UI.T_MstSkil_235_UI",
+    "Damage": {
+      "20001601": {
+        "Element": 4,
+        "RelatedProperty": "ATK",
+        "Type": 5,
+        "RateLv": [
+          1800,
+          2070,
+          2340,
+          2610,
+          2880
+        ],
+        "Energy": 45,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 1800
+      }
+    }
+  },
+  "Group": {
+    "20": {
+      "Id": 20,
+      "Name": "Crown of Valor",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriShield.T_IconElementAttriShield",
+      "Color": "FFFFFF00",
+      "Set": {
+        "3": {
+          "Desc": "Upon gaining a Shield, increase the Resonator's ATK by {0} and Crit. DMG by {1} for {3}s. This effect can be triggered once every {4}s and stacks up to {2} times.",
+          "Param": [
+            "6%",
+            "4%",
+            "5",
+            "4",
+            "0.5"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 0,
+  "MonsterInfo": 310000660
+}

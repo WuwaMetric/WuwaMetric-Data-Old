@@ -1,0 +1,132 @@
+{
+  "Id": 6000121,
+  "Code": "W87-",
+  "Name": "偽りの神王",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34017_UI.T_IconMonsterHead_34017_UI",
+  "Skill": {
+    "Desc": "音骸スキルを発動すると、偽りの神王に変身し、旋回しながら突進して敵に{0}の電導ダメージを4段与える。\nメイン音骸スロットに装備時、自身の電導ダメージが{1}、重撃ダメージが{2}アップ。変奏スキルで登場時、偽りの神王を召喚し、敵に{3}の電導ダメージを与える。\n初期使用回数は{4}回。{5}秒ごとに使用回数が1回増加、最大{6}回。\nクールタイム：{7}秒",
+    "SimpleDesc": "偽りの神王に変身し、周囲の敵に電導ダメージを与える。\nメイン音骸スロットに装備時、自身の電導ダメージと重撃ダメージがアップ。変奏スキルで登場時、偽りの神王を召喚し、敵に電導ダメージを与える。",
+    "Param": [
+      [
+        "30.75%",
+        "12.00%",
+        "12.00%",
+        "225.00%",
+        "2",
+        "8",
+        "2",
+        "8"
+      ],
+      [
+        "36.90%",
+        "12.00%",
+        "12.00%",
+        "270.00%",
+        "2",
+        "8",
+        "2",
+        "8"
+      ],
+      [
+        "43.05%",
+        "12.00%",
+        "12.00%",
+        "315.00%",
+        "2",
+        "8",
+        "2",
+        "8"
+      ],
+      [
+        "49.20%",
+        "12.00%",
+        "12.00%",
+        "360.00%",
+        "2",
+        "8",
+        "2",
+        "8"
+      ],
+      [
+        "55.35%",
+        "12.00%",
+        "12.00%",
+        "405.00%",
+        "2",
+        "8",
+        "2",
+        "8"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_34017_UI.T_MstSkil_34017_UI",
+    "Damage": {
+      "28003101": {
+        "Element": 3,
+        "RelatedProperty": "攻撃力",
+        "Type": 5,
+        "RateLv": [
+          3075,
+          3690,
+          4305,
+          4920,
+          5535
+        ],
+        "Energy": 76,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 3075
+      },
+      "28003102": {
+        "Element": 3,
+        "RelatedProperty": "攻撃力",
+        "Type": 5,
+        "RateLv": [
+          22500,
+          27000,
+          31500,
+          36000,
+          40500
+        ],
+        "Energy": 0,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 22500
+      }
+    }
+  },
+  "Group": {
+    "20": {
+      "Id": 20,
+      "Name": "グローリーフォージ・クラウン",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriShield.T_IconElementAttriShield",
+      "Color": "FFFFFF00",
+      "Set": {
+        "3": {
+          "Desc": "キャラがシールドを獲得時、自身の攻撃力が{0}、クリティカルダメージが{1}アップ。この効果は最大{2}スタック、{3}秒間持続、{4}秒ごとに1回発動可能。",
+          "Param": [
+            "6%",
+            "4%",
+            "5",
+            "4",
+            "0.5"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 2,
+  "MonsterInfo": 340000170,
+  "Phantom": {
+    "Name": "異相・偽りの神王",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_SG_34017_UI.T_IconMonsterGoods_SG_34017_UI"
+  }
+}

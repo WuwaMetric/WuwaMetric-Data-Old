@@ -1,0 +1,87 @@
+{
+  "Id": 6000161,
+  "Code": "H42-",
+  "Name": "악몽 · 보라색 왜가리",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_32045_UI.T_IconMonsterHead_32045_UI",
+  "Skill": {
+    "Desc": "에코 어빌리티를 사용하여 보라색 왜가리로 변신한 후 제자리에서 패링을 하여 일정 시간 동안 지속 후 반격하며 {0}의 전도 피해를 입힌다. 패링 과정 중 공격을 받을 시 미리 반격이 가능하며 협주 에너지가 추가로 {1}pt를 회복된다.\n스킬 쿨타임: {2}초",
+    "SimpleDesc": "보라색 왜가리로 변하여 적의 공격을 막고 반격으로 전도 피해를 입히며 협주 에너지가 회복된다",
+    "Param": [
+      [
+        "180.00%",
+        "5",
+        "15"
+      ],
+      [
+        "207.00%",
+        "5",
+        "15"
+      ],
+      [
+        "234.00%",
+        "5",
+        "15"
+      ],
+      [
+        "261.00%",
+        "5",
+        "15"
+      ],
+      [
+        "288.00%",
+        "5",
+        "15"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_Z_B2_UI.T_MstSkil_Z_B2_UI",
+    "Damage": {
+      "20001701": {
+        "Element": 3,
+        "RelatedProperty": "공격력",
+        "Type": 5,
+        "RateLv": [
+          18000,
+          20700,
+          23400,
+          26100,
+          28800
+        ],
+        "Energy": 450,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 18000
+      }
+    }
+  },
+  "Group": {
+    "20": {
+      "Id": 20,
+      "Name": "영광의 칼날로 만들어진 왕관",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriShield.T_IconElementAttriShield",
+      "Color": "FFFFFF00",
+      "Set": {
+        "3": {
+          "Desc": "캐릭터가 실드 획득 시, 자신의 공격력이 {0} 증가되고 크리티컬 피해가 {1} 증가된다. 해당 효과는 최대 {2}스택까지 중첩이 가능하며, {3}초간 지속되고 {4}초마다 1회 발생할 수 있다",
+          "Param": [
+            "6%",
+            "4%",
+            "5",
+            "4",
+            "0.5"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 1,
+  "MonsterInfo": 320000450
+}

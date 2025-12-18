@@ -1,0 +1,114 @@
+{
+  "Id": 6000071,
+  "Code": "R08-",
+  "Name": "근무 인형",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31047_UI.T_IconMonsterHead_31047_UI",
+  "Skill": {
+    "Desc": "에코 어빌리티를 사용하여 근무 인형으로 변신한 후, 회전하며 뛰어오른 뒤 내려찍어 {0}의 물리 피해를 입힌다.\n스킬 쿨타임: {1}초",
+    "SimpleDesc": "근무 인형으로 변신하여 뛰어오른 뒤 내려찍어 적에게 물리 피해를 입힌다",
+    "Param": [
+      [
+        "149.00%",
+        "15"
+      ],
+      [
+        "178.80%",
+        "15"
+      ],
+      [
+        "208.60%",
+        "15"
+      ],
+      [
+        "238.40%",
+        "15"
+      ],
+      [
+        "268.20%",
+        "15"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/MstSkil_31047_UI.MstSkil_31047_UI",
+    "Damage": {
+      "20007201": {
+        "Element": 0,
+        "RelatedProperty": "공격력",
+        "Type": 5,
+        "RateLv": [
+          14900,
+          17880,
+          20860,
+          23840,
+          26820
+        ],
+        "Energy": 372,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 14900
+      }
+    }
+  },
+  "Group": {
+    "11": {
+      "Id": 11,
+      "Name": "영원의 광채",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriLightError.T_IconElementAttriLightError",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "회절 피해가 {0} 증가된다",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "캐릭터가 적에게 「광학 효과」를 추가 시, 자신의 크리티컬이 {0} 증가되고 {1}초간 지속된다. 「광학 효과」가 {2}스택인 적을 공격 시, 자신의 회절 피해 보너스가 {3} 증가되고 {4}초간 지속된다",
+          "Param": [
+            "20%",
+            "15",
+            "10",
+            "15%",
+            "15"
+          ]
+        }
+      }
+    },
+    "14": {
+      "Id": 14,
+      "Name": "파도에 맞선 용기",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriEnergy.T_IconElementAttriEnergy",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "공명 효율이 {0} 증가된다",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "캐릭터의 공격력이 {0} 증가되고, 공명 효율이 {1}에 도달한 후 현재 캐릭터의 전체 속성 피해가 {2} 증가된다",
+          "Param": [
+            "15%",
+            "250%",
+            "30%"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 0,
+  "MonsterInfo": 310000470,
+  "Phantom": {
+    "Name": "이상 · 근무 인형",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_SG_31047_UI.T_IconMonsterGoods_SG_31047_UI"
+  }
+}

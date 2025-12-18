@@ -1,0 +1,110 @@
+{
+  "Id": 6000186,
+  "Code": "T01-",
+  "Name": "隐迹铁影",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_32056_UI.T_IconMonsterHead_32056_UI",
+  "Skill": {
+    "Desc": "使用声骸技能，召唤隐迹铁影，发射光束对敌人造成{0}的湮灭伤害。\n技能冷却：{1}秒",
+    "SimpleDesc": "召唤隐迹铁影，造成湮灭伤害。",
+    "Param": [
+      [
+        "107.00%",
+        "15"
+      ],
+      [
+        "128.40%",
+        "15"
+      ],
+      [
+        "149.80%",
+        "15"
+      ],
+      [
+        "171.20%",
+        "15"
+      ],
+      [
+        "192.60%",
+        "15"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_32056_UI.T_MstSkil_32056_UI",
+    "Damage": {
+      "20012301": {
+        "Element": 6,
+        "RelatedProperty": "攻击",
+        "Type": 5,
+        "RateLv": [
+          10700,
+          12840,
+          14980,
+          17120,
+          19260
+        ],
+        "Energy": 267,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 10700
+      }
+    }
+  },
+  "Group": {
+    "24": {
+      "Id": 24,
+      "Name": "逆光跃彩之约",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriLightWeakness.T_IconElementAttriLightWeakness",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "衍射伤害提升{0}",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "角色施放延奏技能后，下一个变奏技能登场的角色攻击提升{0}，其每点谐度破坏增幅还会使攻击额外提升{1}，上限{2}，持续{3}秒，若切换至其他角色则该效果提前结束。",
+          "Param": [
+            "15%",
+            "0.3%",
+            "15%",
+            "15"
+          ]
+        }
+      }
+    },
+    "25": {
+      "Id": 25,
+      "Name": "星构寻辉之环",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriCureWeakness.T_IconElementAttriCureWeakness",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "治疗效果提升{0}",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "为队伍中角色提供治疗时，自身每{0}的偏谐值累积效率使队伍中角色攻击提升{1}，上限{2}，持续{3}秒，同名效果之间不可叠加。",
+          "Param": [
+            "1%",
+            "0.2%",
+            "25%",
+            "4"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 1,
+  "MonsterInfo": 320000560
+}

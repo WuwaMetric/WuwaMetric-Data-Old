@@ -1,0 +1,87 @@
+{
+  "Id": 6000181,
+  "Code": "T01-",
+  "Name": "플로라 메카 레인디어",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_32051_UI.T_IconMonsterHead_32051_UI",
+  "Skill": {
+    "Desc": "에코 어빌리티를 사용하여 플로라 메카 레인디어를 소환한 후, 넓은 범위 내의 적에게 {0}의 기류 피해를 입힌다.\n스킬 쿨타임: {1}초",
+    "SimpleDesc": "플로라 메카 레인디어를 소환하여 기류 피해를 입힌다",
+    "Param": [
+      [
+        "107.00%",
+        "15"
+      ],
+      [
+        "128.40%",
+        "15"
+      ],
+      [
+        "149.80%",
+        "15"
+      ],
+      [
+        "171.20%",
+        "15"
+      ],
+      [
+        "192.60%",
+        "15"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_32051_UI.T_MstSkil_32051_UI",
+    "Damage": {
+      "20011801": {
+        "Element": 4,
+        "RelatedProperty": "공격력",
+        "Type": 5,
+        "RateLv": [
+          10700,
+          12840,
+          14980,
+          17120,
+          19260
+        ],
+        "Energy": 267,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 10700
+      }
+    }
+  },
+  "Group": {
+    "26": {
+      "Id": 26,
+      "Name": "흐르는 금빛 속 진리의 답",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriAttackWeakness.T_IconElementAttriAttackWeakness",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "회절 피해가 {0} 증가된다",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "캐릭터가 일반 공격으로 피해를 입힐 시, 자신의 회절 피해가 {0} 증가되고, 해당 효과는 {1}스택 중첩이 가능하며, {2}초간 지속된다. {1}스택 중첩 시, 공명 해방을 발동하면 일반 공격 피해 보너스가 {3} 증가된다",
+          "Param": [
+            "10%",
+            "3",
+            "5",
+            "40%"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 1,
+  "MonsterInfo": 320000510
+}

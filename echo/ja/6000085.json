@@ -1,0 +1,91 @@
+{
+  "Id": 6000085,
+  "Code": "W93-",
+  "Name": "ヘカテー",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34010_1_UI.T_IconMonsterHead_34010_1_UI",
+  "Skill": {
+    "Desc": "音骸スキルを発動すると、踊り続ける「冥月の侍女」を3名召喚する。「冥月の侍女」はブレードで敵に{0}の消滅ダメージを与える。ブレードでパリィに成功時、「冥月の侍女」の存在時間をリセット。\nメイン音骸スロットに装備時、自身の協同攻撃によるダメージが{1}アップ。\nクールタイム：{2}秒",
+    "SimpleDesc": "踊り続ける「冥月の侍女」を召喚して周囲の敵に消滅ダメージを与える。「冥月の侍女」のブレードでパリィに成功時、「冥月の侍女」の存在時間をリセット。メイン音骸スロットに装備時、自身の協同攻撃によるダメージがアップ。",
+    "Param": [
+      [
+        "25.33%",
+        "40.00%",
+        "20"
+      ],
+      [
+        "30.40%",
+        "40.00%",
+        "20"
+      ],
+      [
+        "35.46%",
+        "40.00%",
+        "20"
+      ],
+      [
+        "40.53%",
+        "40.00%",
+        "20"
+      ],
+      [
+        "45.59%",
+        "40.00%",
+        "20"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/MstSkil_34010_UI.MstSkil_34010_UI",
+    "Damage": {
+      "28001601": {
+        "Element": 6,
+        "RelatedProperty": "攻撃力",
+        "Type": 5,
+        "RateLv": [
+          2533,
+          3040,
+          3546,
+          4053,
+          4559
+        ],
+        "Energy": 63,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 0
+      }
+    }
+  },
+  "Group": {
+    "13": {
+      "Id": 13,
+      "Name": "セレッシャル・アンサム",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriCooperate.T_IconElementAttriCooperate",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "共鳴効率が{0}アップ",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "装備キャラの協同攻撃によるダメージが{0}アップ。協同攻撃がクリティカル時、チーム内の登場キャラの攻撃力を{1}アップさせ、{2}秒間持続。",
+          "Param": [
+            "80%",
+            "20%",
+            "4"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 3,
+  "MonsterInfo": 340000100
+}

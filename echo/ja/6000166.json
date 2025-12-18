@@ -1,0 +1,87 @@
+{
+  "Id": 6000166,
+  "Code": "H02-",
+  "Name": "ナイトメア・ジュルッポ",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31068_UI.T_IconMonsterHead_31068_UI",
+  "Skill": {
+    "Desc": "音骸スキルを発動すると、ジュルッポを召喚し、前方に気流を{0}回吹き出し、毎回{1}の気動ダメージを与え、敵を撃退する。\nクールタイム：{2}秒",
+    "SimpleDesc": "ジュルッポを召喚し、前に気流を吹き出し、気動ダメージを与え、敵を撃退する。",
+    "Param": [
+      [
+        "3",
+        "24.00%",
+        "8"
+      ],
+      [
+        "3",
+        "27.60%",
+        "8"
+      ],
+      [
+        "3",
+        "31.20%",
+        "8"
+      ],
+      [
+        "3",
+        "34.80%",
+        "8"
+      ],
+      [
+        "3",
+        "38.40%",
+        "8"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_971_UI.T_MstSkil_971_UI",
+    "Damage": {
+      "20002701": {
+        "Element": 4,
+        "RelatedProperty": "攻撃力",
+        "Type": 5,
+        "RateLv": [
+          2400,
+          2760,
+          3120,
+          3480,
+          3840
+        ],
+        "Energy": 60,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 2400
+      }
+    }
+  },
+  "Group": {
+    "21": {
+      "Id": 21,
+      "Name": "エーテル・レゾナンス",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriSupport.T_IconElementAttriSupport",
+      "Color": "FFFFFF00",
+      "Set": {
+        "3": {
+          "Desc": "キャラが音骸スキルを発動時、自身の重撃ダメージが{0}アップ、{1}秒間持続。さらにチーム内全員の音骸スキルダメージが{2}アップ、最大{3}スタック、{4}秒間持続。同名の音骸による発動は1回のみで、効果が切れると発動記録もリセットされる。{3}スタックの状態で音骸スキルを発動すると、持続時間がリセットされる。",
+          "Param": [
+            "30%",
+            "4",
+            "4%",
+            "4",
+            "30"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 0,
+  "MonsterInfo": 310000680
+}

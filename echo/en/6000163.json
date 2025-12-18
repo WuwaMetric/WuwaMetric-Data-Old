@@ -1,0 +1,103 @@
+{
+  "Id": 6000163,
+  "Code": "W25-",
+  "Name": "Nightmare: Electro Predator",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31065_UI.T_IconMonsterHead_31065_UI",
+  "Skill": {
+    "Desc": "Summon an Electro Predator to shoot the enemy 5 times. The first 4 shots deals {0} Electro DMG, and the last deals {1} Electro DMG.\r\n\r\nCD: {2}s",
+    "SimpleDesc": "Summon an Electro Predator to fire a rain of arrows, dealing Electro DMG.",
+    "Param": [
+      [
+        "10.80%",
+        "28.80%",
+        "8"
+      ],
+      [
+        "12.42%",
+        "33.12%",
+        "8"
+      ],
+      [
+        "14.04%",
+        "37.44%",
+        "8"
+      ],
+      [
+        "15.66%",
+        "41.76%",
+        "8"
+      ],
+      [
+        "17.28%",
+        "46.08%",
+        "8"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_Z_Z1_UI.T_MstSkil_Z_Z1_UI",
+    "Damage": {
+      "20001501": {
+        "Element": 3,
+        "RelatedProperty": "ATK",
+        "Type": 5,
+        "RateLv": [
+          1080,
+          1242,
+          1404,
+          1566,
+          1728
+        ],
+        "Energy": 27,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 1080
+      },
+      "20001502": {
+        "Element": 3,
+        "RelatedProperty": "ATK",
+        "Type": 5,
+        "RateLv": [
+          2880,
+          3312,
+          3744,
+          4176,
+          4608
+        ],
+        "Energy": 72,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 2880
+      }
+    }
+  },
+  "Group": {
+    "20": {
+      "Id": 20,
+      "Name": "Crown of Valor",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriShield.T_IconElementAttriShield",
+      "Color": "FFFFFF00",
+      "Set": {
+        "3": {
+          "Desc": "Upon gaining a Shield, increase the Resonator's ATK by {0} and Crit. DMG by {1} for {3}s. This effect can be triggered once every {4}s and stacks up to {2} times.",
+          "Param": [
+            "6%",
+            "4%",
+            "5",
+            "4",
+            "0.5"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 0,
+  "MonsterInfo": 310000650
+}

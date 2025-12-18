@@ -1,0 +1,108 @@
+{
+  "Id": 6000075,
+  "Code": "W66-",
+  "Name": "흑야 기사",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_32024_UI.T_IconMonsterHead_32024_UI",
+  "Skill": {
+    "Desc": "에코 어빌리티를 사용하여 흑야 기사로 변신한 후, 도약하여 전방의 적을 찌르고 {0}의 인멸 피해를 입힌다.\n스킬 쿨타임: {1}초",
+    "SimpleDesc": "흑야 기사로 변신한 후, 도약하여 전방의 적을 찌르고 인멸 피해를 입힌다",
+    "Param": [
+      [
+        "149.00%",
+        "15"
+      ],
+      [
+        "178.80%",
+        "15"
+      ],
+      [
+        "208.60%",
+        "15"
+      ],
+      [
+        "238.40%",
+        "15"
+      ],
+      [
+        "268.20%",
+        "15"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/MstSkil_32024_UI.MstSkil_32024_UI",
+    "Damage": {
+      "20005801": {
+        "Element": 6,
+        "RelatedProperty": "공격력",
+        "Type": 5,
+        "RateLv": [
+          14900,
+          17880,
+          20860,
+          23840,
+          26820
+        ],
+        "Energy": 372,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 14900
+      }
+    }
+  },
+  "Group": {
+    "12": {
+      "Id": 12,
+      "Name": "어둠의 장막",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriDarkAssist.T_IconElementAttriDarkAssist",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "인멸 피해가 {0} 증가된다",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "캐릭터가 반주 스킬을 발생시키고 퇴장 시, 추가로 주변 적에게 {0}의 인멸 피해를 입히고, 해당 피해는 반주 스킬 피해로 적용되며, 다음에 등장하는 캐릭터의 인멸 피해 보너스를 {1} 증가시키고, {2}초간 지속된다",
+          "Param": [
+            "480%",
+            "15%",
+            "15"
+          ]
+        }
+      }
+    },
+    "13": {
+      "Id": 13,
+      "Name": "하늘의 합주곡",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriCooperate.T_IconElementAttriCooperate",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "공명 효율이 {0} 증가된다",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "현재 캐릭터의 협동 공격이 입히는 피해가 {0} 증가된다. 협동 공격으로 적을 명중하여 크리티컬이 발생할 경우, 파티 내 등장 캐릭터의 공격력이 {1} 증가되고, {2}초간 지속된다",
+          "Param": [
+            "80%",
+            "20%",
+            "4"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 1,
+  "MonsterInfo": 320000240
+}

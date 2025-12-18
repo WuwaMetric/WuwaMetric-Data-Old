@@ -1,0 +1,73 @@
+{
+  "Id": 6000169,
+  "Code": "H06-",
+  "Name": "ナイトメア・熔解トカゲ（幼体）",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31072_UI.T_IconMonsterHead_31072_UI",
+  "Skill": {
+    "Desc": "音骸スキルを発動すると、熔解トカゲ（幼体）に変身し、その場で休憩し、HPを徐々に回復する。\nクールタイム：{0}秒",
+    "SimpleDesc": "熔解トカゲ（幼体）に変身し、その場で休憩し、HPを徐々に回復する。",
+    "Param": [
+      [
+        "8"
+      ],
+      [
+        "8"
+      ],
+      [
+        "8"
+      ],
+      [
+        "8"
+      ],
+      [
+        "8"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_285_UI.T_MstSkil_285_UI",
+    "Damage": {
+      "20002902": {
+        "Element": 0,
+        "RelatedProperty": "攻撃力",
+        "Type": 0,
+        "RateLv": [
+          0
+        ],
+        "Energy": 0,
+        "ElementPower": 0,
+        "HardnessLv": 0,
+        "ToughLv": 0
+      }
+    }
+  },
+  "Group": {
+    "22": {
+      "Id": 22,
+      "Name": "インフェルノ・シャドウ",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriFireA.T_IconElementAttriFireA",
+      "Color": "FFFFFF00",
+      "Set": {
+        "3": {
+          "Desc": "キャラが音骸スキルダメージを与えた時、重撃ダメージのクリティカル率が{0}アップ、{1}秒間持続。また、重撃ダメージを与えた時、音骸スキルダメージのクリティカル率が{2}アップ、{3}秒間持続。両方の効果を持つ間、自身の焦熱ダメージが{4}アップ。",
+          "Param": [
+            "20%",
+            "6",
+            "20%",
+            "6",
+            "16%"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 0,
+  "MonsterInfo": 310000720
+}

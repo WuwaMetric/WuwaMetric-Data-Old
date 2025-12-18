@@ -1,0 +1,110 @@
+{
+  "Id": 6000066,
+  "Code": "R03-",
+  "Name": "유령 인형 · 라잇",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31042_UI.T_IconMonsterHead_31042_UI",
+  "Skill": {
+    "Desc": "에코 어빌리티를 사용하여 유령 인형 · 라잇을 소환해 공격을 가하고 {0}의 인멸 피해를 입힌다.\n스킬 쿨타임: {1}초",
+    "SimpleDesc": "유령 인형 · 라잇을 소환하여 공격을 가하고, 적에게 인멸 피해를 입힌다",
+    "Param": [
+      [
+        "72.00%",
+        "8"
+      ],
+      [
+        "86.40%",
+        "8"
+      ],
+      [
+        "100.80%",
+        "8"
+      ],
+      [
+        "115.20%",
+        "8"
+      ],
+      [
+        "129.60%",
+        "8"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/MstSkil_31042_UI.MstSkil_31042_UI",
+    "Damage": {
+      "20006601": {
+        "Element": 6,
+        "RelatedProperty": "공격력",
+        "Type": 5,
+        "RateLv": [
+          7200,
+          8640,
+          10080,
+          11520,
+          12960
+        ],
+        "Energy": 180,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 7200
+      }
+    }
+  },
+  "Group": {
+    "10": {
+      "Id": 10,
+      "Name": "냉철한 결단",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriIceUltimateSkill.T_IconElementAttriIceUltimateSkill",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "공명 스킬 피해가 {0} 증가된다",
+          "Param": [
+            "12%"
+          ]
+        },
+        "5": {
+          "Desc": "공명 스킬 발동 시, 자신의 응결 피해가 {0} 증가되고, {1}초간 지속된다. 공명 해방 발동 시, 자신의 공명 스킬 피해가 {2} 증가되고, {3}초간 지속되며, 최대 {4}스택 중첩이 가능하다",
+          "Param": [
+            "22.5%",
+            "15",
+            "18%",
+            "5",
+            "2"
+          ]
+        }
+      }
+    },
+    "14": {
+      "Id": 14,
+      "Name": "파도에 맞선 용기",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriEnergy.T_IconElementAttriEnergy",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "공명 효율이 {0} 증가된다",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "캐릭터의 공격력이 {0} 증가되고, 공명 효율이 {1}에 도달한 후 현재 캐릭터의 전체 속성 피해가 {2} 증가된다",
+          "Param": [
+            "15%",
+            "250%",
+            "30%"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 0,
+  "MonsterInfo": 310000420
+}

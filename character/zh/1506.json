@@ -1,0 +1,4194 @@
+{
+  "Id": 1506,
+  "Rarity": 5,
+  "Weapon": 5,
+  "Element": 5,
+  "Tag": {
+    "2": {
+      "Name": "主力输出",
+      "Desc": "拥有较强的输出能力",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/RoleLabel/SP_RoleLabelA2.SP_RoleLabelA2",
+      "Color": "ff8441"
+    },
+    "3": {
+      "Name": "快速协奏",
+      "Desc": "拥有较高的协奏效率",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/RoleLabel/SP_RoleLabelA3.SP_RoleLabelA3",
+      "Color": "ff4040"
+    },
+    "28": {
+      "Name": "光噪",
+      "Desc": "可以运用光噪效应",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/RoleLabel/SP_RoleLabelE4.SP_RoleLabelE4",
+      "Color": "dd77ff"
+    }
+  },
+  "Name": "菲比",
+  "NickName": "菲比",
+  "Desc": "<te href=850099>隐海修会</te>的<te href=850100>教士</te>菲比，友善而虔诚的圣职者少女，以纯粹之心修习，认真践行着身为教士的一切职责。她的祈祷恰如她手中的光芒，柔和明亮，为人们带来温暖与安宁。",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_45_UI.T_IconRoleHead256_45_UI",
+  "Background": "/Game/Aki/UI/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Feibi_UI.T_IconRole_Pile_Feibi_UI",
+  "BackgroundStand": "/Game/Aki/UI/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyFeibi.T_ActivityRoleOntrialHalfBodyFeibi",
+  "CharaInfo": {
+    "Birth": "未知",
+    "Sex": "女",
+    "Country": "黎那汐塔",
+    "Influence": "隐海修会",
+    "Info": "<te href=850099>隐海修会</te>的<te href=850100>教士</te>菲比，友善而虔诚的圣职者少女，以纯粹之心修习，认真践行着身为教士的一切职责。她的祈祷恰如她手中的光芒，柔和明亮，为人们带来温暖与安宁。",
+    "TalentName": "圣祈凝辉",
+    "TalentDoc": "「摘自隐海孤儿院致修会的推荐信」\n在那时，我看到了她左腿上侧亮起的<te href=850072>声痕</te>，我想，这一定是<te href=850105>英白拉多</te>的赐福。\n……她的共鸣能力能够将光化作实体，以不同形态的棱晶折射，即使是在因暴风雨失去照明的黑夜，她仍能让每个房间都充满柔和明亮的光。那光如此令人心安，在至暗时刻仍能传递安宁与希望——恰如《隐海修记》中的箴言，光明一定本就存在于她的心中，在奉献中取之不竭……\n*本档案已由孤儿院移交至<te href=850099>隐海修会</te>档案馆。\n\n<i>我们有理由相信，菲比见习<te href=850100>教士</te>无与伦比的共鸣能力，正是来源自她的信仰之坚定。\n从「<ano=神使><te href=850082>声骸</te></ano>」对她的亲近也可见一斑，这一现象也加强了部分信众对菲比的信任，事实上，菲比见习<te href=850100>教士</te>在救济事务中的活跃表现早已使她获得了认可，因此我们一致同意她通过见习期，成为正式教士。\n但修会内部亦有人认为，与声骸过于亲近违背了修会的教义，神使的赐福与<te href=850083>岁主</te>的爱等同，应平等地垂怜每一个人，不能有任何偏颇，而过于亲近神使也会带来隐患，故而不建议菲比在驱役所任职，将她调往圣事部最为稳妥…… </i>",
+    "TalentCertification": "「<te href=850099>隐海修会</te>-圣事部共鸣者档案」\n……受试成员样本波形检测图呈椭圆形波动，时域表示稳定，未见任何异常波动倾向。检测结果判断为正常阶段。\n当前<te href=850073>超频</te>临界值较高，稳定性高，无超频风险，无过往超频史。\n<i>菲比<te href=850100>教士</te>始终恪守着“缄默”与“自制”的教义，因而其稳定性在同龄的教士中无出其右。经观察，菲比教士的共鸣能力具有稳定频率的效果，对声骸、<te href=850076>回音</te>生物有着较强的作用，而人也能一定程度受到其能力的影响，感受到心灵层面的“治愈”，这也使得她十分擅长安抚、调解等工作。</i>\n\n*最新批注：菲比教士的定期检测波形出现极短时间内的锯齿态波动，目前无异常情况，但仍建议持续观察，必要时予以重视。",
+    "CVNameCn": "傅婷云",
+    "CVNameJp": "本渡枫",
+    "CVNameKo": "Lee Bo Yong",
+    "CVNameEn": "Rebecca LaChance"
+  },
+  "Stories": [
+    {
+      "Title": "教士的日常",
+      "Content": "一个寻常的午后，<te href=850097>拉古那</te>宽阔的街道上人来人往，看上去比往年更加热闹。\n阔别已久的<te href=850102>狂欢节</te>即将重新举办——这个消息早已传遍了拉古那的大街小巷，飞向海的彼岸，这几天城中已经出现了不少异国旅客的身影，即使还没到晚餐时间，玛格烈特餐厅仍然坐着不少慕名而来的食客。\n拉古那的美酒与它的美景一样令人流连忘返，蜜露果酒能够将人带入美梦，而过于沉醉偶尔也会导致意外。\n起初是一点小小的口味上的分歧，随后演化成一场热火朝天的争论。\n或许是厌倦了压抑，或许是令人昏昏欲睡的午后正需要一些振奋精神的娱乐，更多的人聚集起来，加入了这场争论。\n——争论愈演愈烈，最终变为了一场的决斗。\n一时间，餐厅仿佛成为了戏剧现场，披萨与蛋糕齐飞，海鲜从盘子中转移到路人的脸上，围观群众纷纷仓皇躲避，又忍不住远远回头关注战况。\n“客人！别这样啾，盘子要碎了啾，请放下餐具，很危险啾——！！”店主尾巴毛都炸了起来，拿着披萨铲急的上蹿下跳，却不敢靠近混乱的中心。\n就在这时，人群中窜出一个娇小的身影。\n“——请冷静一下！”\n高高抬起的手杖在空中挽出优雅的圆弧，破空落下的金色鸟儿仿佛有着千钧的力量，但最终只是在额头轻点一下，如同蜻蜓点过水面荡起圈圈涟漪。\n上一秒还在暴跳如雷的两人瞬间平静下来，带着受到圣光洗礼般的静谧微笑直直倒在桌子上，齐声打起鼾来。\n\n“请大家不用担心，他们只是睡着了。“\n那位娇小的金发<te href=850100>教士</te>收起手杖，正色道。“但根据修会的管理条例，破坏公共秩序的人需要接受相应的处罚。”\n“节制之美德是<te href=850083>岁主</te>赐予我们的礼物，也正因如此美食和蜜露才会更加香甜……希望这个小插曲不会影响大家继续享受在拉古那度过的时光。”\n金发教士的笑容温柔和煦，而四周鸦雀无声。\n\n在近卫所的教士们带着卫冕节使赶到现场的时候，这场骚乱已经结束了。\n“对对对，我亲眼看到她把那两个壮汉一杖子敲蒙了啊！然后不知道从哪窜出来一个超大个的布偶，把他们都给搬走了！她看上去年纪不大，真是人不可貌相……”\n留在餐厅帮忙收拾残局的客人手舞足蹈的描述着。\n为首的教士拿出终端正打算记录，却发现已经有一则报告发送到了修会，上面详细地记录着事情的起因经过，以及被带走的二人的安置情况。\n“……那个，这样就没事了吗？”\n“当然。”教士收起终端，笃定地回答。\n“交给菲比教士吧，她最有经验。”"
+    },
+    {
+      "Title": "家",
+      "Content": "<i>尊敬的克莱蒙特先生：\n很抱歉许久未联系您，这段时间事务繁忙，我有太多问题需要处理。我必须怀着无比沉痛的心情告诉您这个噩耗：我们的合作商——马里诺夫妇在前往新联邦途中遭遇<te href=850081>残象</te>潮袭击，已不幸遇难，愿他们在<te href=850083>岁主</te>的指引下获得安宁。\n……有关那批沉海商货的款项，按照之前签定的合约，我已经开始代为变卖马里诺家的剩余财产……这实在是无奈之举，您知道，我们几乎为那桩生意付出了一切，如今无以为继，只能这样填补空缺……\n您应该记得菲比——那个失去了双亲的可怜女孩，她现在无处可去，而我常年外出经商，实在力有不逮，听闻您与马里诺家的远亲颇有私交，希望您能收留她……</i>\n\n我收起信，确认地址无误，再次敲响了房门。\n接连的敲门声已经引得邻居侧目，而门内仍然毫无动静，那个小小的女孩安静地在我身后低头站着，似乎已经习惯了这样的状况。\n“他们前段时间全家去度假了。”路过的邻居状似无意般提起，“可能很久之后才会回来。”\n“我知道了，谢谢您……我们走吧，菲比。”\n离开时，我的余光瞟到侧窗留着一条缝的窗帘轻轻颤动了一下，我握紧菲比的手，带着她离开这片富丽堂皇的街区。\n<te href=850097>拉古那</te>城很大，但找到一个归宿却很难，我已经记不清这是这是我敲过的第几扇门，得到的第几次拒绝。\n在孤儿院任职多年，我早已习惯各式各样的拒绝，但我不能让菲比经历这些，她还太小，她需要的是一个能够抚平伤痛的，温暖稳定的家庭环境。\n“抱歉……我们很同情她的遭遇，但领养一个孩子可不是只添一副餐具的事情……这是我们的一点心意，你们再去别家问问吧。”\n“委托信？咳……我不记得有收到过这种信件。对了，她不是已经被孤儿院收留了吗？和很多同龄人同吃同住，这对孩子来说也是挺好的成长环境。”\n“……听说马里诺家的欠款至今没有结清，我们可不想被债主找上门，还请你理解。”\n……\n“伊莎贝拉嬷嬷……不要难过。”\n一个冰淇淋被高高举在面前，我的身边不知何时多了一堆小<te href=850082>声骸</te>，它们拿着分发给旅客的冰淇淋和甜点，挨挨挤挤的簇拥在我的——或者说，是菲比的身边。\n“我知道叔叔阿姨们都很忙，和爸爸妈妈一样，总是很久才回一次家。”\n我怔怔地接过有些融化的冰淇淋，没有想到会被这样小的孩子开口安慰。\n善良的马里诺夫妇曾资助孤儿院在黑潮的灾难中度过难关，我却连为他们的女儿找个值得托付的养父母都做不到。\n她本应在父母温暖的臂弯里自由地欢笑，在坚实的屋檐下过着安稳幸福的生活。\n“没事的，我可以……和大家住在一起，和大家在一起，很开心。”\n见我许久没有说话，年幼的女孩看着我，露出了安静的，在我看来近乎抚慰的笑容，我的心随之颤抖。\n“大家不会分开，对吗？<te href=850100>教士</te>们都说，岁主在我们身边，将我们联系在一起，不致分离。”\n她一字一句地念诵着，我最终只是忍住眼角的湿意，将她抱在怀中。\n”好……那我们回去，回我们的家。“"
+    },
+    {
+      "Title": "无数个深夜",
+      "Content": "深夜的暴风雨像是要倾洒尽<te href=850097>拉古那</te>全部的水，闪电在薄被上投下窗柩的形状，令交错的暗影压在蜷缩着的女孩身上。\n菲比没有入睡，只要闭上眼睛，她便会看到翻滚着惊涛骇浪的海面，其中有一只永远无法归家的孤船，她在与这艘船一起下沉。\n曾经在这样的夜晚，爸爸会将那个印着<te href=850083>岁主</te>像的相片盒放在她的枕下，告诉她岁主会在梦中带领她穿越风暴，抵达安全的港湾；妈妈会在她的床边放一束雏菊，为她讲述睡前故事，她说岁主会为勇敢而善良的孩子送来神使，护佑她平安幸福。\n而现在，<te href=850100>教士</te>们会摸着她的头，告诉她还有和她境况相似的孩子们，每个<te href=850096>黎那汐塔</te>人都要淌过苦难，才能在人生的尽头获得岁主的宽恕。\n越过教士的臂弯，她第一次看到了那样宏伟的岁主圣像，那巨大的鱼尾令她感到一瞬恐慌，而温柔的教士们轻轻扶住她的肩膀，念诵祷文的柔和声音令她逐渐平静。\n她被领进温暖明亮的房间，温柔的教士们待她很好，但她们一定更加喜欢不会带来麻烦的孩子。\n菲比努力回忆着母亲为她哼唱的歌谣，让它在脑海中回荡，借此盖过窗外暴雨的呼号。\n而不停歇的雷雨声仍然将她拉回那个黑夜。\n\n她偷偷溜上远航的商船，透过货仓的舷窗中看着船驶向远方的水平线——爸爸妈妈回来时，他们的船帆就是从那个方向出现，她不想再等着爸爸妈妈来接她了，她要勇敢地去找他们。\n而大海并不像母亲讲述的故事里那样温柔，她听到甲板上步伐匆忙，人们的喧闹逐渐变为此起彼伏的惊叫，船只被风暴吞没，又被海浪高高抛起。\n她哭着呼唤爸爸妈妈，而汹涌的海浪告诉她，她的父母早已不会归来。\n她被冰冷的海水淹没，逐渐模糊的视野中，她看到父亲留给自己的相片盒沉入漆黑的海底，继而消失不见。\n再次醒来时，她浑身湿透地躺在岸边，腿上的<te href=850072>声痕</te>闪烁着光芒，找到她的教士们说，从没有人能从那样危险的大海中生还，更何况是一个年纪那么小的女孩，这一定是岁主的赐福。\n可菲比依稀记得似乎有什么救了她，带着无比温柔的气息，像一缕和风托着她浮上海面，将她轻轻放在了岸边，告诉她……\n<i>不要害怕，我在这里。</i>\n有什么将菲比从深沉的梦境中拉回，她感到床微微一重，似乎是一个毛绒绒的东西靠了上来，带着雨夜的潮湿和雏菊的香气。\n随后菲比看到了一双纽扣眼睛和柔软的布耳朵——是她白天在拂风水畔遇到的流浪<te href=850082>声骸</te>，那时的她解下了缠绕在声骸身上的风筝线，给它取名叫贝尼，贝尼带她认识了许多新朋友，陪着她在山坡上看云，为她擦去眼角的泪痕，将好看的花环戴在她的头上。\n<i>菲比，不要难过。</i>\n布偶的身体温暖而柔软，恍惚间令她感受到了有些熟悉的气息，风的气息。\n她将头埋入它毛绒绒的肚皮，缓缓沉入梦乡。"
+    },
+    {
+      "Title": "清晨依旧来临",
+      "Content": "醒来时，菲比感觉眼角似乎还残留着一丝湿意。\n“<te href=850083>岁主</te>在上，今天也要打起精神来！“\n她从床上跳起来，熟练地抻平床单，这个陪伴着她成长的小床仍然记忆中熟悉的模样。菲比拍了拍脸颊驱散清晨的困意，一头扎进了新一天的工作计划中。\n孤儿院要举办一个小小的庆典，她这次和前辈一起来帮忙筹备，这是她成为见习<te href=850100>教士</te>之后第一次回到这里，昨天和兄弟姐妹们说了很久的话，也许就是因为这样才会梦到以前的事情。\n所有人都说菲比看上去更像个独当一面的大人了，她不能辜负大家的期望。\n晨祷结束，菲比开始准备庆典需要的物品。教士的修习生活忙碌而充实，对她来说，按照计划完成工作，获得成果，这样的过程便会令她觉得安稳和满足。等到太阳高高悬在天空时，她已经和同行的教士们将原本朴素的餐厅装饰得缤纷多彩。菲比将茶和点心放在餐桌上，看着孩子们穿着<te href=850082>声骸</te>们浆洗熨平的新衣，兴高采烈地扑向嬷嬷们的怀抱，从她们手中接过悉心包装的礼物。\n被这样的温暖的画面所感染，菲比不由得也微笑起来。\n她记得远航经商的父亲一定会在启程的第一站为她购买礼物，在漫长的航路中，母亲会构思关于这次带回的礼物的故事，在回家后讲给她听。它们有时是险象环生的精彩冒险，有时是温暖可爱的枕边童话。她最喜欢的一个礼物是粉色的兔子布偶，在故事中，她是一个优雅的音乐家。\n灰暗的过往在她的记忆中逐渐模糊，她只会回忆起那些美好的事物。\n有小声骸拉了拉她的衣角，向她展示吹起来的好大一把气球，她习惯性地伸手想要摸摸它的头。\n“见习教士菲比！”\n前辈的轻喝令菲比猛地一哆嗦，她连忙背过手去，目送着有些落寞的小声骸摇摇晃晃的离开，前辈的如炬的目光仿佛要将她洞穿，“岁主在上，注意你的身份。”\n……她还没有完全习惯身份的转变带来的影响，尤其是作为教士，不能与声骸亲密接触这一点。\n岁主令她遇到了善良的人们，给予她食物与住所，也赐予了她新的责任，令她得以将收到的好意一一回报，无论如何，作为教士，她要履行好自己的责任。\n而在作为“菲比”的时候，她也有属于自己的，她的朋友们相会的时间。\n她下意识地抚摸着腰间挂着的相片盒，这是属于她的小小奇迹，她的朋友们将她最珍贵的回忆从漆黑的海底中找了回来，带回了她的身边。\n“菲比姐姐，我的气球飞到树上去了，我拿不下来……吉米说你会飞，可不可以……”\n“当然！”\n有孩子拉了拉她的衣角，令她回过神来，她收起纷繁的思绪，回到人群中，再次投身于庆典忙碌的工作里。\n\n夕阳挂在屋角，暮色从天边晕染。\n工作结束，人群散去，一切都安静了下来，菲比坐在长椅上，闭上眼睛感受着温柔吹拂的海风。\n时间仿佛在此刻慢了下来。\n小小的背影在夕阳下显得有些寂寥，来寻找菲比的前辈本想上前搭话，靠近时发现她的呼吸轻浅，已经进入了梦乡。\n女孩靠在长椅上安睡，小声骸们从角落悄悄靠近，挨挨挤挤地依偎在她的身边。\n年长的教士叹了口气，却又收回脚步，转身离开。\n“这次……就当没看到吧。”"
+    },
+    {
+      "Title": "遥远炫目的光辉中",
+      "Content": "菲比还能依稀回忆起她看到的最后一场<te href=850102>狂欢节</te>。\n她坐在父亲肩头看着高天讯使从头顶掠过，缤纷的彩带与花瓣飘落如雨，欢呼的浪潮席卷而来，幼时的记忆过于朦胧，以至于追忆狂欢节时，能回想起的只有柔和的光辉和遥远的回声。\n但她仍然记得那时的父母的神情，那些发自内心的欢笑——曾经回忆起来就会感到心痛的过往，如今仍在记忆深处仍闪着光。\n那些只存在于梦中的场景，终于真切地出现在了她的眼前。\n她站在人群里，看着黑发的「勇者」沐浴在光里，金色的<te href=850103>桂冠</te>缓缓降下，落在{TA}的头顶。\n——她的心随之怦然跳动，在震耳欲聋的欢呼声里，她的目光不受控制地追随着那道金色的光芒。\n\"是<te href=850103>桂冠</te>——！\"\n\"<te href=850105>英白拉多</te>在上——\"\n“<te href=850083>岁主</te>大人降下神迹了！”\n她的视线在一声声喜极而泣的呼唤中模糊。\n有谁不会被这样炫目的景象所触动？就连神明都会为此降下神迹，在这一刻她止不住地想，岁主又怎会因人们举狂欢节而触怒？祂一定是热爱着狂欢节，热爱着人们的欢笑。\n那些自从云中庭院回来起便笼罩在心头的微茫阴影再度浮现，又转瞬被欢歌笑语冲淡。\n这一次，她抓住了那一丝缥缈流离的疑问，那些她曾经隐隐注意到，却被她遗忘的事情；那些她心生疑窦，却下意识令自己不去思考的事情。\n菲比用力眨了眨眼睛，拭去眼角的泪水，再次看向那个被人群簇拥着的身影。\n她隐隐觉得，如果是{TA} ，或许能够知晓答案，解答迷茫。\n总有一天，她会去找寻那些疑问的答案。"
+    }
+  ],
+  "Voices": [
+    {
+      "Type": 1,
+      "Title": "心声·一",
+      "Content": "嘘……你们怎么也在这里呀？啊，{PlayerName}，很抱歉，我是不是打扰到了你的休息？我只是路过想来看看你，没想到这些小家伙们也一起跟过来了……",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_feibi_sys_toplayer01.play_favor_word_feibi_sys_toplayer01"
+    },
+    {
+      "Type": 1,
+      "Title": "心声·二",
+      "Content": "{PlayerName}和阿布是怎么认识的呢？抱歉……我并不是想要窥探你的过去，只是觉得……你们彼此形影不离，互相信任，互相关怀，真的很好，就像……家人一样。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_feibi_sys_toplayer02.play_favor_word_feibi_sys_toplayer02"
+    },
+    {
+      "Type": 1,
+      "Title": "心声·三",
+      "Content": "我明白，神职人员不应对<te href=850082>声骸</te>抱有「情感」，可它们是我重要的朋友，这一点永远不会改变。所以，我会在不舍弃这份牵绊的同时，认真履行作为<te href=850100>教士</te>的职责，这是<te href=850083>岁主</te>的考验，也是属于我的修习……其实，每次见到它们时我都想紧紧抱住它们……不行不行不行，一定要忍耐……",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_feibi_sys_toplayer03.play_favor_word_feibi_sys_toplayer03"
+    },
+    {
+      "Type": 1,
+      "Title": "心声·四",
+      "Content": "{PlayerName}似乎每天都在做很多事情，但是很少见到你休息……难道是，睡不着吗？如果是这样的话，请让我来帮你吧，只要用这个手杖轻轻一点，你的精神就可以放松下来……诶？为什么要后退呀，一点也不疼啊……",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_feibi_sys_toplayer04.play_favor_word_feibi_sys_toplayer04"
+    },
+    {
+      "Type": 1,
+      "Title": "心声·五",
+      "Content": "气球飞上晴空，<te href=850082>声骸</te>与人们共舞，彩虹倒映在每个欢笑的人眼中……看到<te href=850103>桂冠</te>落在你的头上时，我真的非常非常开心，这次<te href=850102>狂欢节</te>对我来说……是难以忘怀的，最为炫目的光景。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_feibi_sys_toplayer05.play_favor_word_feibi_sys_toplayer05"
+    },
+    {
+      "Type": 1,
+      "Title": "菲比的喜好",
+      "Content": "小的时候，我最喜欢去拂风水畔找我的朋友们，我们会一起躺在长满花的山坡上看云，听蒂蒂尔演奏好听的风琴曲，拉比贝尼编出各种样式的花环，让奔跑起来的风也带上月桂的味道……现在吗？现在……我会偷偷去。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_feibi_sys_taste.play_favor_word_feibi_sys_taste"
+    },
+    {
+      "Type": 1,
+      "Title": "菲比的烦恼",
+      "Content": "我看到了……光辉下埋藏着的阴影。若曾经深信不疑的，其实并非正确的道路，那么……不，没什么，请不要在意……",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_feibi_sys_worry.play_favor_word_feibi_sys_worry"
+    },
+    {
+      "Type": 1,
+      "Title": "喜欢的食物",
+      "Content": "好香……是玛格烈特小姐和焙焙烤的披萨的味道……不行不行，这个月的披萨日已经过去了……嗯？你问什么是披萨日？其实是以前在孤儿院时，每个月里能吃到披萨的那一天，虽然现在已经不会再饿肚子，但作为<te href=850100>教士</te>仍应节制自我，不可沉迷口腹之欲，而且……在那天和大家一起分着吃的披萨，才是最好吃的呀。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_feibi_sys_foodlike.play_favor_word_feibi_sys_foodlike"
+    },
+    {
+      "Type": 1,
+      "Title": "讨厌的食物",
+      "Content": "<te href=850083>岁主</te>赐予我们丰饶的土地，每一顿餐食都来之不易，祂亦言“身体乃是精神的宫殿”，我们应多食用对其有益之物，尤其是青枝果这样神圣的果实……对了，你要吃吗？这是从修会领受的圣餐，圣典曾言，分享之美德会令甜美加倍……\n呜……还是好酸……",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_feibi_sys_foodhate.play_favor_word_feibi_sys_foodhate"
+    },
+    {
+      "Type": 1,
+      "Title": "抱负和理想",
+      "Content": "孩子和父母团聚，远航的水手平安回到家乡，渴望自由的人能够像海鸥一样去往任何地方……大家即使怀抱着不同的信仰，仍然能够站在一起，<te href=850075>悲鸣</te>也不会致人分离……诶？关于我自己吗？我自己……我……",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_feibi_sys_dream.play_favor_word_feibi_sys_dream"
+    },
+    {
+      "Type": 1,
+      "Title": "凝音·一",
+      "Content": "这个相片盒是爸爸送给我的礼物，我原本以为它早已和那艘商船一起沉入大海，但它又回到了我的手中，这对于我来说……是不敢再奢望更多的奇迹了。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_feibi_sys_story_obj.play_favor_word_feibi_sys_story_obj"
+    },
+    {
+      "Type": 1,
+      "Title": "凝音·二",
+      "Content": "幼时的我从海岸边醒来，身边一片黑暗，我沿着海岸边走了很久很久，直到看到了提灯的光芒……温柔的<te href=850100>教士</te>们把我带到了明亮的屋子里，给予我食物和住所，我有了很多兄弟姐妹，他们都对我很好……在下着暴风雨的晚上，拉比和贝尼会悄悄来到我身边，陪我入睡，有它们在的夜晚很温暖，一点也不孤独……",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_feibi_sys_story_exp.play_favor_word_feibi_sys_story_exp"
+    },
+    {
+      "Type": 1,
+      "Title": "关于布兰特",
+      "Content": "小时候妈妈给我讲过一个在风暴中追求自由的探险家的故事，见到舞台上的布兰特先生时，他就好像是从那个故事里走出来的船长一样，洒脱、正直、无拘无束。只是我有时也会觉得……布兰特先生始终承载着与他带来的欢笑等量的思念和悲伤。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_feibi_sys_about_bulante.play_favor_word_feibi_sys_about_bulante"
+    },
+    {
+      "Type": 1,
+      "Title": "关于洛可可",
+      "Content": "洛可可小姐或许看上去有些冷淡，但善意和温柔始终栖居于她的心中，又从她的心中满溢而出，变成欢笑温暖了周围的人。还有她的朋友<te href=850122>佩洛</te>……不知道，有没有机会和它成为朋友呢？",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_feibi_sys_about_luokeke.play_favor_word_feibi_sys_about_luokeke"
+    },
+    {
+      "Type": 1,
+      "Title": "关于卡提希娅",
+      "Content": "……我曾经做过一个梦，在梦中，漆黑的海面掀起风浪，在遮天蔽日的海潮之间，我似乎看到了圣女大人的身姿，她身上摇曳的影子像是她，却又仿佛不是她……",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_feibi_sys_about_katixiya.play_favor_word_feibi_sys_about_katixiya"
+    },
+    {
+      "Type": 1,
+      "Title": "关于赞妮",
+      "Content": "在<te href=850097>拉古那</te>，并非所有人都对<te href=850083>岁主</te>怀有虔诚的信仰，对于修会中的一些<te href=850100>教士</te>而言，对岁主是否虔敬能够反映出一个人的品行……但赞妮小姐的勇敢和忠诚足以令人改变这种偏见，她是一个可靠的，值得尊敬的人。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_feibi_sys_about_zanni.play_favor_word_feibi_sys_about_zanni"
+    },
+    {
+      "Type": 1,
+      "Title": "生日祝福",
+      "Content": "锵锵——！祝你生日快乐！啊……这是，五彩纸屑！小时候过生日，爸爸妈妈都会这样为我庆祝，请收下这个，是用海蓝宝石镶嵌的青鸟，希望它能陪伴你跨越所有的惊涛骇浪，愿你的双眼永远明澈，愿幸运常伴你身旁……我深知你的命运并非神赐，而是由你亲手编织，无论你去往何方，我都会祈祷你能够平安喜乐。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_feibi_sys_birthcele.play_favor_word_feibi_sys_birthcele"
+    },
+    {
+      "Type": 1,
+      "Title": "闲趣·一",
+      "Content": "……愿您的爱永远长存，永不止息。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_feibi_idle_idle01.play_favor_word_feibi_idle_idle01"
+    },
+    {
+      "Type": 1,
+      "Title": "闲趣·二",
+      "Content": "咦……诶？原来你在这里呀……摸摸、摸摸……",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_feibi_idle_idle02.play_favor_word_feibi_idle_idle02"
+    },
+    {
+      "Type": 1,
+      "Title": "闲趣·三",
+      "Content": "唔……啊……！呼……",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_feibi_idle_idle03.play_favor_word_feibi_idle_idle03"
+    },
+    {
+      "Type": 1,
+      "Title": "自我介绍",
+      "Content": "我是<te href=850099>隐海修会</te>的<te href=850100>教士</te>，菲比。<te href=850083>岁主</te>在上，愿你的旅途永远有爱与光明垂耀。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_feibi_sys_introduction.play_favor_word_feibi_sys_introduction"
+    },
+    {
+      "Type": 1,
+      "Title": "初奏",
+      "Content": "（语气词）",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_feibi_sys_gacha.play_favor_word_feibi_sys_gacha"
+    },
+    {
+      "Type": 1,
+      "Title": "入队·一",
+      "Content": "交给我吧。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_feibi_sys_jointeam_01.play_favor_word_feibi_sys_jointeam_01"
+    },
+    {
+      "Type": 1,
+      "Title": "入队·二",
+      "Content": "<te href=850083>岁主</te>在上，请允许我代为平息这场纷争。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_feibi_sys_jointeam_02.play_favor_word_feibi_sys_jointeam_02"
+    },
+    {
+      "Type": 1,
+      "Title": "入队·三",
+      "Content": "愿<te href=850083>岁主</te>指引迷失者的归途。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_feibi_sys_jointeam_03.play_favor_word_feibi_sys_jointeam_03"
+    },
+    {
+      "Type": 1,
+      "Title": "突破·一",
+      "Content": "这是……摇曳着波光的海面上，遥远的晴空。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_feibi_sys_rankup01.play_favor_word_feibi_sys_rankup01"
+    },
+    {
+      "Type": 1,
+      "Title": "突破·二",
+      "Content": "我是否已有足够的力量，去面对那些令我迷茫的阴影？",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_feibi_sys_rankup02.play_favor_word_feibi_sys_rankup02"
+    },
+    {
+      "Type": 1,
+      "Title": "突破·三",
+      "Content": "因为你的光……让我看到了未曾见过的世界。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_feibi_sys_rankup03.play_favor_word_feibi_sys_rankup03"
+    },
+    {
+      "Type": 1,
+      "Title": "突破·四",
+      "Content": "谢谢你，我会让从你这里得到的光辉，照亮更多的人。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_feibi_sys_rankup04.play_favor_word_feibi_sys_rankup04"
+    },
+    {
+      "Type": 1,
+      "Title": "突破·五",
+      "Content": "自水中上升之后，我看到了金色的光芒……你给予我如此深重的恩典与教诲，也请允许我予以回应……你的愿望，亦是指引着我的福音。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_feibi_sys_rankup05.play_favor_word_feibi_sys_rankup05"
+    },
+    {
+      "Type": 2,
+      "Title": "重击·一",
+      "Content": "予以净化吧。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_feibi_atk_heavyatk02_01.play_favor_word_feibi_atk_heavyatk02_01"
+    },
+    {
+      "Type": 2,
+      "Title": "重击·二",
+      "Content": "忏悔吧。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_feibi_atk_heavyatk02_02.play_favor_word_feibi_atk_heavyatk02_02"
+    },
+    {
+      "Type": 2,
+      "Title": "共鸣技能·一",
+      "Content": "降临吧。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_feibi_skill_skill02_01.play_favor_word_feibi_skill_skill02_01"
+    },
+    {
+      "Type": 2,
+      "Title": "共鸣技能·二",
+      "Content": "肃静！",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_feibi_skill_skill02_02.play_favor_word_feibi_skill_skill02_02"
+    },
+    {
+      "Type": 2,
+      "Title": "共鸣技能·三",
+      "Content": "风的方向。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_feibi_skill_skill03_01.play_favor_word_feibi_skill_skill03_01"
+    },
+    {
+      "Type": 2,
+      "Title": "共鸣技能·四",
+      "Content": "在那边！",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_feibi_skill_skill03_02.play_favor_word_feibi_skill_skill03_02"
+    },
+    {
+      "Type": 2,
+      "Title": "共鸣技能·五",
+      "Content": "请回应我。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_feibi_skill_skill01_01.play_favor_word_feibi_skill_skill01_01"
+    },
+    {
+      "Type": 2,
+      "Title": "共鸣技能·六",
+      "Content": "审判！",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_feibi_skill_skill01_02.play_favor_word_feibi_skill_skill01_02"
+    },
+    {
+      "Type": 2,
+      "Title": "共鸣解放·一",
+      "Content": "光辉的结晶啊，请降下恩典。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_feibi_burst_burst_01.play_favor_word_feibi_burst_burst_01"
+    },
+    {
+      "Type": 2,
+      "Title": "共鸣解放·二",
+      "Content": "光明，予以祝颂！",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_feibi_burst_burst_02.play_favor_word_feibi_burst_burst_02"
+    },
+    {
+      "Type": 2,
+      "Title": "变奏技能",
+      "Content": "愿<te href=850083>岁主</te>护佑……",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_feibi_skill_qte.play_favor_word_feibi_skill_qte"
+    },
+    {
+      "Type": 2,
+      "Title": "延奏技能·一",
+      "Content": "请神侧耳聆听……",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_feibi_skill_exitskill_01.play_favor_word_feibi_skill_exitskill_01"
+    },
+    {
+      "Type": 2,
+      "Title": "延奏技能·二",
+      "Content": "敬请光明垂耀。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_feibi_skill_exitskill_02.play_favor_word_feibi_skill_exitskill_02"
+    },
+    {
+      "Type": 2,
+      "Title": "延奏技能·三",
+      "Content": "以<te href=850105>英白拉多</te>之名。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_feibi_skill_exitskill_03.play_favor_word_feibi_skill_exitskill_03"
+    },
+    {
+      "Type": 2,
+      "Title": "受击·一",
+      "Content": "请小心！",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_feibi_com_behitfly_01.play_favor_word_feibi_com_behitfly_01"
+    },
+    {
+      "Type": 2,
+      "Title": "受击·二",
+      "Content": "别担心，并不疼。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_feibi_com_behitfly_03.play_favor_word_feibi_com_behitfly_03"
+    },
+    {
+      "Type": 2,
+      "Title": "重伤·一",
+      "Content": "即使是荆棘之路……",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_feibi_com_hpdown01.play_favor_word_feibi_com_hpdown01"
+    },
+    {
+      "Type": 2,
+      "Title": "重伤·二",
+      "Content": "庇护……是我的职责！",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_feibi_com_hpdown02.play_favor_word_feibi_com_hpdown02"
+    },
+    {
+      "Type": 2,
+      "Title": "重伤·三",
+      "Content": "咽下苦难，才能予以拯救……",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_feibi_com_hpdown03.play_favor_word_feibi_com_hpdown03"
+    },
+    {
+      "Type": 2,
+      "Title": "力竭·一",
+      "Content": "沉入……海底……",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_feibi_com_die_01.play_favor_word_feibi_com_die_01"
+    },
+    {
+      "Type": 2,
+      "Title": "力竭·二",
+      "Content": "这不是离别……",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_feibi_com_die_02.play_favor_word_feibi_com_die_02"
+    },
+    {
+      "Type": 2,
+      "Title": "力竭·三",
+      "Content": "愿光明……与你同在。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_feibi_com_die_03.play_favor_word_feibi_com_die_03"
+    },
+    {
+      "Type": 2,
+      "Title": "声骸异能·召唤",
+      "Content": "嗯，让我们一起！",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_feibi_skill_hxsummon.play_favor_word_feibi_skill_hxsummon"
+    },
+    {
+      "Type": 2,
+      "Title": "声骸异能·变身",
+      "Content": "这是<te href=850083>岁主</te>的赐福。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_feibi_skill_hxchange.play_favor_word_feibi_skill_hxchange"
+    },
+    {
+      "Type": 2,
+      "Title": "进战提醒",
+      "Content": "……阴霾渐近，要小心。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_feibi_com_engage.play_favor_word_feibi_com_engage"
+    },
+    {
+      "Type": 2,
+      "Title": "滑翔",
+      "Content": "像飞鸟那样……",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_feibi_com_fly_01.play_favor_word_feibi_com_fly_01"
+    },
+    {
+      "Type": 2,
+      "Title": "感知",
+      "Content": "是指引的光芒。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_feibi_com_scan.play_favor_word_feibi_com_scan"
+    },
+    {
+      "Type": 2,
+      "Title": "获得补给·一",
+      "Content": "珍惜来之不易的馈赠。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_feibi_com_openbox_01.play_favor_word_feibi_com_openbox_01"
+    },
+    {
+      "Type": 2,
+      "Title": "获得补给·二",
+      "Content": "属于你的幸运。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_feibi_com_openbox_02.play_favor_word_feibi_com_openbox_02"
+    },
+    {
+      "Type": 2,
+      "Title": "获得补给·三",
+      "Content": "……祂的赐福为我们带来喜乐。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_feibi_com_openbox_03.play_favor_word_feibi_com_openbox_03"
+    }
+  ],
+  "Goods": [
+    {
+      "Title": "凝固的时光",
+      "Content": "菲比随身携带的相片盒，由一个早已停转的航钟改造而成，里面装着一张全家福。它曾经在一次海难中沉入了海底，经过热心朋友们的不断寻找，最终又重新回到了菲比的手中。\n“那摇曳着流逝的时光中……美丽的浪花中，还有灯光里，都有我要和你述说的话语，一遍又一遍。”",
+      "Icon": "/Game/Aki/UI/UIResources/UiRole/Image/Treasure/T_Treasure88_UI.T_Treasure88_UI"
+    },
+    {
+      "Title": "“信使”",
+      "Content": "一个产自大洋彼岸的工艺品，在变卖一空的家产里，菲比只留下了这个。\n在那些曾以为会永远讲述下去的睡前故事中，长着青色羽翼的鸟儿是神的信使，它有跨越风浪的力量，会将幸福带往那个在每晚忍耐着寂寞，乖乖入眠的小女孩身边。",
+      "Icon": "/Game/Aki/UI/UIResources/UiRole/Image/Treasure/T_Treasure89_UI.T_Treasure89_UI"
+    },
+    {
+      "Title": "遥远的愿景",
+      "Content": "陈旧褪色的旧版《隐海圣典》，由一位温柔而虔诚的母亲手工装订。一名合格、尽责、虔诚的<te href=850100>教士</te>应熟读圣典中的所有内容，谨记<te href=850083>岁主</te>的箴言。菲比始终恪守着心中的教义，而其实比起海洋，菲比更喜欢天空的颜色。\n“圣典曾言，苦难令我们更接近神，可我的孩子，我仍希望你的一生平安幸福。”",
+      "Icon": "/Game/Aki/UI/UIResources/UiRole/Image/Treasure/T_Treasure90_UI.T_Treasure90_UI"
+    }
+  ],
+  "SpecialCook": {
+    "Id": 80001041,
+    "Name": "一小块披萨",
+    "Desc": "提高队伍中所有共鸣者44%普攻伤害加成，持续时间30分钟，在多人游戏中仅对自己的角色生效。",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconCook/T_IconCook_070_UI.T_IconCook_070_UI",
+    "Rarity": 3
+  },
+  "Stats": {
+    "0": {
+      "1": {
+        "Life": 866.0,
+        "Atk": 33.0,
+        "Def": 103.0
+      },
+      "2": {
+        "Life": 938.9172,
+        "Atk": 35.7786,
+        "Def": 111.4769
+      },
+      "3": {
+        "Life": 1011.921,
+        "Atk": 38.5605,
+        "Def": 119.9641
+      },
+      "4": {
+        "Life": 1084.9248,
+        "Atk": 41.3424,
+        "Def": 128.4513
+      },
+      "5": {
+        "Life": 1157.842,
+        "Atk": 44.121,
+        "Def": 136.9385
+      },
+      "6": {
+        "Life": 1230.8458,
+        "Atk": 46.9029,
+        "Def": 145.4257
+      },
+      "7": {
+        "Life": 1303.8496,
+        "Atk": 49.6848,
+        "Def": 153.9129
+      },
+      "8": {
+        "Life": 1376.7668,
+        "Atk": 52.4634,
+        "Def": 162.4001
+      },
+      "9": {
+        "Life": 1449.7706,
+        "Atk": 55.2453,
+        "Def": 170.8873
+      },
+      "10": {
+        "Life": 1522.7744,
+        "Atk": 58.0272,
+        "Def": 179.3745
+      },
+      "11": {
+        "Life": 1595.6916,
+        "Atk": 60.8058,
+        "Def": 187.8617
+      },
+      "12": {
+        "Life": 1668.6954,
+        "Atk": 63.5877,
+        "Def": 196.3489
+      },
+      "13": {
+        "Life": 1741.6992,
+        "Atk": 66.3696,
+        "Def": 204.8361
+      },
+      "14": {
+        "Life": 1814.703,
+        "Atk": 69.1515,
+        "Def": 213.3233
+      },
+      "15": {
+        "Life": 1887.6202,
+        "Atk": 71.9301,
+        "Def": 221.8105
+      },
+      "16": {
+        "Life": 1960.624,
+        "Atk": 74.712,
+        "Def": 230.2977
+      },
+      "17": {
+        "Life": 2033.6278,
+        "Atk": 77.4939,
+        "Def": 238.7849
+      },
+      "18": {
+        "Life": 2106.545,
+        "Atk": 80.2725,
+        "Def": 247.2721
+      },
+      "19": {
+        "Life": 2179.5488,
+        "Atk": 83.0544,
+        "Def": 255.7593
+      },
+      "20": {
+        "Life": 2252.5526,
+        "Atk": 85.8363,
+        "Def": 264.2465
+      }
+    },
+    "1": {
+      "20": {
+        "Life": 2829.8282,
+        "Atk": 110.5863,
+        "Def": 331.0008
+      },
+      "21": {
+        "Life": 2902.832,
+        "Atk": 113.3649,
+        "Def": 339.488
+      },
+      "22": {
+        "Life": 2975.8358,
+        "Atk": 116.1468,
+        "Def": 347.9752
+      },
+      "23": {
+        "Life": 3048.753,
+        "Atk": 118.9287,
+        "Def": 356.4624
+      },
+      "24": {
+        "Life": 3121.7568,
+        "Atk": 121.7106,
+        "Def": 364.9496
+      },
+      "25": {
+        "Life": 3194.7606,
+        "Atk": 124.4892,
+        "Def": 373.4368
+      },
+      "26": {
+        "Life": 3267.7644,
+        "Atk": 127.2711,
+        "Def": 381.924
+      },
+      "27": {
+        "Life": 3340.6816,
+        "Atk": 130.053,
+        "Def": 390.4112
+      },
+      "28": {
+        "Life": 3413.6854,
+        "Atk": 132.8316,
+        "Def": 398.8984
+      },
+      "29": {
+        "Life": 3486.6892,
+        "Atk": 135.6135,
+        "Def": 407.3856
+      },
+      "30": {
+        "Life": 3559.6064,
+        "Atk": 138.3954,
+        "Def": 415.8728
+      },
+      "31": {
+        "Life": 3632.6102,
+        "Atk": 141.174,
+        "Def": 424.36
+      },
+      "32": {
+        "Life": 3705.614,
+        "Atk": 143.9559,
+        "Def": 432.8472
+      },
+      "33": {
+        "Life": 3778.5312,
+        "Atk": 146.7378,
+        "Def": 441.3344
+      },
+      "34": {
+        "Life": 3851.535,
+        "Atk": 149.5164,
+        "Def": 449.8216
+      },
+      "35": {
+        "Life": 3924.5388,
+        "Atk": 152.2983,
+        "Def": 458.3088
+      },
+      "36": {
+        "Life": 3997.5426,
+        "Atk": 155.0802,
+        "Def": 466.796
+      },
+      "37": {
+        "Life": 4070.4598,
+        "Atk": 157.8621,
+        "Def": 475.2832
+      },
+      "38": {
+        "Life": 4143.4636,
+        "Atk": 160.6407,
+        "Def": 483.7704
+      },
+      "39": {
+        "Life": 4216.4674,
+        "Atk": 163.4226,
+        "Def": 492.2576
+      },
+      "40": {
+        "Life": 4289.3846,
+        "Atk": 166.2045,
+        "Def": 500.7448
+      }
+    },
+    "2": {
+      "40": {
+        "Life": 4866.7468,
+        "Atk": 190.9545,
+        "Def": 567.4991
+      },
+      "41": {
+        "Life": 4939.7506,
+        "Atk": 193.7331,
+        "Def": 575.9863
+      },
+      "42": {
+        "Life": 5012.6678,
+        "Atk": 196.515,
+        "Def": 584.4735
+      },
+      "43": {
+        "Life": 5085.6716,
+        "Atk": 199.2969,
+        "Def": 592.9607
+      },
+      "44": {
+        "Life": 5158.6754,
+        "Atk": 202.0755,
+        "Def": 601.4479
+      },
+      "45": {
+        "Life": 5231.5926,
+        "Atk": 204.8574,
+        "Def": 609.9351
+      },
+      "46": {
+        "Life": 5304.5964,
+        "Atk": 207.6393,
+        "Def": 618.4223
+      },
+      "47": {
+        "Life": 5377.6002,
+        "Atk": 210.4212,
+        "Def": 626.9095
+      },
+      "48": {
+        "Life": 5450.604,
+        "Atk": 213.1998,
+        "Def": 635.3967
+      },
+      "49": {
+        "Life": 5523.5212,
+        "Atk": 215.9817,
+        "Def": 643.8839
+      },
+      "50": {
+        "Life": 5596.525,
+        "Atk": 218.7636,
+        "Def": 652.3711
+      }
+    },
+    "3": {
+      "50": {
+        "Life": 6173.8872,
+        "Atk": 243.5136,
+        "Def": 719.1254
+      },
+      "51": {
+        "Life": 6246.8044,
+        "Atk": 246.2922,
+        "Def": 727.6126
+      },
+      "52": {
+        "Life": 6319.8082,
+        "Atk": 249.0741,
+        "Def": 736.0998
+      },
+      "53": {
+        "Life": 6392.812,
+        "Atk": 251.856,
+        "Def": 744.587
+      },
+      "54": {
+        "Life": 6465.7292,
+        "Atk": 254.6346,
+        "Def": 753.0742
+      },
+      "55": {
+        "Life": 6538.733,
+        "Atk": 257.4165,
+        "Def": 761.5614
+      },
+      "56": {
+        "Life": 6611.7368,
+        "Atk": 260.1984,
+        "Def": 770.0486
+      },
+      "57": {
+        "Life": 6684.7406,
+        "Atk": 262.9803,
+        "Def": 778.5358
+      },
+      "58": {
+        "Life": 6757.6578,
+        "Atk": 265.7589,
+        "Def": 787.023
+      },
+      "59": {
+        "Life": 6830.6616,
+        "Atk": 268.5408,
+        "Def": 795.5102
+      },
+      "60": {
+        "Life": 6903.6654,
+        "Atk": 271.3227,
+        "Def": 803.9974
+      }
+    },
+    "4": {
+      "60": {
+        "Life": 7480.941,
+        "Atk": 296.0727,
+        "Def": 870.762
+      },
+      "61": {
+        "Life": 7553.9448,
+        "Atk": 298.8513,
+        "Def": 879.2492
+      },
+      "62": {
+        "Life": 7626.9486,
+        "Atk": 301.6332,
+        "Def": 887.7364
+      },
+      "63": {
+        "Life": 7699.8658,
+        "Atk": 304.4151,
+        "Def": 896.2236
+      },
+      "64": {
+        "Life": 7772.8696,
+        "Atk": 307.1937,
+        "Def": 904.7108
+      },
+      "65": {
+        "Life": 7845.8734,
+        "Atk": 309.9756,
+        "Def": 913.198
+      },
+      "66": {
+        "Life": 7918.7906,
+        "Atk": 312.7575,
+        "Def": 921.6749
+      },
+      "67": {
+        "Life": 7991.7944,
+        "Atk": 315.5361,
+        "Def": 930.1621
+      },
+      "68": {
+        "Life": 8064.7982,
+        "Atk": 318.318,
+        "Def": 938.6493
+      },
+      "69": {
+        "Life": 8137.802,
+        "Atk": 321.0999,
+        "Def": 947.1365
+      },
+      "70": {
+        "Life": 8210.7192,
+        "Atk": 323.8818,
+        "Def": 955.6237
+      }
+    },
+    "5": {
+      "70": {
+        "Life": 8788.0814,
+        "Atk": 340.3818,
+        "Def": 1022.3883
+      },
+      "71": {
+        "Life": 8861.0852,
+        "Atk": 343.1604,
+        "Def": 1030.8755
+      },
+      "72": {
+        "Life": 8934.0024,
+        "Atk": 345.9423,
+        "Def": 1039.3627
+      },
+      "73": {
+        "Life": 9007.0062,
+        "Atk": 348.7242,
+        "Def": 1047.8499
+      },
+      "74": {
+        "Life": 9080.01,
+        "Atk": 351.5028,
+        "Def": 1056.3371
+      },
+      "75": {
+        "Life": 9152.9272,
+        "Atk": 354.2847,
+        "Def": 1064.8243
+      },
+      "76": {
+        "Life": 9225.931,
+        "Atk": 357.0666,
+        "Def": 1073.3115
+      },
+      "77": {
+        "Life": 9298.9348,
+        "Atk": 359.8452,
+        "Def": 1081.7987
+      },
+      "78": {
+        "Life": 9371.852,
+        "Atk": 362.6271,
+        "Def": 1090.2859
+      },
+      "79": {
+        "Life": 9444.8558,
+        "Atk": 365.409,
+        "Def": 1098.7731
+      },
+      "80": {
+        "Life": 9517.8596,
+        "Atk": 368.1909,
+        "Def": 1107.2603
+      }
+    },
+    "6": {
+      "80": {
+        "Life": 10095.2218,
+        "Atk": 384.6909,
+        "Def": 1174.0146
+      },
+      "81": {
+        "Life": 10168.139,
+        "Atk": 387.4695,
+        "Def": 1182.5018
+      },
+      "82": {
+        "Life": 10241.1428,
+        "Atk": 390.2514,
+        "Def": 1190.989
+      },
+      "83": {
+        "Life": 10314.1466,
+        "Atk": 393.0333,
+        "Def": 1199.4762
+      },
+      "84": {
+        "Life": 10387.0638,
+        "Atk": 395.8119,
+        "Def": 1207.9634
+      },
+      "85": {
+        "Life": 10460.0676,
+        "Atk": 398.5938,
+        "Def": 1216.4506
+      },
+      "86": {
+        "Life": 10533.0714,
+        "Atk": 401.3757,
+        "Def": 1224.9378
+      },
+      "87": {
+        "Life": 10605.9886,
+        "Atk": 404.1543,
+        "Def": 1233.425
+      },
+      "88": {
+        "Life": 10678.9924,
+        "Atk": 406.9362,
+        "Def": 1241.9122
+      },
+      "89": {
+        "Life": 10751.9962,
+        "Atk": 409.7181,
+        "Def": 1250.3994
+      },
+      "90": {
+        "Life": 10825.0,
+        "Atk": 412.5,
+        "Def": 1258.8866
+      }
+    }
+  },
+  "LevelEXP": [
+    0,
+    400,
+    400,
+    500,
+    600,
+    700,
+    900,
+    1000,
+    1200,
+    1300,
+    1500,
+    1700,
+    2000,
+    2200,
+    2400,
+    2700,
+    3000,
+    3300,
+    3600,
+    3900,
+    4300,
+    4600,
+    5000,
+    5400,
+    5800,
+    6300,
+    6700,
+    7200,
+    7700,
+    8200,
+    8700,
+    9300,
+    9800,
+    10400,
+    11000,
+    11700,
+    12300,
+    13000,
+    13700,
+    14400,
+    15100,
+    15900,
+    16700,
+    17500,
+    18300,
+    19200,
+    20000,
+    20900,
+    21900,
+    22800,
+    23800,
+    24800,
+    25800,
+    26900,
+    28000,
+    29100,
+    30300,
+    31400,
+    32600,
+    33900,
+    35100,
+    36400,
+    37700,
+    39100,
+    40500,
+    41900,
+    43300,
+    44800,
+    46300,
+    47900,
+    49500,
+    51100,
+    52800,
+    54500,
+    56200,
+    58000,
+    59800,
+    61600,
+    63500,
+    65400,
+    67400,
+    69400,
+    71400,
+    73500,
+    75600,
+    77800,
+    80000,
+    82300,
+    84600,
+    86900,
+    105600,
+    107400,
+    110000,
+    113600,
+    118600,
+    125500,
+    134900,
+    147300,
+    163600,
+    184500
+  ],
+  "SkillTrees": {
+    "1": {
+      "ParentNodes": [],
+      "NodeType": 2,
+      "Coordinate": 1,
+      "UnLockCondition": 0,
+      "Consume": [
+        {
+          "Key": 43020032,
+          "Value": 2
+        },
+        {
+          "Key": 41100022,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 3900
+        }
+      ],
+      "Skill": {
+        "Name": "敬请光辉降落",
+        "Desc": "<size=40><color=Title>普攻</color></size>\n释放圣辉，进行最多3段的连续攻击，造成<color=Light>衍射伤害</color>。\n<size=10> </size>\n<size=40><color=Title>重击</color></size>\n消耗耐力攻击目标，造成<color=Light>衍射伤害</color>。\n<size=10> </size>\n<size=40><color=Title>空中攻击</color></size>\n消耗耐力，乘着手杖向下俯冲，滑翔并进行攻击，造成<color=Light>衍射伤害</color>。\n<size=10> </size>\n<size=40><color=Title>空中重击</color></size>\n消耗耐力，乘着手杖往前滑翔一段距离。\n·空中闪避或使用钩索后可以重新施放。\n<size=10> </size>\n<size=40><color=Title>闪避反击</color></size>\n成功<color=Highlight>闪避</color>时，一定时间内短按<color=Highlight>普攻</color>，将会攻击目标，造成<color=Light>衍射伤害</color>。\n·菲比处于【<te href=850007>镜之环</te>】内时，替换为<color=Highlight>夏弥尔之星·闪避反击</color>。",
+        "Param": [],
+        "SimpleDesc": "<size=40><color=Title>普攻</color></size>\n造成<color=Light>衍射伤害</color>。\n<size=10> </size>\n<size=40><color=Title>重击</color></size>\n造成<color=Light>衍射伤害</color>。\n<size=10> </size>\n<size=40><color=Title>空中攻击</color></size>\n消耗耐力，造成<color=Light>衍射伤害</color>。\n<size=10> </size>\n<size=40><color=Title>空中重击</color></size>\n消耗耐力，滑翔一段距离。\n<size=10> </size>\n<size=40><color=Title>闪避反击</color></size>\n造成<color=Light>衍射伤害</color>。",
+        "SimpleParam": [],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorMagic.SP_IconNorMagic",
+        "Type": "常态攻击",
+        "Level": {
+          "1": {
+            "Name": "第一段伤害",
+            "Param": [
+              [
+                "14.85%",
+                "16.07%",
+                "17.29%",
+                "19.00%",
+                "20.21%",
+                "21.61%",
+                "23.56%",
+                "25.51%",
+                "27.46%",
+                "29.53%",
+                "31.96%",
+                "34.40%",
+                "36.83%",
+                "39.27%",
+                "41.71%",
+                "44.14%",
+                "46.58%",
+                "49.01%",
+                "51.45%",
+                "53.88%"
+              ]
+            ],
+            "Format": null
+          },
+          "2": {
+            "Name": "第二段伤害",
+            "Param": [
+              [
+                "11.25%+13.75%",
+                "12.18%+14.88%",
+                "13.10%+16.01%",
+                "14.39%+17.59%",
+                "15.31%+18.72%",
+                "16.37%+20.01%",
+                "17.85%+21.82%",
+                "19.33%+23.62%",
+                "20.80%+25.42%",
+                "22.37%+27.34%",
+                "24.22%+29.60%",
+                "26.06%+31.85%",
+                "27.91%+34.11%",
+                "29.75%+36.36%",
+                "31.60%+38.62%",
+                "33.44%+40.87%",
+                "35.29%+43.13%",
+                "37.13%+45.38%",
+                "38.98%+47.64%",
+                "40.82%+49.89%"
+              ]
+            ],
+            "Format": null
+          },
+          "3": {
+            "Name": "第三段伤害",
+            "Param": [
+              [
+                "7.17%*8",
+                "7.75%*8",
+                "8.34%*8",
+                "9.16%*8",
+                "9.75%*8",
+                "10.43%*8",
+                "11.37%*8",
+                "12.31%*8",
+                "13.25%*8",
+                "14.24%*8",
+                "15.42%*8",
+                "16.59%*8",
+                "17.77%*8",
+                "18.94%*8",
+                "20.12%*8",
+                "21.29%*8",
+                "22.47%*8",
+                "23.64%*8",
+                "24.82%*8",
+                "25.99%*8"
+              ]
+            ],
+            "Format": null
+          },
+          "4": {
+            "Name": "重击伤害",
+            "Param": [
+              [
+                "20.80%*4",
+                "22.50%*4",
+                "24.21%*4",
+                "26.60%*4",
+                "28.30%*4",
+                "30.26%*4",
+                "32.99%*4",
+                "35.72%*4",
+                "38.45%*4",
+                "41.35%*4",
+                "44.76%*4",
+                "48.17%*4",
+                "51.58%*4",
+                "54.99%*4",
+                "58.40%*4",
+                "61.81%*4",
+                "65.22%*4",
+                "68.63%*4",
+                "72.04%*4",
+                "75.45%*4"
+              ]
+            ],
+            "Format": null
+          },
+          "5": {
+            "Name": "空中攻击伤害",
+            "Param": [
+              [
+                "23.25%*2",
+                "25.16%*2",
+                "27.07%*2",
+                "29.74%*2",
+                "31.64%*2",
+                "33.84%*2",
+                "36.89%*2",
+                "39.94%*2",
+                "42.99%*2",
+                "46.23%*2",
+                "50.04%*2",
+                "53.85%*2",
+                "57.67%*2",
+                "61.48%*2",
+                "65.29%*2",
+                "69.11%*2",
+                "72.92%*2",
+                "76.73%*2",
+                "80.55%*2",
+                "84.36%*2"
+              ]
+            ],
+            "Format": null
+          },
+          "6": {
+            "Name": "闪避反击伤害",
+            "Param": [
+              [
+                "10.86%*8",
+                "11.75%*8",
+                "12.64%*8",
+                "13.89%*8",
+                "14.78%*8",
+                "15.80%*8",
+                "17.22%*8",
+                "18.65%*8",
+                "20.07%*8",
+                "21.58%*8",
+                "23.36%*8",
+                "25.15%*8",
+                "26.93%*8",
+                "28.71%*8",
+                "30.49%*8",
+                "32.27%*8",
+                "34.05%*8",
+                "35.83%*8",
+                "37.61%*8",
+                "39.39%*8"
+              ]
+            ],
+            "Format": null
+          },
+          "7": {
+            "Name": "夏弥尔之星·闪避反击伤害",
+            "Param": [
+              [
+                "22.05%*6",
+                "23.86%*6",
+                "25.67%*6",
+                "28.20%*6",
+                "30.01%*6",
+                "32.09%*6",
+                "34.98%*6",
+                "37.88%*6",
+                "40.77%*6",
+                "43.84%*6",
+                "47.46%*6",
+                "51.08%*6",
+                "54.69%*6",
+                "58.31%*6",
+                "61.92%*6",
+                "65.54%*6",
+                "69.16%*6",
+                "72.77%*6",
+                "76.39%*6",
+                "80.00%*6"
+              ]
+            ],
+            "Format": null
+          },
+          "8": {
+            "Name": "重击耐力消耗",
+            "Param": [
+              [
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25"
+              ]
+            ],
+            "Format": null
+          },
+          "9": {
+            "Name": "空中攻击耐力消耗",
+            "Param": [
+              [
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30"
+              ]
+            ],
+            "Format": null
+          },
+          "10": {
+            "Name": "空中重击耐力消耗",
+            "Param": [
+              [
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20"
+              ]
+            ],
+            "Format": null
+          }
+        },
+        "Consume": {
+          "1": [],
+          "2": [
+            {
+              "Key": 43020031,
+              "Value": 2
+            },
+            {
+              "Key": 41100011,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 1500
+            }
+          ],
+          "3": [
+            {
+              "Key": 43020031,
+              "Value": 3
+            },
+            {
+              "Key": 41100011,
+              "Value": 3
+            },
+            {
+              "Key": 2,
+              "Value": 2000
+            }
+          ],
+          "4": [
+            {
+              "Key": 43020032,
+              "Value": 2
+            },
+            {
+              "Key": 41100012,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 4500
+            }
+          ],
+          "5": [
+            {
+              "Key": 43020032,
+              "Value": 3
+            },
+            {
+              "Key": 41100012,
+              "Value": 3
+            },
+            {
+              "Key": 2,
+              "Value": 6000
+            }
+          ],
+          "6": [
+            {
+              "Key": 43020033,
+              "Value": 3
+            },
+            {
+              "Key": 41100013,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 16000
+            }
+          ],
+          "7": [
+            {
+              "Key": 43020033,
+              "Value": 5
+            },
+            {
+              "Key": 41100013,
+              "Value": 3
+            },
+            {
+              "Key": 41400144,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 30000
+            }
+          ],
+          "8": [
+            {
+              "Key": 43020034,
+              "Value": 2
+            },
+            {
+              "Key": 41100014,
+              "Value": 2
+            },
+            {
+              "Key": 41400144,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 50000
+            }
+          ],
+          "9": [
+            {
+              "Key": 43020034,
+              "Value": 3
+            },
+            {
+              "Key": 41100014,
+              "Value": 3
+            },
+            {
+              "Key": 41400144,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 70000
+            }
+          ],
+          "10": [
+            {
+              "Key": 43020034,
+              "Value": 6
+            },
+            {
+              "Key": 41100014,
+              "Value": 4
+            },
+            {
+              "Key": 41400144,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 100000
+            }
+          ]
+        },
+        "Damage": {
+          "1506001010": {
+            "Element": 5,
+            "RelatedProperty": "攻击",
+            "Type": 0,
+            "RateLv": [
+              1485,
+              1607,
+              1729,
+              1900,
+              2021,
+              2161,
+              2356,
+              2551,
+              2746,
+              2953,
+              3196,
+              3440,
+              3683,
+              3927,
+              4171,
+              4414,
+              4658,
+              4901,
+              5145,
+              5388
+            ],
+            "Energy": 100,
+            "ElementPower": 199,
+            "HardnessLv": 10000,
+            "ToughLv": 3184
+          },
+          "1506002010": {
+            "Element": 5,
+            "RelatedProperty": "攻击",
+            "Type": 0,
+            "RateLv": [
+              1125,
+              1218,
+              1310,
+              1439,
+              1531,
+              1637,
+              1785,
+              1933,
+              2080,
+              2237,
+              2422,
+              2606,
+              2791,
+              2975,
+              3160,
+              3344,
+              3529,
+              3713,
+              3898,
+              4082
+            ],
+            "Energy": 60,
+            "ElementPower": 120,
+            "HardnessLv": 10000,
+            "ToughLv": 1920
+          },
+          "1506002020": {
+            "Element": 5,
+            "RelatedProperty": "攻击",
+            "Type": 0,
+            "RateLv": [
+              1375,
+              1488,
+              1601,
+              1759,
+              1872,
+              2001,
+              2182,
+              2362,
+              2542,
+              2734,
+              2960,
+              3185,
+              3411,
+              3636,
+              3862,
+              4087,
+              4313,
+              4538,
+              4764,
+              4989
+            ],
+            "Energy": 74,
+            "ElementPower": 147,
+            "HardnessLv": 10000,
+            "ToughLv": 2347
+          },
+          "1506003010": {
+            "Element": 5,
+            "RelatedProperty": "攻击",
+            "Type": 0,
+            "RateLv": [
+              717,
+              775,
+              834,
+              916,
+              975,
+              1043,
+              1137,
+              1231,
+              1325,
+              1424,
+              1542,
+              1659,
+              1777,
+              1894,
+              2012,
+              2129,
+              2247,
+              2364,
+              2482,
+              2599
+            ],
+            "Energy": 37,
+            "ElementPower": 73,
+            "HardnessLv": 10000,
+            "ToughLv": 932
+          },
+          "1506011010": {
+            "Element": 5,
+            "RelatedProperty": "攻击",
+            "Type": 1,
+            "RateLv": [
+              2080,
+              2250,
+              2421,
+              2660,
+              2830,
+              3026,
+              3299,
+              3572,
+              3845,
+              4135,
+              4476,
+              4817,
+              5158,
+              5499,
+              5840,
+              6181,
+              6522,
+              6863,
+              7204,
+              7545
+            ],
+            "Energy": 70,
+            "ElementPower": 139,
+            "HardnessLv": 10000,
+            "ToughLv": 2218
+          },
+          "1506020010": {
+            "Element": 5,
+            "RelatedProperty": "攻击",
+            "Type": 0,
+            "RateLv": [
+              2325,
+              2516,
+              2707,
+              2974,
+              3164,
+              3384,
+              3689,
+              3994,
+              4299,
+              4623,
+              5004,
+              5385,
+              5767,
+              6148,
+              6529,
+              6911,
+              7292,
+              7673,
+              8055,
+              8436
+            ],
+            "Energy": 150,
+            "ElementPower": 300,
+            "HardnessLv": 10000,
+            "ToughLv": 4800
+          },
+          "1506031010": {
+            "Element": 5,
+            "RelatedProperty": "攻击",
+            "Type": 0,
+            "RateLv": [
+              1086,
+              1175,
+              1264,
+              1389,
+              1478,
+              1580,
+              1722,
+              1865,
+              2007,
+              2158,
+              2336,
+              2515,
+              2693,
+              2871,
+              3049,
+              3227,
+              3405,
+              3583,
+              3761,
+              3939
+            ],
+            "Energy": 56,
+            "ElementPower": 111,
+            "HardnessLv": 10000,
+            "ToughLv": 1164
+          },
+          "1506031020": {
+            "Element": 5,
+            "RelatedProperty": "攻击",
+            "Type": 0,
+            "RateLv": [
+              2205,
+              2386,
+              2567,
+              2820,
+              3001,
+              3209,
+              3498,
+              3788,
+              4077,
+              4384,
+              4746,
+              5108,
+              5469,
+              5831,
+              6192,
+              6554,
+              6916,
+              7277,
+              7639,
+              8000
+            ],
+            "Energy": 74,
+            "ElementPower": 147,
+            "HardnessLv": 10000,
+            "ToughLv": 1552
+          }
+        }
+      }
+    },
+    "2": {
+      "ParentNodes": [],
+      "NodeType": 2,
+      "Coordinate": 2,
+      "UnLockCondition": 0,
+      "Consume": [
+        {
+          "Key": 43020032,
+          "Value": 2
+        },
+        {
+          "Key": 41100022,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 3900
+        }
+      ],
+      "Skill": {
+        "Name": "追寻光芒之所",
+        "Desc": "在目标位置召唤【镜之环】，并使命中的目标停滞{2}秒，造成<color=Light>衍射伤害</color>。同一个【镜之环】最多可对12个目标施加停滞效果。施放后一定时间内短按<color=Highlight>共鸣技能</color>，可传送至【镜之环】位置，造成<color=Light>衍射伤害</color>。\n·距离【镜之环】过远时无法传送。\n<size=10> </size>\n<size=40><color=Title>【镜之环】</color></size>\n·【镜之环】持续{0}秒；菲比召唤新的【镜之环】时，会移除之前的【镜之环】。\n·菲比处于【镜之环】外时，<color=Highlight>普攻</color>、<color=Highlight>闪避反击</color>命中【镜之环】时会折射圣辉，对【镜之环】内目标造成<color=Light>衍射伤害</color>，并将命中的目标牵引至<color=Highlight>【镜之环】</color>中央，此次伤害为普攻伤害。每{1}秒可触发一次。\n·菲比处于【镜之环】内时，<color=Highlight>普攻</color>替换为普攻<color=Highlight>夏弥尔之星</color>，进行最多3段的连续攻击，造成<color=Light>衍射伤害</color>，此次伤害为普攻伤害。",
+        "Param": [
+          "30",
+          "0.5",
+          "2"
+        ],
+        "SimpleDesc": "在目标位置召唤【镜之环】，使命中的目标停滞，造成<color=Light>衍射伤害</color>。施放后短按<color=Highlight>共鸣技能</color>，传送至【镜之环】位置，造成<color=Light>衍射伤害</color>。\n<size=10> </size>\n<size=40><color=Title>【镜之环】</color></size>\n·【镜之环】持续{0}秒；菲比召唤新的【镜之环】时，会移除之前的【镜之环】。\n·菲比处于【镜之环】外时，<color=Highlight>普攻</color>、<color=Highlight>闪避反击</color>命中【镜之环】时造成额外伤害，并牵引目标至<color=Highlight>【镜之环】</color>中央。\n·菲比处于【镜之环】内时，<color=Highlight>普攻</color>替换为普攻<color=Highlight>夏弥尔之星</color>，造成<color=Light>衍射伤害</color>。",
+        "SimpleParam": [
+          "30",
+          "0.5",
+          "2"
+        ],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconFeibi/SP_IconFeibiB1.SP_IconFeibiB1",
+        "Type": "共鸣技能",
+        "Level": {
+          "1": {
+            "Name": "技能伤害",
+            "Param": [
+              [
+                "31.50%*2",
+                "34.09%*2",
+                "36.67%*2",
+                "40.29%*2",
+                "42.87%*2",
+                "45.84%*2",
+                "49.97%*2",
+                "54.11%*2",
+                "58.24%*2",
+                "62.63%*2",
+                "67.80%*2",
+                "72.96%*2",
+                "78.13%*2",
+                "83.29%*2",
+                "88.46%*2",
+                "93.63%*2",
+                "98.79%*2",
+                "103.96%*2",
+                "109.12%*2",
+                "114.29%*2"
+              ]
+            ],
+            "Format": null
+          },
+          "2": {
+            "Name": "【镜之环】折射圣辉伤害",
+            "Param": [
+              [
+                "7.50%*2",
+                "8.12%*2",
+                "8.73%*2",
+                "9.60%*2",
+                "10.21%*2",
+                "10.92%*2",
+                "11.90%*2",
+                "12.89%*2",
+                "13.87%*2",
+                "14.92%*2",
+                "16.15%*2",
+                "17.38%*2",
+                "18.61%*2",
+                "19.84%*2",
+                "21.07%*2",
+                "22.30%*2",
+                "23.53%*2",
+                "24.76%*2",
+                "25.99%*2",
+                "27.22%*2"
+              ]
+            ],
+            "Format": null
+          },
+          "3": {
+            "Name": "夏弥尔之星第一段伤害",
+            "Param": [
+              [
+                "29.85%",
+                "32.30%",
+                "34.75%",
+                "38.18%",
+                "40.62%",
+                "43.44%",
+                "47.36%",
+                "51.27%",
+                "55.19%",
+                "59.35%",
+                "64.25%",
+                "69.14%",
+                "74.04%",
+                "78.93%",
+                "83.83%",
+                "88.72%",
+                "93.62%",
+                "98.51%",
+                "103.41%",
+                "108.30%"
+              ]
+            ],
+            "Format": null
+          },
+          "4": {
+            "Name": "夏弥尔之星第二段伤害",
+            "Param": [
+              [
+                "20.00%*2",
+                "21.64%*2",
+                "23.28%*2",
+                "25.58%*2",
+                "27.22%*2",
+                "29.11%*2",
+                "31.73%*2",
+                "34.35%*2",
+                "36.98%*2",
+                "39.77%*2",
+                "43.05%*2",
+                "46.33%*2",
+                "49.61%*2",
+                "52.89%*2",
+                "56.17%*2",
+                "59.45%*2",
+                "62.73%*2",
+                "66.01%*2",
+                "69.29%*2",
+                "72.57%*2"
+              ]
+            ],
+            "Format": null
+          },
+          "5": {
+            "Name": "夏弥尔之星第三段伤害",
+            "Param": [
+              [
+                "14.55%*6",
+                "15.75%*6",
+                "16.94%*6",
+                "18.61%*6",
+                "19.80%*6",
+                "21.18%*6",
+                "23.09%*6",
+                "24.99%*6",
+                "26.90%*6",
+                "28.93%*6",
+                "31.32%*6",
+                "33.70%*6",
+                "36.09%*6",
+                "38.48%*6",
+                "40.86%*6",
+                "43.25%*6",
+                "45.64%*6",
+                "48.02%*6",
+                "50.41%*6",
+                "52.79%*6"
+              ]
+            ],
+            "Format": null
+          },
+          "6": {
+            "Name": "冷却时间",
+            "Param": [
+              [
+                "12",
+                "12",
+                "12",
+                "12",
+                "12",
+                "12",
+                "12",
+                "12",
+                "12",
+                "12",
+                "12",
+                "12",
+                "12",
+                "12",
+                "12",
+                "12",
+                "12",
+                "12",
+                "12",
+                "12"
+              ]
+            ],
+            "Format": "{0}秒"
+          }
+        },
+        "Consume": {
+          "1": [],
+          "2": [
+            {
+              "Key": 43020031,
+              "Value": 2
+            },
+            {
+              "Key": 41100011,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 1500
+            }
+          ],
+          "3": [
+            {
+              "Key": 43020031,
+              "Value": 3
+            },
+            {
+              "Key": 41100011,
+              "Value": 3
+            },
+            {
+              "Key": 2,
+              "Value": 2000
+            }
+          ],
+          "4": [
+            {
+              "Key": 43020032,
+              "Value": 2
+            },
+            {
+              "Key": 41100012,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 4500
+            }
+          ],
+          "5": [
+            {
+              "Key": 43020032,
+              "Value": 3
+            },
+            {
+              "Key": 41100012,
+              "Value": 3
+            },
+            {
+              "Key": 2,
+              "Value": 6000
+            }
+          ],
+          "6": [
+            {
+              "Key": 43020033,
+              "Value": 3
+            },
+            {
+              "Key": 41100013,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 16000
+            }
+          ],
+          "7": [
+            {
+              "Key": 43020033,
+              "Value": 5
+            },
+            {
+              "Key": 41100013,
+              "Value": 3
+            },
+            {
+              "Key": 41400144,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 30000
+            }
+          ],
+          "8": [
+            {
+              "Key": 43020034,
+              "Value": 2
+            },
+            {
+              "Key": 41100014,
+              "Value": 2
+            },
+            {
+              "Key": 41400144,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 50000
+            }
+          ],
+          "9": [
+            {
+              "Key": 43020034,
+              "Value": 3
+            },
+            {
+              "Key": 41100014,
+              "Value": 3
+            },
+            {
+              "Key": 41400144,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 70000
+            }
+          ],
+          "10": [
+            {
+              "Key": 43020034,
+              "Value": 6
+            },
+            {
+              "Key": 41100014,
+              "Value": 4
+            },
+            {
+              "Key": 41400144,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 100000
+            }
+          ]
+        },
+        "Damage": {
+          "1506101010": {
+            "Element": 5,
+            "RelatedProperty": "攻击",
+            "Type": 4,
+            "RateLv": [
+              3150,
+              3409,
+              3667,
+              4029,
+              4287,
+              4584,
+              4997,
+              5411,
+              5824,
+              6263,
+              6780,
+              7296,
+              7813,
+              8329,
+              8846,
+              9363,
+              9879,
+              10396,
+              10912,
+              11429
+            ],
+            "Energy": 57,
+            "ElementPower": 114,
+            "HardnessLv": 10000,
+            "ToughLv": 3360
+          },
+          "1506999990": {
+            "Element": 5,
+            "RelatedProperty": "攻击",
+            "Type": 0,
+            "RateLv": [
+              750,
+              812,
+              873,
+              960,
+              1021,
+              1092,
+              1190,
+              1289,
+              1387,
+              1492,
+              1615,
+              1738,
+              1861,
+              1984,
+              2107,
+              2230,
+              2353,
+              2476,
+              2599,
+              2722
+            ],
+            "Energy": 0,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 450
+          },
+          "1506004010": {
+            "Element": 5,
+            "RelatedProperty": "攻击",
+            "Type": 0,
+            "RateLv": [
+              2985,
+              3230,
+              3475,
+              3818,
+              4062,
+              4344,
+              4736,
+              5127,
+              5519,
+              5935,
+              6425,
+              6914,
+              7404,
+              7893,
+              8383,
+              8872,
+              9362,
+              9851,
+              10341,
+              10830
+            ],
+            "Energy": 100,
+            "ElementPower": 199,
+            "HardnessLv": 10000,
+            "ToughLv": 3184
+          },
+          "1506005010": {
+            "Element": 5,
+            "RelatedProperty": "攻击",
+            "Type": 0,
+            "RateLv": [
+              2000,
+              2164,
+              2328,
+              2558,
+              2722,
+              2911,
+              3173,
+              3435,
+              3698,
+              3977,
+              4305,
+              4633,
+              4961,
+              5289,
+              5617,
+              5945,
+              6273,
+              6601,
+              6929,
+              7257
+            ],
+            "Energy": 67,
+            "ElementPower": 134,
+            "HardnessLv": 10000,
+            "ToughLv": 2134
+          },
+          "1506006010": {
+            "Element": 5,
+            "RelatedProperty": "攻击",
+            "Type": 0,
+            "RateLv": [
+              1455,
+              1575,
+              1694,
+              1861,
+              1980,
+              2118,
+              2309,
+              2499,
+              2690,
+              2893,
+              3132,
+              3370,
+              3609,
+              3848,
+              4086,
+              4325,
+              4564,
+              4802,
+              5041,
+              5279
+            ],
+            "Energy": 49,
+            "ElementPower": 97,
+            "HardnessLv": 10000,
+            "ToughLv": 1552
+          },
+          "15068880101": {
+            "Element": 5,
+            "RelatedProperty": "攻击",
+            "Type": 4,
+            "RateLv": [
+              4095,
+              4432,
+              4768,
+              5238,
+              5574,
+              5960,
+              6497,
+              7035,
+              7572,
+              8142,
+              8814,
+              9485,
+              10157,
+              10828,
+              11500,
+              12172,
+              12843,
+              13515,
+              14186,
+              14858
+            ],
+            "Energy": 0,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 3360
+          }
+        }
+      }
+    },
+    "3": {
+      "ParentNodes": [],
+      "NodeType": 2,
+      "Coordinate": 3,
+      "UnLockCondition": 0,
+      "Consume": [
+        {
+          "Key": 43020032,
+          "Value": 2
+        },
+        {
+          "Key": 41100022,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 3900
+        }
+      ],
+      "Skill": {
+        "Name": "启明之誓愿",
+        "Desc": "菲比将手中的光辉凝聚为启明之镜，用力敲碎，造成<color=Light>衍射伤害</color>。\n·<color=Highlight>赦罪</color>状态：伤害倍率提升{0}。\n·<color=Highlight>告解</color>状态：为命中的目标附加{1}层<color=Highlight>【<te href=850008>光噪效应</te>】</color>。",
+        "Param": [
+          "255%",
+          "8"
+        ],
+        "SimpleDesc": "造成<color=Light>衍射伤害</color>。\n·<color=Highlight>赦罪</color>状态：伤害倍率更高。\n·<color=Highlight>告解</color>状态：附加<color=Highlight>【光噪效应】</color>。",
+        "SimpleParam": [
+          "255%",
+          "8"
+        ],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconFeibi/SP_IconFeibiC1.SP_IconFeibiC1",
+        "Type": "共鸣解放",
+        "Level": {
+          "1": {
+            "Name": "技能伤害",
+            "Param": [
+              [
+                "202.00%",
+                "218.57%",
+                "235.13%",
+                "258.32%",
+                "274.89%",
+                "293.94%",
+                "320.44%",
+                "346.94%",
+                "373.44%",
+                "401.60%",
+                "434.73%",
+                "467.86%",
+                "500.99%",
+                "534.11%",
+                "567.24%",
+                "600.37%",
+                "633.50%",
+                "666.63%",
+                "699.75%",
+                "732.88%"
+              ]
+            ],
+            "Format": null
+          },
+          "2": {
+            "Name": "冷却时间",
+            "Param": [
+              [
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25"
+              ]
+            ],
+            "Format": "{0}秒"
+          },
+          "3": {
+            "Name": "消耗共鸣能量",
+            "Param": [
+              [
+                "125",
+                "125",
+                "125",
+                "125",
+                "125",
+                "125",
+                "125",
+                "125",
+                "125",
+                "125",
+                "125",
+                "125",
+                "125",
+                "125",
+                "125",
+                "125",
+                "125",
+                "125",
+                "125",
+                "125"
+              ]
+            ],
+            "Format": null
+          },
+          "4": {
+            "Name": "回复协奏能量",
+            "Param": [
+              [
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20"
+              ]
+            ],
+            "Format": null
+          }
+        },
+        "Consume": {
+          "1": [],
+          "2": [
+            {
+              "Key": 43020031,
+              "Value": 2
+            },
+            {
+              "Key": 41100011,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 1500
+            }
+          ],
+          "3": [
+            {
+              "Key": 43020031,
+              "Value": 3
+            },
+            {
+              "Key": 41100011,
+              "Value": 3
+            },
+            {
+              "Key": 2,
+              "Value": 2000
+            }
+          ],
+          "4": [
+            {
+              "Key": 43020032,
+              "Value": 2
+            },
+            {
+              "Key": 41100012,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 4500
+            }
+          ],
+          "5": [
+            {
+              "Key": 43020032,
+              "Value": 3
+            },
+            {
+              "Key": 41100012,
+              "Value": 3
+            },
+            {
+              "Key": 2,
+              "Value": 6000
+            }
+          ],
+          "6": [
+            {
+              "Key": 43020033,
+              "Value": 3
+            },
+            {
+              "Key": 41100013,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 16000
+            }
+          ],
+          "7": [
+            {
+              "Key": 43020033,
+              "Value": 5
+            },
+            {
+              "Key": 41100013,
+              "Value": 3
+            },
+            {
+              "Key": 41400144,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 30000
+            }
+          ],
+          "8": [
+            {
+              "Key": 43020034,
+              "Value": 2
+            },
+            {
+              "Key": 41100014,
+              "Value": 2
+            },
+            {
+              "Key": 41400144,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 50000
+            }
+          ],
+          "9": [
+            {
+              "Key": 43020034,
+              "Value": 3
+            },
+            {
+              "Key": 41100014,
+              "Value": 3
+            },
+            {
+              "Key": 41400144,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 70000
+            }
+          ],
+          "10": [
+            {
+              "Key": 43020034,
+              "Value": 6
+            },
+            {
+              "Key": 41100014,
+              "Value": 4
+            },
+            {
+              "Key": 41400144,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 100000
+            }
+          ]
+        },
+        "Damage": {
+          "1506202092": {
+            "Element": 5,
+            "RelatedProperty": "攻击",
+            "Type": 2,
+            "RateLv": [
+              20200,
+              21857,
+              23513,
+              25832,
+              27489,
+              29394,
+              32044,
+              34694,
+              37344,
+              40160,
+              43473,
+              46786,
+              50099,
+              53411,
+              56724,
+              60037,
+              63350,
+              66663,
+              69975,
+              73288
+            ],
+            "Energy": 0,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 40000
+          },
+          "1506202093": {
+            "Element": 5,
+            "RelatedProperty": "攻击",
+            "Type": 2,
+            "RateLv": [
+              71710,
+              77591,
+              83471,
+              91703,
+              97583,
+              104346,
+              113754,
+              123162,
+              132571,
+              142567,
+              154328,
+              166088,
+              177848,
+              189609,
+              201369,
+              213130,
+              224890,
+              236651,
+              248411,
+              260172
+            ],
+            "Energy": 0,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 40000
+          },
+          "1506202094": {
+            "Element": 5,
+            "RelatedProperty": "攻击",
+            "Type": 2,
+            "RateLv": [
+              117160,
+              126768,
+              136375,
+              149825,
+              159432,
+              170480,
+              185851,
+              201223,
+              216594,
+              232926,
+              252141,
+              271355,
+              290569,
+              309783,
+              328997,
+              348212,
+              367426,
+              386640,
+              405854,
+              425069
+            ],
+            "Energy": 0,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 40000
+          },
+          "1506202095": {
+            "Element": 5,
+            "RelatedProperty": "攻击",
+            "Type": 2,
+            "RateLv": [
+              38380,
+              41528,
+              44675,
+              49081,
+              52228,
+              55847,
+              60883,
+              65918,
+              70954,
+              76304,
+              82598,
+              88892,
+              95187,
+              101481,
+              107775,
+              114070,
+              120364,
+              126658,
+              132953,
+              139247
+            ],
+            "Energy": 0,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 40000
+          }
+        }
+      }
+    },
+    "4": {
+      "ParentNodes": [
+        7
+      ],
+      "NodeType": 3,
+      "Coordinate": 2,
+      "UnLockCondition": 0,
+      "Consume": [
+        {
+          "Key": 43020032,
+          "Value": 2
+        },
+        {
+          "Key": 41100022,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 3900
+        }
+      ],
+      "Skill": {
+        "Name": "临在",
+        "Desc": "空中重击每次可施放的次数增加{0}次。",
+        "Param": [
+          "1"
+        ],
+        "SimpleDesc": "空中重击每次可施放的次数增加{0}次。",
+        "SimpleParam": [
+          "1"
+        ],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconFeibi/SP_IconFeibiD1.SP_IconFeibiD1",
+        "Type": "固有技能",
+        "Level": {},
+        "Consume": {
+          "1": [
+            {
+              "Key": 43020032,
+              "Value": 3
+            },
+            {
+              "Key": 41100012,
+              "Value": 3
+            },
+            {
+              "Key": 41400144,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 10000
+            }
+          ]
+        },
+        "Damage": {}
+      }
+    },
+    "5": {
+      "ParentNodes": [
+        4
+      ],
+      "NodeType": 3,
+      "Coordinate": 3,
+      "UnLockCondition": 0,
+      "Consume": [
+        {
+          "Key": 43020032,
+          "Value": 2
+        },
+        {
+          "Key": 41100022,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 3900
+        }
+      ],
+      "Skill": {
+        "Name": "启示",
+        "Desc": "处于<color=Highlight>赦罪</color>状态、<color=Highlight>告解</color>状态时，衍射伤害加成提升{0}。",
+        "Param": [
+          "12%"
+        ],
+        "SimpleDesc": "处于<color=Highlight>赦罪</color>状态、<color=Highlight>告解</color>状态时，衍射伤害加成提升{0}。",
+        "SimpleParam": [
+          "12%"
+        ],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconFeibi/SP_IconFeibiD2.SP_IconFeibiD2",
+        "Type": "固有技能",
+        "Level": {},
+        "Consume": {
+          "1": [
+            {
+              "Key": 43020033,
+              "Value": 3
+            },
+            {
+              "Key": 41100013,
+              "Value": 3
+            },
+            {
+              "Key": 41400144,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 20000
+            }
+          ]
+        },
+        "Damage": {}
+      }
+    },
+    "6": {
+      "ParentNodes": [],
+      "NodeType": 2,
+      "Coordinate": 4,
+      "UnLockCondition": 0,
+      "Consume": [
+        {
+          "Key": 43020032,
+          "Value": 2
+        },
+        {
+          "Key": 41100022,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 3900
+        }
+      ],
+      "Skill": {
+        "Name": "金色恩典",
+        "Desc": "击退附近目标并造成<color=Light>衍射伤害</color>。",
+        "Param": [],
+        "SimpleDesc": "造成<color=Light>衍射伤害</color>。",
+        "SimpleParam": [],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconFeibi/SP_IconFeibiQTE.SP_IconFeibiQTE",
+        "Type": "变奏技能",
+        "Level": {
+          "1": {
+            "Name": "技能伤害",
+            "Param": [
+              [
+                "100.00%",
+                "108.20%",
+                "116.40%",
+                "127.88%",
+                "136.08%",
+                "145.51%",
+                "158.63%",
+                "171.75%",
+                "184.87%",
+                "198.81%",
+                "215.21%",
+                "231.61%",
+                "248.01%",
+                "264.41%",
+                "280.81%",
+                "297.21%",
+                "313.61%",
+                "330.01%",
+                "346.41%",
+                "362.81%"
+              ]
+            ],
+            "Format": null
+          },
+          "2": {
+            "Name": "回复协奏能量",
+            "Param": [
+              [
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10"
+              ]
+            ],
+            "Format": null
+          }
+        },
+        "Consume": {
+          "1": [],
+          "2": [
+            {
+              "Key": 43020031,
+              "Value": 2
+            },
+            {
+              "Key": 41100011,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 1500
+            }
+          ],
+          "3": [
+            {
+              "Key": 43020031,
+              "Value": 3
+            },
+            {
+              "Key": 41100011,
+              "Value": 3
+            },
+            {
+              "Key": 2,
+              "Value": 2000
+            }
+          ],
+          "4": [
+            {
+              "Key": 43020032,
+              "Value": 2
+            },
+            {
+              "Key": 41100012,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 4500
+            }
+          ],
+          "5": [
+            {
+              "Key": 43020032,
+              "Value": 3
+            },
+            {
+              "Key": 41100012,
+              "Value": 3
+            },
+            {
+              "Key": 2,
+              "Value": 6000
+            }
+          ],
+          "6": [
+            {
+              "Key": 43020033,
+              "Value": 3
+            },
+            {
+              "Key": 41100013,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 16000
+            }
+          ],
+          "7": [
+            {
+              "Key": 43020033,
+              "Value": 5
+            },
+            {
+              "Key": 41100013,
+              "Value": 3
+            },
+            {
+              "Key": 41400144,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 30000
+            }
+          ],
+          "8": [
+            {
+              "Key": 43020034,
+              "Value": 2
+            },
+            {
+              "Key": 41100014,
+              "Value": 2
+            },
+            {
+              "Key": 41400144,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 50000
+            }
+          ],
+          "9": [
+            {
+              "Key": 43020034,
+              "Value": 3
+            },
+            {
+              "Key": 41100014,
+              "Value": 3
+            },
+            {
+              "Key": 41400144,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 70000
+            }
+          ],
+          "10": [
+            {
+              "Key": 43020034,
+              "Value": 6
+            },
+            {
+              "Key": 41100014,
+              "Value": 4
+            },
+            {
+              "Key": 41400144,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 100000
+            }
+          ]
+        },
+        "Damage": {
+          "1506300010": {
+            "Element": 5,
+            "RelatedProperty": "攻击",
+            "Type": 3,
+            "RateLv": [
+              10000,
+              10820,
+              11640,
+              12788,
+              13608,
+              14551,
+              15863,
+              17175,
+              18487,
+              19881,
+              21521,
+              23161,
+              24801,
+              26441,
+              28081,
+              29721,
+              31361,
+              33001,
+              34641,
+              36281
+            ],
+            "Energy": 1000,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 8000
+          }
+        }
+      }
+    },
+    "7": {
+      "ParentNodes": [],
+      "NodeType": 1,
+      "Coordinate": 1,
+      "UnLockCondition": 0,
+      "Consume": [
+        {
+          "Key": 43020032,
+          "Value": 2
+        },
+        {
+          "Key": 41100022,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 3900
+        }
+      ],
+      "Skill": {
+        "Name": "交错星辉的祝祷",
+        "Desc": "若菲比【祈愿】满时，可消耗所有【祈愿】，选择两个技能中的一个施放：\n重击<color=Highlight>圣祷赦罪</color>：长按<color=Highlight>普攻</color>，造成<color=Light>衍射伤害</color>，为命中的目标附加{0}层<color=Highlight>【<te href=850008>光噪效应</te>】</color>，进入更擅长输出的<color=Highlight>赦罪</color>状态。\n共鸣技能<color=Highlight>显明告解</color>：长按<color=Highlight>共鸣技能</color>，造成<color=Light>衍射伤害</color>，为命中的目标附加{0}层<color=Highlight>【<te href=850008>光噪效应</te>】</color>，进入更擅长运用【<te href=850008>光噪效应</te>】的<color=Highlight>告解</color>状态。\n·<color=Highlight>赦罪</color>状态、<color=Highlight>告解</color>状态不能同时存在，进入新状态时将取代旧状态。\n·未消耗完所有【福音】时，无法施放重击<color=Highlight>圣祷赦罪</color>、共鸣技能<color=Highlight>显明告解</color>。\n·消耗完所有【福音】时，不会退出<color=Highlight>赦罪</color>或<color=Highlight>告解</color>状态。\n<size=10> </size>\n<size=40><color=Title>重击·星辉</color></size>\n若菲比拥有【福音】，施放<color=Highlight>普攻第3段</color>或<color=Highlight>闪避反击</color>时，下一次<color=Highlight>重击</color>替换为重击<color=Highlight>星辉</color>。\n消耗{2}点【福音】，造成<color=Light>衍射伤害</color>。\n·<color=Highlight>赦罪</color>状态：施放时所消耗的【福音】减少{3}点，命中的目标拥有<color=Highlight>【<te href=850008>光噪效应</te>】</color>时，伤害加深{4}。\n·<color=Highlight>告解</color>状态：为命中的目标附加{5}层<color=Highlight>【<te href=850008>光噪效应</te>】</color>。\n<size=10> </size>\n<size=40><color=Title>【祈愿】获取规则</color></size>\n【祈愿】上限{6}点。\n随时间持续获得，每秒获得{7}点。\n<size=10> </size>\n<size=40><color=Title>【福音】获取规则</color></size>\n【福音】上限{8}点。\n施放重击<color=Highlight>圣祷赦罪</color>、共鸣技能<color=Highlight>显明告解</color>时，回复{9}点。",
+        "Param": [
+          "1",
+          "0",
+          "30",
+          "15",
+          "256%",
+          "5",
+          "120",
+          "5",
+          "60",
+          "60"
+        ],
+        "SimpleDesc": "若菲比【祈愿】满时，可消耗所有【祈愿】，选择两个技能中的一个施放：\n重击<color=Highlight>圣祷赦罪</color>：长按<color=Highlight>普攻</color>，造成<color=Light>衍射伤害</color>，附加<color=Highlight>【光噪效应】</color>，进入更擅长输出的<color=Highlight>赦罪</color>状态。\n共鸣技能<color=Highlight>显明告解</color>：长按<color=Highlight>共鸣技能</color>，造成<color=Light>衍射伤害</color>，附加{0}层<color=Highlight>【光噪效应】</color>，进入更擅长运用【光噪效应】的<color=Highlight>告解</color>状态。\n<size=10> </size>\n<size=40><color=Title>重击·星辉</color></size>\n若菲比拥有【福音】，施放<color=Highlight>普攻第3段</color>或<color=Highlight>闪避反击</color>时，下一次<color=Highlight>重击</color>替换为重击<color=Highlight>星辉</color>。\n消耗{2}点【福音】，造成<color=Light>衍射伤害</color>。\n·<color=Highlight>赦罪</color>状态：消耗的【福音】减少{3}点，对拥有<color=Highlight>【光噪效应】</color>的目标造成更高伤害。\n·<color=Highlight>告解</color>状态：为目标附加<color=Highlight>【光噪效应】</color>。\n<size=10> </size>\n<size=40><color=Title>【祈愿】获取规则</color></size>\n【祈愿】上限{6}点。\n随时间持续获得，每秒获得{7}点。\n<size=10> </size>\n<size=40><color=Title>【福音】获取规则</color></size>\n【福音】上限{8}点。\n【福音】的获取途径：<color=Highlight>圣祷赦罪</color>、<color=Highlight>显明告解</color>。",
+        "SimpleParam": [
+          "1",
+          "0",
+          "30",
+          "15",
+          "256%",
+          "5",
+          "120",
+          "5",
+          "60",
+          "60"
+        ],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconFeibi/SP_IconFeibiY.SP_IconFeibiY",
+        "Type": "共鸣回路",
+        "Level": {
+          "1": {
+            "Name": "圣祷赦罪伤害",
+            "Param": [
+              [
+                "321.00%",
+                "347.33%",
+                "373.65%",
+                "410.50%",
+                "436.82%",
+                "467.09%",
+                "509.21%",
+                "551.32%",
+                "593.44%",
+                "638.19%",
+                "690.83%",
+                "743.47%",
+                "796.12%",
+                "848.76%",
+                "901.41%",
+                "954.05%",
+                "1006.69%",
+                "1059.34%",
+                "1111.98%",
+                "1164.63%"
+              ]
+            ],
+            "Format": null
+          },
+          "2": {
+            "Name": "显明告解伤害",
+            "Param": [
+              [
+                "94.50%",
+                "102.25%",
+                "110.00%",
+                "120.85%",
+                "128.60%",
+                "137.51%",
+                "149.91%",
+                "162.31%",
+                "174.71%",
+                "187.88%",
+                "203.38%",
+                "218.88%",
+                "234.37%",
+                "249.87%",
+                "265.37%",
+                "280.87%",
+                "296.37%",
+                "311.86%",
+                "327.36%",
+                "342.86%"
+              ]
+            ],
+            "Format": null
+          },
+          "3": {
+            "Name": "重击·星辉伤害",
+            "Param": [
+              [
+                "41.59%*3",
+                "45.00%*3",
+                "48.41%*3",
+                "53.19%*3",
+                "56.60%*3",
+                "60.52%*3",
+                "65.98%*3",
+                "71.43%*3",
+                "76.89%*3",
+                "82.69%*3",
+                "89.51%*3",
+                "96.33%*3",
+                "103.15%*3",
+                "109.97%*3",
+                "116.79%*3",
+                "123.61%*3",
+                "130.43%*3",
+                "137.25%*3",
+                "144.07%*3",
+                "150.89%*3"
+              ]
+            ],
+            "Format": null
+          },
+          "4": {
+            "Name": "重击·星辉耐力消耗",
+            "Param": [
+              [
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25"
+              ]
+            ],
+            "Format": null
+          },
+          "5": {
+            "Name": "圣祷赦罪回复协奏能量",
+            "Param": [
+              [
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10"
+              ]
+            ],
+            "Format": null
+          },
+          "6": {
+            "Name": "显明告解回复协奏能量",
+            "Param": [
+              [
+                "40",
+                "40",
+                "40",
+                "40",
+                "40",
+                "40",
+                "40",
+                "40",
+                "40",
+                "40",
+                "40",
+                "40",
+                "40",
+                "40",
+                "40",
+                "40",
+                "40",
+                "40",
+                "40",
+                "40"
+              ]
+            ],
+            "Format": null
+          }
+        },
+        "Consume": {
+          "1": [],
+          "2": [
+            {
+              "Key": 43020031,
+              "Value": 2
+            },
+            {
+              "Key": 41100011,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 1500
+            }
+          ],
+          "3": [
+            {
+              "Key": 43020031,
+              "Value": 3
+            },
+            {
+              "Key": 41100011,
+              "Value": 3
+            },
+            {
+              "Key": 2,
+              "Value": 2000
+            }
+          ],
+          "4": [
+            {
+              "Key": 43020032,
+              "Value": 2
+            },
+            {
+              "Key": 41100012,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 4500
+            }
+          ],
+          "5": [
+            {
+              "Key": 43020032,
+              "Value": 3
+            },
+            {
+              "Key": 41100012,
+              "Value": 3
+            },
+            {
+              "Key": 2,
+              "Value": 6000
+            }
+          ],
+          "6": [
+            {
+              "Key": 43020033,
+              "Value": 3
+            },
+            {
+              "Key": 41100013,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 16000
+            }
+          ],
+          "7": [
+            {
+              "Key": 43020033,
+              "Value": 5
+            },
+            {
+              "Key": 41100013,
+              "Value": 3
+            },
+            {
+              "Key": 41400144,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 30000
+            }
+          ],
+          "8": [
+            {
+              "Key": 43020034,
+              "Value": 2
+            },
+            {
+              "Key": 41100014,
+              "Value": 2
+            },
+            {
+              "Key": 41400144,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 50000
+            }
+          ],
+          "9": [
+            {
+              "Key": 43020034,
+              "Value": 3
+            },
+            {
+              "Key": 41100014,
+              "Value": 3
+            },
+            {
+              "Key": 41400144,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 70000
+            }
+          ],
+          "10": [
+            {
+              "Key": 43020034,
+              "Value": 6
+            },
+            {
+              "Key": 41100014,
+              "Value": 4
+            },
+            {
+              "Key": 41400144,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 100000
+            }
+          ]
+        },
+        "Damage": {
+          "1506012010": {
+            "Element": 5,
+            "RelatedProperty": "攻击",
+            "Type": 1,
+            "RateLv": [
+              4159,
+              4500,
+              4841,
+              5319,
+              5660,
+              6052,
+              6598,
+              7143,
+              7689,
+              8269,
+              8951,
+              9633,
+              10315,
+              10997,
+              11679,
+              12361,
+              13043,
+              13725,
+              14407,
+              15089
+            ],
+            "Energy": 153,
+            "ElementPower": 138,
+            "HardnessLv": 10000,
+            "ToughLv": 2200
+          },
+          "1506012011": {
+            "Element": 5,
+            "RelatedProperty": "攻击",
+            "Type": 1,
+            "RateLv": [
+              7944,
+              8595,
+              9246,
+              10158,
+              10810,
+              11559,
+              12601,
+              13643,
+              14685,
+              15792,
+              17095,
+              18398,
+              19700,
+              21003,
+              22306,
+              23609,
+              24911,
+              26214,
+              27517,
+              28819
+            ],
+            "Energy": 153,
+            "ElementPower": 138,
+            "HardnessLv": 10000,
+            "ToughLv": 2200
+          },
+          "1506012012": {
+            "Element": 5,
+            "RelatedProperty": "攻击",
+            "Type": 1,
+            "RateLv": [
+              14515,
+              15705,
+              16895,
+              18561,
+              19751,
+              21120,
+              23024,
+              24928,
+              26833,
+              28856,
+              31236,
+              33616,
+              35997,
+              38377,
+              40757,
+              43138,
+              45518,
+              47898,
+              50279,
+              52659
+            ],
+            "Energy": 153,
+            "ElementPower": 138,
+            "HardnessLv": 10000,
+            "ToughLv": 2200
+          },
+          "1506400000": {
+            "Element": 5,
+            "RelatedProperty": "攻击",
+            "Type": 1,
+            "RateLv": [
+              32100,
+              34733,
+              37365,
+              41050,
+              43682,
+              46709,
+              50921,
+              55132,
+              59344,
+              63819,
+              69083,
+              74347,
+              79612,
+              84876,
+              90141,
+              95405,
+              100669,
+              105934,
+              111198,
+              116463
+            ],
+            "Energy": 1000,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 20000
+          },
+          "1506400010": {
+            "Element": 5,
+            "RelatedProperty": "攻击",
+            "Type": 4,
+            "RateLv": [
+              9450,
+              10225,
+              11000,
+              12085,
+              12860,
+              13751,
+              14991,
+              16231,
+              17471,
+              18788,
+              20338,
+              21888,
+              23437,
+              24987,
+              26537,
+              28087,
+              29637,
+              31186,
+              32736,
+              34286
+            ],
+            "Energy": 1800,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 20000
+          }
+        }
+      }
+    },
+    "8": {
+      "ParentNodes": [],
+      "NodeType": 3,
+      "Coordinate": 1,
+      "UnLockCondition": 0,
+      "Consume": [
+        {
+          "Key": 43020032,
+          "Value": 2
+        },
+        {
+          "Key": 41100022,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 3900
+        }
+      ],
+      "Skill": {
+        "Name": "倾听之心",
+        "Desc": "对周围的目标造成总计菲比攻击{0}的<color=Light>衍射伤害</color>。\n·<color=Highlight>赦罪</color>状态：伤害倍率提升{1}。\n·<color=Highlight>告解</color>状态：队伍中登场角色获得<color=Highlight>默祷</color>效果：使一定范围内的目标衍射伤害抗性减少{2}，<color=Highlight>【<te href=850008>光噪效应</te>】</color>伤害加深{3}。目标身上的<color=Highlight>【<te href=850008>光噪效应</te>】</color>触发伤害后，<color=Highlight>【<te href=850008>光噪效应</te>】</color>下一次造成伤害的周期延长{4}。效果持续{5}秒，若菲比进入<color=Highlight>赦罪</color>状态则该效果提前结束。",
+        "Param": [
+          "528.41%",
+          "255%",
+          "10%",
+          "100%",
+          "50%",
+          "30"
+        ],
+        "SimpleDesc": "造成总计菲比攻击{0}的<color=Light>衍射伤害</color>。\n·<color=Highlight>赦罪</color>状态：伤害倍率提升。\n·<color=Highlight>告解</color>状态：使一定范围内的目标衍射伤害抗性减少{2}，<color=Highlight>【光噪效应】</color>伤害加深{3}。目标身上的<color=Highlight>【光噪效应】</color>触发伤害后，<color=Highlight>【光噪效应】</color>下一次造成伤害的周期延长{4}。效果持续{5}秒，若菲比进入<color=Highlight>赦罪</color>状态则该效果提前结束。",
+        "SimpleParam": [
+          "528.41%",
+          "255%",
+          "10%",
+          "100%",
+          "50%",
+          "30"
+        ],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconFeibi/SP_IconFeibiT.SP_IconFeibiT",
+        "Type": "延奏技能",
+        "Level": {},
+        "Consume": {
+          "1": []
+        },
+        "Damage": {
+          "1506201011": {
+            "Element": 5,
+            "RelatedProperty": "攻击",
+            "Type": 7,
+            "RateLv": [
+              23450
+            ],
+            "Energy": 0,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 1250
+          },
+          "1506201012": {
+            "Element": 5,
+            "RelatedProperty": "攻击",
+            "Type": 7,
+            "RateLv": [
+              6606
+            ],
+            "Energy": 0,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 1250
+          }
+        }
+      }
+    },
+    "9": {
+      "ParentNodes": [
+        1
+      ],
+      "NodeType": 4,
+      "Coordinate": 1,
+      "UnLockCondition": 500006,
+      "Consume": [
+        {
+          "Key": 43020033,
+          "Value": 3
+        },
+        {
+          "Key": 41100013,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 50000
+        }
+      ],
+      "Skill": {
+        "Name": "暴击伤害提升",
+        "Desc": "暴击伤害提升{0}",
+        "Param": [
+          "2.40%"
+        ],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredcrit_UI.T_Iconpropertyredcrit_UI"
+      }
+    },
+    "10": {
+      "ParentNodes": [
+        2
+      ],
+      "NodeType": 4,
+      "Coordinate": 1,
+      "UnLockCondition": 500005,
+      "Consume": [
+        {
+          "Key": 43020033,
+          "Value": 3
+        },
+        {
+          "Key": 41100013,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 50000
+        }
+      ],
+      "Skill": {
+        "Name": "攻击提升",
+        "Desc": "攻击提升{0}",
+        "Param": [
+          "1.80%"
+        ],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredattack_UI.T_Iconpropertyredattack_UI"
+      }
+    },
+    "11": {
+      "ParentNodes": [
+        3
+      ],
+      "NodeType": 4,
+      "Coordinate": 1,
+      "UnLockCondition": 500005,
+      "Consume": [
+        {
+          "Key": 43020033,
+          "Value": 3
+        },
+        {
+          "Key": 41100013,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 50000
+        }
+      ],
+      "Skill": {
+        "Name": "攻击提升",
+        "Desc": "攻击提升{0}",
+        "Param": [
+          "1.80%"
+        ],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredattack_UI.T_Iconpropertyredattack_UI"
+      }
+    },
+    "12": {
+      "ParentNodes": [
+        6
+      ],
+      "NodeType": 4,
+      "Coordinate": 1,
+      "UnLockCondition": 500006,
+      "Consume": [
+        {
+          "Key": 43020033,
+          "Value": 3
+        },
+        {
+          "Key": 41100013,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 50000
+        }
+      ],
+      "Skill": {
+        "Name": "暴击伤害提升",
+        "Desc": "暴击伤害提升{0}",
+        "Param": [
+          "2.40%"
+        ],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredcrit_UI.T_Iconpropertyredcrit_UI"
+      }
+    },
+    "13": {
+      "ParentNodes": [
+        9
+      ],
+      "NodeType": 4,
+      "Coordinate": 2,
+      "UnLockCondition": 500008,
+      "Consume": [
+        {
+          "Key": 43020034,
+          "Value": 3
+        },
+        {
+          "Key": 41100014,
+          "Value": 3
+        },
+        {
+          "Key": 41400144,
+          "Value": 1
+        },
+        {
+          "Key": 2,
+          "Value": 100000
+        }
+      ],
+      "Skill": {
+        "Name": "暴击伤害提升",
+        "Desc": "暴击伤害提升{0}",
+        "Param": [
+          "5.60%"
+        ],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredcrit_UI.T_Iconpropertyredcrit_UI"
+      }
+    },
+    "14": {
+      "ParentNodes": [
+        10
+      ],
+      "NodeType": 4,
+      "Coordinate": 2,
+      "UnLockCondition": 500007,
+      "Consume": [
+        {
+          "Key": 43020034,
+          "Value": 3
+        },
+        {
+          "Key": 41100014,
+          "Value": 3
+        },
+        {
+          "Key": 41400144,
+          "Value": 1
+        },
+        {
+          "Key": 2,
+          "Value": 100000
+        }
+      ],
+      "Skill": {
+        "Name": "攻击提升",
+        "Desc": "攻击提升{0}",
+        "Param": [
+          "4.20%"
+        ],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredattack_UI.T_Iconpropertyredattack_UI"
+      }
+    },
+    "15": {
+      "ParentNodes": [
+        11
+      ],
+      "NodeType": 4,
+      "Coordinate": 2,
+      "UnLockCondition": 500007,
+      "Consume": [
+        {
+          "Key": 43020034,
+          "Value": 3
+        },
+        {
+          "Key": 41100014,
+          "Value": 3
+        },
+        {
+          "Key": 41400144,
+          "Value": 1
+        },
+        {
+          "Key": 2,
+          "Value": 100000
+        }
+      ],
+      "Skill": {
+        "Name": "攻击提升",
+        "Desc": "攻击提升{0}",
+        "Param": [
+          "4.20%"
+        ],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredattack_UI.T_Iconpropertyredattack_UI"
+      }
+    },
+    "16": {
+      "ParentNodes": [
+        12
+      ],
+      "NodeType": 4,
+      "Coordinate": 2,
+      "UnLockCondition": 500008,
+      "Consume": [
+        {
+          "Key": 43020034,
+          "Value": 3
+        },
+        {
+          "Key": 41100014,
+          "Value": 3
+        },
+        {
+          "Key": 41400144,
+          "Value": 1
+        },
+        {
+          "Key": 2,
+          "Value": 100000
+        }
+      ],
+      "Skill": {
+        "Name": "暴击伤害提升",
+        "Desc": "暴击伤害提升{0}",
+        "Param": [
+          "5.60%"
+        ],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredcrit_UI.T_Iconpropertyredcrit_UI"
+      }
+    },
+    "17": {
+      "ParentNodes": [],
+      "NodeType": 5,
+      "Coordinate": 1,
+      "UnLockCondition": 0,
+      "Consume": [
+        {
+          "Key": 43020032,
+          "Value": 2
+        },
+        {
+          "Key": 41100022,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 3900
+        }
+      ],
+      "Skill": {
+        "Name": "谐度破坏·音感仪",
+        "Desc": "目标<color=Highlight>【偏谐值】</color>满时，可对其造成<color=Highlight><te href=100001>【谐度破坏】</te></color>伤害。",
+        "Param": [],
+        "SimpleDesc": "目标<color=Highlight>【偏谐值】</color>满时，可对其造成<color=Highlight>【谐度破坏】</color>伤害。",
+        "SimpleParam": [],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconWeakPointBreakMagic.SP_IconWeakPointBreakMagic",
+        "Type": "谐度破坏",
+        "Level": {},
+        "Consume": {
+          "1": []
+        },
+        "Damage": {}
+      }
+    }
+  },
+  "Chains": {
+    "1": {
+      "Name": "暖灯与枕边的祝愿",
+      "Desc": "<color=Highlight>赦罪</color>状态下共鸣解放<color=Highlight>启明之誓愿</color>伤害倍率提升效果从{0}变为{1}。\n<color=Highlight>告解</color>状态下共鸣解放<color=Highlight>启明之誓愿</color>伤害倍率提升{2}，并且附加<color=Highlight>【<te href=850008>光噪效应</te>】</color>层数提升至目标可附加层数的上限。",
+      "Param": [
+        "255%",
+        "480%",
+        "90%"
+      ],
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconDevice/T_IconDevice_FeibiM1_UI.T_IconDevice_FeibiM1_UI"
+    },
+    "2": {
+      "Name": "泪水中飘摇的孤船",
+      "Desc": "<color=Highlight>赦罪</color>状态下，延奏技能对拥有<color=Highlight>【<te href=850008>光噪效应</te>】</color>的目标伤害加深{0}。\n<color=Highlight>告解</color>状态下，<color=Highlight>默祷</color>的<color=Highlight>【<te href=850008>光噪效应</te>】</color>伤害加深效果额外提升{1}。",
+      "Param": [
+        "120%",
+        "120%",
+        "2"
+      ],
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconDevice/T_IconDevice_FeibiM2_UI.T_IconDevice_FeibiM2_UI"
+    },
+    "3": {
+      "Name": "雏菊编织花环与梦",
+      "Desc": "<color=Highlight>赦罪</color>状态下，重击<color=Highlight>星辉</color>伤害倍率提升{0}。\n<color=Highlight>告解</color>状态下，重击<color=Highlight>星辉</color>伤害倍率提升{1}。",
+      "Param": [
+        "91%",
+        "249%"
+      ],
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconDevice/T_IconDevice_FeibiM3_UI.T_IconDevice_FeibiM3_UI"
+    },
+    "4": {
+      "Name": "再次敲响振翅的钟声",
+      "Desc": "<color=Highlight>普攻</color>、普攻<color=Highlight>夏弥尔之星</color>、<color=Highlight>闪避反击</color>、<color=Highlight>夏弥尔之星·闪避反击</color>命中目标时，目标衍射伤害抗性降低{0}，持续{1}秒。",
+      "Param": [
+        "10%",
+        "30"
+      ],
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconDevice/T_IconDevice_FeibiM4_UI.T_IconDevice_FeibiM4_UI"
+    },
+    "5": {
+      "Name": "向遥远光辉虔声祈祷",
+      "Desc": "施放变奏技能<color=Highlight>金色恩典</color>时，菲比的衍射伤害加成提升{0}，持续{1}秒。",
+      "Param": [
+        "12%",
+        "15"
+      ],
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconDevice/T_IconDevice_FeibiM5_UI.T_IconDevice_FeibiM5_UI"
+    },
+    "6": {
+      "Name": "于静寂窗边啁啾歌唱",
+      "Desc": "【<te href=850007>镜之环</te>】的停滞效果增加{0}秒。【<te href=850007>镜之环</te>】持续期间，对每个进入【<te href=850007>镜之环</te>】的目标施加停滞效果；同一个【<te href=850007>镜之环</te>】最多可对12个目标施加停滞效果，且对每个目标只能施加一次。\n<color=Highlight>赦罪</color>状态、<color=Highlight>告解</color>状态下，菲比施放<color=Highlight>共鸣技能</color>召唤【<te href=850007>镜之环</te>】时，攻击提升{1}，持续{2}秒，同时向【<te href=850007>镜之环</te>】位置附带一次重击<color=Highlight>星辉</color>。此次重击<color=Highlight>星辉</color>不消耗【<te href=850014>福音</te>】，不视为施放<color=Highlight>重击</color>。",
+      "Param": [
+        "2",
+        "10%",
+        "20"
+      ],
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconDevice/T_IconDevice_FeibiM6_UI.T_IconDevice_FeibiM6_UI"
+    }
+  },
+  "Ascensions": {
+    "1": [
+      {
+        "Key": 41100011,
+        "Value": 4
+      },
+      {
+        "Key": 2,
+        "Value": 5000
+      }
+    ],
+    "2": [
+      {
+        "Key": 41400164,
+        "Value": 3
+      },
+      {
+        "Key": 42601160,
+        "Value": 4
+      },
+      {
+        "Key": 41100012,
+        "Value": 4
+      },
+      {
+        "Key": 2,
+        "Value": 10000
+      }
+    ],
+    "3": [
+      {
+        "Key": 41400164,
+        "Value": 6
+      },
+      {
+        "Key": 42601160,
+        "Value": 8
+      },
+      {
+        "Key": 41100012,
+        "Value": 8
+      },
+      {
+        "Key": 2,
+        "Value": 15000
+      }
+    ],
+    "4": [
+      {
+        "Key": 41400164,
+        "Value": 9
+      },
+      {
+        "Key": 42601160,
+        "Value": 12
+      },
+      {
+        "Key": 41100013,
+        "Value": 4
+      },
+      {
+        "Key": 2,
+        "Value": 20000
+      }
+    ],
+    "5": [
+      {
+        "Key": 41400164,
+        "Value": 12
+      },
+      {
+        "Key": 42601160,
+        "Value": 16
+      },
+      {
+        "Key": 41100013,
+        "Value": 8
+      },
+      {
+        "Key": 2,
+        "Value": 40000
+      }
+    ],
+    "6": [
+      {
+        "Key": 41400164,
+        "Value": 16
+      },
+      {
+        "Key": 42601160,
+        "Value": 20
+      },
+      {
+        "Key": 41100014,
+        "Value": 4
+      },
+      {
+        "Key": 2,
+        "Value": 80000
+      }
+    ]
+  },
+  "Skin": {
+    "81001506": {
+      "Id": 81001506,
+      "SuitWeaponSkinId": 0,
+      "QualityId": 3,
+      "Name": "菲比",
+      "TitleName": "隐海颂诗",
+      "SubDecName": "菲比-初始服饰",
+      "BgDescription": "菲比记忆中总是停留着一抹青蓝。幼时从枕边故事中振翅飞出的鸟儿，飘摇中给予她归所的教士们的衣袍，亦或是——将她从噩梦中托起的，那缕温柔的和风。",
+      "Background": "/Game/Aki/UI/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Feibi_UI.T_IconRole_Pile_Feibi_UI",
+      "Portrait": "/Game/Aki/UI/UIResources/Common/Image/PixActivity/T_ActivityRoleFeibi.T_ActivityRoleFeibi",
+      "SortIndex": 0,
+      "FormationSpineSkel": "/Game/Aki/UI/UIResources/Common/Spine/Portraits/Portraits_Feibi/Portraits_Feibi.Portraits_Feibi-data",
+      "FormationSpineAtlas": "/Game/Aki/UI/UIResources/Common/Spine/Portraits/Portraits_Feibi/Portraits_Feibi.Portraits_Feibi-atlas"
+    }
+  },
+  "Forte": {
+    "SkillInputList": {
+      "150601": {
+        "Desc": "重击·星辉：处于赦罪或告解状态时，普攻第3段后长按{0}，消耗【福音】攻击目标。赦罪状态下消耗减少，伤害增加；告解状态下附加【光噪效应】。",
+        "InputList": [
+          "攻击"
+        ]
+      },
+      "150602": {
+        "Desc": "共鸣技能：短按{0}可召唤【镜之环】，牵引目标并使目标停滞；限时内再次短按{0}，可传送至【镜之环】内。菲比在【镜之环】内外的普攻方式不同。",
+        "InputList": [
+          "技能1"
+        ]
+      }
+    },
+    "Icon": "/Game/Aki/UI/UIResources/UiRole/Image/T_RoleSkillTreeFeibi.T_RoleSkillTreeFeibi",
+    "DescList": [
+      "【祈愿】充满时，可选择进入赦罪状态或告解状态。",
+      "长按普攻进入赦罪状态，更擅长输出。\n长按共鸣技能进入告解状态，更擅长附加【光噪效应】。"
+    ]
+  },
+  "Live2d": "FeiBi",
+  "Audio": "feibi",
+  "Recommend": {
+    "Weapon": [
+      21050046,
+      21050015,
+      21050094
+    ],
+    "Property": "",
+    "Param": []
+  }
+}

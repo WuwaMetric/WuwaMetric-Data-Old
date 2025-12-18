@@ -1,0 +1,87 @@
+{
+  "Id": 6000182,
+  "Code": "T01-",
+  "Name": "マイニング・メカレインディア",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_32052_UI.T_IconMonsterHead_32052_UI",
+  "Skill": {
+    "Desc": "音骸スキルを発動すると、オーレ・メカレインディアを召喚し、チャージ攻撃で敵に{0}の電導ダメージを与える。\nクールタイム：{1}秒",
+    "SimpleDesc": "オーレ・メカレインディアを召喚し、電導ダメージを与える。",
+    "Param": [
+      [
+        "132.00%",
+        "20"
+      ],
+      [
+        "158.40%",
+        "20"
+      ],
+      [
+        "184.80%",
+        "20"
+      ],
+      [
+        "211.20%",
+        "20"
+      ],
+      [
+        "237.60%",
+        "20"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_32052_UI.T_MstSkil_32052_UI",
+    "Damage": {
+      "20011901": {
+        "Element": 3,
+        "RelatedProperty": "攻撃力",
+        "Type": 5,
+        "RateLv": [
+          13200,
+          15840,
+          18480,
+          21120,
+          23760
+        ],
+        "Energy": 330,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 13200
+      }
+    }
+  },
+  "Group": {
+    "24": {
+      "Id": 24,
+      "Name": "リフレクト・ブレイズ",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriLightWeakness.T_IconElementAttriLightWeakness",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "回折ダメージが{0}アップ",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "終奏スキルを発動後、次に変奏スキルで登場するキャラの攻撃力が{0}アップ、協和破壊増強1Ptにつき、攻撃力が追加で{1}アップ、最大{2}アップ可能、{3}秒間持続。他のキャラに切り替えるとこの効果は消える。",
+          "Param": [
+            "15%",
+            "0.3%",
+            "15%",
+            "15"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 1,
+  "MonsterInfo": 320000520
+}

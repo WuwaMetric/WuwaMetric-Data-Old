@@ -1,0 +1,91 @@
+{
+  "Id": 6000085,
+  "Code": "W93-",
+  "Name": "헤카테",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34010_1_UI.T_IconMonsterHead_34010_1_UI",
+  "Skill": {
+    "Desc": "에코 어빌리티를 사용하여 주변에 3개의 지속적으로 회전하며 춤추는 「명월의 시녀」를 소환한다. 「명월의 시녀」의 회전칼은 적에게 {0}의 인멸 피해를 입힌다. 회전칼이 패링을 성공할 시 「명월의 시녀」의 존재 시간이 리셋된다.\n메인 슬롯에 해당 에코 어빌리티를 장착 시 자신의 협동 공격이 입히는 피해가 {1} 증가한다.\n스킬 쿨타임: {2}초",
+    "SimpleDesc": "회전하면서 춤추는 「명월의 시녀」를 소환하여 주변 적에게 인멸 피해를 입힌다. 「명월의 시녀」의 회전칼이 패링을 성공할 시, 「명월의 시녀」의 존재 시간이 리셋된다. 메인 슬롯에 장착 시 자신의 협동 공격 피해를 증가시킨다",
+    "Param": [
+      [
+        "25.33%",
+        "40.00%",
+        "20"
+      ],
+      [
+        "30.40%",
+        "40.00%",
+        "20"
+      ],
+      [
+        "35.46%",
+        "40.00%",
+        "20"
+      ],
+      [
+        "40.53%",
+        "40.00%",
+        "20"
+      ],
+      [
+        "45.59%",
+        "40.00%",
+        "20"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/MstSkil_34010_UI.MstSkil_34010_UI",
+    "Damage": {
+      "28001601": {
+        "Element": 6,
+        "RelatedProperty": "공격력",
+        "Type": 5,
+        "RateLv": [
+          2533,
+          3040,
+          3546,
+          4053,
+          4559
+        ],
+        "Energy": 63,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 0
+      }
+    }
+  },
+  "Group": {
+    "13": {
+      "Id": 13,
+      "Name": "하늘의 합주곡",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriCooperate.T_IconElementAttriCooperate",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "공명 효율이 {0} 증가된다",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "현재 캐릭터의 협동 공격이 입히는 피해가 {0} 증가된다. 협동 공격으로 적을 명중하여 크리티컬이 발생할 경우, 파티 내 등장 캐릭터의 공격력이 {1} 증가되고, {2}초간 지속된다",
+          "Param": [
+            "80%",
+            "20%",
+            "4"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 3,
+  "MonsterInfo": 340000100
+}

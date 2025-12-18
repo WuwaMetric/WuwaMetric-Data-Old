@@ -1,0 +1,114 @@
+{
+  "Id": 6000073,
+  "Code": "W64-",
+  "Name": "방랑 기사",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_32022_UI.T_IconMonsterHead_32022_UI",
+  "Skill": {
+    "Desc": "에코 어빌리티를 사용하여 방랑 기사로 변신한 후, 내려치기로 주변의 적을 공격하여 {0}의 전도 피해를 입힌다.\n스킬 쿨타임: {1}초",
+    "SimpleDesc": "방랑 기사로 변신한 후, 내려치기로 주변의 적을 공격하여 전도 피해를 입힌다",
+    "Param": [
+      [
+        "174.00%",
+        "20"
+      ],
+      [
+        "208.80%",
+        "20"
+      ],
+      [
+        "243.60%",
+        "20"
+      ],
+      [
+        "278.40%",
+        "20"
+      ],
+      [
+        "313.20%",
+        "20"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/MstSkil_32022_UI.MstSkil_32022_UI",
+    "Damage": {
+      "20005601": {
+        "Element": 3,
+        "RelatedProperty": "공격력",
+        "Type": 5,
+        "RateLv": [
+          17400,
+          20880,
+          24360,
+          27840,
+          31320
+        ],
+        "Energy": 435,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 17400
+      }
+    }
+  },
+  "Group": {
+    "10": {
+      "Id": 10,
+      "Name": "냉철한 결단",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriIceUltimateSkill.T_IconElementAttriIceUltimateSkill",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "공명 스킬 피해가 {0} 증가된다",
+          "Param": [
+            "12%"
+          ]
+        },
+        "5": {
+          "Desc": "공명 스킬 발동 시, 자신의 응결 피해가 {0} 증가되고, {1}초간 지속된다. 공명 해방 발동 시, 자신의 공명 스킬 피해가 {2} 증가되고, {3}초간 지속되며, 최대 {4}스택 중첩이 가능하다",
+          "Param": [
+            "22.5%",
+            "15",
+            "18%",
+            "5",
+            "2"
+          ]
+        }
+      }
+    },
+    "12": {
+      "Id": 12,
+      "Name": "어둠의 장막",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriDarkAssist.T_IconElementAttriDarkAssist",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "인멸 피해가 {0} 증가된다",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "캐릭터가 반주 스킬을 발생시키고 퇴장 시, 추가로 주변 적에게 {0}의 인멸 피해를 입히고, 해당 피해는 반주 스킬 피해로 적용되며, 다음에 등장하는 캐릭터의 인멸 피해 보너스를 {1} 증가시키고, {2}초간 지속된다",
+          "Param": [
+            "480%",
+            "15%",
+            "15"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 1,
+  "MonsterInfo": 320000220,
+  "Phantom": {
+    "Name": "이상 · 방랑 기사",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_SG_32022_UI.T_IconMonsterGoods_SG_32022_UI"
+  }
+}

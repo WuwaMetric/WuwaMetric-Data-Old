@@ -1,0 +1,149 @@
+{
+  "Id": 6000096,
+  "Code": "S56-",
+  "Name": "彫像を再構築する岩拳",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_32031_UI.T_IconMonsterHead_32031_UI",
+  "Skill": {
+    "Desc": "音骸スキルを発動すると、彫像を再構築する岩拳に変身し、{0}の回折ダメージを与える。\n音骸スキルを長押しで変身状態を持続させ、前に突進して目標に{1}の回折ダメージを与える。\nクールタイム：{2}秒",
+    "SimpleDesc": "彫像を再構築する岩拳に変身し、敵に回折ダメージを与える。音骸スキルを長押しで前に突進し、回折ダメージを与える。",
+    "Param": [
+      [
+        "174.00%",
+        "261.00%",
+        "20"
+      ],
+      [
+        "208.80%",
+        "313.20%",
+        "20"
+      ],
+      [
+        "243.60%",
+        "365.40%",
+        "20"
+      ],
+      [
+        "278.40%",
+        "417.60%",
+        "20"
+      ],
+      [
+        "313.20%",
+        "469.80%",
+        "20"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_Mstskil_31031_UI.T_Mstskil_31031_UI",
+    "Damage": {
+      "20008001": {
+        "Element": 5,
+        "RelatedProperty": "攻撃力",
+        "Type": 5,
+        "RateLv": [
+          17400,
+          20880,
+          24360,
+          27840,
+          31320
+        ],
+        "Energy": 435,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 17400
+      },
+      "20008002": {
+        "Element": 5,
+        "RelatedProperty": "攻撃力",
+        "Type": 5,
+        "RateLv": [
+          26100,
+          31320,
+          36540,
+          41760,
+          46980
+        ],
+        "Energy": 652,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 26100
+      }
+    }
+  },
+  "Group": {
+    "11": {
+      "Id": 11,
+      "Name": "エターナル・ライト",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriLightError.T_IconElementAttriLightError",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "回折ダメージが{0}アップ",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "敵に【騒光効果】を付与時、自身のクリティカル率が{0}アップ、{1}秒間持続。【騒光効果】が{2}スタック付与された敵を攻撃時、自身の回折ダメージが{3}アップ、{4}秒間持続。",
+          "Param": [
+            "20%",
+            "15",
+            "10",
+            "15%",
+            "15"
+          ]
+        }
+      }
+    },
+    "16": {
+      "Id": 16,
+      "Name": "バウンドレス・スカイ",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriWindError.T_IconElementAttriWindError",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "気動ダメージが{0}アップ",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "敵に【風蝕効果】を付与時、チーム内全員の気動ダメージが{0}アップ、自身の気動ダメージが追加で{1}アップ、{2}秒間持続。",
+          "Param": [
+            "15%",
+            "15%",
+            "20"
+          ]
+        }
+      }
+    },
+    "21": {
+      "Id": 21,
+      "Name": "エーテル・レゾナンス",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriSupport.T_IconElementAttriSupport",
+      "Color": "FFFFFF00",
+      "Set": {
+        "3": {
+          "Desc": "キャラが音骸スキルを発動時、自身の重撃ダメージが{0}アップ、{1}秒間持続。さらにチーム内全員の音骸スキルダメージが{2}アップ、最大{3}スタック、{4}秒間持続。同名の音骸による発動は1回のみで、効果が切れると発動記録もリセットされる。{3}スタックの状態で音骸スキルを発動すると、持続時間がリセットされる。",
+          "Param": [
+            "30%",
+            "4",
+            "4%",
+            "4",
+            "30"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 1,
+  "MonsterInfo": 320000310
+}

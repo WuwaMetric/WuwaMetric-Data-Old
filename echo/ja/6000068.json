@@ -1,0 +1,130 @@
+{
+  "Id": 6000068,
+  "Code": "R05-",
+  "Name": "雲の妖精",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31044_UI.T_IconMonsterHead_31044_UI",
+  "Skill": {
+    "Desc": "音骸スキルを発動すると、雲の妖精を召喚してチーム内の登場キャラに{0}のHPを回復させる、最大4回まで。\nクールタイム：{1}秒",
+    "SimpleDesc": "雲の妖精を召喚してチーム内の登場キャラのHPを回復させる。",
+    "Param": [
+      [
+        "1.50%",
+        "15"
+      ],
+      [
+        "1.80%",
+        "15"
+      ],
+      [
+        "2.10%",
+        "15"
+      ],
+      [
+        "2.40%",
+        "15"
+      ],
+      [
+        "2.70%",
+        "15"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/MstSkil_31044_UI.MstSkil_31044_UI",
+    "Damage": {
+      "20006901": {
+        "Element": 0,
+        "RelatedProperty": "HP",
+        "Type": 5,
+        "RateLv": [
+          150,
+          180,
+          210,
+          240,
+          270
+        ],
+        "Energy": 0,
+        "ElementPower": 0,
+        "HardnessLv": 0,
+        "ToughLv": 0
+      }
+    }
+  },
+  "Group": {
+    "12": {
+      "Id": 12,
+      "Name": "ミッドナイト・ベール",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriDarkAssist.T_IconElementAttriDarkAssist",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "消滅ダメージが{0}アップ",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "終奏スキルで退場時、追加で周囲の敵に{0}の消滅ダメージを与え、このダメージは終奏スキルダメージと見なされる。次の登場キャラに{1}の消滅ダメージアップ効果を付与し、{2}秒間持続。",
+          "Param": [
+            "480%",
+            "15%",
+            "15"
+          ]
+        }
+      }
+    },
+    "13": {
+      "Id": 13,
+      "Name": "セレッシャル・アンサム",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriCooperate.T_IconElementAttriCooperate",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "共鳴効率が{0}アップ",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "装備キャラの協同攻撃によるダメージが{0}アップ。協同攻撃がクリティカル時、チーム内の登場キャラの攻撃力を{1}アップさせ、{2}秒間持続。",
+          "Param": [
+            "80%",
+            "20%",
+            "4"
+          ]
+        }
+      }
+    },
+    "22": {
+      "Id": 22,
+      "Name": "インフェルノ・シャドウ",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriFireA.T_IconElementAttriFireA",
+      "Color": "FFFFFF00",
+      "Set": {
+        "3": {
+          "Desc": "キャラが音骸スキルダメージを与えた時、重撃ダメージのクリティカル率が{0}アップ、{1}秒間持続。また、重撃ダメージを与えた時、音骸スキルダメージのクリティカル率が{2}アップ、{3}秒間持続。両方の効果を持つ間、自身の焦熱ダメージが{4}アップ。",
+          "Param": [
+            "20%",
+            "6",
+            "20%",
+            "6",
+            "16%"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 0,
+  "MonsterInfo": 310000440,
+  "Phantom": {
+    "Name": "異相・雲の妖精",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_SG_31044_UI.T_IconMonsterGoods_SG_31044_UI"
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "Id": 6000112,
+  "Code": "H55-",
+  "Name": "クラトスクス",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31062_UI.T_IconMonsterHead_31062_UI",
+  "Skill": {
+    "Desc": "音骸スキルを発動すると、クラトスクスに変身し、ジャンプ攻撃で{0}の気動ダメージを与える。一定時間内に音骸スキルを再度一回押しすると、敵へ突進し、{1}の気動ダメージを与える。\nメイン音骸スロットに装備時、自身の気動ダメージが{2}アップ、共鳴解放ダメージが{3}アップ。\nクールタイム：{4}秒",
+    "SimpleDesc": "クラトスクスに変身し、ジャンプ攻撃で気動ダメージを与える。一定時間内に音骸スキルを再度一回押しすると、敵へ突進し、気動ダメージを与える。\nメイン音骸スロットに装備時、自身の気動ダメージと共鳴解放ダメージがアップ。",
+    "Param": [
+      [
+        "149.00%",
+        "149.00%",
+        "12.00%",
+        "12.00%",
+        "15"
+      ],
+      [
+        "178.80%",
+        "178.80%",
+        "12.00%",
+        "12.00%",
+        "15"
+      ],
+      [
+        "208.60%",
+        "208.60%",
+        "12.00%",
+        "12.00%",
+        "15"
+      ],
+      [
+        "238.40%",
+        "238.40%",
+        "12.00%",
+        "12.00%",
+        "15"
+      ],
+      [
+        "268.20%",
+        "268.20%",
+        "12.00%",
+        "12.00%",
+        "15"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_31062_UI.T_MstSkil_31062_UI",
+    "Damage": {
+      "20009401": {
+        "Element": 4,
+        "RelatedProperty": "攻撃力",
+        "Type": 5,
+        "RateLv": [
+          14900,
+          17880,
+          20860,
+          23840,
+          26820
+        ],
+        "Energy": 372,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 14900
+      },
+      "20009402": {
+        "Element": 4,
+        "RelatedProperty": "攻撃力",
+        "Type": 5,
+        "RateLv": [
+          14900,
+          17880,
+          20860,
+          23840,
+          26820
+        ],
+        "Energy": 372,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 14900
+      }
+    }
+  },
+  "Group": {
+    "17": {
+      "Id": 17,
+      "Name": "グロリアス・ウィンド",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriWindErrorA.T_IconElementAttriWindErrorA",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "気動ダメージが{0}アップ",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "【風蝕効果】が付与されている敵への攻撃が命中時、自身のクリティカル率が{0}アップ、気動ダメージが{1}アップ、{2}秒間持続。",
+          "Param": [
+            "10%",
+            "30%",
+            "10"
+          ]
+        }
+      }
+    },
+    "18": {
+      "Id": 18,
+      "Name": "ハウリング・フレイム",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriFireUltimateSkill.T_IconElementAttriFireUltimateSkill",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "焦熱ダメージが{0}アップ",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "共鳴解放発動時、チーム内全員の焦熱ダメージが{0}アップ、自身の共鳴解放ダメージが{1}アップ、{2}秒間持続。",
+          "Param": [
+            "15%",
+            "20%",
+            "35"
+          ]
+        }
+      }
+    },
+    "22": {
+      "Id": 22,
+      "Name": "インフェルノ・シャドウ",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriFireA.T_IconElementAttriFireA",
+      "Color": "FFFFFF00",
+      "Set": {
+        "3": {
+          "Desc": "キャラが音骸スキルダメージを与えた時、重撃ダメージのクリティカル率が{0}アップ、{1}秒間持続。また、重撃ダメージを与えた時、音骸スキルダメージのクリティカル率が{2}アップ、{3}秒間持続。両方の効果を持つ間、自身の焦熱ダメージが{4}アップ。",
+          "Param": [
+            "20%",
+            "6",
+            "20%",
+            "6",
+            "16%"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 1,
+  "MonsterInfo": 320000340,
+  "Phantom": {
+    "Name": "異相・クラトスクス",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_SG_31062_UI.T_IconMonsterGoods_SG_31062_UI"
+  }
+}

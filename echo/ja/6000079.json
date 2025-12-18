@@ -1,0 +1,149 @@
+{
+  "Id": 6000079,
+  "Code": "R41-",
+  "Name": "フロートアルマ",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_32028_UI.T_IconMonsterHead_32028_UI",
+  "Skill": {
+    "Desc": "音骸スキルを発動すると、フロートアルマを召喚し、連続攻撃で{0}の焦熱ダメージを6段、{1}の焦熱ダメージを1段与える。\nクールタイム：{2}秒",
+    "SimpleDesc": "フロートアルマを召喚して、連続攻撃で敵に焦熱ダメージを与える。",
+    "Param": [
+      [
+        "10.70%",
+        "42.80%",
+        "15"
+      ],
+      [
+        "12.84%",
+        "51.36%",
+        "15"
+      ],
+      [
+        "14.98%",
+        "59.92%",
+        "15"
+      ],
+      [
+        "17.12%",
+        "68.48%",
+        "15"
+      ],
+      [
+        "19.26%",
+        "77.04%",
+        "15"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/MstSkil_32028_UI.MstSkil_32028_UI",
+    "Damage": {
+      "20006201": {
+        "Element": 2,
+        "RelatedProperty": "攻撃力",
+        "Type": 5,
+        "RateLv": [
+          1070,
+          1284,
+          1498,
+          1712,
+          1926
+        ],
+        "Energy": 26,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 1070
+      },
+      "20006202": {
+        "Element": 2,
+        "RelatedProperty": "攻撃力",
+        "Type": 5,
+        "RateLv": [
+          4280,
+          5136,
+          5992,
+          6848,
+          7704
+        ],
+        "Energy": 107,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 4280
+      }
+    }
+  },
+  "Group": {
+    "13": {
+      "Id": 13,
+      "Name": "セレッシャル・アンサム",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriCooperate.T_IconElementAttriCooperate",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "共鳴効率が{0}アップ",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "装備キャラの協同攻撃によるダメージが{0}アップ。協同攻撃がクリティカル時、チーム内の登場キャラの攻撃力を{1}アップさせ、{2}秒間持続。",
+          "Param": [
+            "80%",
+            "20%",
+            "4"
+          ]
+        }
+      }
+    },
+    "14": {
+      "Id": 14,
+      "Name": "タイズターニング・ヴァラ",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriEnergy.T_IconElementAttriEnergy",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "共鳴効率が{0}アップ",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "キャラの攻撃力が{0}アップ、共鳴効率が{1}以上時、装備キャラの全属性ダメージが{2}アップ。",
+          "Param": [
+            "15%",
+            "250%",
+            "30%"
+          ]
+        }
+      }
+    },
+    "19": {
+      "Id": 19,
+      "Name": "ロスト・ドリーム",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriDarkVision.T_IconElementAttriDarkVision",
+      "Color": "FFFFFF00",
+      "Set": {
+        "3": {
+          "Desc": "キャラの共鳴エネルギーが{0}の時、自身のクリティカル率が{1}アップ、音骸スキルダメージが{2}アップ。",
+          "Param": [
+            "0",
+            "20%",
+            "35%"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 1,
+  "MonsterInfo": 320000280,
+  "Phantom": {
+    "Name": "異相・フロートアルマ",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_SG_32028_UI.T_IconMonsterGoods_SG_32028_UI"
+  }
+}

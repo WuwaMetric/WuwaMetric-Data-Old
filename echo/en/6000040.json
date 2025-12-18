@@ -1,0 +1,105 @@
+{
+  "Id": 6000040,
+  "Code": "H51-",
+  "Name": "Hoochief",
+  "Type": "Mutant Fauna",
+  "Intensity": "Elite Class",
+  "Place": "Huanglong",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_989_UI.T_IconMonsterGoods_989_UI",
+  "Skill": {
+    "Desc": "Transform into Hoochief and smack the enemies, dealing {0} Aero DMG.\n\nCD: {1}s",
+    "SimpleDesc": "Transform into Hoochief to deal Aero DMG.",
+    "Param": [
+      [
+        "149%",
+        "15"
+      ],
+      [
+        "178.80%",
+        "15"
+      ],
+      [
+        "208.60%",
+        "15"
+      ],
+      [
+        "238.40%",
+        "15"
+      ],
+      [
+        "268.20%",
+        "15"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_989_UI.T_MstSkil_989_UI",
+    "Damage": {
+      "20004601": {
+        "Element": 4,
+        "RelatedProperty": "ATK",
+        "Type": 5,
+        "RateLv": [
+          14900,
+          17880,
+          20860,
+          23840,
+          26820
+        ],
+        "Energy": 372,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 14900
+      }
+    }
+  },
+  "Group": {
+    "4": {
+      "Id": 4,
+      "Name": "Sierra Gale",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriWind.T_IconElementAttriWind",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "Aero DMG + 10%.",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "Aero DMG + 30% for 15s after releasing Intro Skill.",
+          "Param": [
+            "30%"
+          ]
+        }
+      }
+    },
+    "7": {
+      "Id": 7,
+      "Name": "Rejuvenating Glow",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriCure.T_IconElementAttriCure",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "Healing Bonus + 10%.",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "Increases the ATK of all party members by 15% for 30s upon healing allies.",
+          "Param": [
+            "15%",
+            "30"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 1,
+  "MonsterInfo": 320000111
+}

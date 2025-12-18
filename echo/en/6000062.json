@@ -1,0 +1,108 @@
+{
+  "Id": 6000062,
+  "Code": "H24-",
+  "Name": "Voltscourge Stalker",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31038_UI.T_IconMonsterHead_31038_UI",
+  "Skill": {
+    "Desc": "Summon a Voltscourge Stalker to perform 3 stages of attacks on enemies, each dealing {0} Electro DMG.\nCD: {1}s.",
+    "SimpleDesc": "Summon a Voltscourge Stalker to deal Electro DMG to enemies.",
+    "Param": [
+      [
+        "24.00%",
+        "8"
+      ],
+      [
+        "28.80%",
+        "8"
+      ],
+      [
+        "33.60%",
+        "8"
+      ],
+      [
+        "38.40%",
+        "8"
+      ],
+      [
+        "43.20%",
+        "8"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/MstSkil_31038_UI.MstSkil_31038_UI",
+    "Damage": {
+      "20007401": {
+        "Element": 3,
+        "RelatedProperty": "ATK",
+        "Type": 5,
+        "RateLv": [
+          2400,
+          2880,
+          3360,
+          3840,
+          4320
+        ],
+        "Energy": 60,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 2400
+      }
+    }
+  },
+  "Group": {
+    "12": {
+      "Id": 12,
+      "Name": "Midnight Veil",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriDarkAssist.T_IconElementAttriDarkAssist",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "Havoc DMG + {0}",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "When Outro Skill is triggered, deal additional {0} Havoc DMG to surrounding enemies, considered Outro Skill DMG, and grant the incoming Resonator {1} Havoc DMG Bonus for {2}s.",
+          "Param": [
+            "480%",
+            "15%",
+            "15"
+          ]
+        }
+      }
+    },
+    "13": {
+      "Id": 13,
+      "Name": "Empyrean Anthem",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriCooperate.T_IconElementAttriCooperate",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "Energy Regen + {0}",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "Increase the Resonator's Coordinated Attack DMG by {0}. Upon a critical hit of Coordinated Attack, increase the active Resonator's ATK by {1} for {2}s.",
+          "Param": [
+            "80%",
+            "20%",
+            "4"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 0,
+  "MonsterInfo": 310000380
+}

@@ -1,0 +1,122 @@
+{
+  "Id": 6000172,
+  "Code": "H22-",
+  "Name": "Nightmare: Dwarf Cassowary",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31076_UI.T_IconMonsterHead_31076_UI",
+  "Skill": {
+    "Desc": "Summon a Dwarf Cassowary that tracks and attacks the enemy, dealing {1} Physical DMG {0} time(s).\n\nCooldown: {2}s",
+    "SimpleDesc": "Summon a Dwarf Cassowary to attack, dealing Physical DMG.",
+    "Param": [
+      [
+        "3",
+        "24.00%",
+        "8",
+        "0.00%"
+      ],
+      [
+        "3",
+        "27.60%",
+        "8",
+        "0.00%"
+      ],
+      [
+        "3",
+        "31.20%",
+        "8",
+        "0.00%"
+      ],
+      [
+        "3",
+        "34.80%",
+        "8",
+        "0.00%"
+      ],
+      [
+        "3",
+        "38.40%",
+        "8",
+        "0.00%"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_331_UI.T_MstSkil_331_UI",
+    "Damage": {
+      "20005102": {
+        "Element": 0,
+        "RelatedProperty": "ATK",
+        "Type": 5,
+        "RateLv": [
+          2400,
+          2760,
+          3120,
+          3480,
+          3840
+        ],
+        "Energy": 60,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 2400
+      },
+      "20005103": {
+        "Element": 0,
+        "RelatedProperty": "ATK",
+        "Type": 5,
+        "RateLv": [
+          2400,
+          2760,
+          3120,
+          3480,
+          3840
+        ],
+        "Energy": 60,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 2400
+      },
+      "20005104": {
+        "Element": 0,
+        "RelatedProperty": "ATK",
+        "Type": 5,
+        "RateLv": [
+          2400,
+          2760,
+          3120,
+          3480,
+          3840
+        ],
+        "Energy": 60,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 2400
+      }
+    }
+  },
+  "Group": {
+    "23": {
+      "Id": 23,
+      "Name": "Thread of Severed Fate",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriQianXiao.T_IconElementAttriQianXiao",
+      "Color": "FFFFFF00",
+      "Set": {
+        "3": {
+          "Desc": "Inflicting Havoc Bane increases the Resonator's ATK by {0} and grants {1} Resonance Liberation DMG Bonus for {2}s.",
+          "Param": [
+            "20%",
+            "30%",
+            "5"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 0,
+  "MonsterInfo": 310000760
+}

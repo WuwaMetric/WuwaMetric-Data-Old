@@ -1,0 +1,110 @@
+{
+  "Id": 6000176,
+  "Code": "T01-",
+  "Name": "矿岩熊蜂",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31078_UI.T_IconMonsterHead_31078_UI",
+  "Skill": {
+    "Desc": "使用声骸技能，幻形为矿岩熊蜂，对敌人造成两段{0}的湮灭伤害。\n技能冷却：{1}秒",
+    "SimpleDesc": "幻形为矿岩熊蜂，对敌人造成湮灭伤害。",
+    "Param": [
+      [
+        "57.00%",
+        "8"
+      ],
+      [
+        "68.40%",
+        "8"
+      ],
+      [
+        "79.80%",
+        "8"
+      ],
+      [
+        "91.20%",
+        "8"
+      ],
+      [
+        "102.60%",
+        "8"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_31078_UI.T_MstSkil_31078_UI",
+    "Damage": {
+      "20012701": {
+        "Element": 6,
+        "RelatedProperty": "攻击",
+        "Type": 5,
+        "RateLv": [
+          5700,
+          6840,
+          7980,
+          9120,
+          10260
+        ],
+        "Energy": 71,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 5700
+      }
+    }
+  },
+  "Group": {
+    "25": {
+      "Id": 25,
+      "Name": "星构寻辉之环",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriCureWeakness.T_IconElementAttriCureWeakness",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "治疗效果提升{0}",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "为队伍中角色提供治疗时，自身每{0}的偏谐值累积效率使队伍中角色攻击提升{1}，上限{2}，持续{3}秒，同名效果之间不可叠加。",
+          "Param": [
+            "1%",
+            "0.2%",
+            "25%",
+            "4"
+          ]
+        }
+      }
+    },
+    "26": {
+      "Id": 26,
+      "Name": "流金溯真之式",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriAttackWeakness.T_IconElementAttriAttackWeakness",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "衍射伤害提升{0}",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "角色造成普攻伤害时，自身衍射伤害提升{0}，该效果可叠加{1}层，持续{2}秒。叠至{1}层时，施放共鸣解放时，普攻伤害加成提升{3}。",
+          "Param": [
+            "10%",
+            "3",
+            "5",
+            "40%"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 0,
+  "MonsterInfo": 310000780
+}

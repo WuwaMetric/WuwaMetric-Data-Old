@@ -1,0 +1,95 @@
+{
+  "Id": 6000088,
+  "Code": "W76-",
+  "Name": "ナイトメア・雲閃のウロコ",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_YZ_33016_UI.T_IconMonsterHead_YZ_33016_UI",
+  "Skill": {
+    "Desc": "音骸スキルを発動すると、ナイトメア・雲閃のウロコに変身し、前方の敵に{0}の電導ダメージを与える。\nメイン音骸スロットに装備時、自身の電導ダメージが{1}アップ、共鳴解放ダメージが{2}アップ。\nクールタイム：{3}秒",
+    "SimpleDesc": "ナイトメア・雲閃のウロコに変身し、前方の敵に電導ダメージを与える。メイン音骸スロットに装備時、自身の電導ダメージと共鳴解放ダメージがアップ。",
+    "Param": [
+      [
+        "225.00%",
+        "12.00%",
+        "12.00%",
+        "25"
+      ],
+      [
+        "270.00%",
+        "12.00%",
+        "12.00%",
+        "25"
+      ],
+      [
+        "315.00%",
+        "12.00%",
+        "12.00%",
+        "25"
+      ],
+      [
+        "360.00%",
+        "12.00%",
+        "12.00%",
+        "25"
+      ],
+      [
+        "405.00%",
+        "12.00%",
+        "12.00%",
+        "25"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_Z_B3_1_UI.T_MstSkil_Z_B3_1_UI",
+    "Damage": {
+      "28002001": {
+        "Element": 3,
+        "RelatedProperty": "攻撃力",
+        "Type": 5,
+        "RateLv": [
+          22500,
+          27000,
+          31500,
+          36000,
+          40500
+        ],
+        "Energy": 562,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 22500
+      }
+    }
+  },
+  "Group": {
+    "3": {
+      "Id": 3,
+      "Name": "空を切り裂く冥雷",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriThunder.T_IconElementAttriThunder",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "電導ダメージが10%アップ",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "重撃、共鳴スキルを発動する時、電導ダメージが15%アップ、この効果は最大2スタック、1スタックごと15秒間持続する",
+          "Param": [
+            "15%",
+            "15"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 2,
+  "MonsterInfo": 330000160
+}

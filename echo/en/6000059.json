@@ -1,0 +1,178 @@
+{
+  "Id": 6000059,
+  "Code": "Z01-",
+  "Name": "Jué",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_327_UI.T_IconMonsterHead_327_UI",
+  "Skill": {
+    "Desc": "Summon Jué to the aid. Jué soars through the air, dealing {0} Spectro DMG, and summons thunderbolts that strike nearby enemies up to 5 times, each hit dealing {1} Spectro DMG. Jué then spirals downward, attacking surrounding enemies twice, each hit dealing {2} Spectro DMG.\nCasting this Echo Skill grants the Resonator a Blessing of Time effect that lasts {3}s, during when:\n- The Resonator gains {4} Resonance Skill DMG Bonus.\n- When the Resonator's Resonance Skill hits the target, inflict {5} Spectro DMG 1 time per second for {6}s, considered as the Resonator's Resonance Skill DMG.\nCD: {7}s",
+    "SimpleDesc": "Summon Jué to attack the enemies, dealing Spectro DMG. The Resonator can perform Resonance Skill to deal sustained Spectro DMG to the enemies over time.",
+    "Param": [
+      [
+        "30.40%",
+        "12.16%",
+        "30.40%",
+        "15",
+        "16.00%",
+        "10.00%",
+        "15",
+        "20"
+      ],
+      [
+        "34.96%",
+        "13.98%",
+        "34.96%",
+        "15",
+        "16.00%",
+        "11.50%",
+        "15",
+        "20"
+      ],
+      [
+        "39.52%",
+        "15.81%",
+        "39.52%",
+        "15",
+        "16.00%",
+        "13.00%",
+        "15",
+        "20"
+      ],
+      [
+        "44.08%",
+        "17.63%",
+        "44.08%",
+        "15",
+        "16.00%",
+        "14.50%",
+        "15",
+        "20"
+      ],
+      [
+        "48.64%",
+        "19.46%",
+        "48.64%",
+        "15",
+        "16.00%",
+        "16.00%",
+        "15",
+        "20"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_328_UI.T_MstSkil_328_UI",
+    "Damage": {
+      "28001201": {
+        "Element": 5,
+        "RelatedProperty": "ATK",
+        "Type": 4,
+        "RateLv": [
+          4000,
+          4600,
+          5200,
+          5800,
+          6400
+        ],
+        "Energy": 0,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 4000
+      },
+      "28001202": {
+        "Element": 5,
+        "RelatedProperty": "ATK",
+        "Type": 4,
+        "RateLv": [
+          1000,
+          1150,
+          1300,
+          1450,
+          1600
+        ],
+        "Energy": 0,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 800
+      },
+      "280012002": {
+        "Element": 5,
+        "RelatedProperty": "ATK",
+        "Type": 5,
+        "RateLv": [
+          3040,
+          3496,
+          3952,
+          4408,
+          4864
+        ],
+        "Energy": 76,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 3040
+      },
+      "280012003": {
+        "Element": 5,
+        "RelatedProperty": "ATK",
+        "Type": 5,
+        "RateLv": [
+          1216,
+          1398,
+          1580,
+          1763,
+          1945
+        ],
+        "Energy": 30,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 1216
+      },
+      "280012004": {
+        "Element": 5,
+        "RelatedProperty": "ATK",
+        "Type": 5,
+        "RateLv": [
+          3040,
+          3496,
+          3952,
+          4408,
+          4864
+        ],
+        "Energy": 76,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 3040
+      }
+    }
+  },
+  "Group": {
+    "5": {
+      "Id": 5,
+      "Name": "Celestial Light",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriLight.T_IconElementAttriLight",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "Spectro DMG + 10%.",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "Spectro DMG + 30% for 15s after releasing Intro Skill.",
+          "Param": [
+            "30%"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 3,
+  "MonsterInfo": 340000090
+}

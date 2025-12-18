@@ -1,0 +1,120 @@
+{
+  "Id": 6000105,
+  "Code": "N74-",
+  "Name": "Nightmare: Lampylumen Myriad",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34013_UI.T_IconMonsterHead_34013_UI",
+  "Skill": {
+    "Desc": "Transform into Nightmare: Lampylumen Myriad and attack surrounding enemies, dealing {0} Glacio DMG.\nThe Resonator with this Echo equipped in their main slot gains {1} Glacio DMG Bonus and deals {2} more Coordinated Attack DMG.\nCD: {3}s.",
+    "SimpleDesc": "Summon a Nightmare: Lampylumen Myriad and deal Glacio DMG to nearby enemies. Equipping this Echo in the main slot grants Glacio DMG Bonus and increases Coordinated Attack DMG.",
+    "Param": [
+      [
+        "152.00%",
+        "12.00%",
+        "30.00%",
+        "20"
+      ],
+      [
+        "182.40%",
+        "12.00%",
+        "30.00%",
+        "20"
+      ],
+      [
+        "212.80%",
+        "12.00%",
+        "30.00%",
+        "20"
+      ],
+      [
+        "243.20%",
+        "12.00%",
+        "30.00%",
+        "20"
+      ],
+      [
+        "273.60%",
+        "12.00%",
+        "30.00%",
+        "20"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_Mstskil_994_UI.T_Mstskil_994_UI",
+    "Damage": {
+      "28002501": {
+        "Element": 1,
+        "RelatedProperty": "ATK",
+        "Type": 5,
+        "RateLv": [
+          15200,
+          18240,
+          21280,
+          24320,
+          27360
+        ],
+        "Energy": 380,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 15200
+      }
+    }
+  },
+  "Group": {
+    "10": {
+      "Id": 10,
+      "Name": "Frosty Resolve",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriIceUltimateSkill.T_IconElementAttriIceUltimateSkill",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "Resonance Skill DMG + {0}",
+          "Param": [
+            "12%"
+          ]
+        },
+        "5": {
+          "Desc": "Casting Resonance Skill grants {0} Glacio DMG Bonus for {1}s and casting Resonance Liberation increases Resonance Skill DMG by {2}, lasting for {3}s. This effect stacks up to {4} times.",
+          "Param": [
+            "22.5%",
+            "15",
+            "18%",
+            "5",
+            "2"
+          ]
+        }
+      }
+    },
+    "13": {
+      "Id": 13,
+      "Name": "Empyrean Anthem",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriCooperate.T_IconElementAttriCooperate",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "Energy Regen + {0}",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "Increase the Resonator's Coordinated Attack DMG by {0}. Upon a critical hit of Coordinated Attack, increase the active Resonator's ATK by {1} for {2}s.",
+          "Param": [
+            "80%",
+            "20%",
+            "4"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 2,
+  "MonsterInfo": 340000130
+}

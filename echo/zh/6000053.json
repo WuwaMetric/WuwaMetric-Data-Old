@@ -1,0 +1,153 @@
+{
+  "Id": 6000053,
+  "Code": "H81-",
+  "Name": "无妄者",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_998_UI.T_IconMonsterHead_998_UI",
+  "Skill": {
+    "Desc": "使用声骸技能，幻形为无妄者，连续攻击前方目标6次，前5次每次造成{0}的湮灭伤害，最后一段造成{1}的湮灭伤害。\n漂泊者·湮灭在施放共鸣解放·临渊死寂后{2}秒内，施放该声骸技能造成的伤害提升{3}。\n技能冷却：{4}秒",
+    "SimpleDesc": "幻形为无妄者，连续攻击敌人造成湮灭伤害。施放共鸣解放·临渊死寂后的漂泊者·湮灭使用该声骸技能造成的伤害提高。",
+    "Param": [
+      [
+        "33.80%",
+        "169.00%",
+        "5",
+        "50.00%",
+        "20"
+      ],
+      [
+        "38.87%",
+        "194.35%",
+        "5",
+        "50.00%",
+        "20"
+      ],
+      [
+        "43.94%",
+        "219.70%",
+        "5",
+        "50.00%",
+        "20"
+      ],
+      [
+        "49.01%",
+        "245.05%",
+        "5",
+        "50.00%",
+        "20"
+      ],
+      [
+        "54.08%",
+        "270.40%",
+        "5",
+        "50.00%",
+        "20"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_Z_B8_1_UI.T_MstSkil_Z_B8_1_UI",
+    "Damage": {
+      "28001101": {
+        "Element": 6,
+        "RelatedProperty": "攻击",
+        "Type": 5,
+        "RateLv": [
+          4976,
+          5971,
+          6966,
+          7961,
+          8956
+        ],
+        "Energy": 124,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 4976
+      },
+      "28001102": {
+        "Element": 6,
+        "RelatedProperty": "攻击",
+        "Type": 5,
+        "RateLv": [
+          16900,
+          19435,
+          21970,
+          24505,
+          27040
+        ],
+        "Energy": 422,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 16900
+      },
+      "28001103": {
+        "Element": 6,
+        "RelatedProperty": "攻击",
+        "Type": 5,
+        "RateLv": [
+          7400,
+          8510,
+          9620,
+          10730,
+          11840
+        ],
+        "Energy": 185,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 7400
+      },
+      "28001104": {
+        "Element": 6,
+        "RelatedProperty": "攻击",
+        "Type": 5,
+        "RateLv": [
+          3380,
+          3887,
+          4394,
+          4901,
+          5408
+        ],
+        "Energy": 84,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 3380
+      }
+    }
+  },
+  "Group": {
+    "6": {
+      "Id": 6,
+      "Name": "沉日劫明",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriDark.T_IconElementAttriDark",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "湮灭伤害提升10%",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "使用普攻或重击时，湮灭伤害提升7.5%，该效果可叠加四层，持续15秒",
+          "Param": [
+            "6%",
+            "5",
+            "15"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 3,
+  "MonsterInfo": 340000070,
+  "Phantom": {
+    "Name": "异相·无妄者",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_998_1_UI.T_IconMonsterHead_998_1_UI"
+  }
+}

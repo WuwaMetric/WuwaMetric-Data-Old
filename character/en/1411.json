@@ -1,0 +1,5187 @@
+{
+  "Id": 1411,
+  "Rarity": 5,
+  "Weapon": 2,
+  "Element": 4,
+  "Tag": {
+    "3": {
+      "Name": "Concerto Efficiency",
+      "Desc": "Quick concerto energy regeneration",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/RoleLabel/SP_RoleLabelA3.SP_RoleLabelA3",
+      "Color": "ff4040"
+    },
+    "5": {
+      "Name": "Heavy Attack DMG",
+      "Desc": "Deals higher Heavy Attack DMG",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/RoleLabel/SP_RoleLabelB2.SP_RoleLabelB2",
+      "Color": "ffde73"
+    },
+    "32": {
+      "Name": "Echo Skill DMG Amplification",
+      "Desc": "Provides Echo Skill DMG Amplification for a specific Resonator in the team",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/RoleLabel/SP_RoleLabelD12.SP_RoleLabelD12",
+      "Color": "ff7777"
+    }
+  },
+  "Name": "Qiuyuan",
+  "NickName": "Qiuyuan",
+  "Desc": "Former senior agent of Mingting's Internal Security Agency. \n\nThough enmity filled his younger days, loyalty defined his later years. However, scapegoated for a murder, he is now but a blind swordsman wandering the world alone.",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_56_UI.T_IconRoleHead256_56_UI",
+  "Background": "/Game/Aki/UI/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Qiuyuan_UI.T_IconRole_Pile_Qiuyuan_UI",
+  "BackgroundStand": "/Game/Aki/UI/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyQiuyuan.T_ActivityRoleOntrialHalfBodyQiuyuan",
+  "CharaInfo": {
+    "Birth": "Unknown",
+    "Sex": "Male",
+    "Country": "Huanglong",
+    "Influence": "Mingting",
+    "Info": "Former senior agent of Mingting's Internal Security Agency. \n\nThough enmity filled his younger days, loyalty defined his later years. However, scapegoated for a murder, he is now but a blind swordsman wandering the world alone.",
+    "TalentName": "Bambooscape",
+    "TalentDoc": "Miscellaneous Records of <te href=260009>Mingting</te>'s Minister of Sentinel Affairs: Correspondence Collection\n\nMy dear friend Dongyuan,\n\nA few days prior, the <te href=260001>Internal Security Agency</te> forwarded documents from the Justice Commission and the Huaxu Academy to the <te href=260002>Ministry of Sentinel Affairs</te>. Without delay, I instructed the Chongzhou official to assist in the matter and thoroughly examine the local Resonator register. It has now been confirmed that the individual in question has no connection with the <te href=850083>Sentinel</te> or the <te href=850074>Threnodian</te> of Chongzhou.\n\nAccording to the Ministry's records, this individual has been a Resonator for over fifteen years. Described as one who \"sees the world through bamboos and hides his blade within them,\" he is blind yet wields a remarkable ability known as <te href=260003>Mindsight</te>. Through this power, he perceives his surroundings through a \"bamboo forest\" in his mind, enabling him to discern opponents' intentions and vulnerabilities. He can even manifest the Mindsight into tangible illusions. This is not a person to be underestimated.\n\nMoreover, his swordsmanship appears to stem chiefly from personal skill rather than his Resonance Ability. Observations indicate that he consistently restrains the use of his Resonance power. He claims that the bamboo flask he carries contains a concoction—prepared by a wandering healer in Chongzhou—that stimulates his Mindsight and Forte, and is used only when necessary. This matter may be forwarded to the Academy for further analysis.\n\nAs for the detailed test data, please await the Academy's formal report...\n\nDongyuan's annotation: Simply ensure this is recorded clearly. We follow the Ministry of Sentinel Affairs's judgment… My my, Lin still writes with his characteristic formality.",
+    "TalentCertification": "Miscellaneous Records of <te href=260009>Mingting</te>'s <te href=260002>Ministry of Sentinel Affairs</te>: Correspondence Collection\n\n…In my recent observations over the past few days, it appears less that he refuses to employ his Forte and more that he consciously restrains himself from using it. Regarding the nature of the ability itself, he remains decidedly reserved. Only from the Academy's report may one glean a few particulars:\n\n<i>Test subject waveform analysis presents an elliptical oscillation. Time-domain readings are stable, with no anomalous patterns observed.\nResonant Criticality: High. Stability is high with no risk of <te href=850073>Overclocking</te>. \nNo prior history of Overclocking. Psychological intervention is deemed unnecessary.\nNote: The subject admits to repeated offenses involving violent breaches of the law, though his demeanor was notably composed. It is recommended that these claims should be verified by the Ministry of Justice and local authorities in Chongzhou.</i>\n\n…Yet, in my own assessment, this man harbors no murderous intent. His composure is unwavering, his demeanor steady. His swordsmanship is among the finest, and few in all of Mingting could rival him. He could have been a remarkable asset to the <te href=260001>Internal Security Agency</te>. That such an individual is listed in the Justice Commission's dossiers as a perpetrator of unlawful violence is difficult to believe. I have already communicated with the Ministry of Rites, outlining the advantages and implications of recruiting said individual. Should you wish to employ this man, I expect no obstacle shall arise on that account.\n\nDongyuan's annotation: Naturally, the steadier the better. But judging from this report... isn't this lad a little too devoid of emotion?",
+    "CVNameCn": "Gan Ziqi",
+    "CVNameJp": "Miki Shinichiro",
+    "CVNameKo": "Kim Min Ju",
+    "CVNameEn": "Jeremy Ang Jones"
+  },
+  "Stories": [
+    {
+      "Title": "Tempered",
+      "Content": "\"Every mountain stands as a trial. Pass this one, and you are free to take your own path. Fail… then this mountain shall keep what you have.\"\n\nThose were the first words Qiuyuan heard from the old man five years ago, spoken in a hell of fire and blood. Words impossible to forget.\n\nHe called him Master, though he never knew his face. A white-bearded elder in rags, perhaps. The old man trained Qiuyuan relentlessly, taught him martial arts sharp enough to let him \"see\" the bamboo forest swaying in his mind.\n\nRumors about his master spread like mist. Some said he was the Sword Specter of Chongzhou, a butcher who left trails of corpses in his wake. Others whispered that he had once been <te href=260009>Mingting</te>'s celebrated general, a conqueror of vast lands whose power nearly rivaled that of the Huanglong ruler, only to fade into solitude after a fall from grace. And there were those who claimed he was no more than a myth. After all, who could believe a mortal could slay a mountain of Tacet Discords with nothing but a bamboo stick?\n\nBut Qiuyuan believed. For five years, he enjoyed countless victories, but never once bested his master.\n\n\"You said the same words five years ago, Master.\"\n\"Five years… gone in a blink.\"\n\nQiuyuan had been waiting for this day. Defeat this old man, and he could leave the bamboo forest, cross this mountain, and finally, surpass the one who had always won.\n\n\"I've taught you almost everything. But the last move, the most vital one, I'm still keeping for myself. Do you know what it is?\"\n\"I beg for your teachings, Master.\"\n\"Then tell me, Qiuyuan, what does the bamboo forest show you?\"\n\"Leaves like spears. Stalks hiding dangers. Shadows upon shadows, like ghosts surrounding me.\"\n\"So, the flame from five years ago is still burning in your heart.\"\n\"Isn't it also burning your heart.... Sword Specter?\"\n\"It has been... many years since the last living soul called me by that name. Very well, I see you don't need more explanation. Now, come take the final move from me.\"\n\nIt was he who wrought the hell of fire and blood five years ago. It was also he who brought Qiuyuan out of that hell of fire and blood.\n\n\"With this blade, I will honor your teachings!\"\n\nThe flame has never died."
+    },
+    {
+      "Title": "Concealed",
+      "Content": "\"Lie still. Don't even think of moving.\"\n\nA harsh voice reached Qiuyuan as he awoke, body aching, wounds bound. Yet within it lingered a gentleness so unlike the killing intent he had grown used to. It was then that the memory of how he came to be broken in the first place returned.\n\n\"I…\"\n\"You killed dozens with your bare hands. Not a creative way to beg for death, I'd say.\"\n\"…I should be dead.\"\n\"Many who live deserve to die, and many who died should have lived. Such is fate.\"\n\nRegret tangled in vengeance had taught Qiuyuan when to sheathe the blade. But it couldn't cleanse the hatred he had carried for five long years. The flame that couldn't be quenched by the pouring rain from five years ago is still burning vividly in his mind, just like the old man who once stood before him among the fires, with a sword in his hand.\n\nBut there had been no rain when he left the mountain. Only liquor dripping down his face and a whispering sigh.\n\nA hatred born of blood may only be washed away by blood in return. But what comes after? No one ever knows. \n\nHe was left with no reason to raise his sword. When his opponents' weapons struck, he simply stood and let them come...\n\n\"Heh… whether you deserve life or death, I cannot say,\" that voice murmured. \"The choice lies with you alone.\"\n\nAnd so, Qiuyuan laid aside his blade. With only a bamboo stick in hand, he idled outside the hut as decoctions simmered on the stove, spending his days picturing the patients who came, and the stubborn middle-aged man they called Doctor Zhang.\n\nFor the first time in years, he enjoyed peace again. Since the day Doctor Zhang saved him, he could not \"see\" the bamboo forest of blades anymore—only pure, silent darkness, free of hatred and rage. There were sighs and tears, words of gratitude and joy, the scent of medicine, and the crackle of stove fire.\n\nIt was moments like these that made him realize he was no different from the ordinary.\n\n\"Here, take this flask. And my recipe too. You need three bowls of water for one bowl of decoction. Keep that in mind.\"\n\"…What's this?\"\n\"My potent regimen pulled you back from death that day, but your Forte has been crippled.\nThis medicine restores your <te href=260003>Mindsight</te>, at least for a little while. It will be of some help on the day you raise your sword again.\"\n\"I won't. You saved me, Doctor. The least I can do is stay and take care of sundry matters for you.\"\n\"I don't think so. Bloodshed clings to your face. Your palm's lifeline is cut off. Followed by fears, haunted by distress... You are bound to die in battle, not of old age here in my hut.\"\n\"Followed by fears, haunted by distress... My master once told me the same.\"\n\"Master, you say? To have a disciple like you… He must be a tough nut.\"\n\"…Even so, Doctor, I will not take up the blade again. But I'll accept your recipe. Let me stay here. If trouble comes to this hut because of me, I'll leave.\"\n\"Well… medicine is like a blade. It all comes down to the usage and dosage. It can kill, but also save.\"\n\"Now, go open the door, Qiuyuan. Light the stove. I won't claim I'm better than you, but no one dares stir trouble under my roof. That I can guarantee.\""
+    },
+    {
+      "Title": "Unsheathed",
+      "Content": "\"Hah… all that strength wasted in the wilderness. How will you answer the lives that fell beneath your blade?\"\n\"You've got the wrong man. Doctor, another patient is here.\"\n\nQiuyuan ignored the older man and kept tending firewood under the stove. At first, the man had merely come by to exchange idle words with Doctor Zhang. Later, he began appearing more often, spouting riddles and nonsense.\n\nThis time, though, he suddenly hurled a fist-sized iron weight at Qiuyuan. Instinct took over. Qiuyuan raised his hand and caught it against his brow without flinching.\n\n\"You're the Doctor's friend. Why treat me so?\"\n\"You should recognize what you're holding.\"\n\nThe beast's head, forged from the finest steel, radiated a chill that ran down the spine. Yes, there was no mistaking it.\n\n\"The <te href=260001>Internal Security Agency</te>… are you here to arrest me?\"\n\"If you are a wanted man, I wouldn't be the one to catch you. You've left behind a trail of death. Normally, the Justice Commission would prosecute your crimes.\"\n\"Then let them do it.\"\n\"...Do you truly wish to die on the execution ground?\"\n\"Death comes either way. What difference does it make?\"\n\"It would be a waste of your strength.\"\n\"…\"\n\"Blood debts are paid in blood. That is the natural order. Perhaps the noose is your end, but before then, you can at least make up for some of what you've done.\"\n\"Come with me. I can't spare you from your death penalty, but I can promise you this—you won't rot in a cell, nor waste away on a sickbed.\"\n\nQiuyuan knew the power of <te href=260009>Mingting</te>'s ISA all too well. That iron head of the Qiongqi beast, bestowed by <te href=850093>Huanglong</te>'s highest authority, embodies the Emperor's very presence. Wherever it appears, officials must bow low. Its envoys traverse the realm unfettered by any court, answering only to the throne, entrusted with only the gravest matters. Should they seek a man's life, not even death itself dares to intervene.\n\n\"You may wield a sword for yourself, sure, but you may also raise it for the greater good. Serve Mingting, punish the wicked, shield the innocent.\"\n\"I am but a blind man. The weight of the greater good is far heavier than I can bear.\"\n\nThe man picked up a piece of wood and stared at the stove.\n\n\"Do you know why Doctor Zhang left Mingting?\"\n\"…No. He never said, and I never asked.\"\n\"To heal all, rather than to heal one.\"\n\nThe man chucked his firewood under the stove and spoke no more.\n\nThree days later, Qiuyuan stood with the man at the hut's door. The mountain dew of Chongzhou's deep valleys had yet to soak their straw hats. No smoke rose from the stove's chimney. Only the faint dawn light touched them.\n\n\"He must have told you why I left Mingting… Hmph.\nThat man from the Internal Security Agency is... like me, stubborn to a fault. But perhaps that is why he could persuade you to follow him. \nThe world is vast. All I can do is try my best to save more lives. But that man, Liang Dongyuan… he's the one in court who can 'save' people.\nThe time has arrived. Go now. Linger here too long, and you'll only scare my patients away.\"\n\nThe doctor patted Qiuyuan's shoulder and slipped into the hut without a backward glance, leaving him no chance to reply.\n\nYears later, Qiuyuan would still recall that morning, prostrating on the dirt path worn smooth by countless patients.\n\n\"Thank you, Doctor. For everything.\""
+    },
+    {
+      "Title": "Shattered",
+      "Content": "Shackles clattered in the prison cell.\n\nQiuyuan sat within, no different from the corrupt officials and rogues he had once cast into jail.\n\n\"Open the gate.\"\n\"B-but, Minister Lin, the execution is about to begin—\"\n\"Open it.\"\n\nThe bars groaned as the cell gate slid open. A man stepped inside, bringing with him the faint aroma of food and wine.\n\n\"What now? You here to supervise the <te href=260002>Ministry of Sentinel Affairs</te>?\"\n\"Forgive me, Minister… I'm only carrying out my duty.\"\n\"Very well. Then you must know that the Ministry of Sentinel Affairs is required to question every felon before their execution. Now, I must also fulfill my duty. Leave. All of you.\"\n\"As you command…\"\n\"And lock the gate. I will summon you when I am done.\"\n\nHurried footsteps faded, leaving only the two of them within the cell.\n\n\"The execution is supposed to begin at noon, the forty-fifth minute. You're an hour and a half early.\"\n\"…Are you here to see me off, Master Lin?\"\n\"First, drink this. A toast to his memory.\"\n\nQiuyuan rose slowly, the heavy chains dragging against the ground. He took the cup, but instead of drinking, poured the wine onto the ground—a libation for the dead.\n\n\"Sigh… Only you were there when Dongyuan met his wretched end. This is such a dire case that even the top brass are watching. With no trace left by the true culprit, the Justice Commission had no choice but to scapegoat you.\"\n\"I could not save Grandmaster Liang. That failure is mine alone.\"\n\"Do you still recall the fiend who… peeled themselves from Dongyuan's body?\"\n\"I'll never forget their frequency, even if they were reduced to ashes.\"\n\"The Ministry scoured every record, but nowhere was there mention of a Resonator who could take on another's form and body.\"\n\"…I cannot say if some fragment of Grandmaster Liang still lingered in that moment.\"\n\"Perhaps Dongyuan was no longer himself when he sent you on that case in Jinzhou. A man so righteous would have never ordered the pursuit of a minor official who only killed Tacet Discords to protect the people.\"\n\"That is why I spared him—that man, Geshu Lin. The Grandmaster Liang I knew would never have given such an order.\"\n\"Dongyuan was never wrong about you. If you wish to know the truth behind his death, you can only begin from that case. Though I fear… you may never sort everything out.\"\n\"I have spilled more than my share of blood. But because of you, Grandmaster Liang, and Doctor Zhang, I was able to live differently, if only for a time… I could only repay such trust in another life.\"\n\nThe Minister moved toward the gate. His face was solemn, but his eyes held a firm reassurance.\n\n\"Dongyuan once promised that you would not end your life in a cell or on a sickbed.\"\n\"According to <te href=260009>Mingting</te>'s law, to execute a felon like you, the Justice Commission must first receive a decree approved by both the Emperor and the <te href=850083>Sentinel</te>, forwarded by the Ministry of Sentinel Affairs. The execution can only be carried out an hour after they receive the decree.\"\n\"Without those writs returned, no man dares execute you.\"\n\"Therefore, Qiuyuan, remember: from now on, the path ahead is yours alone. Even if it costs you your life, you must see this case to its end. If you are to die, let it be on the road to avenging Dongyuan.\""
+    },
+    {
+      "Title": "Reforged",
+      "Content": "Five years had passed since he had escaped <te href=260009>Mingting</te> and became a wanted fugitive across the six cities.\n\nWhile Mingting remained unchanged—bustling and prosperous, his own clothes had grown tattered, worn by the dust and frost of the endless journey across Huanglong. Minister Lin from the <te href=260002>Ministry of Sentinel Affairs</te> had fallen ill and retired. The young man who had survived his blade became a general guarding the border, but even he had fallen to the madness of the Threnodian.\n\nHis master had taught him when to draw the sword and when to sheath it. Yet when he held back, everything had plunged into the abyss.\n\nThe doctor once said that a sword could both kill and save. Yet he had failed to save the one he wished to.\n\nFate twisted relentlessly. Everything had changed, yet somehow, nothing really changed. He still had not found the one who killed Grandmaster Liang. But he had never stopped seeking the truth.\n\nIf Minister Lin had not sent word of a lead from the <te href=260008>Grand Marshal</te>, the head of the <te href=260010>Ministry of War</te>, he might never have dared return to Mingting.\n\n\"You've come.\"\n\nThrough the torrential rain, a straw-hatted figure emerged from the shadow of the bridge, face hidden.\n\n\"Scar, the Fractsidus Overseer, escaped from Jinzhou's prison not long ago.\nIntel places him near Septimont City in <te href=850096>Rinascita</te>. He's a wanted criminal of <te href=850091>Jinzhou</te> and of <te href=850093>Huanglong</te>. He must be captured.\"\n\"You could do it yourself.\"\n\"Rinascita's different. Individuals who resemble the Threnodian's Resonator have been sighted there.\"\n\"…So this reminds you of me?\"\n\"You were the key to Dongyuan's case, and Geshu Lin is the key to your case. Since Jinzhou's <te href=850074>Threnodian</te> is what brought Geshu Lin down… Follow the thread, and you may learn why Dongyuan gave you that order, and... perhaps discover the true culprit.\nEverything on Fractsidus and Rinascita's Threnodian is in this dossier. Take this letter with my seal and start with Jinzhou. Your niece, the <te href=850124>Magistrate's Bodyguard</te>, is there. Find out how Scar escaped, then head east to Rinascita.\"\n\nQiuyuan rarely saw this distant niece, let alone spoke to her, given the long distances between cities. All he knew was that she had become the Jinzhou <te href=850084>Magistrate</te>'s bodyguard.\n\n\"She may not meet me.\"\n\"She will. You are family. She will believe in your words. Also… {PlayerName} is in Rinascita.\"\n\"…That {PlayerName}?\"\n\"Yes. You may ask {Male=him;Female=her} about what happened in Jinzhou as well.\"\n\"…Understood. Give me the dossier. I'll leave at once.\"\n\nQiuyuan turned, but the figure called after him.\n\n\"Wait! Since you're back, visit Dongyuan. I know you offer incense at his grave every year.\"\n\"I'll find the clues first, then return to honor his spirit. As for that fugitive you mentioned…\"\n\"Capture him if you can, execute him if you can't. I'll handle the Justice Commission.\"\n\"Understood.\"\n\nQiuyuan nodded, vanishing into the rain without further words.\n\nHe knew he carried the weight of unseen court intrigues. Mingting would not even formally assign someone to capture Scar. He, a lone fugitive, was entrusted to do so. Yet he didn't care. His aim was simple: uncover the truth that he had been denied.\n\nAnd when that day came—when vengeance was taken, debts repaid—then what? Would that be the sheath he had been seeking?\n\nPerhaps, with age, he would finally know."
+    }
+  ],
+  "Voices": [
+    {
+      "Type": 1,
+      "Title": "Thoughts: I",
+      "Content": "<te href=260009>Mingting</te>'s eyes are everywhere. When war broke out in <te href=850091>Jinzhou</te>, your profile was submitted to the Grand Library. Within the hour, the briefs reached me. Hm? How do I read these? It's simple: text-to-speech.",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_sys_toplayer01.play_favor_word_qiuyuan_sys_toplayer01"
+    },
+    {
+      "Type": 1,
+      "Title": "Thoughts: II",
+      "Content": "Rules bind all. Those who breach them must be held to justice, regardless of background or past merits. The <te href=260001>Internal Security Agency</te>'s work is never simple. When Grandmaster Liang led, our every action fulfilled our duty to <te href=260009>Mingting</te> and <te href=850093>Huanglong</te>'s greater good. But much has changed since...",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_sys_toplayer02.play_favor_word_qiuyuan_sys_toplayer02"
+    },
+    {
+      "Type": 1,
+      "Title": "Thoughts: III",
+      "Content": "I'm blind, but I can still \"see\" what's in people's hearts. Arrogance, hatred, malice, pleasure... Through my mind's eye, they take form in shifting hues and silhouettes. But I can't see yours. A rare exception. Maybe, just as she once said—you are exactly as you are.",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_sys_toplayer03.play_favor_word_qiuyuan_sys_toplayer03"
+    },
+    {
+      "Type": 1,
+      "Title": "Thoughts: IV",
+      "Content": "For all these years, I've never tasted defeat. Being blind hasn't dulled me. In fact, it sharpens my focus on swordplay. If the opportunity arises, I'd welcome a duel with you.",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_sys_toplayer04.play_favor_word_qiuyuan_sys_toplayer04"
+    },
+    {
+      "Type": 1,
+      "Title": "Thoughts: V",
+      "Content": "I once wielded this sword only for myself. Then, I drew it for the hand that saved me, and then for <te href=260009>Mingting</te>. But now, I am a drifter, my sword as aimless as my path... I can't see you, but I can feel your calling. Should you ever need, call my name. This hidden blade shall unsheathe again to defend your faith.",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_sys_toplayer05.play_favor_word_qiuyuan_sys_toplayer05"
+    },
+    {
+      "Type": 1,
+      "Title": "Qiuyuan's Hobby",
+      "Content": "Those years I stayed with Master Zhang, I cooked for his patients. Each meal was carefully crafted for their individual need. Beyond those, I know a few spicier dishes from Chongzhou. Whether they suit you, that, I cannot say.",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_sys_taste.play_favor_word_qiuyuan_sys_taste"
+    },
+    {
+      "Type": 1,
+      "Title": "Qiuyuan's Trouble",
+      "Content": "Agents of the <te href=260001>Internal Security Agency</te> work from a list—names to arrest, names to eliminate. It's all there. Now, only two names remain on mine: the Fractsidus operative who murdered the man who saved my life, and Geshu Lin. Blood debts are paid in blood. That's the natural order. Until my blade ends them, my mission will never end.",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_sys_worry.play_favor_word_qiuyuan_sys_worry"
+    },
+    {
+      "Type": 1,
+      "Title": "Favorite Food",
+      "Content": "Years ago, I'd just wrapped up a case in Yuezhou and had to rush back to <te href=260009>Mingting</te> overnight. I was exhausted and famished when I stumbled into a diner by the roadside. A bowl of rice, braised pork, a bottle of rice wine. A humble meal, yet nothing has ever filled me like that night.",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_sys_foodlike.play_favor_word_qiuyuan_sys_foodlike"
+    },
+    {
+      "Type": 1,
+      "Title": "Disliked Food",
+      "Content": "<te href=260009>Mingting</te> has a certain... drink. Greenish-gray, with a smell you don't forget. Trust me, you don't want to find out how it tastes...",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_sys_foodhate.play_favor_word_qiuyuan_sys_foodhate"
+    },
+    {
+      "Type": 1,
+      "Title": "Ideals",
+      "Content": "Ideals, wishes... those things mean little to someone who lies down each night unsure if tomorrow comes. So I see no point in dwelling on them. All I know is I can't die yet. Not before I've had my revenge, not before I've fulfilled my duty. What happens after that... I'll leave that to fate to decide.",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_sys_dream.play_favor_word_qiuyuan_sys_dream"
+    },
+    {
+      "Type": 1,
+      "Title": "Chat: I",
+      "Content": "This is not wine. It's medicine. I was on death's door in Chongzhou when Master Zhang saved me with this potent regimen. But it came at a cost. Ever since then, I've relied on it to \"see\" with my mind. It sharpens perception but brings the risk of madness. Most people aren't worth my blade, though. For them, this bamboo stick will do.",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_sys_storyobj.play_favor_word_qiuyuan_sys_storyobj"
+    },
+    {
+      "Type": 1,
+      "Title": "Chat: II",
+      "Content": "Curious about my past? Heh... if that's what you want, I've no intention to hide. But maybe we should talk over a good pot of wine.",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_sys_storyexp.play_favor_word_qiuyuan_sys_storyexp"
+    },
+    {
+      "Type": 1,
+      "Title": "About Sanhua",
+      "Content": "My master once told me some of my ancestors moved from Chongzhou to the borderlands. Sanhua comes from that branch of lineage. Like me, her only interest used to be swordplay. But now, it seems she's found a purpose for her blade in <te href=850091>Jinzhou</te>'s <te href=850084>Magistrate</te>. I'm glad for her.",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_sys_about_sanhua.play_favor_word_qiuyuan_sys_about_sanhua"
+    },
+    {
+      "Type": 1,
+      "Title": "About Changli",
+      "Content": "In <te href=260009>Mingting</te>, people like me rarely got the chance to meet the high-ups—and understandably so. We only show up where there's trouble. As for her, all I know is that ever since she stepped down as Secretary-General, no one's been able to truly fill her place.",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_sys_about_changli.play_favor_word_qiuyuan_sys_about_changli"
+    },
+    {
+      "Type": 1,
+      "Title": "About Jiyan",
+      "Content": "Across the troops under <te href=850093>Huanglong</te>'s <te href=260010>Ministry of War</te>, you'd find no one other than him competent enough to earn the title of General at such a young age. I heard he used to be a medic before joining the <te href=850086>Midnight Rangers</te>... He's saving lives, one way or another.",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_sys_about_jiyan.play_favor_word_qiuyuan_sys_about_jiyan"
+    },
+    {
+      "Type": 1,
+      "Title": "About Scar",
+      "Content": "My knowledge of him only comes from the files. If we ever crossed blades, he wouldn't last three rounds without backup. Though <te href=260009>Mingting</te> brushed him aside like any other Fractsidus criminal, people in <te href=850091>Jinzhou</te> would scour the earth for him. Given the gravity of his crime, he's only asking to meet his end.",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_sys_about_shanghen.play_favor_word_qiuyuan_sys_about_shanghen"
+    },
+    {
+      "Type": 1,
+      "Title": "About Himself",
+      "Content": "Many tried to erase me because they wished to smother the truth. They wouldn't hesitate to murder anyone connected to me, just to bury the cases they're involved in... So, for my and everyone's best interests, the fewer people who know about me, the better.",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_sys_about_ziji.play_favor_word_qiuyuan_sys_about_ziji"
+    },
+    {
+      "Type": 1,
+      "Title": "Birthday Wishes",
+      "Content": "Happy birthday. As your path unfolds, more will join you on your journey. The world is like an inn we stay briefly before we set off on our destinations. Perhaps I'm just another passenger in your story, but on this special day, allow me to share this temporary shelter with you.",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_sys_birthcele.play_favor_word_qiuyuan_sys_birthcele"
+    },
+    {
+      "Type": 1,
+      "Title": "Idle: I",
+      "Content": "(Effort sound)",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_idle_idle01.play_favor_word_qiuyuan_idle_idle01"
+    },
+    {
+      "Type": 1,
+      "Title": "Idle: II",
+      "Content": "(Effort sound)",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_idle_idle02.play_favor_word_qiuyuan_idle_idle02"
+    },
+    {
+      "Type": 1,
+      "Title": "Idle: III",
+      "Content": "(Effort sound)",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_idle_idle03.play_favor_word_qiuyuan_idle_idle03"
+    },
+    {
+      "Type": 1,
+      "Title": "Self-Introduction",
+      "Content": "Qiuyuan, a blade drawn at your word. Wield me as you will.",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_sys_introduction.play_favor_word_qiuyuan_sys_introduction"
+    },
+    {
+      "Type": 1,
+      "Title": "Greeting",
+      "Content": "Name the target. I'll take care of the rest.",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_sys_gacha.play_favor_word_qiuyuan_sys_gacha"
+    },
+    {
+      "Type": 1,
+      "Title": "Join Team: I",
+      "Content": "A blade is honed to strike.",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_sys_jointeam_01.play_favor_word_qiuyuan_sys_jointeam_01"
+    },
+    {
+      "Type": 1,
+      "Title": "Join Team: II",
+      "Content": "Let us proceed.",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_sys_jointeam_02.play_favor_word_qiuyuan_sys_jointeam_02"
+    },
+    {
+      "Type": 1,
+      "Title": "Join Team: III",
+      "Content": "Leave the dangers to me.",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_sys_jointeam_03.play_favor_word_qiuyuan_sys_jointeam_03"
+    },
+    {
+      "Type": 1,
+      "Title": "Ascension: I",
+      "Content": "Clarity within, precision without. You've learned this well.",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_sys_rankup01.play_favor_word_qiuyuan_sys_rankup01"
+    },
+    {
+      "Type": 1,
+      "Title": "Ascension: II",
+      "Content": "A chance given is a future rewritten.",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_sys_rankup02.play_favor_word_qiuyuan_sys_rankup02"
+    },
+    {
+      "Type": 1,
+      "Title": "Ascension: III",
+      "Content": "A sharp sword is honed on whetstones, clashing blades, and shattered armor, then tempered in the fire of life. Even if it breaks, it must remain sharp.",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_sys_rankup03.play_favor_word_qiuyuan_sys_rankup03"
+    },
+    {
+      "Type": 1,
+      "Title": "Ascension: IV",
+      "Content": "Since you've come this far, why not cross blades with mightier foes and test your mettle?",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_sys_rankup04.play_favor_word_qiuyuan_sys_rankup04"
+    },
+    {
+      "Type": 1,
+      "Title": "Ascension: V",
+      "Content": "In my younger days, all I cared about was keeping my blade sharp. It once felt weightless in my hand. But now, with the lives I've touched and choices I carry, my blade seems to grow heavier with each swing. My skill never falters, but something has changed...",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_sys_rankup05.play_favor_word_qiuyuan_sys_rankup05"
+    },
+    {
+      "Type": 2,
+      "Title": "Basic Attack: I",
+      "Content": "Step forth.",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_atk_atk03_01.play_favor_word_qiuyuan_atk_atk03_01"
+    },
+    {
+      "Type": 2,
+      "Title": "Basic Attack: II",
+      "Content": "Off with you.",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_atk_atk03_02.play_favor_word_qiuyuan_atk_atk03_02"
+    },
+    {
+      "Type": 2,
+      "Title": "Basic Attack: III",
+      "Content": "Answer my call.",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_atk_atk03_03.play_favor_word_qiuyuan_atk_atk03_03"
+    },
+    {
+      "Type": 2,
+      "Title": "Basic Attack: IV",
+      "Content": "Stars realigned.",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_atk_atk02_pro_01.play_favor_word_qiuyuan_atk_atk02_pro_01"
+    },
+    {
+      "Type": 2,
+      "Title": "Heavy Attack: I",
+      "Content": "Fall.",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_atk_heavyatk02_pro_01.play_favor_word_qiuyuan_atk_heavyatk02_pro_01"
+    },
+    {
+      "Type": 2,
+      "Title": "Heavy Attack: II",
+      "Content": "Vanish.",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_atk_heavyatk03_pro_01.play_favor_word_qiuyuan_atk_heavyatk03_pro_01"
+    },
+    {
+      "Type": 2,
+      "Title": "Heavy Attack: III",
+      "Content": "Break like bamboo.",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_atk_heavyatk03_pro_02.play_favor_word_qiuyuan_atk_heavyatk03_pro_02"
+    },
+    {
+      "Type": 2,
+      "Title": "Resonance Skill: I",
+      "Content": "Next.",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_skill_skill01_01.play_favor_word_qiuyuan_skill_skill01_01"
+    },
+    {
+      "Type": 2,
+      "Title": "Resonance Skill: II",
+      "Content": "Winds howling.",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_skill_skill01_02.play_favor_word_qiuyuan_skill_skill01_02"
+    },
+    {
+      "Type": 2,
+      "Title": "Resonance Skill: III",
+      "Content": "I hear you.",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_skill_skill02_01.play_favor_word_qiuyuan_skill_skill02_01"
+    },
+    {
+      "Type": 2,
+      "Title": "Resonance Skill: IV",
+      "Content": "I move as the blade.",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_skill_skill03_sp_02.play_favor_word_qiuyuan_skill_skill03_sp_02"
+    },
+    {
+      "Type": 2,
+      "Title": "Resonance Skill: V",
+      "Content": "Rise.",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_skill_skill01_sp_01.play_favor_word_qiuyuan_skill_skill01_sp_01"
+    },
+    {
+      "Type": 2,
+      "Title": "Resonance Skill: VI",
+      "Content": "Slash.",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_skill_skill01_sp_02.play_favor_word_qiuyuan_skill_skill01_sp_02"
+    },
+    {
+      "Type": 2,
+      "Title": "Resonance Skill: VII",
+      "Content": "No escape.",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_skill_skill01_sp_03.play_favor_word_qiuyuan_skill_skill01_sp_03"
+    },
+    {
+      "Type": 2,
+      "Title": "Resonance Skill: VIII",
+      "Content": "Blend into the woods.",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_skill_skill03_sp_01.play_favor_word_qiuyuan_skill_skill03_sp_01"
+    },
+    {
+      "Type": 2,
+      "Title": "Resonance Skill: IX",
+      "Content": "Found you.",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_skill_skill04_sp_01.play_favor_word_qiuyuan_skill_skill04_sp_01"
+    },
+    {
+      "Type": 2,
+      "Title": "Resonance Skill: X",
+      "Content": "Surrender.",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_skill_skill04_sp_02.play_favor_word_qiuyuan_skill_skill04_sp_02"
+    },
+    {
+      "Type": 2,
+      "Title": "Resonance Liberation: I",
+      "Content": "Your life, is mine to take.",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_burst_burst01_01.play_favor_word_qiuyuan_burst_burst01_01"
+    },
+    {
+      "Type": 2,
+      "Title": "Resonance Liberation: II",
+      "Content": "Mandate calls, judgement falls.",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_burst_burst01_02.play_favor_word_qiuyuan_burst_burst01_02"
+    },
+    {
+      "Type": 2,
+      "Title": "Resonance Liberation: III",
+      "Content": "One strike, to settle it all.",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_burst_burst01_03.play_favor_word_qiuyuan_burst_burst01_03"
+    },
+    {
+      "Type": 2,
+      "Title": "Intro Skill",
+      "Content": "What sleeps within bamboo.",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_skill_qte.play_favor_word_qiuyuan_skill_qte"
+    },
+    {
+      "Type": 2,
+      "Title": "Dodge",
+      "Content": "Too slow.",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_com_limitdodge_01.play_favor_word_qiuyuan_com_limitdodge_01"
+    },
+    {
+      "Type": 2,
+      "Title": "Counterattack",
+      "Content": "A flawed stance.",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_com_parry_01.play_favor_word_qiuyuan_com_parry_01"
+    },
+    {
+      "Type": 2,
+      "Title": "Dodge Counter",
+      "Content": "Break.",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_atk_dodgeatk_01.play_favor_word_qiuyuan_atk_dodgeatk_01"
+    },
+    {
+      "Type": 2,
+      "Title": "Hit: I",
+      "Content": "Did I mishear?",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_com_behitfly_01.play_favor_word_qiuyuan_com_behitfly_01"
+    },
+    {
+      "Type": 2,
+      "Title": "Hit: II",
+      "Content": "Retreat to gain ground.",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_com_behitfly_02.play_favor_word_qiuyuan_com_behitfly_02"
+    },
+    {
+      "Type": 2,
+      "Title": "Injured: I",
+      "Content": "Nothing that won't heal.",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_com_hpdown01.play_favor_word_qiuyuan_com_hpdown01"
+    },
+    {
+      "Type": 2,
+      "Title": "Injured: II",
+      "Content": "Interesting.",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_com_hpdown02.play_favor_word_qiuyuan_com_hpdown02"
+    },
+    {
+      "Type": 2,
+      "Title": "Injured: III",
+      "Content": "Feints demand restraint.",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_com_hpdown03.play_favor_word_qiuyuan_com_hpdown03"
+    },
+    {
+      "Type": 2,
+      "Title": "Fallen: I",
+      "Content": "I'll repay your trust... in another life.",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_com_die_01.play_favor_word_qiuyuan_com_die_01"
+    },
+    {
+      "Type": 2,
+      "Title": "Fallen: II",
+      "Content": "The winds... settled.",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_com_die_02.play_favor_word_qiuyuan_com_die_02"
+    },
+    {
+      "Type": 2,
+      "Title": "Fallen: III",
+      "Content": "I see... darkness.",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_com_die_03.play_favor_word_qiuyuan_com_die_03"
+    },
+    {
+      "Type": 2,
+      "Title": "Echo Summon",
+      "Content": "Behold this blade.",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_com_hxsummon.play_favor_word_qiuyuan_com_hxsummon"
+    },
+    {
+      "Type": 2,
+      "Title": "Echo Transform",
+      "Content": "Constant in change.",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_com_hxchange.play_favor_word_qiuyuan_com_hxchange"
+    },
+    {
+      "Type": 2,
+      "Title": "Enemies Near",
+      "Content": "Let's not linger.",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_com_engage.play_favor_word_qiuyuan_com_engage"
+    },
+    {
+      "Type": 2,
+      "Title": "Glider",
+      "Content": "Into the wind.",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_com_fly_01.play_favor_word_qiuyuan_com_fly_01"
+    },
+    {
+      "Type": 2,
+      "Title": "Sensor",
+      "Content": "I hear it.",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_com_scan.play_favor_word_qiuyuan_com_scan"
+    },
+    {
+      "Type": 2,
+      "Title": "Dash: I",
+      "Content": "Onward.",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_com_dash_01.play_favor_word_qiuyuan_com_dash_01"
+    },
+    {
+      "Type": 2,
+      "Title": "Dash: II",
+      "Content": "Can you keep up?",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_com_accelerate.play_favor_word_qiuyuan_com_accelerate"
+    },
+    {
+      "Type": 2,
+      "Title": "Supply Chest: I",
+      "Content": "You may keep it.",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_com_openbox_01.play_favor_word_qiuyuan_com_openbox_01"
+    },
+    {
+      "Type": 2,
+      "Title": "Supply Chest: II",
+      "Content": "Good.",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_com_openbox_02.play_favor_word_qiuyuan_com_openbox_02"
+    },
+    {
+      "Type": 2,
+      "Title": "Supply Chest: III",
+      "Content": "If you insist.",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qiuyuan_com_openbox_03.play_favor_word_qiuyuan_com_openbox_03"
+    }
+  ],
+  "Goods": [
+    {
+      "Title": "Bamboo Flask",
+      "Content": "A bamboo flask Qiuyuan often carries, crafted from black bamboo native to Chongzhou. Its natural fragrance has long faded, replaced by the lingering scent of the medicinal decoction it always contains.\n\nWhen Qiuyuan once teetered on the brink of death, a doctor from Chongzhou saved him with a potent regimen. While he recovered, his Forte did not, though it can be temporarily restored to full strength with the decoction in this flask. Yet even this power serves only as an embellishment to the already refined swordplay he takes pride in.",
+      "Icon": "/Game/Aki/UI/UIResources/UiRole/Image/Treasure/T_Treasure116_UI.T_Treasure116_UI"
+    },
+    {
+      "Title": "Iron Weight",
+      "Content": "A token of Mingting's <te href=260001>Internal Security Agency</te> that Qiuyuan always carries. It should have been confiscated along with his uniform after he left the service, yet someone within Mingting ensured he kept it.\n\n\"…I hereby entrust this to you. Let all officials of every state know: whoever bears this token carries my presence.\"",
+      "Icon": "/Game/Aki/UI/UIResources/UiRole/Image/Treasure/T_Treasure117_UI.T_Treasure117_UI"
+    },
+    {
+      "Title": "Bamboo Flute",
+      "Content": "He came to know the world through his ears, not his eyes.\n\nThe weary sighs of his parents, the whispers of wind coming from Chongzhou's hollow bamboos, the clash of blades, the drop of his master's blood, the furious cries of his foes...\n\nAnd then, in Mingting, he heard light, but also the shadows lurking beneath it. He heard the greedy begging for mercy. He heard schemes snarled with lies. He heard resentment and hope spoken in another kind of voice.\n\nHe cannot see, yet he hears all things clearly and inevitably. They are already there before the sounds ever reach him, as natural as iron becoming a sword, jade slumbering within stone, or music waiting in the heart of a bamboo flute.",
+      "Icon": "/Game/Aki/UI/UIResources/UiRole/Image/Treasure/T_Treasure118_UI.T_Treasure118_UI"
+    }
+  ],
+  "SpecialCook": {
+    "Id": 80001028,
+    "Name": "Chongzhou Spicy Tofu",
+    "Desc": "Defeating overworld enemies yields 55% more Shell Credits, lasting for 30m. Only effective on your own Resonators in Co-op Mode.",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconCook/T_IconCook_SP_21_UI.T_IconCook_SP_21_UI",
+    "Rarity": 5
+  },
+  "Stats": {
+    "0": {
+      "1": {
+        "Life": 979.0,
+        "Atk": 30.0,
+        "Def": 98.0
+      },
+      "2": {
+        "Life": 1061.4318,
+        "Atk": 32.526,
+        "Def": 106.0654
+      },
+      "3": {
+        "Life": 1143.9615,
+        "Atk": 35.055,
+        "Def": 114.1406
+      },
+      "4": {
+        "Life": 1226.4912,
+        "Atk": 37.584,
+        "Def": 122.2158
+      },
+      "5": {
+        "Life": 1308.923,
+        "Atk": 40.11,
+        "Def": 130.291
+      },
+      "6": {
+        "Life": 1391.4527,
+        "Atk": 42.639,
+        "Def": 138.3662
+      },
+      "7": {
+        "Life": 1473.9824,
+        "Atk": 45.168,
+        "Def": 146.4414
+      },
+      "8": {
+        "Life": 1556.4142,
+        "Atk": 47.694,
+        "Def": 154.5166
+      },
+      "9": {
+        "Life": 1638.9439,
+        "Atk": 50.223,
+        "Def": 162.5918
+      },
+      "10": {
+        "Life": 1721.4736,
+        "Atk": 52.752,
+        "Def": 170.667
+      },
+      "11": {
+        "Life": 1803.9054,
+        "Atk": 55.278,
+        "Def": 178.7422
+      },
+      "12": {
+        "Life": 1886.4351,
+        "Atk": 57.807,
+        "Def": 186.8174
+      },
+      "13": {
+        "Life": 1968.9648,
+        "Atk": 60.336,
+        "Def": 194.8926
+      },
+      "14": {
+        "Life": 2051.4945,
+        "Atk": 62.865,
+        "Def": 202.9678
+      },
+      "15": {
+        "Life": 2133.9263,
+        "Atk": 65.391,
+        "Def": 211.043
+      },
+      "16": {
+        "Life": 2216.456,
+        "Atk": 67.92,
+        "Def": 219.1182
+      },
+      "17": {
+        "Life": 2298.9857,
+        "Atk": 70.449,
+        "Def": 227.1934
+      },
+      "18": {
+        "Life": 2381.4175,
+        "Atk": 72.975,
+        "Def": 235.2686
+      },
+      "19": {
+        "Life": 2463.9472,
+        "Atk": 75.504,
+        "Def": 243.3438
+      },
+      "20": {
+        "Life": 2546.4769,
+        "Atk": 78.033,
+        "Def": 251.419
+      }
+    },
+    "1": {
+      "20": {
+        "Life": 3199.0783,
+        "Atk": 100.533,
+        "Def": 314.9328
+      },
+      "21": {
+        "Life": 3281.608,
+        "Atk": 103.059,
+        "Def": 323.008
+      },
+      "22": {
+        "Life": 3364.1377,
+        "Atk": 105.588,
+        "Def": 331.0832
+      },
+      "23": {
+        "Life": 3446.5695,
+        "Atk": 108.117,
+        "Def": 339.1584
+      },
+      "24": {
+        "Life": 3529.0992,
+        "Atk": 110.646,
+        "Def": 347.2336
+      },
+      "25": {
+        "Life": 3611.6289,
+        "Atk": 113.172,
+        "Def": 355.3088
+      },
+      "26": {
+        "Life": 3694.1586,
+        "Atk": 115.701,
+        "Def": 363.384
+      },
+      "27": {
+        "Life": 3776.5904,
+        "Atk": 118.23,
+        "Def": 371.4592
+      },
+      "28": {
+        "Life": 3859.1201,
+        "Atk": 120.756,
+        "Def": 379.5344
+      },
+      "29": {
+        "Life": 3941.6498,
+        "Atk": 123.285,
+        "Def": 387.6096
+      },
+      "30": {
+        "Life": 4024.0816,
+        "Atk": 125.814,
+        "Def": 395.6848
+      },
+      "31": {
+        "Life": 4106.6113,
+        "Atk": 128.34,
+        "Def": 403.76
+      },
+      "32": {
+        "Life": 4189.141,
+        "Atk": 130.869,
+        "Def": 411.8352
+      },
+      "33": {
+        "Life": 4271.5728,
+        "Atk": 133.398,
+        "Def": 419.9104
+      },
+      "34": {
+        "Life": 4354.1025,
+        "Atk": 135.924,
+        "Def": 427.9856
+      },
+      "35": {
+        "Life": 4436.6322,
+        "Atk": 138.453,
+        "Def": 436.0608
+      },
+      "36": {
+        "Life": 4519.1619,
+        "Atk": 140.982,
+        "Def": 444.136
+      },
+      "37": {
+        "Life": 4601.5937,
+        "Atk": 143.511,
+        "Def": 452.2112
+      },
+      "38": {
+        "Life": 4684.1234,
+        "Atk": 146.037,
+        "Def": 460.2864
+      },
+      "39": {
+        "Life": 4766.6531,
+        "Atk": 148.566,
+        "Def": 468.3616
+      },
+      "40": {
+        "Life": 4849.0849,
+        "Atk": 151.095,
+        "Def": 476.4368
+      }
+    },
+    "2": {
+      "40": {
+        "Life": 5501.7842,
+        "Atk": 173.595,
+        "Def": 539.9506
+      },
+      "41": {
+        "Life": 5584.3139,
+        "Atk": 176.121,
+        "Def": 548.0258
+      },
+      "42": {
+        "Life": 5666.7457,
+        "Atk": 178.65,
+        "Def": 556.101
+      },
+      "43": {
+        "Life": 5749.2754,
+        "Atk": 181.179,
+        "Def": 564.1762
+      },
+      "44": {
+        "Life": 5831.8051,
+        "Atk": 183.705,
+        "Def": 572.2514
+      },
+      "45": {
+        "Life": 5914.2369,
+        "Atk": 186.234,
+        "Def": 580.3266
+      },
+      "46": {
+        "Life": 5996.7666,
+        "Atk": 188.763,
+        "Def": 588.4018
+      },
+      "47": {
+        "Life": 6079.2963,
+        "Atk": 191.292,
+        "Def": 596.477
+      },
+      "48": {
+        "Life": 6161.826,
+        "Atk": 193.818,
+        "Def": 604.5522
+      },
+      "49": {
+        "Life": 6244.2578,
+        "Atk": 196.347,
+        "Def": 612.6274
+      },
+      "50": {
+        "Life": 6326.7875,
+        "Atk": 198.876,
+        "Def": 620.7026
+      }
+    },
+    "3": {
+      "50": {
+        "Life": 6979.4868,
+        "Atk": 221.376,
+        "Def": 684.2164
+      },
+      "51": {
+        "Life": 7061.9186,
+        "Atk": 223.902,
+        "Def": 692.2916
+      },
+      "52": {
+        "Life": 7144.4483,
+        "Atk": 226.431,
+        "Def": 700.3668
+      },
+      "53": {
+        "Life": 7226.978,
+        "Atk": 228.96,
+        "Def": 708.442
+      },
+      "54": {
+        "Life": 7309.4098,
+        "Atk": 231.486,
+        "Def": 716.5172
+      },
+      "55": {
+        "Life": 7391.9395,
+        "Atk": 234.015,
+        "Def": 724.5924
+      },
+      "56": {
+        "Life": 7474.4692,
+        "Atk": 236.544,
+        "Def": 732.6676
+      },
+      "57": {
+        "Life": 7556.9989,
+        "Atk": 239.073,
+        "Def": 740.7428
+      },
+      "58": {
+        "Life": 7639.4307,
+        "Atk": 241.599,
+        "Def": 748.818
+      },
+      "59": {
+        "Life": 7721.9604,
+        "Atk": 244.128,
+        "Def": 756.8932
+      },
+      "60": {
+        "Life": 7804.4901,
+        "Atk": 246.657,
+        "Def": 764.9684
+      }
+    },
+    "4": {
+      "60": {
+        "Life": 8457.0915,
+        "Atk": 269.157,
+        "Def": 828.492
+      },
+      "61": {
+        "Life": 8539.6212,
+        "Atk": 271.683,
+        "Def": 836.5672
+      },
+      "62": {
+        "Life": 8622.1509,
+        "Atk": 274.212,
+        "Def": 844.6424
+      },
+      "63": {
+        "Life": 8704.5827,
+        "Atk": 276.741,
+        "Def": 852.7176
+      },
+      "64": {
+        "Life": 8787.1124,
+        "Atk": 279.267,
+        "Def": 860.7928
+      },
+      "65": {
+        "Life": 8869.6421,
+        "Atk": 281.796,
+        "Def": 868.868
+      },
+      "66": {
+        "Life": 8952.0739,
+        "Atk": 284.325,
+        "Def": 876.9334
+      },
+      "67": {
+        "Life": 9034.6036,
+        "Atk": 286.851,
+        "Def": 885.0086
+      },
+      "68": {
+        "Life": 9117.1333,
+        "Atk": 289.38,
+        "Def": 893.0838
+      },
+      "69": {
+        "Life": 9199.663,
+        "Atk": 291.909,
+        "Def": 901.159
+      },
+      "70": {
+        "Life": 9282.0948,
+        "Atk": 294.438,
+        "Def": 909.2342
+      }
+    },
+    "5": {
+      "70": {
+        "Life": 9934.7941,
+        "Atk": 309.438,
+        "Def": 972.7578
+      },
+      "71": {
+        "Life": 10017.3238,
+        "Atk": 311.964,
+        "Def": 980.833
+      },
+      "72": {
+        "Life": 10099.7556,
+        "Atk": 314.493,
+        "Def": 988.9082
+      },
+      "73": {
+        "Life": 10182.2853,
+        "Atk": 317.022,
+        "Def": 996.9834
+      },
+      "74": {
+        "Life": 10264.815,
+        "Atk": 319.548,
+        "Def": 1005.0586
+      },
+      "75": {
+        "Life": 10347.2468,
+        "Atk": 322.077,
+        "Def": 1013.1338
+      },
+      "76": {
+        "Life": 10429.7765,
+        "Atk": 324.606,
+        "Def": 1021.209
+      },
+      "77": {
+        "Life": 10512.3062,
+        "Atk": 327.132,
+        "Def": 1029.2842
+      },
+      "78": {
+        "Life": 10594.738,
+        "Atk": 329.661,
+        "Def": 1037.3594
+      },
+      "79": {
+        "Life": 10677.2677,
+        "Atk": 332.19,
+        "Def": 1045.4346
+      },
+      "80": {
+        "Life": 10759.7974,
+        "Atk": 334.719,
+        "Def": 1053.5098
+      }
+    },
+    "6": {
+      "80": {
+        "Life": 11412.4967,
+        "Atk": 349.719,
+        "Def": 1117.0236
+      },
+      "81": {
+        "Life": 11494.9285,
+        "Atk": 352.245,
+        "Def": 1125.0988
+      },
+      "82": {
+        "Life": 11577.4582,
+        "Atk": 354.774,
+        "Def": 1133.174
+      },
+      "83": {
+        "Life": 11659.9879,
+        "Atk": 357.303,
+        "Def": 1141.2492
+      },
+      "84": {
+        "Life": 11742.4197,
+        "Atk": 359.829,
+        "Def": 1149.3244
+      },
+      "85": {
+        "Life": 11824.9494,
+        "Atk": 362.358,
+        "Def": 1157.3996
+      },
+      "86": {
+        "Life": 11907.4791,
+        "Atk": 364.887,
+        "Def": 1165.4748
+      },
+      "87": {
+        "Life": 11989.9109,
+        "Atk": 367.413,
+        "Def": 1173.55
+      },
+      "88": {
+        "Life": 12072.4406,
+        "Atk": 369.942,
+        "Def": 1181.6252
+      },
+      "89": {
+        "Life": 12154.9703,
+        "Atk": 372.471,
+        "Def": 1189.7004
+      },
+      "90": {
+        "Life": 12237.5,
+        "Atk": 375.0,
+        "Def": 1197.7756
+      }
+    }
+  },
+  "LevelEXP": [
+    0,
+    400,
+    400,
+    500,
+    600,
+    700,
+    900,
+    1000,
+    1200,
+    1300,
+    1500,
+    1700,
+    2000,
+    2200,
+    2400,
+    2700,
+    3000,
+    3300,
+    3600,
+    3900,
+    4300,
+    4600,
+    5000,
+    5400,
+    5800,
+    6300,
+    6700,
+    7200,
+    7700,
+    8200,
+    8700,
+    9300,
+    9800,
+    10400,
+    11000,
+    11700,
+    12300,
+    13000,
+    13700,
+    14400,
+    15100,
+    15900,
+    16700,
+    17500,
+    18300,
+    19200,
+    20000,
+    20900,
+    21900,
+    22800,
+    23800,
+    24800,
+    25800,
+    26900,
+    28000,
+    29100,
+    30300,
+    31400,
+    32600,
+    33900,
+    35100,
+    36400,
+    37700,
+    39100,
+    40500,
+    41900,
+    43300,
+    44800,
+    46300,
+    47900,
+    49500,
+    51100,
+    52800,
+    54500,
+    56200,
+    58000,
+    59800,
+    61600,
+    63500,
+    65400,
+    67400,
+    69400,
+    71400,
+    73500,
+    75600,
+    77800,
+    80000,
+    82300,
+    84600,
+    86900,
+    105600,
+    107400,
+    110000,
+    113600,
+    118600,
+    125500,
+    134900,
+    147300,
+    163600,
+    184500
+  ],
+  "SkillTrees": {
+    "1": {
+      "ParentNodes": [],
+      "NodeType": 2,
+      "Coordinate": 1,
+      "UnLockCondition": 0,
+      "Consume": [
+        {
+          "Key": 43020032,
+          "Value": 2
+        },
+        {
+          "Key": 41100022,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 3900
+        }
+      ],
+      "Skill": {
+        "Name": "Inkwash",
+        "Desc": "<size=40><color=Title>Basic Attack</color></size>\nPerform up to 3 consecutive attacks, dealing <color=Wind>Aero DMG</color>.\n<size=10></size>\n<size=40><color=Title>Heavy Attack</color></size>\nConsume STA to attack the target, dealing <color=Wind>Aero DMG</color>. {Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} <color=Highlight>Normal Attack</color> within a certain period of time after casting this skill to perform Basic Attack <color=Highlight>Thus Spoke the Blade: Inkwash</color> Stage 4.\n<size=10></size>\n<size=40><color=Title>Mid-air Attack</color></size>\nConsume STA to perform Plunging Attack, dealing <color=Wind>Aero DMG</color>.\n<size=10></size>\n<size=40><color=Title>Dodge Counter</color></size>\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} <color=Highlight>Normal Attack</color> right after a successful <color=Highlight>Dodge</color> to attack the target, dealing <color=Wind>Aero DMG</color>, considered as <color=Highlight>Heavy Attack</color>.\nMoments after a <color=Highlight>Basic Attack</color> or <color=Highlight>Heavy Attack</color>, Qiuyuan becomes immune to the next instance of DMG he takes and casts <color=Highlight>Dodge Counter</color> upon being attacked, dealing <color=Wind>Aero DMG</color>.",
+        "Param": [],
+        "SimpleDesc": "<size=40><color=Title>Basic Attack</color></size>\nDeal <color=Wind>Aero DMG</color>.\n<size=10></size>\n<size=40><color=Title>Heavy Attack</color></size>\nDeal <color=Wind>Aero DMG</color>.\n<size=10></size>\n<size=40><color=Title>Mid-air Attack</color></size>\nDeal <color=Wind>Aero DMG</color>.\n<size=10></size>\n<size=40><color=Title>Dodge Counter</color></size>\nDeal <color=Wind>Aero DMG</color>.",
+        "SimpleParam": [],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorKnife.SP_IconNorKnife",
+        "Type": "Normal Attack",
+        "Level": {
+          "1": {
+            "Name": "Stage 1 DMG",
+            "Param": [
+              [
+                "21.00%",
+                "22.73%",
+                "24.45%",
+                "26.86%",
+                "28.58%",
+                "30.56%",
+                "33.32%",
+                "36.07%",
+                "38.83%",
+                "41.76%",
+                "45.20%",
+                "48.64%",
+                "52.09%",
+                "55.53%",
+                "58.98%",
+                "62.42%",
+                "65.86%",
+                "69.31%",
+                "72.75%",
+                "76.20%"
+              ]
+            ],
+            "Format": null
+          },
+          "2": {
+            "Name": "Stage 2 DMG",
+            "Param": [
+              [
+                "17.50%+17.50%",
+                "18.94%+18.94%",
+                "20.37%+20.37%",
+                "22.38%+22.38%",
+                "23.82%+23.82%",
+                "25.47%+25.47%",
+                "27.77%+27.77%",
+                "30.06%+30.06%",
+                "32.36%+32.36%",
+                "34.80%+34.80%",
+                "37.67%+37.67%",
+                "40.54%+40.54%",
+                "43.41%+43.41%",
+                "46.28%+46.28%",
+                "49.15%+49.15%",
+                "52.02%+52.02%",
+                "54.89%+54.89%",
+                "57.76%+57.76%",
+                "60.63%+60.63%",
+                "63.50%+63.50%"
+              ]
+            ],
+            "Format": null
+          },
+          "3": {
+            "Name": "Stage 3 DMG",
+            "Param": [
+              [
+                "12.39%+12.39%+12.39%+12.39%+33.04%",
+                "13.41%+13.41%+13.41%+13.41%+35.75%",
+                "14.43%+14.43%+14.43%+14.43%+38.46%",
+                "15.85%+15.85%+15.85%+15.85%+42.26%",
+                "16.87%+16.87%+16.87%+16.87%+44.97%",
+                "18.03%+18.03%+18.03%+18.03%+48.08%",
+                "19.66%+19.66%+19.66%+19.66%+52.42%",
+                "21.28%+21.28%+21.28%+21.28%+56.75%",
+                "22.91%+22.91%+22.91%+22.91%+61.09%",
+                "24.64%+24.64%+24.64%+24.64%+65.69%",
+                "26.67%+26.67%+26.67%+26.67%+71.11%",
+                "28.70%+28.70%+28.70%+28.70%+76.53%",
+                "30.73%+30.73%+30.73%+30.73%+81.95%",
+                "32.77%+32.77%+32.77%+32.77%+87.37%",
+                "34.80%+34.80%+34.80%+34.80%+92.78%",
+                "36.83%+36.83%+36.83%+36.83%+98.20%",
+                "38.86%+38.86%+38.86%+38.86%+103.62%",
+                "40.89%+40.89%+40.89%+40.89%+109.04%",
+                "42.93%+42.93%+42.93%+42.93%+114.46%",
+                "44.96%+44.96%+44.96%+44.96%+119.88%"
+              ]
+            ],
+            "Format": null
+          },
+          "4": {
+            "Name": "Mid-air Attack DMG",
+            "Param": [
+              [
+                "58.80%",
+                "63.63%",
+                "68.45%",
+                "75.20%",
+                "80.02%",
+                "85.56%",
+                "93.28%",
+                "100.99%",
+                "108.71%",
+                "116.91%",
+                "126.55%",
+                "136.19%",
+                "145.83%",
+                "155.48%",
+                "165.12%",
+                "174.76%",
+                "184.41%",
+                "194.05%",
+                "203.69%",
+                "213.34%"
+              ]
+            ],
+            "Format": null
+          },
+          "5": {
+            "Name": "Heavy Attack DMG",
+            "Param": [
+              [
+                "83.30%",
+                "90.14%",
+                "96.97%",
+                "106.53%",
+                "113.36%",
+                "121.21%",
+                "132.14%",
+                "143.07%",
+                "154.00%",
+                "165.61%",
+                "179.27%",
+                "192.94%",
+                "206.60%",
+                "220.26%",
+                "233.92%",
+                "247.58%",
+                "261.24%",
+                "274.90%",
+                "288.56%",
+                "302.23%"
+              ]
+            ],
+            "Format": null
+          },
+          "6": {
+            "Name": "Dodge Counter DMG",
+            "Param": [
+              [
+                "98.00%+14.00%*3",
+                "106.04%+15.15%*3",
+                "114.08%+16.30%*3",
+                "125.33%+17.91%*3",
+                "133.36%+19.06%*3",
+                "142.60%+20.38%*3",
+                "155.46%+22.21%*3",
+                "168.32%+24.05%*3",
+                "181.18%+25.89%*3",
+                "194.84%+27.84%*3",
+                "210.91%+30.13%*3",
+                "226.98%+32.43%*3",
+                "243.05%+34.73%*3",
+                "259.13%+37.02%*3",
+                "275.20%+39.32%*3",
+                "291.27%+41.61%*3",
+                "307.34%+43.91%*3",
+                "323.41%+46.21%*3",
+                "339.49%+48.50%*3",
+                "355.56%+50.80%*3"
+              ]
+            ],
+            "Format": null
+          },
+          "10": {
+            "Name": "Mid-air Attack STA Cost",
+            "Param": [
+              [
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30"
+              ]
+            ],
+            "Format": null
+          },
+          "10-2": {
+            "Name": "Heavy Attack STA Cost",
+            "Param": [
+              [
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20"
+              ]
+            ],
+            "Format": null
+          }
+        },
+        "Consume": {
+          "1": [],
+          "2": [
+            {
+              "Key": 43020011,
+              "Value": 2
+            },
+            {
+              "Key": 41100011,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 1500
+            }
+          ],
+          "3": [
+            {
+              "Key": 43020011,
+              "Value": 3
+            },
+            {
+              "Key": 41100011,
+              "Value": 3
+            },
+            {
+              "Key": 2,
+              "Value": 2000
+            }
+          ],
+          "4": [
+            {
+              "Key": 43020012,
+              "Value": 2
+            },
+            {
+              "Key": 41100012,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 4500
+            }
+          ],
+          "5": [
+            {
+              "Key": 43020012,
+              "Value": 3
+            },
+            {
+              "Key": 41100012,
+              "Value": 3
+            },
+            {
+              "Key": 2,
+              "Value": 6000
+            }
+          ],
+          "6": [
+            {
+              "Key": 43020013,
+              "Value": 3
+            },
+            {
+              "Key": 41100013,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 16000
+            }
+          ],
+          "7": [
+            {
+              "Key": 43020013,
+              "Value": 5
+            },
+            {
+              "Key": 41100013,
+              "Value": 3
+            },
+            {
+              "Key": 41400254,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 30000
+            }
+          ],
+          "8": [
+            {
+              "Key": 43020014,
+              "Value": 2
+            },
+            {
+              "Key": 41100014,
+              "Value": 2
+            },
+            {
+              "Key": 41400254,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 50000
+            }
+          ],
+          "9": [
+            {
+              "Key": 43020014,
+              "Value": 3
+            },
+            {
+              "Key": 41100014,
+              "Value": 3
+            },
+            {
+              "Key": 41400254,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 70000
+            }
+          ],
+          "10": [
+            {
+              "Key": 43020014,
+              "Value": 6
+            },
+            {
+              "Key": 41100014,
+              "Value": 4
+            },
+            {
+              "Key": 41400254,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 100000
+            }
+          ]
+        },
+        "Damage": {
+          "1411001001": {
+            "Element": 4,
+            "RelatedProperty": "ATK",
+            "Type": 0,
+            "RateLv": [
+              2100,
+              2273,
+              2445,
+              2686,
+              2858,
+              3056,
+              3332,
+              3607,
+              3883,
+              4176,
+              4520,
+              4864,
+              5209,
+              5553,
+              5898,
+              6242,
+              6586,
+              6931,
+              7275,
+              7620
+            ],
+            "Energy": 75,
+            "ElementPower": 240,
+            "HardnessLv": 10000,
+            "ToughLv": 3000
+          },
+          "1411002001": {
+            "Element": 4,
+            "RelatedProperty": "ATK",
+            "Type": 0,
+            "RateLv": [
+              1750,
+              1894,
+              2037,
+              2238,
+              2382,
+              2547,
+              2777,
+              3006,
+              3236,
+              3480,
+              3767,
+              4054,
+              4341,
+              4628,
+              4915,
+              5202,
+              5489,
+              5776,
+              6063,
+              6350
+            ],
+            "Energy": 63,
+            "ElementPower": 200,
+            "HardnessLv": 10000,
+            "ToughLv": 2500
+          },
+          "1411002002": {
+            "Element": 4,
+            "RelatedProperty": "ATK",
+            "Type": 0,
+            "RateLv": [
+              1750,
+              1894,
+              2037,
+              2238,
+              2382,
+              2547,
+              2777,
+              3006,
+              3236,
+              3480,
+              3767,
+              4054,
+              4341,
+              4628,
+              4915,
+              5202,
+              5489,
+              5776,
+              6063,
+              6350
+            ],
+            "Energy": 63,
+            "ElementPower": 200,
+            "HardnessLv": 10000,
+            "ToughLv": 2500
+          },
+          "1411003002": {
+            "Element": 4,
+            "RelatedProperty": "ATK",
+            "Type": 0,
+            "RateLv": [
+              1239,
+              1341,
+              1443,
+              1585,
+              1687,
+              1803,
+              1966,
+              2128,
+              2291,
+              2464,
+              2667,
+              2870,
+              3073,
+              3277,
+              3480,
+              3683,
+              3886,
+              4089,
+              4293,
+              4496
+            ],
+            "Energy": 45,
+            "ElementPower": 142,
+            "HardnessLv": 10000,
+            "ToughLv": 1770
+          },
+          "1411003003": {
+            "Element": 4,
+            "RelatedProperty": "ATK",
+            "Type": 0,
+            "RateLv": [
+              1239,
+              1341,
+              1443,
+              1585,
+              1687,
+              1803,
+              1966,
+              2128,
+              2291,
+              2464,
+              2667,
+              2870,
+              3073,
+              3277,
+              3480,
+              3683,
+              3886,
+              4089,
+              4293,
+              4496
+            ],
+            "Energy": 45,
+            "ElementPower": 142,
+            "HardnessLv": 10000,
+            "ToughLv": 1770
+          },
+          "1411003004": {
+            "Element": 4,
+            "RelatedProperty": "ATK",
+            "Type": 0,
+            "RateLv": [
+              1239,
+              1341,
+              1443,
+              1585,
+              1687,
+              1803,
+              1966,
+              2128,
+              2291,
+              2464,
+              2667,
+              2870,
+              3073,
+              3277,
+              3480,
+              3683,
+              3886,
+              4089,
+              4293,
+              4496
+            ],
+            "Energy": 45,
+            "ElementPower": 142,
+            "HardnessLv": 10000,
+            "ToughLv": 1770
+          },
+          "1411003005": {
+            "Element": 4,
+            "RelatedProperty": "ATK",
+            "Type": 0,
+            "RateLv": [
+              1239,
+              1341,
+              1443,
+              1585,
+              1687,
+              1803,
+              1966,
+              2128,
+              2291,
+              2464,
+              2667,
+              2870,
+              3073,
+              3277,
+              3480,
+              3683,
+              3886,
+              4089,
+              4293,
+              4496
+            ],
+            "Energy": 45,
+            "ElementPower": 142,
+            "HardnessLv": 10000,
+            "ToughLv": 1770
+          },
+          "1411003006": {
+            "Element": 4,
+            "RelatedProperty": "ATK",
+            "Type": 0,
+            "RateLv": [
+              3304,
+              3575,
+              3846,
+              4226,
+              4497,
+              4808,
+              5242,
+              5675,
+              6109,
+              6569,
+              7111,
+              7653,
+              8195,
+              8737,
+              9278,
+              9820,
+              10362,
+              10904,
+              11446,
+              11988
+            ],
+            "Energy": 118,
+            "ElementPower": 378,
+            "HardnessLv": 10000,
+            "ToughLv": 4720
+          },
+          "1411010001": {
+            "Element": 4,
+            "RelatedProperty": "ATK",
+            "Type": 0,
+            "RateLv": [
+              5880,
+              6363,
+              6845,
+              7520,
+              8002,
+              8556,
+              9328,
+              10099,
+              10871,
+              11691,
+              12655,
+              13619,
+              14583,
+              15548,
+              16512,
+              17476,
+              18441,
+              19405,
+              20369,
+              21334
+            ],
+            "Energy": 210,
+            "ElementPower": 672,
+            "HardnessLv": 10000,
+            "ToughLv": 8400
+          },
+          "1411100001": {
+            "Element": 4,
+            "RelatedProperty": "ATK",
+            "Type": 1,
+            "RateLv": [
+              8330,
+              9014,
+              9697,
+              10653,
+              11336,
+              12121,
+              13214,
+              14307,
+              15400,
+              16561,
+              17927,
+              19294,
+              20660,
+              22026,
+              23392,
+              24758,
+              26124,
+              27490,
+              28856,
+              30223
+            ],
+            "Energy": 209,
+            "ElementPower": 667,
+            "HardnessLv": 10000,
+            "ToughLv": 8330
+          },
+          "1411500001": {
+            "Element": 4,
+            "RelatedProperty": "ATK",
+            "Type": 1,
+            "RateLv": [
+              9800,
+              10604,
+              11408,
+              12533,
+              13336,
+              14260,
+              15546,
+              16832,
+              18118,
+              19484,
+              21091,
+              22698,
+              24305,
+              25913,
+              27520,
+              29127,
+              30734,
+              32341,
+              33949,
+              35556
+            ],
+            "Energy": 245,
+            "ElementPower": 784,
+            "HardnessLv": 10000,
+            "ToughLv": 9800
+          },
+          "1411500002": {
+            "Element": 4,
+            "RelatedProperty": "ATK",
+            "Type": 1,
+            "RateLv": [
+              1400,
+              1515,
+              1630,
+              1791,
+              1906,
+              2038,
+              2221,
+              2405,
+              2589,
+              2784,
+              3013,
+              3243,
+              3473,
+              3702,
+              3932,
+              4161,
+              4391,
+              4621,
+              4850,
+              5080
+            ],
+            "Energy": 35,
+            "ElementPower": 112,
+            "HardnessLv": 10000,
+            "ToughLv": 1400
+          }
+        }
+      }
+    },
+    "2": {
+      "ParentNodes": [],
+      "NodeType": 2,
+      "Coordinate": 2,
+      "UnLockCondition": 0,
+      "Consume": [
+        {
+          "Key": 43020032,
+          "Value": 2
+        },
+        {
+          "Key": 41100022,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 3900
+        }
+      ],
+      "Skill": {
+        "Name": "Through the Groves",
+        "Desc": "{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} <color=Highlight>Resonance Skill</color> to dash forward for a distance, dealing <color=Wind>Aero DMG</color>, considered as Echo Skill DMG. If <color=Highlight>Resonance Skill</color> is cast upon being attacked by an enemy target, Qiuyuan becomes immune to this instance of DMG and stagnates nearby enemies, while gaining immunity to interruption during this <color=Highlight>Resonance Skill</color>.\nSwitching to other Resonators removes the Stagnation effect from enemies.\n<size=10></size>\n<size=40><color=Title>Undaunted Wayfarer</color></size>\nHold <color=Highlight>Resonance Skill</color> to dash forward for a distance at the cost of STA, dealing <color=Wind>Aero DMG</color> to the target, considered as Echo Skill DMG.\nIf there are no targets nearby, Qiuyuan will leap up and dash through the air by continuously consuming STA until it runs out. Release <color=Highlight>Resonance Skill</color> to immediately end the dash and land. If there are targets nearby when Qiuyuan lands, deal <color=Wind>Aero DMG</color> to nearby targets, considered as Echo Skill DMG. This skill can be cast in mid-air.",
+        "Param": [],
+        "SimpleDesc": "Deal <color=Wind>Aero DMG</color>.\n<size=10></size>\n<size=40><color=Title>Undaunted Wayfarer</color></size>\nHold <color=Highlight>Resonance Skill</color> to dash forward for a distance, dealing <color=Wind>Aero DMG</color> to the target.\nIf there are no targets nearby, Qiuyuan will leap up and dash through the air for a distance by continuously consuming STA until it runs out. Release <color=Highlight>Resonance Skill</color> to immediately end the dash and land.  If there are targets nearby when Qiuyuan lands, deal <color=Wind>Aero DMG</color> to nearby targets.",
+        "SimpleParam": [],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconQiuyuan/SP_IconQiuyuanB1.SP_IconQiuyuanB1",
+        "Type": "Resonance Skill",
+        "Level": {
+          "7": {
+            "Name": "Skill DMG",
+            "Param": [
+              [
+                "36.14%*3",
+                "39.10%*3",
+                "42.06%*3",
+                "46.21%*3",
+                "49.18%*3",
+                "52.58%*3",
+                "57.32%*3",
+                "62.06%*3",
+                "66.80%*3",
+                "71.84%*3",
+                "77.77%*3",
+                "83.69%*3",
+                "89.62%*3",
+                "95.55%*3",
+                "101.47%*3",
+                "107.40%*3",
+                "113.32%*3",
+                "119.25%*3",
+                "125.17%*3",
+                "131.10%*3"
+              ]
+            ],
+            "Format": null
+          },
+          "8": {
+            "Name": "Undaunted Wayfarer DMG",
+            "Param": [
+              [
+                "16.26%+16.26%*3+43.36%",
+                "17.60%+17.60%*3+46.92%",
+                "18.93%+18.93%*3+50.48%",
+                "20.80%+20.80%*3+55.45%",
+                "22.13%+22.13%*3+59.01%",
+                "23.66%+23.66%*3+63.10%",
+                "25.80%+25.80%*3+68.79%",
+                "27.93%+27.93%*3+74.48%",
+                "30.06%+30.06%*3+80.16%",
+                "32.33%+32.33%*3+86.21%",
+                "35.00%+35.00%*3+93.32%",
+                "37.66%+37.66%*3+100.43%",
+                "40.33%+40.33%*3+107.54%",
+                "43.00%+43.00%*3+114.65%",
+                "45.66%+45.66%*3+121.76%",
+                "48.33%+48.33%*3+128.88%",
+                "51.00%+51.00%*3+135.99%",
+                "53.66%+53.66%*3+143.10%",
+                "56.33%+56.33%*3+150.21%",
+                "59.00%+59.00%*3+157.32%"
+              ]
+            ],
+            "Format": null
+          },
+          "9": {
+            "Name": "Cooldown",
+            "Param": [
+              [
+                "14",
+                "14",
+                "14",
+                "14",
+                "14",
+                "14",
+                "14",
+                "14",
+                "14",
+                "14",
+                "14",
+                "14",
+                "14",
+                "14",
+                "14",
+                "14",
+                "14",
+                "14",
+                "14",
+                "14"
+              ]
+            ],
+            "Format": "{0}s"
+          },
+          "10": {
+            "Name": "Concerto Regen",
+            "Param": [
+              [
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10"
+              ]
+            ],
+            "Format": null
+          },
+          "11": {
+            "Name": "Undaunted Wayfarer Concerto Regen",
+            "Param": [
+              [
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10"
+              ]
+            ],
+            "Format": null
+          }
+        },
+        "Consume": {
+          "1": [],
+          "2": [
+            {
+              "Key": 43020011,
+              "Value": 2
+            },
+            {
+              "Key": 41100011,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 1500
+            }
+          ],
+          "3": [
+            {
+              "Key": 43020011,
+              "Value": 3
+            },
+            {
+              "Key": 41100011,
+              "Value": 3
+            },
+            {
+              "Key": 2,
+              "Value": 2000
+            }
+          ],
+          "4": [
+            {
+              "Key": 43020012,
+              "Value": 2
+            },
+            {
+              "Key": 41100012,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 4500
+            }
+          ],
+          "5": [
+            {
+              "Key": 43020012,
+              "Value": 3
+            },
+            {
+              "Key": 41100012,
+              "Value": 3
+            },
+            {
+              "Key": 2,
+              "Value": 6000
+            }
+          ],
+          "6": [
+            {
+              "Key": 43020013,
+              "Value": 3
+            },
+            {
+              "Key": 41100013,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 16000
+            }
+          ],
+          "7": [
+            {
+              "Key": 43020013,
+              "Value": 5
+            },
+            {
+              "Key": 41100013,
+              "Value": 3
+            },
+            {
+              "Key": 41400254,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 30000
+            }
+          ],
+          "8": [
+            {
+              "Key": 43020014,
+              "Value": 2
+            },
+            {
+              "Key": 41100014,
+              "Value": 2
+            },
+            {
+              "Key": 41400254,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 50000
+            }
+          ],
+          "9": [
+            {
+              "Key": 43020014,
+              "Value": 3
+            },
+            {
+              "Key": 41100014,
+              "Value": 3
+            },
+            {
+              "Key": 41400254,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 70000
+            }
+          ],
+          "10": [
+            {
+              "Key": 43020014,
+              "Value": 6
+            },
+            {
+              "Key": 41100014,
+              "Value": 4
+            },
+            {
+              "Key": 41400254,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 100000
+            }
+          ]
+        },
+        "Damage": {
+          "1411220000": {
+            "Element": 4,
+            "RelatedProperty": "ATK",
+            "Type": 5,
+            "RateLv": [
+              1626,
+              1760,
+              1893,
+              2080,
+              2213,
+              2366,
+              2580,
+              2793,
+              3006,
+              3233,
+              3500,
+              3766,
+              4033,
+              4300,
+              4566,
+              4833,
+              5100,
+              5366,
+              5633,
+              5900
+            ],
+            "Energy": 231,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 3000
+          },
+          "1411200001": {
+            "Element": 4,
+            "RelatedProperty": "ATK",
+            "Type": 5,
+            "RateLv": [
+              3614,
+              3910,
+              4206,
+              4621,
+              4918,
+              5258,
+              5732,
+              6206,
+              6680,
+              7184,
+              7777,
+              8369,
+              8962,
+              9555,
+              10147,
+              10740,
+              11332,
+              11925,
+              12517,
+              13110
+            ],
+            "Energy": 503,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 6667
+          },
+          "1411220002": {
+            "Element": 4,
+            "RelatedProperty": "ATK",
+            "Type": 5,
+            "RateLv": [
+              1626,
+              1760,
+              1893,
+              2080,
+              2213,
+              2366,
+              2580,
+              2793,
+              3006,
+              3233,
+              3500,
+              3766,
+              4033,
+              4300,
+              4566,
+              4833,
+              5100,
+              5366,
+              5633,
+              5900
+            ],
+            "Energy": 231,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 3000
+          },
+          "1411220003": {
+            "Element": 4,
+            "RelatedProperty": "ATK",
+            "Type": 5,
+            "RateLv": [
+              4336,
+              4692,
+              5048,
+              5545,
+              5901,
+              6310,
+              6879,
+              7448,
+              8016,
+              8621,
+              9332,
+              10043,
+              10754,
+              11465,
+              12176,
+              12888,
+              13599,
+              14310,
+              15021,
+              15732
+            ],
+            "Energy": 614,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 8000
+          },
+          "1411900002": {
+            "Element": 4,
+            "RelatedProperty": "ATK",
+            "Type": 5,
+            "RateLv": [
+              7500,
+              7500,
+              7500,
+              7500,
+              7500,
+              7500,
+              7500,
+              7500,
+              7500,
+              7500,
+              7500,
+              7500,
+              7500,
+              7500,
+              7500,
+              7500,
+              7500,
+              7500,
+              7500,
+              7500
+            ],
+            "Energy": 231,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 3000
+          },
+          "1411900003": {
+            "Element": 4,
+            "RelatedProperty": "ATK",
+            "Type": 5,
+            "RateLv": [
+              7500,
+              7500,
+              7500,
+              7500,
+              7500,
+              7500,
+              7500,
+              7500,
+              7500,
+              7500,
+              7500,
+              7500,
+              7500,
+              7500,
+              7500,
+              7500,
+              7500,
+              7500,
+              7500,
+              7500
+            ],
+            "Energy": 231,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 3000
+          },
+          "1411900004": {
+            "Element": 4,
+            "RelatedProperty": "ATK",
+            "Type": 5,
+            "RateLv": [
+              20000,
+              20000,
+              20000,
+              20000,
+              20000,
+              20000,
+              20000,
+              20000,
+              20000,
+              20000,
+              20000,
+              20000,
+              20000,
+              20000,
+              20000,
+              20000,
+              20000,
+              20000,
+              20000,
+              20000
+            ],
+            "Energy": 614,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 8000
+          }
+        }
+      }
+    },
+    "3": {
+      "ParentNodes": [],
+      "NodeType": 2,
+      "Coordinate": 3,
+      "UnLockCondition": 0,
+      "Consume": [
+        {
+          "Key": 43020032,
+          "Value": 2
+        },
+        {
+          "Key": 41100022,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 3900
+        }
+      ],
+      "Skill": {
+        "Name": "Sundering Strike",
+        "Desc": "Deal <color=Wind>Aero DMG</color> to targets within range, considered as Echo Skill DMG.\nFor every {1} of Qiuyuan's Crit. Rate over {0}, this skill increases the Crit. DMG of all nearby active Resonators in the team by {2} for {3}s, up to {4}.",
+        "Param": [
+          "50%",
+          "1%",
+          "2%",
+          "30",
+          "30%"
+        ],
+        "SimpleDesc": "Deal <color=Wind>Aero DMG</color>.\nFor every {1} of Qiuyuan's Crit. Rate over {0}, this skill increases the Crit. DMG of all nearby active Resonators in the team by {2} for {3}s, maxed at {4}.",
+        "SimpleParam": [
+          "50%",
+          "1%",
+          "2%",
+          "30",
+          "30%"
+        ],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconQiuyuan/SP_IconQiuyuanC1.SP_IconQiuyuanC1",
+        "Type": "Resonance Liberation",
+        "Level": {
+          "13": {
+            "Name": "Skill DMG",
+            "Param": [
+              [
+                "400.00%",
+                "432.80%",
+                "465.60%",
+                "511.52%",
+                "544.32%",
+                "582.04%",
+                "634.52%",
+                "687.00%",
+                "739.48%",
+                "795.24%",
+                "860.84%",
+                "926.44%",
+                "992.04%",
+                "1057.64%",
+                "1123.24%",
+                "1188.84%",
+                "1254.44%",
+                "1320.04%",
+                "1385.64%",
+                "1451.24%"
+              ]
+            ],
+            "Format": null
+          },
+          "14": {
+            "Name": "Cooldown",
+            "Param": [
+              [
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25"
+              ]
+            ],
+            "Format": "{0}s"
+          },
+          "15": {
+            "Name": "Resonance Cost",
+            "Param": [
+              [
+                "125",
+                "125",
+                "125",
+                "125",
+                "125",
+                "125",
+                "125",
+                "125",
+                "125",
+                "125"
+              ]
+            ],
+            "Format": null
+          },
+          "16": {
+            "Name": "Concerto Regen",
+            "Param": [
+              [
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20"
+              ]
+            ],
+            "Format": null
+          }
+        },
+        "Consume": {
+          "1": [],
+          "2": [
+            {
+              "Key": 43020011,
+              "Value": 2
+            },
+            {
+              "Key": 41100011,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 1500
+            }
+          ],
+          "3": [
+            {
+              "Key": 43020011,
+              "Value": 3
+            },
+            {
+              "Key": 41100011,
+              "Value": 3
+            },
+            {
+              "Key": 2,
+              "Value": 2000
+            }
+          ],
+          "4": [
+            {
+              "Key": 43020012,
+              "Value": 2
+            },
+            {
+              "Key": 41100012,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 4500
+            }
+          ],
+          "5": [
+            {
+              "Key": 43020012,
+              "Value": 3
+            },
+            {
+              "Key": 41100012,
+              "Value": 3
+            },
+            {
+              "Key": 2,
+              "Value": 6000
+            }
+          ],
+          "6": [
+            {
+              "Key": 43020013,
+              "Value": 3
+            },
+            {
+              "Key": 41100013,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 16000
+            }
+          ],
+          "7": [
+            {
+              "Key": 43020013,
+              "Value": 5
+            },
+            {
+              "Key": 41100013,
+              "Value": 3
+            },
+            {
+              "Key": 41400254,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 30000
+            }
+          ],
+          "8": [
+            {
+              "Key": 43020014,
+              "Value": 2
+            },
+            {
+              "Key": 41100014,
+              "Value": 2
+            },
+            {
+              "Key": 41400254,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 50000
+            }
+          ],
+          "9": [
+            {
+              "Key": 43020014,
+              "Value": 3
+            },
+            {
+              "Key": 41100014,
+              "Value": 3
+            },
+            {
+              "Key": 41400254,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 70000
+            }
+          ],
+          "10": [
+            {
+              "Key": 43020014,
+              "Value": 6
+            },
+            {
+              "Key": 41100014,
+              "Value": 4
+            },
+            {
+              "Key": 41400254,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 100000
+            }
+          ]
+        },
+        "Damage": {
+          "1411230001": {
+            "Element": 4,
+            "RelatedProperty": "ATK",
+            "Type": 5,
+            "RateLv": [
+              40000,
+              43280,
+              46560,
+              51152,
+              54432,
+              58204,
+              63452,
+              68700,
+              73948,
+              79524,
+              86084,
+              92644,
+              99204,
+              105764,
+              112324,
+              118884,
+              125444,
+              132004,
+              138564,
+              145124
+            ],
+            "Energy": 0,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 40000
+          },
+          "1411230011": {
+            "Element": 4,
+            "RelatedProperty": "ATK",
+            "Type": 5,
+            "RateLv": [
+              90000,
+              93280,
+              96560,
+              101152,
+              104432,
+              108204,
+              113452,
+              118700,
+              123948,
+              129524,
+              136084,
+              142644,
+              149204,
+              155764,
+              162324,
+              168884,
+              175444,
+              182004,
+              188564,
+              195124
+            ],
+            "Energy": 0,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 40000
+          },
+          "14112300010": {
+            "Element": 0,
+            "RelatedProperty": "ATK",
+            "Type": 0,
+            "RateLv": [
+              0
+            ],
+            "Energy": 0,
+            "ElementPower": 0,
+            "HardnessLv": 0,
+            "ToughLv": 0
+          }
+        }
+      }
+    },
+    "4": {
+      "ParentNodes": [
+        7
+      ],
+      "NodeType": 3,
+      "Coordinate": 2,
+      "UnLockCondition": 0,
+      "Consume": [
+        {
+          "Key": 43020032,
+          "Value": 2
+        },
+        {
+          "Key": 41100022,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 3900
+        }
+      ],
+      "Skill": {
+        "Name": "Quietude Within",
+        "Desc": "Qiuyuan obtains <color=Highlight>Quietude Within</color> for {0}s upon entering the <te href=141102>Inksplash of Mind</te> state. This effect can be triggered once every {3}s.\nHeavy Attack <color=Highlight>Thus Spoke the Blade: To Teach</color>, <color=Highlight>Thus Spoke the Blade: To Save</color>, and <color=Highlight>Thus Spoke the Blade: To Sacrifice</color> deal {1} more DMG. <color=Highlight>Thus Spoke the Blade: To Sacrifice</color> additionally restores <SapTag=2>{2}</SapTag> {Cus:Sap,S=point P=points SapTag=2} of Concerto Energy on hit.\n- This effect ends early when Qiuyuan is switched off the field.",
+        "Param": [
+          "10",
+          "50%",
+          "30",
+          "22"
+        ],
+        "SimpleDesc": "Qiuyuan obtains <color=Highlight>Quietude Within</color> for {0}s upon entering the <te href=141102>Inksplash of Mind</te> state. This effect can be triggered once every {3}s.\nHeavy Attack <color=Highlight>Thus Spoke the Blade: To Teach</color>, <color=Highlight>Thus Spoke the Blade: To Save</color>, and <color=Highlight>Thus Spoke the Blade: To Sacrifice</color> deal {1} more DMG. <color=Highlight>Thus Spoke the Blade: To Sacrifice</color> additionally restores <SapTag=2>{2}</SapTag> {Cus:Sap,S=point P=points SapTag=2} of Concerto Energy on hit.\n- This effect ends early when Qiuyuan is switched off the field.",
+        "SimpleParam": [
+          "10",
+          "50%",
+          "30",
+          "22"
+        ],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconQiuyuan/SP_IconQiuyuanD1.SP_IconQiuyuanD1",
+        "Type": "Inherent Skill",
+        "Level": {},
+        "Consume": {
+          "1": [
+            {
+              "Key": 43020012,
+              "Value": 3
+            },
+            {
+              "Key": 41100012,
+              "Value": 3
+            },
+            {
+              "Key": 41400254,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 10000
+            }
+          ]
+        },
+        "Damage": {}
+      }
+    },
+    "5": {
+      "ParentNodes": [
+        4
+      ],
+      "NodeType": 3,
+      "Coordinate": 3,
+      "UnLockCondition": 0,
+      "Consume": [
+        {
+          "Key": 43020032,
+          "Value": 2
+        },
+        {
+          "Key": 41100022,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 3900
+        }
+      ],
+      "Skill": {
+        "Name": "Drink Away Woes Age-Old",
+        "Desc": "When casting Echo Skill, Qiuyuan's bamboo flask absorbs the overflowing energy and brews it into <color=Highlight>Flowing Panacea</color>.\nThe next time <te href=141101>Swordster's Soliloquy</te> is obtained, the <color=Highlight>Flowing Panacea</color> is consumed to gain {0} ATK increase for {1}s.",
+        "Param": [
+          "10%",
+          "20"
+        ],
+        "SimpleDesc": "When casting Echo Skill, Qiuyuan's bamboo flask absorbs the overflowing energy and brews it into <color=Highlight>Flowing Panacea</color>.\nThe next time <te href=141101>Swordster's Soliloquy</te> is obtained, the <color=Highlight>Flowing Panacea</color> is consumed to gain {0} ATK for {1}s.",
+        "SimpleParam": [
+          "10%",
+          "20"
+        ],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconQiuyuan/SP_IconQiuyuanD2.SP_IconQiuyuanD2",
+        "Type": "Inherent Skill",
+        "Level": {},
+        "Consume": {
+          "1": [
+            {
+              "Key": 43020013,
+              "Value": 3
+            },
+            {
+              "Key": 41100013,
+              "Value": 3
+            },
+            {
+              "Key": 41400254,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 20000
+            }
+          ]
+        },
+        "Damage": {}
+      }
+    },
+    "6": {
+      "ParentNodes": [],
+      "NodeType": 2,
+      "Coordinate": 4,
+      "UnLockCondition": 0,
+      "Consume": [
+        {
+          "Key": 43020032,
+          "Value": 2
+        },
+        {
+          "Key": 41100022,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 3900
+        }
+      ],
+      "Skill": {
+        "Name": "Attack the Must-Defend",
+        "Desc": "Attack the target, dealing <color=Wind>Aero DMG</color>, considered as Heavy Attack DMG.\nWithin a certain period of time after casting this skill, {Cus:Ipt,Touch=tap PC=press Gamepad=press} <color=Highlight>Normal Attack</color> to perform Basic Attack <color=Highlight>Thus Spoke the Blade: Inkwash</color> Stage 3.",
+        "Param": [],
+        "SimpleDesc": "Deal <color=Wind>Aero DMG</color>.\nWithin a certain period of time after casting this skill, {Cus:Ipt,Touch=tap PC=press Gamepad=press} <color=Highlight>Normal Attack</color> to perform Basic Attack <color=Highlight>Thus Spoke the Blade: Inkwash</color> Stage 3.",
+        "SimpleParam": [],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconQiuyuan/SP_IconQiuyuanQTE.SP_IconQiuyuanQTE",
+        "Type": "Intro Skill",
+        "Level": {
+          "18": {
+            "Name": "Skill Damage",
+            "Param": [
+              [
+                "4.80%*5+24.00%+72.00%",
+                "5.20%*5+25.97%+77.91%",
+                "5.59%*5+27.94%+83.81%",
+                "6.14%*5+30.70%+92.08%",
+                "6.54%*5+32.66%+97.98%",
+                "6.99%*5+34.93%+104.77%",
+                "7.62%*5+38.08%+114.22%",
+                "8.25%*5+41.22%+123.66%",
+                "8.88%*5+44.37%+133.11%",
+                "9.55%*5+47.72%+143.15%",
+                "10.34%*5+51.66%+154.96%",
+                "11.12%*5+55.59%+166.76%",
+                "11.91%*5+59.53%+178.57%",
+                "12.70%*5+63.46%+190.38%",
+                "13.48%*5+67.40%+202.19%",
+                "14.27%*5+71.34%+214.00%",
+                "15.06%*5+75.27%+225.80%",
+                "15.85%*5+79.21%+237.61%",
+                "16.63%*5+83.14%+249.42%",
+                "17.42%*5+87.08%+261.23%"
+              ]
+            ],
+            "Format": null
+          },
+          "19": {
+            "Name": "Concerto Regen",
+            "Param": [
+              [
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10"
+              ]
+            ],
+            "Format": null
+          }
+        },
+        "Consume": {
+          "1": [],
+          "2": [
+            {
+              "Key": 43020011,
+              "Value": 2
+            },
+            {
+              "Key": 41100011,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 1500
+            }
+          ],
+          "3": [
+            {
+              "Key": 43020011,
+              "Value": 3
+            },
+            {
+              "Key": 41100011,
+              "Value": 3
+            },
+            {
+              "Key": 2,
+              "Value": 2000
+            }
+          ],
+          "4": [
+            {
+              "Key": 43020012,
+              "Value": 2
+            },
+            {
+              "Key": 41100012,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 4500
+            }
+          ],
+          "5": [
+            {
+              "Key": 43020012,
+              "Value": 3
+            },
+            {
+              "Key": 41100012,
+              "Value": 3
+            },
+            {
+              "Key": 2,
+              "Value": 6000
+            }
+          ],
+          "6": [
+            {
+              "Key": 43020013,
+              "Value": 3
+            },
+            {
+              "Key": 41100013,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 16000
+            }
+          ],
+          "7": [
+            {
+              "Key": 43020013,
+              "Value": 5
+            },
+            {
+              "Key": 41100013,
+              "Value": 3
+            },
+            {
+              "Key": 41400254,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 30000
+            }
+          ],
+          "8": [
+            {
+              "Key": 43020014,
+              "Value": 2
+            },
+            {
+              "Key": 41100014,
+              "Value": 2
+            },
+            {
+              "Key": 41400254,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 50000
+            }
+          ],
+          "9": [
+            {
+              "Key": 43020014,
+              "Value": 3
+            },
+            {
+              "Key": 41100014,
+              "Value": 3
+            },
+            {
+              "Key": 41400254,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 70000
+            }
+          ],
+          "10": [
+            {
+              "Key": 43020014,
+              "Value": 6
+            },
+            {
+              "Key": 41100014,
+              "Value": 4
+            },
+            {
+              "Key": 41400254,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 100000
+            }
+          ]
+        },
+        "Damage": {
+          "1411900005": {
+            "Element": 4,
+            "RelatedProperty": "ATK",
+            "Type": 1,
+            "RateLv": [
+              480,
+              520,
+              559,
+              614,
+              654,
+              699,
+              762,
+              825,
+              888,
+              955,
+              1034,
+              1112,
+              1191,
+              1270,
+              1348,
+              1427,
+              1506,
+              1585,
+              1663,
+              1742
+            ],
+            "Energy": 40,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 800
+          },
+          "1411900006": {
+            "Element": 4,
+            "RelatedProperty": "ATK",
+            "Type": 1,
+            "RateLv": [
+              2400,
+              2597,
+              2794,
+              3070,
+              3266,
+              3493,
+              3808,
+              4122,
+              4437,
+              4772,
+              5166,
+              5559,
+              5953,
+              6346,
+              6740,
+              7134,
+              7527,
+              7921,
+              8314,
+              8708
+            ],
+            "Energy": 200,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 4000
+          },
+          "1411900007": {
+            "Element": 4,
+            "RelatedProperty": "ATK",
+            "Type": 1,
+            "RateLv": [
+              7200,
+              7791,
+              8381,
+              9208,
+              9798,
+              10477,
+              11422,
+              12366,
+              13311,
+              14315,
+              15496,
+              16676,
+              17857,
+              19038,
+              20219,
+              21400,
+              22580,
+              23761,
+              24942,
+              26123
+            ],
+            "Energy": 600,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 12000
+          }
+        }
+      }
+    },
+    "7": {
+      "ParentNodes": [],
+      "NodeType": 1,
+      "Coordinate": 1,
+      "UnLockCondition": 0,
+      "Consume": [
+        {
+          "Key": 43020032,
+          "Value": 2
+        },
+        {
+          "Key": 41100022,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 3900
+        }
+      ],
+      "Skill": {
+        "Name": "Verdant Edge",
+        "Desc": "<size=40><color=Title>Basic Attack - Thus Spoke the Blade: Inkwash</color></size>\nWhen Qiuyuan reaches {0} points of <te href=141101>Swordster's Soliloquy</te>, his <color=Highlight>Basic Attack</color> is replaced with Basic Attack <color=Highlight>Thus Spoke the Blade: Inkwash</color>, which chains together up to 4 consecutive strikes, dealing <color=Wind>Aero DMG</color>, considered as Heavy Attack DMG.\n<size=10></size>\n<size=40><color=Title>Bamboo's Shade</color></size>\nWhen Qiuyuan reaches {1} points of <te href=141101>Swordster's Soliloquy</te>, he gains the <color=Highlight>Bamboo's Shade</color> effect, granting all nearby active Resonators in the team {2} Echo Skill DMG Bonus for {3}s.\n<size=10></size>\n<size=40><color=Title>Inksplash of Mind</color></size>\nWhen <te href=141101>Swordster's Soliloquy</te> is full, Qiuyuan enters the <color=Highlight>Inksplash of Mind</color> state for {4}s, during which <color=Highlight>Heavy Attack</color> is replaced with Heavy Attack <color=Highlight>Thus Spoke the Blade: To Save</color>.\nIn this state, hold <color=Highlight>Normal Attack</color> to consume Swordster's Soliloquy to perform Heavy Attack <color=Highlight>Thus Spoke the Blade: To Teach</color>, <color=Highlight>Thus Spoke the Blade: To Save</color>, and <color=Highlight>Thus Spoke the Blade: To Sacrifice</color> in order, dealing <color=Wind>Aero DMG</color>, considered as Heavy Attack DMG.\n- Performing <color=Highlight>Thus Spoke the Blade: To Teach</color>, <color=Highlight>Thus Spoke the Blade: To Save</color>, or <color=Highlight>Thus Spoke the Blade: To Sacrifice</color> is considered as performing <color=Highlight>Echo Skill</color>.\n- Inksplash of Mind ends when Swordster's Soliloquy is used up.\n<size=10></size>\n<size=40><color=Title>Swordster's Soliloquy</color></size>\nQiuyuan can hold up to {5} points of Swordster's Soliloquy.\n- {6} points of Swordster's Soliloquy is obtained when performing <color=Highlight>Basic Attack</color> Stage 3.\n- {7} points of Swordster's Soliloquy is obtained when performing each stage of Basic Attack <color=Highlight>Thus Spoke the Blade: Inkwash</color>.\n- {8} points of Swordster's Soliloquy is obtained when performing <color=Highlight>Dodge Counter</color>.\n- {9} points of Swordster's Soliloquy is obtained when performing <color=Highlight>Intro Skill</color>.\n- Swordster's Soliloquy cannot be obtained in the Inksplash of Mind state.\n- Swordster's Soliloquy is cleared when the Inksplash of Mind state ends.",
+        "Param": [
+          "200",
+          "400",
+          "30%",
+          "30",
+          "8",
+          "600",
+          "100",
+          "100",
+          "100",
+          "400"
+        ],
+        "SimpleDesc": "<size=40><color=Title>Basic Attack - Thus Spoke the Blade: Inkwash</color></size>\nWhen Qiuyuan reaches {0} points of <te href=141101>Swordster's Soliloquy</te>, his <color=Highlight>Basic Attack</color> is replaced with Basic Attack <color=Highlight>Thus Spoke the Blade: Inkwash</color>, dealing <color=Wind>Aero DMG</color>.\n<size=10></size>\n<size=40><color=Title>Bamboo's Shade</color></size>\nWhen Qiuyuan reaches {1} points of <te href=141101>Swordster's Soliloquy</te>, he gains the <color=Highlight>Bamboo's Shade</color> effect, granting nearby active Resonators in the team {2} Echo Skill DMG Bonus for {3}s.\n<size=10></size>\n<size=40><color=Title>Inksplash of Mind</color></size>\nWhen <te href=141101>Swordster's Soliloquy</te> is full, Qiuyuan enters the <color=Highlight>Inksplash of Mind</color> state for {4}s, during which his <color=Highlight>Heavy Attack</color> is replaced by Heavy Attack <color=Highlight>Thus Spoke the Blade: To Save</color>.\nIn this state, hold <color=Highlight>Normal Attack</color> to consume Swordster's Soliloquy to perform Heavy Attack <color=Highlight>Thus Spoke the Blade: To Teach</color>, <color=Highlight>Thus Spoke the Blade: To Save</color>, and <color=Highlight>Thus Spoke the Blade: To Sacrifice</color>, dealing <color=Wind>Aero DMG</color>, considered as Heavy Attack DMG.\n<size=10></size>\n<size=40><color=Title>Swordster's Soliloquy</color></size>\nQiuyuan can hold up to {5} points of Swordster's Soliloquy.\n- Swordster's Soliloquy is obtained when performing <color=Highlight>Basic Attack</color> Stage 3, Basic Attack <color=Highlight>Thus Spoke the Blade: Inkwash</color>, <color=Highlight>Dodge Counter</color>, and <color=Highlight>Intro Skill</color>.\n- Swordster's Soliloquy cannot be obtained in the Inksplash of Mind state.\n- Swordster's Soliloquy is cleared when the Inksplash of Mind state ends.",
+        "SimpleParam": [
+          "200",
+          "400",
+          "30%",
+          "30",
+          "8",
+          "600"
+        ],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconQiuyuan/SP_IconQiuyuanY.SP_IconQiuyuanY",
+        "Type": "Forte Circuit",
+        "Level": {
+          "21": {
+            "Name": "Thus Spoke the Blade: Inkwash Stage 1 DMG",
+            "Param": [
+              [
+                "30.00%+30.00%",
+                "32.46%+32.46%",
+                "34.92%+34.92%",
+                "38.37%+38.37%",
+                "40.83%+40.83%",
+                "43.66%+43.66%",
+                "47.59%+47.59%",
+                "51.53%+51.53%",
+                "55.47%+55.47%",
+                "59.65%+59.65%",
+                "64.57%+64.57%",
+                "69.49%+69.49%",
+                "74.41%+74.41%",
+                "79.33%+79.33%",
+                "84.25%+84.25%",
+                "89.17%+89.17%",
+                "94.09%+94.09%",
+                "99.01%+99.01%",
+                "103.93%+103.93%",
+                "108.85%+108.85%"
+              ]
+            ],
+            "Format": null
+          },
+          "22": {
+            "Name": "Thus Spoke the Blade: Inkwash Stage 2 DMG",
+            "Param": [
+              [
+                "27.99%+27.99%+37.32%",
+                "30.29%+30.29%+40.39%",
+                "32.59%+32.59%+43.45%",
+                "35.80%+35.80%+47.73%",
+                "38.09%+38.09%+50.79%",
+                "40.73%+40.73%+54.31%",
+                "44.41%+44.41%+59.21%",
+                "48.08%+48.08%+64.10%",
+                "51.75%+51.75%+69.00%",
+                "55.65%+55.65%+74.20%",
+                "60.24%+60.24%+80.32%",
+                "64.83%+64.83%+86.44%",
+                "69.42%+69.42%+92.56%",
+                "74.01%+74.01%+98.68%",
+                "78.60%+78.60%+104.80%",
+                "83.19%+83.19%+110.92%",
+                "87.78%+87.78%+117.04%",
+                "92.37%+92.37%+123.16%",
+                "96.97%+96.97%+129.29%",
+                "101.56%+101.56%+135.41%"
+              ]
+            ],
+            "Format": null
+          },
+          "23": {
+            "Name": "Thus Spoke the Blade: Inkwash Stage 3 DMG",
+            "Param": [
+              [
+                "7.33%+7.33%*4+36.65%",
+                "7.94%+7.94%*4+39.66%",
+                "8.54%+8.54%*4+42.67%",
+                "9.38%+9.38%*4+46.87%",
+                "9.98%+9.98%*4+49.88%",
+                "10.67%+10.67%*4+53.33%",
+                "11.63%+11.63%*4+58.14%",
+                "12.59%+12.59%*4+62.95%",
+                "13.56%+13.56%*4+67.76%",
+                "14.58%+14.58%*4+72.87%",
+                "15.78%+15.78%*4+78.88%",
+                "16.98%+16.98%*4+84.89%",
+                "18.18%+18.18%*4+90.90%",
+                "19.39%+19.39%*4+96.91%",
+                "20.59%+20.59%*4+102.92%",
+                "21.79%+21.79%*4+108.93%",
+                "22.99%+22.99%*4+114.94%",
+                "24.19%+24.19%*4+120.95%",
+                "25.40%+25.40%*4+126.96%",
+                "26.60%+26.60%*4+132.97%"
+              ]
+            ],
+            "Format": null
+          },
+          "24": {
+            "Name": "Thus Spoke the Blade: Inkwash Stage 4 DMG",
+            "Param": [
+              [
+                "86.70%",
+                "93.81%",
+                "100.92%",
+                "110.88%",
+                "117.99%",
+                "126.16%",
+                "137.54%",
+                "148.91%",
+                "160.29%",
+                "172.37%",
+                "186.59%",
+                "200.81%",
+                "215.03%",
+                "229.25%",
+                "243.47%",
+                "257.69%",
+                "271.90%",
+                "286.12%",
+                "300.34%",
+                "314.56%"
+              ]
+            ],
+            "Format": null
+          },
+          "25": {
+            "Name": "Thus Spoke the Blade: To Teach DMG",
+            "Param": [
+              [
+                "45.99%+45.99%+45.99%+45.99%+45.99%",
+                "49.77%+49.77%+49.77%+49.77%+49.77%",
+                "53.54%+53.54%+53.54%+53.54%+53.54%",
+                "58.82%+58.82%+58.82%+58.82%+58.82%",
+                "62.59%+62.59%+62.59%+62.59%+62.59%",
+                "66.93%+66.93%+66.93%+66.93%+66.93%",
+                "72.96%+72.96%+72.96%+72.96%+72.96%",
+                "78.99%+78.99%+78.99%+78.99%+78.99%",
+                "85.03%+85.03%+85.03%+85.03%+85.03%",
+                "91.44%+91.44%+91.44%+91.44%+91.44%",
+                "98.98%+98.98%+98.98%+98.98%+98.98%",
+                "106.52%+106.52%+106.52%+106.52%+106.52%",
+                "114.06%+114.06%+114.06%+114.06%+114.06%",
+                "121.61%+121.61%+121.61%+121.61%+121.61%",
+                "129.15%+129.15%+129.15%+129.15%+129.15%",
+                "136.69%+136.69%+136.69%+136.69%+136.69%",
+                "144.23%+144.23%+144.23%+144.23%+144.23%",
+                "151.78%+151.78%+151.78%+151.78%+151.78%",
+                "159.32%+159.32%+159.32%+159.32%+159.32%",
+                "166.86%+166.86%+166.86%+166.86%+166.86%"
+              ]
+            ],
+            "Format": null
+          },
+          "26": {
+            "Name": "Thus Spoke the Blade: To Save DMG",
+            "Param": [
+              [
+                "19.34%*3+15.82%+15.82%+15.82%",
+                "20.92%*3+17.12%+17.12%+17.12%",
+                "22.51%*3+18.42%+18.42%+18.42%",
+                "24.73%*3+20.23%+20.23%+20.23%",
+                "26.31%*3+21.53%+21.53%+21.53%",
+                "28.14%*3+23.02%+23.02%+23.02%",
+                "30.67%*3+25.10%+25.10%+25.10%",
+                "33.21%*3+27.17%+27.17%+27.17%",
+                "35.74%*3+29.25%+29.25%+29.25%",
+                "38.44%*3+31.45%+31.45%+31.45%",
+                "41.61%*3+34.05%+34.05%+34.05%",
+                "44.78%*3+36.64%+36.64%+36.64%",
+                "47.95%*3+39.23%+39.23%+39.23%",
+                "51.12%*3+41.83%+41.83%+41.83%",
+                "54.29%*3+44.42%+44.42%+44.42%",
+                "57.46%*3+47.02%+47.02%+47.02%",
+                "60.63%*3+49.61%+49.61%+49.61%",
+                "63.80%*3+52.20%+52.20%+52.20%",
+                "66.97%*3+54.80%+54.80%+54.80%",
+                "70.15%*3+57.39%+57.39%+57.39%"
+              ]
+            ],
+            "Format": null
+          },
+          "27": {
+            "Name": "Thus Spoke the Blade: To Sacrifice DMG",
+            "Param": [
+              [
+                "109.50%",
+                "118.48%",
+                "127.46%",
+                "140.03%",
+                "149.01%",
+                "159.34%",
+                "173.70%",
+                "188.07%",
+                "202.44%",
+                "217.70%",
+                "235.66%",
+                "253.62%",
+                "271.58%",
+                "289.53%",
+                "307.49%",
+                "325.45%",
+                "343.41%",
+                "361.37%",
+                "379.32%",
+                "397.28%"
+              ]
+            ],
+            "Format": null
+          }
+        },
+        "Consume": {
+          "1": [],
+          "2": [
+            {
+              "Key": 43020011,
+              "Value": 2
+            },
+            {
+              "Key": 41100011,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 1500
+            }
+          ],
+          "3": [
+            {
+              "Key": 43020011,
+              "Value": 3
+            },
+            {
+              "Key": 41100011,
+              "Value": 3
+            },
+            {
+              "Key": 2,
+              "Value": 2000
+            }
+          ],
+          "4": [
+            {
+              "Key": 43020012,
+              "Value": 2
+            },
+            {
+              "Key": 41100012,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 4500
+            }
+          ],
+          "5": [
+            {
+              "Key": 43020012,
+              "Value": 3
+            },
+            {
+              "Key": 41100012,
+              "Value": 3
+            },
+            {
+              "Key": 2,
+              "Value": 6000
+            }
+          ],
+          "6": [
+            {
+              "Key": 43020013,
+              "Value": 3
+            },
+            {
+              "Key": 41100013,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 16000
+            }
+          ],
+          "7": [
+            {
+              "Key": 43020013,
+              "Value": 5
+            },
+            {
+              "Key": 41100013,
+              "Value": 3
+            },
+            {
+              "Key": 41400254,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 30000
+            }
+          ],
+          "8": [
+            {
+              "Key": 43020014,
+              "Value": 2
+            },
+            {
+              "Key": 41100014,
+              "Value": 2
+            },
+            {
+              "Key": 41400254,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 50000
+            }
+          ],
+          "9": [
+            {
+              "Key": 43020014,
+              "Value": 3
+            },
+            {
+              "Key": 41100014,
+              "Value": 3
+            },
+            {
+              "Key": 41400254,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 70000
+            }
+          ],
+          "10": [
+            {
+              "Key": 43020014,
+              "Value": 6
+            },
+            {
+              "Key": 41100014,
+              "Value": 4
+            },
+            {
+              "Key": 41400254,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 100000
+            }
+          ]
+        },
+        "Damage": {
+          "1411110001": {
+            "Element": 4,
+            "RelatedProperty": "ATK",
+            "Type": 1,
+            "RateLv": [
+              4599,
+              4977,
+              5354,
+              5882,
+              6259,
+              6693,
+              7296,
+              7899,
+              8503,
+              9144,
+              9898,
+              10652,
+              11406,
+              12161,
+              12915,
+              13669,
+              14423,
+              15178,
+              15932,
+              16686
+            ],
+            "Energy": 154,
+            "ElementPower": 295,
+            "HardnessLv": 10000,
+            "ToughLv": 3066
+          },
+          "1411110002": {
+            "Element": 4,
+            "RelatedProperty": "ATK",
+            "Type": 1,
+            "RateLv": [
+              4599,
+              4977,
+              5354,
+              5882,
+              6259,
+              6693,
+              7296,
+              7899,
+              8503,
+              9144,
+              9898,
+              10652,
+              11406,
+              12161,
+              12915,
+              13669,
+              14423,
+              15178,
+              15932,
+              16686
+            ],
+            "Energy": 154,
+            "ElementPower": 295,
+            "HardnessLv": 10000,
+            "ToughLv": 3066
+          },
+          "1411110003": {
+            "Element": 4,
+            "RelatedProperty": "ATK",
+            "Type": 1,
+            "RateLv": [
+              4599,
+              4977,
+              5354,
+              5882,
+              6259,
+              6693,
+              7296,
+              7899,
+              8503,
+              9144,
+              9898,
+              10652,
+              11406,
+              12161,
+              12915,
+              13669,
+              14423,
+              15178,
+              15932,
+              16686
+            ],
+            "Energy": 154,
+            "ElementPower": 295,
+            "HardnessLv": 10000,
+            "ToughLv": 3066
+          },
+          "1411110004": {
+            "Element": 4,
+            "RelatedProperty": "ATK",
+            "Type": 1,
+            "RateLv": [
+              4599,
+              4977,
+              5354,
+              5882,
+              6259,
+              6693,
+              7296,
+              7899,
+              8503,
+              9144,
+              9898,
+              10652,
+              11406,
+              12161,
+              12915,
+              13669,
+              14423,
+              15178,
+              15932,
+              16686
+            ],
+            "Energy": 154,
+            "ElementPower": 295,
+            "HardnessLv": 10000,
+            "ToughLv": 3066
+          },
+          "1411110005": {
+            "Element": 4,
+            "RelatedProperty": "ATK",
+            "Type": 1,
+            "RateLv": [
+              4599,
+              4977,
+              5354,
+              5882,
+              6259,
+              6693,
+              7296,
+              7899,
+              8503,
+              9144,
+              9898,
+              10652,
+              11406,
+              12161,
+              12915,
+              13669,
+              14423,
+              15178,
+              15932,
+              16686
+            ],
+            "Energy": 154,
+            "ElementPower": 295,
+            "HardnessLv": 10000,
+            "ToughLv": 3066
+          },
+          "1411120001": {
+            "Element": 4,
+            "RelatedProperty": "ATK",
+            "Type": 1,
+            "RateLv": [
+              1934,
+              2092,
+              2251,
+              2473,
+              2631,
+              2814,
+              3067,
+              3321,
+              3574,
+              3844,
+              4161,
+              4478,
+              4795,
+              5112,
+              5429,
+              5746,
+              6063,
+              6380,
+              6697,
+              7015
+            ],
+            "Energy": 65,
+            "ElementPower": 124,
+            "HardnessLv": 10000,
+            "ToughLv": 1289
+          },
+          "1411120002": {
+            "Element": 4,
+            "RelatedProperty": "ATK",
+            "Type": 1,
+            "RateLv": [
+              1582,
+              1712,
+              1842,
+              2023,
+              2153,
+              2302,
+              2510,
+              2717,
+              2925,
+              3145,
+              3405,
+              3664,
+              3923,
+              4183,
+              4442,
+              4702,
+              4961,
+              5220,
+              5480,
+              5739
+            ],
+            "Energy": 53,
+            "ElementPower": 102,
+            "HardnessLv": 10000,
+            "ToughLv": 1055
+          },
+          "1411120003": {
+            "Element": 4,
+            "RelatedProperty": "ATK",
+            "Type": 1,
+            "RateLv": [
+              10950,
+              11848,
+              12746,
+              14003,
+              14901,
+              15934,
+              17370,
+              18807,
+              20244,
+              21770,
+              23566,
+              25362,
+              27158,
+              28953,
+              30749,
+              32545,
+              34341,
+              36137,
+              37932,
+              39728
+            ],
+            "Energy": 365,
+            "ElementPower": 701,
+            "HardnessLv": 10000,
+            "ToughLv": 7300
+          },
+          "1411020001": {
+            "Element": 4,
+            "RelatedProperty": "ATK",
+            "Type": 1,
+            "RateLv": [
+              3000,
+              3246,
+              3492,
+              3837,
+              4083,
+              4366,
+              4759,
+              5153,
+              5547,
+              5965,
+              6457,
+              6949,
+              7441,
+              7933,
+              8425,
+              8917,
+              9409,
+              9901,
+              10393,
+              10885
+            ],
+            "Energy": 75,
+            "ElementPower": 240,
+            "HardnessLv": 10000,
+            "ToughLv": 3000
+          },
+          "1411020002": {
+            "Element": 4,
+            "RelatedProperty": "ATK",
+            "Type": 1,
+            "RateLv": [
+              3000,
+              3246,
+              3492,
+              3837,
+              4083,
+              4366,
+              4759,
+              5153,
+              5547,
+              5965,
+              6457,
+              6949,
+              7441,
+              7933,
+              8425,
+              8917,
+              9409,
+              9901,
+              10393,
+              10885
+            ],
+            "Energy": 75,
+            "ElementPower": 240,
+            "HardnessLv": 10000,
+            "ToughLv": 3000
+          },
+          "1411030001": {
+            "Element": 4,
+            "RelatedProperty": "ATK",
+            "Type": 1,
+            "RateLv": [
+              2799,
+              3029,
+              3259,
+              3580,
+              3809,
+              4073,
+              4441,
+              4808,
+              5175,
+              5565,
+              6024,
+              6483,
+              6942,
+              7401,
+              7860,
+              8319,
+              8778,
+              9237,
+              9697,
+              10156
+            ],
+            "Energy": 70,
+            "ElementPower": 224,
+            "HardnessLv": 10000,
+            "ToughLv": 2799
+          },
+          "1411030002": {
+            "Element": 4,
+            "RelatedProperty": "ATK",
+            "Type": 1,
+            "RateLv": [
+              2799,
+              3029,
+              3259,
+              3580,
+              3809,
+              4073,
+              4441,
+              4808,
+              5175,
+              5565,
+              6024,
+              6483,
+              6942,
+              7401,
+              7860,
+              8319,
+              8778,
+              9237,
+              9697,
+              10156
+            ],
+            "Energy": 70,
+            "ElementPower": 224,
+            "HardnessLv": 10000,
+            "ToughLv": 2799
+          },
+          "1411030003": {
+            "Element": 4,
+            "RelatedProperty": "ATK",
+            "Type": 1,
+            "RateLv": [
+              3732,
+              4039,
+              4345,
+              4773,
+              5079,
+              5431,
+              5921,
+              6410,
+              6900,
+              7420,
+              8032,
+              8644,
+              9256,
+              9868,
+              10480,
+              11092,
+              11704,
+              12316,
+              12929,
+              13541
+            ],
+            "Energy": 94,
+            "ElementPower": 299,
+            "HardnessLv": 10000,
+            "ToughLv": 3732
+          },
+          "1411040001": {
+            "Element": 4,
+            "RelatedProperty": "ATK",
+            "Type": 1,
+            "RateLv": [
+              733,
+              794,
+              854,
+              938,
+              998,
+              1067,
+              1163,
+              1259,
+              1356,
+              1458,
+              1578,
+              1698,
+              1818,
+              1939,
+              2059,
+              2179,
+              2299,
+              2419,
+              2540,
+              2660
+            ],
+            "Energy": 37,
+            "ElementPower": 71,
+            "HardnessLv": 10000,
+            "ToughLv": 733
+          },
+          "1411040002": {
+            "Element": 4,
+            "RelatedProperty": "ATK",
+            "Type": 1,
+            "RateLv": [
+              733,
+              794,
+              854,
+              938,
+              998,
+              1067,
+              1163,
+              1259,
+              1356,
+              1458,
+              1578,
+              1698,
+              1818,
+              1939,
+              2059,
+              2179,
+              2299,
+              2419,
+              2540,
+              2660
+            ],
+            "Energy": 37,
+            "ElementPower": 71,
+            "HardnessLv": 10000,
+            "ToughLv": 733
+          },
+          "1411040003": {
+            "Element": 4,
+            "RelatedProperty": "ATK",
+            "Type": 1,
+            "RateLv": [
+              3665,
+              3966,
+              4267,
+              4687,
+              4988,
+              5333,
+              5814,
+              6295,
+              6776,
+              7287,
+              7888,
+              8489,
+              9090,
+              9691,
+              10292,
+              10893,
+              11494,
+              12095,
+              12696,
+              13297
+            ],
+            "Energy": 184,
+            "ElementPower": 352,
+            "HardnessLv": 10000,
+            "ToughLv": 3665
+          },
+          "1411050001": {
+            "Element": 4,
+            "RelatedProperty": "ATK",
+            "Type": 1,
+            "RateLv": [
+              8670,
+              9381,
+              10092,
+              11088,
+              11799,
+              12616,
+              13754,
+              14891,
+              16029,
+              17237,
+              18659,
+              20081,
+              21503,
+              22925,
+              24347,
+              25769,
+              27190,
+              28612,
+              30034,
+              31456
+            ],
+            "Energy": 434,
+            "ElementPower": 833,
+            "HardnessLv": 10000,
+            "ToughLv": 8670
+          },
+          "1411110011": {
+            "Element": 4,
+            "RelatedProperty": "ATK",
+            "Type": 1,
+            "RateLv": [
+              16599,
+              16977,
+              17354,
+              17882,
+              18259,
+              18693,
+              19296,
+              19899,
+              20503,
+              21144,
+              21898,
+              22652,
+              23406,
+              24161,
+              24915,
+              25669,
+              26423,
+              27178,
+              27932,
+              28686
+            ],
+            "Energy": 154,
+            "ElementPower": 295,
+            "HardnessLv": 10000,
+            "ToughLv": 3066
+          },
+          "1411110012": {
+            "Element": 4,
+            "RelatedProperty": "ATK",
+            "Type": 1,
+            "RateLv": [
+              16599,
+              16977,
+              17354,
+              17882,
+              18259,
+              18693,
+              19296,
+              19899,
+              20503,
+              21144,
+              21898,
+              22652,
+              23406,
+              24161,
+              24915,
+              25669,
+              26423,
+              27178,
+              27932,
+              28686
+            ],
+            "Energy": 154,
+            "ElementPower": 295,
+            "HardnessLv": 10000,
+            "ToughLv": 3066
+          },
+          "1411110013": {
+            "Element": 4,
+            "RelatedProperty": "ATK",
+            "Type": 1,
+            "RateLv": [
+              16599,
+              16977,
+              17354,
+              17882,
+              18259,
+              18693,
+              19296,
+              19899,
+              20503,
+              21144,
+              21898,
+              22652,
+              23406,
+              24161,
+              24915,
+              25669,
+              26423,
+              27178,
+              27932,
+              28686
+            ],
+            "Energy": 154,
+            "ElementPower": 295,
+            "HardnessLv": 10000,
+            "ToughLv": 3066
+          },
+          "1411110014": {
+            "Element": 4,
+            "RelatedProperty": "ATK",
+            "Type": 1,
+            "RateLv": [
+              16599,
+              16977,
+              17354,
+              17882,
+              18259,
+              18693,
+              19296,
+              19899,
+              20503,
+              21144,
+              21898,
+              22652,
+              23406,
+              24161,
+              24915,
+              25669,
+              26423,
+              27178,
+              27932,
+              28686
+            ],
+            "Energy": 154,
+            "ElementPower": 295,
+            "HardnessLv": 10000,
+            "ToughLv": 3066
+          },
+          "1411110015": {
+            "Element": 4,
+            "RelatedProperty": "ATK",
+            "Type": 1,
+            "RateLv": [
+              16599,
+              16977,
+              17354,
+              17882,
+              18259,
+              18693,
+              19296,
+              19899,
+              20503,
+              21144,
+              21898,
+              22652,
+              23406,
+              24161,
+              24915,
+              25669,
+              26423,
+              27178,
+              27932,
+              28686
+            ],
+            "Energy": 154,
+            "ElementPower": 295,
+            "HardnessLv": 10000,
+            "ToughLv": 3066
+          },
+          "1411120011": {
+            "Element": 4,
+            "RelatedProperty": "ATK",
+            "Type": 1,
+            "RateLv": [
+              12932,
+              13090,
+              13249,
+              13471,
+              13629,
+              13812,
+              14065,
+              14319,
+              14572,
+              14842,
+              15159,
+              15476,
+              15793,
+              16110,
+              16427,
+              16744,
+              17061,
+              17378,
+              17695,
+              18013
+            ],
+            "Energy": 65,
+            "ElementPower": 124,
+            "HardnessLv": 10000,
+            "ToughLv": 1289
+          },
+          "1411120012": {
+            "Element": 4,
+            "RelatedProperty": "ATK",
+            "Type": 1,
+            "RateLv": [
+              10582,
+              10712,
+              10842,
+              11023,
+              11153,
+              11302,
+              11510,
+              11717,
+              11925,
+              12145,
+              12405,
+              12664,
+              12923,
+              13183,
+              13442,
+              13702,
+              13961,
+              14220,
+              14480,
+              14739
+            ],
+            "Energy": 53,
+            "ElementPower": 102,
+            "HardnessLv": 10000,
+            "ToughLv": 1055
+          },
+          "1411120013": {
+            "Element": 4,
+            "RelatedProperty": "ATK",
+            "Type": 1,
+            "RateLv": [
+              70950,
+              71848,
+              72746,
+              74003,
+              74901,
+              75934,
+              77370,
+              78807,
+              80244,
+              81770,
+              83566,
+              85362,
+              87158,
+              88953,
+              90749,
+              92545,
+              94341,
+              96137,
+              97932,
+              99728
+            ],
+            "Energy": 365,
+            "ElementPower": 701,
+            "HardnessLv": 10000,
+            "ToughLv": 7300
+          },
+          "14111100010": {
+            "Element": 0,
+            "RelatedProperty": "ATK",
+            "Type": 0,
+            "RateLv": [
+              0
+            ],
+            "Energy": 0,
+            "ElementPower": 0,
+            "HardnessLv": 0,
+            "ToughLv": 0
+          },
+          "14111100020": {
+            "Element": 0,
+            "RelatedProperty": "ATK",
+            "Type": 0,
+            "RateLv": [
+              0
+            ],
+            "Energy": 0,
+            "ElementPower": 0,
+            "HardnessLv": 0,
+            "ToughLv": 0
+          },
+          "14111100030": {
+            "Element": 0,
+            "RelatedProperty": "ATK",
+            "Type": 0,
+            "RateLv": [
+              0
+            ],
+            "Energy": 0,
+            "ElementPower": 0,
+            "HardnessLv": 0,
+            "ToughLv": 0
+          },
+          "14111100040": {
+            "Element": 0,
+            "RelatedProperty": "ATK",
+            "Type": 0,
+            "RateLv": [
+              0
+            ],
+            "Energy": 0,
+            "ElementPower": 0,
+            "HardnessLv": 0,
+            "ToughLv": 0
+          },
+          "14111100050": {
+            "Element": 0,
+            "RelatedProperty": "ATK",
+            "Type": 0,
+            "RateLv": [
+              0
+            ],
+            "Energy": 0,
+            "ElementPower": 0,
+            "HardnessLv": 0,
+            "ToughLv": 0
+          },
+          "14111200010": {
+            "Element": 0,
+            "RelatedProperty": "ATK",
+            "Type": 0,
+            "RateLv": [
+              0
+            ],
+            "Energy": 0,
+            "ElementPower": 0,
+            "HardnessLv": 0,
+            "ToughLv": 0
+          },
+          "14111200020": {
+            "Element": 0,
+            "RelatedProperty": "ATK",
+            "Type": 0,
+            "RateLv": [
+              0
+            ],
+            "Energy": 0,
+            "ElementPower": 0,
+            "HardnessLv": 0,
+            "ToughLv": 0
+          },
+          "14111200030": {
+            "Element": 0,
+            "RelatedProperty": "ATK",
+            "Type": 0,
+            "RateLv": [
+              0
+            ],
+            "Energy": 0,
+            "ElementPower": 0,
+            "HardnessLv": 0,
+            "ToughLv": 0
+          },
+          "1411900008": {
+            "Element": 4,
+            "RelatedProperty": "ATK",
+            "Type": 5,
+            "RateLv": [
+              60000,
+              60000,
+              60000,
+              60000,
+              60000,
+              60000,
+              60000,
+              60000,
+              60000,
+              60000,
+              60000,
+              60000,
+              60000,
+              60000,
+              60000,
+              60000,
+              60000,
+              60000,
+              60000,
+              60000
+            ],
+            "Energy": 0,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 0
+          }
+        }
+      }
+    },
+    "8": {
+      "ParentNodes": [],
+      "NodeType": 3,
+      "Coordinate": 1,
+      "UnLockCondition": 0,
+      "Consume": [
+        {
+          "Key": 43020032,
+          "Value": 2
+        },
+        {
+          "Key": 41100022,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 3900
+        }
+      ],
+      "Skill": {
+        "Name": "Strike Before Ready",
+        "Desc": "Attack the target, dealing <color=Wind>Aero DMG</color> equal to {0} of Qiuyuan's ATK, considered as Echo Skill DMG.\nGrant {1} Echo Skill DMG Amplification to the incoming Resonator, lasting for {2}s or until the Resonator is switched out.",
+        "Param": [
+          "100%",
+          "50%",
+          "14"
+        ],
+        "SimpleDesc": "Deal <color=Wind>Aero DMG</color>.\nGrant {0} Echo Skill DMG Amplification to the incoming Resonator, lasting for {1}s or until the Resonator is switched out.",
+        "SimpleParam": [
+          "50%",
+          "14"
+        ],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconQiuyuan/SP_IconQiuyuanT.SP_IconQiuyuanT",
+        "Type": "Outro Skill",
+        "Level": {},
+        "Consume": {
+          "1": []
+        },
+        "Damage": {
+          "1411900019": {
+            "Element": 4,
+            "RelatedProperty": "ATK",
+            "Type": 5,
+            "RateLv": [
+              50000,
+              50000,
+              50000,
+              50000,
+              50000,
+              50000,
+              50000,
+              50000,
+              50000,
+              50000,
+              50000,
+              50000,
+              50000,
+              50000,
+              50000,
+              50000,
+              50000,
+              50000,
+              50000,
+              50000
+            ],
+            "Energy": 0,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 0
+          },
+          "1411900009": {
+            "Element": 4,
+            "RelatedProperty": "ATK",
+            "Type": 5,
+            "RateLv": [
+              10000,
+              10000,
+              10000,
+              10000,
+              10000,
+              10000,
+              10000,
+              10000,
+              10000,
+              10000,
+              10000,
+              10000,
+              10000,
+              10000,
+              10000,
+              10000,
+              10000,
+              10000,
+              10000,
+              10000
+            ],
+            "Energy": 0,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 0
+          },
+          "14119000090": {
+            "Element": 0,
+            "RelatedProperty": "ATK",
+            "Type": 0,
+            "RateLv": [
+              0
+            ],
+            "Energy": 0,
+            "ElementPower": 0,
+            "HardnessLv": 0,
+            "ToughLv": 0
+          }
+        }
+      }
+    },
+    "9": {
+      "ParentNodes": [
+        1
+      ],
+      "NodeType": 4,
+      "Coordinate": 1,
+      "UnLockCondition": 500006,
+      "Consume": [
+        {
+          "Key": 43020013,
+          "Value": 3
+        },
+        {
+          "Key": 41100013,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 50000
+        }
+      ],
+      "Skill": {
+        "Name": "Crit. Rate+",
+        "Desc": "Crit. Rate increased by {0}.",
+        "Param": [
+          "1.20%"
+        ],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredbaoji_UI.T_Iconpropertyredbaoji_UI"
+      }
+    },
+    "10": {
+      "ParentNodes": [
+        2
+      ],
+      "NodeType": 4,
+      "Coordinate": 1,
+      "UnLockCondition": 500005,
+      "Consume": [
+        {
+          "Key": 43020013,
+          "Value": 3
+        },
+        {
+          "Key": 41100013,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 50000
+        }
+      ],
+      "Skill": {
+        "Name": "ATK+",
+        "Desc": "ATK increased by {0}.",
+        "Param": [
+          "1.80%"
+        ],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredattack_UI.T_Iconpropertyredattack_UI"
+      }
+    },
+    "11": {
+      "ParentNodes": [
+        3
+      ],
+      "NodeType": 4,
+      "Coordinate": 1,
+      "UnLockCondition": 500005,
+      "Consume": [
+        {
+          "Key": 43020013,
+          "Value": 3
+        },
+        {
+          "Key": 41100013,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 50000
+        }
+      ],
+      "Skill": {
+        "Name": "ATK+",
+        "Desc": "ATK increased by {0}.",
+        "Param": [
+          "1.80%"
+        ],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredattack_UI.T_Iconpropertyredattack_UI"
+      }
+    },
+    "12": {
+      "ParentNodes": [
+        6
+      ],
+      "NodeType": 4,
+      "Coordinate": 1,
+      "UnLockCondition": 500006,
+      "Consume": [
+        {
+          "Key": 43020013,
+          "Value": 3
+        },
+        {
+          "Key": 41100013,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 50000
+        }
+      ],
+      "Skill": {
+        "Name": "Crit. Rate+",
+        "Desc": "Crit. Rate increased by {0}.",
+        "Param": [
+          "1.20%"
+        ],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredbaoji_UI.T_Iconpropertyredbaoji_UI"
+      }
+    },
+    "13": {
+      "ParentNodes": [
+        9
+      ],
+      "NodeType": 4,
+      "Coordinate": 2,
+      "UnLockCondition": 500008,
+      "Consume": [
+        {
+          "Key": 43020014,
+          "Value": 3
+        },
+        {
+          "Key": 41100014,
+          "Value": 3
+        },
+        {
+          "Key": 41400254,
+          "Value": 1
+        },
+        {
+          "Key": 2,
+          "Value": 100000
+        }
+      ],
+      "Skill": {
+        "Name": "Crit. Rate+",
+        "Desc": "Crit. Rate increased by {0}.",
+        "Param": [
+          "2.80%"
+        ],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredbaoji_UI.T_Iconpropertyredbaoji_UI"
+      }
+    },
+    "14": {
+      "ParentNodes": [
+        10
+      ],
+      "NodeType": 4,
+      "Coordinate": 2,
+      "UnLockCondition": 500007,
+      "Consume": [
+        {
+          "Key": 43020014,
+          "Value": 3
+        },
+        {
+          "Key": 41100014,
+          "Value": 3
+        },
+        {
+          "Key": 41400254,
+          "Value": 1
+        },
+        {
+          "Key": 2,
+          "Value": 100000
+        }
+      ],
+      "Skill": {
+        "Name": "ATK+",
+        "Desc": "ATK increased by {0}.",
+        "Param": [
+          "4.20%"
+        ],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredattack_UI.T_Iconpropertyredattack_UI"
+      }
+    },
+    "15": {
+      "ParentNodes": [
+        11
+      ],
+      "NodeType": 4,
+      "Coordinate": 2,
+      "UnLockCondition": 500007,
+      "Consume": [
+        {
+          "Key": 43020014,
+          "Value": 3
+        },
+        {
+          "Key": 41100014,
+          "Value": 3
+        },
+        {
+          "Key": 41400254,
+          "Value": 1
+        },
+        {
+          "Key": 2,
+          "Value": 100000
+        }
+      ],
+      "Skill": {
+        "Name": "ATK+",
+        "Desc": "ATK increased by {0}.",
+        "Param": [
+          "4.20%"
+        ],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredattack_UI.T_Iconpropertyredattack_UI"
+      }
+    },
+    "16": {
+      "ParentNodes": [
+        12
+      ],
+      "NodeType": 4,
+      "Coordinate": 2,
+      "UnLockCondition": 500008,
+      "Consume": [
+        {
+          "Key": 43020014,
+          "Value": 3
+        },
+        {
+          "Key": 41100014,
+          "Value": 3
+        },
+        {
+          "Key": 41400254,
+          "Value": 1
+        },
+        {
+          "Key": 2,
+          "Value": 100000
+        }
+      ],
+      "Skill": {
+        "Name": "Crit. Rate+",
+        "Desc": "Crit. Rate increased by {0}.",
+        "Param": [
+          "2.80%"
+        ],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredbaoji_UI.T_Iconpropertyredbaoji_UI"
+      }
+    },
+    "17": {
+      "ParentNodes": [],
+      "NodeType": 5,
+      "Coordinate": 1,
+      "UnLockCondition": 0,
+      "Consume": [
+        {
+          "Key": 43020032,
+          "Value": 2
+        },
+        {
+          "Key": 41100022,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 3900
+        }
+      ],
+      "Skill": {
+        "Name": "Tune Break: Sword",
+        "Desc": "When the target's <color=Highlight>Off-Tune Level</color> is full. Deal <color=Highlight><te href=100001>Tune Break</te></color> DMG.",
+        "Param": [],
+        "SimpleDesc": "When the target's <color=Highlight>Off-Tune Level</color> is full",
+        "SimpleParam": [],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconWeakPointBreakKnife.SP_IconWeakPointBreakKnife",
+        "Type": "Tune Break",
+        "Level": {},
+        "Consume": {
+          "1": []
+        },
+        "Damage": {}
+      }
+    }
+  },
+  "Chains": {
+    "1": {
+      "Name": "Sword Sheathed, Mind Unclouded",
+      "Desc": "<color=Highlight>Thus Spoke the Blade: To Teach</color>, <color=Highlight>Thus Spoke the Blade: To Save</color>, and <color=Highlight>Thus Spoke the Blade: To Sacrifice</color> can no longer be interrupted.\nQiuyuan gains {0} Crit. Rate increase.",
+      "Param": [
+        "20%"
+      ],
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconDevice/T_IconDevice_QiuyuanM1_UI.T_IconDevice_QiuyuanM1_UI"
+    },
+    "2": {
+      "Name": "O Blade, I, Who Teach No More",
+      "Desc": "<te href=141103>Bamboo's Shade</te> now grants an additional {0} Echo Skill DMG Amplification to all nearby Resonators in the team.",
+      "Param": [
+        "30%"
+      ],
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconDevice/T_IconDevice_QiuyuanM2_UI.T_IconDevice_QiuyuanM2_UI"
+    },
+    "3": {
+      "Name": "O Blade, I, Who Save No More",
+      "Desc": "The DMG Multiplier of Resonance Liberation <color=Highlight>Sundering Strike</color> is increased by {0}.\nIf Concerto Energy is full when not in the Inksplash of Mind state, Qiuyuan's <color=Highlight>Resonance Skill</color> is replaced with Resonance Skill <color=Highlight>Straw Cape in Drizzly Rain</color>, available once every 20s.\nUpon casting <color=Highlight>Straw Cape in Drizzly Rain</color>, the <color=Highlight>Quietude Within</color> effect immediately ends and {1} Concerto Energy is consumed to deal <color=Wind>Aero DMG</color> equal to {3} of Qiuyuan's ATK, considered Echo Skill DMG, and restore {2} points of <te href=141101>Swordster's Soliloquy</te>. The next <color=Highlight>Basic Attack</color> is replaced with <color=Highlight>Thus Spoke the Blade: Inkwash</color> Stage 3. \nUpon casting <color=Highlight>Straw Cape in Drizzly Rain</color>, Qiuyuan cannot gain the <color=Highlight>Quietude Within</color> effect the next time he enters <te href=141102>Inksplash of Mind</te>. <color=Highlight>Thus Spoke the Blade: To Teach</color>, <color=Highlight>Thus Spoke the Blade: To Save</color>, and <color=Highlight>Thus Spoke the Blade: To Sacrifice</color> gain {4} DMG Multiplier increase and additionally restore <SapTag=5>{5}</SapTag> {Cus:Sap,S=point P=points SapTag=5} of Concerto Energy on hit.\nWhen not in Co-op mode, upon casting <color=Highlight>Straw Cape in Drizzly Rain</color>, the next <color=Highlight>Outro Skill</color> is replaced with Outro Skill <color=Highlight>Sheath Fallen, New Shoots Revealed</color>, which deals <color=Wind>Aero DMG</color> equal to {6} of Qiuyuan's ATK, considered Echo Skill DMG.",
+      "Param": [
+        "500%",
+        "60",
+        "400",
+        "500%",
+        "600%",
+        "30",
+        "500%"
+      ],
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconDevice/T_IconDevice_QiuyuanM3_UI.T_IconDevice_QiuyuanM3_UI"
+    },
+    "4": {
+      "Name": "O Blade, I, Who Sacrifice No More",
+      "Desc": "ATK is increased by {0}.",
+      "Param": [
+        "20%"
+      ],
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconDevice/T_IconDevice_QiuyuanM4_UI.T_IconDevice_QiuyuanM4_UI"
+    },
+    "5": {
+      "Name": "O Blade, I, Who Await to be Wielded",
+      "Desc": "Qiuyuan now ignores {0} of the target's DEF when dealing damage.",
+      "Param": [
+        "15%"
+      ],
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconDevice/T_IconDevice_QiuyuanM5_UI.T_IconDevice_QiuyuanM5_UI"
+    },
+    "6": {
+      "Name": "Thus I Heard, Thus I Saw, Thus I Spoke",
+      "Desc": "Casting Heavy Attack <color=Highlight>Thus Spoke the Blade: To Sacrifice</color> stagnates nearby targets for {0}s or until the targets are damaged or until Qiuyuan is switched off the field. This effect is not available in the Co-op Mode.\nWhen Qiuyuan is the active Resonator in the team, upon exiting <te href=141102>Inksplash of Mind</te>, he deals <color=Wind>Aero DMG</color> equal to {1} of his ATK to all targets within range, considered Echo Skill DMG.\nCasting Resonance Skill <color=Highlight>Straw Cape in Drizzly Rain</color> increases Qiuyuan's Crit. DMG by {2} for {3}s. Switching to another Resonator ends this effect early.",
+      "Param": [
+        "5",
+        "600%",
+        "100%",
+        "6"
+      ],
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconDevice/T_IconDevice_QiuyuanM6_UI.T_IconDevice_QiuyuanM6_UI"
+    }
+  },
+  "Ascensions": {
+    "1": [
+      {
+        "Key": 41100011,
+        "Value": 4
+      },
+      {
+        "Key": 2,
+        "Value": 5000
+      }
+    ],
+    "2": [
+      {
+        "Key": 41400224,
+        "Value": 3
+      },
+      {
+        "Key": 42300090,
+        "Value": 4
+      },
+      {
+        "Key": 41100012,
+        "Value": 4
+      },
+      {
+        "Key": 2,
+        "Value": 10000
+      }
+    ],
+    "3": [
+      {
+        "Key": 41400224,
+        "Value": 6
+      },
+      {
+        "Key": 42300090,
+        "Value": 8
+      },
+      {
+        "Key": 41100012,
+        "Value": 8
+      },
+      {
+        "Key": 2,
+        "Value": 15000
+      }
+    ],
+    "4": [
+      {
+        "Key": 41400224,
+        "Value": 9
+      },
+      {
+        "Key": 42300090,
+        "Value": 12
+      },
+      {
+        "Key": 41100013,
+        "Value": 4
+      },
+      {
+        "Key": 2,
+        "Value": 20000
+      }
+    ],
+    "5": [
+      {
+        "Key": 41400224,
+        "Value": 12
+      },
+      {
+        "Key": 42300090,
+        "Value": 16
+      },
+      {
+        "Key": 41100013,
+        "Value": 8
+      },
+      {
+        "Key": 2,
+        "Value": 40000
+      }
+    ],
+    "6": [
+      {
+        "Key": 41400224,
+        "Value": 16
+      },
+      {
+        "Key": 42300090,
+        "Value": 20
+      },
+      {
+        "Key": 41100014,
+        "Value": 4
+      },
+      {
+        "Key": 2,
+        "Value": 80000
+      }
+    ]
+  },
+  "Skin": {
+    "81001411": {
+      "Id": 81001411,
+      "SuitWeaponSkinId": 0,
+      "QualityId": 3,
+      "Name": "Qiuyuan",
+      "TitleName": "Lone Drifter",
+      "SubDecName": "Qiuyuan- Original Outfit",
+      "BgDescription": "From Chongzhou to Mingting, across the six states of Huanglong, his worn attire bears the weight of travel, tracing the swordsman's solitary path.",
+      "Background": "/Game/Aki/UI/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Qiuyuan_UI.T_IconRole_Pile_Qiuyuan_UI",
+      "Portrait": "/Game/Aki/UI/UIResources/Common/Image/TitleDesc/Avatar/T_ActivityRoleQiuyuan.T_ActivityRoleQiuyuan",
+      "SortIndex": 0,
+      "FormationSpineSkel": "/Game/Aki/UI/UIResources/Common/Spine/Portraits/Portraits_Qiuyuan/Portraits_Qiuyuan.Portraits_Qiuyuan-data",
+      "FormationSpineAtlas": "/Game/Aki/UI/UIResources/Common/Spine/Portraits/Portraits_Qiuyuan/Portraits_Qiuyuan.Portraits_Qiuyuan-atlas"
+    }
+  },
+  "Forte": {
+    "SkillInputList": {
+      "141101": {
+        "Desc": "Undaunted Wayfarer - Hold {0} to leap into the air and dash towards enemies in the distance, release {0} to attack.",
+        "InputList": [
+          "技能1",
+          "技能1"
+        ]
+      },
+      "141102": {
+        "Desc": "Thus Spoke the Blade: Inkwash - When Swordster's Soliloquy reaches 200 points, {Cus:Ipt,Touch=tap PC=press Gamepad=press} {0} to perform this skill. Qiuyuan drinks from his bamboo flask after each stage of the skill to obtain more Swordster's Soliloquy.",
+        "InputList": [
+          "攻击"
+        ]
+      },
+      "141103": {
+        "Desc": "Thus Spoke the Blade: To Teach - In the Inksplash of Mind state, hold {0} to cast this skill at the cost of Swordster's Soliloquy.",
+        "InputList": [
+          "攻击"
+        ]
+      },
+      "141104": {
+        "Desc": "Thus Spoke the Blade: To Save - In the Inksplash of Mind state, following Thus Spoke the Blade: To Teach, {Cus:Ipt,Touch=tap PC=press Gamepad=press} {0} to cast this skill at the cost of Swordster's Soliloquy.",
+        "InputList": [
+          "攻击"
+        ]
+      },
+      "141105": {
+        "Desc": "Thus Spoke the Blade: To Sacrifice - In the Inksplash of Mind state, following Thus Spoke the Blade: To Save, {Cus:Ipt,Touch=tap PC=press Gamepad=press} {0} to cast this skill at the cost of Swordster's Soliloquy.",
+        "InputList": [
+          "攻击"
+        ]
+      }
+    },
+    "Icon": "/Game/Aki/UI/UIResources/UiRole/Image/T_RoleSkillTreeQiuyuan.T_RoleSkillTreeQiuyuan",
+    "DescList": [
+      "Qiuyuan restores <color=Highlight>Swordster's Soliloquy</color> through Basic Attack Stage 3 and Dodge Counter. When <color=Highlight>Swordster's Soliloquy</color> reaches 200/400/600 points, Qiuyuan unlocks <color=Highlight>Thus Spoke the Blade: Inkwash</color>, <color=Highlight>Bamboo's Shade</color>, and <color=Highlight>Inksplash of Mind</color> respectively.",
+      "In the <color=Highlight>Inksplash of Mind</color> state, Qiuyuan cannot restore <color=Highlight>Swordster's Soliloquy</color>, but he can consume <color=Highlight>Swordster's Soliloquy</color> to increase his skills' DMG."
+    ]
+  },
+  "Live2d": "QiuYuan",
+  "Audio": "qiuyuan",
+  "Recommend": {
+    "Weapon": [
+      21020066,
+      21020015,
+      21020104
+    ],
+    "Property": "Crit. Rate",
+    "Param": [
+      2,
+      6500
+    ]
+  }
+}

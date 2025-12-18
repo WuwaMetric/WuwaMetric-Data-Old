@@ -1,0 +1,135 @@
+{
+  "Id": 6000081,
+  "Code": "R42-",
+  "Name": "巨布偶",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_32030_UI.T_IconMonsterHead_32030_UI",
+  "Skill": {
+    "Desc": "使用声骸技能，幻形为巨布偶连续攻击，造成4段{0}和一段{1}的物理伤害。\n技能冷却：{2}秒",
+    "SimpleDesc": "幻形为巨布偶连续攻击，对敌人造成物理伤害。",
+    "Param": [
+      [
+        "26.10%",
+        "69.60%",
+        "20"
+      ],
+      [
+        "31.32%",
+        "83.52%",
+        "20"
+      ],
+      [
+        "36.54%",
+        "97.44%",
+        "20"
+      ],
+      [
+        "41.76%",
+        "111.36%",
+        "20"
+      ],
+      [
+        "46.98%",
+        "125.28%",
+        "20"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/MstSkil_32030_UI.MstSkil_32030_UI",
+    "Damage": {
+      "20006401": {
+        "Element": 0,
+        "RelatedProperty": "攻击",
+        "Type": 5,
+        "RateLv": [
+          2610,
+          3132,
+          3654,
+          4176,
+          4698
+        ],
+        "Energy": 65,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 2610
+      },
+      "20006402": {
+        "Element": 0,
+        "RelatedProperty": "攻击",
+        "Type": 5,
+        "RateLv": [
+          6960,
+          8352,
+          9744,
+          11136,
+          12528
+        ],
+        "Energy": 174,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 6960
+      }
+    }
+  },
+  "Group": {
+    "10": {
+      "Id": 10,
+      "Name": "凌冽决断之心",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriIceUltimateSkill.T_IconElementAttriIceUltimateSkill",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "共鸣技能伤害提升{0}",
+          "Param": [
+            "12%"
+          ]
+        },
+        "5": {
+          "Desc": "施放共鸣技能时，自身冷凝伤害提升{0}，持续{1}秒；施放共鸣解放时，自身共鸣技能伤害提升{2}，持续{3}秒，可叠加{4}层。",
+          "Param": [
+            "22.5%",
+            "15",
+            "18%",
+            "5",
+            "2"
+          ]
+        }
+      }
+    },
+    "12": {
+      "Id": 12,
+      "Name": "幽夜隐匿之帷",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriDarkAssist.T_IconElementAttriDarkAssist",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "湮灭属性伤害提升{0}",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "角色触发延奏技能离场时，额外对周围敌人造成{0}的湮灭伤害，该伤害为延奏技能伤害，并使下一个登场角色湮灭属性伤害加成提升{1}，持续{2}秒。",
+          "Param": [
+            "480%",
+            "15%",
+            "15"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 1,
+  "MonsterInfo": 320000300,
+  "Phantom": {
+    "Name": "异相·巨布偶",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_SG_32030_UI.T_IconMonsterGoods_SG_32030_UI"
+  }
+}

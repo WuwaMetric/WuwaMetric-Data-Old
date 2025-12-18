@@ -1,0 +1,130 @@
+{
+  "Id": 390077016,
+  "Code": "N14-",
+  "Name": "Spectro Prism",
+  "Type": "Tacet Discord - Natural Species",
+  "Intensity": "Elite Class",
+  "Place": "Huanglong",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_161_UI.T_IconMonsterGoods_161_UI",
+  "Skill": {
+    "Desc": "Summon a Spectro Prism to emit a laser that hits the enemy up to {0} times, dealing {1} Spectro DMG each time.\r\n\r\nCD: {2}s",
+    "SimpleDesc": "Summon a Spectro Prism that deals Spectro DMG with laser.",
+    "Param": [
+      [
+        "8",
+        "9.00%",
+        "8"
+      ],
+      [
+        "8",
+        "10.35%",
+        "8"
+      ],
+      [
+        "8",
+        "11.70%",
+        "8"
+      ],
+      [
+        "8",
+        "13.05%",
+        "8"
+      ],
+      [
+        "8",
+        "14.40%",
+        "8"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_Z_Z7_UI.T_MstSkil_Z_Z7_UI",
+    "Damage": {
+      "20001001": {
+        "Element": 5,
+        "RelatedProperty": "ATK",
+        "Type": 5,
+        "RateLv": [
+          900,
+          1035,
+          1170,
+          1305,
+          1440
+        ],
+        "Energy": 22,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 900
+      }
+    }
+  },
+  "Group": {
+    "2": {
+      "Id": 2,
+      "Name": "Molten Rift",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriFire.T_IconElementAttriFire",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "Fusion DMG + 10%.",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "Fusion DMG + 30% for 15s after releasing Resonance Skill.",
+          "Param": [
+            "30%"
+          ]
+        }
+      }
+    },
+    "3": {
+      "Id": 3,
+      "Name": "Void Thunder",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriThunder.T_IconElementAttriThunder",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "Electro DMG + 10%.",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "Electro DMG + 15% after releasing Heavy Attack or Resonance Skill. This effect stacks up to 2 times, each stack lasts 15s.",
+          "Param": [
+            "15%",
+            "15"
+          ]
+        }
+      }
+    },
+    "5": {
+      "Id": 5,
+      "Name": "Celestial Light",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriLight.T_IconElementAttriLight",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "Spectro DMG + 10%.",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "Spectro DMG + 30% for 15s after releasing Intro Skill.",
+          "Param": [
+            "30%"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 0,
+  "MonsterInfo": 310000160
+}

@@ -1,0 +1,149 @@
+{
+  "Id": 6000096,
+  "Code": "S56-",
+  "Name": "重塑雕像的拳砾",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_32031_UI.T_IconMonsterHead_32031_UI",
+  "Skill": {
+    "Desc": "使用声骸技能，幻形为重塑雕像的拳砾攻击目标，造成{0}的衍射伤害。长按声骸技能，持续幻形，前冲并攻击目标造成{1}的衍射伤害。\n技能冷却：{2}秒",
+    "SimpleDesc": "幻形为重塑雕像的拳砾，攻击敌人造成衍射伤害。长按声骸技能可前冲后攻击敌人造成衍射伤害。",
+    "Param": [
+      [
+        "174.00%",
+        "261.00%",
+        "20"
+      ],
+      [
+        "208.80%",
+        "313.20%",
+        "20"
+      ],
+      [
+        "243.60%",
+        "365.40%",
+        "20"
+      ],
+      [
+        "278.40%",
+        "417.60%",
+        "20"
+      ],
+      [
+        "313.20%",
+        "469.80%",
+        "20"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_Mstskil_31031_UI.T_Mstskil_31031_UI",
+    "Damage": {
+      "20008001": {
+        "Element": 5,
+        "RelatedProperty": "攻击",
+        "Type": 5,
+        "RateLv": [
+          17400,
+          20880,
+          24360,
+          27840,
+          31320
+        ],
+        "Energy": 435,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 17400
+      },
+      "20008002": {
+        "Element": 5,
+        "RelatedProperty": "攻击",
+        "Type": 5,
+        "RateLv": [
+          26100,
+          31320,
+          36540,
+          41760,
+          46980
+        ],
+        "Energy": 652,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 26100
+      }
+    }
+  },
+  "Group": {
+    "11": {
+      "Id": 11,
+      "Name": "此间永驻之光",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriLightError.T_IconElementAttriLightError",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "衍射伤害提升{0}",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "角色为敌人添加【光噪效应】时，自身暴击提升{0}，持续{1}秒；攻击存在{2}层【光噪效应】的敌人时，自身衍射伤害加成提升{3}，持续{4}秒。",
+          "Param": [
+            "20%",
+            "15",
+            "10",
+            "15%",
+            "15"
+          ]
+        }
+      }
+    },
+    "16": {
+      "Id": 16,
+      "Name": "流云逝尽之空",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriWindError.T_IconElementAttriWindError",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "气动伤害提升{0}",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "角色为敌人添加【风蚀效应】时，队伍中角色气动伤害提升{0}，自身气动伤害额外提升{1}，持续{2}秒。",
+          "Param": [
+            "15%",
+            "15%",
+            "20"
+          ]
+        }
+      }
+    },
+    "21": {
+      "Id": 21,
+      "Name": "息界同调之律",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriSupport.T_IconElementAttriSupport",
+      "Color": "FFFFFF00",
+      "Set": {
+        "3": {
+          "Desc": "角色施放声骸技能时，自身重击伤害加成提升{0}，持续{1}秒；队伍中角色声骸技能伤害加成提升{2}，该效果可叠加{3}层，持续{4}秒，同名声骸仅可触发1次该效果，效果消失时重置同名声骸记录，{3}层时施放声骸技能可刷新持续时间。",
+          "Param": [
+            "30%",
+            "4",
+            "4%",
+            "4",
+            "30"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 1,
+  "MonsterInfo": 320000310
+}

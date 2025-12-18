@@ -1,0 +1,139 @@
+{
+  "Id": 6000113,
+  "Code": "W86-",
+  "Name": "ナイトメア・ケルピー",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_33021_UI.T_IconMonsterHead_33021_UI",
+  "Skill": {
+    "Desc": "音骸スキルを発動すると、ナイトメア・ケルピーに変身し、周囲の敵に{0}の凝縮ダメージを与える。\nメイン音骸スロットに装備時、自身の凝縮ダメージが{2}アップ、気動ダメージが{3}アップ。終奏スキルで退場時、ナイトメア・ケルピーを召喚し、敵に{1}の気動ダメージを与える。\nクールタイム：{4}秒",
+    "SimpleDesc": "ナイトメア・ケルピーに変身し、周囲の敵に凝縮ダメージを与える。\nメイン音骸スロットに装備時、自身の凝縮ダメージと気動ダメージがアップ。終奏スキルで退場時、ナイトメア・ケルピーを召喚して敵に気動ダメージを与える。",
+    "Param": [
+      [
+        "225.00%",
+        "225.00%",
+        "12.00%",
+        "12.00%",
+        "25"
+      ],
+      [
+        "270.00%",
+        "270.00%",
+        "12.00%",
+        "12.00%",
+        "25"
+      ],
+      [
+        "315.00%",
+        "315.00%",
+        "12.00%",
+        "12.00%",
+        "25"
+      ],
+      [
+        "360.00%",
+        "360.00%",
+        "12.00%",
+        "12.00%",
+        "25"
+      ],
+      [
+        "405.00%",
+        "405.00%",
+        "12.00%",
+        "12.00%",
+        "25"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_33021_UI.T_MstSkil_33021_UI",
+    "Damage": {
+      "28002701": {
+        "Element": 1,
+        "RelatedProperty": "攻撃力",
+        "Type": 5,
+        "RateLv": [
+          22500,
+          27000,
+          31500,
+          36000,
+          40500
+        ],
+        "Energy": 281,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 22500
+      },
+      "28002702": {
+        "Element": 4,
+        "RelatedProperty": "攻撃力",
+        "Type": 5,
+        "RateLv": [
+          22500,
+          27000,
+          31500,
+          36000,
+          40500
+        ],
+        "Energy": 281,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 22500
+      }
+    }
+  },
+  "Group": {
+    "16": {
+      "Id": 16,
+      "Name": "バウンドレス・スカイ",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriWindError.T_IconElementAttriWindError",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "気動ダメージが{0}アップ",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "敵に【風蝕効果】を付与時、チーム内全員の気動ダメージが{0}アップ、自身の気動ダメージが追加で{1}アップ、{2}秒間持続。",
+          "Param": [
+            "15%",
+            "15%",
+            "20"
+          ]
+        }
+      }
+    },
+    "17": {
+      "Id": 17,
+      "Name": "グロリアス・ウィンド",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriWindErrorA.T_IconElementAttriWindErrorA",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "気動ダメージが{0}アップ",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "【風蝕効果】が付与されている敵への攻撃が命中時、自身のクリティカル率が{0}アップ、気動ダメージが{1}アップ、{2}秒間持続。",
+          "Param": [
+            "10%",
+            "30%",
+            "10"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 2,
+  "MonsterInfo": 340000110
+}

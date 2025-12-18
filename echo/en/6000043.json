@@ -1,0 +1,124 @@
+{
+  "Id": 6000043,
+  "Code": "H71-",
+  "Name": "Feilian Beringal",
+  "Type": "Mutant Fauna",
+  "Intensity": "Overlord Class",
+  "Place": "Huanglong",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_996_UI.T_IconMonsterGoods_996_UI",
+  "Skill": {
+    "Desc": "Transform into Feilian Beringal to perform a powerful kick. If the kick lands on an enemy, immediately perform a follow-up strike. The kick deals {0} Aero DMG, and the follow-up strike deals {1} Aero DMG.\r\n\r\nAfter the follow-up strike hits, the current character's Aero DMG increases by {2}, and the Heavy Attack DMG increases by {3} for {4}s\r\n\r\nCD: {5}s",
+    "SimpleDesc": "Transform into Feilian Beringal to continuously attack enemies, dealing Aero DMG. Increase current character's Aero DMG and Heavy Attack DMG.",
+    "Param": [
+      [
+        "144.90%",
+        "177.10%",
+        "12.00%",
+        "12.00%",
+        "15",
+        "20"
+      ],
+      [
+        "166.64%",
+        "203.67%",
+        "12.00%",
+        "12.00%",
+        "15",
+        "20"
+      ],
+      [
+        "188.37%",
+        "230.23%",
+        "12.00%",
+        "12.00%",
+        "15",
+        "20"
+      ],
+      [
+        "210.11%",
+        "256.80%",
+        "12.00%",
+        "12.00%",
+        "15",
+        "20"
+      ],
+      [
+        "231.84%",
+        "283.36%",
+        "12.00%",
+        "12.00%",
+        "15",
+        "20"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_Mstskil_996_UI.T_Mstskil_996_UI",
+    "Damage": {
+      "28000601": {
+        "Element": 4,
+        "RelatedProperty": "ATK",
+        "Type": 5,
+        "RateLv": [
+          14490,
+          16663,
+          18837,
+          21010,
+          23184
+        ],
+        "Energy": 362,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 14490
+      },
+      "28000602": {
+        "Element": 4,
+        "RelatedProperty": "ATK",
+        "Type": 5,
+        "RateLv": [
+          17710,
+          20366,
+          23023,
+          25679,
+          28336
+        ],
+        "Energy": 442,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 17710
+      }
+    }
+  },
+  "Group": {
+    "4": {
+      "Id": 4,
+      "Name": "Sierra Gale",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriWind.T_IconElementAttriWind",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "Aero DMG + 10%.",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "Aero DMG + 30% for 15s after releasing Intro Skill.",
+          "Param": [
+            "30%"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 2,
+  "MonsterInfo": 330000050,
+  "Phantom": {
+    "Name": "Phantom: Feilian Beringal",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_1009_UI.T_IconMonsterHead_1009_UI"
+  }
+}

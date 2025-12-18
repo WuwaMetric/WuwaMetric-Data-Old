@@ -1,0 +1,110 @@
+{
+  "Id": 6000176,
+  "Code": "T01-",
+  "Name": "サイクツクマバチ",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31078_UI.T_IconMonsterHead_31078_UI",
+  "Skill": {
+    "Desc": "音骸スキルを発動すると、サイクツクマバチに変身し、敵に2段の{0}の消滅ダメージを与える。\nクールタイム：{1}秒",
+    "SimpleDesc": "サイクツクマバチに変身し、敵に消滅ダメージを与える。",
+    "Param": [
+      [
+        "57.00%",
+        "8"
+      ],
+      [
+        "68.40%",
+        "8"
+      ],
+      [
+        "79.80%",
+        "8"
+      ],
+      [
+        "91.20%",
+        "8"
+      ],
+      [
+        "102.60%",
+        "8"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_31078_UI.T_MstSkil_31078_UI",
+    "Damage": {
+      "20012701": {
+        "Element": 6,
+        "RelatedProperty": "攻撃力",
+        "Type": 5,
+        "RateLv": [
+          5700,
+          6840,
+          7980,
+          9120,
+          10260
+        ],
+        "Energy": 71,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 5700
+      }
+    }
+  },
+  "Group": {
+    "25": {
+      "Id": 25,
+      "Name": "スターブライト・リング",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriCureWeakness.T_IconElementAttriCureWeakness",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "HP回復効果{0}アップ",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "チーム内キャラのHPを回復時、自身の不協和値蓄積効率の{0}につき、チーム内キャラの攻撃力が{1}アップ、最大{2}アップ可能、{3}秒間持続、同名効果を重複発動できない。",
+          "Param": [
+            "1%",
+            "0.2%",
+            "25%",
+            "4"
+          ]
+        }
+      }
+    },
+    "26": {
+      "Id": 26,
+      "Name": "ゴールデン・ヴァリアント",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriAttackWeakness.T_IconElementAttriAttackWeakness",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "回折ダメージが{0}アップ",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "通常攻撃ダメージを与えると、自身の回折ダメージが{0}アップ、最大{1}スタック、{2}秒間持続。{1}スタックに到達時、共鳴解放を発動すると通常攻撃ダメージが{3}アップ。",
+          "Param": [
+            "10%",
+            "3",
+            "5",
+            "40%"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 0,
+  "MonsterInfo": 310000780
+}

@@ -1,0 +1,82 @@
+{
+  "Id": 6000168,
+  "Code": "H46-",
+  "Name": "梦魇·绿熔蜥",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_32047_UI.T_IconMonsterHead_32047_UI",
+  "Skill": {
+    "Desc": "使用声骸技能，召唤绿熔蜥持续喷火，造成10次{0}热熔伤害。\n技能冷却：{1}秒",
+    "SimpleDesc": "召唤绿熔蜥，持续喷火，造成热熔伤害。",
+    "Param": [
+      [
+        "10.70%",
+        "15"
+      ],
+      [
+        "12.31%",
+        "15"
+      ],
+      [
+        "13.91%",
+        "15"
+      ],
+      [
+        "15.52%",
+        "15"
+      ],
+      [
+        "17.12%",
+        "15"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_295_UI.T_MstSkil_295_UI",
+    "Damage": {
+      "20003001": {
+        "Element": 2,
+        "RelatedProperty": "攻击",
+        "Type": 5,
+        "RateLv": [
+          1070,
+          1230,
+          1391,
+          1551,
+          1712
+        ],
+        "Energy": 26,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 1070
+      }
+    }
+  },
+  "Group": {
+    "22": {
+      "Id": 22,
+      "Name": "焚羽猎魔之影",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriFireA.T_IconElementAttriFireA",
+      "Color": "FFFFFF00",
+      "Set": {
+        "3": {
+          "Desc": "角色造成声骸技能伤害时，重击伤害的暴击提升{0}，持续{1}秒；造成重击伤害时，声骸技能伤害的暴击提升{2}，持续{3}秒。同时拥有两种效果时，自身热熔伤害提升{4}。",
+          "Param": [
+            "20%",
+            "6",
+            "20%",
+            "6",
+            "16%"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 1,
+  "MonsterInfo": 320000470
+}

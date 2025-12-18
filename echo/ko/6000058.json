@@ -1,0 +1,146 @@
+{
+  "Id": 6000058,
+  "Code": "H54-",
+  "Name": "흑월의 야수",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_328_UI.T_IconMonsterHead_328_UI",
+  "Skill": {
+    "Desc": "에코 어빌리티를 사용하여 흑월의 야수로 변신한 후, 전방으로 덮쳐 {0}의 회절 피해를 입힌다. 목표 명중 시 「유광」 {1}개가 생성되며, 「유광」이 폭발할 경우 {2}의 회절 피해를 입힌다.\n에코 어빌리티를 길게 눌러 변신 상태를 유지하면 전방으로 도약한 후 공중에서 일정 거리를 이동할 수 있다.\n스킬 쿨타임: {3}초",
+    "SimpleDesc": "흑월의 야수로 변신하여 전방으로 덮쳐 회절 피해를 입힌다. \n길게 눌러 변신 상태를 유지하면 전방으로 도약할 수 있다",
+    "Param": [
+      [
+        "84.60%",
+        "6",
+        "9.40%",
+        "15"
+      ],
+      [
+        "97.29%",
+        "6",
+        "10.81%",
+        "15"
+      ],
+      [
+        "109.98%",
+        "6",
+        "12.22%",
+        "15"
+      ],
+      [
+        "122.67%",
+        "6",
+        "13.63%",
+        "15"
+      ],
+      [
+        "135.36%",
+        "6",
+        "15.04%",
+        "15"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_329_UI.T_MstSkil_329_UI",
+    "Damage": {
+      "20005201": {
+        "Element": 5,
+        "RelatedProperty": "공격력",
+        "Type": 5,
+        "RateLv": [
+          8460,
+          9729,
+          10998,
+          12267,
+          13536
+        ],
+        "Energy": 211,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 8460
+      },
+      "20005202": {
+        "Element": 5,
+        "RelatedProperty": "공격력",
+        "Type": 5,
+        "RateLv": [
+          9693,
+          11146,
+          12600,
+          14054,
+          15508
+        ],
+        "Energy": 242,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 9693
+      },
+      "20005203": {
+        "Element": 5,
+        "RelatedProperty": "공격력",
+        "Type": 5,
+        "RateLv": [
+          9693,
+          11146,
+          12600,
+          14054,
+          15508
+        ],
+        "Energy": 242,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 9693
+      },
+      "20005204": {
+        "Element": 5,
+        "RelatedProperty": "공격력",
+        "Type": 5,
+        "RateLv": [
+          940,
+          1081,
+          1222,
+          1363,
+          1504
+        ],
+        "Energy": 23,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 940
+      }
+    }
+  },
+  "Group": {
+    "5": {
+      "Id": 5,
+      "Name": "빛나는 별",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriLight.T_IconElementAttriLight",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "회절 피해가 10% 증가된다",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "변주 스킬을 사용하여 등장 시, 회절 피해가 30% 증가되고, 15초 동안 지속된다",
+          "Param": [
+            "30%"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 1,
+  "MonsterInfo": 320000210,
+  "Phantom": {
+    "Name": "이상 · 흑월의 야수",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_1016_UI.T_IconMonsterHead_1016_UI"
+  }
+}

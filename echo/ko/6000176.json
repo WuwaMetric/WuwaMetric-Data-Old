@@ -1,0 +1,110 @@
+{
+  "Id": 6000176,
+  "Code": "T01-",
+  "Name": "바위 호박벌",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31078_UI.T_IconMonsterHead_31078_UI",
+  "Skill": {
+    "Desc": "에코 어빌리티를 사용하여 바위 호박벌로 변신한 후, 적에게 {0}의 인멸 피해 2단을 입힌다.\n스킬 쿨타임: {1}초",
+    "SimpleDesc": "바위 호박벌로 변신한 후, 적에게 인멸 피해를 입힌다",
+    "Param": [
+      [
+        "57.00%",
+        "8"
+      ],
+      [
+        "68.40%",
+        "8"
+      ],
+      [
+        "79.80%",
+        "8"
+      ],
+      [
+        "91.20%",
+        "8"
+      ],
+      [
+        "102.60%",
+        "8"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_31078_UI.T_MstSkil_31078_UI",
+    "Damage": {
+      "20012701": {
+        "Element": 6,
+        "RelatedProperty": "공격력",
+        "Type": 5,
+        "RateLv": [
+          5700,
+          6840,
+          7980,
+          9120,
+          10260
+        ],
+        "Energy": 71,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 5700
+      }
+    }
+  },
+  "Group": {
+    "25": {
+      "Id": 25,
+      "Name": "빛을 쫓는 별의 고리",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriCureWeakness.T_IconElementAttriCureWeakness",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "치료 효과가 {0} 증가된다",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "캐릭터가 파티원 치료 시, 자신의 부조화 수치 누적 효율 {0} 당 파티 내 캐릭터의 공격력을 {1} 증가시키고, 최대 {2}까지 증가시키며, {3}초간 지속된다. 같은 이름의 효과는 중첩이 불가하다",
+          "Param": [
+            "1%",
+            "0.2%",
+            "25%",
+            "4"
+          ]
+        }
+      }
+    },
+    "26": {
+      "Id": 26,
+      "Name": "흐르는 금빛 속 진리의 답",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriAttackWeakness.T_IconElementAttriAttackWeakness",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "회절 피해가 {0} 증가된다",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "캐릭터가 일반 공격으로 피해를 입힐 시, 자신의 회절 피해가 {0} 증가되고, 해당 효과는 {1}스택 중첩이 가능하며, {2}초간 지속된다. {1}스택 중첩 시, 공명 해방을 발동하면 일반 공격 피해 보너스가 {3} 증가된다",
+          "Param": [
+            "10%",
+            "3",
+            "5",
+            "40%"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 0,
+  "MonsterInfo": 310000780
+}

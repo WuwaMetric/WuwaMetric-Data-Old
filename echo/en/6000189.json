@@ -1,0 +1,125 @@
+{
+  "Id": 6000189,
+  "Code": "T01-",
+  "Name": "Hyvatia",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34021_UI.T_IconMonsterHead_34021_UI",
+  "Skill": {
+    "Desc": "Summon Hyvatia in mid-air to fire lasers at enemies, dealing {0} Spectro DMG 10 times.\n\nCasting Outro Skill within {1}s after summoning Hyvatia grants {2} All-Attribute DMG Bonus to the Intro Skill of the incoming Resonator for {3}s.\n\nCD: {4}s.",
+    "SimpleDesc": "Summon Hyvatia to attack enemies, dealing Spectro DMG and granting All-Attribute DMG Bonus to the Intro Skill of the incoming Resonator.",
+    "Param": [
+      [
+        "15.20%",
+        "15",
+        "10.00%",
+        "15",
+        "20"
+      ],
+      [
+        "18.24%",
+        "15",
+        "10.00%",
+        "15",
+        "20"
+      ],
+      [
+        "21.28%",
+        "15",
+        "10.00%",
+        "15",
+        "20"
+      ],
+      [
+        "24.32%",
+        "15",
+        "10.00%",
+        "15",
+        "20"
+      ],
+      [
+        "27.36%",
+        "15",
+        "10.00%",
+        "15",
+        "20"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_34021_UI.T_MstSkil_34021_UI",
+    "Damage": {
+      "28003601": {
+        "Element": 5,
+        "RelatedProperty": "ATK",
+        "Type": 5,
+        "RateLv": [
+          1520,
+          1824,
+          2128,
+          2432,
+          2736
+        ],
+        "Energy": 3,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 1520
+      }
+    }
+  },
+  "Group": {
+    "24": {
+      "Id": 24,
+      "Name": "Pact of Neonlight Leap",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriLightWeakness.T_IconElementAttriLightWeakness",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "Spectro DMG + {0}",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "Casting Outro Skill increases the ATK of the incoming Resonator by {0}, with each point of Tune Break Boost additionally increasing ATK by {1}, up to {2}. This effect lasts for {3}s, or until the Resonator is switched out.",
+          "Param": [
+            "15%",
+            "0.3%",
+            "15%",
+            "15"
+          ]
+        }
+      }
+    },
+    "26": {
+      "Id": 26,
+      "Name": "Rite of Gilded Revelation",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriAttackWeakness.T_IconElementAttriAttackWeakness",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "Spectro DMG + {0}",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "Dealing Basic Attack DMG increases Spectro DMG by {0} for {2}s, stacking up to {1} times. With {1} stacks, casting Resonance Liberation grants {3} Basic Attack DMG Bonus.",
+          "Param": [
+            "10%",
+            "3",
+            "5",
+            "40%"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 2,
+  "MonsterInfo": 340000210
+}

@@ -1,0 +1,87 @@
+{
+  "Id": 6000182,
+  "Code": "T01-",
+  "Name": "Mining Reindeer",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_32052_UI.T_IconMonsterHead_32052_UI",
+  "Skill": {
+    "Desc": "Summon a Mining Reindeer to launch a charged attack at enemies, dealing {0} Electro DMG.\n\n CD: {1}s.",
+    "SimpleDesc": "Summon a Mining Reindeer to attack enemies, dealing Electro DMG.",
+    "Param": [
+      [
+        "132.00%",
+        "20"
+      ],
+      [
+        "158.40%",
+        "20"
+      ],
+      [
+        "184.80%",
+        "20"
+      ],
+      [
+        "211.20%",
+        "20"
+      ],
+      [
+        "237.60%",
+        "20"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_32052_UI.T_MstSkil_32052_UI",
+    "Damage": {
+      "20011901": {
+        "Element": 3,
+        "RelatedProperty": "ATK",
+        "Type": 5,
+        "RateLv": [
+          13200,
+          15840,
+          18480,
+          21120,
+          23760
+        ],
+        "Energy": 330,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 13200
+      }
+    }
+  },
+  "Group": {
+    "24": {
+      "Id": 24,
+      "Name": "Pact of Neonlight Leap",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriLightWeakness.T_IconElementAttriLightWeakness",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "Spectro DMG + {0}",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "Casting Outro Skill increases the ATK of the incoming Resonator by {0}, with each point of Tune Break Boost additionally increasing ATK by {1}, up to {2}. This effect lasts for {3}s, or until the Resonator is switched out.",
+          "Param": [
+            "15%",
+            "0.3%",
+            "15%",
+            "15"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 1,
+  "MonsterInfo": 320000520
+}

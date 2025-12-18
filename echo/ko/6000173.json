@@ -1,0 +1,85 @@
+{
+  "Id": 6000173,
+  "Code": "S06-",
+  "Name": "악몽 · 가시장미버섯",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_32048_UI.T_IconMonsterHead_32048_UI",
+  "Skill": {
+    "Desc": "에코 어빌리티를 사용하여 가시장미버섯을 소환해 레이저 한줄기를 발사하여 최대 {0}회 {1}의 인멸 피해를 입힌다.\n스킬 쿨타임: {2}초",
+    "SimpleDesc": "가시장미버섯을 소환한 후 레이저를 발사해 인멸 피해를 입힌다",
+    "Param": [
+      [
+        "3",
+        "35.67%",
+        "15"
+      ],
+      [
+        "3",
+        "41.02%",
+        "15"
+      ],
+      [
+        "3",
+        "46.37%",
+        "15"
+      ],
+      [
+        "3",
+        "51.72%",
+        "15"
+      ],
+      [
+        "3",
+        "57.07%",
+        "15"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_315_UI.T_MstSkil_315_UI",
+    "Damage": {
+      "20003201": {
+        "Element": 6,
+        "RelatedProperty": "공격력",
+        "Type": 5,
+        "RateLv": [
+          3566,
+          4101,
+          4636,
+          5171,
+          5706
+        ],
+        "Energy": 89,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 3566
+      }
+    }
+  },
+  "Group": {
+    "23": {
+      "Id": 23,
+      "Name": "운명을 붕괴시키는 현",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriQianXiao.T_IconElementAttriQianXiao",
+      "Color": "FFFFFF00",
+      "Set": {
+        "3": {
+          "Desc": "캐릭터가 적에게 「암흑 효과」 추가 시, 자신의 공격력이 {0} 증가되고 공명 해방 피해 보너스가 {1} 증가되며 {2}초간 지속된다",
+          "Param": [
+            "20%",
+            "30%",
+            "5"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 1,
+  "MonsterInfo": 320000480
+}

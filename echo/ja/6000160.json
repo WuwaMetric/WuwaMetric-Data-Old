@@ -1,0 +1,113 @@
+{
+  "Id": 6000160,
+  "Code": "W88-",
+  "Name": "海の娘",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34018_UI.T_IconMonsterHead_34018_UI",
+  "Skill": {
+    "Desc": "音骸スキルを発動すると、【逆巻く潮】を召喚し、敵に最大10段（毎段{0}）の気動ダメージと、さらに1段{1}の気動ダメージを与える。\nメイン音骸スロットに装備時、自身の気動ダメージが{2}、共鳴解放ダメージが{3}アップ。\nクールタイム：{4}秒",
+    "SimpleDesc": "【逆巻く潮】を召喚して敵に気動ダメージを与える。\nメイン音骸スロットに装備時、自身の気動ダメージと共鳴解放ダメージがアップ。",
+    "Param": [
+      [
+        "7.60%",
+        "91.20%",
+        "12.00%",
+        "12.00%",
+        "20"
+      ],
+      [
+        "9.12%",
+        "109.44%",
+        "12.00%",
+        "12.00%",
+        "20"
+      ],
+      [
+        "10.64%",
+        "127.68%",
+        "12.00%",
+        "12.00%",
+        "20"
+      ],
+      [
+        "12.16%",
+        "145.92%",
+        "12.00%",
+        "12.00%",
+        "20"
+      ],
+      [
+        "13.68%",
+        "164.16%",
+        "12.00%",
+        "12.00%",
+        "20"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_34018_UI.T_MstSkil_34018_UI",
+    "Damage": {
+      "28003201": {
+        "Element": 4,
+        "RelatedProperty": "攻撃力",
+        "Type": 5,
+        "RateLv": [
+          760,
+          912,
+          1064,
+          1216,
+          1368
+        ],
+        "Energy": 19,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 760
+      },
+      "28003202": {
+        "Element": 4,
+        "RelatedProperty": "攻撃力",
+        "Type": 5,
+        "RateLv": [
+          9120,
+          10944,
+          12768,
+          14592,
+          16416
+        ],
+        "Energy": 228,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 9120
+      }
+    }
+  },
+  "Group": {
+    "20": {
+      "Id": 20,
+      "Name": "グローリーフォージ・クラウン",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriShield.T_IconElementAttriShield",
+      "Color": "FFFFFF00",
+      "Set": {
+        "3": {
+          "Desc": "キャラがシールドを獲得時、自身の攻撃力が{0}、クリティカルダメージが{1}アップ。この効果は最大{2}スタック、{3}秒間持続、{4}秒ごとに1回発動可能。",
+          "Param": [
+            "6%",
+            "4%",
+            "5",
+            "4",
+            "0.5"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 2,
+  "MonsterInfo": 340000180
+}

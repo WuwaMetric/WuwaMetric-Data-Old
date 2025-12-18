@@ -1,0 +1,5644 @@
+{
+  "Id": 1410,
+  "Rarity": 5,
+  "Weapon": 4,
+  "Element": 4,
+  "Tag": {
+    "1": {
+      "Name": "耐久・回復",
+      "Desc": "チームの耐久力を向上させる",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/RoleLabel/SP_RoleLabelA1.SP_RoleLabelA1",
+      "Color": "77ffb7"
+    },
+    "3": {
+      "Name": "協奏効率",
+      "Desc": "高い協奏効率を持つ",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/RoleLabel/SP_RoleLabelA3.SP_RoleLabelA3",
+      "Color": "ff4040"
+    },
+    "7": {
+      "Name": "共鳴解放ダメージ",
+      "Desc": "共鳴解放のダメージが高い",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/RoleLabel/SP_RoleLabelB4.SP_RoleLabelB4",
+      "Color": "ffde73"
+    },
+    "21": {
+      "Name": "重撃ダメージブースト",
+      "Desc": "特定のチームメイトに重撃ダメージブースト効果を付与する",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/RoleLabel/SP_RoleLabelD8.SP_RoleLabelD8",
+      "Color": "ff7777"
+    }
+  },
+  "Name": "ユーノ",
+  "NickName": "ユーノ",
+  "Desc": "運命に恵まれれば、運命に縛られる。\nそれでも、彼女は挫けない。\n運命に逆らい、彼女らしく進み続ける姿がそこにある。",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_48_UI.T_IconRoleHead256_48_UI",
+  "Background": "/Game/Aki/UI/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_younuo_UI.T_IconRole_Pile_younuo_UI",
+  "BackgroundStand": "/Game/Aki/UI/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyYounuo.T_ActivityRoleOntrialHalfBodyYounuo",
+  "CharaInfo": {
+    "Birth": "なし",
+    "Sex": "女",
+    "Country": "リナシータ",
+    "Influence": "セブン・ヒルズ",
+    "Info": "運命に恵まれれば、運命に縛られる。\nそれでも、彼女は挫けない。\n運命に逆らい、彼女らしく進み続ける姿がそこにある。",
+    "TalentName": "留まり、廻り、繰り返す",
+    "TalentDoc": "「テトラゴン真殿の<te href=850152>諭しの女</te>名簿に収録」\n127人目の諭しの女についてここに記す……その名はユー▇。\n彼女は月が沈んだ夜に生まれた<te href=850068>先天型共鳴者</te>であり、両目で▇▇▇▇▇ことができる。\n音痕は左足の足の甲にあり、共鳴能力を使用時には、月相に類似する▇▇エナジーからなる物体が体の周りを漂い、髪の先が一部透明化する。その色も質感も月明かりに酷似している。\n周波数スペクトルグラフは自然界の月と一致し、月相の移り変わりに似た性質を持っている。特に注目すべきは、彼女の共鳴能力は、3年前から▇▇が起きたことが伺える。物事をアン▇▇し、顕▇させる力があり、流れる月明りを物理的な矢に変え、命中した造物を<te href=851023>黒潮</te>の中に▇▇▇▇隠▇たりできなくすることができる。\n\n<i>名簿を整理している間、何度もこの記録を確認してもらったが、結局記録者を特定することはできなかった。それどころか、記録に書かれた人物を知る者は全くいない。本当にそのようなすごい諭しの女が存在していたのか？どこからともなく現れたと疑ってしまうぐらい不思議な記録だ。</i>",
+    "TalentCertification": "「テトラゴン真殿の<te href=850152>諭しの女</te>名簿に収録」\nこれは127人目の諭しの女についての記録である。\n波形に異常は見られず、<te href=850073>オーバークロック</te>のリスクはない。しかし、波形に衰弱の兆しがあることから、力を過度に使用していたことがうかがえる。原因は不明。被験者は検査に対して非協力的である。\n\n<i>彼女は自分の体のことをよく理解しているようだった。もし波形がこのまま弱まり、規定値を超えたら……何が起こるのだろう？</i>\n<i>彼女はなぜ怯えない？すでに対策は持っているのか？</i>",
+    "CVNameCn": "Jiang Yingjun",
+    "CVNameJp": "Lynn",
+    "CVNameKo": "Yoon Eun Seo",
+    "CVNameEn": "Ella Boyes"
+  },
+  "Stories": [
+    {
+      "Title": "目を閉じなければ",
+      "Content": "水面に浮かび上がるような感覚と共に目を覚ました。\n胸いっぱいに空気を吸って、冷たい石の階段を踏み締める。まだこれだけの感触が伝わってくることに少し驚く。\n消失、それは無に等しい。過去、現在、未来……その全てが無に帰る。つまり、一度消えた者は存在してはいけない。水に溶ける不純物のように。\n実を言うと、ここがどこなのか理解していない。\n一見、普通の世界と何ら変わりはない。でも、重く引きずられるような感覚がある。次の瞬間、全てが止まってしまうかのような、そんな感覚だ。\n確かにそこにあるのは、足が感触をとらえている石の階段だけ。\nもう一度、強く地面を踏み締めてみる。そして、冷たい骨の上を歩くように、奥へと進んだ。\n\n子供の頃から歩くのが好きだった。\nレンガの上、コケの上、花の敷かれた道の上、流れる泉の上。目的もなく、気ままに歩いていた。\n活発な子供だったのだろう。行ったことのない場所に行ったり、やったことのない事をやるのが好きだった。\n母のシビルは、一番の理解者だった。一度たりとも貴族のルールなんかに縛られたことはない。\n辿れる道は一つではないが、どの道を選ぼうと、その先にはいつも母親が待っていた。\n\nあの日もありふれた一日になるはずだった。\nいつも通り石の階段を走り抜け、母親の元へ行ったあの日。\n母もいつも通り抱きしめてくれた。いつも通り頭を撫でてくれた。\n「ユーノは偉いね」\nいつも通り、褒めてくれた。\nその言葉に得意げな瞬きを返す。\n<te href=851017>リリベル</te>というおばあさんは、私はセブン・ヒルズで一番才のある<te href=850152>諭しの女</te>になると言っていた。\nでも、どうして諭しの女じゃなきゃいけないのだろう。他の天才ではダメなのだろうか。\nあの頃はまだ幼く、予言に対して純粋な好奇心を抱いていた。運命に恵まれること自体が対価となる。それを知るには幼すぎた。\nそして、運命はこれ以上待ってはくれなかった。\n一瞬にして笑顔が固まった。そこには、母の無惨な姿があったのだ。血肉は溶け落ち、黒い何かに蝕まれている。血ではない、それ以上に濃い黒色をした何か。それが目の前で蠢いている。\n意識が遠くなる。そして、目を閉じてしまった。\n暗い。冷たい。近い。\n震えが止まらない。それでも、母の袖を掴んで、勇気を振り絞って再び目を開いてみた。しかし、そこに先ほどの光景はなかった。運命の潮は前触れもなく押し寄せては、水に濡れたままにして消えていく。\nそれから、何度も母と話をした。私が見ることができなかったものは何なのか。\n「もういいの」\n母は私の前髪に触れるだけで、何も答えてはくれなかった。\n母はのちに任務の中で<te href=851023>黒潮</te>に呑まれ、黒い何かに沈んでしまった。\n優しい母はもういない。温かい言葉をかけてくれる人はもういない。\n嫌でもあの日のことを思い返してしまう。灰白色の石灰化物はどこから母の体を覆い始めたのか。黒い何かはどこから流れ出たのか。事故の原因は何なのか。\nあの時全てを見ていたら、救うことができたのではないか。もしあの時、目を閉じなければ……\n\n再び石の階段に立ち、その先を見つめた。大きく目を見開いてみせる。今度こそ、全てを見るんだ。\nでも、真実の過去も、幻も、見えなかった。\n「もう一度だけチャンスを」\n自分に言い聞かせるように、正体のわからない何かを言い聞かせるような、小さな声だ。\n「もう一度だけチャンスを……今度こそ目を閉じたりしない」\nしかし、運命は振り返らない。ただ足元から骨のような冷たさが伝わってくるばかりだ。\nそして、向こうから近づいてくる影があった。\n\nそれは私だった。母のいた石の階段を登りながら歩いていく。\n何かに引きずられるような感覚だ。今にも時が止まってしまいそうだ。きっとここもすぐになくなるのだろう。\nいいや、構わない。答えなら残すことができる。\n息もできないほどの苦痛。それは自分がよく知っている。\n幼い自分を見つめた。涙を溜めたその目は、今にも閉じそうだ。\nそして、指先で彼女の小さなまぶたに触れる。\n「全てを見るのなら、目を閉じてはダメ」\n「どんなに暗くても、冷たくても、近くても、目を開いて」\n突然、どこからともなく風が吹き、彼女の涙を攫っていった。"
+    },
+    {
+      "Title": "月を眺める人の悲しみをあげたい",
+      "Content": "またあの感覚と共に目を覚ました。\n\n幼い自分に出会ってからというもの、ずっと似たようなことを繰り返している。\nその度に過去を追体験し、記憶が呼び起こされる。全てが止まり、静寂に呑み込まれ、目を覚ます瞬間まで。\nでも、少しずつ慣れてきている自分がいるのも確かだ。\n皮肉なことである。誰も覚えていない過去に閉じ込められているなんて。\nこれは運命のいたずらか、それとも消えることを選んだ罰なのか。\nその問いに答えてくれる者はいない。\nそして、また一つの過去が始まる。\n\n土砂降りの雨が降ったあの日。\n予言に出た天才が<te href=850152>諭しの女</te>になる瞬間を見ようと、テトラゴン真殿に多くの人が詰めかけていた。\n人々は諭しの女を畏れ、敬う。それと同時に、過度な期待を抱いている。\n死に際した諭しの女は、あらゆる苦難を乗り越えた結末を見ることができる、そんな風に信じている人までいるようだ。\n確かに、諭しの女は人知の及ばぬ未来や運命に近い存在だ。\nだからこそ、救いを求め、そのような噂が流布されるのかもしれない。\nあの日の前の夜、ある諭しの女の死を見た。\n白いハトの羽ばたく音が聞こえるほど静かな夜。その静寂を一人の諭しの女が破った。\n「あなたは、私たちとは違う……だから、私たちの代わりに、見て」\n確かに見ることならできる。しかし、この約束が果たされるのを見届けられる者はいない。\n人知の及ばぬ未来と運命の前では、諭しの女はあまりに無力だ。己の死すら、彼女たちには見えていないのだから。\n\n予言は鎖であり、鍵である。\nならば、その鍵はこの手の中にあるべきだ。でも、鎖は断ち切るべきだ。\nだから、諭しの女にはなっても、他人の期待に応えるつもりはない。\nあの儀式の日、普通の礼服ではなく、あえて薄絹と黄金を飾られた古い服に袖を通した。それは、運命と向き合うための決意でもあった。\nしかし、辺りからは人々のざわめきが聞こえ、古風な元老は不満を漏らす。\n「何と不敬な」\nもちろん、その言葉は耳に届いた。だから、こう返してやった。\n「運命は跪きながら見ないといけないなんて、誰が決めたの？」\n元老たちはただ黙っていた。天井から差し込む光に彼らの灰色がかった瞳が照らされる。鋭い視線を放つそれは、何かを徐々に切り裂こうとする細いナイフのようだった。\n\nその日を境に、混沌の渚から未来を探し始めた。\n心驚かす光景、悲しい光景、嫌でも見えてしまう未来の欠片。その全てを予言を求める人々に伝えていた。\n予言を希望だと信じてすがる者たちがいる。しかし、彼らは知らない。予言など、運命の隙間から漏れ出る一片に過ぎないことを。\n多くを見るほど、人々の視線がナイフのように鋭くなる。\n彼らは、縋らざるを得ないのだ。でないと、いずれそのナイフは己を引き裂いてしまう。\n\nもう目を閉じることはなくなった。\nでも、自分も何かに切り裂かれてしまう予感がする。\nそれは記憶か、この名前か、世界を見る度に失われていく自分自身か。\nそれでも、恐れはしない。\n今日もセブン・ヒルズには風が吹き、雨が降る。\n<te href=851017>リリベル</te>のおばあさんが言っていたように、全てを見ることはできた。\nだから次は、この足で未来へと歩いていけるのか、見届けたい。"
+    },
+    {
+      "Title": "困惑、危険、失敗であなたの心を打とうとした",
+      "Content": "<te href=850159>高潮</te>が押し寄せる前から、凄惨な未来が見えていた。\n潮と一つになった造物たち。闇と似た黒。果てていく<te href=850164>グラディエーター</te>たち。奴らは何度貫かれようとも<te href=851023>黒潮</te>によって再生し、そして戦士たちをあざ笑うかのように足元に粘液を残す。\nこれが勝利の未来と言えるのだろうか。\n\n夢にうなされていたあの夜。\n黒潮に溺れていたのは自分自身だった。鼻や口は黒潮で満たされ、少しずつ沈んでいく。黒潮の中がこんなにも深いなんて知らなかった。\n黒潮の底には、もう一人の自分がいた。\n「見るだけで人々を救えるとでも？」\n冷たい笑いだった。その瞳の奥には、壊滅したセブン・ヒルズが写っている。\n「それに、あなた自身の未来は見えているの？」\n反論する言葉は思いつかなかった。\n\nグラディエーターたちは、未だ黒潮の勢いを止められずにいる。\nテトラゴン真殿に予言を求めて人が集まってきた。皆、この現状に不安を抱いているのだ。\n結果から原因を推測し、その原因をもって結果を覆す。これが予言の在り方だ。\nでも、見えたのは、黒潮に呑まれた母の姿、崩れていく建物と惑う群衆、放った全ての矢が、黒き潮に弾かれ、呑み込まれる様。\nこれらを示して何になる？\n未来が変わったことなんて、本当はなかったのだ。\n未来を見ることはできても、それを変える権利は与えられていないのだから。\n\n別の夜、再び占い台の前に座った。\nさざ波が揺れ、誰かの囁きが聞こえてくる。\n「あなたには全てが見える。でも、見るだけじゃ何も変わらない」\n予言されていた過去、啓示が一面に刻まれた石壁、予言が一面に書き記された巻き軸、糸のような運命の流れ。\nふと顔を上げる。空には月が写っている。\n手を伸ばしても届かないそれは、運命とよく似ていると思った。\nこんな時ほど、運命は答えを示してくれない。\nでも、もうその必要はない。\n「未来を変えられないのなら、いっそのこと射貫いてみせる」\n腕を掲げ力を集める。そして、それを撃ち放った。自由な私であるために。\n\n大きな音はしなかった。でも、確実にセブン・ヒルズの運命を、そして狡猾な黒潮を釘付けした。\n誰もが焦がれた、化け物に死がもたらされる瞬間である。\n\nしかし、その代償は？\n皆、キャンプで酒を飲み、火はパチパチと音を立てている。キャンプでは勝利を祝う宴が開かれていた。\n人混みを避けていると、何人かが声を立てた。\n「――あそこにいるのは誰？」\n「<te href=850152>諭しの女</te>に決まってるだろ……名前は、えっと……ユーノだっけ？」\n「諭しの女ユーノって、噂の天才の……」\n「うーん、有名人だっていうのに、あんまり記憶にないな」\n少し戸惑った様子の若いグラディエーターが隣に来た。\n「えっと……確かこの前俺たちと一緒にいましたよね……？ほら、こっちに来て一緒に祝いましょう」\nユーノは少し眉を動かしてみせた。そして、言葉も交わさず乾杯した。\n\nキャンプから離れ、一人で湖のほとりまで来た。\nそして、両腕で足を抱き、うずくまる。\n来た道を振り返ると、影が薄くなったり、砕け散ったりしている。\n賑やかなキャンプから、自分の名前が聞こえることはない。\nあんな表情をする人ではなかった。この前、予言を伝えた時は、確かに「ユーノ」と呼んでくれた。この戦いでは肩を並べて一緒に戦っていた。\n確かにあったはずの過去が、消え始めている。\n\n湖のほとりに座り、指先で水面をいじる。\n水面に映る自分の姿は、輪郭こそがはっきりしているが、なぜだか靄がかかっているようだ。\n指先を水の中に突っ込む。すると、自分の影は逃げてしまうのではないかというくらい大きく揺れた。\n「逃げないでよ」\n水に向かって笑う。\n「あなたまで私のこと忘れたの？」\n水面が少し揺れた。言葉が届いたのだろうか。\n「覚えていてほしいの？」\n返事の代わりに、手で水面を揺らす。そこに映る顔をはっきりと見ることはできない。\n「……もう、どうでもいいの」\n長い沈黙の後に出た言葉だった。\n顔を上げて、空に懸かる月を睨む。まるで欠けたコインのような月だ。\nそれに向かって小さく笑う。長年の宿敵にかける挑戦的な挨拶のように。\n「……あなたが覚えているのなら、それで十分だわ」"
+    },
+    {
+      "Title": "千度落ちる月",
+      "Content": "停滞、流動、孤独、覚醒。この繰り返しの中では、「過去」と呼べない光景に遭うことがある。\n\nとある夜。星はなかった。それでも、月は手が届きそうなほど近かった。\nどのようにして眠りについたのかは覚えていない。もしかしたら、眠りになどついていなかったのかもしれない。そうだとしたら、きっとここは、月を射貫き不遜な言葉を向けた報復として連れてこられた、偽りの世界なのだろう。\n\nそこは<te href=851023>黒潮</te>のない平和な世界だった。\nどこか懐かしい野原を走る子供。黄昏の空に昇る炊事の煙。\n自分と同じぐらいの歳の少女が、木の上でまどろんでいる。それはまるで陽光を泳ぐ魚のようだ。\nきっとこの少女はさざなみのような、穏やかな笑顔を見せるのだろう。\n\n「見よ」\n月が耳元で甘い声で囁いた。\n「こんな可能性もあったんだ」\n仲間と話す木の上の少女が、軽やかに地面に降り、スカートの裾を揺らす。\n「あれはあなた」\nその声が囁いた。\n「ここは虚構。見たことのない雪や海も、ここでなら見ることができる」\n振り返ると、そこには月が懸かっていた。もはやそれは、夜空を飾るものではなく、全てを見下ろし監視する瞳のようだ。\n「何を心配しているのだ？」\n穏やかな声だった。幼い頃、炎の光に見た啓示にも似ている。\n「快楽に身を任せよ。ここは現実ではないのだから」\n\n全てが巻き戻り始めた。\n最後の終わり、千回目の終わり、百回目の終わり……十回目……一回目。\n流れに逆らい、真なる原点に戻れば、この数字に意味はなくなる。\n\n相変わらず彼女は楽しそうに走り回っている。足元には倒れた果物籠。空には暖かな太陽が照っている。仲間たちと話す様子も平和な日常そのものだ。\n\n「この結末に至ったのは予言に縛られていたから。でも、もし別の選択が与えられていたとしたら……」\n「ここが現実じゃないと言ったのはあなただろう？」\n昼空に不似合いな月を見上げて続ける。\n「もう、戻れないのだろう？」\n答えはなかった。その月はただ、人を惑わすような、柔らかな光を放っている。\n「もう過去はない。これからはここに留まり続けることになる」\n月は少し間を置いて続けた。\n「なぜ虚構にいながら、目を開き続ける。なぜそこまで執着する」\n\nすぐに返事はできなかった。\n手にあるのは弓ではなく、まだ蕾の野花。\n「お互い様よ」\n月にそう優しく微笑みかけた。\n\n再びもう一人の自分を見る。彼女は野原を離れ、賑やかな街のある店の前にいる。\n\n「寂しいのか？」\n月が問う。\n「まぁ……少しだけ」\n否定はできなかった。\n「その寂しさを、誰かに伝えたいとは思わないのか？」\n「それは弱者のすることよ」\n「では、あなたの気持ちを否定するのか？」\n「それも弱い人がすること」\n「つまり……」\n「つまり、この寂しさを受け入れるの。心の中に押し込めて、夜になったら噛み締めればいい」\n\n酒屋に入ると、手に持っていた花束をカウンターに置いた。「彼女」は鏡の前で髪を整えている。\nそれを手伝ってあげた。かつて、母がしてくれたように。\n「あなたは素敵な人よ」\n「でも、もうあなたには戻れない」\n\n店を出た。そして、月が作った偽りの世界からも。\n月が影を長く延ばす中、ゆっくりと歩いていく。\n月は、最後にもう一度引き留めようとしてきた。\n「あなたは不憫だ。その強情さが、あなたの身を滅ぼしている」\n\n「同情なんていらない。だって、それが私なんだから」\n人生は勝負と同じだ。たとえ誰が相手であろうと、勝たねばならない。\n自分自身にだって、負けるつもりはないのだ。"
+    },
+    {
+      "Title": "巡る果てに",
+      "Content": "何度目なのかはもう分からない。またあの感覚と共に目を覚ました。\n幾度となくこの虚しい繰り返しを続けてきた。\nでも、止まるわけにはいかない。\nようやく気付いたのだ。ここは存在と消失の狭間、混沌の間だということを。\n現実にこの名前はとっくにない。<te href=851023>黒潮</te>の造物をアンカーするたび、「ユーノ」という名の欠片は剥がれ落ちていく。\nこれは自分で選んだ結末。もう後戻りはできない。\n\n繰り返し見る過去に溺れ、巡る無数の欠片で身分を変えてきた。\nあの人が手を伸ばしてくれたあの瞬間、指先でその温もりを感じたあの瞬間まで。\n空白の者。この混沌に初めて来てくれた、自分以外の人。黒潮と月明りの間でもがく私を見つけてくれた人。\n「……ユーノ」\n\nああ、ついに報われた。\n忘れられたはずの存在が、ついにそうでなくなった。\n永遠に続く混沌が、終わりに近づいている。\n「今行く」\n水底に落ちる小石のように軽やかな声。\n「……終わりを告げに行く。もう一度始めるために」\n\n別々の道を歩いてきた二人は、全ての始まりである、あの戦場で再会した。\nそこには、裂けた月が懸かっていた。それはかつて自分を犠牲にした時に残した痕跡であり、過去がまだ残っている証拠であり、運命が残してくれた隙間でもある。\n「中に入れば、あの時に戻ることになる。{Male=彼;Female=彼女}と一緒に、みんなに忘れられた自分を連れて、もう一度自分をアンカーする。でも、かつてアンカーしたかったものも、既にアンカーしたものも、運命でさえも、全てアンカーし直すことになる。その意味を理解しているの？」\nもう一人の自分の声がかすかに聞こえる。その声は戒めのように強く、説得にも似て逸っていた。\n「……ええ」\n眉間の感情を悟られないよう、冷静に答える。\n「もっと多くを見たかった。もっと多くを予言したかった。見れば見るほど、何かを変えられる気がしてたから。でも、違った。それはただ私を縛っていただけだった」\n\n空白の者は静かに見守ってくれた。\n手を掲げ、運命の流れを月の矢に変える。\n夜明けを告げるかのように、青白い光が矢に流れ始める。\n「……今度は順番を変える。まずは私自身からアンカーする」\nただ弓を大きく引いた。そこには恨みも悲しみもない。\n「そして――逃げようとするもの全てをアンカーする。それから、新しい世界を見届けに行く」\n\n月の矢は壁の前で本物の月のように強く光り輝いた。\n吹きつける風が髪を乱す。それでも、呼吸が乱されることはない。\n\n空白の者が見たユーノの姿は、満ちていく月のようだった。\n\nその矢が放たれた瞬間、やはり大きな音はしなかった。\n月の裂け目から光が溢れ、潮のように流れ出る。\n剥がれ落ちた名前や、運命に喰われた影が、あの矢によってアンカーされた。\n\n長い時を経て、キャンプの宴に帰ってきた。辺りには栄光を象徴する花の雨が降り注いでいる。\nふと視線に気づき、そちらを見遣る。そこには少し困惑した様子の人がいた。\n「あなたは……おかしいな、知らない人のはずなのに……もしかしたらどこかでお会いしたことがありませんか？」\n前と同じように、少し眉を動かしてみせ、そして黙ったままグラスをぶつけた。\n\nあの夜の後、運命を射貫いた少女の名前を思い出した者はいなかった。\nしかし、月相は単調な満ち欠けではなく、より大きな可能性を含むようになった。\nユーノはその輪の中で変化を受け入れながら、自分自身をアンカーする。"
+    }
+  ],
+  "Voices": [
+    {
+      "Type": 1,
+      "Title": "心の声・その一",
+      "Content": "空白……あなたに関する予言をリリベルのおばあちゃんから聞いた時、すごく驚いたわ。諭しの女は、炎の光を崇めてるの。なぜなら、それは私たちに啓示を与えてくれるから。光に照らされた場所は、少なくとも輪郭が見える。なのに、一面の空白が広がってるなんてね。何かに遮られているのか、仕掛けが施されているのか。空白を背負う者は、計り知れない深淵の持ち主なのか、逆に持たざる空虚な者なのか……あなたと一緒に過ごしているうちに、その謎を理解したわ。空白とは、混沌と似て非なるもの。無限の可能性を秘めた、純粋な存在だってことを。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_younuo_sys_toplayer01.play_favor_word_younuo_sys_toplayer01"
+    },
+    {
+      "Type": 1,
+      "Title": "心の声・その二",
+      "Content": "見ること自体は簡単よ。でも、結果はかなり複雑ね。予言できるのは幸運だけど、それを変えたり逃れたりできないと、悲しい未来を待つしかなくなる。私は予言された終焉を受け入れることができなかった。何もできず、ただ見てるだけなんて惨めだもの……だから、絶対に変えたかったの。たとえ痛ましい現実に何度直面しようと、どれほどの苦しみを味わおうと……結果的に、運命がほとんど変わらなかったとしてもね。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_younuo_sys_toplayer02.play_favor_word_younuo_sys_toplayer02"
+    },
+    {
+      "Type": 1,
+      "Title": "心の声・その三",
+      "Content": "あの矢を放ったら私がどうなるかなんて、大体の予想はついてた。存在の消失……あるいは、みんなに忘れられてしまう、と。月の矢で<te href=851023>黒潮</te>の造物をアンカーして奴らを顕現させていた数年間、ずっと状態は変わらなかった。副作用は小さかったし、ちっとも気にしてなかったわ……数日間、周りの人が私に関する記憶を失いかけたり、誰かに聞かなければ思い出せないようなことはあったけど。それに、あそこまで大きく未来を変えようとした代償だとしたら、割に合ってるんじゃない？",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_younuo_sys_toplayer03.play_favor_word_younuo_sys_toplayer03"
+    },
+    {
+      "Type": 1,
+      "Title": "心の声・その四",
+      "Content": "忘れてしまった側の人よりも、覚えている立場のほうがつらいこともあるわ。昔の記憶が残ってる分、何かをきっかけに動揺してしまったり、背負うものがあるでしょう。しかも、それはずっと続いていく。ごめん……あの時は、戻ってこられるなんて思わなかったのよ。だから余計に、私がワガママに見えたでしょうね。けど、もし同じことが起こるとしても……やっぱり、あなたにだけは私の存在を……私の全てを覚えていてほしい。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_younuo_sys_toplayer04.play_favor_word_younuo_sys_toplayer04"
+    },
+    {
+      "Type": 1,
+      "Title": "心の声・その五",
+      "Content": "先のことは、まだ何も決めてないの。そうね……いつも未来ばかり見てたから、今この瞬間を生きようと思っても難しいわ。まぁ、私もセブン・ヒルズと同じように、掟や束縛から抜け出して無限の可能性を手に入れたから、進む道はいくらでもある。すぐに決める必要はないでしょう？まずは、自分の好きなように動いて、欲しいものを手に入れようかしら……もっとも、やりたいことはすでにやってるわ。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_younuo_sys_toplayer05.play_favor_word_younuo_sys_toplayer05"
+    },
+    {
+      "Type": 1,
+      "Title": "好きなこと",
+      "Content": "サプライズは好きよ。でも、厳しい深淵の運命を騙して「偶然」を作るのは、決して簡単じゃない。何度も準備や練習を重ねて、ようやく予想外の事実を生み出せる……だから、たとえ小さなサプライズだったとしても、用意してくれた人には最大限の拍手を贈るの。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_younuo_sys_taste.play_favor_word_younuo_sys_taste"
+    },
+    {
+      "Type": 1,
+      "Title": "悩み",
+      "Content": "いい加減なところで妥協するのは嫌よ。何をやるにしても、一番気の済む方法を探して……他人の意見？関係ないわ。私が聞く耳なんて持ってるわけないでしょ？",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_younuo_sys_worry.play_favor_word_younuo_sys_worry"
+    },
+    {
+      "Type": 1,
+      "Title": "好きな食べ物",
+      "Content": "新鮮な旬の果物ね。わざわざ摘む必要もないし、木の下に立ってれば落ちてくるもの。熟した実を一口噛むと、果肉から甘い汁が弾けて……こんな話をしてたら、食べたくなってきたわ。せっかくだし、一緒に行くわよ。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_younuo_sys_foodlike.play_favor_word_younuo_sys_foodlike"
+    },
+    {
+      "Type": 1,
+      "Title": "嫌いな食べ物",
+      "Content": "脂っこい肉料理はダメね。あ、調味料の味が強いのも、臭みが残ってるのも無理よ。煮込みすぎたせいで、トロトロになってる野菜や果物も遠慮したいわ。だって、ダラダラしてる意気地なしの人間みたいじゃない？それから……って、何よ。まだ話は終わってないわ！",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_younuo_sys_foodhate.play_favor_word_younuo_sys_foodhate"
+    },
+    {
+      "Type": 1,
+      "Title": "夢",
+      "Content": "運命と対峙……？違うわ、私は自分が望む自由を手に入れたいだけ。運命が望む未来を与えてくれないなら、掴み取るしかないでしょ？もちろん私の場合、ただ掴み取るわけじゃなくて、自由に、生意気に、欲張るわ……対価？何をするにしても、必要でしょうね。でも、いちいち気にしたらキリがないわ。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_younuo_sys_dream.play_favor_word_younuo_sys_dream"
+    },
+    {
+      "Type": 1,
+      "Title": "伝えたいこと・その一",
+      "Content": "ルナオーラムで作られた弓ね……あれはお父さんからもらった最後のプレゼントよ。あの時、私は諭しの女になる道を選んだばかりだった。だから、テトラゴン真殿に向かいながら、「せっかくもらったけど、使う日は来ないでしょうね」なんて思ったわ。でも、後になって気づいたの。私は手を合わせて誰かのために祈るよりも、運命を自分の手で掴むほうが好きだってことに。それで私は、月や光の導きに従うだけの存在から、月相を支配して世界をアンカーするようになったの。この「三日月」も、始まりと終わりを見届けるために、私の因果と溶け合ってるわ。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_younuo_sys_storyobj.play_favor_word_younuo_sys_storyobj"
+    },
+    {
+      "Type": 1,
+      "Title": "伝えたいこと・その二",
+      "Content": "私はリリベルのおばあちゃんが出した予言通り……って、待ちなさい！私の過去なんて、混沌の中で充分過ぎるほど見たでしょう！もう知ってるのに聞いてくるなんて、どういうことよ。あ、いや……別に話してあげてもいいけど、みんなには内緒よ。それと、忘れるのもダメだから。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_younuo_sys_storyexp.play_favor_word_younuo_sys_storyexp"
+    },
+    {
+      "Type": 1,
+      "Title": "オーガスタについて",
+      "Content": "オーガスタも知らない秘密を教えてあげるわ。初めて彼女と会った時、私はこう言ったの。「あなたはセブン・ヒルズを新しい時代に導いていくわ」って。あれをオーガスタは予言だと勘違いしてるみたいだけど、実は私がそう思っただけなのよ。彼女の未来は、一度も見たことがない。だって、オーガスタなら自分の手で掴み取るでしょ？民のために全てを捧げ、自分の命まで差し出しちゃうんだから、戴冠する前に資質は証明されてる。けど、そのせいで想像を遥かに超える責任を背負っているのは事実……きっと、一人でも解決できるでしょうね。でも、諭しの女として、親友として……一度は忘れられてしまった身だけど、少しでも力になりたい。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_younuo_sys_about_aogusita.play_favor_word_younuo_sys_about_aogusita"
+    },
+    {
+      "Type": 1,
+      "Title": "リリベルについて",
+      "Content": "私に関する予言を出したリリベルのおばあちゃんは、テトラゴン真殿で運命について一から教えてくれた。あなたも知っての通り、私は人の教えをすんなり聞くような生徒じゃないわ。おばあちゃんと私は、まるで対照的ね。私なんかより権威もあるおばあちゃんは、セブン・ヒルズ人なら誰もがイメージする諭しの女そのもの。諭しの女としての才能や予言に対する意見は、ほとんど一致しなかったわ。でも、おばあちゃんは私を説得してこなかったし、諭しの女としての振る舞いを強制してこなかった。おばあちゃんが言うには、ルールは守るに値する時のみ意味を持つらしいわ。他人に迷惑さえかけなければ、選択は常に自由なんだってね。たとえ諭しの女だろうと、ただの道具ではなく一人の人間だってことを、私はおばあちゃんから教わったの。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_younuo_sys_about_lilibei.play_favor_word_younuo_sys_about_lilibei"
+    },
+    {
+      "Type": 1,
+      "Title": "ルパについて",
+      "Content": "ルパの試合を見た人は、誰もが彼女と戦いたくなるでしょうね。彼女の闘技に対する熱意は……本当に純粋で無垢よ。たぶん、戦い自体で得られる喜びと比べたら、勝利や栄光はついでのご褒美みたいな感覚じゃないかしら？負けを恐れないからこそ、決して簡単に諦めず、どんな時も全力を尽くしてるんだわ。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_younuo_sys_about_lupa.play_favor_word_younuo_sys_about_lupa"
+    },
+    {
+      "Type": 1,
+      "Title": "アウィディウスについて",
+      "Content": "アウィディウスは全力で運命に向かって、咆哮を上げたわ。たとえ、それがすぐ嗚咽となり、静かに溶けていったとしても、確実に存在していた。だって、私たちには聞こえていたでしょう？器に対するこだわりや他人からの期待を捨てた時が、一番英雄王らしかったわね。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_younuo_sys_about_aweidiya.play_favor_word_younuo_sys_about_aweidiya"
+    },
+    {
+      "Type": 1,
+      "Title": "カルロッタについて",
+      "Content": "カルロッタとモンテリファミリーは、ラグーナだけじゃなくて、セブン・ヒルズに新しいものを運んでくるわ。しかも、必ず流行するんだから……私？もちろん、お得意様の一人よ。だって、仕方ないでしょう？私の好きそうなものばかり用意するんだから……本当に、ずる賢いモンテリね！",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_younuo_sys_about_kelaita.play_favor_word_younuo_sys_about_kelaita"
+    },
+    {
+      "Type": 1,
+      "Title": "誕生日祝い",
+      "Content": "諭しの女にとって、誕生日は終わりの始まり。予言を始める最適なタイミングなのよ……けど、無限の可能性を持つ空白も素敵ね。それ以上に明るい未来なんて、私には予言できないと思うわ。だから、これを用意したのよ。この月相が巡る小さな月を、あなたの空白に入れておいてほしい。いつか、無限の可能性に戸惑う日が来たとしても、この月があなたをアンカーするわ……誕生日おめでとう、空白の者。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_younuo_sys_birthcele.play_favor_word_younuo_sys_birthcele"
+    },
+    {
+      "Type": 1,
+      "Title": "余暇・その一",
+      "Content": "台詞なし。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_younuo_idle_idle01.play_favor_word_younuo_idle_idle01"
+    },
+    {
+      "Type": 1,
+      "Title": "余暇・その二",
+      "Content": "ん～完璧ね。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_younuo_idle_idle02.play_favor_word_younuo_idle_idle02"
+    },
+    {
+      "Type": 1,
+      "Title": "余暇・その三",
+      "Content": "いい音色でしょ？",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_younuo_idle_idle03.play_favor_word_younuo_idle_idle03"
+    },
+    {
+      "Type": 1,
+      "Title": "自己紹介",
+      "Content": "私はユーノ。月食と共に生まれた天才にして、正しい未来を見通す諭しの女よ。気になることがあったら、私のところに来なさい……ただし、望む答えが得られる保証はないけど。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_younuo_sys_introduction.play_favor_word_younuo_sys_introduction"
+    },
+    {
+      "Type": 1,
+      "Title": "最初の音",
+      "Content": "自分を越え、始まりと終わりを迎え……未来を変える、その瞬間まで。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_younuo_sys_gacha.play_favor_word_younuo_sys_gacha"
+    },
+    {
+      "Type": 1,
+      "Title": "チームに編入・その一",
+      "Content": "いいわ、啓示を与えてあげる。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_younuo_sys_jointeam_01.play_favor_word_younuo_sys_jointeam_01"
+    },
+    {
+      "Type": 1,
+      "Title": "チームに編入・その二",
+      "Content": "やっぱり、私がいないとダメね。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_younuo_sys_jointeam_02.play_favor_word_younuo_sys_jointeam_02"
+    },
+    {
+      "Type": 1,
+      "Title": "チームに編入・その三",
+      "Content": "不滅の月が、運命を覆すわ。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_younuo_sys_jointeam_03.play_favor_word_younuo_sys_jointeam_03"
+    },
+    {
+      "Type": 1,
+      "Title": "突破・その一",
+      "Content": "感情や記憶、繋がりと同じように、もっと多くの力を顕現させないと……私のこと、上手にアンカーできるようになってきたじゃない。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_younuo_sys_rankup01.play_favor_word_younuo_sys_rankup01"
+    },
+    {
+      "Type": 1,
+      "Title": "突破・その二",
+      "Content": "ある月から、もうひとつの月へ。もっと、もっとよ……私の力がどんどん大きくなっていくわ。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_younuo_sys_rankup02.play_favor_word_younuo_sys_rankup02"
+    },
+    {
+      "Type": 1,
+      "Title": "突破・その三",
+      "Content": "本当に大丈夫なの？私のワガママを許し続けてるせいで、このままじゃ……あなたも一緒に混沌より恐ろしい未知の場所に落ちるかもしれないわよ！",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_younuo_sys_rankup03.play_favor_word_younuo_sys_rankup03"
+    },
+    {
+      "Type": 1,
+      "Title": "突破・その四",
+      "Content": "力だけじゃなくて、好きなものを求めてもいいのね。ちゃんと考えてから言いなさい。私は欲しいものを手に入れるまで、あなたからずっと手を離さないわよ。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_younuo_sys_rankup04.play_favor_word_younuo_sys_rankup04"
+    },
+    {
+      "Type": 1,
+      "Title": "突破・その五",
+      "Content": "限界を超えた冷たい炎、災厄を味わった世界、混沌、虚無、現実……そして、月を捕まえる、あなたの姿を見た。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_younuo_sys_rankup05.play_favor_word_younuo_sys_rankup05"
+    },
+    {
+      "Type": 2,
+      "Title": "重撃・1",
+      "Content": "楽しませることね。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_younuo_atk_heavyatk01_01.play_favor_word_younuo_atk_heavyatk01_01"
+    },
+    {
+      "Type": 2,
+      "Title": "重撃・2",
+      "Content": "讃えなさい。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_younuo_atk_heavyatk01_02.play_favor_word_younuo_atk_heavyatk01_02"
+    },
+    {
+      "Type": 2,
+      "Title": "重撃・3",
+      "Content": "私を見なさい。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_younuo_atk_heavyatk01_03.play_favor_word_younuo_atk_heavyatk01_03"
+    },
+    {
+      "Type": 2,
+      "Title": "重撃・4",
+      "Content": "捕まえたわ。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_younuo_atk_heavyatk02_01.play_favor_word_younuo_atk_heavyatk02_01"
+    },
+    {
+      "Type": 2,
+      "Title": "重撃・5",
+      "Content": "奪い取るわ。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_younuo_atk_heavyatk02_02.play_favor_word_younuo_atk_heavyatk02_02"
+    },
+    {
+      "Type": 2,
+      "Title": "重撃・6",
+      "Content": "見定めてあげる。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_younuo_atk_heavyatk02_03.play_favor_word_younuo_atk_heavyatk02_03"
+    },
+    {
+      "Type": 2,
+      "Title": "共鳴スキル・1",
+      "Content": "三日月よ。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_younuo_skill_skill01_01.play_favor_word_younuo_skill_skill01_01"
+    },
+    {
+      "Type": 2,
+      "Title": "共鳴スキル・2",
+      "Content": "満月ね。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_younuo_skill_skill01_02.play_favor_word_younuo_skill_skill01_02"
+    },
+    {
+      "Type": 2,
+      "Title": "共鳴スキル・3",
+      "Content": "月相の変化。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_younuo_skill_skill01_03.play_favor_word_younuo_skill_skill01_03"
+    },
+    {
+      "Type": 2,
+      "Title": "共鳴スキル・4",
+      "Content": "私が月よ。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_younuo_skill_skill02_01.play_favor_word_younuo_skill_skill02_01"
+    },
+    {
+      "Type": 2,
+      "Title": "共鳴スキル・5",
+      "Content": "跪きなさい。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_younuo_skill_skill02_02.play_favor_word_younuo_skill_skill02_02"
+    },
+    {
+      "Type": 2,
+      "Title": "共鳴スキル・6",
+      "Content": "捧げなさい。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_younuo_skill_skill02_03.play_favor_word_younuo_skill_skill02_03"
+    },
+    {
+      "Type": 2,
+      "Title": "共鳴スキル・7",
+      "Content": "全てが導きよ。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_younuo_skill_skill03_01.play_favor_word_younuo_skill_skill03_01"
+    },
+    {
+      "Type": 2,
+      "Title": "共鳴スキル・8",
+      "Content": "矢の先を真実に。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_younuo_skill_skill03_02.play_favor_word_younuo_skill_skill03_02"
+    },
+    {
+      "Type": 2,
+      "Title": "共鳴スキル・9",
+      "Content": "行き先は全て狩り場。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_younuo_skill_skill03_03.play_favor_word_younuo_skill_skill03_03"
+    },
+    {
+      "Type": 2,
+      "Title": "共鳴スキル・10",
+      "Content": "因果を覆すわ。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_younuo_skill_skill04_01.play_favor_word_younuo_skill_skill04_01"
+    },
+    {
+      "Type": 2,
+      "Title": "共鳴スキル・11",
+      "Content": "未来を作り変える。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_younuo_skill_skill04_02.play_favor_word_younuo_skill_skill04_02"
+    },
+    {
+      "Type": 2,
+      "Title": "共鳴スキル・12",
+      "Content": "運命は示した通り。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_younuo_skill_skill04_03.play_favor_word_younuo_skill_skill04_03"
+    },
+    {
+      "Type": 2,
+      "Title": "共鳴解放・1",
+      "Content": "これが、私の決意！",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_younuo_burst_burst01_01.play_favor_word_younuo_burst_burst01_01"
+    },
+    {
+      "Type": 2,
+      "Title": "共鳴解放・2",
+      "Content": "私に応えなさい！",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_younuo_burst_burst01_02.play_favor_word_younuo_burst_burst01_02"
+    },
+    {
+      "Type": 2,
+      "Title": "共鳴解放・3",
+      "Content": "月が満ちたわ！",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_younuo_burst_burst01_03.play_favor_word_younuo_burst_burst01_03"
+    },
+    {
+      "Type": 2,
+      "Title": "変奏スキル・1",
+      "Content": "少し遊んであげる。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_younuo_skill_qte_01.play_favor_word_younuo_skill_qte_01"
+    },
+    {
+      "Type": 2,
+      "Title": "変奏スキル・2",
+      "Content": "華麗に、優雅に……！",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_younuo_skill_qte_02.play_favor_word_younuo_skill_qte_02"
+    },
+    {
+      "Type": 2,
+      "Title": "変奏スキル・3",
+      "Content": "瞬きは禁止よ。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_younuo_skill_qte_03.play_favor_word_younuo_skill_qte_03"
+    },
+    {
+      "Type": 2,
+      "Title": "終奏スキル・1",
+      "Content": "片付けましょ。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_younuo_skill_exitskill_01.play_favor_word_younuo_skill_exitskill_01"
+    },
+    {
+      "Type": 2,
+      "Title": "終奏スキル・2",
+      "Content": "楽しいじゃない。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_younuo_skill_exitskill_02.play_favor_word_younuo_skill_exitskill_02"
+    },
+    {
+      "Type": 2,
+      "Title": "終奏スキル・3",
+      "Content": "光栄だわ。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_younuo_skill_exitskill_03.play_favor_word_younuo_skill_exitskill_03"
+    },
+    {
+      "Type": 2,
+      "Title": "終奏スキル・4",
+      "Content": "さすが、英雄王。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_younuo_skill_exitskill_double_01.play_favor_word_younuo_skill_exitskill_double_01"
+    },
+    {
+      "Type": 2,
+      "Title": "終奏スキル・5",
+      "Content": "私がいないとダメね。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_younuo_skill_exitskill_double_02.play_favor_word_younuo_skill_exitskill_double_02"
+    },
+    {
+      "Type": 2,
+      "Title": "終奏スキル・6",
+      "Content": "二人の栄光よ。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_younuo_skill_exitskill_double_03.play_favor_word_younuo_skill_exitskill_double_03"
+    },
+    {
+      "Type": 2,
+      "Title": "ダメージ・1",
+      "Content": "意味が分からないわ。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_younuo_com_behitfly_01.play_favor_word_younuo_com_behitfly_01"
+    },
+    {
+      "Type": 2,
+      "Title": "ダメージ・2",
+      "Content": "生意気ね。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_younuo_com_behitfly_02.play_favor_word_younuo_com_behitfly_02"
+    },
+    {
+      "Type": 2,
+      "Title": "ダメージ・3",
+      "Content": "ふん、これくらい別に……",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_younuo_com_behitfly_03.play_favor_word_younuo_com_behitfly_03"
+    },
+    {
+      "Type": 2,
+      "Title": "重傷・1",
+      "Content": "それだけかしら？",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_younuo_com_hpdown01.play_favor_word_younuo_com_hpdown01"
+    },
+    {
+      "Type": 2,
+      "Title": "重傷・2",
+      "Content": "まったく、無礼ね。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_younuo_com_hpdown02.play_favor_word_younuo_com_hpdown02"
+    },
+    {
+      "Type": 2,
+      "Title": "重傷・3",
+      "Content": "私の全てを受けなさい……",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_younuo_com_hpdown03.play_favor_word_younuo_com_hpdown03"
+    },
+    {
+      "Type": 2,
+      "Title": "戦闘不能・1",
+      "Content": "いえ……絶対に、諦めないわ！",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_younuo_com_die_01.play_favor_word_younuo_com_die_01"
+    },
+    {
+      "Type": 2,
+      "Title": "戦闘不能・2",
+      "Content": "私は、存在している……",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_younuo_com_die_02.play_favor_word_younuo_com_die_02"
+    },
+    {
+      "Type": 2,
+      "Title": "戦闘不能・3",
+      "Content": "月が、落ちるだなんて。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_younuo_com_die_03.play_favor_word_younuo_com_die_03"
+    },
+    {
+      "Type": 2,
+      "Title": "音骸スキル・召喚",
+      "Content": "任せたわ。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_younuo_com_hxsummon.play_favor_word_younuo_com_hxsummon"
+    },
+    {
+      "Type": 2,
+      "Title": "音骸スキル・変身",
+      "Content": "ちょっとしたサプライズよ～",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_younuo_com_hxchange.play_favor_word_younuo_com_hxchange"
+    },
+    {
+      "Type": 2,
+      "Title": "敵に遭遇",
+      "Content": "私が見届けるわ。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_younuo_com_engage.play_favor_word_younuo_com_engage"
+    },
+    {
+      "Type": 2,
+      "Title": "滑空",
+      "Content": "それじゃ、月でも捕りにいきましょ。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_younuo_com_fly_01.play_favor_word_younuo_com_fly_01"
+    },
+    {
+      "Type": 2,
+      "Title": "スキャン",
+      "Content": "思った通りね。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_younuo_com_scan.play_favor_word_younuo_com_scan"
+    },
+    {
+      "Type": 2,
+      "Title": "ダッシュ",
+      "Content": "付いてくるのよ。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_younuo_com_accelerate.play_favor_word_younuo_com_accelerate"
+    },
+    {
+      "Type": 2,
+      "Title": "補給獲得・1",
+      "Content": "こうじゃないとね。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_younuo_com_openbox_01.play_favor_word_younuo_com_openbox_01"
+    },
+    {
+      "Type": 2,
+      "Title": "補給獲得・2",
+      "Content": "当然の結果よ。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_younuo_com_openbox_02.play_favor_word_younuo_com_openbox_02"
+    },
+    {
+      "Type": 2,
+      "Title": "補給獲得・3",
+      "Content": "気に入ったの？足りなければ、私のところにもあるわ。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_younuo_com_openbox_03.play_favor_word_younuo_com_openbox_03"
+    },
+    {
+      "Type": 2,
+      "Title": "補給獲得・4",
+      "Content": "……贈り物かしら？たまには運命も優しいのね。",
+      "Voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_younuo_sys_gondola_treasure.play_favor_word_younuo_sys_gondola_treasure"
+    }
+  ],
+  "Goods": [
+    {
+      "Title": "折れた新生",
+      "Content": "混沌の中で顕現させた、ルナオーラムを彷彿とさせる折れた枝。しかし、ユーノの弓はとっくに完成していた。\n過酷な運命に磨かれた枝は、犠牲の役割を終え、自由な成長を手に入れるのかもしれない。\nその成長は終末を超えた空白の未来にあり、観測できるものだ。この新生の枝はまさしく、新たな始まりである。",
+      "Icon": "/Game/Aki/UI/UIResources/UiRole/Image/Treasure/T_Treasure113_UI.T_Treasure113_UI"
+    },
+    {
+      "Title": "振られた不確定性",
+      "Content": "ユーノが持つ、面の数がばらばらの、いくつかのサイコロ。\nセブン・ヒルズ人は勝負が好きだ。それはユーノも同じであるが、単調なゲームは彼女の好みではない。\n十二の面を持つサイコロには更なる改造が施されており、同時にそれを用いた数々のゲームが彼女によって生み出されてきた。サイコロはそれぞれの面の大きさが異なるため、もちろん出目の確率は均等ではない。しかし、プレイヤーは同じルールのもとで、同じサイコロを使用する。つまり、公平性は保たれているのだ。\nただし、いくらサイコロに細工を加えようとも、それ自体はゲームの醍醐味ではない。彼女にとっての核心は、「不確定」を以て「確定」に抗うことにある。",
+      "Icon": "/Game/Aki/UI/UIResources/UiRole/Image/Treasure/T_Treasure115_UI.T_Treasure115_UI"
+    },
+    {
+      "Title": "過去の瞬間を捉えられれば",
+      "Content": "写真を現像する機能を持つ撮影装置と、ユーノの姿が映っている何枚かの写真。\nモンテリがセブン・ヒルズにもたらしたこの装置は、ユーノを大いに魅了した。嬉しい時、悲しい時、他の人と一緒にいる時など、彼女は様々な人生の瞬間を写真に収めている。\nこれは、自分に対する記憶や認知が曖昧になるという、アンカーの力の副作用の対抗策でもある。\nまた、これらは完全に自分が消えてしまった時の保険でもある。写真を見る人が自分の存在を忘れ、写真の中の自分の姿を見ることができなくなっても、「写真が存在する」という事実を消すことはできない。それらはきっと、過去の美しい瞬間を、そしてユーノの存在を証明してくれる。",
+      "Icon": "/Game/Aki/UI/UIResources/UiRole/Image/Treasure/T_Treasure114_UI.T_Treasure114_UI"
+    }
+  ],
+  "SpecialCook": {
+    "Id": 80001065,
+    "Name": "蜜漬けオリーブ",
+    "Desc": "チーム内全員の共鳴スキルダメージが55%アップ。持続時間30分、マルチプレイ中は自分のキャラにのみ有効。",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconCook/T_IconCook_SP_20_UI.T_IconCook_SP_20_UI",
+    "Rarity": 4
+  },
+  "Stats": {
+    "0": {
+      "1": {
+        "Life": 842.0,
+        "Atk": 36.0,
+        "Def": 92.0
+      },
+      "2": {
+        "Life": 912.8964,
+        "Atk": 39.0312,
+        "Def": 99.5716
+      },
+      "3": {
+        "Life": 983.877,
+        "Atk": 42.066,
+        "Def": 107.1524
+      },
+      "4": {
+        "Life": 1054.8576,
+        "Atk": 45.1008,
+        "Def": 114.7332
+      },
+      "5": {
+        "Life": 1125.754,
+        "Atk": 48.132,
+        "Def": 122.314
+      },
+      "6": {
+        "Life": 1196.7346,
+        "Atk": 51.1668,
+        "Def": 129.8948
+      },
+      "7": {
+        "Life": 1267.7152,
+        "Atk": 54.2016,
+        "Def": 137.4756
+      },
+      "8": {
+        "Life": 1338.6116,
+        "Atk": 57.2328,
+        "Def": 145.0564
+      },
+      "9": {
+        "Life": 1409.5922,
+        "Atk": 60.2676,
+        "Def": 152.6372
+      },
+      "10": {
+        "Life": 1480.5728,
+        "Atk": 63.3024,
+        "Def": 160.218
+      },
+      "11": {
+        "Life": 1551.4692,
+        "Atk": 66.3336,
+        "Def": 167.7988
+      },
+      "12": {
+        "Life": 1622.4498,
+        "Atk": 69.3684,
+        "Def": 175.3796
+      },
+      "13": {
+        "Life": 1693.4304,
+        "Atk": 72.4032,
+        "Def": 182.9604
+      },
+      "14": {
+        "Life": 1764.411,
+        "Atk": 75.438,
+        "Def": 190.5412
+      },
+      "15": {
+        "Life": 1835.3074,
+        "Atk": 78.4692,
+        "Def": 198.122
+      },
+      "16": {
+        "Life": 1906.288,
+        "Atk": 81.504,
+        "Def": 205.7028
+      },
+      "17": {
+        "Life": 1977.2686,
+        "Atk": 84.5388,
+        "Def": 213.2836
+      },
+      "18": {
+        "Life": 2048.165,
+        "Atk": 87.57,
+        "Def": 220.8644
+      },
+      "19": {
+        "Life": 2119.1456,
+        "Atk": 90.6048,
+        "Def": 228.4452
+      },
+      "20": {
+        "Life": 2190.1262,
+        "Atk": 93.6396,
+        "Def": 236.026
+      }
+    },
+    "1": {
+      "20": {
+        "Life": 2751.4034,
+        "Atk": 120.6396,
+        "Def": 295.6512
+      },
+      "21": {
+        "Life": 2822.384,
+        "Atk": 123.6708,
+        "Def": 303.232
+      },
+      "22": {
+        "Life": 2893.3646,
+        "Atk": 126.7056,
+        "Def": 310.8128
+      },
+      "23": {
+        "Life": 2964.261,
+        "Atk": 129.7404,
+        "Def": 318.3936
+      },
+      "24": {
+        "Life": 3035.2416,
+        "Atk": 132.7752,
+        "Def": 325.9744
+      },
+      "25": {
+        "Life": 3106.2222,
+        "Atk": 135.8064,
+        "Def": 333.5552
+      },
+      "26": {
+        "Life": 3177.2028,
+        "Atk": 138.8412,
+        "Def": 341.136
+      },
+      "27": {
+        "Life": 3248.0992,
+        "Atk": 141.876,
+        "Def": 348.7168
+      },
+      "28": {
+        "Life": 3319.0798,
+        "Atk": 144.9072,
+        "Def": 356.2976
+      },
+      "29": {
+        "Life": 3390.0604,
+        "Atk": 147.942,
+        "Def": 363.8784
+      },
+      "30": {
+        "Life": 3460.9568,
+        "Atk": 150.9768,
+        "Def": 371.4592
+      },
+      "31": {
+        "Life": 3531.9374,
+        "Atk": 154.008,
+        "Def": 379.04
+      },
+      "32": {
+        "Life": 3602.918,
+        "Atk": 157.0428,
+        "Def": 386.6208
+      },
+      "33": {
+        "Life": 3673.8144,
+        "Atk": 160.0776,
+        "Def": 394.2016
+      },
+      "34": {
+        "Life": 3744.795,
+        "Atk": 163.1088,
+        "Def": 401.7824
+      },
+      "35": {
+        "Life": 3815.7756,
+        "Atk": 166.1436,
+        "Def": 409.3632
+      },
+      "36": {
+        "Life": 3886.7562,
+        "Atk": 169.1784,
+        "Def": 416.944
+      },
+      "37": {
+        "Life": 3957.6526,
+        "Atk": 172.2132,
+        "Def": 424.5248
+      },
+      "38": {
+        "Life": 4028.6332,
+        "Atk": 175.2444,
+        "Def": 432.1056
+      },
+      "39": {
+        "Life": 4099.6138,
+        "Atk": 178.2792,
+        "Def": 439.6864
+      },
+      "40": {
+        "Life": 4170.5102,
+        "Atk": 181.314,
+        "Def": 447.2672
+      }
+    },
+    "2": {
+      "40": {
+        "Life": 4731.8716,
+        "Atk": 208.314,
+        "Def": 506.8924
+      },
+      "41": {
+        "Life": 4802.8522,
+        "Atk": 211.3452,
+        "Def": 514.4732
+      },
+      "42": {
+        "Life": 4873.7486,
+        "Atk": 214.38,
+        "Def": 522.054
+      },
+      "43": {
+        "Life": 4944.7292,
+        "Atk": 217.4148,
+        "Def": 529.6348
+      },
+      "44": {
+        "Life": 5015.7098,
+        "Atk": 220.446,
+        "Def": 537.2156
+      },
+      "45": {
+        "Life": 5086.6062,
+        "Atk": 223.4808,
+        "Def": 544.7964
+      },
+      "46": {
+        "Life": 5157.5868,
+        "Atk": 226.5156,
+        "Def": 552.3772
+      },
+      "47": {
+        "Life": 5228.5674,
+        "Atk": 229.5504,
+        "Def": 559.958
+      },
+      "48": {
+        "Life": 5299.548,
+        "Atk": 232.5816,
+        "Def": 567.5388
+      },
+      "49": {
+        "Life": 5370.4444,
+        "Atk": 235.6164,
+        "Def": 575.1196
+      },
+      "50": {
+        "Life": 5441.425,
+        "Atk": 238.6512,
+        "Def": 582.7004
+      }
+    },
+    "3": {
+      "50": {
+        "Life": 6002.7864,
+        "Atk": 265.6512,
+        "Def": 642.3256
+      },
+      "51": {
+        "Life": 6073.6828,
+        "Atk": 268.6824,
+        "Def": 649.9064
+      },
+      "52": {
+        "Life": 6144.6634,
+        "Atk": 271.7172,
+        "Def": 657.4872
+      },
+      "53": {
+        "Life": 6215.644,
+        "Atk": 274.752,
+        "Def": 665.068
+      },
+      "54": {
+        "Life": 6286.5404,
+        "Atk": 277.7832,
+        "Def": 672.6488
+      },
+      "55": {
+        "Life": 6357.521,
+        "Atk": 280.818,
+        "Def": 680.2296
+      },
+      "56": {
+        "Life": 6428.5016,
+        "Atk": 283.8528,
+        "Def": 687.8104
+      },
+      "57": {
+        "Life": 6499.4822,
+        "Atk": 286.8876,
+        "Def": 695.3912
+      },
+      "58": {
+        "Life": 6570.3786,
+        "Atk": 289.9188,
+        "Def": 702.972
+      },
+      "59": {
+        "Life": 6641.3592,
+        "Atk": 292.9536,
+        "Def": 710.5528
+      },
+      "60": {
+        "Life": 6712.3398,
+        "Atk": 295.9884,
+        "Def": 718.1336
+      }
+    },
+    "4": {
+      "60": {
+        "Life": 7273.617,
+        "Atk": 322.9884,
+        "Def": 777.768
+      },
+      "61": {
+        "Life": 7344.5976,
+        "Atk": 326.0196,
+        "Def": 785.3488
+      },
+      "62": {
+        "Life": 7415.5782,
+        "Atk": 329.0544,
+        "Def": 792.9296
+      },
+      "63": {
+        "Life": 7486.4746,
+        "Atk": 332.0892,
+        "Def": 800.5104
+      },
+      "64": {
+        "Life": 7557.4552,
+        "Atk": 335.1204,
+        "Def": 808.0912
+      },
+      "65": {
+        "Life": 7628.4358,
+        "Atk": 338.1552,
+        "Def": 815.672
+      },
+      "66": {
+        "Life": 7699.3322,
+        "Atk": 341.19,
+        "Def": 823.2436
+      },
+      "67": {
+        "Life": 7770.3128,
+        "Atk": 344.2212,
+        "Def": 830.8244
+      },
+      "68": {
+        "Life": 7841.2934,
+        "Atk": 347.256,
+        "Def": 838.4052
+      },
+      "69": {
+        "Life": 7912.274,
+        "Atk": 350.2908,
+        "Def": 845.986
+      },
+      "70": {
+        "Life": 7983.1704,
+        "Atk": 353.3256,
+        "Def": 853.5668
+      }
+    },
+    "5": {
+      "70": {
+        "Life": 8544.5318,
+        "Atk": 371.3256,
+        "Def": 913.2012
+      },
+      "71": {
+        "Life": 8615.5124,
+        "Atk": 374.3568,
+        "Def": 920.782
+      },
+      "72": {
+        "Life": 8686.4088,
+        "Atk": 377.3916,
+        "Def": 928.3628
+      },
+      "73": {
+        "Life": 8757.3894,
+        "Atk": 380.4264,
+        "Def": 935.9436
+      },
+      "74": {
+        "Life": 8828.37,
+        "Atk": 383.4576,
+        "Def": 943.5244
+      },
+      "75": {
+        "Life": 8899.2664,
+        "Atk": 386.4924,
+        "Def": 951.1052
+      },
+      "76": {
+        "Life": 8970.247,
+        "Atk": 389.5272,
+        "Def": 958.686
+      },
+      "77": {
+        "Life": 9041.2276,
+        "Atk": 392.5584,
+        "Def": 966.2668
+      },
+      "78": {
+        "Life": 9112.124,
+        "Atk": 395.5932,
+        "Def": 973.8476
+      },
+      "79": {
+        "Life": 9183.1046,
+        "Atk": 398.628,
+        "Def": 981.4284
+      },
+      "80": {
+        "Life": 9254.0852,
+        "Atk": 401.6628,
+        "Def": 989.0092
+      }
+    },
+    "6": {
+      "80": {
+        "Life": 9815.4466,
+        "Atk": 419.6628,
+        "Def": 1048.6344
+      },
+      "81": {
+        "Life": 9886.343,
+        "Atk": 422.694,
+        "Def": 1056.2152
+      },
+      "82": {
+        "Life": 9957.3236,
+        "Atk": 425.7288,
+        "Def": 1063.796
+      },
+      "83": {
+        "Life": 10028.3042,
+        "Atk": 428.7636,
+        "Def": 1071.3768
+      },
+      "84": {
+        "Life": 10099.2006,
+        "Atk": 431.7948,
+        "Def": 1078.9576
+      },
+      "85": {
+        "Life": 10170.1812,
+        "Atk": 434.8296,
+        "Def": 1086.5384
+      },
+      "86": {
+        "Life": 10241.1618,
+        "Atk": 437.8644,
+        "Def": 1094.1192
+      },
+      "87": {
+        "Life": 10312.0582,
+        "Atk": 440.8956,
+        "Def": 1101.7
+      },
+      "88": {
+        "Life": 10383.0388,
+        "Atk": 443.9304,
+        "Def": 1109.2808
+      },
+      "89": {
+        "Life": 10454.0194,
+        "Atk": 446.9652,
+        "Def": 1116.8616
+      },
+      "90": {
+        "Life": 10525.0,
+        "Atk": 450.0,
+        "Def": 1124.4424
+      }
+    }
+  },
+  "LevelEXP": [
+    0,
+    400,
+    400,
+    500,
+    600,
+    700,
+    900,
+    1000,
+    1200,
+    1300,
+    1500,
+    1700,
+    2000,
+    2200,
+    2400,
+    2700,
+    3000,
+    3300,
+    3600,
+    3900,
+    4300,
+    4600,
+    5000,
+    5400,
+    5800,
+    6300,
+    6700,
+    7200,
+    7700,
+    8200,
+    8700,
+    9300,
+    9800,
+    10400,
+    11000,
+    11700,
+    12300,
+    13000,
+    13700,
+    14400,
+    15100,
+    15900,
+    16700,
+    17500,
+    18300,
+    19200,
+    20000,
+    20900,
+    21900,
+    22800,
+    23800,
+    24800,
+    25800,
+    26900,
+    28000,
+    29100,
+    30300,
+    31400,
+    32600,
+    33900,
+    35100,
+    36400,
+    37700,
+    39100,
+    40500,
+    41900,
+    43300,
+    44800,
+    46300,
+    47900,
+    49500,
+    51100,
+    52800,
+    54500,
+    56200,
+    58000,
+    59800,
+    61600,
+    63500,
+    65400,
+    67400,
+    69400,
+    71400,
+    73500,
+    75600,
+    77800,
+    80000,
+    82300,
+    84600,
+    86900,
+    105600,
+    107400,
+    110000,
+    113600,
+    118600,
+    125500,
+    134900,
+    147300,
+    163600,
+    184500
+  ],
+  "SkillTrees": {
+    "1": {
+      "ParentNodes": [],
+      "NodeType": 2,
+      "Coordinate": 1,
+      "UnLockCondition": 0,
+      "Consume": [
+        {
+          "Key": 43020032,
+          "Value": 2
+        },
+        {
+          "Key": 41100022,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 3900
+        }
+      ],
+      "Skill": {
+        "Name": "予言する者の孤行",
+        "Desc": "<size=40><color=Title>月の環・通常攻撃</color></size>\n<color=Highlight>月の環</color>で最大3段の連続攻撃を行い、<color=Wind>気動ダメージ</color>を与える。\n<size=10></size>\n<size=40><color=Title>空中攻撃</color></size>\nスタミナを消費して落下攻撃を行い、<color=Wind>気動ダメージ</color>を与える。\n<size=10></size>\n<size=40><color=Title>月の環・回避反撃</color></size>\n回避成功後一定時間内に通常攻撃を一回押しすると、<color=Highlight>月の環</color>で目標を攻撃し、<color=Wind>気動ダメージ</color>を与える。このスキル発動後、一定時間内に通常攻撃を一回押しすると、月の環・通常攻撃3段目を発動する。\n\n<size=40><color=Title>月の弓・通常攻撃</color></size>\n<color=Highlight>重撃・流変・月の環</color>を発動すると、ユーノが<color=Highlight><te href=141001>月相の巡り</te>・三日月</color>状態に入る。この状態では<color=Highlight>月の弓</color>で攻撃する。\n<color=Highlight>月の弓</color>で最大3段の連続攻撃を行い、<color=Wind>気動ダメージ</color>を与える。このダメージは共鳴解放ダメージと見なされる。\n空中で発動可能。\n\n<size=40><color=Title>月の弓・回避反撃</color></size>\n<color=Highlight>月相の巡り・三日月</color>状態中、回避成功後一定時間内に通常攻撃を一回押しすると、<color=Highlight>月の弓</color>で目標を攻撃し、<color=Wind>気動ダメージ</color>を与える。このダメージは共鳴解放ダメージと見なされる。\n<color=Highlight>月相の巡り・三日月</color>状態中、このスキル発動後一定時間内に通常攻撃を一回押しすると、月の弓・通常攻撃3段目を発動する。\n空中で発動可能。",
+        "Param": [],
+        "SimpleDesc": "<size=40><color=Title>通常攻撃</color></size>\n<color=Highlight>月の環</color>で攻撃し、<color=Wind>気動ダメージ</color>を与える。\n<size=10></size>\n<size=40><color=Title>空中攻撃</color></size>\n<color=Wind>気動ダメージ</color>を与える。\n<size=10></size>\n<size=40><color=Title>回避反撃</color></size>\n<color=Highlight>月の環</color>で攻撃し、<color=Wind>気動ダメージ</color>を与える。\n\n<size=40><color=Title>月の弓・通常攻撃</color></size>\n<color=Highlight>重撃・流変・月の環</color>を発動すると、ユーノが<color=Highlight><te href=141001>月相の巡り</te>・三日月</color>状態に入る。この状態では<color=Highlight>月の弓</color>で攻撃を行い、<color=Wind>気動ダメージ</color>を与える。\n\n<size=40><color=Title>月の弓・回避反撃</color></size>\n<color=Highlight>月の弓</color>で目標を攻撃し、<color=Wind>気動ダメージ</color>を与える。",
+        "SimpleParam": [],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorFist.SP_IconNorFist",
+        "Type": "基本攻撃",
+        "Level": {
+          "1": {
+            "Name": "月の環・通常攻撃1段目ダメージ",
+            "Param": [
+              [
+                "44.10%",
+                "47.72%",
+                "51.34%",
+                "56.40%",
+                "60.02%",
+                "64.17%",
+                "69.96%",
+                "75.75%",
+                "81.53%",
+                "87.68%",
+                "94.91%",
+                "102.15%",
+                "109.38%",
+                "116.61%",
+                "123.84%",
+                "131.07%",
+                "138.31%",
+                "145.54%",
+                "152.77%",
+                "160.00%"
+              ]
+            ],
+            "Format": null
+          },
+          "2": {
+            "Name": "月の環・通常攻撃2段目ダメージ",
+            "Param": [
+              [
+                "23.17%*2+23.87%",
+                "25.07%*2+25.83%",
+                "26.97%*2+27.79%",
+                "29.63%*2+30.53%",
+                "31.53%*2+32.48%",
+                "33.71%*2+34.74%",
+                "36.75%*2+37.87%",
+                "39.79%*2+41.00%",
+                "42.83%*2+44.13%",
+                "46.06%*2+47.46%",
+                "49.86%*2+51.37%",
+                "53.66%*2+55.29%",
+                "57.46%*2+59.20%",
+                "61.26%*2+63.11%",
+                "65.06%*2+67.03%",
+                "68.86%*2+70.94%",
+                "72.66%*2+74.86%",
+                "76.46%*2+78.77%",
+                "80.25%*2+82.69%",
+                "84.05%*2+86.60%"
+              ]
+            ],
+            "Format": null
+          },
+          "3": {
+            "Name": "月の環・通常攻撃3段目ダメージ",
+            "Param": [
+              [
+                "44.26%*2+45.60%",
+                "47.89%*2+49.34%",
+                "51.52%*2+53.08%",
+                "56.60%*2+58.31%",
+                "60.22%*2+62.05%",
+                "64.40%*2+66.35%",
+                "70.20%*2+72.33%",
+                "76.01%*2+78.31%",
+                "81.82%*2+84.29%",
+                "87.98%*2+90.65%",
+                "95.24%*2+98.13%",
+                "102.50%*2+105.61%",
+                "109.76%*2+113.08%",
+                "117.01%*2+120.56%",
+                "124.27%*2+128.04%",
+                "131.53%*2+135.51%",
+                "138.79%*2+142.99%",
+                "146.04%*2+150.47%",
+                "153.30%*2+157.95%",
+                "160.56%*2+165.42%"
+              ]
+            ],
+            "Format": null
+          },
+          "4": {
+            "Name": "空中攻撃",
+            "Param": [
+              [
+                "27.00%*2",
+                "29.22%*2",
+                "31.43%*2",
+                "34.53%*2",
+                "36.75%*2",
+                "39.29%*2",
+                "42.84%*2",
+                "46.38%*2",
+                "49.92%*2",
+                "53.68%*2",
+                "58.11%*2",
+                "62.54%*2",
+                "66.97%*2",
+                "71.40%*2",
+                "75.82%*2",
+                "80.25%*2",
+                "84.68%*2",
+                "89.11%*2",
+                "93.54%*2",
+                "97.96%*2"
+              ]
+            ],
+            "Format": null
+          },
+          "5": {
+            "Name": "月の環・回避反撃",
+            "Param": [
+              [
+                "41.29%*2+42.54%",
+                "44.67%*2+46.03%",
+                "48.06%*2+49.51%",
+                "52.80%*2+54.40%",
+                "56.18%*2+57.89%",
+                "60.08%*2+61.90%",
+                "65.49%*2+67.48%",
+                "70.91%*2+73.06%",
+                "76.32%*2+78.64%",
+                "82.08%*2+84.57%",
+                "88.85%*2+91.54%",
+                "95.62%*2+98.52%",
+                "102.39%*2+105.49%",
+                "109.16%*2+112.47%",
+                "115.93%*2+119.44%",
+                "122.70%*2+126.42%",
+                "129.47%*2+133.40%",
+                "136.24%*2+140.37%",
+                "143.01%*2+147.35%",
+                "149.78%*2+154.32%"
+              ]
+            ],
+            "Format": null
+          },
+          "6": {
+            "Name": "月の弓・通常攻撃1段目ダメージ",
+            "Param": [
+              [
+                "63.60%",
+                "68.82%",
+                "74.04%",
+                "81.34%",
+                "86.55%",
+                "92.55%",
+                "100.89%",
+                "109.24%",
+                "117.58%",
+                "126.45%",
+                "136.88%",
+                "147.31%",
+                "157.74%",
+                "168.17%",
+                "178.60%",
+                "189.03%",
+                "199.46%",
+                "209.89%",
+                "220.32%",
+                "230.75%"
+              ]
+            ],
+            "Format": null
+          },
+          "7": {
+            "Name": "月の弓・通常攻撃2段目ダメージ",
+            "Param": [
+              [
+                "28.00%*3",
+                "30.30%*3",
+                "32.60%*3",
+                "35.81%*3",
+                "38.11%*3",
+                "40.75%*3",
+                "44.42%*3",
+                "48.09%*3",
+                "51.77%*3",
+                "55.67%*3",
+                "60.26%*3",
+                "64.86%*3",
+                "69.45%*3",
+                "74.04%*3",
+                "78.63%*3",
+                "83.22%*3",
+                "87.82%*3",
+                "92.41%*3",
+                "97.00%*3",
+                "101.59%*3"
+              ]
+            ],
+            "Format": null
+          },
+          "8": {
+            "Name": "月の弓・通常攻撃3段目ダメージ",
+            "Param": [
+              [
+                "84.00%*2",
+                "90.89%*2",
+                "97.78%*2",
+                "107.42%*2",
+                "114.31%*2",
+                "122.23%*2",
+                "133.25%*2",
+                "144.27%*2",
+                "155.30%*2",
+                "167.01%*2",
+                "180.78%*2",
+                "194.56%*2",
+                "208.33%*2",
+                "222.11%*2",
+                "235.89%*2",
+                "249.66%*2",
+                "263.44%*2",
+                "277.21%*2",
+                "290.99%*2",
+                "304.77%*2"
+              ]
+            ],
+            "Format": null
+          },
+          "9": {
+            "Name": "月の弓・回避反撃ダメージ",
+            "Param": [
+              [
+                "52.00%*3",
+                "56.27%*3",
+                "60.53%*3",
+                "66.50%*3",
+                "70.77%*3",
+                "75.67%*3",
+                "82.49%*3",
+                "89.31%*3",
+                "96.14%*3",
+                "103.39%*3",
+                "111.91%*3",
+                "120.44%*3",
+                "128.97%*3",
+                "137.50%*3",
+                "146.03%*3",
+                "154.55%*3",
+                "163.08%*3",
+                "171.61%*3",
+                "180.14%*3",
+                "188.67%*3"
+              ]
+            ],
+            "Format": null
+          },
+          "10": {
+            "Name": "空中攻撃スタミナ消費",
+            "Param": [
+              [
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30"
+              ]
+            ],
+            "Format": null
+          }
+        },
+        "Consume": {
+          "1": [],
+          "2": [
+            {
+              "Key": 43020051,
+              "Value": 2
+            },
+            {
+              "Key": 41100041,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 1500
+            }
+          ],
+          "3": [
+            {
+              "Key": 43020051,
+              "Value": 3
+            },
+            {
+              "Key": 41100041,
+              "Value": 3
+            },
+            {
+              "Key": 2,
+              "Value": 2000
+            }
+          ],
+          "4": [
+            {
+              "Key": 43020052,
+              "Value": 2
+            },
+            {
+              "Key": 41100042,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 4500
+            }
+          ],
+          "5": [
+            {
+              "Key": 43020052,
+              "Value": 3
+            },
+            {
+              "Key": 41100042,
+              "Value": 3
+            },
+            {
+              "Key": 2,
+              "Value": 6000
+            }
+          ],
+          "6": [
+            {
+              "Key": 43020053,
+              "Value": 3
+            },
+            {
+              "Key": 41100043,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 16000
+            }
+          ],
+          "7": [
+            {
+              "Key": 43020053,
+              "Value": 5
+            },
+            {
+              "Key": 41100043,
+              "Value": 3
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 30000
+            }
+          ],
+          "8": [
+            {
+              "Key": 43020054,
+              "Value": 2
+            },
+            {
+              "Key": 41100044,
+              "Value": 2
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 50000
+            }
+          ],
+          "9": [
+            {
+              "Key": 43020054,
+              "Value": 3
+            },
+            {
+              "Key": 41100044,
+              "Value": 3
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 70000
+            }
+          ],
+          "10": [
+            {
+              "Key": 43020054,
+              "Value": 6
+            },
+            {
+              "Key": 41100044,
+              "Value": 4
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 100000
+            }
+          ]
+        },
+        "Damage": {
+          "1410001001": {
+            "Element": 4,
+            "RelatedProperty": "攻撃力",
+            "Type": 0,
+            "RateLv": [
+              4410,
+              4772,
+              5134,
+              5640,
+              6002,
+              6417,
+              6996,
+              7575,
+              8153,
+              8768,
+              9491,
+              10215,
+              10938,
+              11661,
+              12384,
+              13107,
+              13831,
+              14554,
+              15277,
+              16000
+            ],
+            "Energy": 123,
+            "ElementPower": 123,
+            "HardnessLv": 10000,
+            "ToughLv": 4900
+          },
+          "1410002001": {
+            "Element": 4,
+            "RelatedProperty": "攻撃力",
+            "Type": 0,
+            "RateLv": [
+              2317,
+              2507,
+              2697,
+              2963,
+              3153,
+              3371,
+              3675,
+              3979,
+              4283,
+              4606,
+              4986,
+              5366,
+              5746,
+              6126,
+              6506,
+              6886,
+              7266,
+              7646,
+              8025,
+              8405
+            ],
+            "Energy": 65,
+            "ElementPower": 65,
+            "HardnessLv": 10000,
+            "ToughLv": 2574
+          },
+          "1410002002": {
+            "Element": 4,
+            "RelatedProperty": "攻撃力",
+            "Type": 0,
+            "RateLv": [
+              2317,
+              2507,
+              2697,
+              2963,
+              3153,
+              3371,
+              3675,
+              3979,
+              4283,
+              4606,
+              4986,
+              5366,
+              5746,
+              6126,
+              6506,
+              6886,
+              7266,
+              7646,
+              8025,
+              8405
+            ],
+            "Energy": 65,
+            "ElementPower": 65,
+            "HardnessLv": 10000,
+            "ToughLv": 2574
+          },
+          "1410002003": {
+            "Element": 4,
+            "RelatedProperty": "攻撃力",
+            "Type": 0,
+            "RateLv": [
+              2387,
+              2583,
+              2779,
+              3053,
+              3248,
+              3474,
+              3787,
+              4100,
+              4413,
+              4746,
+              5137,
+              5529,
+              5920,
+              6311,
+              6703,
+              7094,
+              7486,
+              7877,
+              8269,
+              8660
+            ],
+            "Energy": 67,
+            "ElementPower": 67,
+            "HardnessLv": 10000,
+            "ToughLv": 2652
+          },
+          "1410003001": {
+            "Element": 4,
+            "RelatedProperty": "攻撃力",
+            "Type": 0,
+            "RateLv": [
+              4426,
+              4789,
+              5152,
+              5660,
+              6022,
+              6440,
+              7020,
+              7601,
+              8182,
+              8798,
+              9524,
+              10250,
+              10976,
+              11701,
+              12427,
+              13153,
+              13879,
+              14604,
+              15330,
+              16056
+            ],
+            "Energy": 123,
+            "ElementPower": 123,
+            "HardnessLv": 10000,
+            "ToughLv": 4917
+          },
+          "1410003003": {
+            "Element": 4,
+            "RelatedProperty": "攻撃力",
+            "Type": 0,
+            "RateLv": [
+              4426,
+              4789,
+              5152,
+              5660,
+              6022,
+              6440,
+              7020,
+              7601,
+              8182,
+              8798,
+              9524,
+              10250,
+              10976,
+              11701,
+              12427,
+              13153,
+              13879,
+              14604,
+              15330,
+              16056
+            ],
+            "Energy": 123,
+            "ElementPower": 123,
+            "HardnessLv": 10000,
+            "ToughLv": 4917
+          },
+          "1410003004": {
+            "Element": 4,
+            "RelatedProperty": "攻撃力",
+            "Type": 0,
+            "RateLv": [
+              4560,
+              4934,
+              5308,
+              5831,
+              6205,
+              6635,
+              7233,
+              7831,
+              8429,
+              9065,
+              9813,
+              10561,
+              11308,
+              12056,
+              12804,
+              13551,
+              14299,
+              15047,
+              15795,
+              16542
+            ],
+            "Energy": 127,
+            "ElementPower": 127,
+            "HardnessLv": 10000,
+            "ToughLv": 5066
+          },
+          "1410100001": {
+            "Element": 4,
+            "RelatedProperty": "攻撃力",
+            "Type": 0,
+            "RateLv": [
+              2700,
+              2922,
+              3143,
+              3453,
+              3675,
+              3929,
+              4284,
+              4638,
+              4992,
+              5368,
+              5811,
+              6254,
+              6697,
+              7140,
+              7582,
+              8025,
+              8468,
+              8911,
+              9354,
+              9796
+            ],
+            "Energy": 75,
+            "ElementPower": 150,
+            "HardnessLv": 10000,
+            "ToughLv": 3000
+          },
+          "1410100002": {
+            "Element": 4,
+            "RelatedProperty": "攻撃力",
+            "Type": 0,
+            "RateLv": [
+              2700,
+              2922,
+              3143,
+              3453,
+              3675,
+              3929,
+              4284,
+              4638,
+              4992,
+              5368,
+              5811,
+              6254,
+              6697,
+              7140,
+              7582,
+              8025,
+              8468,
+              8911,
+              9354,
+              9796
+            ],
+            "Energy": 75,
+            "ElementPower": 150,
+            "HardnessLv": 10000,
+            "ToughLv": 3000
+          },
+          "1410500001": {
+            "Element": 4,
+            "RelatedProperty": "攻撃力",
+            "Type": 0,
+            "RateLv": [
+              4129,
+              4467,
+              4806,
+              5280,
+              5618,
+              6008,
+              6549,
+              7091,
+              7632,
+              8208,
+              8885,
+              9562,
+              10239,
+              10916,
+              11593,
+              12270,
+              12947,
+              13624,
+              14301,
+              14978
+            ],
+            "Energy": 66,
+            "ElementPower": 131,
+            "HardnessLv": 10000,
+            "ToughLv": 4950
+          },
+          "1410500002": {
+            "Element": 4,
+            "RelatedProperty": "攻撃力",
+            "Type": 0,
+            "RateLv": [
+              4129,
+              4467,
+              4806,
+              5280,
+              5618,
+              6008,
+              6549,
+              7091,
+              7632,
+              8208,
+              8885,
+              9562,
+              10239,
+              10916,
+              11593,
+              12270,
+              12947,
+              13624,
+              14301,
+              14978
+            ],
+            "Energy": 66,
+            "ElementPower": 131,
+            "HardnessLv": 10000,
+            "ToughLv": 4950
+          },
+          "1410500003": {
+            "Element": 4,
+            "RelatedProperty": "攻撃力",
+            "Type": 0,
+            "RateLv": [
+              4254,
+              4603,
+              4951,
+              5440,
+              5789,
+              6190,
+              6748,
+              7306,
+              7864,
+              8457,
+              9154,
+              9852,
+              10549,
+              11247,
+              11944,
+              12642,
+              13340,
+              14037,
+              14735,
+              15432
+            ],
+            "Energy": 68,
+            "ElementPower": 135,
+            "HardnessLv": 10000,
+            "ToughLv": 5100
+          },
+          "1410510021": {
+            "Element": 4,
+            "RelatedProperty": "攻撃力",
+            "Type": 2,
+            "RateLv": [
+              5200,
+              5627,
+              6053,
+              6650,
+              7077,
+              7567,
+              8249,
+              8931,
+              9614,
+              10339,
+              11191,
+              12044,
+              12897,
+              13750,
+              14603,
+              15455,
+              16308,
+              17161,
+              18014,
+              18867
+            ],
+            "Energy": 59,
+            "ElementPower": 117,
+            "HardnessLv": 10000,
+            "ToughLv": 5000
+          },
+          "1410101021": {
+            "Element": 4,
+            "RelatedProperty": "攻撃力",
+            "Type": 2,
+            "RateLv": [
+              6360,
+              6882,
+              7404,
+              8134,
+              8655,
+              9255,
+              10089,
+              10924,
+              11758,
+              12645,
+              13688,
+              14731,
+              15774,
+              16817,
+              17860,
+              18903,
+              19946,
+              20989,
+              22032,
+              23075
+            ],
+            "Energy": 233,
+            "ElementPower": 265,
+            "HardnessLv": 10000,
+            "ToughLv": 5300
+          },
+          "1410102021": {
+            "Element": 4,
+            "RelatedProperty": "攻撃力",
+            "Type": 2,
+            "RateLv": [
+              2800,
+              3030,
+              3260,
+              3581,
+              3811,
+              4075,
+              4442,
+              4809,
+              5177,
+              5567,
+              6026,
+              6486,
+              6945,
+              7404,
+              7863,
+              8322,
+              8782,
+              9241,
+              9700,
+              10159
+            ],
+            "Energy": 109,
+            "ElementPower": 117,
+            "HardnessLv": 10000,
+            "ToughLv": 2334
+          },
+          "1410103021": {
+            "Element": 4,
+            "RelatedProperty": "攻撃力",
+            "Type": 2,
+            "RateLv": [
+              8400,
+              9089,
+              9778,
+              10742,
+              11431,
+              12223,
+              13325,
+              14427,
+              15530,
+              16701,
+              18078,
+              19456,
+              20833,
+              22211,
+              23589,
+              24966,
+              26344,
+              27721,
+              29099,
+              30477
+            ],
+            "Energy": 300,
+            "ElementPower": 350,
+            "HardnessLv": 10000,
+            "ToughLv": 7000
+          },
+          "1410103022": {
+            "Element": 4,
+            "RelatedProperty": "攻撃力",
+            "Type": 2,
+            "RateLv": [
+              8400,
+              9089,
+              9778,
+              10742,
+              11431,
+              12223,
+              13325,
+              14427,
+              15530,
+              16701,
+              18078,
+              19456,
+              20833,
+              22211,
+              23589,
+              24966,
+              26344,
+              27721,
+              29099,
+              30477
+            ],
+            "Energy": 300,
+            "ElementPower": 350,
+            "HardnessLv": 10000,
+            "ToughLv": 7000
+          }
+        }
+      }
+    },
+    "2": {
+      "ParentNodes": [],
+      "NodeType": 2,
+      "Coordinate": 2,
+      "UnLockCondition": 0,
+      "Consume": [
+        {
+          "Key": 43020032,
+          "Value": 2
+        },
+        {
+          "Key": 41100022,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 3900
+        }
+      ],
+      "Skill": {
+        "Name": "予見の導き",
+        "Desc": "<size=40><color=Title>原初の律動</color></size>\nユーノは前方へ突進し、<color=Wind>気動ダメージ</color>を与える。\n\n<size=40><color=Title>終末の響き</color></size>\nユーノが<color=Highlight><te href=141001>月相の巡り</te></color>状態でない場合、<color=Highlight>月の環・通常攻撃3段目</color>、<color=Highlight>変奏スキル</color>または<color=Highlight>原初の律動</color>を発動時、共鳴スキルが<color=Highlight>終末の響き</color>に代わり、5秒間持続。\n終末の響きを発動時、複数回<color=Wind>気動ダメージ</color>を与え、<color=Highlight>月相の巡り</color>状態に入る。\n\n<size=40><color=Title>未完の響き</color></size>\nユーノが<color=Highlight>月相の巡り・弦月</color>状態中、共鳴スキルが<color=Highlight>未完の響き</color>に代わる。\n未完の響きを発動時、複数回<color=Wind>気動ダメージ</color>を与える。\n終末の響きと未完の響きは同じクールタイムを共有する。\n\n<size=40><color=Title>限界を超える一引き</color></size>\nユーノが<color=Highlight>月相の巡り・三日月</color>状態中、共鳴スキルが<color=Highlight>限界を超える一引き</color>に代わり、初回時は発動回数を2回分獲得する。\n限界を超える一引きを発動時、ユーノは移動し、<color=Wind>気動ダメージ</color>を与える。このダメージは共鳴解放ダメージと見なされる。\n-スキル発動時の移動は、移動コマンドを入力することで、距離を延ばすことができる。ユーノが被撃・ダウン状態の場合、<color=Highlight>限界を超える一引き</color>を発動すると、その状態が解除される。\n空中で発動可能。",
+        "Param": [],
+        "SimpleDesc": "<size=40><color=Title>原初の律動</color></size>\n<color=Wind>気動ダメージ</color>を与える。\n\n<size=40><color=Title>終末の響き</color></size>\nユーノが<color=Highlight>通常攻撃3段目</color>、<color=Highlight>変奏スキル</color>または<color=Highlight>原初の律動</color>を発動後、共鳴スキルが<color=Highlight>終末の響き</color>に代わる。\n終末の響きを発動時、<color=Wind>気動ダメージ</color>を与え、<color=Highlight><te href=141001>月相の巡り</te></color>状態に入る。\n\n<size=40><color=Title>未完の響き</color></size>\nユーノが<color=Highlight>月相の巡り・弦月</color>状態中、共鳴スキルが<color=Highlight>未完の響き</color>に代わる。\n未完の響きを発動時、<color=Wind>気動ダメージ</color>を与える。\n\n<size=40><color=Title>限界を超える一引き</color></size>\nユーノが<color=Highlight>月相の巡り・三日月</color>状態中、共鳴スキルが<color=Highlight>限界を超える一引き</color>に代わる。\n限界を超える一引きを発動時、<color=Wind>気動ダメージ</color>を与える。",
+        "SimpleParam": [],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconYounuo/SP_IconYounuoB1.SP_IconYounuoB1",
+        "Type": "共鳴スキル",
+        "Level": {
+          "1": {
+            "Name": "原初の律動ダメージ",
+            "Param": [
+              [
+                "9.38%*7+65.65%",
+                "10.15%*7+71.04%",
+                "10.92%*7+76.42%",
+                "12.00%*7+83.96%",
+                "12.77%*7+89.34%",
+                "13.65%*7+95.53%",
+                "14.88%*7+104.15%",
+                "16.11%*7+112.76%",
+                "17.34%*7+121.37%",
+                "18.65%*7+130.52%",
+                "20.19%*7+141.29%",
+                "21.73%*7+152.06%",
+                "23.26%*7+162.82%",
+                "24.80%*7+173.59%",
+                "26.34%*7+184.36%",
+                "27.88%*7+195.12%",
+                "29.42%*7+205.89%",
+                "30.96%*7+216.66%",
+                "32.49%*7+227.42%",
+                "34.03%*7+238.19%"
+              ]
+            ],
+            "Format": null
+          },
+          "2": {
+            "Name": "原初の律動クールタイム",
+            "Param": [
+              [
+                "6",
+                "6",
+                "6",
+                "6",
+                "6",
+                "6",
+                "6",
+                "6",
+                "6",
+                "6",
+                "6",
+                "6",
+                "6",
+                "6",
+                "6",
+                "6",
+                "6",
+                "6",
+                "6",
+                "6"
+              ]
+            ],
+            "Format": "{0}秒"
+          },
+          "3": {
+            "Name": "原初の律動協奏エネルギー獲得",
+            "Param": [
+              [
+                "6",
+                "6",
+                "6",
+                "6",
+                "6",
+                "6",
+                "6",
+                "6",
+                "6",
+                "6",
+                "6",
+                "6",
+                "6",
+                "6",
+                "6",
+                "6",
+                "6",
+                "6",
+                "6",
+                "6"
+              ]
+            ],
+            "Format": null
+          },
+          "4": {
+            "Name": "終末の響きダメージ",
+            "Param": [
+              [
+                "70.79%*2+72.93%",
+                "76.59%*2+78.92%",
+                "82.40%*2+84.90%",
+                "90.52%*2+93.27%",
+                "96.33%*2+99.25%",
+                "103.00%*2+106.13%",
+                "112.29%*2+115.69%",
+                "121.58%*2+125.26%",
+                "130.87%*2+134.83%",
+                "140.73%*2+145.00%",
+                "152.34%*2+156.96%",
+                "163.95%*2+168.92%",
+                "175.56%*2+180.88%",
+                "187.17%*2+192.84%",
+                "198.78%*2+204.80%",
+                "210.39%*2+216.76%",
+                "221.99%*2+228.72%",
+                "233.60%*2+240.68%",
+                "245.21%*2+252.64%",
+                "256.82%*2+264.60%"
+              ]
+            ],
+            "Format": null
+          },
+          "5": {
+            "Name": "終末の響き協奏エネルギー獲得",
+            "Param": [
+              [
+                "8",
+                "8",
+                "8",
+                "8",
+                "8",
+                "8",
+                "8",
+                "8",
+                "8",
+                "8",
+                "8",
+                "8",
+                "8",
+                "8",
+                "8",
+                "8",
+                "8",
+                "8",
+                "8",
+                "8"
+              ]
+            ],
+            "Format": null
+          },
+          "6": {
+            "Name": "未完の響きダメージ",
+            "Param": [
+              [
+                "70.79%*2+72.93%",
+                "76.59%*2+78.92%",
+                "82.40%*2+84.90%",
+                "90.52%*2+93.27%",
+                "96.33%*2+99.25%",
+                "103.00%*2+106.13%",
+                "112.29%*2+115.69%",
+                "121.58%*2+125.26%",
+                "130.87%*2+134.83%",
+                "140.73%*2+145.00%",
+                "152.34%*2+156.96%",
+                "163.95%*2+168.92%",
+                "175.56%*2+180.88%",
+                "187.17%*2+192.84%",
+                "198.78%*2+204.80%",
+                "210.39%*2+216.76%",
+                "221.99%*2+228.72%",
+                "233.60%*2+240.68%",
+                "245.21%*2+252.64%",
+                "256.82%*2+264.60%"
+              ]
+            ],
+            "Format": null
+          },
+          "7": {
+            "Name": "終末の響きと未完の響きクールタイム",
+            "Param": [
+              [
+                "8",
+                "8",
+                "8",
+                "8",
+                "8",
+                "8",
+                "8",
+                "8",
+                "8",
+                "8",
+                "8",
+                "8",
+                "8",
+                "8",
+                "8",
+                "8",
+                "8",
+                "8",
+                "8",
+                "8"
+              ]
+            ],
+            "Format": "{0}秒"
+          },
+          "8": {
+            "Name": "未完の響き協奏エネルギー獲得",
+            "Param": [
+              [
+                "8",
+                "8",
+                "8",
+                "8",
+                "8",
+                "8",
+                "8",
+                "8",
+                "8",
+                "8",
+                "8",
+                "8",
+                "8",
+                "8",
+                "8",
+                "8",
+                "8",
+                "8",
+                "8",
+                "8"
+              ]
+            ],
+            "Format": null
+          },
+          "9": {
+            "Name": "限界を超える一引きダメージ",
+            "Param": [
+              [
+                "110.55%*2",
+                "119.62%*2",
+                "128.69%*2",
+                "141.38%*2",
+                "150.44%*2",
+                "160.87%*2",
+                "175.37%*2",
+                "189.87%*2",
+                "204.38%*2",
+                "219.79%*2",
+                "237.92%*2",
+                "256.05%*2",
+                "274.18%*2",
+                "292.31%*2",
+                "310.44%*2",
+                "328.57%*2",
+                "346.70%*2",
+                "364.83%*2",
+                "382.96%*2",
+                "401.09%*2"
+              ]
+            ],
+            "Format": null
+          },
+          "10": {
+            "Name": "限界を超える一引きクールタイム",
+            "Param": [
+              [
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10"
+              ]
+            ],
+            "Format": "{0}秒"
+          },
+          "11": {
+            "Name": "限界を超える一引き協奏エネルギー獲得",
+            "Param": [
+              [
+                "8",
+                "8",
+                "8",
+                "8",
+                "8",
+                "8",
+                "8",
+                "8",
+                "8",
+                "8",
+                "8",
+                "8",
+                "8",
+                "8",
+                "8",
+                "8",
+                "8",
+                "8",
+                "8",
+                "8"
+              ]
+            ],
+            "Format": null
+          }
+        },
+        "Consume": {
+          "1": [],
+          "2": [
+            {
+              "Key": 43020051,
+              "Value": 2
+            },
+            {
+              "Key": 41100041,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 1500
+            }
+          ],
+          "3": [
+            {
+              "Key": 43020051,
+              "Value": 3
+            },
+            {
+              "Key": 41100041,
+              "Value": 3
+            },
+            {
+              "Key": 2,
+              "Value": 2000
+            }
+          ],
+          "4": [
+            {
+              "Key": 43020052,
+              "Value": 2
+            },
+            {
+              "Key": 41100042,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 4500
+            }
+          ],
+          "5": [
+            {
+              "Key": 43020052,
+              "Value": 3
+            },
+            {
+              "Key": 41100042,
+              "Value": 3
+            },
+            {
+              "Key": 2,
+              "Value": 6000
+            }
+          ],
+          "6": [
+            {
+              "Key": 43020053,
+              "Value": 3
+            },
+            {
+              "Key": 41100043,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 16000
+            }
+          ],
+          "7": [
+            {
+              "Key": 43020053,
+              "Value": 5
+            },
+            {
+              "Key": 41100043,
+              "Value": 3
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 30000
+            }
+          ],
+          "8": [
+            {
+              "Key": 43020054,
+              "Value": 2
+            },
+            {
+              "Key": 41100044,
+              "Value": 2
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 50000
+            }
+          ],
+          "9": [
+            {
+              "Key": 43020054,
+              "Value": 3
+            },
+            {
+              "Key": 41100044,
+              "Value": 3
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 70000
+            }
+          ],
+          "10": [
+            {
+              "Key": 43020054,
+              "Value": 6
+            },
+            {
+              "Key": 41100044,
+              "Value": 4
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 100000
+            }
+          ]
+        },
+        "Damage": {
+          "1410201001": {
+            "Element": 4,
+            "RelatedProperty": "攻撃力",
+            "Type": 4,
+            "RateLv": [
+              938,
+              1015,
+              1092,
+              1200,
+              1277,
+              1365,
+              1488,
+              1611,
+              1734,
+              1865,
+              2019,
+              2173,
+              2326,
+              2480,
+              2634,
+              2788,
+              2942,
+              3096,
+              3249,
+              3403
+            ],
+            "Energy": 33,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 715
+          },
+          "1410201003": {
+            "Element": 4,
+            "RelatedProperty": "攻撃力",
+            "Type": 4,
+            "RateLv": [
+              6565,
+              7104,
+              7642,
+              8396,
+              8934,
+              9553,
+              10415,
+              11276,
+              12137,
+              13052,
+              14129,
+              15206,
+              16282,
+              17359,
+              18436,
+              19512,
+              20589,
+              21666,
+              22742,
+              23819
+            ],
+            "Energy": 227,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 5000
+          },
+          "1410202001": {
+            "Element": 4,
+            "RelatedProperty": "攻撃力",
+            "Type": 4,
+            "RateLv": [
+              7079,
+              7659,
+              8240,
+              9052,
+              9633,
+              10300,
+              11229,
+              12158,
+              13087,
+              14073,
+              15234,
+              16395,
+              17556,
+              18717,
+              19878,
+              21039,
+              22199,
+              23360,
+              24521,
+              25682
+            ],
+            "Energy": 269,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 6600
+          },
+          "1410202003": {
+            "Element": 4,
+            "RelatedProperty": "攻撃力",
+            "Type": 4,
+            "RateLv": [
+              7079,
+              7659,
+              8240,
+              9052,
+              9633,
+              10300,
+              11229,
+              12158,
+              13087,
+              14073,
+              15234,
+              16395,
+              17556,
+              18717,
+              19878,
+              21039,
+              22199,
+              23360,
+              24521,
+              25682
+            ],
+            "Energy": 269,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 6600
+          },
+          "1410202004": {
+            "Element": 4,
+            "RelatedProperty": "攻撃力",
+            "Type": 4,
+            "RateLv": [
+              7293,
+              7892,
+              8490,
+              9327,
+              9925,
+              10613,
+              11569,
+              12526,
+              13483,
+              14500,
+              15696,
+              16892,
+              18088,
+              19284,
+              20480,
+              21676,
+              22872,
+              24068,
+              25264,
+              26460
+            ],
+            "Energy": 277,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 6800
+          },
+          "1410204021": {
+            "Element": 4,
+            "RelatedProperty": "攻撃力",
+            "Type": 2,
+            "RateLv": [
+              11055,
+              11962,
+              12869,
+              14138,
+              15044,
+              16087,
+              17537,
+              18987,
+              20438,
+              21979,
+              23792,
+              25605,
+              27418,
+              29231,
+              31044,
+              32857,
+              34670,
+              36483,
+              38296,
+              40109
+            ],
+            "Energy": 468,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 10000
+          },
+          "1410204022": {
+            "Element": 4,
+            "RelatedProperty": "攻撃力",
+            "Type": 2,
+            "RateLv": [
+              11055,
+              11962,
+              12869,
+              14138,
+              15044,
+              16087,
+              17537,
+              18987,
+              20438,
+              21979,
+              23792,
+              25605,
+              27418,
+              29231,
+              31044,
+              32857,
+              34670,
+              36483,
+              38296,
+              40109
+            ],
+            "Energy": 468,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 10000
+          }
+        }
+      }
+    },
+    "3": {
+      "ParentNodes": [],
+      "NodeType": 2,
+      "Coordinate": 3,
+      "UnLockCondition": 0,
+      "Consume": [
+        {
+          "Key": 43020032,
+          "Value": 2
+        },
+        {
+          "Key": 41100022,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 3900
+        }
+      ],
+      "Skill": {
+        "Name": "溺れし月の海",
+        "Desc": "<color=Wind>気動ダメージ</color>を与え、<color=Highlight><te href=141001>月相の巡り</te></color>状態に入る。\n空中で発動可能。",
+        "Param": [],
+        "SimpleDesc": "<color=Wind>気動ダメージ</color>を与え、<color=Highlight>月相の巡り</color>状態に入る。",
+        "SimpleParam": [],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconYounuo/SP_IconYounuoC1.SP_IconYounuoC1",
+        "Type": "共鳴解放",
+        "Level": {
+          "1": {
+            "Name": "スキルダメージ",
+            "Param": [
+              [
+                "550.00%",
+                "595.10%",
+                "640.20%",
+                "703.34%",
+                "748.44%",
+                "800.31%",
+                "872.47%",
+                "944.63%",
+                "1016.79%",
+                "1093.46%",
+                "1183.66%",
+                "1273.86%",
+                "1364.06%",
+                "1454.26%",
+                "1544.46%",
+                "1634.66%",
+                "1724.86%",
+                "1815.06%",
+                "1905.26%",
+                "1995.46%"
+              ]
+            ],
+            "Format": null
+          },
+          "2": {
+            "Name": "クールタイム",
+            "Param": [
+              [
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25"
+              ]
+            ],
+            "Format": "{0}秒"
+          },
+          "3": {
+            "Name": "共鳴エネルギー消費",
+            "Param": [
+              [
+                "125",
+                "125",
+                "125",
+                "125",
+                "125",
+                "125",
+                "125",
+                "125",
+                "125",
+                "125",
+                "125",
+                "125",
+                "125",
+                "125",
+                "125",
+                "125",
+                "125",
+                "125",
+                "125",
+                "125"
+              ]
+            ],
+            "Format": null
+          },
+          "4": {
+            "Name": "協奏エネルギー獲得",
+            "Param": [
+              [
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20"
+              ]
+            ],
+            "Format": null
+          }
+        },
+        "Consume": {
+          "1": [],
+          "2": [
+            {
+              "Key": 43020051,
+              "Value": 2
+            },
+            {
+              "Key": 41100041,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 1500
+            }
+          ],
+          "3": [
+            {
+              "Key": 43020051,
+              "Value": 3
+            },
+            {
+              "Key": 41100041,
+              "Value": 3
+            },
+            {
+              "Key": 2,
+              "Value": 2000
+            }
+          ],
+          "4": [
+            {
+              "Key": 43020052,
+              "Value": 2
+            },
+            {
+              "Key": 41100042,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 4500
+            }
+          ],
+          "5": [
+            {
+              "Key": 43020052,
+              "Value": 3
+            },
+            {
+              "Key": 41100042,
+              "Value": 3
+            },
+            {
+              "Key": 2,
+              "Value": 6000
+            }
+          ],
+          "6": [
+            {
+              "Key": 43020053,
+              "Value": 3
+            },
+            {
+              "Key": 41100043,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 16000
+            }
+          ],
+          "7": [
+            {
+              "Key": 43020053,
+              "Value": 5
+            },
+            {
+              "Key": 41100043,
+              "Value": 3
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 30000
+            }
+          ],
+          "8": [
+            {
+              "Key": 43020054,
+              "Value": 2
+            },
+            {
+              "Key": 41100044,
+              "Value": 2
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 50000
+            }
+          ],
+          "9": [
+            {
+              "Key": 43020054,
+              "Value": 3
+            },
+            {
+              "Key": 41100044,
+              "Value": 3
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 70000
+            }
+          ],
+          "10": [
+            {
+              "Key": 43020054,
+              "Value": 6
+            },
+            {
+              "Key": 41100044,
+              "Value": 4
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 100000
+            }
+          ]
+        },
+        "Damage": {
+          "1410300001": {
+            "Element": 4,
+            "RelatedProperty": "攻撃力",
+            "Type": 2,
+            "RateLv": [
+              55000,
+              59510,
+              64020,
+              70334,
+              74844,
+              80031,
+              87247,
+              94463,
+              101679,
+              109346,
+              118366,
+              127386,
+              136406,
+              145426,
+              154446,
+              163466,
+              172486,
+              181506,
+              190526,
+              199546
+            ],
+            "Energy": 0,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 40000
+          }
+        }
+      }
+    },
+    "4": {
+      "ParentNodes": [
+        7
+      ],
+      "NodeType": 3,
+      "Coordinate": 2,
+      "UnLockCondition": 0,
+      "Consume": [
+        {
+          "Key": 43020032,
+          "Value": 2
+        },
+        {
+          "Key": 41100022,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 3900
+        }
+      ],
+      "Skill": {
+        "Name": "盈昇",
+        "Desc": "ユーノが通常攻撃、重撃、回避反撃、共鳴スキル、共鳴解放、変奏スキルを発動するたびに、自身の攻撃力{1}分のシールドを{0}個獲得し、{2}秒間持続。このシールドは、他のキャラに切り替える時に引き継がれない。",
+        "Param": [
+          "1",
+          "32%",
+          "15"
+        ],
+        "SimpleDesc": "ユーノが通常攻撃、重撃、回避反撃、共鳴スキル、共鳴解放、変奏スキルを発動するたびに、自身の攻撃力{1}分のシールドを{0}個獲得し、{2}秒間持続。このシールドは、他のキャラに切り替える時に引き継がれない。",
+        "SimpleParam": [
+          "1",
+          "32%",
+          "15"
+        ],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconYounuo/SP_IconYounuoD1.SP_IconYounuoD1",
+        "Type": "固有スキル",
+        "Level": {},
+        "Consume": {
+          "1": [
+            {
+              "Key": 43020052,
+              "Value": 3
+            },
+            {
+              "Key": 41100042,
+              "Value": 3
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 10000
+            }
+          ]
+        },
+        "Damage": {}
+      }
+    },
+    "5": {
+      "ParentNodes": [
+        4
+      ],
+      "NodeType": 3,
+      "Coordinate": 3,
+      "UnLockCondition": 0,
+      "Consume": [
+        {
+          "Key": 43020032,
+          "Value": 2
+        },
+        {
+          "Key": 41100022,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 3900
+        }
+      ],
+      "Skill": {
+        "Name": "新衍",
+        "Desc": "ユーノが変奏スキルまたは共鳴解放を発動時、自身は<color=Highlight><te href=141002>蒼白なる死光の祝詞</te></color>を{0}スタック獲得する。",
+        "Param": [
+          "5"
+        ],
+        "SimpleDesc": "ユーノが変奏スキルまたは共鳴解放を発動時、自身は<color=Highlight><te href=141002>蒼白なる死光の祝詞</te></color>を{0}スタック獲得する。",
+        "SimpleParam": [
+          "5"
+        ],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconYounuo/SP_IconYounuoD2.SP_IconYounuoD2",
+        "Type": "固有スキル",
+        "Level": {},
+        "Consume": {
+          "1": [
+            {
+              "Key": 43020053,
+              "Value": 3
+            },
+            {
+              "Key": 41100043,
+              "Value": 3
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 20000
+            }
+          ]
+        },
+        "Damage": {}
+      }
+    },
+    "6": {
+      "ParentNodes": [],
+      "NodeType": 2,
+      "Coordinate": 4,
+      "UnLockCondition": 0,
+      "Consume": [
+        {
+          "Key": 43020032,
+          "Value": 2
+        },
+        {
+          "Key": 41100022,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 3900
+        }
+      ],
+      "Skill": {
+        "Name": "私が照らし顕す",
+        "Desc": "<color=Wind>気動ダメージ</color>を与える。",
+        "Param": [],
+        "SimpleDesc": "<color=Wind>気動ダメージ</color>を与える。",
+        "SimpleParam": [],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconYounuo/SP_IconYounuoQTE.SP_IconYounuoQTE",
+        "Type": "変奏スキル",
+        "Level": {
+          "1": {
+            "Name": "スキルダメージ",
+            "Param": [
+              [
+                "8.00%*7+24.00%",
+                "8.66%*7+25.97%",
+                "9.32%*7+27.94%",
+                "10.24%*7+30.70%",
+                "10.89%*7+32.66%",
+                "11.65%*7+34.93%",
+                "12.70%*7+38.08%",
+                "13.74%*7+41.22%",
+                "14.79%*7+44.37%",
+                "15.91%*7+47.72%",
+                "17.22%*7+51.66%",
+                "18.53%*7+55.59%",
+                "19.85%*7+59.53%",
+                "21.16%*7+63.46%",
+                "22.47%*7+67.40%",
+                "23.78%*7+71.34%",
+                "25.09%*7+75.27%",
+                "26.41%*7+79.21%",
+                "27.72%*7+83.14%",
+                "29.03%*7+87.08%"
+              ]
+            ],
+            "Format": null
+          },
+          "2": {
+            "Name": "協奏エネルギー獲得",
+            "Param": [
+              [
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10"
+              ]
+            ],
+            "Format": null
+          }
+        },
+        "Consume": {
+          "1": [],
+          "2": [
+            {
+              "Key": 43020051,
+              "Value": 2
+            },
+            {
+              "Key": 41100041,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 1500
+            }
+          ],
+          "3": [
+            {
+              "Key": 43020051,
+              "Value": 3
+            },
+            {
+              "Key": 41100041,
+              "Value": 3
+            },
+            {
+              "Key": 2,
+              "Value": 2000
+            }
+          ],
+          "4": [
+            {
+              "Key": 43020052,
+              "Value": 2
+            },
+            {
+              "Key": 41100042,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 4500
+            }
+          ],
+          "5": [
+            {
+              "Key": 43020052,
+              "Value": 3
+            },
+            {
+              "Key": 41100042,
+              "Value": 3
+            },
+            {
+              "Key": 2,
+              "Value": 6000
+            }
+          ],
+          "6": [
+            {
+              "Key": 43020053,
+              "Value": 3
+            },
+            {
+              "Key": 41100043,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 16000
+            }
+          ],
+          "7": [
+            {
+              "Key": 43020053,
+              "Value": 5
+            },
+            {
+              "Key": 41100043,
+              "Value": 3
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 30000
+            }
+          ],
+          "8": [
+            {
+              "Key": 43020054,
+              "Value": 2
+            },
+            {
+              "Key": 41100044,
+              "Value": 2
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 50000
+            }
+          ],
+          "9": [
+            {
+              "Key": 43020054,
+              "Value": 3
+            },
+            {
+              "Key": 41100044,
+              "Value": 3
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 70000
+            }
+          ],
+          "10": [
+            {
+              "Key": 43020054,
+              "Value": 6
+            },
+            {
+              "Key": 41100044,
+              "Value": 4
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 100000
+            }
+          ]
+        },
+        "Damage": {
+          "1410600001": {
+            "Element": 4,
+            "RelatedProperty": "攻撃力",
+            "Type": 3,
+            "RateLv": [
+              800,
+              866,
+              932,
+              1024,
+              1089,
+              1165,
+              1270,
+              1374,
+              1479,
+              1591,
+              1722,
+              1853,
+              1985,
+              2116,
+              2247,
+              2378,
+              2509,
+              2641,
+              2772,
+              2903
+            ],
+            "Energy": 100,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 1500
+          },
+          "1410600003": {
+            "Element": 4,
+            "RelatedProperty": "攻撃力",
+            "Type": 3,
+            "RateLv": [
+              2400,
+              2597,
+              2794,
+              3070,
+              3266,
+              3493,
+              3808,
+              4122,
+              4437,
+              4772,
+              5166,
+              5559,
+              5953,
+              6346,
+              6740,
+              7134,
+              7527,
+              7921,
+              8314,
+              8708
+            ],
+            "Energy": 300,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 4500
+          }
+        }
+      }
+    },
+    "7": {
+      "ParentNodes": [],
+      "NodeType": 1,
+      "Coordinate": 1,
+      "UnLockCondition": 0,
+      "Consume": [
+        {
+          "Key": 43020032,
+          "Value": 2
+        },
+        {
+          "Key": 41100022,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 3900
+        }
+      ],
+      "Skill": {
+        "Name": "満ち欠けの間に揺らぐ",
+        "Desc": "<size=40><color=Title>月相の巡り</color></size>\nユーノは<color=Highlight>共鳴スキル・終末の響き</color>または<color=Highlight>共鳴解放</color>を発動することで、月相の巡り状態に入る。\n月相の巡りには<color=Highlight>弦月</color>と<color=Highlight>三日月</color>の2つの状態があり、初期状態では<color=Highlight>弦月</color>となる。ユーノは<color=Highlight>重撃・流変</color>を発動することで、この2つの状態を切り替えられる。\n月相の巡り状態中：ユーノのジャンプが<color=Highlight>重撃・流変</color>に代わり、空中ではスタミナを回復できない。\n移動時、ユーノは<color=Highlight>月のそぞろ歩き</color>状態に入り、特殊なモーションで移動する。空中ではスタミナを継続して消費する。\n特定のギミック、探索モジュール、またはジャンプを長押しすると、<color=Highlight>月相の巡り</color>状態は終了する。\n\n<size=40><color=Title>月相の巡り・弦月</color></size>\nユーノは月の環で攻撃し、目標に命中すると<color=Highlight>【<te href=141003>霊性</te>】</color>を獲得する。\nユーノが<color=Highlight>重撃・流変・月の弓</color>を発動すると、<color=Wind>気動ダメージ</color>を与え、<color=Highlight>月相の巡り・三日月</color>状態に入る。このダメージは共鳴解放ダメージと見なされる。\n<color=Highlight>重撃・流変・月の弓</color>は空中で発動可能。\n\n<size=40><color=Title>月相の巡り・三日月</color></size>\nユーノは月の弓で攻撃し、<color=Highlight>月の弓・通常攻撃</color>、<color=Highlight>共鳴スキル・限界を超える一引き</color>、<color=Highlight>月の弓・回避反撃</color>を発動時は、<color=Highlight>【霊性】</color>を消費して、今回発動したスキルのダメージ倍率をアップさせる。さらに協奏エネルギーを追加で獲得し、近くにいるチーム内キャラのHPを回復する。\nユーノが<color=Highlight>重撃・流変・月の環</color>を発動すると、<color=Wind>気動ダメージ</color>を与え、<color=Highlight>月相の巡り・弦月</color>状態に入る。このダメージは共鳴解放ダメージと見なされる。\n<color=Highlight>重撃・流変・月の環</color>は空中で発動可能。\n\n<size=40><color=Title>重撃・至高の円満</color></size>\nユーノの協奏エネルギーが満タン時、重撃が<color=Highlight>至高の円満</color>に代わる。\n至高の円満を発動時、ユーノは自身の<color=Highlight>月相の巡り</color>状態を終了し、近くにいるチーム内キャラのHPを回復する。\nさらに、周囲の目標に<color=Wind>気動ダメージ</color>を与える。このダメージは共鳴解放ダメージと見なされる。\nまた、自身を中心に<color=Highlight>満月</color>領域を展開し、この効果は25秒ごとに1回発動可能。\n空中で発動可能。\n\n<size=40><color=Title>満月領域</color></size>\n領域内のキャラは、一定時間ごとにHPとスタミナを回復する。\n領域内の登場キャラはシールドを獲得すると、<color=Highlight>蒼白なる死光の祝詞</color>を1スタック獲得する。この効果は0.5秒ごとに1回発動可能。\n\n<size=40><color=Title>蒼白なる死光の祝詞</color></size>\nキャラに4%の全ダメージブーストを付与し、10秒間持続、最大10スタック。再獲得時、持続時間がリセットされる。他のキャラに切り替えると、この効果は消える。\n\n<size=40><color=Title>霊性</color></size>\n【霊性】は最大100Pt。\nユーノが変奏スキルを発動時、<color=Highlight>【霊性】</color>を40Pt獲得。\nユーノが共鳴解放を発動時、<color=Highlight>【霊性】</color>を60Pt獲得。\nユーノが<color=Highlight>終末の響き</color>または<color=Highlight>未完の響き</color>を発動時、<color=Highlight>【霊性】</color>を25Pt獲得。\nユーノが<color=Highlight>月相の巡り</color>状態中、月の環・通常攻撃、月の環・回避反撃、空中攻撃が目標に命中時、<color=Highlight>【霊性】</color>を獲得。",
+        "Param": [],
+        "SimpleDesc": "<size=40><color=Title>月相の巡り</color></size>\nユーノは<color=Highlight>共鳴スキル・終末の響き</color>または<color=Highlight>共鳴解放</color>を発動後、月相の巡り状態に入る。\n月相の巡りには<color=Highlight>弦月</color>と<color=Highlight>三日月</color>の2つの状態があり、期間中ジャンプを一回押しするとこの2つの状態を切り替えられる。\n<color=Highlight>弦月</color>状態：月の環で攻撃し、目標に命中すると<color=Highlight>【霊性】</color>を回復する。\n<color=Highlight>三日月</color>状態：月の弓で攻撃し、<color=Highlight>【霊性】</color>を消費してダメージをアップ。さらに協奏エネルギーを追加で回復し、キャラのHPを回復する。\n\n<size=40><color=Title>重撃・至高の円満</color></size>\nユーノの協奏エネルギーが満タン時、重撃が<color=Highlight>至高の円満</color>に代わる。\n発動後、キャラのHPを回復し、周囲の目標に<color=Wind>気動ダメージ</color>を与え、自身を中心に<color=Highlight>満月</color>領域を展開する。\n<color=Highlight>満月</color>領域内のキャラ：一定時間ごとにHPとスタミナを回復する。また、自身がシールドを獲得すると、<color=Highlight>蒼白なる死光の祝詞</color>を1スタック獲得する。<color=Highlight>蒼白なる死光の祝詞</color>1スタックごとに、キャラに4%の全ダメージブーストを付与、最大10スタック。\n\n<size=40><color=Title>霊性</color></size>\nユーノが変奏スキル、共鳴解放、<color=Highlight>終末の響き</color>または<color=Highlight>未完の響き</color>を発動時、<color=Highlight>【霊性】</color>を獲得する。\n<color=Highlight>弦月</color>状態中、攻撃が目標に命中時<color=Highlight>【霊性】</color>を獲得する。",
+        "SimpleParam": [],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconYounuo/SP_IconYounuoY.SP_IconYounuoY",
+        "Type": "共鳴回路",
+        "Level": {
+          "1": {
+            "Name": "月相の巡り持続時間",
+            "Param": [
+              [
+                "15",
+                "15",
+                "15",
+                "15",
+                "15",
+                "15",
+                "15",
+                "15",
+                "15",
+                "15",
+                "15",
+                "15",
+                "15",
+                "15",
+                "15",
+                "15",
+                "15",
+                "15",
+                "15",
+                "15"
+              ]
+            ],
+            "Format": "{0}秒"
+          },
+          "2": {
+            "Name": "流変・月の弓ダメージ",
+            "Param": [
+              [
+                "126.00%",
+                "136.34%",
+                "146.67%",
+                "161.13%",
+                "171.47%",
+                "183.35%",
+                "199.88%",
+                "216.41%",
+                "232.94%",
+                "250.51%",
+                "271.17%",
+                "291.83%",
+                "312.50%",
+                "333.16%",
+                "353.83%",
+                "374.49%",
+                "395.15%",
+                "415.82%",
+                "436.48%",
+                "457.15%"
+              ]
+            ],
+            "Format": null
+          },
+          "3": {
+            "Name": "流変・月の環ダメージ",
+            "Param": [
+              [
+                "39.83%*4",
+                "43.10%*4",
+                "46.36%*4",
+                "50.93%*4",
+                "54.20%*4",
+                "57.95%*4",
+                "63.18%*4",
+                "68.40%*4",
+                "73.63%*4",
+                "79.18%*4",
+                "85.71%*4",
+                "92.24%*4",
+                "98.77%*4",
+                "105.31%*4",
+                "111.84%*4",
+                "118.37%*4",
+                "124.90%*4",
+                "131.43%*4",
+                "137.96%*4",
+                "144.49%*4"
+              ]
+            ],
+            "Format": null
+          },
+          "4": {
+            "Name": "月の弓・通常攻撃1段目強化ダメージ",
+            "Param": [
+              [
+                "103.60%",
+                "112.10%",
+                "120.60%",
+                "132.49%",
+                "140.98%",
+                "150.75%",
+                "164.35%",
+                "177.94%",
+                "191.53%",
+                "205.97%",
+                "222.96%",
+                "239.95%",
+                "256.94%",
+                "273.93%",
+                "290.92%",
+                "307.91%",
+                "324.90%",
+                "341.90%",
+                "358.89%",
+                "375.88%"
+              ]
+            ],
+            "Format": null
+          },
+          "5": {
+            "Name": "月の弓・通常攻撃2段目強化ダメージ",
+            "Param": [
+              [
+                "48.00%*3",
+                "51.94%*3",
+                "55.88%*3",
+                "61.39%*3",
+                "65.32%*3",
+                "69.85%*3",
+                "76.15%*3",
+                "82.44%*3",
+                "88.74%*3",
+                "95.43%*3",
+                "103.31%*3",
+                "111.18%*3",
+                "119.05%*3",
+                "126.92%*3",
+                "134.79%*3",
+                "142.67%*3",
+                "150.54%*3",
+                "158.41%*3",
+                "166.28%*3",
+                "174.15%*3"
+              ]
+            ],
+            "Format": null
+          },
+          "6": {
+            "Name": "月の弓・通常攻撃3段目強化ダメージ",
+            "Param": [
+              [
+                "134.00%*2",
+                "144.99%*2",
+                "155.98%*2",
+                "171.36%*2",
+                "182.35%*2",
+                "194.99%*2",
+                "212.57%*2",
+                "230.15%*2",
+                "247.73%*2",
+                "266.41%*2",
+                "288.39%*2",
+                "310.36%*2",
+                "332.34%*2",
+                "354.31%*2",
+                "376.29%*2",
+                "398.27%*2",
+                "420.24%*2",
+                "442.22%*2",
+                "464.19%*2",
+                "486.17%*2"
+              ]
+            ],
+            "Format": null
+          },
+          "7": {
+            "Name": "月の弓・回避反撃強化ダメージ",
+            "Param": [
+              [
+                "78.67%*3",
+                "85.12%*3",
+                "91.57%*3",
+                "100.60%*3",
+                "107.05%*3",
+                "114.47%*3",
+                "124.79%*3",
+                "135.11%*3",
+                "145.44%*3",
+                "156.40%*3",
+                "169.30%*3",
+                "182.20%*3",
+                "195.11%*3",
+                "208.01%*3",
+                "220.91%*3",
+                "233.81%*3",
+                "246.71%*3",
+                "259.61%*3",
+                "272.51%*3",
+                "285.42%*3"
+              ]
+            ],
+            "Format": null
+          },
+          "8": {
+            "Name": "限界を超える一引き強化ダメージ",
+            "Param": [
+              [
+                "160.55%*2",
+                "173.72%*2",
+                "186.89%*2",
+                "205.32%*2",
+                "218.48%*2",
+                "233.62%*2",
+                "254.69%*2",
+                "275.75%*2",
+                "296.81%*2",
+                "319.19%*2",
+                "345.52%*2",
+                "371.85%*2",
+                "398.19%*2",
+                "424.52%*2",
+                "450.85%*2",
+                "477.18%*2",
+                "503.51%*2",
+                "529.84%*2",
+                "556.17%*2",
+                "582.50%*2"
+              ]
+            ],
+            "Format": null
+          },
+          "9": {
+            "Name": "月の弓・通常攻撃1段目追加協奏エネルギー獲得",
+            "Param": [
+              [
+                "4",
+                "4",
+                "4",
+                "4",
+                "4",
+                "4",
+                "4",
+                "4",
+                "4",
+                "4",
+                "4",
+                "4",
+                "4",
+                "4",
+                "4",
+                "4",
+                "4",
+                "4",
+                "4",
+                "4"
+              ]
+            ],
+            "Format": null
+          },
+          "10": {
+            "Name": "月の弓・通常攻撃2段目追加協奏エネルギー獲得",
+            "Param": [
+              [
+                "6",
+                "6",
+                "6",
+                "6",
+                "6",
+                "6",
+                "6",
+                "6",
+                "6",
+                "6",
+                "6",
+                "6",
+                "6",
+                "6",
+                "6",
+                "6",
+                "6",
+                "6",
+                "6",
+                "6"
+              ]
+            ],
+            "Format": null
+          },
+          "11": {
+            "Name": "月の弓・通常攻撃3段目追加協奏エネルギー獲得",
+            "Param": [
+              [
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10"
+              ]
+            ],
+            "Format": null
+          },
+          "12": {
+            "Name": "月の弓・回避反撃追加協奏エネルギー獲得",
+            "Param": [
+              [
+                "8",
+                "8",
+                "8",
+                "8",
+                "8",
+                "8",
+                "8",
+                "8",
+                "8",
+                "8",
+                "8",
+                "8",
+                "8",
+                "8",
+                "8",
+                "8",
+                "8",
+                "8",
+                "8",
+                "8"
+              ]
+            ],
+            "Format": null
+          },
+          "13": {
+            "Name": "限界を超える一引き追加協奏エネルギー獲得",
+            "Param": [
+              [
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10"
+              ]
+            ],
+            "Format": null
+          },
+          "14": {
+            "Name": "月の弓・通常攻撃1段目HP回復量",
+            "Param": [
+              [
+                "13.03%",
+                "14.10%",
+                "15.17%",
+                "16.67%",
+                "17.73%",
+                "18.96%",
+                "20.67%",
+                "22.38%",
+                "24.09%",
+                "25.91%",
+                "28.04%",
+                "30.18%",
+                "32.32%",
+                "34.45%",
+                "36.59%",
+                "38.73%",
+                "40.86%",
+                "43.00%",
+                "45.14%",
+                "47.27%"
+              ]
+            ],
+            "Format": "{0}攻撃力"
+          },
+          "15": {
+            "Name": "月の弓・通常攻撃2段目HP回復量",
+            "Param": [
+              [
+                "13.03%",
+                "14.10%",
+                "15.17%",
+                "16.67%",
+                "17.73%",
+                "18.96%",
+                "20.67%",
+                "22.38%",
+                "24.09%",
+                "25.91%",
+                "28.04%",
+                "30.18%",
+                "32.32%",
+                "34.45%",
+                "36.59%",
+                "38.73%",
+                "40.86%",
+                "43.00%",
+                "45.14%",
+                "47.27%"
+              ]
+            ],
+            "Format": "{0}攻撃力"
+          },
+          "16": {
+            "Name": "月の弓・通常攻撃3段目HP回復量",
+            "Param": [
+              [
+                "24.43%",
+                "26.44%",
+                "28.44%",
+                "31.24%",
+                "33.25%",
+                "35.55%",
+                "38.75%",
+                "41.96%",
+                "45.16%",
+                "48.57%",
+                "52.58%",
+                "56.58%",
+                "60.59%",
+                "64.59%",
+                "68.60%",
+                "72.61%",
+                "76.61%",
+                "80.62%",
+                "84.62%",
+                "88.63%"
+              ]
+            ],
+            "Format": "{0}攻撃力"
+          },
+          "17": {
+            "Name": "月の弓・回避反撃HP回復量",
+            "Param": [
+              [
+                "16.29%",
+                "17.63%",
+                "18.96%",
+                "20.83%",
+                "22.17%",
+                "23.70%",
+                "25.84%",
+                "27.97%",
+                "30.11%",
+                "32.38%",
+                "35.05%",
+                "37.72%",
+                "40.39%",
+                "43.06%",
+                "45.73%",
+                "48.41%",
+                "51.08%",
+                "53.75%",
+                "56.42%",
+                "59.09%"
+              ]
+            ],
+            "Format": "{0}攻撃力"
+          },
+          "18": {
+            "Name": "限界を超える一引きHP回復量",
+            "Param": [
+              [
+                "24.43%",
+                "26.44%",
+                "28.44%",
+                "31.24%",
+                "33.25%",
+                "35.55%",
+                "38.75%",
+                "41.96%",
+                "45.16%",
+                "48.57%",
+                "52.58%",
+                "56.58%",
+                "60.59%",
+                "64.59%",
+                "68.60%",
+                "72.61%",
+                "76.61%",
+                "80.62%",
+                "84.62%",
+                "88.63%"
+              ]
+            ],
+            "Format": "{0}攻撃力"
+          },
+          "19": {
+            "Name": "至高の円満ダメージ",
+            "Param": [
+              [
+                "80.00%",
+                "86.56%",
+                "93.12%",
+                "102.31%",
+                "108.87%",
+                "116.41%",
+                "126.91%",
+                "137.40%",
+                "147.90%",
+                "159.05%",
+                "172.17%",
+                "185.29%",
+                "198.41%",
+                "211.53%",
+                "224.65%",
+                "237.77%",
+                "250.89%",
+                "264.01%",
+                "277.13%",
+                "290.25%"
+              ]
+            ],
+            "Format": null
+          },
+          "20": {
+            "Name": "至高の円満HP回復量",
+            "Param": [
+              [
+                "97.71%",
+                "105.73%",
+                "113.74%",
+                "124.96%",
+                "132.97%",
+                "142.18%",
+                "155.00%",
+                "167.82%",
+                "180.64%",
+                "194.26%",
+                "210.29%",
+                "226.31%",
+                "242.33%",
+                "258.36%",
+                "274.38%",
+                "290.41%",
+                "306.43%",
+                "322.46%",
+                "338.48%",
+                "354.51%"
+              ]
+            ],
+            "Format": "{0}攻撃力"
+          },
+          "21": {
+            "Name": "満月領域持続時間",
+            "Param": [
+              [
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30"
+              ]
+            ],
+            "Format": "{0}秒"
+          },
+          "22": {
+            "Name": "満月領域回復間隔",
+            "Param": [
+              [
+                "5",
+                "5",
+                "5",
+                "5",
+                "5",
+                "5",
+                "5",
+                "5",
+                "5",
+                "5",
+                "5",
+                "5",
+                "5",
+                "5",
+                "5",
+                "5",
+                "5",
+                "5",
+                "5",
+                "5"
+              ]
+            ],
+            "Format": "{0}秒"
+          },
+          "23": {
+            "Name": "満月領域1回あたりのHP回復量",
+            "Param": [
+              [
+                "16.29%",
+                "17.63%",
+                "18.96%",
+                "20.83%",
+                "22.17%",
+                "23.70%",
+                "25.84%",
+                "27.97%",
+                "30.11%",
+                "32.38%",
+                "35.05%",
+                "37.72%",
+                "40.39%",
+                "43.06%",
+                "45.73%",
+                "48.41%",
+                "51.08%",
+                "53.75%",
+                "56.42%",
+                "59.09%"
+              ]
+            ],
+            "Format": "{0}攻撃力"
+          },
+          "24": {
+            "Name": "満月領域1回あたりのスタミナ回復量",
+            "Param": [
+              [
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20"
+              ]
+            ],
+            "Format": null
+          },
+          "25": {
+            "Name": "月のそぞろ歩きスタミナ消費（1秒ごと）",
+            "Param": [
+              [
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10"
+              ]
+            ],
+            "Format": null
+          },
+          "26": {
+            "Name": "重撃・流変スタミナ消費",
+            "Param": [
+              [
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25"
+              ]
+            ],
+            "Format": null
+          }
+        },
+        "Consume": {
+          "1": [],
+          "2": [
+            {
+              "Key": 43020051,
+              "Value": 2
+            },
+            {
+              "Key": 41100041,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 1500
+            }
+          ],
+          "3": [
+            {
+              "Key": 43020051,
+              "Value": 3
+            },
+            {
+              "Key": 41100041,
+              "Value": 3
+            },
+            {
+              "Key": 2,
+              "Value": 2000
+            }
+          ],
+          "4": [
+            {
+              "Key": 43020052,
+              "Value": 2
+            },
+            {
+              "Key": 41100042,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 4500
+            }
+          ],
+          "5": [
+            {
+              "Key": 43020052,
+              "Value": 3
+            },
+            {
+              "Key": 41100042,
+              "Value": 3
+            },
+            {
+              "Key": 2,
+              "Value": 6000
+            }
+          ],
+          "6": [
+            {
+              "Key": 43020053,
+              "Value": 3
+            },
+            {
+              "Key": 41100043,
+              "Value": 2
+            },
+            {
+              "Key": 2,
+              "Value": 16000
+            }
+          ],
+          "7": [
+            {
+              "Key": 43020053,
+              "Value": 5
+            },
+            {
+              "Key": 41100043,
+              "Value": 3
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 30000
+            }
+          ],
+          "8": [
+            {
+              "Key": 43020054,
+              "Value": 2
+            },
+            {
+              "Key": 41100044,
+              "Value": 2
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 50000
+            }
+          ],
+          "9": [
+            {
+              "Key": 43020054,
+              "Value": 3
+            },
+            {
+              "Key": 41100044,
+              "Value": 3
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 70000
+            }
+          ],
+          "10": [
+            {
+              "Key": 43020054,
+              "Value": 6
+            },
+            {
+              "Key": 41100044,
+              "Value": 4
+            },
+            {
+              "Key": 41400194,
+              "Value": 1
+            },
+            {
+              "Key": 2,
+              "Value": 100000
+            }
+          ]
+        },
+        "Damage": {
+          "1410101011": {
+            "Element": 4,
+            "RelatedProperty": "攻撃力",
+            "Type": 2,
+            "RateLv": [
+              10360,
+              11210,
+              12060,
+              13249,
+              14098,
+              15075,
+              16435,
+              17794,
+              19153,
+              20597,
+              22296,
+              23995,
+              25694,
+              27393,
+              29092,
+              30791,
+              32490,
+              34190,
+              35889,
+              37588
+            ],
+            "Energy": 233,
+            "ElementPower": 265,
+            "HardnessLv": 10000,
+            "ToughLv": 5300
+          },
+          "1410102011": {
+            "Element": 4,
+            "RelatedProperty": "攻撃力",
+            "Type": 2,
+            "RateLv": [
+              4800,
+              5194,
+              5588,
+              6139,
+              6532,
+              6985,
+              7615,
+              8244,
+              8874,
+              9543,
+              10331,
+              11118,
+              11905,
+              12692,
+              13479,
+              14267,
+              15054,
+              15841,
+              16628,
+              17415
+            ],
+            "Energy": 109,
+            "ElementPower": 117,
+            "HardnessLv": 10000,
+            "ToughLv": 2334
+          },
+          "1410103011": {
+            "Element": 4,
+            "RelatedProperty": "攻撃力",
+            "Type": 2,
+            "RateLv": [
+              13400,
+              14499,
+              15598,
+              17136,
+              18235,
+              19499,
+              21257,
+              23015,
+              24773,
+              26641,
+              28839,
+              31036,
+              33234,
+              35431,
+              37629,
+              39827,
+              42024,
+              44222,
+              46419,
+              48617
+            ],
+            "Energy": 300,
+            "ElementPower": 350,
+            "HardnessLv": 10000,
+            "ToughLv": 7000
+          },
+          "1410103012": {
+            "Element": 4,
+            "RelatedProperty": "攻撃力",
+            "Type": 2,
+            "RateLv": [
+              13400,
+              14499,
+              15598,
+              17136,
+              18235,
+              19499,
+              21257,
+              23015,
+              24773,
+              26641,
+              28839,
+              31036,
+              33234,
+              35431,
+              37629,
+              39827,
+              42024,
+              44222,
+              46419,
+              48617
+            ],
+            "Energy": 300,
+            "ElementPower": 350,
+            "HardnessLv": 10000,
+            "ToughLv": 7000
+          },
+          "1410204011": {
+            "Element": 4,
+            "RelatedProperty": "攻撃力",
+            "Type": 2,
+            "RateLv": [
+              16055,
+              17372,
+              18689,
+              20532,
+              21848,
+              23362,
+              25469,
+              27575,
+              29681,
+              31919,
+              34552,
+              37185,
+              39819,
+              42452,
+              45085,
+              47718,
+              50351,
+              52984,
+              55617,
+              58250
+            ],
+            "Energy": 468,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 10000
+          },
+          "1410204012": {
+            "Element": 4,
+            "RelatedProperty": "攻撃力",
+            "Type": 2,
+            "RateLv": [
+              16055,
+              17372,
+              18689,
+              20532,
+              21848,
+              23362,
+              25469,
+              27575,
+              29681,
+              31919,
+              34552,
+              37185,
+              39819,
+              42452,
+              45085,
+              47718,
+              50351,
+              52984,
+              55617,
+              58250
+            ],
+            "Energy": 468,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 10000
+          },
+          "1410510011": {
+            "Element": 4,
+            "RelatedProperty": "攻撃力",
+            "Type": 2,
+            "RateLv": [
+              7867,
+              8512,
+              9157,
+              10060,
+              10705,
+              11447,
+              12479,
+              13511,
+              14544,
+              15640,
+              16930,
+              18220,
+              19511,
+              20801,
+              22091,
+              23381,
+              24671,
+              25961,
+              27251,
+              28542
+            ],
+            "Energy": 59,
+            "ElementPower": 117,
+            "HardnessLv": 10000,
+            "ToughLv": 5000
+          },
+          "1410300011": {
+            "Element": 0,
+            "RelatedProperty": "攻撃力",
+            "Type": 0,
+            "RateLv": [
+              1303,
+              1410,
+              1517,
+              1667,
+              1773,
+              1896,
+              2067,
+              2238,
+              2409,
+              2591,
+              2804,
+              3018,
+              3232,
+              3445,
+              3659,
+              3873,
+              4086,
+              4300,
+              4514,
+              4727
+            ],
+            "Energy": 0,
+            "ElementPower": 0,
+            "HardnessLv": 0,
+            "ToughLv": 0
+          },
+          "1410300012": {
+            "Element": 0,
+            "RelatedProperty": "攻撃力",
+            "Type": 0,
+            "RateLv": [
+              2443,
+              2644,
+              2844,
+              3124,
+              3325,
+              3555,
+              3875,
+              4196,
+              4516,
+              4857,
+              5258,
+              5658,
+              6059,
+              6459,
+              6860,
+              7261,
+              7661,
+              8062,
+              8462,
+              8863
+            ],
+            "Energy": 0,
+            "ElementPower": 0,
+            "HardnessLv": 0,
+            "ToughLv": 0
+          },
+          "1410300013": {
+            "Element": 0,
+            "RelatedProperty": "攻撃力",
+            "Type": 0,
+            "RateLv": [
+              9771,
+              10573,
+              11374,
+              12496,
+              13297,
+              14218,
+              15500,
+              16782,
+              18064,
+              19426,
+              21029,
+              22631,
+              24233,
+              25836,
+              27438,
+              29041,
+              30643,
+              32246,
+              33848,
+              35451
+            ],
+            "Energy": 0,
+            "ElementPower": 0,
+            "HardnessLv": 0,
+            "ToughLv": 0
+          },
+          "1410300014": {
+            "Element": 0,
+            "RelatedProperty": "攻撃力",
+            "Type": 0,
+            "RateLv": [
+              1629,
+              1763,
+              1896,
+              2083,
+              2217,
+              2370,
+              2584,
+              2797,
+              3011,
+              3238,
+              3505,
+              3772,
+              4039,
+              4306,
+              4573,
+              4841,
+              5108,
+              5375,
+              5642,
+              5909
+            ],
+            "Energy": 0,
+            "ElementPower": 0,
+            "HardnessLv": 0,
+            "ToughLv": 0
+          },
+          "1410300015": {
+            "Element": 0,
+            "RelatedProperty": "攻撃力",
+            "Type": 0,
+            "RateLv": [
+              1629,
+              1763,
+              1896,
+              2083,
+              2217,
+              2370,
+              2584,
+              2797,
+              3011,
+              3238,
+              3505,
+              3772,
+              4039,
+              4306,
+              4573,
+              4841,
+              5108,
+              5375,
+              5642,
+              5909
+            ],
+            "Energy": 0,
+            "ElementPower": 0,
+            "HardnessLv": 0,
+            "ToughLv": 0
+          },
+          "1410205002": {
+            "Element": 4,
+            "RelatedProperty": "攻撃力",
+            "Type": 2,
+            "RateLv": [
+              8000,
+              8656,
+              9312,
+              10231,
+              10887,
+              11641,
+              12691,
+              13740,
+              14790,
+              15905,
+              17217,
+              18529,
+              19841,
+              21153,
+              22465,
+              23777,
+              25089,
+              26401,
+              27713,
+              29025
+            ],
+            "Energy": 500,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 20000
+          },
+          "1410205003": {
+            "Element": 4,
+            "RelatedProperty": "攻撃力",
+            "Type": 2,
+            "RateLv": [
+              168000,
+              168656,
+              169312,
+              170231,
+              170887,
+              171641,
+              172691,
+              173740,
+              174790,
+              175905,
+              177217,
+              178529,
+              179841,
+              181153,
+              182465,
+              183777,
+              185089,
+              186401,
+              187713,
+              189025
+            ],
+            "Energy": 500,
+            "ElementPower": 0,
+            "HardnessLv": 10000,
+            "ToughLv": 20000
+          },
+          "1410004001": {
+            "Element": 4,
+            "RelatedProperty": "攻撃力",
+            "Type": 2,
+            "RateLv": [
+              12600,
+              13634,
+              14667,
+              16113,
+              17147,
+              18335,
+              19988,
+              21641,
+              23294,
+              25051,
+              27117,
+              29183,
+              31250,
+              33316,
+              35383,
+              37449,
+              39515,
+              41582,
+              43648,
+              45715
+            ],
+            "Energy": 350,
+            "ElementPower": 700,
+            "HardnessLv": 10000,
+            "ToughLv": 14000
+          },
+          "1410005001": {
+            "Element": 4,
+            "RelatedProperty": "攻撃力",
+            "Type": 2,
+            "RateLv": [
+              3983,
+              4310,
+              4636,
+              5093,
+              5420,
+              5795,
+              6318,
+              6840,
+              7363,
+              7918,
+              8571,
+              9224,
+              9877,
+              10531,
+              11184,
+              11837,
+              12490,
+              13143,
+              13796,
+              14449
+            ],
+            "Energy": 111,
+            "ElementPower": 222,
+            "HardnessLv": 10000,
+            "ToughLv": 4425
+          },
+          "1410005002": {
+            "Element": 4,
+            "RelatedProperty": "攻撃力",
+            "Type": 2,
+            "RateLv": [
+              3983,
+              4310,
+              4636,
+              5093,
+              5420,
+              5795,
+              6318,
+              6840,
+              7363,
+              7918,
+              8571,
+              9224,
+              9877,
+              10531,
+              11184,
+              11837,
+              12490,
+              13143,
+              13796,
+              14449
+            ],
+            "Energy": 111,
+            "ElementPower": 222,
+            "HardnessLv": 10000,
+            "ToughLv": 4425
+          },
+          "1410005003": {
+            "Element": 4,
+            "RelatedProperty": "攻撃力",
+            "Type": 2,
+            "RateLv": [
+              3983,
+              4310,
+              4636,
+              5093,
+              5420,
+              5795,
+              6318,
+              6840,
+              7363,
+              7918,
+              8571,
+              9224,
+              9877,
+              10531,
+              11184,
+              11837,
+              12490,
+              13143,
+              13796,
+              14449
+            ],
+            "Energy": 111,
+            "ElementPower": 222,
+            "HardnessLv": 10000,
+            "ToughLv": 4425
+          },
+          "1410005004": {
+            "Element": 4,
+            "RelatedProperty": "攻撃力",
+            "Type": 2,
+            "RateLv": [
+              3983,
+              4310,
+              4636,
+              5093,
+              5420,
+              5795,
+              6318,
+              6840,
+              7363,
+              7918,
+              8571,
+              9224,
+              9877,
+              10531,
+              11184,
+              11837,
+              12490,
+              13143,
+              13796,
+              14449
+            ],
+            "Energy": 111,
+            "ElementPower": 222,
+            "HardnessLv": 10000,
+            "ToughLv": 4425
+          }
+        }
+      }
+    },
+    "8": {
+      "ParentNodes": [],
+      "NodeType": 3,
+      "Coordinate": 1,
+      "UnLockCondition": 0,
+      "Consume": [
+        {
+          "Key": 43020032,
+          "Value": 2
+        },
+        {
+          "Key": 41100022,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 3900
+        }
+      ],
+      "Skill": {
+        "Name": "夜を渡りて暁へ",
+        "Desc": "目標に{0}の<color=Wind>気動ダメージ</color>を与え、次の登場キャラに{1}の重撃ダメージブーストを付与し、{2}秒間持続。他のキャラに切り替えると、この効果は消える。\n-<color=Highlight>重撃・至高の円満</color>発動中、終奏スキルを発動しても、<color=Highlight>重撃・至高の円満</color>の発動は中断されず、終奏スキルの効果も引き続き有効となる。",
+        "Param": [
+          "100%",
+          "50%",
+          "14"
+        ],
+        "SimpleDesc": "目標に{0}の<color=Wind>気動ダメージ</color>を与え、次の登場キャラに{1}の重撃ダメージブーストを付与する。他のキャラに切り替えると、この効果は消える。",
+        "SimpleParam": [
+          "100%",
+          "50%",
+          "14"
+        ],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconYounuo/SP_IconYounuoT.SP_IconYounuoT",
+        "Type": "終奏スキル",
+        "Level": {},
+        "Consume": {
+          "1": []
+        },
+        "Damage": {}
+      }
+    },
+    "9": {
+      "ParentNodes": [
+        1
+      ],
+      "NodeType": 4,
+      "Coordinate": 1,
+      "UnLockCondition": 500006,
+      "Consume": [
+        {
+          "Key": 43020053,
+          "Value": 3
+        },
+        {
+          "Key": 41100043,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 50000
+        }
+      ],
+      "Skill": {
+        "Name": "クリティカル率アップ",
+        "Desc": "クリティカル率{0}アップ",
+        "Param": [
+          "1.20%"
+        ],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredbaoji_UI.T_Iconpropertyredbaoji_UI"
+      }
+    },
+    "10": {
+      "ParentNodes": [
+        2
+      ],
+      "NodeType": 4,
+      "Coordinate": 1,
+      "UnLockCondition": 500005,
+      "Consume": [
+        {
+          "Key": 43020053,
+          "Value": 3
+        },
+        {
+          "Key": 41100043,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 50000
+        }
+      ],
+      "Skill": {
+        "Name": "攻撃力アップ",
+        "Desc": "攻撃力{0}アップ",
+        "Param": [
+          "1.80%"
+        ],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredattack_UI.T_Iconpropertyredattack_UI"
+      }
+    },
+    "11": {
+      "ParentNodes": [
+        3
+      ],
+      "NodeType": 4,
+      "Coordinate": 1,
+      "UnLockCondition": 500005,
+      "Consume": [
+        {
+          "Key": 43020053,
+          "Value": 3
+        },
+        {
+          "Key": 41100043,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 50000
+        }
+      ],
+      "Skill": {
+        "Name": "攻撃力アップ",
+        "Desc": "攻撃力{0}アップ",
+        "Param": [
+          "1.80%"
+        ],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredattack_UI.T_Iconpropertyredattack_UI"
+      }
+    },
+    "12": {
+      "ParentNodes": [
+        6
+      ],
+      "NodeType": 4,
+      "Coordinate": 1,
+      "UnLockCondition": 500006,
+      "Consume": [
+        {
+          "Key": 43020053,
+          "Value": 3
+        },
+        {
+          "Key": 41100043,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 50000
+        }
+      ],
+      "Skill": {
+        "Name": "クリティカル率アップ",
+        "Desc": "クリティカル率{0}アップ",
+        "Param": [
+          "1.20%"
+        ],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredbaoji_UI.T_Iconpropertyredbaoji_UI"
+      }
+    },
+    "13": {
+      "ParentNodes": [
+        9
+      ],
+      "NodeType": 4,
+      "Coordinate": 2,
+      "UnLockCondition": 500008,
+      "Consume": [
+        {
+          "Key": 43020054,
+          "Value": 3
+        },
+        {
+          "Key": 41100044,
+          "Value": 3
+        },
+        {
+          "Key": 41400194,
+          "Value": 1
+        },
+        {
+          "Key": 2,
+          "Value": 100000
+        }
+      ],
+      "Skill": {
+        "Name": "クリティカル率アップ",
+        "Desc": "クリティカル率{0}アップ",
+        "Param": [
+          "2.80%"
+        ],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredbaoji_UI.T_Iconpropertyredbaoji_UI"
+      }
+    },
+    "14": {
+      "ParentNodes": [
+        10
+      ],
+      "NodeType": 4,
+      "Coordinate": 2,
+      "UnLockCondition": 500007,
+      "Consume": [
+        {
+          "Key": 43020054,
+          "Value": 3
+        },
+        {
+          "Key": 41100044,
+          "Value": 3
+        },
+        {
+          "Key": 41400194,
+          "Value": 1
+        },
+        {
+          "Key": 2,
+          "Value": 100000
+        }
+      ],
+      "Skill": {
+        "Name": "攻撃力アップ",
+        "Desc": "攻撃力{0}アップ",
+        "Param": [
+          "4.20%"
+        ],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredattack_UI.T_Iconpropertyredattack_UI"
+      }
+    },
+    "15": {
+      "ParentNodes": [
+        11
+      ],
+      "NodeType": 4,
+      "Coordinate": 2,
+      "UnLockCondition": 500007,
+      "Consume": [
+        {
+          "Key": 43020054,
+          "Value": 3
+        },
+        {
+          "Key": 41100044,
+          "Value": 3
+        },
+        {
+          "Key": 41400194,
+          "Value": 1
+        },
+        {
+          "Key": 2,
+          "Value": 100000
+        }
+      ],
+      "Skill": {
+        "Name": "攻撃力アップ",
+        "Desc": "攻撃力{0}アップ",
+        "Param": [
+          "4.20%"
+        ],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredattack_UI.T_Iconpropertyredattack_UI"
+      }
+    },
+    "16": {
+      "ParentNodes": [
+        12
+      ],
+      "NodeType": 4,
+      "Coordinate": 2,
+      "UnLockCondition": 500008,
+      "Consume": [
+        {
+          "Key": 43020054,
+          "Value": 3
+        },
+        {
+          "Key": 41100044,
+          "Value": 3
+        },
+        {
+          "Key": 41400194,
+          "Value": 1
+        },
+        {
+          "Key": 2,
+          "Value": 100000
+        }
+      ],
+      "Skill": {
+        "Name": "クリティカル率アップ",
+        "Desc": "クリティカル率{0}アップ",
+        "Param": [
+          "2.80%"
+        ],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredbaoji_UI.T_Iconpropertyredbaoji_UI"
+      }
+    },
+    "17": {
+      "ParentNodes": [],
+      "NodeType": 5,
+      "Coordinate": 1,
+      "UnLockCondition": 0,
+      "Consume": [
+        {
+          "Key": 43020032,
+          "Value": 2
+        },
+        {
+          "Key": 41100022,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 3900
+        }
+      ],
+      "Skill": {
+        "Name": "協和破壊・手甲",
+        "Desc": "目標の<color=Highlight>【不協和値】</color>が最大まで溜まった時、<color=Highlight><te href=100001>【協和破壊】</te></color>ダメージを与えることができる。",
+        "Param": [],
+        "SimpleDesc": "目標の<color=Highlight>【不協和値】</color>が最大まで溜まった時、<color=Highlight>【協和破壊】</color>ダメージを与えることができる。",
+        "SimpleParam": [],
+        "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconWeakPointBreakFist.SP_IconWeakPointBreakFist",
+        "Type": "協和破壊",
+        "Level": {},
+        "Consume": {
+          "1": []
+        },
+        "Damage": {}
+      }
+    }
+  },
+  "Chains": {
+    "1": {
+      "Name": "満月も三日月も、金の枝を彩るために",
+      "Desc": "ユーノが<color=Highlight><te href=141001>月相の巡り</te></color>状態中、攻撃力{0}アップ。\nユーノが<color=Highlight>満月領域</color>の中にいる時、1秒ごとに自身が共鳴エネルギーを追加で{1}Pt獲得する。\n<color=Highlight>共鳴スキル・限界を超える一引き</color>と<color=Highlight>重撃・至高の円満</color>は中断されない。",
+      "Param": [
+        "40%",
+        "1"
+      ],
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconDevice/T_IconDevice_YounuoM1_UI.T_IconDevice_YounuoM1_UI"
+    },
+    "2": {
+      "Name": "昼も夜も、姿変わらず",
+      "Desc": "チーム内キャラの<color=Highlight><te href=141002>蒼白なる死光の祝詞</te></color>が{0}スタックに達した時、そのキャラに追加で{1}の全ダメージブーストを付与する。",
+      "Param": [
+        "10",
+        "40%"
+      ],
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconDevice/T_IconDevice_YounuoM2_UI.T_IconDevice_YounuoM2_UI"
+    },
+    "3": {
+      "Name": "忘却を酌みて尽くす",
+      "Desc": "ユーノが<color=Highlight><te href=141001>月相の巡り</te></color>状態中、<color=Highlight>月の弓・通常攻撃</color>、<color=Highlight>共鳴スキル・限界を超える一引き</color>、<color=Highlight>月の弓・回避反撃</color>に{0}のダメージブーストを付与する。\n<color=Highlight>月の弓・通常攻撃</color>または<color=Highlight>月の弓・回避反撃</color>を発動後、一定時間内に<color=Highlight>共鳴スキル・限界を超える一引き</color>を発動すると、<color=Highlight>月の弓・通常攻撃</color>コンボはリセットされない。",
+      "Param": [
+        "65%"
+      ],
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconDevice/T_IconDevice_YounuoM3_UI.T_IconDevice_YounuoM3_UI"
+    },
+    "4": {
+      "Name": "瞳に宿りし雨の季節",
+      "Desc": "<color=Highlight>重撃・至高の円満</color>発動時、チーム内キャラはユーノの攻撃力{0}分のシールドを獲得し、{1}秒間持続。他のキャラに切り替えると、このシールドは引き継がれない。",
+      "Param": [
+        "160%",
+        "30"
+      ],
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconDevice/T_IconDevice_YounuoM4_UI.T_IconDevice_YounuoM4_UI"
+    },
+    "5": {
+      "Name": "幾多の虚ろを見定め",
+      "Desc": "共鳴解放ダメージが{0}アップ。",
+      "Param": [
+        "20%"
+      ],
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconDevice/T_IconDevice_YounuoM5_UI.T_IconDevice_YounuoM5_UI"
+    },
+    "6": {
+      "Name": "私の存在こそ、唯一の不変",
+      "Desc": "<color=Highlight>重撃・至高の円満</color>のダメージ倍率+{0}。\nユーノが<color=Highlight>重撃・至高の円満</color>を発動時、<color=Highlight><te href=141001>月相の巡り</te>・三日月</color>状態に再度入り、<color=Highlight>【<te href=141003>霊性</te>】</color>を{1}Pt獲得し、<color=Highlight>共鳴スキル・限界を超える一引き</color>の発動回数をリセットする。",
+      "Param": [
+        "1600%",
+        "100"
+      ],
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconDevice/T_IconDevice_YounuoM6_UI.T_IconDevice_YounuoM6_UI"
+    }
+  },
+  "Ascensions": {
+    "1": [
+      {
+        "Key": 41100041,
+        "Value": 4
+      },
+      {
+        "Key": 2,
+        "Value": 5000
+      }
+    ],
+    "2": [
+      {
+        "Key": 41400244,
+        "Value": 3
+      },
+      {
+        "Key": 42601290,
+        "Value": 4
+      },
+      {
+        "Key": 41100042,
+        "Value": 4
+      },
+      {
+        "Key": 2,
+        "Value": 10000
+      }
+    ],
+    "3": [
+      {
+        "Key": 41400244,
+        "Value": 6
+      },
+      {
+        "Key": 42601290,
+        "Value": 8
+      },
+      {
+        "Key": 41100042,
+        "Value": 8
+      },
+      {
+        "Key": 2,
+        "Value": 15000
+      }
+    ],
+    "4": [
+      {
+        "Key": 41400244,
+        "Value": 9
+      },
+      {
+        "Key": 42601290,
+        "Value": 12
+      },
+      {
+        "Key": 41100043,
+        "Value": 4
+      },
+      {
+        "Key": 2,
+        "Value": 20000
+      }
+    ],
+    "5": [
+      {
+        "Key": 41400244,
+        "Value": 12
+      },
+      {
+        "Key": 42601290,
+        "Value": 16
+      },
+      {
+        "Key": 41100043,
+        "Value": 8
+      },
+      {
+        "Key": 2,
+        "Value": 40000
+      }
+    ],
+    "6": [
+      {
+        "Key": 41400244,
+        "Value": 16
+      },
+      {
+        "Key": 42601290,
+        "Value": 20
+      },
+      {
+        "Key": 41100044,
+        "Value": 4
+      },
+      {
+        "Key": 2,
+        "Value": 80000
+      }
+    ]
+  },
+  "Skin": {
+    "81001410": {
+      "Id": 81001410,
+      "SuitWeaponSkinId": 0,
+      "QualityId": 3,
+      "Name": "ユーノ",
+      "TitleName": "不可測",
+      "SubDecName": "ユーノ　デフォルト",
+      "BgDescription": "満ちと欠け、虚構と真実、薄絹と黄金……その間を漂う月が、全ての季節から滲み出る。彼女だけが、計測のできない唯一の存在なのである。",
+      "Background": "/Game/Aki/UI/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_younuo_UI.T_IconRole_Pile_younuo_UI",
+      "Portrait": "/Game/Aki/UI/UIResources/Common/Image/TitleDesc/Avatar/T_ActivityRoleYounuo.T_ActivityRoleYounuo",
+      "SortIndex": 0,
+      "FormationSpineSkel": "/Game/Aki/UI/UIResources/Common/Spine/Portraits/Portraits_Younuo/Portraits_Younuo.Portraits_Younuo-data",
+      "FormationSpineAtlas": "/Game/Aki/UI/UIResources/Common/Spine/Portraits/Portraits_Younuo/Portraits_Younuo.Portraits_Younuo-atlas"
+    }
+  },
+  "Forte": {
+    "SkillInputList": {
+      "141001": {
+        "Desc": "<color=Highlight>月相の巡り</color>状態に入る：通常攻撃3段目、変奏スキル、または共鳴スキル・原初の律動を発動後、一定時間内に{1}を一回押しする。",
+        "InputList": [
+          "攻击",
+          "技能1"
+        ]
+      },
+      "141002": {
+        "Desc": "<color=Highlight>弦月</color>と<color=Highlight>三日月</color>の切り替え：<color=Highlight>月相の巡り</color>状態中、ジャンプボタンを一回押しする。",
+        "InputList": [
+          "攻击",
+          "技能1"
+        ]
+      },
+      "141003": {
+        "Desc": "<color=Highlight>満月</color>領域の展開：協奏エネルギーが満タン時、{0}を長押しする。",
+        "InputList": [
+          "攻击",
+          "技能1"
+        ]
+      }
+    },
+    "Icon": "/Game/Aki/UI/UIResources/UiRole/Image/T_RoleSkillTreeYounuo.T_RoleSkillTreeYounuo",
+    "DescList": [
+      "ユーノが<color=Highlight>月相の巡り・弦月</color>状態中、攻撃が目標に命中すると、特殊エネルギーを獲得できる。",
+      "ユーノが<color=Highlight>月相の巡り・三日月</color>状態中、<color=Highlight>月の弓・通常攻撃</color>、<color=Highlight>共鳴スキル・限界を超える一引き</color>、<color=Highlight>月の弓・回避反撃</color>を発動時、特殊エネルギーを消費する。",
+      "協奏エネルギーが満タン時、<color=Highlight>重撃・至高の円満</color>を発動できる。"
+    ]
+  },
+  "Live2d": "Younuo",
+  "Audio": "younuo",
+  "Recommend": {
+    "Weapon": [
+      21040046,
+      21040015,
+      21040104
+    ],
+    "Property": "",
+    "Param": []
+  }
+}

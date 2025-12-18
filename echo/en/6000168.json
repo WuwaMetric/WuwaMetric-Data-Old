@@ -1,0 +1,82 @@
+{
+  "Id": 6000168,
+  "Code": "H46-",
+  "Name": "Nightmare: Viridblaze Saurian",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_32047_UI.T_IconMonsterHead_32047_UI",
+  "Skill": {
+    "Desc": "Summon a Viridblaze Saurian to continuously spit fire, dealing {0} Fusion DMG 10 times.\r\n\r\nCD: {1}s",
+    "SimpleDesc": "Summon a Viridblaze Saurian to continuously spit fire, dealing Fusion DMG.",
+    "Param": [
+      [
+        "10.70%",
+        "15"
+      ],
+      [
+        "12.31%",
+        "15"
+      ],
+      [
+        "13.91%",
+        "15"
+      ],
+      [
+        "15.52%",
+        "15"
+      ],
+      [
+        "17.12%",
+        "15"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_295_UI.T_MstSkil_295_UI",
+    "Damage": {
+      "20003001": {
+        "Element": 2,
+        "RelatedProperty": "ATK",
+        "Type": 5,
+        "RateLv": [
+          1070,
+          1230,
+          1391,
+          1551,
+          1712
+        ],
+        "Energy": 26,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 1070
+      }
+    }
+  },
+  "Group": {
+    "22": {
+      "Id": 22,
+      "Name": "Flamewing's Shadow",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriFireA.T_IconElementAttriFireA",
+      "Color": "FFFFFF00",
+      "Set": {
+        "3": {
+          "Desc": "Dealing Echo Skill DMG increases Heavy Attack Crit. Rate by {0} for {1}s. Dealing Heavy Attack DMG increases Echo Skill Crit. Rate by {2} for {3}s. While both effects are active, gain {4} Fusion DMG Bonus.",
+          "Param": [
+            "20%",
+            "6",
+            "20%",
+            "6",
+            "16%"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 1,
+  "MonsterInfo": 320000470
+}

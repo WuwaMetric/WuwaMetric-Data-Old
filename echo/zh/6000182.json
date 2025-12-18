@@ -1,0 +1,87 @@
+{
+  "Id": 6000182,
+  "Code": "T01-",
+  "Name": "矿岩机麋",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_32052_UI.T_IconMonsterHead_32052_UI",
+  "Skill": {
+    "Desc": "使用声骸技能，召唤矿岩机麋，蓄力一击对敌人造成{0}的导电伤害。\n技能冷却：{1}秒",
+    "SimpleDesc": "召唤矿岩机麋，造成导电伤害。",
+    "Param": [
+      [
+        "132.00%",
+        "20"
+      ],
+      [
+        "158.40%",
+        "20"
+      ],
+      [
+        "184.80%",
+        "20"
+      ],
+      [
+        "211.20%",
+        "20"
+      ],
+      [
+        "237.60%",
+        "20"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_32052_UI.T_MstSkil_32052_UI",
+    "Damage": {
+      "20011901": {
+        "Element": 3,
+        "RelatedProperty": "攻击",
+        "Type": 5,
+        "RateLv": [
+          13200,
+          15840,
+          18480,
+          21120,
+          23760
+        ],
+        "Energy": 330,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 13200
+      }
+    }
+  },
+  "Group": {
+    "24": {
+      "Id": 24,
+      "Name": "逆光跃彩之约",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriLightWeakness.T_IconElementAttriLightWeakness",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "衍射伤害提升{0}",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "角色施放延奏技能后，下一个变奏技能登场的角色攻击提升{0}，其每点谐度破坏增幅还会使攻击额外提升{1}，上限{2}，持续{3}秒，若切换至其他角色则该效果提前结束。",
+          "Param": [
+            "15%",
+            "0.3%",
+            "15%",
+            "15"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 1,
+  "MonsterInfo": 320000520
+}

@@ -1,0 +1,157 @@
+{
+  "Id": 6000180,
+  "Code": "T01-",
+  "Name": "Twin Nova: Collapsar Blade",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_32050_UI.T_IconMonsterHead_32050_UI",
+  "Skill": {
+    "Desc": "Transform into Twin Nova: Collapsar Blade to rapidly fire at enemies for 5s, with each attack dealing {0} Electro DMG.\n\nThe Resonator with this Echo equipped in the main slot gains {6} Electro DMG Bonus and {7} Basic Attack DMG Bonus.\n\nCD: {11}s.\n\nIf Twin Nova: Nebulous Cannon is equipped in another slot on the Resonator:\n- Casting Echo Skill unleashes both Nebulous Cannon and Collapsar Blade skills in quick succession, but is still considered performing the same Echo Skill.\n- DMG dealt by Twin Nova: Collapsar Blade becomes Spectro DMG. The Electro DMG Bonus gained from equipping it in the main slot is turned into Spectro DMG Bonus.\n- Casting Basic Attacks grants <SapTag=1>{1}</SapTag> {Cus:Sap,S=stack P=stacks SapTag=1} of Dyad Origins. Casting Resonance Skill grants <SapTag=2>{2}</SapTag> {Cus:Sap,S=stack P=stacks SapTag=2} of Dyad Origins. Dyad Origins can stack up to {3} times and lasts for {4}s. Each stack increases Echo Skill DMG by {5}, and all stacks are cleared after this Echo Skill ends.\n- This skill is capped at {10} uses. Initially, this skill can be used {8} times, with 1 use added every {9}s.",
+    "SimpleDesc": "Transform into Twin Nova: Collapsar Blade to fire at enemies, dealing Electro DMG.\n\nThe Resonator with this Echo equipped in the main slot gains Electro and Basic Attack Bonuses.\n\nEquipping Twin Nova: Nebulous Cannon at the same time grants special Echo Skill effects.",
+    "Param": [
+      [
+        "1.12%",
+        "1",
+        "3",
+        "6",
+        "8",
+        "10%",
+        "12.00%",
+        "12.00%",
+        "2",
+        "8",
+        "2",
+        "8"
+      ],
+      [
+        "1.34%",
+        "1",
+        "3",
+        "6",
+        "8",
+        "10%",
+        "12.00%",
+        "12.00%",
+        "2",
+        "8",
+        "2",
+        "8"
+      ],
+      [
+        "1.56%",
+        "1",
+        "3",
+        "6",
+        "8",
+        "10%",
+        "12.00%",
+        "12.00%",
+        "2",
+        "8",
+        "2",
+        "8"
+      ],
+      [
+        "1.79%",
+        "1",
+        "3",
+        "6",
+        "8",
+        "10%",
+        "12.00%",
+        "12.00%",
+        "2",
+        "8",
+        "2",
+        "8"
+      ],
+      [
+        "2.01%",
+        "1",
+        "3",
+        "6",
+        "8",
+        "10%",
+        "12.00%",
+        "12.00%",
+        "2",
+        "8",
+        "2",
+        "8"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_32050_UI.T_MstSkil_32050_UI",
+    "Damage": {
+      "20011601": {
+        "Element": 3,
+        "RelatedProperty": "ATK",
+        "Type": 5,
+        "RateLv": [
+          112,
+          134,
+          156,
+          179,
+          201
+        ],
+        "Energy": 0,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 112
+      },
+      "20011602": {
+        "Element": 5,
+        "RelatedProperty": "ATK",
+        "Type": 5,
+        "RateLv": [
+          112,
+          134,
+          156,
+          179,
+          201
+        ],
+        "Energy": 0,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 112
+      }
+    }
+  },
+  "Group": {
+    "26": {
+      "Id": 26,
+      "Name": "Rite of Gilded Revelation",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriAttackWeakness.T_IconElementAttriAttackWeakness",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "Spectro DMG + {0}",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "Dealing Basic Attack DMG increases Spectro DMG by {0} for {2}s, stacking up to {1} times. With {1} stacks, casting Resonance Liberation grants {3} Basic Attack DMG Bonus.",
+          "Param": [
+            "10%",
+            "3",
+            "5",
+            "40%"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 1,
+  "MonsterInfo": 320000500,
+  "Phantom": {
+    "Name": "Phantom: Twin Nova - Collapsar Blade",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_SG_32050_UI.T_IconMonsterGoods_SG_32050_UI"
+  }
+}
