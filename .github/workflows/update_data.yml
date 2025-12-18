@@ -22,10 +22,10 @@ jobs:
           cache-dependency-glob: "wuthering_spider.py"
 
       - name: Install dependencies
-        run: uv pip install httpx tqdm
+        run: uv sync
 
       - name: Run Spider
-        run: uv run python wuthering_spider.py --out . --force
+        run: uv run wuthering_spider.py --out . --force
 
       - name: Commit and Push
         run: |
