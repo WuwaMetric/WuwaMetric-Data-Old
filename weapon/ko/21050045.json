@@ -3,21 +3,21 @@
   "Rarity": 5,
   "Type": 5,
   "Name": "보손 관측기",
-  "Desc": "스페이스트렉 콜렉티브 「공생 장비」 시리즈. 모델명 -SCSA-LHRi-RCTF325062-\n측정 장치는 엑소스트라이더의 생물화 부품과 흑석의 복합 공정으로 제조되었으며, 「주파수 자기 적응」과 「사용자 연동」이라는 두 가지 핵심 특성을 실현한다. \n「공생 장비」의 성능 최대치는 사용자의 공명 어빌리티에 달려 있으며, 어빌리티의 훈련과 개발을 통해 장비의 출력 성능을 향상시킬 수 있다.\n\n측정 장치는 스펙트럼 환경과 다층 유리 조각으로 구성되어 있으며, 주파수의 미세한 흐름을 포착할 수 있다. 마치 샛별처럼, 지식인들로 하여금 복잡한 생각의 바다에서 방향의 분별을 인도하고, 변화무쌍한 예행 연습을 시킨다. 일의 조짐을 파악하고 미리 깨닫는 관측자에게 적합하다",
-  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconWeapon/T_IconWeapon21050066_UI.T_IconWeapon21050066_UI",
+  "Desc": "스페이스트렉 콜렉티브 「공생 장비」 시리즈. 모델명 -SCSA-LHRi-RCTF325062-\n \n기기는 엑소스트라이더의 생물화 부품과 흑석을 융합한 복합 가공 기술로 제조되어, 「주파수 자동 적응」과 「사용자 연동」이라는 두 가지 핵심 특성을 구현한다. 「공생 장비」의 최대 성능은 사용자의 어빌리티에 따라 결정되며, 어빌리티의 훈련과 개발을 통해 장비의 출력 성능을 향상시킬 수 있다.\n \n기기는 스펙트럼 렌즈와 다층 유리판으로 구성되어 있으며, 주파수의 미세한 변화를 포착할 수 있다. 마치 샛별처럼, 지식 탐구자들의 복잡한 생각 속에서 명확한 방향을 제시하여 변화하는 세상의 이치를 알아갈 수 있도록 도와준다. 선견지명이 뛰어난 관측자에게 적합하다",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconWeapon/T_IconWeapon_21050045_UI.T_IconWeapon_21050045_UI",
   "Model": "/Game/Aki/Character/Weapon/Device/R5Device005/R5Device005Md20001/Model/R5Device005Md20001.R5Device005Md20001",
   "Stats": {
     "0": {
       "1": [
         {
           "Name": "공격력",
-          "Value": 47.0,
+          "Value": 42.0,
           "IsRatio": false,
           "IsPercent": false
         },
         {
-          "Name": "크리티컬",
-          "Value": 540.0,
+          "Name": "공명 효율",
+          "Value": 864.0,
           "IsRatio": false,
           "IsPercent": true
         }
@@ -25,13 +25,13 @@
       "2": [
         {
           "Name": "공격력",
-          "Value": 50.9574,
+          "Value": 45.5364,
           "IsRatio": false,
           "IsPercent": false
         },
         {
-          "Name": "크리티컬",
-          "Value": 540.0,
+          "Name": "공명 효율",
+          "Value": 864.0,
           "IsRatio": false,
           "IsPercent": true
         }
@@ -39,13 +39,13 @@
       "3": [
         {
           "Name": "공격력",
-          "Value": 54.9195,
+          "Value": 49.077,
           "IsRatio": false,
           "IsPercent": false
         },
         {
-          "Name": "크리티컬",
-          "Value": 540.0,
+          "Name": "공명 효율",
+          "Value": 864.0,
           "IsRatio": false,
           "IsPercent": true
         }
@@ -53,13 +53,13 @@
       "4": [
         {
           "Name": "공격력",
-          "Value": 58.8816,
+          "Value": 52.6176,
           "IsRatio": false,
           "IsPercent": false
         },
         {
-          "Name": "크리티컬",
-          "Value": 540.0,
+          "Name": "공명 효율",
+          "Value": 864.0,
           "IsRatio": false,
           "IsPercent": true
         }
@@ -67,13 +67,13 @@
       "5": [
         {
           "Name": "공격력",
-          "Value": 62.839,
+          "Value": 56.154,
           "IsRatio": false,
           "IsPercent": false
         },
         {
-          "Name": "크리티컬",
-          "Value": 644.976,
+          "Name": "공명 효율",
+          "Value": 1031.9616,
           "IsRatio": false,
           "IsPercent": true
         }
@@ -81,13 +81,13 @@
       "6": [
         {
           "Name": "공격력",
-          "Value": 66.8011,
+          "Value": 59.6946,
           "IsRatio": false,
           "IsPercent": false
         },
         {
-          "Name": "크리티컬",
-          "Value": 644.976,
+          "Name": "공명 효율",
+          "Value": 1031.9616,
           "IsRatio": false,
           "IsPercent": true
         }
@@ -95,13 +95,13 @@
       "7": [
         {
           "Name": "공격력",
-          "Value": 70.7632,
+          "Value": 63.2352,
           "IsRatio": false,
           "IsPercent": false
         },
         {
-          "Name": "크리티컬",
-          "Value": 644.976,
+          "Name": "공명 효율",
+          "Value": 1031.9616,
           "IsRatio": false,
           "IsPercent": true
         }
@@ -109,13 +109,13 @@
       "8": [
         {
           "Name": "공격력",
-          "Value": 74.7206,
+          "Value": 66.7716,
           "IsRatio": false,
           "IsPercent": false
         },
         {
-          "Name": "크리티컬",
-          "Value": 644.976,
+          "Name": "공명 효율",
+          "Value": 1031.9616,
           "IsRatio": false,
           "IsPercent": true
         }
@@ -123,13 +123,13 @@
       "9": [
         {
           "Name": "공격력",
-          "Value": 78.6827,
+          "Value": 70.3122,
           "IsRatio": false,
           "IsPercent": false
         },
         {
-          "Name": "크리티컬",
-          "Value": 644.976,
+          "Name": "공명 효율",
+          "Value": 1031.9616,
           "IsRatio": false,
           "IsPercent": true
         }
@@ -137,13 +137,13 @@
       "10": [
         {
           "Name": "공격력",
-          "Value": 82.6448,
+          "Value": 73.8528,
           "IsRatio": false,
           "IsPercent": false
         },
         {
-          "Name": "크리티컬",
-          "Value": 749.952,
+          "Name": "공명 효율",
+          "Value": 1199.9232,
           "IsRatio": false,
           "IsPercent": true
         }
@@ -151,13 +151,13 @@
       "11": [
         {
           "Name": "공격력",
-          "Value": 86.6022,
+          "Value": 77.3892,
           "IsRatio": false,
           "IsPercent": false
         },
         {
-          "Name": "크리티컬",
-          "Value": 749.952,
+          "Name": "공명 효율",
+          "Value": 1199.9232,
           "IsRatio": false,
           "IsPercent": true
         }
@@ -165,13 +165,13 @@
       "12": [
         {
           "Name": "공격력",
-          "Value": 90.5643,
+          "Value": 80.9298,
           "IsRatio": false,
           "IsPercent": false
         },
         {
-          "Name": "크리티컬",
-          "Value": 749.952,
+          "Name": "공명 효율",
+          "Value": 1199.9232,
           "IsRatio": false,
           "IsPercent": true
         }
@@ -179,13 +179,13 @@
       "13": [
         {
           "Name": "공격력",
-          "Value": 94.5264,
+          "Value": 84.4704,
           "IsRatio": false,
           "IsPercent": false
         },
         {
-          "Name": "크리티컬",
-          "Value": 749.952,
+          "Name": "공명 효율",
+          "Value": 1199.9232,
           "IsRatio": false,
           "IsPercent": true
         }
@@ -193,13 +193,13 @@
       "14": [
         {
           "Name": "공격력",
-          "Value": 98.4885,
+          "Value": 88.011,
           "IsRatio": false,
           "IsPercent": false
         },
         {
-          "Name": "크리티컬",
-          "Value": 749.952,
+          "Name": "공명 효율",
+          "Value": 1199.9232,
           "IsRatio": false,
           "IsPercent": true
         }
@@ -207,13 +207,13 @@
       "15": [
         {
           "Name": "공격력",
-          "Value": 102.4459,
+          "Value": 91.5474,
           "IsRatio": false,
           "IsPercent": false
         },
         {
-          "Name": "크리티컬",
-          "Value": 854.982,
+          "Name": "공명 효율",
+          "Value": 1367.9712,
           "IsRatio": false,
           "IsPercent": true
         }
@@ -221,13 +221,13 @@
       "16": [
         {
           "Name": "공격력",
-          "Value": 106.408,
+          "Value": 95.088,
           "IsRatio": false,
           "IsPercent": false
         },
         {
-          "Name": "크리티컬",
-          "Value": 854.982,
+          "Name": "공명 효율",
+          "Value": 1367.9712,
           "IsRatio": false,
           "IsPercent": true
         }
@@ -235,13 +235,13 @@
       "17": [
         {
           "Name": "공격력",
-          "Value": 110.3701,
+          "Value": 98.6286,
           "IsRatio": false,
           "IsPercent": false
         },
         {
-          "Name": "크리티컬",
-          "Value": 854.982,
+          "Name": "공명 효율",
+          "Value": 1367.9712,
           "IsRatio": false,
           "IsPercent": true
         }
@@ -249,13 +249,13 @@
       "18": [
         {
           "Name": "공격력",
-          "Value": 114.3275,
+          "Value": 102.165,
           "IsRatio": false,
           "IsPercent": false
         },
         {
-          "Name": "크리티컬",
-          "Value": 854.982,
+          "Name": "공명 효율",
+          "Value": 1367.9712,
           "IsRatio": false,
           "IsPercent": true
         }
@@ -263,13 +263,13 @@
       "19": [
         {
           "Name": "공격력",
-          "Value": 118.2896,
+          "Value": 105.7056,
           "IsRatio": false,
           "IsPercent": false
         },
         {
-          "Name": "크리티컬",
-          "Value": 854.982,
+          "Name": "공명 효율",
+          "Value": 1367.9712,
           "IsRatio": false,
           "IsPercent": true
         }
@@ -277,13 +277,13 @@
       "20": [
         {
           "Name": "공격력",
-          "Value": 122.2517,
+          "Value": 109.2462,
           "IsRatio": false,
           "IsPercent": false
         },
         {
-          "Name": "크리티컬",
-          "Value": 959.958,
+          "Name": "공명 효율",
+          "Value": 1535.9328,
           "IsRatio": false,
           "IsPercent": true
         }
@@ -293,13 +293,13 @@
       "20": [
         {
           "Name": "공격력",
-          "Value": 153.5819,
+          "Value": 137.2434,
           "IsRatio": false,
           "IsPercent": false
         },
         {
-          "Name": "크리티컬",
-          "Value": 959.958,
+          "Name": "공명 효율",
+          "Value": 1535.9328,
           "IsRatio": false,
           "IsPercent": true
         }
@@ -307,13 +307,13 @@
       "21": [
         {
           "Name": "공격력",
-          "Value": 157.544,
+          "Value": 140.784,
           "IsRatio": false,
           "IsPercent": false
         },
         {
-          "Name": "크리티컬",
-          "Value": 959.958,
+          "Name": "공명 효율",
+          "Value": 1535.9328,
           "IsRatio": false,
           "IsPercent": true
         }
@@ -321,13 +321,13 @@
       "22": [
         {
           "Name": "공격력",
-          "Value": 161.5061,
+          "Value": 144.3246,
           "IsRatio": false,
           "IsPercent": false
         },
         {
-          "Name": "크리티컬",
-          "Value": 959.958,
+          "Name": "공명 효율",
+          "Value": 1535.9328,
           "IsRatio": false,
           "IsPercent": true
         }
@@ -335,13 +335,13 @@
       "23": [
         {
           "Name": "공격력",
-          "Value": 165.4635,
+          "Value": 147.861,
           "IsRatio": false,
           "IsPercent": false
         },
         {
-          "Name": "크리티컬",
-          "Value": 959.958,
+          "Name": "공명 효율",
+          "Value": 1535.9328,
           "IsRatio": false,
           "IsPercent": true
         }
@@ -349,13 +349,13 @@
       "24": [
         {
           "Name": "공격력",
-          "Value": 169.4256,
+          "Value": 151.4016,
           "IsRatio": false,
           "IsPercent": false
         },
         {
-          "Name": "크리티컬",
-          "Value": 959.958,
+          "Name": "공명 효율",
+          "Value": 1535.9328,
           "IsRatio": false,
           "IsPercent": true
         }
@@ -363,13 +363,13 @@
       "25": [
         {
           "Name": "공격력",
-          "Value": 173.3877,
+          "Value": 154.9422,
           "IsRatio": false,
           "IsPercent": false
         },
         {
-          "Name": "크리티컬",
-          "Value": 1064.988,
+          "Name": "공명 효율",
+          "Value": 1703.9808,
           "IsRatio": false,
           "IsPercent": true
         }
@@ -377,13 +377,13 @@
       "26": [
         {
           "Name": "공격력",
-          "Value": 177.3498,
+          "Value": 158.4828,
           "IsRatio": false,
           "IsPercent": false
         },
         {
-          "Name": "크리티컬",
-          "Value": 1064.988,
+          "Name": "공명 효율",
+          "Value": 1703.9808,
           "IsRatio": false,
           "IsPercent": true
         }
@@ -391,13 +391,13 @@
       "27": [
         {
           "Name": "공격력",
-          "Value": 181.3072,
+          "Value": 162.0192,
           "IsRatio": false,
           "IsPercent": false
         },
         {
-          "Name": "크리티컬",
-          "Value": 1064.988,
+          "Name": "공명 효율",
+          "Value": 1703.9808,
           "IsRatio": false,
           "IsPercent": true
         }
@@ -405,13 +405,13 @@
       "28": [
         {
           "Name": "공격력",
-          "Value": 185.2693,
+          "Value": 165.5598,
           "IsRatio": false,
           "IsPercent": false
         },
         {
-          "Name": "크리티컬",
-          "Value": 1064.988,
+          "Name": "공명 효율",
+          "Value": 1703.9808,
           "IsRatio": false,
           "IsPercent": true
         }
@@ -419,13 +419,13 @@
       "29": [
         {
           "Name": "공격력",
-          "Value": 189.2314,
+          "Value": 169.1004,
           "IsRatio": false,
           "IsPercent": false
         },
         {
-          "Name": "크리티컬",
-          "Value": 1064.988,
+          "Name": "공명 효율",
+          "Value": 1703.9808,
           "IsRatio": false,
           "IsPercent": true
         }
@@ -433,13 +433,13 @@
       "30": [
         {
           "Name": "공격력",
-          "Value": 193.1888,
+          "Value": 172.6368,
           "IsRatio": false,
           "IsPercent": false
         },
         {
-          "Name": "크리티컬",
-          "Value": 1169.964,
+          "Name": "공명 효율",
+          "Value": 1871.9424,
           "IsRatio": false,
           "IsPercent": true
         }
@@ -447,13 +447,13 @@
       "31": [
         {
           "Name": "공격력",
-          "Value": 197.1509,
+          "Value": 176.1774,
           "IsRatio": false,
           "IsPercent": false
         },
         {
-          "Name": "크리티컬",
-          "Value": 1169.964,
+          "Name": "공명 효율",
+          "Value": 1871.9424,
           "IsRatio": false,
           "IsPercent": true
         }
@@ -461,13 +461,13 @@
       "32": [
         {
           "Name": "공격력",
-          "Value": 201.113,
+          "Value": 179.718,
           "IsRatio": false,
           "IsPercent": false
         },
         {
-          "Name": "크리티컬",
-          "Value": 1169.964,
+          "Name": "공명 효율",
+          "Value": 1871.9424,
           "IsRatio": false,
           "IsPercent": true
         }
@@ -475,13 +475,13 @@
       "33": [
         {
           "Name": "공격력",
-          "Value": 205.0704,
+          "Value": 183.2544,
           "IsRatio": false,
           "IsPercent": false
         },
         {
-          "Name": "크리티컬",
-          "Value": 1169.964,
+          "Name": "공명 효율",
+          "Value": 1871.9424,
           "IsRatio": false,
           "IsPercent": true
         }
@@ -489,13 +489,13 @@
       "34": [
         {
           "Name": "공격력",
-          "Value": 209.0325,
+          "Value": 186.795,
           "IsRatio": false,
           "IsPercent": false
         },
         {
-          "Name": "크리티컬",
-          "Value": 1169.964,
+          "Name": "공명 효율",
+          "Value": 1871.9424,
           "IsRatio": false,
           "IsPercent": true
         }
@@ -503,13 +503,13 @@
       "35": [
         {
           "Name": "공격력",
-          "Value": 212.9946,
+          "Value": 190.3356,
           "IsRatio": false,
           "IsPercent": false
         },
         {
-          "Name": "크리티컬",
-          "Value": 1274.994,
+          "Name": "공명 효율",
+          "Value": 2039.9904,
           "IsRatio": false,
           "IsPercent": true
         }
@@ -517,13 +517,13 @@
       "36": [
         {
           "Name": "공격력",
-          "Value": 216.9567,
+          "Value": 193.8762,
           "IsRatio": false,
           "IsPercent": false
         },
         {
-          "Name": "크리티컬",
-          "Value": 1274.994,
+          "Name": "공명 효율",
+          "Value": 2039.9904,
           "IsRatio": false,
           "IsPercent": true
         }
@@ -531,13 +531,13 @@
       "37": [
         {
           "Name": "공격력",
-          "Value": 220.9141,
+          "Value": 197.4126,
           "IsRatio": false,
           "IsPercent": false
         },
         {
-          "Name": "크리티컬",
-          "Value": 1274.994,
+          "Name": "공명 효율",
+          "Value": 2039.9904,
           "IsRatio": false,
           "IsPercent": true
         }
@@ -545,13 +545,13 @@
       "38": [
         {
           "Name": "공격력",
-          "Value": 224.8762,
+          "Value": 200.9532,
           "IsRatio": false,
           "IsPercent": false
         },
         {
-          "Name": "크리티컬",
-          "Value": 1274.994,
+          "Name": "공명 효율",
+          "Value": 2039.9904,
           "IsRatio": false,
           "IsPercent": true
         }
@@ -559,13 +559,13 @@
       "39": [
         {
           "Name": "공격력",
-          "Value": 228.8383,
+          "Value": 204.4938,
           "IsRatio": false,
           "IsPercent": false
         },
         {
-          "Name": "크리티컬",
-          "Value": 1274.994,
+          "Name": "공명 효율",
+          "Value": 2039.9904,
           "IsRatio": false,
           "IsPercent": true
         }
@@ -573,13 +573,13 @@
       "40": [
         {
           "Name": "공격력",
-          "Value": 232.7957,
+          "Value": 208.0302,
           "IsRatio": false,
           "IsPercent": false
         },
         {
-          "Name": "크리티컬",
-          "Value": 1379.97,
+          "Name": "공명 효율",
+          "Value": 2207.952,
           "IsRatio": false,
           "IsPercent": true
         }
@@ -589,13 +589,13 @@
       "40": [
         {
           "Name": "공격력",
-          "Value": 264.1306,
+          "Value": 236.0316,
           "IsRatio": false,
           "IsPercent": false
         },
         {
-          "Name": "크리티컬",
-          "Value": 1379.97,
+          "Name": "공명 효율",
+          "Value": 2207.952,
           "IsRatio": false,
           "IsPercent": true
         }
@@ -603,13 +603,13 @@
       "41": [
         {
           "Name": "공격력",
-          "Value": 268.0927,
+          "Value": 239.5722,
           "IsRatio": false,
           "IsPercent": false
         },
         {
-          "Name": "크리티컬",
-          "Value": 1379.97,
+          "Name": "공명 효율",
+          "Value": 2207.952,
           "IsRatio": false,
           "IsPercent": true
         }
@@ -617,13 +617,13 @@
       "42": [
         {
           "Name": "공격력",
-          "Value": 272.0501,
+          "Value": 243.1086,
           "IsRatio": false,
           "IsPercent": false
         },
         {
-          "Name": "크리티컬",
-          "Value": 1379.97,
+          "Name": "공명 효율",
+          "Value": 2207.952,
           "IsRatio": false,
           "IsPercent": true
         }
@@ -631,13 +631,13 @@
       "43": [
         {
           "Name": "공격력",
-          "Value": 276.0122,
+          "Value": 246.6492,
           "IsRatio": false,
           "IsPercent": false
         },
         {
-          "Name": "크리티컬",
-          "Value": 1379.97,
+          "Name": "공명 효율",
+          "Value": 2207.952,
           "IsRatio": false,
           "IsPercent": true
         }
@@ -645,13 +645,13 @@
       "44": [
         {
           "Name": "공격력",
-          "Value": 279.9743,
+          "Value": 250.1898,
           "IsRatio": false,
           "IsPercent": false
         },
         {
-          "Name": "크리티컬",
-          "Value": 1379.97,
+          "Name": "공명 효율",
+          "Value": 2207.952,
           "IsRatio": false,
           "IsPercent": true
         }
@@ -659,13 +659,13 @@
       "45": [
         {
           "Name": "공격력",
-          "Value": 283.9317,
+          "Value": 253.7262,
           "IsRatio": false,
           "IsPercent": false
         },
         {
-          "Name": "크리티컬",
-          "Value": 1485.0,
+          "Name": "공명 효율",
+          "Value": 2376.0,
           "IsRatio": false,
           "IsPercent": true
         }
@@ -673,13 +673,13 @@
       "46": [
         {
           "Name": "공격력",
-          "Value": 287.8938,
+          "Value": 257.2668,
           "IsRatio": false,
           "IsPercent": false
         },
         {
-          "Name": "크리티컬",
-          "Value": 1485.0,
+          "Name": "공명 효율",
+          "Value": 2376.0,
           "IsRatio": false,
           "IsPercent": true
         }
@@ -687,13 +687,13 @@
       "47": [
         {
           "Name": "공격력",
-          "Value": 291.8559,
+          "Value": 260.8074,
           "IsRatio": false,
           "IsPercent": false
         },
         {
-          "Name": "크리티컬",
-          "Value": 1485.0,
+          "Name": "공명 효율",
+          "Value": 2376.0,
           "IsRatio": false,
           "IsPercent": true
         }
@@ -701,13 +701,13 @@
       "48": [
         {
           "Name": "공격력",
-          "Value": 295.818,
+          "Value": 264.348,
           "IsRatio": false,
           "IsPercent": false
         },
         {
-          "Name": "크리티컬",
-          "Value": 1485.0,
+          "Name": "공명 효율",
+          "Value": 2376.0,
           "IsRatio": false,
           "IsPercent": true
         }
@@ -715,13 +715,13 @@
       "49": [
         {
           "Name": "공격력",
-          "Value": 299.7754,
+          "Value": 267.8844,
           "IsRatio": false,
           "IsPercent": false
         },
         {
-          "Name": "크리티컬",
-          "Value": 1485.0,
+          "Name": "공명 효율",
+          "Value": 2376.0,
           "IsRatio": false,
           "IsPercent": true
         }
@@ -729,13 +729,13 @@
       "50": [
         {
           "Name": "공격력",
-          "Value": 303.7375,
+          "Value": 271.425,
           "IsRatio": false,
           "IsPercent": false
         },
         {
-          "Name": "크리티컬",
-          "Value": 1589.976,
+          "Name": "공명 효율",
+          "Value": 2543.9616,
           "IsRatio": false,
           "IsPercent": true
         }
@@ -745,13 +745,13 @@
       "50": [
         {
           "Name": "공격력",
-          "Value": 335.0724,
+          "Value": 299.4264,
           "IsRatio": false,
           "IsPercent": false
         },
         {
-          "Name": "크리티컬",
-          "Value": 1589.976,
+          "Name": "공명 효율",
+          "Value": 2543.9616,
           "IsRatio": false,
           "IsPercent": true
         }
@@ -759,13 +759,13 @@
       "51": [
         {
           "Name": "공격력",
-          "Value": 339.0298,
+          "Value": 302.9628,
           "IsRatio": false,
           "IsPercent": false
         },
         {
-          "Name": "크리티컬",
-          "Value": 1589.976,
+          "Name": "공명 효율",
+          "Value": 2543.9616,
           "IsRatio": false,
           "IsPercent": true
         }
@@ -773,13 +773,13 @@
       "52": [
         {
           "Name": "공격력",
-          "Value": 342.9919,
+          "Value": 306.5034,
           "IsRatio": false,
           "IsPercent": false
         },
         {
-          "Name": "크리티컬",
-          "Value": 1589.976,
+          "Name": "공명 효율",
+          "Value": 2543.9616,
           "IsRatio": false,
           "IsPercent": true
         }
@@ -787,13 +787,13 @@
       "53": [
         {
           "Name": "공격력",
-          "Value": 346.954,
+          "Value": 310.044,
           "IsRatio": false,
           "IsPercent": false
         },
         {
-          "Name": "크리티컬",
-          "Value": 1589.976,
+          "Name": "공명 효율",
+          "Value": 2543.9616,
           "IsRatio": false,
           "IsPercent": true
         }
@@ -801,13 +801,13 @@
       "54": [
         {
           "Name": "공격력",
-          "Value": 350.9114,
+          "Value": 313.5804,
           "IsRatio": false,
           "IsPercent": false
         },
         {
-          "Name": "크리티컬",
-          "Value": 1589.976,
+          "Name": "공명 효율",
+          "Value": 2543.9616,
           "IsRatio": false,
           "IsPercent": true
         }
@@ -815,13 +815,13 @@
       "55": [
         {
           "Name": "공격력",
-          "Value": 354.8735,
+          "Value": 317.121,
           "IsRatio": false,
           "IsPercent": false
         },
         {
-          "Name": "크리티컬",
-          "Value": 1694.952,
+          "Name": "공명 효율",
+          "Value": 2711.9232,
           "IsRatio": false,
           "IsPercent": true
         }
@@ -829,13 +829,13 @@
       "56": [
         {
           "Name": "공격력",
-          "Value": 358.8356,
+          "Value": 320.6616,
           "IsRatio": false,
           "IsPercent": false
         },
         {
-          "Name": "크리티컬",
-          "Value": 1694.952,
+          "Name": "공명 효율",
+          "Value": 2711.9232,
           "IsRatio": false,
           "IsPercent": true
         }
@@ -843,13 +843,13 @@
       "57": [
         {
           "Name": "공격력",
-          "Value": 362.7977,
+          "Value": 324.2022,
           "IsRatio": false,
           "IsPercent": false
         },
         {
-          "Name": "크리티컬",
-          "Value": 1694.952,
+          "Name": "공명 효율",
+          "Value": 2711.9232,
           "IsRatio": false,
           "IsPercent": true
         }
@@ -857,13 +857,13 @@
       "58": [
         {
           "Name": "공격력",
-          "Value": 366.7551,
+          "Value": 327.7386,
           "IsRatio": false,
           "IsPercent": false
         },
         {
-          "Name": "크리티컬",
-          "Value": 1694.952,
+          "Name": "공명 효율",
+          "Value": 2711.9232,
           "IsRatio": false,
           "IsPercent": true
         }
@@ -871,13 +871,13 @@
       "59": [
         {
           "Name": "공격력",
-          "Value": 370.7172,
+          "Value": 331.2792,
           "IsRatio": false,
           "IsPercent": false
         },
         {
-          "Name": "크리티컬",
-          "Value": 1694.952,
+          "Name": "공명 효율",
+          "Value": 2711.9232,
           "IsRatio": false,
           "IsPercent": true
         }
@@ -885,13 +885,13 @@
       "60": [
         {
           "Name": "공격력",
-          "Value": 374.6793,
+          "Value": 334.8198,
           "IsRatio": false,
           "IsPercent": false
         },
         {
-          "Name": "크리티컬",
-          "Value": 1799.982,
+          "Name": "공명 효율",
+          "Value": 2879.9712,
           "IsRatio": false,
           "IsPercent": true
         }
@@ -901,13 +901,13 @@
       "60": [
         {
           "Name": "공격력",
-          "Value": 406.0095,
+          "Value": 362.817,
           "IsRatio": false,
           "IsPercent": false
         },
         {
-          "Name": "크리티컬",
-          "Value": 1799.982,
+          "Name": "공명 효율",
+          "Value": 2879.9712,
           "IsRatio": false,
           "IsPercent": true
         }
@@ -915,13 +915,13 @@
       "61": [
         {
           "Name": "공격력",
-          "Value": 409.9716,
+          "Value": 366.3576,
           "IsRatio": false,
           "IsPercent": false
         },
         {
-          "Name": "크리티컬",
-          "Value": 1799.982,
+          "Name": "공명 효율",
+          "Value": 2879.9712,
           "IsRatio": false,
           "IsPercent": true
         }
@@ -929,13 +929,13 @@
       "62": [
         {
           "Name": "공격력",
-          "Value": 413.9337,
+          "Value": 369.8982,
           "IsRatio": false,
           "IsPercent": false
         },
         {
-          "Name": "크리티컬",
-          "Value": 1799.982,
+          "Name": "공명 효율",
+          "Value": 2879.9712,
           "IsRatio": false,
           "IsPercent": true
         }
@@ -943,13 +943,13 @@
       "63": [
         {
           "Name": "공격력",
-          "Value": 417.8911,
+          "Value": 373.4346,
           "IsRatio": false,
           "IsPercent": false
         },
         {
-          "Name": "크리티컬",
-          "Value": 1799.982,
+          "Name": "공명 효율",
+          "Value": 2879.9712,
           "IsRatio": false,
           "IsPercent": true
         }
@@ -957,13 +957,13 @@
       "64": [
         {
           "Name": "공격력",
-          "Value": 421.8532,
+          "Value": 376.9752,
           "IsRatio": false,
           "IsPercent": false
         },
         {
-          "Name": "크리티컬",
-          "Value": 1799.982,
+          "Name": "공명 효율",
+          "Value": 2879.9712,
           "IsRatio": false,
           "IsPercent": true
         }
@@ -971,13 +971,13 @@
       "65": [
         {
           "Name": "공격력",
-          "Value": 425.8153,
+          "Value": 380.5158,
           "IsRatio": false,
           "IsPercent": false
         },
         {
-          "Name": "크리티컬",
-          "Value": 1904.958,
+          "Name": "공명 효율",
+          "Value": 3047.9328,
           "IsRatio": false,
           "IsPercent": true
         }
@@ -985,13 +985,13 @@
       "66": [
         {
           "Name": "공격력",
-          "Value": 429.7727,
+          "Value": 384.0522,
           "IsRatio": false,
           "IsPercent": false
         },
         {
-          "Name": "크리티컬",
-          "Value": 1904.958,
+          "Name": "공명 효율",
+          "Value": 3047.9328,
           "IsRatio": false,
           "IsPercent": true
         }
@@ -999,13 +999,13 @@
       "67": [
         {
           "Name": "공격력",
-          "Value": 433.7348,
+          "Value": 387.5928,
           "IsRatio": false,
           "IsPercent": false
         },
         {
-          "Name": "크리티컬",
-          "Value": 1904.958,
+          "Name": "공명 효율",
+          "Value": 3047.9328,
           "IsRatio": false,
           "IsPercent": true
         }
@@ -1013,13 +1013,13 @@
       "68": [
         {
           "Name": "공격력",
-          "Value": 437.6969,
+          "Value": 391.1334,
           "IsRatio": false,
           "IsPercent": false
         },
         {
-          "Name": "크리티컬",
-          "Value": 1904.958,
+          "Name": "공명 효율",
+          "Value": 3047.9328,
           "IsRatio": false,
           "IsPercent": true
         }
@@ -1027,13 +1027,13 @@
       "69": [
         {
           "Name": "공격력",
-          "Value": 441.659,
+          "Value": 394.674,
           "IsRatio": false,
           "IsPercent": false
         },
         {
-          "Name": "크리티컬",
-          "Value": 1904.958,
+          "Name": "공명 효율",
+          "Value": 3047.9328,
           "IsRatio": false,
           "IsPercent": true
         }
@@ -1041,13 +1041,13 @@
       "70": [
         {
           "Name": "공격력",
-          "Value": 445.6164,
+          "Value": 398.2104,
           "IsRatio": false,
           "IsPercent": false
         },
         {
-          "Name": "크리티컬",
-          "Value": 2009.988,
+          "Name": "공명 효율",
+          "Value": 3215.9808,
           "IsRatio": false,
           "IsPercent": true
         }
@@ -1057,13 +1057,13 @@
       "70": [
         {
           "Name": "공격력",
-          "Value": 476.9513,
+          "Value": 426.2118,
           "IsRatio": false,
           "IsPercent": false
         },
         {
-          "Name": "크리티컬",
-          "Value": 2009.988,
+          "Name": "공명 효율",
+          "Value": 3215.9808,
           "IsRatio": false,
           "IsPercent": true
         }
@@ -1071,13 +1071,13 @@
       "71": [
         {
           "Name": "공격력",
-          "Value": 480.9134,
+          "Value": 429.7524,
           "IsRatio": false,
           "IsPercent": false
         },
         {
-          "Name": "크리티컬",
-          "Value": 2009.988,
+          "Name": "공명 효율",
+          "Value": 3215.9808,
           "IsRatio": false,
           "IsPercent": true
         }
@@ -1085,13 +1085,13 @@
       "72": [
         {
           "Name": "공격력",
-          "Value": 484.8708,
+          "Value": 433.2888,
           "IsRatio": false,
           "IsPercent": false
         },
         {
-          "Name": "크리티컬",
-          "Value": 2009.988,
+          "Name": "공명 효율",
+          "Value": 3215.9808,
           "IsRatio": false,
           "IsPercent": true
         }
@@ -1099,13 +1099,13 @@
       "73": [
         {
           "Name": "공격력",
-          "Value": 488.8329,
+          "Value": 436.8294,
           "IsRatio": false,
           "IsPercent": false
         },
         {
-          "Name": "크리티컬",
-          "Value": 2009.988,
+          "Name": "공명 효율",
+          "Value": 3215.9808,
           "IsRatio": false,
           "IsPercent": true
         }
@@ -1113,13 +1113,13 @@
       "74": [
         {
           "Name": "공격력",
-          "Value": 492.795,
+          "Value": 440.37,
           "IsRatio": false,
           "IsPercent": false
         },
         {
-          "Name": "크리티컬",
-          "Value": 2009.988,
+          "Name": "공명 효율",
+          "Value": 3215.9808,
           "IsRatio": false,
           "IsPercent": true
         }
@@ -1127,13 +1127,13 @@
       "75": [
         {
           "Name": "공격력",
-          "Value": 496.7524,
+          "Value": 443.9064,
           "IsRatio": false,
           "IsPercent": false
         },
         {
-          "Name": "크리티컬",
-          "Value": 2114.964,
+          "Name": "공명 효율",
+          "Value": 3383.9424,
           "IsRatio": false,
           "IsPercent": true
         }
@@ -1141,13 +1141,13 @@
       "76": [
         {
           "Name": "공격력",
-          "Value": 500.7145,
+          "Value": 447.447,
           "IsRatio": false,
           "IsPercent": false
         },
         {
-          "Name": "크리티컬",
-          "Value": 2114.964,
+          "Name": "공명 효율",
+          "Value": 3383.9424,
           "IsRatio": false,
           "IsPercent": true
         }
@@ -1155,13 +1155,13 @@
       "77": [
         {
           "Name": "공격력",
-          "Value": 504.6766,
+          "Value": 450.9876,
           "IsRatio": false,
           "IsPercent": false
         },
         {
-          "Name": "크리티컬",
-          "Value": 2114.964,
+          "Name": "공명 효율",
+          "Value": 3383.9424,
           "IsRatio": false,
           "IsPercent": true
         }
@@ -1169,13 +1169,13 @@
       "78": [
         {
           "Name": "공격력",
-          "Value": 508.634,
+          "Value": 454.524,
           "IsRatio": false,
           "IsPercent": false
         },
         {
-          "Name": "크리티컬",
-          "Value": 2114.964,
+          "Name": "공명 효율",
+          "Value": 3383.9424,
           "IsRatio": false,
           "IsPercent": true
         }
@@ -1183,13 +1183,13 @@
       "79": [
         {
           "Name": "공격력",
-          "Value": 512.5961,
+          "Value": 458.0646,
           "IsRatio": false,
           "IsPercent": false
         },
         {
-          "Name": "크리티컬",
-          "Value": 2114.964,
+          "Name": "공명 효율",
+          "Value": 3383.9424,
           "IsRatio": false,
           "IsPercent": true
         }
@@ -1197,13 +1197,13 @@
       "80": [
         {
           "Name": "공격력",
-          "Value": 516.5582,
+          "Value": 461.6052,
           "IsRatio": false,
           "IsPercent": false
         },
         {
-          "Name": "크리티컬",
-          "Value": 2219.994,
+          "Name": "공명 효율",
+          "Value": 3551.9904,
           "IsRatio": false,
           "IsPercent": true
         }
@@ -1213,13 +1213,13 @@
       "80": [
         {
           "Name": "공격력",
-          "Value": 547.8931,
+          "Value": 489.6066,
           "IsRatio": false,
           "IsPercent": false
         },
         {
-          "Name": "크리티컬",
-          "Value": 2219.994,
+          "Name": "공명 효율",
+          "Value": 3551.9904,
           "IsRatio": false,
           "IsPercent": true
         }
@@ -1227,13 +1227,13 @@
       "81": [
         {
           "Name": "공격력",
-          "Value": 551.8505,
+          "Value": 493.143,
           "IsRatio": false,
           "IsPercent": false
         },
         {
-          "Name": "크리티컬",
-          "Value": 2219.994,
+          "Name": "공명 효율",
+          "Value": 3551.9904,
           "IsRatio": false,
           "IsPercent": true
         }
@@ -1241,13 +1241,13 @@
       "82": [
         {
           "Name": "공격력",
-          "Value": 555.8126,
+          "Value": 496.6836,
           "IsRatio": false,
           "IsPercent": false
         },
         {
-          "Name": "크리티컬",
-          "Value": 2219.994,
+          "Name": "공명 효율",
+          "Value": 3551.9904,
           "IsRatio": false,
           "IsPercent": true
         }
@@ -1255,13 +1255,13 @@
       "83": [
         {
           "Name": "공격력",
-          "Value": 559.7747,
+          "Value": 500.2242,
           "IsRatio": false,
           "IsPercent": false
         },
         {
-          "Name": "크리티컬",
-          "Value": 2219.994,
+          "Name": "공명 효율",
+          "Value": 3551.9904,
           "IsRatio": false,
           "IsPercent": true
         }
@@ -1269,13 +1269,13 @@
       "84": [
         {
           "Name": "공격력",
-          "Value": 563.7321,
+          "Value": 503.7606,
           "IsRatio": false,
           "IsPercent": false
         },
         {
-          "Name": "크리티컬",
-          "Value": 2219.994,
+          "Name": "공명 효율",
+          "Value": 3551.9904,
           "IsRatio": false,
           "IsPercent": true
         }
@@ -1283,13 +1283,13 @@
       "85": [
         {
           "Name": "공격력",
-          "Value": 567.6942,
+          "Value": 507.3012,
           "IsRatio": false,
           "IsPercent": false
         },
         {
-          "Name": "크리티컬",
-          "Value": 2324.97,
+          "Name": "공명 효율",
+          "Value": 3719.952,
           "IsRatio": false,
           "IsPercent": true
         }
@@ -1297,13 +1297,13 @@
       "86": [
         {
           "Name": "공격력",
-          "Value": 571.6563,
+          "Value": 510.8418,
           "IsRatio": false,
           "IsPercent": false
         },
         {
-          "Name": "크리티컬",
-          "Value": 2324.97,
+          "Name": "공명 효율",
+          "Value": 3719.952,
           "IsRatio": false,
           "IsPercent": true
         }
@@ -1311,13 +1311,13 @@
       "87": [
         {
           "Name": "공격력",
-          "Value": 575.6137,
+          "Value": 514.3782,
           "IsRatio": false,
           "IsPercent": false
         },
         {
-          "Name": "크리티컬",
-          "Value": 2324.97,
+          "Name": "공명 효율",
+          "Value": 3719.952,
           "IsRatio": false,
           "IsPercent": true
         }
@@ -1325,13 +1325,13 @@
       "88": [
         {
           "Name": "공격력",
-          "Value": 579.5758,
+          "Value": 517.9188,
           "IsRatio": false,
           "IsPercent": false
         },
         {
-          "Name": "크리티컬",
-          "Value": 2324.97,
+          "Name": "공명 효율",
+          "Value": 3719.952,
           "IsRatio": false,
           "IsPercent": true
         }
@@ -1339,13 +1339,13 @@
       "89": [
         {
           "Name": "공격력",
-          "Value": 583.5379,
+          "Value": 521.4594,
           "IsRatio": false,
           "IsPercent": false
         },
         {
-          "Name": "크리티컬",
-          "Value": 2324.97,
+          "Name": "공명 효율",
+          "Value": 3719.952,
           "IsRatio": false,
           "IsPercent": true
         }
@@ -1353,20 +1353,20 @@
       "90": [
         {
           "Name": "공격력",
-          "Value": 587.5,
+          "Value": 525.0,
           "IsRatio": false,
           "IsPercent": false
         },
         {
-          "Name": "크리티컬",
-          "Value": 2430.0,
+          "Name": "공명 효율",
+          "Value": 3888.0,
           "IsRatio": false,
           "IsPercent": true
         }
       ]
     }
   },
-  "Effect": "공격력이 {0} 증가된다. 에코 어빌리티 피해를 입힌 후 {1}초 내에, 공명 스킬 피해 보너스가 {2} 증가되고, 에코 어빌리티 피해가 {3} 부스트되며, 피해를 입힐 시 목표의 방어력을 {4} 무시한다",
+  "Effect": "공격력이 {0} 증가된다. 파티 내 캐릭터가 「조화도 파괴 스킬」을 발동한 후, 자신의 공격력이 {1} 증가되고, 일반 공격 피해 보너스가 {2} 증가되며, {3}초간 지속된다",
   "EffectName": "관측자",
   "Param": [
     [
@@ -1377,32 +1377,25 @@
       "24%"
     ],
     [
-      "12",
-      "12",
-      "12",
-      "12",
-      "12"
-    ],
-    [
-      "32%",
-      "40%",
-      "48%",
-      "56%",
-      "64%"
-    ],
-    [
-      "32%",
-      "40%",
-      "48%",
-      "56%",
-      "64%"
-    ],
-    [
-      "8%",
-      "10%",
       "12%",
-      "14%",
-      "16%"
+      "13.5%",
+      "15%",
+      "16.5%",
+      "18%"
+    ],
+    [
+      "12%",
+      "13.5%",
+      "15%",
+      "16.5%",
+      "18%"
+    ],
+    [
+      "14",
+      "14",
+      "14",
+      "14",
+      "14"
     ]
   ],
   "Ascensions": {

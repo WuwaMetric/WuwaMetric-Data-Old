@@ -1,14 +1,14 @@
 {
   "Id": 6000190,
-  "Code": "T01-",
+  "Code": "R66-",
   "Name": "Reactor Husk",
   "Type": "",
   "Intensity": "",
   "Place": "",
   "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34022_UI.T_IconMonsterHead_34022_UI",
   "Skill": {
-    "Desc": "Transform into Reactor Husk, jumping into the air and unleashing a heavy slash that deals {0} Fusion DMG to enemies.\n\nThe Resonator with this Echo equipped in their main slot gain {1} Energy Regen.\n\nCD: {4}s.",
-    "SimpleDesc": "Transform into Reactor Husk to attack enemies, dealing Fusion DMG.\n\nThe Resonator with this Echo equipped in their main slot gains Energy Regen.",
+    "Desc": "Transform into a Reactor Husk, jumping into the air and unleashing a heavy slash that deals {0} Fusion DMG to enemies.\n \nThe Resonator with this Echo equipped in their main slot gain {1} Energy Regen.\n \n CD: {4}s.",
+    "SimpleDesc": "Transform into a Reactor Husk to attack enemies, dealing Fusion DMG.\n \nThe Resonator with this Echo equipped in their main slot gains Energy Regen.",
     "Param": [
       [
         "195.00%",
@@ -62,7 +62,8 @@
         "Energy": 487,
         "ElementPower": 0,
         "HardnessLv": 10000,
-        "ToughLv": 19500
+        "ToughLv": 19500,
+        "WeaknessLvl": 0
       }
     }
   },

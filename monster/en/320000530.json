@@ -2,7 +2,7 @@
   "Id": 320000530,
   "Name": "Ironhoof",
   "Desc": "A mechanical muskox, grown from the Exostrider's own parts. They often help the Roya in transporting loads.",
-  "DescOpen": "This enemy has a <color=HighlightB>higher RES</color> to <color=Fire>Fusion DMG</color>.\n\nThe mechanical horns on its head can be damaged by Counterattacks. Successfully breaking the horns will reduce its attack power and range.\n\nWhen the Ironhoof is under Tune Rupture: Shifting and hit by Tune Break, it takes 30% more total DMG for 15s.\n\nAfter scanning the data of past animals in Lahai-Roi, the Exostrider used its own parts to grow and proliferate mechanical muskox. Due to the Ironhoof's tough armor, which allows it to survive frigid temperatures on long journeys, the Roya often use them to transport heavy loads.",
+  "DescOpen": "This enemy has a <color=HighlightB>higher RES</color> to <color=Fire>Fusion DMG</color>.\n\nThe mechanical horns on its head can be damaged by Counterattacks. Successfully breaking the horns will reduce its attack power and range.\n\nWhen the Ironhoof is under Tune Rupture - Shifting and hit by Tune Break, it takes 30% more total DMG for 15s.\n\nAfter scanning the data of past animals in Lahai-Roi, the Exostrider used its own parts to grow and proliferate mechanical muskox. Due to the Ironhoof's tough armor, which allows it to survive frigid temperatures on long journeys, the Roya often use them to transport heavy loads.",
   "Rarity": 2,
   "Element": 2,
   "ElementArray": [
@@ -31,7 +31,12 @@
     "EnergyMax": 10000,
     "WeakTime": 2500,
     "Mass": 600,
-    "ParalysisTimeMax": 5000
+    "ParalysisTimeMax": 5000,
+    "WeaknessBuildUp": 0,
+    "WeaknessBuildUpMax": 10000,
+    "WeaknessTotalBonus": 0,
+    "BreakWeaknessRatio": 10000,
+    "WeaknessMastery": 0
   },
   "Stats": {
     "1": {

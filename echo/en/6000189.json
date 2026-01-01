@@ -1,14 +1,14 @@
 {
   "Id": 6000189,
-  "Code": "T01-",
+  "Code": "R65-",
   "Name": "Hyvatia",
   "Type": "",
   "Intensity": "",
   "Place": "",
   "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34021_UI.T_IconMonsterHead_34021_UI",
   "Skill": {
-    "Desc": "Summon Hyvatia in mid-air to fire lasers at enemies, dealing {0} Spectro DMG 10 times.\n\nCasting Outro Skill within {1}s after summoning Hyvatia grants {2} All-Attribute DMG Bonus to the Intro Skill of the incoming Resonator for {3}s.\n\nCD: {4}s.",
-    "SimpleDesc": "Summon Hyvatia to attack enemies, dealing Spectro DMG and granting All-Attribute DMG Bonus to the Intro Skill of the incoming Resonator.",
+    "Desc": "Summon Hyvatia to fire lasers at enemies from mid-air, dealing {0} Spectro DMG 10 times.\n\nCasting Outro Skill within {1}s after summoning Hyvatia grants {2} All-Attribute DMG Bonus to the next Resonator using Intro Skill for {3}s.\n\nCD: {4}s.",
+    "SimpleDesc": "Summon Hyvatia to attack enemies, dealing Spectro DMG and granting All-Attribute DMG Bonus to the next Resonator using Intro Skill.",
     "Param": [
       [
         "15.20%",
@@ -62,7 +62,8 @@
         "Energy": 3,
         "ElementPower": 0,
         "HardnessLv": 10000,
-        "ToughLv": 1520
+        "ToughLv": 1520,
+        "WeaknessLvl": 0
       }
     }
   },
@@ -80,7 +81,7 @@
           ]
         },
         "5": {
-          "Desc": "Casting Outro Skill increases the ATK of the incoming Resonator by {0}, with each point of Tune Break Boost additionally increasing ATK by {1}, up to {2}. This effect lasts for {3}s, or until the Resonator is switched out.",
+          "Desc": "Casting Outro Skill increases the ATK of the incoming Resonator who casts Intro Skill by {0}. Each point of Tune Break Boost the incoming Resonator has additionally increases their ATK by {1}, up to {2}. This effect lasts for {3}s, or until the Resonator is switched out.",
           "Param": [
             "15%",
             "0.3%",

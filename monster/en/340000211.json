@@ -2,13 +2,13 @@
   "Id": 340000211,
   "Name": "Hyvatia",
   "Desc": "The Spacetrek Collective's first detection array built at Sundermere to monitor and stabilize the Reactor Drive's energy state in real time.",
-  "DescOpen": "This enemy has a <color=HighlightB>higher RES</color> to <color=Light>Spectro DMG </color>.\n\nWhen Hyvatia opens its Eye of Prediction, it observes and records Resonators' Dodges and Counterattacks. After the Eye closes, Hyvatia's next attack cannot be Dodged or Counterattacked.\n\nHyvatia takes 100% more total Tune Rupture DMG. When it's under Tune Rupture: Shifting and hit by Tune Break, it takes 15% more total DMG for 15s.\n\nHyvatia is Spacetrek Collective's first detection array built at Sundermere to monitor and stabilize the Reactor Drive's energy state in real time.\n\nThe Research Institute implanted the Exostrider's space-time error correction module runtime into Hyvatia's core, allowing Hyvatia to adjust the Exostrider's orbit and detect hidden spaceborne threats with high precision. Therefore, Hyvatia possesses sufficient computational power to predict the Reactor Drive's rotation.\n\nHyvatia's core function is to detect abnormal or dangerous energy fluctuations, perform immediate emergency calibrations, and feed this data back to the Drive to ensure stable operation.",
+  "DescOpen": "This enemy has a <color=HighlightB>higher RES</color> to <color=Light>Spectro DMG </color>.\n\nWhen Hyvatia opens its Eye of Prediction, it observes and records Resonators' Dodges and Counterattacks. After the Eye closes, Hyvatia's next attack cannot be Dodged or Counterattacked.\n\nHyvatia takes 100% more total Tune Rupture DMG. When it's under Tune Rupture - Shifting and hit by Tune Break, it takes 15% more total DMG for 15s.\n\nHyvatia is Spacetrek Collective's first detection array built at Sundermere to monitor and stabilize the Reactor Drive's energy state in real time.\n\nThe Research Institute implanted the Exostrider's space-time error correction module runtime into Hyvatia's core, allowing Hyvatia to adjust the Exostrider's orbit and detect hidden spaceborne threats with high precision. Therefore, Hyvatia possesses sufficient computational power to predict the Reactor Drive's rotation.\n\nHyvatia's core function is to detect abnormal or dangerous energy fluctuations, perform immediate emergency calibrations, and feed this data back to the Drive to ensure stable operation.",
   "Rarity": 3,
   "Element": 5,
   "ElementArray": [
     5
   ],
-  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34021_UI.T_IconMonsterHead_34021_UI",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34021_1_UI.T_IconMonsterHead_34021_1_UI",
   "Echo": 6000189,
   "BaseStats": {
     "DamageResistancePhys": 1000,
@@ -27,11 +27,16 @@
     "RageReduce": 10000,
     "ToughReduce": 10000,
     "HardnessReduce": 10000,
-    "ElementPropertyType": 4,
+    "ElementPropertyType": 5,
     "EnergyMax": 10000,
     "WeakTime": 100,
     "Mass": 600,
-    "ParalysisTimeMax": 12000
+    "ParalysisTimeMax": 12000,
+    "WeaknessBuildUp": 0,
+    "WeaknessBuildUpMax": 10000,
+    "WeaknessTotalBonus": 0,
+    "BreakWeaknessRatio": 10000,
+    "WeaknessMastery": 0
   },
   "Stats": {
     "1": {

@@ -2,7 +2,7 @@
   "Id": 320000490,
   "Name": "Twin Nova: Nebulous Cannon",
   "Desc": "A mech developed by the Spacetrek Collective, which comes in melee and ranged variants. The two models fight gracefully in unison when paired.",
-  "DescOpen": "This enemy has a <color=HighlightB>higher RES</color> to <color=Light>Spectro DMG </color>.\n\nTwin Nova: Nebulous Cannon sports a top-of-the-line Combat Synergy Module. Combined with Twin Nova: Collapsar Blade, their battle synergy turns into a deadly dance of multi-pronged attacks.\n\nWhen Twin Nova: Nebulous Cannon is hit by Tune Break, it takes 20% more total DMG for 30s, stacking up to 3 times.\n\nThe Twin Nova mechs were built for exploration beyond the Stridergate. Nebulous Canoon is the ranged model. Their humanoid form embodies mankind's drive to explore the abyss when they look up at the stars.\n\nTogether as one, paired Twin Novas demonstrate unprecedented combat capabilities.",
+  "DescOpen": "This enemy has a <color=HighlightB>higher RES</color> to <color=Light>Spectro DMG </color>.\n\nTwin Nova: Nebulous Cannon sports a top-of-the-line Combat Synergy Module. Combined with Twin Nova: Collapsar Blade, their battle synergy turns into a deadly dance of multi-pronged attacks.\n\nWhen Twin Nova: Nebulous Cannon is hit by Tune Break, it takes 20% more total DMG for 30s, stacking up to 3 times.\n\nThe Twin Nova mechs were built for exploration beyond the Stridergate. Nebulous Cannon is the ranged model. Their humanoid form embodies mankind's drive to explore the abyss when they look up at the stars.\n\nTogether as one, paired Twin Novas demonstrate unprecedented combat capabilities.",
   "Rarity": 2,
   "Element": 5,
   "ElementArray": [
@@ -31,7 +31,12 @@
     "EnergyMax": 10000,
     "WeakTime": 100,
     "Mass": 150,
-    "ParalysisTimeMax": 5000
+    "ParalysisTimeMax": 5000,
+    "WeaknessBuildUp": 0,
+    "WeaknessBuildUpMax": 30000,
+    "WeaknessTotalBonus": 0,
+    "BreakWeaknessRatio": 10000,
+    "WeaknessMastery": 0
   },
   "Stats": {
     "1": {

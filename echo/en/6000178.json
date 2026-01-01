@@ -1,6 +1,6 @@
 {
   "Id": 6000178,
-  "Code": "T01-",
+  "Code": "W37-",
   "Name": "Zip Zap",
   "Type": "",
   "Intensity": "",
@@ -47,7 +47,8 @@
         "Energy": 7,
         "ElementPower": 0,
         "HardnessLv": 10000,
-        "ToughLv": 1440
+        "ToughLv": 1440,
+        "WeaknessLvl": 0
       }
     }
   },
@@ -65,7 +66,7 @@
           ]
         },
         "5": {
-          "Desc": "Casting Outro Skill increases the ATK of the incoming Resonator by {0}, with each point of Tune Break Boost additionally increasing ATK by {1}, up to {2}. This effect lasts for {3}s, or until the Resonator is switched out.",
+          "Desc": "Casting Outro Skill increases the ATK of the incoming Resonator who casts Intro Skill by {0}. Each point of Tune Break Boost the incoming Resonator has additionally increases their ATK by {1}, up to {2}. This effect lasts for {3}s, or until the Resonator is switched out.",
           "Param": [
             "15%",
             "0.3%",

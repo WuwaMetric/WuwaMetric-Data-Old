@@ -2,7 +2,7 @@
   "Id": 320000550,
   "Name": "锯袭铁影",
   "Desc": "凶残的机械体，将一切移动的物体视作挑战者，具有极强的攻击性。",
-  "DescOpen": "该敌人<color=Fire>热熔伤害</color><color=HighlightB>抗性提高</color>。\n锯袭铁影处于震谐·偏移状态下，被谐度破坏命中时，会额外受到其25%最大生命值的伤害，该效果仅触发一次。\n凶残的机械体，撕裂一切成了成了它行动的唯一驱动力。它游荡在拉海洛的野外，将一切移动的物体视作挑战者，以尾部轰鸣的链锯对目标物进行残忍的处刑。",
+  "DescOpen": "该敌人<color=Fire>热熔伤害</color><color=HighlightB>抗性提高</color>。\n锯袭铁影处于震谐·偏移状态下，被谐度破坏命中时，会额外受到其25%最大生命值的伤害，该效果仅触发一次。\n凶残的机械体，撕裂一切成了它行动的唯一驱动力。它游荡在拉海洛的野外，将一切移动的物体视作挑战者，以尾部轰鸣的链锯对目标物进行残忍的处刑。",
   "Rarity": 2,
   "Element": 2,
   "ElementArray": [
@@ -31,7 +31,12 @@
     "EnergyMax": 10000,
     "WeakTime": 100,
     "Mass": 150,
-    "ParalysisTimeMax": 5000
+    "ParalysisTimeMax": 5000,
+    "WeaknessBuildUp": 0,
+    "WeaknessBuildUpMax": 10000,
+    "WeaknessTotalBonus": 0,
+    "BreakWeaknessRatio": 10000,
+    "WeaknessMastery": 0
   },
   "Stats": {
     "1": {

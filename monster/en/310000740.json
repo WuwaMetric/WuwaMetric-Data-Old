@@ -1,8 +1,8 @@
 {
   "Id": 310000740,
   "Name": "Tremor Warrior",
-  "Desc": "A TD that mimics a drake cub, with sparks of thunder flashing between its claws. Often found living in groups in the wilderness.",
-  "DescOpen": "This enemy has a <color=HighlightB>higher RES</color> to <color=Thunder>Electro DMG</color>.\n\nA TD that mimics a drake cub, with sparks of thunder flashing between its claws. Often found living in groups in the wilderness.\n\nThough small in size, it is fiercely territorial, always ready to drive off invaders with its breath and claws.",
+  "Desc": "A bent-over humanoid Tacet Discord with electric currents coursing through its veins and a whip-like appendage on its head.",
+  "DescOpen": "This enemy has a <color=HighlightB>higher RES</color> to <color=Thunder>Electro DMG</color>.\n\nA bent-over humanoid Tacet Discord with electric currents coursing through its veins and a whip-like appendage on its head.\n\nObservers note that its segmented whip can suddenly release high-voltage electricity. The whip's tip is highly responsive to sensory stimuli, allowing this TD to lock on and restrain targets in the blink of an eye. It primarily attacks with fast-moving claws and sustained whip strikes.",
   "Rarity": 1,
   "Element": 3,
   "ElementArray": [
@@ -31,7 +31,12 @@
     "EnergyMax": 10000,
     "WeakTime": 2500,
     "Mass": 100,
-    "ParalysisTimeMax": 0
+    "ParalysisTimeMax": 0,
+    "WeaknessBuildUp": 0,
+    "WeaknessBuildUpMax": 10000,
+    "WeaknessTotalBonus": 0,
+    "BreakWeaknessRatio": 10000,
+    "WeaknessMastery": 0
   },
   "Stats": {
     "1": {

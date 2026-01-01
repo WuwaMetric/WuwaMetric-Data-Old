@@ -2,7 +2,7 @@
   "Id": 320000540,
   "Name": "Spacetrek Explorer",
   "Desc": "A large, fast-moving mech developed by the Spacetrek Collective for both transport and defense.",
-  "DescOpen": "This enemy has a <color=HighlightB>higher RES</color> to <color=Thunder>Electro DMG</color>.\n\nThe Spacetrek Explorer has sturdy armor and exceptional mobility. It is equipped with an electromagnetic gun and has a shield generator that can extend protection to allies.\n\nHitting Spacetrek Explorer with Tune Break disables its Shield generator, removing its active Shield and preventing new ones from generating.\n\nIn the face of the vast unknown lands in Lahai-Roi, the Spacetrek Collective developed the multi-purpose Spacetrek Explorer to serve in transport, storage, and defense roles. Its wheeled legs and heavy-duty tires allow it to race along vertical surfaces, making it suitable for both urban and off-road terrain. The onboard storage compartments are designed to support long-term scientific expeditions.",
+  "DescOpen": "This enemy has a <color=HighlightB>higher RES</color> to <color=Thunder>Electro DMG</color>.\n\nThe Spacetrek Explorer has sturdy armor and exceptional mobility. It is equipped with an electromagnetic gun and has a shield generator that can extend protection to allies.\n\nHitting Spacetrek Explorer with Tune Break disables its shield generator, removing its active Shield and preventing new ones from generating.\n\nIn the face of the vast unknown lands in Lahai-Roi, the Spacetrek Collective developed the multi-purpose Spacetrek Explorer to serve in transport, storage, and defense roles. Its wheeled legs and heavy-duty tires allow it to race along vertical surfaces, making it suitable for both urban and off-road terrain. The onboard storage compartments are designed to support long-term scientific expeditions.",
   "Rarity": 2,
   "Element": 3,
   "ElementArray": [
@@ -31,7 +31,12 @@
     "EnergyMax": 10000,
     "WeakTime": 100,
     "Mass": 150,
-    "ParalysisTimeMax": 5000
+    "ParalysisTimeMax": 5000,
+    "WeaknessBuildUp": 0,
+    "WeaknessBuildUpMax": 10000,
+    "WeaknessTotalBonus": 0,
+    "BreakWeaknessRatio": 10000,
+    "WeaknessMastery": 0
   },
   "Stats": {
     "1": {

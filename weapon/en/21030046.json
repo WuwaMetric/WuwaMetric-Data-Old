@@ -4,7 +4,7 @@
   "Type": 3,
   "Name": "Spectrum Blaster",
   "Desc": "Prismatic light dances at her fingertips, arcs of color carving radiant trails.\nEvery rushing hue converges upon her aim, and at last, she reaches a sky where nothing lies beyond her sight.",
-  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconWeapon/T_IconWeapon21030036_UI.T_IconWeapon21030036_UI",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconWeapon/T_IconWeapon21030046_UI.T_IconWeapon21030046_UI",
   "Model": "/Game/Aki/Character/Weapon/Gun/R5Gun504/R5Gun504Md20001/Model/R5Gun504Md20001.R5Gun504Md20001",
   "Stats": {
     "0": {
@@ -1366,7 +1366,7 @@
       ]
     }
   },
-  "Effect": "Increases ATK by {0}. Casting Intro Skill or hitting the target with Basic Attack increases the wielder's Basic Attack DMG by {1} for {2}s. Each time the wielder inflicts Tune Rupture: Shifting or Tune Strain: Shifting during Basic Attacks, all DMG dealt by Resonators in the team is increased by {3} for {5}s, up to {4} stacks.",
+  "Effect": "Increases ATK by {0}. Casting Intro Skill or dealing Basic Attack DMG to targets increases the wielder's Basic Attack DMG Bonus by {1} for {2}s. Each time the wielder inflicts Tune Rupture - Shifting or Tune Strain - Shifting during Basic Attacks, all DMG dealt by Resonators in the team is increased by {3} for {5}s, up to {4} stacks. Effects of the same name cannot be stacked.",
   "EffectName": "Attendance Exemption Protocol",
   "Param": [
     [
@@ -1405,11 +1405,11 @@
       "3"
     ],
     [
-      "25",
-      "25",
-      "25",
-      "25",
-      "25"
+      "30",
+      "30",
+      "30",
+      "30",
+      "30"
     ]
   ],
   "Ascensions": {

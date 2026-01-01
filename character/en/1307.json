@@ -16,12 +16,6 @@
       "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/RoleLabel/SP_RoleLabelC7.SP_RoleLabelC7",
       "Color": "ff7777"
     },
-    "22": {
-      "Name": "Resonance Skill DMG Amplification",
-      "Desc": "Provides Resonance Skill DMG Amplification for a specific Resonator in the team",
-      "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/RoleLabel/SP_RoleLabelD9.SP_RoleLabelD9",
-      "Color": "ff7777"
-    },
     "25": {
       "Name": "Electro Flare",
       "Desc": "Utilizes Electro Flare for combat advantage",
@@ -1037,6 +1031,13 @@
       }
     }
   },
+  "StatsWeakness": {
+    "WeaknessBuildUp": 0,
+    "WeaknessBuildUpMax": 10000,
+    "WeaknessTotalBonus": 0,
+    "BreakWeaknessRatio": 10000,
+    "WeaknessMastery": 0
+  },
   "LevelEXP": [
     0,
     400,
@@ -1145,6 +1146,7 @@
       "NodeType": 2,
       "Coordinate": 1,
       "UnLockCondition": 0,
+      "SkillBranchIds": [],
       "Consume": [
         {
           "Key": 43020032,
@@ -1913,7 +1915,8 @@
             "Energy": 53,
             "ElementPower": 167,
             "HardnessLv": 10000,
-            "ToughLv": 2085
+            "ToughLv": 2085,
+            "WeaknessLvl": 1668
           },
           "1307002001": {
             "Element": 3,
@@ -1944,7 +1947,8 @@
             "Energy": 85,
             "ElementPower": 270,
             "HardnessLv": 10000,
-            "ToughLv": 3365
+            "ToughLv": 3365,
+            "WeaknessLvl": 2692
           },
           "1307003003": {
             "Element": 3,
@@ -1975,7 +1979,8 @@
             "Energy": 60,
             "ElementPower": 190,
             "HardnessLv": 10000,
-            "ToughLv": 2365
+            "ToughLv": 2365,
+            "WeaknessLvl": 1892
           },
           "1307003004": {
             "Element": 3,
@@ -2006,7 +2011,8 @@
             "Energy": 60,
             "ElementPower": 190,
             "HardnessLv": 10000,
-            "ToughLv": 7500
+            "ToughLv": 7500,
+            "WeaknessLvl": 1892
           },
           "1307004001": {
             "Element": 3,
@@ -2037,7 +2043,8 @@
             "Energy": 236,
             "ElementPower": 754,
             "HardnessLv": 10000,
-            "ToughLv": 9420
+            "ToughLv": 9420,
+            "WeaknessLvl": 7536
           },
           "1307005002": {
             "Element": 3,
@@ -2068,7 +2075,8 @@
             "Energy": 300,
             "ElementPower": 0,
             "HardnessLv": 10000,
-            "ToughLv": 10000
+            "ToughLv": 10000,
+            "WeaknessLvl": 8000
           },
           "1307005004": {
             "Element": 3,
@@ -2099,7 +2107,8 @@
             "Energy": 300,
             "ElementPower": 0,
             "HardnessLv": 10000,
-            "ToughLv": 10000
+            "ToughLv": 10000,
+            "WeaknessLvl": 8000
           },
           "1307001101": {
             "Element": 3,
@@ -2130,7 +2139,8 @@
             "Energy": 124,
             "ElementPower": 496,
             "HardnessLv": 10000,
-            "ToughLv": 6200
+            "ToughLv": 6200,
+            "WeaknessLvl": 4960
           },
           "1307001102": {
             "Element": 3,
@@ -2161,7 +2171,8 @@
             "Energy": 0,
             "ElementPower": 0,
             "HardnessLv": 10000,
-            "ToughLv": 0
+            "ToughLv": 0,
+            "WeaknessLvl": 0
           },
           "1307012001": {
             "Element": 0,
@@ -2192,7 +2203,8 @@
             "Energy": 0,
             "ElementPower": 0,
             "HardnessLv": 0,
-            "ToughLv": 0
+            "ToughLv": 0,
+            "WeaknessLvl": 0
           },
           "1307013001": {
             "Element": 0,
@@ -2223,7 +2235,8 @@
             "Energy": 0,
             "ElementPower": 0,
             "HardnessLv": 0,
-            "ToughLv": 0
+            "ToughLv": 0,
+            "WeaknessLvl": 0
           },
           "1307015001": {
             "Element": 0,
@@ -2235,7 +2248,8 @@
             "Energy": 0,
             "ElementPower": 0,
             "HardnessLv": 0,
-            "ToughLv": 0
+            "ToughLv": 0,
+            "WeaknessLvl": 0
           }
         }
       }
@@ -2245,6 +2259,7 @@
       "NodeType": 2,
       "Coordinate": 2,
       "UnLockCondition": 0,
+      "SkillBranchIds": [],
       "Consume": [
         {
           "Key": 43020032,
@@ -2556,7 +2571,8 @@
             "Energy": 750,
             "ElementPower": 0,
             "HardnessLv": 10000,
-            "ToughLv": 10000
+            "ToughLv": 10000,
+            "WeaknessLvl": 3916
           },
           "1307005021": {
             "Element": 3,
@@ -2587,7 +2603,8 @@
             "Energy": 75,
             "ElementPower": 0,
             "HardnessLv": 10000,
-            "ToughLv": 1000
+            "ToughLv": 1000,
+            "WeaknessLvl": 392
           }
         }
       }
@@ -2597,6 +2614,7 @@
       "NodeType": 2,
       "Coordinate": 3,
       "UnLockCondition": 0,
+      "SkillBranchIds": [],
       "Consume": [
         {
           "Key": 43020032,
@@ -2908,7 +2926,8 @@
             "Energy": 0,
             "ElementPower": 0,
             "HardnessLv": 10000,
-            "ToughLv": 40000
+            "ToughLv": 40000,
+            "WeaknessLvl": 36000
           }
         }
       }
@@ -2920,6 +2939,7 @@
       "NodeType": 3,
       "Coordinate": 2,
       "UnLockCondition": 0,
+      "SkillBranchIds": [],
       "Consume": [
         {
           "Key": 43020032,
@@ -2976,6 +2996,7 @@
       "NodeType": 3,
       "Coordinate": 3,
       "UnLockCondition": 0,
+      "SkillBranchIds": [],
       "Consume": [
         {
           "Key": 43020032,
@@ -3032,6 +3053,7 @@
       "NodeType": 2,
       "Coordinate": 4,
       "UnLockCondition": 0,
+      "SkillBranchIds": [],
       "Consume": [
         {
           "Key": 43020032,
@@ -3315,7 +3337,8 @@
             "Energy": 0,
             "ElementPower": 0,
             "HardnessLv": 10000,
-            "ToughLv": 10990
+            "ToughLv": 10990,
+            "WeaknessLvl": 8792
           },
           "1307014001": {
             "Element": 0,
@@ -3346,7 +3369,8 @@
             "Energy": 0,
             "ElementPower": 0,
             "HardnessLv": 0,
-            "ToughLv": 0
+            "ToughLv": 0,
+            "WeaknessLvl": 0
           }
         }
       }
@@ -3356,6 +3380,7 @@
       "NodeType": 1,
       "Coordinate": 1,
       "UnLockCondition": 0,
+      "SkillBranchIds": [],
       "Consume": [
         {
           "Key": 43020032,
@@ -3617,7 +3642,8 @@
             "Energy": 0,
             "ElementPower": 0,
             "HardnessLv": 10000,
-            "ToughLv": 40000
+            "ToughLv": 40000,
+            "WeaknessLvl": 72000
           },
           "1307019002": {
             "Element": 3,
@@ -3648,7 +3674,8 @@
             "Energy": 0,
             "ElementPower": 0,
             "HardnessLv": 10000,
-            "ToughLv": 5000
+            "ToughLv": 5000,
+            "WeaknessLvl": 0
           },
           "1307011001": {
             "Element": 0,
@@ -3660,7 +3687,8 @@
             "Energy": 0,
             "ElementPower": 0,
             "HardnessLv": 0,
-            "ToughLv": 0
+            "ToughLv": 0,
+            "WeaknessLvl": 0
           }
         }
       }
@@ -3670,6 +3698,7 @@
       "NodeType": 3,
       "Coordinate": 1,
       "UnLockCondition": 0,
+      "SkillBranchIds": [],
       "Consume": [
         {
           "Key": 43020032,
@@ -3716,6 +3745,7 @@
       "NodeType": 4,
       "Coordinate": 1,
       "UnLockCondition": 500006,
+      "SkillBranchIds": [],
       "Consume": [
         {
           "Key": 43020033,
@@ -3746,6 +3776,7 @@
       "NodeType": 4,
       "Coordinate": 1,
       "UnLockCondition": 500005,
+      "SkillBranchIds": [],
       "Consume": [
         {
           "Key": 43020033,
@@ -3776,6 +3807,7 @@
       "NodeType": 4,
       "Coordinate": 1,
       "UnLockCondition": 500005,
+      "SkillBranchIds": [],
       "Consume": [
         {
           "Key": 43020033,
@@ -3806,6 +3838,7 @@
       "NodeType": 4,
       "Coordinate": 1,
       "UnLockCondition": 500006,
+      "SkillBranchIds": [],
       "Consume": [
         {
           "Key": 43020033,
@@ -3836,6 +3869,7 @@
       "NodeType": 4,
       "Coordinate": 2,
       "UnLockCondition": 500008,
+      "SkillBranchIds": [],
       "Consume": [
         {
           "Key": 43020034,
@@ -3870,6 +3904,7 @@
       "NodeType": 4,
       "Coordinate": 2,
       "UnLockCondition": 500007,
+      "SkillBranchIds": [],
       "Consume": [
         {
           "Key": 43020034,
@@ -3904,6 +3939,7 @@
       "NodeType": 4,
       "Coordinate": 2,
       "UnLockCondition": 500007,
+      "SkillBranchIds": [],
       "Consume": [
         {
           "Key": 43020034,
@@ -3938,6 +3974,7 @@
       "NodeType": 4,
       "Coordinate": 2,
       "UnLockCondition": 500008,
+      "SkillBranchIds": [],
       "Consume": [
         {
           "Key": 43020034,
@@ -3970,6 +4007,7 @@
       "NodeType": 5,
       "Coordinate": 1,
       "UnLockCondition": 0,
+      "SkillBranchIds": [],
       "Consume": [
         {
           "Key": 43020032,
@@ -3986,9 +4024,9 @@
       ],
       "Skill": {
         "Name": "Tune Break: Rectifier",
-        "Desc": "When the target's <color=Highlight>Off-Tune Level</color> is full. Deal <color=Highlight><te href=100001>Tune Break</te></color> DMG.",
+        "Desc": "When the target's <color=Highlight>Off-Tune Level</color> is full, the Resonator may cast <color=Highlight><te href=100001>Tune Break</te></color> on the target.",
         "Param": [],
-        "SimpleDesc": "When the target's <color=Highlight>Off-Tune Level</color> is full",
+        "SimpleDesc": "When the target's <color=Highlight>Off-Tune Level</color> is full, the Resonator may cast <color=Highlight><te href=100001>Tune Break</te></color> on the target.",
         "SimpleParam": [],
         "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconWeakPointBreakMagic.SP_IconWeakPointBreakMagic",
         "Type": "Tune Break",
@@ -4000,6 +4038,7 @@
       }
     }
   },
+  "SkillBranches": {},
   "Chains": {
     "1": {
       "Name": "Exorcist Gadgets, Lend Me Your Power",
@@ -4175,6 +4214,56 @@
     "SkillInputList": {},
     "Icon": "",
     "DescList": []
+  },
+  "ForteNew": {
+    "Features": [
+      "Heal and grant DMG Bonus to Resonators in the team.",
+      "Resonance Liberation continuously stacks Electro Flare on the target.",
+      "When Resonance Liberation is active, any Resonator in the team casting Intro Skill grants DMG Buffs to Resonators in the team."
+    ],
+    "Instructions": {
+      "130701": {
+        "Name": "Forte Gauge",
+        "Desc": {
+          "130710": {
+            "Desc": "Trigram - Mountain is obtained when <color=Highlight>Basic Attack Stage 2</color> deals damage. Trigram - Thunder is obtained when <color=Highlight>Basic Attack Stage 4</color> or <color=Highlight>Mid-air Attack</color> deals damage or <color=Highlight>Resonance Skill</color> is cast.",
+            "InputList": [],
+            "ImageList": [
+              "/Game/Aki/UI/UIResources/UiRole/Image/T_RoleSkillTreeBuling.T_RoleSkillTreeBuling"
+            ]
+          },
+          "130711": {
+            "Desc": "Special Heavy Attacks can be cast at the cost of Trigram - Mountain and Trigram - Thunder. Different Trigram sequences and combinations trigger different types of Heavy Attacks that grant either Minor Yin or Minor Yang.",
+            "InputList": [],
+            "ImageList": []
+          },
+          "130712": {
+            "Desc": "When Buling has both Minor Yin and Minor Yang, her <color=Highlight>Resonance Liberation - Flashing Thunder Spell</color> is replaced with <color=Highlight>Resonance Liberation - Flashing Thunder Spell: Harmony</color>. Casting the skill generates a <color=Highlight>Five Thunders Spell Array</color> that continuously inflicts <color=Highlight>Electro Flare</color> on the targets.",
+            "InputList": [],
+            "ImageList": []
+          },
+          "130713": {
+            "Desc": "While <color=Highlight>Five Thunders Spell Array</color> is active, when any Resonator in the team casts <color=Highlight>Intro Skill</color>, the active Resonator in the team gains a DMG Buff.",
+            "InputList": [],
+            "ImageList": []
+          }
+        },
+        "Type": 0
+      },
+      "130702": {
+        "Name": "Instructions",
+        "Desc": {
+          "130701": {
+            "Desc": "<color=Highlight>{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press}</color> {0} shortly after casting <color=Highlight>Resonance Skill</color> to perform Basic Attack Stage 4 and obtain Trigram - Thunder.",
+            "InputList": [
+              "攻击"
+            ],
+            "ImageList": []
+          }
+        },
+        "Type": 1
+      }
+    }
   },
   "Live2d": "",
   "Audio": "buling",

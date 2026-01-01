@@ -1,8 +1,8 @@
 {
   "Id": 310000740,
   "Name": "颤栗战士",
-  "Desc": "雏形的拟态翼龙残象，鳞爪间游离着轰鸣雷霆，多以群居的形式活跃于野外。",
-  "DescOpen": "该敌人<color=Thunder>导电伤害</color><color=HighlightB>抗性提高</color>。\n雏形的拟态翼龙残象，鳞爪间游离着轰鸣雷霆，多以群居的形式活跃于野外。\n拥有着与身形不相匹配的领地意识，利用吐息与撕咬进行攻击，在将擅闯者驱离前绝不善罢甘休。",
+  "Desc": "头部生有节状鞭索的类人残象，躯干佝偻，肌理之下有电流涌动。",
+  "DescOpen": "该敌人<color=Thunder>导电伤害</color><color=HighlightB>抗性提高</color>。\n头部生有节状鞭索的类人残象，躯干佝偻，肌理之下有电流涌动。\n经观测，这些鞭节能够瞬时释放高压电流，鞭首末端具感知与反应能力，可在极短时间内捕捉并锁定目标，其主要攻击模式为高速爪击与连续鞭刺。",
   "Rarity": 1,
   "Element": 3,
   "ElementArray": [
@@ -31,7 +31,12 @@
     "EnergyMax": 10000,
     "WeakTime": 2500,
     "Mass": 100,
-    "ParalysisTimeMax": 0
+    "ParalysisTimeMax": 0,
+    "WeaknessBuildUp": 0,
+    "WeaknessBuildUpMax": 10000,
+    "WeaknessTotalBonus": 0,
+    "BreakWeaknessRatio": 10000,
+    "WeaknessMastery": 0
   },
   "Stats": {
     "1": {

@@ -1,8 +1,8 @@
 {
   "Id": 310000740,
   "Name": "戦慄の戦士",
-  "Desc": "ドレイクの幼体に擬態した残像。爪や鱗の間には、轟く雷が走っており、野外では群れを成して生活している。",
-  "DescOpen": "この敵は<color=Thunder>電導ダメージ</color>の<color=HighlightB>耐性が高い</color>。\nドレイクの幼体に擬態した残像。爪や鱗の間には、轟く雷が走っており、野外では群れを成して生活している。\nその小さな体格とは裏腹に、強い縄張り意識を持ち、吐息や噛みつきで攻撃し、侵入者を追い払うまで決して諦めない。",
+  "Desc": "頭部から節状の鞭のようなものを生やした人型の残像。背中が曲がっており、肌の下には電流が流れている。",
+  "DescOpen": "この敵は<color=Thunder>電導ダメージ</color>の<color=HighlightB>耐性が高い</color>。\n頭部から節状の鞭のようなものを生やした人型の残像。背中が曲がっており、肌の下に電流が流れている。\n観察の結果、これらの鞭は瞬時に高圧電流を放つことができ、先端には感知機能が備わっており、極めて短時間で目標を捕捉可能。主な攻撃パターンは爪による高速攻撃や、鞭によって連続で繰り出される刺突攻撃である。",
   "Rarity": 1,
   "Element": 3,
   "ElementArray": [
@@ -31,7 +31,12 @@
     "EnergyMax": 10000,
     "WeakTime": 2500,
     "Mass": 100,
-    "ParalysisTimeMax": 0
+    "ParalysisTimeMax": 0,
+    "WeaknessBuildUp": 0,
+    "WeaknessBuildUpMax": 10000,
+    "WeaknessTotalBonus": 0,
+    "BreakWeaknessRatio": 10000,
+    "WeaknessMastery": 0
   },
   "Stats": {
     "1": {

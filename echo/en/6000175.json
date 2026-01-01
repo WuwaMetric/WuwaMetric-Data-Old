@@ -1,6 +1,6 @@
 {
   "Id": 6000175,
-  "Code": "T01-",
+  "Code": "R10-",
   "Name": "Flora Drone",
   "Type": "",
   "Intensity": "",
@@ -57,7 +57,8 @@
         "Energy": 45,
         "ElementPower": 0,
         "HardnessLv": 10000,
-        "ToughLv": 3600
+        "ToughLv": 3600,
+        "WeaknessLvl": 0
       },
       "20012602": {
         "Element": 0,
@@ -73,7 +74,8 @@
         "Energy": 0,
         "ElementPower": 0,
         "HardnessLv": 0,
-        "ToughLv": 0
+        "ToughLv": 0,
+        "WeaknessLvl": 0
       }
     }
   },
@@ -91,7 +93,7 @@
           ]
         },
         "5": {
-          "Desc": "Casting Outro Skill increases the ATK of the incoming Resonator by {0}, with each point of Tune Break Boost additionally increasing ATK by {1}, up to {2}. This effect lasts for {3}s, or until the Resonator is switched out.",
+          "Desc": "Casting Outro Skill increases the ATK of the incoming Resonator who casts Intro Skill by {0}. Each point of Tune Break Boost the incoming Resonator has additionally increases their ATK by {1}, up to {2}. This effect lasts for {3}s, or until the Resonator is switched out.",
           "Param": [
             "15%",
             "0.3%",

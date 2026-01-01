@@ -1,14 +1,14 @@
 {
   "Id": 6000179,
-  "Code": "T01-",
+  "Code": "R57-",
   "Name": "Twin Nova: Nebulous Cannon",
   "Type": "",
   "Intensity": "",
   "Place": "",
   "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_32049_UI.T_IconMonsterHead_32049_UI",
   "Skill": {
-    "Desc": "Transform into a Twin Nova: Nebulous Cannon to slash enemies twice, with each attack dealing {0} Spectro DMG.\n\nThe Resonator with this Echo equipped in the main slot gains {6} Spectro DMG Bonus and {7} Basic Attack DMG Bonus.\n\nCD: {11}s.\n\nIf Twin Nova: Collapsar Blade is equipped in another slot on the Resonator:\n- Casting Echo Skill unleashes both Nebulous Cannon and Collapsar Blade skills in quick succession, but the DMG Bonus from the Echo in the main slot remains unchanged.\n- DMG dealt by Twin Nova: Collapsar Blade becomes Spectro DMG.\n- Casting Basic Attacks grants <SapTag=1>{1}</SapTag> {Cus:Sap,S=stack P=stacks SapTag=1} of Dyad Origins. Casting Resonance Skill grants <SapTag=2>{2}</SapTag> {Cus:Sap,S=stack P=stacks SapTag=2} of Dyad Origins. Dyad Origins can stack up to {3} times and lasts for {4}s. Each stack increases Echo Skill DMG by {5}, and all stacks are cleared after this Echo Skill ends.\n-This skill is capped at {10} uses. Initially, this skill can be used {8} times, with 1 use added every {9}s.",
-    "SimpleDesc": "Transform into Twin Nova: Nebulous Cannon to launch slashes at enemies, dealing Spectro DMG.\n\nThe Resonator with this Echo equipped in the main slot gains Spectro and Basic Attack Bonuses.\n\nEquipping Twin Nova: Collapsar Blade at the same time grants special Echo Skill effects.",
+    "Desc": "Transform into a Twin Nova: Nebulous Cannon to slash enemies twice, with each attack dealing {0} Spectro DMG.\n\nThe Resonator with this Echo equipped in the main slot gains {6} Spectro DMG Bonus and {7} Basic Attack DMG Bonus.\n\nCD: {11}s.\n\nIf Twin Nova: Collapsar Blade is equipped in another slot on the Resonator:\n- Casting Echo Skill in succession transforms you into Nebulous Cannon and Collapsar Blade alternately and is considered casting Echo skills of the same name. The DMG Bonus from the Echo in the main slot remains unchanged.\n- DMG dealt by Twin Nova: Collapsar Blade becomes Spectro DMG.\n- Casting Basic Attacks grants <SapTag=1>{1}</SapTag> {Cus:Sap,S=stack P=stacks SapTag=1} of Dyad Origins. Casting Resonance Skill grants <SapTag=2>{2}</SapTag> {Cus:Sap,S=stack P=stacks SapTag=2} of Dyad Origins. Dyad Origins can stack up to {3} times and lasts for {4}s. Each stack increases Echo Skill DMG by {5}, and all stacks are cleared after this Echo Skill ends.\n-This skill is capped at {10} uses. Initially, this skill can be used {8} times, with 1 use added every {9}s.",
+    "SimpleDesc": "Transform into a Twin Nova: Nebulous Cannon to launch slashes at enemies, dealing Spectro DMG.\n\nThe Resonator with this Echo equipped in the main slot gains Spectro and Basic Attack Bonuses.\n\nEquipping Twin Nova: Collapsar Blade at the same time grants special Echo Skill effects.",
     "Param": [
       [
         "44.73%",
@@ -97,7 +97,8 @@
         "Energy": 55,
         "ElementPower": 0,
         "HardnessLv": 10000,
-        "ToughLv": 4473
+        "ToughLv": 4473,
+        "WeaknessLvl": 0
       }
     }
   },

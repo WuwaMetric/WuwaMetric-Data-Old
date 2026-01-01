@@ -2,7 +2,7 @@
   "Id": 320000550,
   "Name": "세이버캣 리버",
   "Desc": "흉악한 기계체, 움직을 수 있는 모든 물체를 도전자로 여기고 아주 강한 공격성을 가지고 있다",
-  "DescOpen": "해당 적은 <color=Fire>용융 피해</color> <color=HighlightB>저항이 증가한다</color>.\n세이버캣 리버가 조화 파동 · 이탈 상태에서 조화도 파괴에 명중 시, 추가로 최대 HP의 25%에 해당하는 피해를 받으며, 해당 효과는 1회만 발동된다.\n흉악한 기계체, 그것을 행동하게 하는 유일한 구동력은 모든 것을 찢어버리는 것이다. 그것은 라하이 로이의 야외에서 돌아다니며 움직을 수 있는 모든 물체를 도전자로 여기고 꼬리에 달린 윙윙거리는 체인 소로 목표에게 잔혹한 처형을 가한다",
+  "DescOpen": "해당 적은 <color=Fire>용융 피해</color> <color=HighlightB>저항이 증가한다</color>.\n세이버캣 리버가 조화 파동 · 이탈 상태에서 조화도 파괴에 명중 시, 추가로 HP 최대치의 25%에 해당하는 피해를 받으며, 해당 효과는 1회만 발동된다.\n흉악한 기계체, 그것을 행동하게 하는 유일한 구동력은 모든 것을 찢어버리는 것이다. 그것은 라하이 로이의 야외에서 돌아다니며 움직을 수 있는 모든 물체를 도전자로 여기고 꼬리에 달린 윙윙거리는 체인 소로 목표에게 잔혹한 처형을 가한다",
   "Rarity": 2,
   "Element": 2,
   "ElementArray": [
@@ -31,7 +31,12 @@
     "EnergyMax": 10000,
     "WeakTime": 100,
     "Mass": 150,
-    "ParalysisTimeMax": 5000
+    "ParalysisTimeMax": 5000,
+    "WeaknessBuildUp": 0,
+    "WeaknessBuildUpMax": 10000,
+    "WeaknessTotalBonus": 0,
+    "BreakWeaknessRatio": 10000,
+    "WeaknessMastery": 0
   },
   "Stats": {
     "1": {

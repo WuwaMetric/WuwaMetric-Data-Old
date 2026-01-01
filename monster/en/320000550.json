@@ -2,7 +2,7 @@
   "Id": 320000550,
   "Name": "Sabercat Reaver",
   "Desc": "A highly aggressive predatory machine that prowls the wilderness of Lahai-Roi, hunting any sign of movement.",
-  "DescOpen": "This enemy has a <color=HighlightB>higher RES</color> to <color=Fire>Fusion DMG</color>.\n\nWhen Sabercat Reaver is under Tune Rupture: Shifting and hit by Tune Break, it takes additional DMG equal to 25% of its Max HP, triggered only once.\n\nThis predatory machine has a single purpose: to shred everything in its path. It prowls the wilderness of Lahai-Roi, hunting any sign of movement. With the relentless buzz of its tail-mounted chainsaw, it seeks to execute its targets with cruel efficiency.",
+  "DescOpen": "This enemy has a <color=HighlightB>higher RES</color> to <color=Fire>Fusion DMG</color>.\n\nWhen Sabercat Reaver is under Tune Rupture - Shifting and hit by Tune Break, it takes additional DMG equal to 25% of its Max HP, triggered only once.\n\nThis predatory machine has a single purpose: to shred everything in its path. It prowls the wilderness of Lahai-Roi, hunting any sign of movement. With the relentless buzz of its tail-mounted chainsaw, it seeks to execute its targets with cruel efficiency.",
   "Rarity": 2,
   "Element": 2,
   "ElementArray": [
@@ -31,7 +31,12 @@
     "EnergyMax": 10000,
     "WeakTime": 100,
     "Mass": 150,
-    "ParalysisTimeMax": 5000
+    "ParalysisTimeMax": 5000,
+    "WeaknessBuildUp": 0,
+    "WeaknessBuildUpMax": 10000,
+    "WeaknessTotalBonus": 0,
+    "BreakWeaknessRatio": 10000,
+    "WeaknessMastery": 0
   },
   "Stats": {
     "1": {

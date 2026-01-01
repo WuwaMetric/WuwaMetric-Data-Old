@@ -1,8 +1,8 @@
 {
   "Id": 310000740,
   "Name": "전율하는 전사",
-  "Desc": "어린 드레이크 형태의 잔상, 발톱 사이엔 세찬 천둥소리가 돌고 있으며 군집의 형식으로 야외에서 활약한다.",
-  "DescOpen": "해당 적은 <color=Thunder>전도 피해</color> <color=HighlightB>저항이 증가한다</color>. \n어린 드레이크 형태의 잔상, 발톱 사이엔 세찬 천둥소리가 돌고 있으며 군집의 형식으로 야외에서 활약한다.\n몸집의 크기와는 달리 영역 본능을 갖고 있고 숨결을 내쉬고 물어뜯기로 공격을 하며 무단 침입자를 쫓아내기 전에 절대 가만있지 않는다",
+  "Desc": "머리에 채찍이 자라난 인간형 잔상. 구부정한 몸에 살결 아래에는 전류가 흐르고 있다",
+  "DescOpen": "해당 적은 <color=Thunder>전도 피해</color> <color=HighlightB>저항이 증가한다</color>.\n머리에 채찍이 자라난 인간형 잔상. 구부정한 몸에 살결 아래에는 전류가 흐르고 있다.\n관측에 따르면, 이 채찍은 순식간에 고압 전류를 방출할 수 있으며, 채찍의 시작과 끝부분은 감지와 반응 능력을 갖추고 있어 극히 짧은 시간 안에 목표를 포착하고 조준할 수 있다고 한다. 그의 주요 공격 방식은 고속의 발톱 공격과 채찍을 이용한 연속 찌르기 공격이다",
   "Rarity": 1,
   "Element": 3,
   "ElementArray": [
@@ -31,7 +31,12 @@
     "EnergyMax": 10000,
     "WeakTime": 2500,
     "Mass": 100,
-    "ParalysisTimeMax": 0
+    "ParalysisTimeMax": 0,
+    "WeaknessBuildUp": 0,
+    "WeaknessBuildUpMax": 10000,
+    "WeaknessTotalBonus": 0,
+    "BreakWeaknessRatio": 10000,
+    "WeaknessMastery": 0
   },
   "Stats": {
     "1": {

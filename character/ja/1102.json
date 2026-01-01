@@ -31,7 +31,7 @@
     "Info": "<te href=850091>今州</te>辺庭所属の<te href=850124>令尹近衛</te>。災厄をもたらす修羅だった散華は、残虐の風雪を力と化し、寡黙な守護者になった。",
     "TalentName": "舞い散る雪華",
     "TalentDoc": "測定材料：【周波数スペクトル報告RA2105-G】\n先天性視覚障害者。海蝕現象に遭遇したことにより、降雪と共に現れた「<te href=850081>残像</te>」に右目が侵蝕され、異常視界を得たと同時に異能力に目覚めた。\n音痕が右目瞳孔にあり、共鳴能力を発動すると顕現する。\n共鳴後、右目音痕辺りから強い不安定周波数を発するようになり、その影響で左目が灰色から赤色に変異した。\n雪を操る共鳴能力を有しており、その力は精神力に影響される。\nさらに異変による異常視界で周波数を「観測」できることが確認された。共鳴周波数スペクトルは「風」や「雪」など現存の気象と近い。また瞳孔部位のみ「<te href=850081>残像</te>」のものと近い。両方に強い反応をしたため、共鳴源の完全特定は不可。<te href=850067>ラベル曲線</te>に収束がなく、中段では急上昇を見せたため、<te href=850069>突然変異型共鳴者</te>と認定する。",
-    "TalentCertification": "<te href=850073>オーバークロック</te>診断報告波形は楕円状、時間領域表示は安定。異常波形なし。\n診断結果：安定性が高いが、<te href=850073>オーバークロック</te>域が狭い。\n<te href=850073>オーバークロック</te>歴あり。最高レベル：中。\n<te href=850073>オーバークロック</te>時、周波数反応が極めて強くなり、制御不能レベルのエネルギー漏洩が発生。\nかつて野外区域で強い雪を引き起こした。人員損失はなし。レベル３事件としてEX01521に収録した。\n異能力の現状と<te href=850073>オーバークロック</te>歴に基づいた<te href=850073>オーバークロック</te>可能性は「高い」。心理・生理健康に留意し、定期検診及びメンタルケアを推奨する。",
+    "TalentCertification": "波形は楕円状、時間領域表示は安定。異常波形なし。検査結果：正常、<te href=850073>オーバークロック</te>のリスクあり。\n診断結果：安定性が高いが、<te href=850073>オーバークロック</te>域が狭い。<te href=850073>オーバークロック</te>可能性は「やや高い」。\n<te href=850073>オーバークロック</te>歴あり。最高レベル：中。\n被検体は長期的に臨界値まで<te href=850073>オーバークロック</te>する傾向にあるため、数回レベル2オレンジ警報を発令させた吹雪を引き起こしたことがある。<te href=850073>オーバークロック</te>時、周波数反応が極めて強くなり、制御不能レベルのエネルギー漏洩が発生。かつて野外区域で強い雪を引き起こしただが、死傷者はないため、レベル3事件としてEX01521に収録した。\n診断でエネルギー漏洩は<te href=850081>残像</te>周波数の侵食に起因することが判明した。それは侵食が被検体の知覚をかく乱させ、周波数反応を引き起こしたからである。<te href=850073>オーバークロック</te>の後遺症として、周波数の侵食反応が悪化し、左の瞳孔が元の灰色から赤色に変異した。\n異能力と<te href=850073>オーバークロック</te>歴から判断すると、被検体は<te href=850073>オーバークロック</te>によるリスクがあり、彼女の心理と生理的健康に細心の注意を払い、定期検診と心理カウンセリングを行うことを推奨する。",
     "CVNameCn": "Song Yuanyuan",
     "CVNameJp": "松田利冴",
     "CVNameKo": "Yu Yeong",
@@ -935,6 +935,13 @@
       }
     }
   },
+  "StatsWeakness": {
+    "WeaknessBuildUp": 0,
+    "WeaknessBuildUpMax": 10000,
+    "WeaknessTotalBonus": 0,
+    "BreakWeaknessRatio": 10000,
+    "WeaknessMastery": 0
+  },
   "LevelEXP": [
     0,
     400,
@@ -1043,6 +1050,7 @@
       "NodeType": 2,
       "Coordinate": 1,
       "UnLockCondition": 0,
+      "SkillBranchIds": [],
       "Consume": [
         {
           "Key": 43020032,
@@ -1518,7 +1526,8 @@
             "Energy": 87,
             "ElementPower": 200,
             "HardnessLv": 10000,
-            "ToughLv": 3500
+            "ToughLv": 3500,
+            "WeaknessLvl": 2800
           },
           "1102002001": {
             "Element": 1,
@@ -1549,7 +1558,8 @@
             "Energy": 132,
             "ElementPower": 400,
             "HardnessLv": 10000,
-            "ToughLv": 5300
+            "ToughLv": 5300,
+            "WeaknessLvl": 4240
           },
           "1102003001": {
             "Element": 1,
@@ -1580,7 +1590,8 @@
             "Energy": 38,
             "ElementPower": 200,
             "HardnessLv": 10000,
-            "ToughLv": 1550
+            "ToughLv": 1550,
+            "WeaknessLvl": 1240
           },
           "1102004001": {
             "Element": 1,
@@ -1611,7 +1622,8 @@
             "Energy": 71,
             "ElementPower": 400,
             "HardnessLv": 10000,
-            "ToughLv": 2850
+            "ToughLv": 2850,
+            "WeaknessLvl": 2280
           },
           "1102004002": {
             "Element": 1,
@@ -1642,7 +1654,8 @@
             "Energy": 71,
             "ElementPower": 400,
             "HardnessLv": 10000,
-            "ToughLv": 2850
+            "ToughLv": 2850,
+            "WeaknessLvl": 2280
           },
           "1102005002": {
             "Element": 1,
@@ -1673,7 +1686,8 @@
             "Energy": 420,
             "ElementPower": 1000,
             "HardnessLv": 10000,
-            "ToughLv": 16800
+            "ToughLv": 16800,
+            "WeaknessLvl": 13440
           },
           "1102007001": {
             "Element": 1,
@@ -1704,7 +1718,8 @@
             "Energy": 51,
             "ElementPower": 100,
             "HardnessLv": 10000,
-            "ToughLv": 6200
+            "ToughLv": 6200,
+            "WeaknessLvl": 9520
           },
           "1102009001": {
             "Element": 1,
@@ -1735,7 +1750,8 @@
             "Energy": 300,
             "ElementPower": 600,
             "HardnessLv": 10000,
-            "ToughLv": 15000
+            "ToughLv": 15000,
+            "WeaknessLvl": 9600
           },
           "1102010001": {
             "Element": 1,
@@ -1766,7 +1782,8 @@
             "Energy": 40,
             "ElementPower": 160,
             "HardnessLv": 10000,
-            "ToughLv": 1600
+            "ToughLv": 1600,
+            "WeaknessLvl": 1600
           }
         }
       }
@@ -1776,6 +1793,7 @@
       "NodeType": 2,
       "Coordinate": 2,
       "UnLockCondition": 0,
+      "SkillBranchIds": [],
       "Consume": [
         {
           "Key": 43020032,
@@ -2059,7 +2077,8 @@
             "Energy": 1000,
             "ElementPower": 0,
             "HardnessLv": 10000,
-            "ToughLv": 10000
+            "ToughLv": 10000,
+            "WeaknessLvl": 8000
           }
         }
       }
@@ -2069,6 +2088,7 @@
       "NodeType": 2,
       "Coordinate": 3,
       "UnLockCondition": 0,
+      "SkillBranchIds": [],
       "Consume": [
         {
           "Key": 43020032,
@@ -2380,7 +2400,8 @@
             "Energy": 0,
             "ElementPower": 0,
             "HardnessLv": 10000,
-            "ToughLv": 30000
+            "ToughLv": 30000,
+            "WeaknessLvl": 61440
           }
         }
       }
@@ -2392,6 +2413,7 @@
       "NodeType": 3,
       "Coordinate": 2,
       "UnLockCondition": 0,
+      "SkillBranchIds": [],
       "Consume": [
         {
           "Key": 43020032,
@@ -2451,6 +2473,7 @@
       "NodeType": 3,
       "Coordinate": 3,
       "UnLockCondition": 0,
+      "SkillBranchIds": [],
       "Consume": [
         {
           "Key": 43020032,
@@ -2508,6 +2531,7 @@
       "NodeType": 2,
       "Coordinate": 4,
       "UnLockCondition": 0,
+      "SkillBranchIds": [],
       "Consume": [
         {
           "Key": 43020032,
@@ -2761,7 +2785,8 @@
             "Energy": 1000,
             "ElementPower": 0,
             "HardnessLv": 10000,
-            "ToughLv": 8000
+            "ToughLv": 8000,
+            "WeaknessLvl": 7304
           }
         }
       }
@@ -2771,6 +2796,7 @@
       "NodeType": 1,
       "Coordinate": 1,
       "UnLockCondition": 0,
+      "SkillBranchIds": [],
       "Consume": [
         {
           "Key": 43020032,
@@ -3280,7 +3306,8 @@
             "Energy": 234,
             "ElementPower": 750,
             "HardnessLv": 10000,
-            "ToughLv": 9370
+            "ToughLv": 9370,
+            "WeaknessLvl": 7496
           },
           "1102020003": {
             "Element": 1,
@@ -3311,7 +3338,8 @@
             "Energy": 700,
             "ElementPower": 0,
             "HardnessLv": 10000,
-            "ToughLv": 10000
+            "ToughLv": 10000,
+            "WeaknessLvl": 0
           },
           "1102030010": {
             "Element": 1,
@@ -3342,7 +3370,8 @@
             "Energy": 700,
             "ElementPower": 0,
             "HardnessLv": 10000,
-            "ToughLv": 10000
+            "ToughLv": 10000,
+            "WeaknessLvl": 0
           },
           "1102040003": {
             "Element": 1,
@@ -3373,7 +3402,8 @@
             "Energy": 200,
             "ElementPower": 0,
             "HardnessLv": 10000,
-            "ToughLv": 8000
+            "ToughLv": 8000,
+            "WeaknessLvl": 0
           }
         }
       }
@@ -3383,6 +3413,7 @@
       "NodeType": 3,
       "Coordinate": 1,
       "UnLockCondition": 0,
+      "SkillBranchIds": [],
       "Consume": [
         {
           "Key": 43020032,
@@ -3425,6 +3456,7 @@
       "NodeType": 4,
       "Coordinate": 1,
       "UnLockCondition": 500006,
+      "SkillBranchIds": [],
       "Consume": [
         {
           "Key": 43020013,
@@ -3455,6 +3487,7 @@
       "NodeType": 4,
       "Coordinate": 1,
       "UnLockCondition": 500005,
+      "SkillBranchIds": [],
       "Consume": [
         {
           "Key": 43020013,
@@ -3485,6 +3518,7 @@
       "NodeType": 4,
       "Coordinate": 1,
       "UnLockCondition": 500005,
+      "SkillBranchIds": [],
       "Consume": [
         {
           "Key": 43020013,
@@ -3515,6 +3549,7 @@
       "NodeType": 4,
       "Coordinate": 1,
       "UnLockCondition": 500006,
+      "SkillBranchIds": [],
       "Consume": [
         {
           "Key": 43020013,
@@ -3545,6 +3580,7 @@
       "NodeType": 4,
       "Coordinate": 2,
       "UnLockCondition": 500008,
+      "SkillBranchIds": [],
       "Consume": [
         {
           "Key": 43020014,
@@ -3579,6 +3615,7 @@
       "NodeType": 4,
       "Coordinate": 2,
       "UnLockCondition": 500007,
+      "SkillBranchIds": [],
       "Consume": [
         {
           "Key": 43020014,
@@ -3613,6 +3650,7 @@
       "NodeType": 4,
       "Coordinate": 2,
       "UnLockCondition": 500007,
+      "SkillBranchIds": [],
       "Consume": [
         {
           "Key": 43020014,
@@ -3647,6 +3685,7 @@
       "NodeType": 4,
       "Coordinate": 2,
       "UnLockCondition": 500008,
+      "SkillBranchIds": [],
       "Consume": [
         {
           "Key": 43020014,
@@ -3679,6 +3718,7 @@
       "NodeType": 5,
       "Coordinate": 1,
       "UnLockCondition": 0,
+      "SkillBranchIds": [],
       "Consume": [
         {
           "Key": 43020032,
@@ -3695,9 +3735,9 @@
       ],
       "Skill": {
         "Name": "協和破壊・迅刀",
-        "Desc": "目標の<color=Highlight>【不協和値】</color>が最大まで溜まった時、<color=Highlight><te href=100001>【協和破壊】</te></color>ダメージを与えることができる。",
+        "Desc": "目標の<color=Highlight>【不協和値】</color>が最大まで溜まった時、<color=Highlight><te href=100001>【協和破壊】</te></color>を発動することができる。",
         "Param": [],
-        "SimpleDesc": "目標の<color=Highlight>【不協和値】</color>が最大まで溜まった時、<color=Highlight>【協和破壊】</color>ダメージを与えることができる。",
+        "SimpleDesc": "目標の<color=Highlight>【不協和値】</color>が最大まで溜まった時、<color=Highlight>【協和破壊】</color>を発動可能。",
         "SimpleParam": [],
         "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconWeakPointBreakKnife.SP_IconWeakPointBreakKnife",
         "Type": "協和破壊",
@@ -3709,6 +3749,7 @@
       }
     }
   },
+  "SkillBranches": {},
   "Chains": {
     "1": {
       "Name": "当たり前の孤独",
@@ -3930,6 +3971,7 @@
       "通常攻撃を長押しすると、特殊エネルギーの指針が動く"
     ]
   },
+  "ForteNew": {},
   "Live2d": "",
   "Audio": "sanhua",
   "Recommend": {

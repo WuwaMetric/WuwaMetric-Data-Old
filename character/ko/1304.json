@@ -1031,6 +1031,13 @@
       }
     }
   },
+  "StatsWeakness": {
+    "WeaknessBuildUp": 0,
+    "WeaknessBuildUpMax": 10000,
+    "WeaknessTotalBonus": 0,
+    "BreakWeaknessRatio": 10000,
+    "WeaknessMastery": 0
+  },
   "LevelEXP": [
     0,
     400,
@@ -1139,6 +1146,7 @@
       "NodeType": 2,
       "Coordinate": 1,
       "UnLockCondition": 0,
+      "SkillBranchIds": [],
       "Consume": [
         {
           "Key": 43020032,
@@ -1579,7 +1587,8 @@
             "Energy": 20,
             "ElementPower": 40,
             "HardnessLv": 10000,
-            "ToughLv": 952
+            "ToughLv": 952,
+            "WeaknessLvl": 0
           },
           "1304840005": {
             "Element": 5,
@@ -1610,7 +1619,8 @@
             "Energy": 60,
             "ElementPower": 119,
             "HardnessLv": 10000,
-            "ToughLv": 2856
+            "ToughLv": 2856,
+            "WeaknessLvl": 0
           },
           "1304840002": {
             "Element": 5,
@@ -1641,7 +1651,8 @@
             "Energy": 295,
             "ElementPower": 589,
             "HardnessLv": 10000,
-            "ToughLv": 14104
+            "ToughLv": 14104,
+            "WeaknessLvl": 0
           },
           "1304001001": {
             "Element": 5,
@@ -1672,7 +1683,8 @@
             "Energy": 124,
             "ElementPower": 248,
             "HardnessLv": 10000,
-            "ToughLv": 5943
+            "ToughLv": 5943,
+            "WeaknessLvl": 3960
           },
           "1304002001": {
             "Element": 5,
@@ -1703,7 +1715,8 @@
             "Energy": 73,
             "ElementPower": 146,
             "HardnessLv": 10000,
-            "ToughLv": 3486
+            "ToughLv": 3486,
+            "WeaknessLvl": 2324
           },
           "1304002002": {
             "Element": 5,
@@ -1734,7 +1747,8 @@
             "Energy": 37,
             "ElementPower": 73,
             "HardnessLv": 10000,
-            "ToughLv": 1743
+            "ToughLv": 1743,
+            "WeaknessLvl": 1162
           },
           "1304003001": {
             "Element": 5,
@@ -1765,7 +1779,8 @@
             "Energy": 20,
             "ElementPower": 40,
             "HardnessLv": 10000,
-            "ToughLv": 952
+            "ToughLv": 952,
+            "WeaknessLvl": 635
           },
           "1304003003": {
             "Element": 5,
@@ -1796,7 +1811,8 @@
             "Energy": 60,
             "ElementPower": 119,
             "HardnessLv": 10000,
-            "ToughLv": 2856
+            "ToughLv": 2856,
+            "WeaknessLvl": 1904
           },
           "1304004001": {
             "Element": 5,
@@ -1827,7 +1843,8 @@
             "Energy": 118,
             "ElementPower": 236,
             "HardnessLv": 10000,
-            "ToughLv": 5642
+            "ToughLv": 5642,
+            "WeaknessLvl": 3760
           },
           "1304004002": {
             "Element": 5,
@@ -1858,7 +1875,8 @@
             "Energy": 177,
             "ElementPower": 353,
             "HardnessLv": 10000,
-            "ToughLv": 8462
+            "ToughLv": 8462,
+            "WeaknessLvl": 5640
           },
           "1304100001": {
             "Element": 5,
@@ -1889,7 +1907,8 @@
             "Energy": 40,
             "ElementPower": 80,
             "HardnessLv": 10000,
-            "ToughLv": 1920
+            "ToughLv": 1920,
+            "WeaknessLvl": 1280
           },
           "1304100101": {
             "Element": 5,
@@ -1920,7 +1939,8 @@
             "Energy": 60,
             "ElementPower": 120,
             "HardnessLv": 10000,
-            "ToughLv": 2880
+            "ToughLv": 2880,
+            "WeaknessLvl": 1920
           },
           "1304100102": {
             "Element": 5,
@@ -1951,7 +1971,8 @@
             "Energy": 140,
             "ElementPower": 280,
             "HardnessLv": 10000,
-            "ToughLv": 6720
+            "ToughLv": 6720,
+            "WeaknessLvl": 4480
           },
           "1304006001": {
             "Element": 5,
@@ -1982,7 +2003,8 @@
             "Energy": 6,
             "ElementPower": 10,
             "HardnessLv": 10000,
-            "ToughLv": 620
+            "ToughLv": 620,
+            "WeaknessLvl": 496
           },
           "1304006002": {
             "Element": 5,
@@ -2013,7 +2035,8 @@
             "Energy": 11,
             "ElementPower": 20,
             "HardnessLv": 10000,
-            "ToughLv": 1240
+            "ToughLv": 1240,
+            "WeaknessLvl": 992
           },
           "1304006003": {
             "Element": 5,
@@ -2044,7 +2067,8 @@
             "Energy": 37,
             "ElementPower": 70,
             "HardnessLv": 10000,
-            "ToughLv": 4340
+            "ToughLv": 4340,
+            "WeaknessLvl": 3472
           },
           "1304600001": {
             "Element": 5,
@@ -2075,7 +2099,8 @@
             "Energy": 28,
             "ElementPower": 55,
             "HardnessLv": 10000,
-            "ToughLv": 1500
+            "ToughLv": 1500,
+            "WeaknessLvl": 875
           },
           "1304600003": {
             "Element": 5,
@@ -2106,7 +2131,8 @@
             "Energy": 82,
             "ElementPower": 164,
             "HardnessLv": 10000,
-            "ToughLv": 4500
+            "ToughLv": 4500,
+            "WeaknessLvl": 2624
           }
         }
       }
@@ -2116,6 +2142,7 @@
       "NodeType": 2,
       "Coordinate": 2,
       "UnLockCondition": 0,
+      "SkillBranchIds": [],
       "Consume": [
         {
           "Key": 43020032,
@@ -2477,7 +2504,8 @@
             "Energy": 28,
             "ElementPower": 55,
             "HardnessLv": 10000,
-            "ToughLv": 2500
+            "ToughLv": 2500,
+            "WeaknessLvl": 870
           },
           "1304200002": {
             "Element": 5,
@@ -2508,7 +2536,8 @@
             "Energy": 28,
             "ElementPower": 55,
             "HardnessLv": 10000,
-            "ToughLv": 2500
+            "ToughLv": 2500,
+            "WeaknessLvl": 870
           },
           "1304200003": {
             "Element": 5,
@@ -2539,7 +2568,8 @@
             "Energy": 28,
             "ElementPower": 55,
             "HardnessLv": 10000,
-            "ToughLv": 2500
+            "ToughLv": 2500,
+            "WeaknessLvl": 870
           },
           "1304200004": {
             "Element": 5,
@@ -2570,7 +2600,8 @@
             "Energy": 28,
             "ElementPower": 55,
             "HardnessLv": 10000,
-            "ToughLv": 2500
+            "ToughLv": 2500,
+            "WeaknessLvl": 870
           },
           "1304200005": {
             "Element": 5,
@@ -2601,7 +2632,8 @@
             "Energy": 109,
             "ElementPower": 218,
             "HardnessLv": 10000,
-            "ToughLv": 10000
+            "ToughLv": 10000,
+            "WeaknessLvl": 3480
           },
           "1304200010": {
             "Element": 5,
@@ -2632,7 +2664,8 @@
             "Energy": 7,
             "ElementPower": 0,
             "HardnessLv": 10000,
-            "ToughLv": 1000
+            "ToughLv": 1000,
+            "WeaknessLvl": 199
           },
           "1304200011": {
             "Element": 5,
@@ -2663,7 +2696,8 @@
             "Energy": 7,
             "ElementPower": 0,
             "HardnessLv": 10000,
-            "ToughLv": 1000
+            "ToughLv": 1000,
+            "WeaknessLvl": 199
           },
           "1304200012": {
             "Element": 5,
@@ -2694,7 +2728,8 @@
             "Energy": 7,
             "ElementPower": 0,
             "HardnessLv": 10000,
-            "ToughLv": 1000
+            "ToughLv": 1000,
+            "WeaknessLvl": 199
           },
           "1304200013": {
             "Element": 5,
@@ -2725,7 +2760,8 @@
             "Energy": 7,
             "ElementPower": 0,
             "HardnessLv": 10000,
-            "ToughLv": 1000
+            "ToughLv": 1000,
+            "WeaknessLvl": 199
           },
           "1304200014": {
             "Element": 5,
@@ -2756,7 +2792,8 @@
             "Energy": 19,
             "ElementPower": 0,
             "HardnessLv": 10000,
-            "ToughLv": 3000
+            "ToughLv": 3000,
+            "WeaknessLvl": 596
           },
           "1304200015": {
             "Element": 5,
@@ -2787,7 +2824,8 @@
             "Energy": 19,
             "ElementPower": 0,
             "HardnessLv": 10000,
-            "ToughLv": 3000
+            "ToughLv": 3000,
+            "WeaknessLvl": 596
           },
           "1304200016": {
             "Element": 5,
@@ -2818,7 +2856,8 @@
             "Energy": 19,
             "ElementPower": 0,
             "HardnessLv": 10000,
-            "ToughLv": 3000
+            "ToughLv": 3000,
+            "WeaknessLvl": 596
           },
           "1304200017": {
             "Element": 5,
@@ -2849,7 +2888,8 @@
             "Energy": 19,
             "ElementPower": 0,
             "HardnessLv": 10000,
-            "ToughLv": 3000
+            "ToughLv": 3000,
+            "WeaknessLvl": 596
           },
           "1304200018": {
             "Element": 5,
@@ -2880,7 +2920,8 @@
             "Energy": 25,
             "ElementPower": 0,
             "HardnessLv": 10000,
-            "ToughLv": 4000
+            "ToughLv": 4000,
+            "WeaknessLvl": 794
           }
         }
       }
@@ -2890,6 +2931,7 @@
       "NodeType": 2,
       "Coordinate": 3,
       "UnLockCondition": 0,
+      "SkillBranchIds": [],
       "Consume": [
         {
           "Key": 43020032,
@@ -3194,7 +3236,8 @@
             "Energy": 0,
             "ElementPower": 0,
             "HardnessLv": 10000,
-            "ToughLv": 12000
+            "ToughLv": 12000,
+            "WeaknessLvl": 25200
           },
           "1304300002": {
             "Element": 5,
@@ -3225,7 +3268,8 @@
             "Energy": 0,
             "ElementPower": 0,
             "HardnessLv": 10000,
-            "ToughLv": 12000
+            "ToughLv": 12000,
+            "WeaknessLvl": 25200
           },
           "1304300003": {
             "Element": 5,
@@ -3256,7 +3300,8 @@
             "Energy": 0,
             "ElementPower": 0,
             "HardnessLv": 10000,
-            "ToughLv": 28000
+            "ToughLv": 28000,
+            "WeaknessLvl": 58800
           },
           "1304300004": {
             "Element": 5,
@@ -3287,7 +3332,8 @@
             "Energy": 0,
             "ElementPower": 0,
             "HardnessLv": 10000,
-            "ToughLv": 28000
+            "ToughLv": 28000,
+            "WeaknessLvl": 58800
           }
         }
       }
@@ -3299,6 +3345,7 @@
       "NodeType": 3,
       "Coordinate": 2,
       "UnLockCondition": 0,
+      "SkillBranchIds": [],
       "Consume": [
         {
           "Key": 43020032,
@@ -3356,6 +3403,7 @@
       "NodeType": 3,
       "Coordinate": 3,
       "UnLockCondition": 0,
+      "SkillBranchIds": [],
       "Consume": [
         {
           "Key": 43020032,
@@ -3411,6 +3459,7 @@
       "NodeType": 2,
       "Coordinate": 4,
       "UnLockCondition": 0,
+      "SkillBranchIds": [],
       "Consume": [
         {
           "Key": 43020032,
@@ -3663,7 +3712,8 @@
             "Energy": 1000,
             "ElementPower": 0,
             "HardnessLv": 10000,
-            "ToughLv": 10000
+            "ToughLv": 10000,
+            "WeaknessLvl": 8000
           },
           "1304402002": {
             "Element": 5,
@@ -3694,7 +3744,8 @@
             "Energy": 1000,
             "ElementPower": 0,
             "HardnessLv": 10000,
-            "ToughLv": 10000
+            "ToughLv": 10000,
+            "WeaknessLvl": 8000
           }
         }
       }
@@ -3704,6 +3755,7 @@
       "NodeType": 1,
       "Coordinate": 1,
       "UnLockCondition": 0,
+      "SkillBranchIds": [],
       "Consume": [
         {
           "Key": 43020032,
@@ -4375,7 +4427,8 @@
             "Energy": 124,
             "ElementPower": 124,
             "HardnessLv": 10000,
-            "ToughLv": 5943
+            "ToughLv": 5943,
+            "WeaknessLvl": 3960
           },
           "1304102001": {
             "Element": 5,
@@ -4406,7 +4459,8 @@
             "Energy": 109,
             "ElementPower": 109,
             "HardnessLv": 10000,
-            "ToughLv": 5229
+            "ToughLv": 5229,
+            "WeaknessLvl": 3485
           },
           "1304102002": {
             "Element": 5,
@@ -4437,7 +4491,8 @@
             "Energy": 37,
             "ElementPower": 37,
             "HardnessLv": 10000,
-            "ToughLv": 1743
+            "ToughLv": 1743,
+            "WeaknessLvl": 1162
           },
           "1304102003": {
             "Element": 5,
@@ -4468,7 +4523,8 @@
             "Energy": 37,
             "ElementPower": 37,
             "HardnessLv": 10000,
-            "ToughLv": 1743
+            "ToughLv": 1743,
+            "WeaknessLvl": 1162
           },
           "1304103001": {
             "Element": 5,
@@ -4499,7 +4555,8 @@
             "Energy": 139,
             "ElementPower": 139,
             "HardnessLv": 10000,
-            "ToughLv": 6669
+            "ToughLv": 6669,
+            "WeaknessLvl": 4445
           },
           "1304103002": {
             "Element": 5,
@@ -4530,7 +4587,8 @@
             "Energy": 93,
             "ElementPower": 93,
             "HardnessLv": 10000,
-            "ToughLv": 4446
+            "ToughLv": 4446,
+            "WeaknessLvl": 2964
           },
           "1304104003": {
             "Element": 5,
@@ -4561,7 +4619,8 @@
             "Energy": 27,
             "ElementPower": 27,
             "HardnessLv": 10000,
-            "ToughLv": 1252
+            "ToughLv": 1252,
+            "WeaknessLvl": 835
           },
           "1304104004": {
             "Element": 5,
@@ -4592,7 +4651,8 @@
             "Energy": 105,
             "ElementPower": 105,
             "HardnessLv": 10000,
-            "ToughLv": 5008
+            "ToughLv": 5008,
+            "WeaknessLvl": 3338
           },
           "1304106001": {
             "Element": 5,
@@ -4623,7 +4683,8 @@
             "Energy": 60,
             "ElementPower": 60,
             "HardnessLv": 10000,
-            "ToughLv": 2400
+            "ToughLv": 2400,
+            "WeaknessLvl": 1920
           },
           "1304106002": {
             "Element": 5,
@@ -4654,7 +4715,8 @@
             "Energy": 140,
             "ElementPower": 140,
             "HardnessLv": 10000,
-            "ToughLv": 5600
+            "ToughLv": 5600,
+            "WeaknessLvl": 4480
           },
           "1304110001": {
             "Element": 5,
@@ -4685,7 +4747,8 @@
             "Energy": 64,
             "ElementPower": 0,
             "HardnessLv": 10000,
-            "ToughLv": 4000
+            "ToughLv": 4000,
+            "WeaknessLvl": 2028
           },
           "1304110002": {
             "Element": 5,
@@ -4716,7 +4779,8 @@
             "Energy": 48,
             "ElementPower": 0,
             "HardnessLv": 10000,
-            "ToughLv": 3000
+            "ToughLv": 3000,
+            "WeaknessLvl": 1521
           },
           "1304110003": {
             "Element": 5,
@@ -4747,7 +4811,8 @@
             "Energy": 159,
             "ElementPower": 0,
             "HardnessLv": 10000,
-            "ToughLv": 10000
+            "ToughLv": 10000,
+            "WeaknessLvl": 5068
           },
           "1304310001": {
             "Element": 5,
@@ -4778,7 +4843,8 @@
             "Energy": 33,
             "ElementPower": 0,
             "HardnessLv": 10000,
-            "ToughLv": 852
+            "ToughLv": 852,
+            "WeaknessLvl": 2400
           },
           "1304310003": {
             "Element": 5,
@@ -4809,7 +4875,8 @@
             "Energy": 567,
             "ElementPower": 0,
             "HardnessLv": 10000,
-            "ToughLv": 14894
+            "ToughLv": 14894,
+            "WeaknessLvl": 42002
           },
           "1304601001": {
             "Element": 5,
@@ -4840,7 +4907,8 @@
             "Energy": 0,
             "ElementPower": 62,
             "HardnessLv": 10000,
-            "ToughLv": 3000
+            "ToughLv": 3000,
+            "WeaknessLvl": 1962
           },
           "1304601002": {
             "Element": 5,
@@ -4871,7 +4939,8 @@
             "Energy": 0,
             "ElementPower": 46,
             "HardnessLv": 10000,
-            "ToughLv": 2250
+            "ToughLv": 2250,
+            "WeaknessLvl": 1472
           },
           "1304601003": {
             "Element": 5,
@@ -4902,7 +4971,8 @@
             "Energy": 0,
             "ElementPower": 154,
             "HardnessLv": 10000,
-            "ToughLv": 7500
+            "ToughLv": 7500,
+            "WeaknessLvl": 4904
           },
           "1304310011": {
             "Element": 5,
@@ -4933,7 +5003,8 @@
             "Energy": 33,
             "ElementPower": 0,
             "HardnessLv": 10000,
-            "ToughLv": 852
+            "ToughLv": 852,
+            "WeaknessLvl": 2400
           },
           "1304310013": {
             "Element": 5,
@@ -4964,7 +5035,8 @@
             "Energy": 567,
             "ElementPower": 0,
             "HardnessLv": 10000,
-            "ToughLv": 14894
+            "ToughLv": 14894,
+            "WeaknessLvl": 42002
           }
         }
       }
@@ -4974,6 +5046,7 @@
       "NodeType": 3,
       "Coordinate": 1,
       "UnLockCondition": 0,
+      "SkillBranchIds": [],
       "Consume": [
         {
           "Key": 43020032,
@@ -5018,6 +5091,7 @@
       "NodeType": 4,
       "Coordinate": 1,
       "UnLockCondition": 500006,
+      "SkillBranchIds": [],
       "Consume": [
         {
           "Key": 43020043,
@@ -5048,6 +5122,7 @@
       "NodeType": 4,
       "Coordinate": 1,
       "UnLockCondition": 500005,
+      "SkillBranchIds": [],
       "Consume": [
         {
           "Key": 43020043,
@@ -5078,6 +5153,7 @@
       "NodeType": 4,
       "Coordinate": 1,
       "UnLockCondition": 500005,
+      "SkillBranchIds": [],
       "Consume": [
         {
           "Key": 43020043,
@@ -5108,6 +5184,7 @@
       "NodeType": 4,
       "Coordinate": 1,
       "UnLockCondition": 500006,
+      "SkillBranchIds": [],
       "Consume": [
         {
           "Key": 43020043,
@@ -5138,6 +5215,7 @@
       "NodeType": 4,
       "Coordinate": 2,
       "UnLockCondition": 500008,
+      "SkillBranchIds": [],
       "Consume": [
         {
           "Key": 43020044,
@@ -5172,6 +5250,7 @@
       "NodeType": 4,
       "Coordinate": 2,
       "UnLockCondition": 500007,
+      "SkillBranchIds": [],
       "Consume": [
         {
           "Key": 43020044,
@@ -5206,6 +5285,7 @@
       "NodeType": 4,
       "Coordinate": 2,
       "UnLockCondition": 500007,
+      "SkillBranchIds": [],
       "Consume": [
         {
           "Key": 43020044,
@@ -5240,6 +5320,7 @@
       "NodeType": 4,
       "Coordinate": 2,
       "UnLockCondition": 500008,
+      "SkillBranchIds": [],
       "Consume": [
         {
           "Key": 43020044,
@@ -5272,6 +5353,7 @@
       "NodeType": 5,
       "Coordinate": 1,
       "UnLockCondition": 0,
+      "SkillBranchIds": [],
       "Consume": [
         {
           "Key": 43020032,
@@ -5288,9 +5370,9 @@
       ],
       "Skill": {
         "Name": "조화도 파괴 · 대검",
-        "Desc": "목표의 <color=Highlight>「부조화 수치」</color>가 가득찰 시, 해당 목표에게 <color=Highlight><a href=「谐度破坏」></a></color> 피해를 입힌다",
+        "Desc": "목표의 <color=Highlight>「부조화 수치」</color>가 가득 찰 시, 해당 목표에게 <color=Highlight><te href=100001>「조화도 파괴」</te></color>를 발동한다",
         "Param": [],
-        "SimpleDesc": "목표의 <color=Highlight>「부조화 수치」</color>가 가득찰 시, 해당 목표에게 <color=Highlight>「조화도 파괴」</color> 피해를 입힌다",
+        "SimpleDesc": "목표의 <color=Highlight>「부조화 수치」</color>가 가득 찰 시, 해당 목표에게 <color=Highlight>「조화도 파괴」</color>를 발동한다",
         "SimpleParam": [],
         "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconWeakPointBreakSword.SP_IconWeakPointBreakSword",
         "Type": "조화도 파괴",
@@ -5302,6 +5384,7 @@
       }
     }
   },
+  "SkillBranches": {},
   "Chains": {
     "1": {
       "Name": "승천하는 물결",
@@ -5522,6 +5605,7 @@
       "금희가 특정 스킬 발동 시, 특수 에너지 소모로 해당 스킬 피해 배율을 증가시킬 수 있다"
     ]
   },
+  "ForteNew": {},
   "Live2d": "JinXi",
   "Audio": "jinxi",
   "Recommend": {

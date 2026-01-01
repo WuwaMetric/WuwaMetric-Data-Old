@@ -2,7 +2,7 @@
   "Id": 320000560,
   "Name": "Sabercat Prowler",
   "Desc": "A machine capable of camouflage. It possesses heightened senses and uses the detector on its tail to track enemy movements.",
-  "DescOpen": "This enemy has a <color=HighlightB>higher RES</color> to <color=Dark>Havoc DMG</color>.\n\nWhen Sabercat Prowler is in a state of Invisibility, its all All-Attribute RES is increased by 30%.\n\nHitting Sabercat Prowler with Tune Break forces it out of Invisibility.\n\nWhen Sabercat Prowler is under Tune Rupture: Shifting and hit by Tune Break, it takes additional DMG equal to 25% of its Max HP, triggered only once.\n\nA machine capable of camouflage, its parts are badly corrupted by Voidmatter, causing severe degradation to its vision and hearing. Yet this also heightens its other sensory perceptions. It tracks enemy movements by using the detector on its tail to sense changes in frequency.",
+  "DescOpen": "This enemy has a <color=HighlightB>higher RES</color> to <color=Dark>Havoc DMG</color>.\n\nWhen Sabercat Prowler is in a state of Invisibility, its all All-Attribute RES is increased by 30%.\n\nHitting Sabercat Prowler with Tune Break forces it out of Invisibility.\n\nWhen Sabercat Prowler is under Tune Rupture - Shifting and hit by Tune Break, it takes additional DMG equal to 25% of its Max HP, triggered only once.\n\nA machine capable of camouflage, its parts are badly corrupted by Voidmatter, causing severe degradation to its vision and hearing. Yet this also heightens its other sensory perceptions. It tracks enemy movements by using the detector on its tail to sense changes in frequency.",
   "Rarity": 2,
   "Element": 6,
   "ElementArray": [
@@ -31,7 +31,12 @@
     "EnergyMax": 10000,
     "WeakTime": 100,
     "Mass": 150,
-    "ParalysisTimeMax": 5000
+    "ParalysisTimeMax": 5000,
+    "WeaknessBuildUp": 0,
+    "WeaknessBuildUpMax": 10000,
+    "WeaknessTotalBonus": 0,
+    "BreakWeaknessRatio": 10000,
+    "WeaknessMastery": 0
   },
   "Stats": {
     "1": {
