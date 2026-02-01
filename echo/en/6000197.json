@@ -1,0 +1,110 @@
+{
+  "Id": 6000197,
+  "Code": "T01-",
+  "Name": "Shadow Stepper",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31084_UI.T_IconMonsterHead_31084_UI",
+  "Skill": {
+    "Desc": "Summon a Shadow Stepper to attack enemies, dealing {0} Havoc DMG.\nCD: {1}s.",
+    "SimpleDesc": "Summon a Shadow Stepper to attack enemies, dealing Havoc DMG.",
+    "Param": [
+      [
+        "72.00%",
+        "8"
+      ],
+      [
+        "86.40%",
+        "8"
+      ],
+      [
+        "100.80%",
+        "8"
+      ],
+      [
+        "115.20%",
+        "8"
+      ],
+      [
+        "129.60%",
+        "8"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_34020_UI.T_MstSkil_34020_UI",
+    "Damage": {
+      "20013301": {
+        "Element": 6,
+        "RelatedProperty": "ATK",
+        "Type": 5,
+        "RateLv": [
+          7200,
+          8640,
+          10080,
+          11520,
+          12960
+        ],
+        "Energy": 180,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 7200,
+        "WeaknessLvl": 0
+      }
+    }
+  },
+  "Group": {
+    "27": {
+      "Id": 27,
+      "Name": "Trailblazing Star",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri128/T_IconElementAttri128_Ice.T_IconElementAttri128_Ice",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "Fusion DMG + {0}",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "Inflicting Fusion Burst or Tune Rupture - Shifting increases the Resonator's Crit. Rate by {0} and grants {1} Fusion DMG Bonus for {2}s.",
+          "Param": [
+            "20%",
+            "20%",
+            "8"
+          ]
+        }
+      }
+    },
+    "28": {
+      "Id": 28,
+      "Name": "Chromatic Foam",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri128/T_IconElementAttri128_Ice.T_IconElementAttri128_Ice",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "Fusion DMG + {0}",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "When the Resonator inflicts Fusion Burst on the enemies, they gain the following effects: Gain {0} Fusion DMG Bonus for {1} s. While this effect is active, casting an Outro Skill grants the incoming Resonator {2} Fusion DMG Bonus for {3}s.",
+          "Param": [
+            "10%",
+            "15",
+            "25%",
+            "15"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 0,
+  "MonsterInfo": 310000840
+}

@@ -1,0 +1,102 @@
+{
+  "Id": 6000195,
+  "Code": "T01-",
+  "Name": "글로모스",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_32061_UI.T_IconMonsterHead_32061_UI",
+  "Skill": {
+    "Desc": "에코 어빌리티를 사용하여 글로모스를 소환한 후, 적을 짓밟아 {0}의 응결 피해를 입힌다.\n이후 {1}초 이내 자신이 반주 스킬을 발동 시, 다음 변주 스킬로 등장하는 캐릭터의 응결 피해 보너스를 {2} 증가시키고, {3}초간 지속된다.\n스킬 쿨타임: {4}초",
+    "SimpleDesc": "글로모스를 소환한 후, 적에게 응결 피해를 입히고, 다음 변주 스킬로 등장하는 캐릭터의 응결 피해를 증가시킨다",
+    "Param": [
+      [
+        "152.00%",
+        "15",
+        "12.00%",
+        "15",
+        "20"
+      ],
+      [
+        "182.40%",
+        "15",
+        "12.00%",
+        "15",
+        "20"
+      ],
+      [
+        "212.80%",
+        "15",
+        "12.00%",
+        "15",
+        "20"
+      ],
+      [
+        "243.20%",
+        "15",
+        "12.00%",
+        "15",
+        "20"
+      ],
+      [
+        "273.60%",
+        "15",
+        "12.00%",
+        "15",
+        "20"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_34020_UI.T_MstSkil_34020_UI",
+    "Damage": {
+      "20013101": {
+        "Element": 1,
+        "RelatedProperty": "공격력",
+        "Type": 5,
+        "RateLv": [
+          15200,
+          18240,
+          21280,
+          24320,
+          27360
+        ],
+        "Energy": 380,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 15200,
+        "WeaknessLvl": 0
+      }
+    }
+  },
+  "Group": {
+    "27": {
+      "Id": 27,
+      "Name": "긴 여정을 떠나는 별",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri128/T_IconElementAttri128_Ice.T_IconElementAttri128_Ice",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "용융 피해가 {0} 증가된다",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "캐릭터가 적에게 「불꽃 효과」 혹은 「조화 파동 · 이탈」 추가 시, 자신의 크리티컬이 {0} 증가되고 용융 피해가 {1} 증가되며, {2}초간 지속된다",
+          "Param": [
+            "20%",
+            "20%",
+            "8"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 1,
+  "MonsterInfo": 320000610
+}

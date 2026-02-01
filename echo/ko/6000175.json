@@ -125,6 +125,28 @@
           ]
         }
       }
+    },
+    "29": {
+      "Id": 29,
+      "Name": "함의의 소리를 따라",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri128/T_IconElementAttri128_Ice.T_IconElementAttri128_Ice",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "기류 피해가 {0} 증가된다",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "캐릭터가 에코 어빌리티 피해 입힐 시, 에코 어빌리티 피해의 크리티컬이 {0} 증가되고 자신의 기류 피해가 {1} 증가되며 {2}초간 지속된다",
+          "Param": [
+            "20%",
+            "15%",
+            "5"
+          ]
+        }
+      }
     }
   },
   "Rarity": [

@@ -75,6 +75,29 @@
           ]
         }
       }
+    },
+    "28": {
+      "Id": 28,
+      "Name": "斑驳粉饰之沫",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri128/T_IconElementAttri128_Ice.T_IconElementAttri128_Ice",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "热熔伤害提升{0}",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "角色为敌人添加【聚爆效应】时，自身获得下述效果：热熔伤害提升{0}，持续{1}秒。持续期间内施放延奏技能后，下一个变奏技能登场的角色热熔伤害提升{2}，持续{3}秒。",
+          "Param": [
+            "10%",
+            "15",
+            "25%",
+            "15"
+          ]
+        }
+      }
     }
   },
   "Rarity": [

@@ -1,0 +1,91 @@
+{
+  "Id": 6000196,
+  "Code": "T01-",
+  "Name": "아이스글린트 댄서",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31083_UI.T_IconMonsterHead_31083_UI",
+  "Skill": {
+    "Desc": "에코 어빌리티를 사용하여 아이스글린트 댄서로 변신한 후, 적에게 {0}의 응결 피해를 입힌다.\n스킬 쿨타임: {1}초",
+    "SimpleDesc": "아이스글린트 댄서로 변신한 후, 응결 피해를 입힌다",
+    "Param": [
+      [
+        "114.00%",
+        "8"
+      ],
+      [
+        "136.80%",
+        "8"
+      ],
+      [
+        "159.60%",
+        "8"
+      ],
+      [
+        "182.40%",
+        "8"
+      ],
+      [
+        "205.20%",
+        "8"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_34020_UI.T_MstSkil_34020_UI",
+    "Damage": {
+      "20013201": {
+        "Element": 1,
+        "RelatedProperty": "공격력",
+        "Type": 5,
+        "RateLv": [
+          11400,
+          13680,
+          15960,
+          18240,
+          20520
+        ],
+        "Energy": 285,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 11400,
+        "WeaknessLvl": 0
+      }
+    }
+  },
+  "Group": {
+    "27": {
+      "Id": 27,
+      "Name": "긴 여정을 떠나는 별",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri128/T_IconElementAttri128_Ice.T_IconElementAttri128_Ice",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "용융 피해가 {0} 증가된다",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "캐릭터가 적에게 「불꽃 효과」 혹은 「조화 파동 · 이탈」 추가 시, 자신의 크리티컬이 {0} 증가되고 용융 피해가 {1} 증가되며, {2}초간 지속된다",
+          "Param": [
+            "20%",
+            "20%",
+            "8"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 0,
+  "MonsterInfo": 310000830,
+  "Phantom": {
+    "Name": "이상 · 아이스글린트 댄서",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_SG_31083_UI.T_IconMonsterGoods_SG_31083_UI"
+  }
+}

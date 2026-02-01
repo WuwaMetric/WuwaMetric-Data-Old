@@ -120,6 +120,28 @@
           ]
         }
       }
+    },
+    "27": {
+      "Id": 27,
+      "Name": "アストロ・ロード",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri128/T_IconElementAttri128_Ice.T_IconElementAttri128_Ice",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "焦熱ダメージが{0}アップ",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "キャラが敵に【斉爆効果】または【震撃協和・オフセット】を付与時、自身のクリティカル率が{0}、焦熱ダメージが{1}アップ、{2}秒間持続。",
+          "Param": [
+            "20%",
+            "20%",
+            "8"
+          ]
+        }
+      }
     }
   },
   "Rarity": [

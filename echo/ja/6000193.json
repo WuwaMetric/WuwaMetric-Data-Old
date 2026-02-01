@@ -1,0 +1,132 @@
+{
+  "Id": 6000193,
+  "Code": "T01-",
+  "Name": "メカファルコン",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_32059_UI.T_IconMonsterHead_32059_UI",
+  "Skill": {
+    "Desc": "音骸スキルを発動すると、メカファルコンに変身して上空へ舞い上がり、急降下して敵に{0}の電導ダメージを与える。\nクールタイム：{1}秒",
+    "SimpleDesc": "メカファルコンに変身し、敵に電導ダメージを与える。",
+    "Param": [
+      [
+        "37.25%",
+        "74.50%",
+        "15"
+      ],
+      [
+        "44.70%",
+        "89.40%",
+        "15"
+      ],
+      [
+        "52.15%",
+        "104.30%",
+        "15"
+      ],
+      [
+        "59.60%",
+        "119.20%",
+        "15"
+      ],
+      [
+        "67.05%",
+        "134.10%",
+        "15"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_34020_UI.T_MstSkil_34020_UI",
+    "Damage": {
+      "20012901": {
+        "Element": 3,
+        "RelatedProperty": "攻撃力",
+        "Type": 5,
+        "RateLv": [
+          2235,
+          2682,
+          3129,
+          3576,
+          4023
+        ],
+        "Energy": 8,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 2235,
+        "WeaknessLvl": 0
+      },
+      "20012902": {
+        "Element": 3,
+        "RelatedProperty": "攻撃力",
+        "Type": 5,
+        "RateLv": [
+          14900,
+          17880,
+          20860,
+          23840,
+          26820
+        ],
+        "Energy": 372,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 14900,
+        "WeaknessLvl": 0
+      }
+    }
+  },
+  "Group": {
+    "27": {
+      "Id": 27,
+      "Name": "アストロ・ロード",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri128/T_IconElementAttri128_Ice.T_IconElementAttri128_Ice",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "焦熱ダメージが{0}アップ",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "キャラが敵に【斉爆効果】または【震撃協和・オフセット】を付与時、自身のクリティカル率が{0}、焦熱ダメージが{1}アップ、{2}秒間持続。",
+          "Param": [
+            "20%",
+            "20%",
+            "8"
+          ]
+        }
+      }
+    },
+    "28": {
+      "Id": 28,
+      "Name": "パティナ・フォーム",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri128/T_IconElementAttri128_Ice.T_IconElementAttri128_Ice",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "焦熱ダメージが{0}アップ",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "キャラが敵に【斉爆効果】を付与時、自身は以下の効果を得る：焦熱ダメージが{0}アップ、{1}秒間持続。持続期間内に終奏スキルを発動した場合、次の変奏スキルで登場するキャラの焦熱ダメージが{2}アップ、{3}秒間持続。",
+          "Param": [
+            "10%",
+            "15",
+            "25%",
+            "15"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 1,
+  "MonsterInfo": 320000590
+}

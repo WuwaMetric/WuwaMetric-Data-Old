@@ -1,0 +1,102 @@
+{
+  "Id": 6000195,
+  "Code": "T01-",
+  "Name": "グローモス",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_32061_UI.T_IconMonsterHead_32061_UI",
+  "Skill": {
+    "Desc": "音骸スキルを発動すると、グローモスを召喚し、敵を踏みつけ{0}の凝縮ダメージを与える。\n発動後{1}秒以内に終奏スキルを発動すると、次の変奏スキルで登場するキャラの凝縮ダメージが{2}アップ、{3}秒間持続。\nクールタイム：{4}秒",
+    "SimpleDesc": "グローモスを召喚し、敵に凝縮ダメージを与える。さらに、次の変奏スキルで登場するキャラの凝縮ダメージがアップ。",
+    "Param": [
+      [
+        "152.00%",
+        "15",
+        "12.00%",
+        "15",
+        "20"
+      ],
+      [
+        "182.40%",
+        "15",
+        "12.00%",
+        "15",
+        "20"
+      ],
+      [
+        "212.80%",
+        "15",
+        "12.00%",
+        "15",
+        "20"
+      ],
+      [
+        "243.20%",
+        "15",
+        "12.00%",
+        "15",
+        "20"
+      ],
+      [
+        "273.60%",
+        "15",
+        "12.00%",
+        "15",
+        "20"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_34020_UI.T_MstSkil_34020_UI",
+    "Damage": {
+      "20013101": {
+        "Element": 1,
+        "RelatedProperty": "攻撃力",
+        "Type": 5,
+        "RateLv": [
+          15200,
+          18240,
+          21280,
+          24320,
+          27360
+        ],
+        "Energy": 380,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 15200,
+        "WeaknessLvl": 0
+      }
+    }
+  },
+  "Group": {
+    "27": {
+      "Id": 27,
+      "Name": "アストロ・ロード",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri128/T_IconElementAttri128_Ice.T_IconElementAttri128_Ice",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "焦熱ダメージが{0}アップ",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "キャラが敵に【斉爆効果】または【震撃協和・オフセット】を付与時、自身のクリティカル率が{0}、焦熱ダメージが{1}アップ、{2}秒間持続。",
+          "Param": [
+            "20%",
+            "20%",
+            "8"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 1,
+  "MonsterInfo": 320000610
+}

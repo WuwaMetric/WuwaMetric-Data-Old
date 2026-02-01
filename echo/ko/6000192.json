@@ -1,0 +1,97 @@
+{
+  "Id": 6000192,
+  "Code": "T01-",
+  "Name": "이름없는 탐색자",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34026_UI.T_IconMonsterHead_34026_UI",
+  "Skill": {
+    "Desc": "에코 어빌리티를 사용하여 이름없는 탐색자를 소환한 후, 관통 경로에 있는 적을 공격하여 {0}의 기류 피해를 입힌다.\n메인 슬롯에 해당 에코 어빌리티를 장착 시, 자신의 기류 피해 보너스가 {1} 증가되고, 에코 어빌리티 피해 보너스가 {2} 증가된다.\n스킬 쿨타임: {3}초",
+    "SimpleDesc": "이름없는 탐색자를 소환한 후, 적에게 기류 피해를 입힌다.\n메인 슬롯에 해당 에코 어빌리티를 장착 시, 자신의 기류 피해와 에코 어빌리티 피해가 증가된다",
+    "Param": [
+      [
+        "152.00%",
+        "12.00%",
+        "20.00%",
+        "20"
+      ],
+      [
+        "182.40%",
+        "12.00%",
+        "20.00%",
+        "20"
+      ],
+      [
+        "212.80%",
+        "12.00%",
+        "20.00%",
+        "20"
+      ],
+      [
+        "243.20%",
+        "12.00%",
+        "20.00%",
+        "20"
+      ],
+      [
+        "273.60%",
+        "12.00%",
+        "20.00%",
+        "20"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_34020_UI.T_MstSkil_34020_UI",
+    "Damage": {
+      "28003801": {
+        "Element": 4,
+        "RelatedProperty": "공격력",
+        "Type": 5,
+        "RateLv": [
+          15200,
+          18240,
+          21280,
+          24320,
+          27360
+        ],
+        "Energy": 380,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 15200,
+        "WeaknessLvl": 0
+      }
+    }
+  },
+  "Group": {
+    "29": {
+      "Id": 29,
+      "Name": "함의의 소리를 따라",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri128/T_IconElementAttri128_Ice.T_IconElementAttri128_Ice",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "기류 피해가 {0} 증가된다",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "캐릭터가 에코 어빌리티 피해 입힐 시, 에코 어빌리티 피해의 크리티컬이 {0} 증가되고 자신의 기류 피해가 {1} 증가되며 {2}초간 지속된다",
+          "Param": [
+            "20%",
+            "15%",
+            "5"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 2,
+  "MonsterInfo": 340000260
+}

@@ -1,0 +1,102 @@
+{
+  "Id": 6000195,
+  "Code": "T01-",
+  "Name": "格洛犸图",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_32061_UI.T_IconMonsterHead_32061_UI",
+  "Skill": {
+    "Desc": "使用声骸技能，召唤格洛犸图，践踏敌人造成{0}的冷凝伤害。\n在此后{1}秒内，若自身施放延奏技能，使下一个变奏技能登场的角色冷凝伤害加成提升{2}，持续{3}秒。\n技能冷却：{4}秒",
+    "SimpleDesc": "召唤格洛犸图，对敌人造成冷凝伤害，并使下一个变奏技能登场的角色冷凝伤害提升。",
+    "Param": [
+      [
+        "152.00%",
+        "15",
+        "12.00%",
+        "15",
+        "20"
+      ],
+      [
+        "182.40%",
+        "15",
+        "12.00%",
+        "15",
+        "20"
+      ],
+      [
+        "212.80%",
+        "15",
+        "12.00%",
+        "15",
+        "20"
+      ],
+      [
+        "243.20%",
+        "15",
+        "12.00%",
+        "15",
+        "20"
+      ],
+      [
+        "273.60%",
+        "15",
+        "12.00%",
+        "15",
+        "20"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_34020_UI.T_MstSkil_34020_UI",
+    "Damage": {
+      "20013101": {
+        "Element": 1,
+        "RelatedProperty": "攻击",
+        "Type": 5,
+        "RateLv": [
+          15200,
+          18240,
+          21280,
+          24320,
+          27360
+        ],
+        "Energy": 380,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 15200,
+        "WeaknessLvl": 0
+      }
+    }
+  },
+  "Group": {
+    "27": {
+      "Id": 27,
+      "Name": "长路启航之星",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri128/T_IconElementAttri128_Ice.T_IconElementAttri128_Ice",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "热熔伤害提升{0}",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "角色为敌人添加【聚爆效应】或【震谐·偏移】时，自身暴击提升{0}，热熔伤害提升{1}，持续{2}秒。",
+          "Param": [
+            "20%",
+            "20%",
+            "8"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 1,
+  "MonsterInfo": 320000610
+}

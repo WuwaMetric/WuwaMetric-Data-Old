@@ -98,6 +98,51 @@
           ]
         }
       }
+    },
+    "28": {
+      "Id": 28,
+      "Name": "斑驳粉饰之沫",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri128/T_IconElementAttri128_Ice.T_IconElementAttri128_Ice",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "热熔伤害提升{0}",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "角色为敌人添加【聚爆效应】时，自身获得下述效果：热熔伤害提升{0}，持续{1}秒。持续期间内施放延奏技能后，下一个变奏技能登场的角色热熔伤害提升{2}，持续{3}秒。",
+          "Param": [
+            "10%",
+            "15",
+            "25%",
+            "15"
+          ]
+        }
+      }
+    },
+    "29": {
+      "Id": 29,
+      "Name": "听唤语义之愿",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri128/T_IconElementAttri128_Ice.T_IconElementAttri128_Ice",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "气动伤害提升{0}",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "角色造成声骸技能伤害时，声骸技能伤害的暴击提升{0}，自身气动伤害提升{1}，持续{2}秒。",
+          "Param": [
+            "20%",
+            "15%",
+            "5"
+          ]
+        }
+      }
     }
   },
   "Rarity": [
@@ -107,5 +152,9 @@
     5
   ],
   "IntensityCode": 0,
-  "MonsterInfo": 310000820
+  "MonsterInfo": 310000820,
+  "Phantom": {
+    "Name": "异相·噼啪啪",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_SG_31082_UI.T_IconMonsterGoods_SG_31082_UI"
+  }
 }

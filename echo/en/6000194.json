@@ -1,0 +1,171 @@
+{
+  "Id": 6000194,
+  "Code": "T01-",
+  "Name": "Kronaclaw",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_32060_UI.T_IconMonsterHead_32060_UI",
+  "Skill": {
+    "Desc": "Transform into a Kronaclaw and soar into the air to deal {0} Aero DMG up to 8 times and {1} Aero DMG 2 times, then dive to deal {2} Aero DMG 1 time.\nCD: {3}s",
+    "SimpleDesc": "Transform into a Kronaclaw to attack enemies, dealing Aero DMG.",
+    "Param": [
+      [
+        "4.47%",
+        "13.41%",
+        "73.01%",
+        "15"
+      ],
+      [
+        "5.36%",
+        "16.09%",
+        "87.61%",
+        "15"
+      ],
+      [
+        "6.25%",
+        "18.77%",
+        "102.21%",
+        "15"
+      ],
+      [
+        "7.15%",
+        "21.45%",
+        "116.81%",
+        "15"
+      ],
+      [
+        "8.04%",
+        "24.13%",
+        "131.41%",
+        "15"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_34020_UI.T_MstSkil_34020_UI",
+    "Damage": {
+      "20013001": {
+        "Element": 4,
+        "RelatedProperty": "ATK",
+        "Type": 5,
+        "RateLv": [
+          447,
+          536,
+          625,
+          715,
+          804
+        ],
+        "Energy": 0,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 447,
+        "WeaknessLvl": 0
+      },
+      "20013003": {
+        "Element": 4,
+        "RelatedProperty": "ATK",
+        "Type": 5,
+        "RateLv": [
+          1341,
+          1609,
+          1877,
+          2145,
+          2413
+        ],
+        "Energy": 3,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 1341,
+        "WeaknessLvl": 0
+      },
+      "20013005": {
+        "Element": 4,
+        "RelatedProperty": "ATK",
+        "Type": 5,
+        "RateLv": [
+          7301,
+          8761,
+          10221,
+          11681,
+          13141
+        ],
+        "Energy": 89,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 7301,
+        "WeaknessLvl": 0
+      },
+      "20013006": {
+        "Element": 4,
+        "RelatedProperty": "ATK",
+        "Type": 5,
+        "RateLv": [
+          8642,
+          10370,
+          12098,
+          13827,
+          15555
+        ],
+        "Energy": 125,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 8642,
+        "WeaknessLvl": 0
+      }
+    }
+  },
+  "Group": {
+    "27": {
+      "Id": 27,
+      "Name": "Trailblazing Star",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri128/T_IconElementAttri128_Ice.T_IconElementAttri128_Ice",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "Fusion DMG + {0}",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "Inflicting Fusion Burst or Tune Rupture - Shifting increases the Resonator's Crit. Rate by {0} and grants {1} Fusion DMG Bonus for {2}s.",
+          "Param": [
+            "20%",
+            "20%",
+            "8"
+          ]
+        }
+      }
+    },
+    "28": {
+      "Id": 28,
+      "Name": "Chromatic Foam",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri128/T_IconElementAttri128_Ice.T_IconElementAttri128_Ice",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "Fusion DMG + {0}",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "When the Resonator inflicts Fusion Burst on the enemies, they gain the following effects: Gain {0} Fusion DMG Bonus for {1} s. While this effect is active, casting an Outro Skill grants the incoming Resonator {2} Fusion DMG Bonus for {3}s.",
+          "Param": [
+            "10%",
+            "15",
+            "25%",
+            "15"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 1,
+  "MonsterInfo": 320000600
+}

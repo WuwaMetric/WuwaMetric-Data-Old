@@ -98,6 +98,51 @@
           ]
         }
       }
+    },
+    "28": {
+      "Id": 28,
+      "Name": "Chromatic Foam",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri128/T_IconElementAttri128_Ice.T_IconElementAttri128_Ice",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "Fusion DMG + {0}",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "When the Resonator inflicts Fusion Burst on the enemies, they gain the following effects: Gain {0} Fusion DMG Bonus for {1} s. While this effect is active, casting an Outro Skill grants the incoming Resonator {2} Fusion DMG Bonus for {3}s.",
+          "Param": [
+            "10%",
+            "15",
+            "25%",
+            "15"
+          ]
+        }
+      }
+    },
+    "29": {
+      "Id": 29,
+      "Name": "Sound of True Name",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri128/T_IconElementAttri128_Ice.T_IconElementAttri128_Ice",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "Aero DMG + {0}",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "Dealing Echo Skill DMG to enemies increases the Resonator's Echo Skill Crit. Rate by {0}, and grants {1} Aero DMG Bonus for {2}s.",
+          "Param": [
+            "20%",
+            "15%",
+            "5"
+          ]
+        }
+      }
     }
   },
   "Rarity": [
@@ -107,5 +152,9 @@
     5
   ],
   "IntensityCode": 0,
-  "MonsterInfo": 310000820
+  "MonsterInfo": 310000820,
+  "Phantom": {
+    "Name": "Phantom: Zip Zap",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_SG_31082_UI.T_IconMonsterGoods_SG_31082_UI"
+  }
 }

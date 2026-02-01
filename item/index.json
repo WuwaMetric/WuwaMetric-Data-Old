@@ -3205,7 +3205,7 @@
     "TagNum": [
       29
     ],
-    "Name": "Dim Forest Ecological Survey 1.",
+    "Name": "Dim Forest Ecological Survey 1",
     "Desc": "A data chip, contents can be accessed through the Terminal.",
     "Bg": "A chip found in the Dim Forest. Seems to be the survey record of a botanist.",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconTask/T_IconTask_Level_005_3_UI.T_IconTask_Level_005_3_UI",
@@ -3221,7 +3221,7 @@
     "TagNum": [
       29
     ],
-    "Name": "Dim Forest Ecological Survey 2.",
+    "Name": "Dim Forest Ecological Survey 2",
     "Desc": "A data chip, contents can be accessed through the Terminal.",
     "Bg": "A chip found in the Dim Forest. Seems to be the survey record of a botanist.",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconTask/T_IconTask_Level_005_3_UI.T_IconTask_Level_005_3_UI",
@@ -3237,7 +3237,7 @@
     "TagNum": [
       29
     ],
-    "Name": "Dim Forest Ecological Survey III",
+    "Name": "Dim Forest Ecological Survey 3",
     "Desc": "A data chip, contents can be accessed through the Terminal.",
     "Bg": "A chip found in the Dim Forest. Seems to be the survey record of a botanist.",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconTask/T_IconTask_Level_005_3_UI.T_IconTask_Level_005_3_UI",
@@ -3253,7 +3253,7 @@
     "TagNum": [
       29
     ],
-    "Name": "Dim Forest Ecological Survey IV",
+    "Name": "Dim Forest Ecological Survey 4",
     "Desc": "A data chip, contents can be accessed through the Terminal.",
     "Bg": "A chip found in the Dim Forest. Seems to be the survey record of a botanist.",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconTask/T_IconTask_Level_005_3_UI.T_IconTask_Level_005_3_UI",
@@ -3269,7 +3269,7 @@
     "TagNum": [
       29
     ],
-    "Name": "Dim Forest Ecological Survey V",
+    "Name": "Dim Forest Ecological Survey 5",
     "Desc": "A data chip, contents can be accessed through the Terminal.",
     "Bg": "A chip found in the Dim Forest. Seems to be the survey record of a botanist.",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconTask/T_IconTask_Level_005_3_UI.T_IconTask_Level_005_3_UI",
@@ -5070,8 +5070,8 @@
     "TagNum": [
       21
     ],
-    "Name": "Asos's Information Touchpad",
-    "Desc": "Return the information touchpad to Asos.",
+    "Name": "Athos's Information Touchpad",
+    "Desc": "Return the information touchpad to Athos.",
     "Bg": "A touchpad left behind by Athos in the Memento Square.",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconC/T_IconC_SM_Gat_08A_UI.T_IconC_SM_Gat_08A_UI",
     "Source": []
@@ -7318,7 +7318,25 @@
     "Desc": "Reach designated Union Levels to claim this Supply Pack.",
     "Bg": "The special supply pack issued by the Store. It is delivered to the customer by Lollo Logistics.",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_01_UI.T_IconGiftPack_dj_01_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 4,
+      "Content": [
+        {
+          "Key": 50001,
+          "Value": 2
+        },
+        {
+          "Key": 43010002,
+          "Value": 10
+        },
+        {
+          "Key": 2,
+          "Value": 20000
+        }
+      ],
+      "AvailableNum": 0
+    }
   },
   "50000039": {
     "Id": 50000039,
@@ -7334,7 +7352,25 @@
     "Desc": "Reach designated Union Levels to claim this Supply Pack.",
     "Bg": "The special supply pack issued by the Store. It is delivered to the customer by Lollo Logistics.",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_02_UI.T_IconGiftPack_dj_02_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 4,
+      "Content": [
+        {
+          "Key": 50001,
+          "Value": 3
+        },
+        {
+          "Key": 43020002,
+          "Value": 10
+        },
+        {
+          "Key": 2,
+          "Value": 40000
+        }
+      ],
+      "AvailableNum": 0
+    }
   },
   "50000040": {
     "Id": 50000040,
@@ -7350,7 +7386,25 @@
     "Desc": "Reach designated Union Levels to claim this Supply Pack.",
     "Bg": "The special supply pack issued by the Store. It is delivered to the customer by Lollo Logistics.",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_03_UI.T_IconGiftPack_dj_03_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 4,
+      "Content": [
+        {
+          "Key": 50001,
+          "Value": 5
+        },
+        {
+          "Key": 36000002,
+          "Value": 10
+        },
+        {
+          "Key": 2,
+          "Value": 60000
+        }
+      ],
+      "AvailableNum": 0
+    }
   },
   "50000041": {
     "Id": 50000041,
@@ -7366,7 +7420,25 @@
     "Desc": "Reach designated Union Levels to claim this Supply Pack.",
     "Bg": "The special supply pack issued by the Store. It is delivered to the customer by Lollo Logistics.",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_04_UI.T_IconGiftPack_dj_04_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 4,
+      "Content": [
+        {
+          "Key": 10800,
+          "Value": 10
+        },
+        {
+          "Key": 43010003,
+          "Value": 30
+        },
+        {
+          "Key": 2,
+          "Value": 80000
+        }
+      ],
+      "AvailableNum": 0
+    }
   },
   "50000042": {
     "Id": 50000042,
@@ -7382,7 +7454,25 @@
     "Desc": "Reach designated Union Levels to claim this Supply Pack.",
     "Bg": "The special supply pack issued by the Store. It is delivered to the customer by Lollo Logistics.",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_05_UI.T_IconGiftPack_dj_05_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 4,
+      "Content": [
+        {
+          "Key": 36000014,
+          "Value": 400
+        },
+        {
+          "Key": 36000003,
+          "Value": 30
+        },
+        {
+          "Key": 2,
+          "Value": 100000
+        }
+      ],
+      "AvailableNum": 0
+    }
   },
   "50000043": {
     "Id": 50000043,
@@ -7398,7 +7488,25 @@
     "Desc": "Reach designated Union Levels to claim this Supply Pack.",
     "Bg": "The special supply pack issued by the Store. It is delivered to the customer by Lollo Logistics.",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_06_UI.T_IconGiftPack_dj_06_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 4,
+      "Content": [
+        {
+          "Key": 10800,
+          "Value": 15
+        },
+        {
+          "Key": 43020003,
+          "Value": 30
+        },
+        {
+          "Key": 2,
+          "Value": 150000
+        }
+      ],
+      "AvailableNum": 0
+    }
   },
   "50000044": {
     "Id": 50000044,
@@ -7414,7 +7522,25 @@
     "Desc": "Reach designated Union Levels to claim this Supply Pack.",
     "Bg": "The special supply pack issued by the Store. It is delivered to the customer by Lollo Logistics.",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_07_UI.T_IconGiftPack_dj_07_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 4,
+      "Content": [
+        {
+          "Key": 36000014,
+          "Value": 500
+        },
+        {
+          "Key": 43010004,
+          "Value": 40
+        },
+        {
+          "Key": 2,
+          "Value": 200000
+        }
+      ],
+      "AvailableNum": 0
+    }
   },
   "50000045": {
     "Id": 50000045,
@@ -7430,7 +7556,25 @@
     "Desc": "Reach designated Union Levels to claim this Supply Pack.",
     "Bg": "The special supply pack issued by the Store. It is delivered to the customer by Lollo Logistics.",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_08_UI.T_IconGiftPack_dj_08_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 4,
+      "Content": [
+        {
+          "Key": 50002,
+          "Value": 5
+        },
+        {
+          "Key": 43020004,
+          "Value": 40
+        },
+        {
+          "Key": 2,
+          "Value": 300000
+        }
+      ],
+      "AvailableNum": 0
+    }
   },
   "50000046": {
     "Id": 50000046,
@@ -7446,7 +7590,25 @@
     "Desc": "Reach designated Union Levels to claim this Supply Pack.",
     "Bg": "The special supply pack issued by the Store. It is delivered to the customer by Lollo Logistics.",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_09_UI.T_IconGiftPack_dj_09_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 4,
+      "Content": [
+        {
+          "Key": 50002,
+          "Value": 5
+        },
+        {
+          "Key": 36000004,
+          "Value": 40
+        },
+        {
+          "Key": 2,
+          "Value": 400000
+        }
+      ],
+      "AvailableNum": 0
+    }
   },
   "50000047": {
     "Id": 50000047,
@@ -7462,7 +7624,25 @@
     "Desc": "Reach designated Union Levels to claim this Supply Pack.",
     "Bg": "The special supply pack issued by the Store. It is delivered to the customer by Lollo Logistics.",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_10_UI.T_IconGiftPack_dj_10_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 4,
+      "Content": [
+        {
+          "Key": 50002,
+          "Value": 5
+        },
+        {
+          "Key": 43010004,
+          "Value": 50
+        },
+        {
+          "Key": 2,
+          "Value": 500000
+        }
+      ],
+      "AvailableNum": 0
+    }
   },
   "70140002": {
     "Id": 70140002,
@@ -7918,7 +8098,33 @@
     "Desc": "Provides a Golden Eternal series weapon of your choice.",
     "Bg": "It contains the powerful weapon selected by the Pioneer Association for its explorers.",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_003_UI.T_IconGiftPack_003_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 2,
+      "Content": [
+        {
+          "Key": 21010074,
+          "Value": 1
+        },
+        {
+          "Key": 21020074,
+          "Value": 1
+        },
+        {
+          "Key": 21030074,
+          "Value": 1
+        },
+        {
+          "Key": 21040074,
+          "Value": 1
+        },
+        {
+          "Key": 21050074,
+          "Value": 1
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "50000165": {
     "Id": 50000165,
@@ -7934,7 +8140,33 @@
     "Desc": "Open to claim one basic material for Weapon Ascension or Skill Upgrade of your choice:\n<color=Rare2>Inert Metallic Drip *1</color>\n<color=Rare2>Impure Phlogiston *1</color>\n<color=Rare2>Lento Helix *1</color>\n<color=Rare2>Waveworn Residue 210 *1</color>\n<color=Rare2>Cadence Seed *1</color>",
     "Bg": "The special supply pack issued by the Store. It is delivered to the customer by Lollo Logistics. Open to claim rich supplies.",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_004_UI.T_IconGiftPack_004_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 2,
+      "Content": [
+        {
+          "Key": 43020011,
+          "Value": 1
+        },
+        {
+          "Key": 43020021,
+          "Value": 1
+        },
+        {
+          "Key": 43020031,
+          "Value": 1
+        },
+        {
+          "Key": 43020041,
+          "Value": 1
+        },
+        {
+          "Key": 43020051,
+          "Value": 1
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "50000166": {
     "Id": 50000166,
@@ -7950,7 +8182,33 @@
     "Desc": "Open to claim one medium material for Weapon Ascension or Skill Upgrade of your choice:\n<color=Rare3>Reactive Metallic Drip *1</color>\n<color=Rare3>Extracted Phlogiston *1</color>\n<color=Rare3>Adagio Helix *1</color>\n<color=Rare3>Waveworn Residue 226 *1</color>\n<color=Rare3>Cadence Bud *1</color>",
     "Bg": "The special supply pack issued by the Store. It is delivered to the customer by Lollo Logistics. Open to claim rich supplies.",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_004_UI.T_IconGiftPack_004_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 2,
+      "Content": [
+        {
+          "Key": 43020012,
+          "Value": 1
+        },
+        {
+          "Key": 43020022,
+          "Value": 1
+        },
+        {
+          "Key": 43020032,
+          "Value": 1
+        },
+        {
+          "Key": 43020042,
+          "Value": 1
+        },
+        {
+          "Key": 43020052,
+          "Value": 1
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "50000167": {
     "Id": 50000167,
@@ -7966,7 +8224,33 @@
     "Desc": "Open to claim one advanced material for Weapon Ascension or Skill Upgrade of your choice:\n<color=Rare4>Polarized Metallic Drip *1</color>\n<color=Rare4>Refined Phlogiston *1</color>\n<color=Rare4>Andante Helix *1</color>\n<color=Rare4>Waveworn Residue 235 *1</color>\n<color=Rare4>Cadence Leaf *1</color>",
     "Bg": "The special supply pack issued by the Store. It is delivered to the customer by Lollo Logistics. Open to claim rich supplies.",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_005_UI.T_IconGiftPack_005_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 2,
+      "Content": [
+        {
+          "Key": 43020013,
+          "Value": 1
+        },
+        {
+          "Key": 43020023,
+          "Value": 1
+        },
+        {
+          "Key": 43020033,
+          "Value": 1
+        },
+        {
+          "Key": 43020043,
+          "Value": 1
+        },
+        {
+          "Key": 43020053,
+          "Value": 1
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "50000168": {
     "Id": 50000168,
@@ -7982,7 +8266,33 @@
     "Desc": "Open to claim one premium material for Weapon Ascension or Skill Upgrade of your choice:\n<color=Rare5>Heterized Metallic Drip *1</color>\n<color=Rare5>Flawless Phlogiston *1</color>\n<color=Rare5>Presto Helix *1</color>\n<color=Rare5>Waveworn Residue 239 *1</color>\n<color=Rare5>Cadence Blossom*1</color>",
     "Bg": "The special supply pack issued by the Store. It is delivered to the customer by Lollo Logistics. Open to claim rich supplies.",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_006_UI.T_IconGiftPack_006_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 2,
+      "Content": [
+        {
+          "Key": 43020014,
+          "Value": 1
+        },
+        {
+          "Key": 43020024,
+          "Value": 1
+        },
+        {
+          "Key": 43020034,
+          "Value": 1
+        },
+        {
+          "Key": 43020044,
+          "Value": 1
+        },
+        {
+          "Key": 43020054,
+          "Value": 1
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "12": {
     "Id": 12,
@@ -8369,7 +8679,33 @@
     "Desc": "Provides the Pioneer Podcast's exclusive Sigil.",
     "Bg": "\"Would you like a unique Sigil that stands out? Sign up for our Connoisseur Channel today!\"",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_005_UI.T_IconGiftPack_005_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 2,
+      "Content": [
+        {
+          "Key": 43020013,
+          "Value": 1
+        },
+        {
+          "Key": 43020023,
+          "Value": 1
+        },
+        {
+          "Key": 43020033,
+          "Value": 1
+        },
+        {
+          "Key": 43020043,
+          "Value": 1
+        },
+        {
+          "Key": 43020053,
+          "Value": 1
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "50000170": {
     "Id": 50000170,
@@ -8385,7 +8721,33 @@
     "Desc": "Provides an exclusive Syntonize Material for the Golden Eternal series weapon.",
     "Bg": "",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_003_UI.T_IconGiftPack_003_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 2,
+      "Content": [
+        {
+          "Key": 43020014,
+          "Value": 1
+        },
+        {
+          "Key": 43020024,
+          "Value": 1
+        },
+        {
+          "Key": 43020034,
+          "Value": 1
+        },
+        {
+          "Key": 43020044,
+          "Value": 1
+        },
+        {
+          "Key": 43020054,
+          "Value": 1
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "50005": {
     "Id": 50005,
@@ -8453,7 +8815,33 @@
     "Desc": "Open to claim one Originite series weapon of your choice:\n<color=Rare4>Broadblade#41 *1</color>\n<color=Rare4>Sword#18 *1</color>\n<color=Rare4>Pistols#26 *1</color>\n<color=Rare4>Gauntlets#21D *1</color>\n<color=Rare4>Rectifier#25 *1</color>",
     "Bg": "The special supply chest obtained from Shilang in the Tiger's Maw.",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_012_UI.T_IconGiftPack_012_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 2,
+      "Content": [
+        {
+          "Key": 21010034,
+          "Value": 1
+        },
+        {
+          "Key": 21020034,
+          "Value": 1
+        },
+        {
+          "Key": 21030034,
+          "Value": 1
+        },
+        {
+          "Key": 21040034,
+          "Value": 1
+        },
+        {
+          "Key": 21050034,
+          "Value": 1
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "42500070": {
     "Id": 42500070,
@@ -8501,7 +8889,7 @@
     "TagNum": [
       24
     ],
-    "Name": "A recipe that details how to make Happiness Tea.",
+    "Name": "Happiness Tea Recipe",
     "Desc": "Used to learn how to cook Happiness Tea.",
     "Bg": "A recipe that details how to make Happiness Tea.",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconCook/T_IconCook_036_UI.T_IconCook_036_UI",
@@ -9421,7 +9809,33 @@
     "Desc": "Open to claim one 5-star Winter Brume series weapon of your choice:\n<color=Rare5>Lustrous Razor *1</color>\n<color=Rare5>Emerald of Genesis *1</color>\n<color=Rare5>Static Mist *1</color>\n<color=Rare5>Abyss Surges *1</color>\n<color=Rare5>Cosmic Ripples *1</color>",
     "Bg": "",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_014_UI.T_IconGiftPack_014_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 2,
+      "Content": [
+        {
+          "Key": 21010015,
+          "Value": 1
+        },
+        {
+          "Key": 21020015,
+          "Value": 1
+        },
+        {
+          "Key": 21030015,
+          "Value": 1
+        },
+        {
+          "Key": 21040015,
+          "Value": 1
+        },
+        {
+          "Key": 21050015,
+          "Value": 1
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "42500080": {
     "Id": 42500080,
@@ -9501,7 +9915,25 @@
     "Desc": "Basic Experience Gift Pack",
     "Bg": "These resources come from all over Solaris-3, delivered on time by Lollo Logistics for customers. When traveling in dangerous areas, mutual support is indispensable for safe travel.",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_007_UI.T_IconGiftPack_007_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 4,
+      "Content": [
+        {
+          "Key": 43010003,
+          "Value": 8
+        },
+        {
+          "Key": 43020003,
+          "Value": 4
+        },
+        {
+          "Key": 2,
+          "Value": 24000
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "51002": {
     "Id": 51002,
@@ -9517,7 +9949,25 @@
     "Desc": "Advanced Experience Package",
     "Bg": "These resources come from all over Solaris-3, delivered on time by Lollo Logistics for customers. When traveling in dangerous areas, mutual support is indispensable for safe travel.",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_008_UI.T_IconGiftPack_008_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 4,
+      "Content": [
+        {
+          "Key": 43010003,
+          "Value": 60
+        },
+        {
+          "Key": 43020003,
+          "Value": 35
+        },
+        {
+          "Key": 2,
+          "Value": 150000
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "51003": {
     "Id": 51003,
@@ -9533,7 +9983,21 @@
     "Desc": "Basic Weapon Skill Ascension Material Bundle",
     "Bg": "Among various supply services, some supply providers are particularly mysterious, such as the Black Shores. No one knows how it obtains these supplies, but the quality is indeed excellent.",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_009_UI.T_IconGiftPack_009_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 4,
+      "Content": [
+        {
+          "Key": 50000167,
+          "Value": 12
+        },
+        {
+          "Key": 2,
+          "Value": 18000
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "51004": {
     "Id": 51004,
@@ -9549,7 +10013,21 @@
     "Desc": "Advanced Weapon Skill Ascension Material Bundle",
     "Bg": "Among various supply services, some supply providers are particularly mysterious, such as the Black Shores. No one knows how it obtains these supplies, but the quality is indeed excellent.",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_010_UI.T_IconGiftPack_010_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 4,
+      "Content": [
+        {
+          "Key": 50000168,
+          "Value": 25
+        },
+        {
+          "Key": 2,
+          "Value": 100000
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "51005": {
     "Id": 51005,
@@ -9565,7 +10043,25 @@
     "Desc": "Echo Development Bundle",
     "Bg": "Among various supply services, some supply providers are particularly mysterious, such as the Black Shores. No one knows how it obtains these supplies, but the quality is indeed excellent.",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_011_UI.T_IconGiftPack_011_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 4,
+      "Content": [
+        {
+          "Key": 36000014,
+          "Value": 150
+        },
+        {
+          "Key": 36000004,
+          "Value": 4
+        },
+        {
+          "Key": 2,
+          "Value": 50000
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "72010001": {
     "Id": 72010001,
@@ -10944,7 +11440,25 @@
     "Desc": "Open to claim one Originite series weapon of your choice:\n<color=Rare4>Broadblade#41 *1</color>\n<color=Rare4>Sword#18 *1</color>\n<color=Rare4>Pistols#26 *1</color>\n<color=Rare4>Gauntlets#21D *1</color>\n<color=Rare4>Rectifier#25 *1</color>",
     "Bg": "The special supply chest obtained from Shilang in the Tiger's Maw.",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_012_UI.T_IconGiftPack_012_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 4,
+      "Content": [
+        {
+          "Key": 41100011,
+          "Value": 1
+        },
+        {
+          "Key": 41100021,
+          "Value": 1
+        },
+        {
+          "Key": 41100031,
+          "Value": 1
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "50000102": {
     "Id": 50000102,
@@ -10960,7 +11474,25 @@
     "Desc": "Open to claim one Originite series weapon of your choice:\n<color=Rare4>Broadblade#41 *1</color>\n<color=Rare4>Sword#18 *1</color>\n<color=Rare4>Pistols#26 *1</color>\n<color=Rare4>Gauntlets#21D *1</color>\n<color=Rare4>Rectifier#25 *1</color>",
     "Bg": "The special supply chest obtained from Shilang in the Tiger's Maw.",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_012_UI.T_IconGiftPack_012_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 4,
+      "Content": [
+        {
+          "Key": 41100012,
+          "Value": 1
+        },
+        {
+          "Key": 41100022,
+          "Value": 1
+        },
+        {
+          "Key": 41100032,
+          "Value": 1
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "50000103": {
     "Id": 50000103,
@@ -10976,7 +11508,25 @@
     "Desc": "Open to claim one Originite series weapon of your choice:\n<color=Rare4>Broadblade#41 *1</color>\n<color=Rare4>Sword#18 *1</color>\n<color=Rare4>Pistols#26 *1</color>\n<color=Rare4>Gauntlets#21D *1</color>\n<color=Rare4>Rectifier#25 *1</color>",
     "Bg": "The special supply chest obtained from Shilang in the Tiger's Maw.",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_012_UI.T_IconGiftPack_012_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 4,
+      "Content": [
+        {
+          "Key": 41100013,
+          "Value": 1
+        },
+        {
+          "Key": 41100023,
+          "Value": 1
+        },
+        {
+          "Key": 41100033,
+          "Value": 1
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "50000104": {
     "Id": 50000104,
@@ -10992,7 +11542,25 @@
     "Desc": "Open to claim one Originite series weapon of your choice:\n<color=Rare4>Broadblade#41 *1</color>\n<color=Rare4>Sword#18 *1</color>\n<color=Rare4>Pistols#26 *1</color>\n<color=Rare4>Gauntlets#21D *1</color>\n<color=Rare4>Rectifier#25 *1</color>",
     "Bg": "The special supply chest obtained from Shilang in the Tiger's Maw.",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_012_UI.T_IconGiftPack_012_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 4,
+      "Content": [
+        {
+          "Key": 41100014,
+          "Value": 1
+        },
+        {
+          "Key": 41100024,
+          "Value": 1
+        },
+        {
+          "Key": 41100034,
+          "Value": 1
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "13": {
     "Id": 13,
@@ -11024,7 +11592,33 @@
     "Desc": "Open to claim one Rangers' Series Weapon of your choice:\n<color=Rare4>Dauntless Evernight*1</color>\n<color=Rare4>Commando of Conviction*1</color>\n<color=Rare4>Undying Flame*1</color>\n<color=Rare4>Amity Accord*1</color>\n<color=Rare4>Jinzhou Keeper*1</color>",
     "Bg": "",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_012_UI.T_IconGiftPack_012_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 2,
+      "Content": [
+        {
+          "Key": 21010044,
+          "Value": 1
+        },
+        {
+          "Key": 21020044,
+          "Value": 1
+        },
+        {
+          "Key": 21030044,
+          "Value": 1
+        },
+        {
+          "Key": 21040044,
+          "Value": 1
+        },
+        {
+          "Key": 21050044,
+          "Value": 1
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "42310200": {
     "Id": 42310200,
@@ -11943,10 +12537,24 @@
       16
     ],
     "Name": "Magisterial Radiant Aid",
-    "Desc": "",
+    "Desc": "Obtain to receive the items inside.",
     "Bg": "",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_12_UI.T_IconGiftPack_dj_12_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 4,
+      "Content": [
+        {
+          "Key": 50002,
+          "Value": 5
+        },
+        {
+          "Key": 3,
+          "Value": 400
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "51007": {
     "Id": 51007,
@@ -11959,10 +12567,24 @@
       16
     ],
     "Name": "Magisterial Forging Aid",
-    "Desc": "",
+    "Desc": "Obtain to receive the items inside.",
     "Bg": "",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_13_UI.T_IconGiftPack_dj_13_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 4,
+      "Content": [
+        {
+          "Key": 50005,
+          "Value": 5
+        },
+        {
+          "Key": 3,
+          "Value": 400
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "70140025": {
     "Id": 70140025,
@@ -12284,10 +12906,24 @@
       16
     ],
     "Name": "Blake Bloom's Radiant Aid",
-    "Desc": "",
+    "Desc": "Obtain to receive the items inside.",
     "Bg": "",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 4,
+      "Content": [
+        {
+          "Key": 50002,
+          "Value": 5
+        },
+        {
+          "Key": 3,
+          "Value": 400
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "51009": {
     "Id": 51009,
@@ -12300,10 +12936,24 @@
       16
     ],
     "Name": "Blake Bloom's Forging Aid",
-    "Desc": "",
+    "Desc": "Obtain to receive the items inside.",
     "Bg": "",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_18_UI.T_IconGiftPack_dj_18_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 4,
+      "Content": [
+        {
+          "Key": 50005,
+          "Value": 5
+        },
+        {
+          "Key": 3,
+          "Value": 400
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "70050040": {
     "Id": 70050040,
@@ -12466,7 +13116,33 @@
     "Desc": "Open to claim one basic material for Weapon Ascension or Skill Upgrade of your choice:\n<color=Rare2>Inert Metallic Drip *1</color>\n<color=Rare2>Impure Phlogiston *1</color>\n<color=Rare2>Lento Helix *1</color>\n<color=Rare2>Waveworn Residue 210 *1</color>\n<color=Rare2>Cadence Seed *1</color>",
     "Bg": "A special supply chest. Its exterior is made from high-performance materials designed to withstand extreme heat and pressure.",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_015_UI.T_IconGiftPack_015_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 2,
+      "Content": [
+        {
+          "Key": 43020011,
+          "Value": 1
+        },
+        {
+          "Key": 43020021,
+          "Value": 1
+        },
+        {
+          "Key": 43020031,
+          "Value": 1
+        },
+        {
+          "Key": 43020041,
+          "Value": 1
+        },
+        {
+          "Key": 43020051,
+          "Value": 1
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "50000174": {
     "Id": 50000174,
@@ -12482,7 +13158,33 @@
     "Desc": "Open to claim one medium material for Weapon Ascension or Skill Upgrade of your choice:\n<color=Rare3>Reactive Metallic Drip *1</color>\n<color=Rare3>Extracted Phlogiston *1</color>\n<color=Rare3>Adagio Helix *1</color>\n<color=Rare3>Waveworn Residue 226 *1</color>\n<color=Rare3>Cadence Bud *1</color>",
     "Bg": "A special supply chest. Its exterior is made from high-performance materials designed to withstand extreme heat and pressure.",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_016_UI.T_IconGiftPack_016_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 2,
+      "Content": [
+        {
+          "Key": 43020012,
+          "Value": 1
+        },
+        {
+          "Key": 43020022,
+          "Value": 1
+        },
+        {
+          "Key": 43020032,
+          "Value": 1
+        },
+        {
+          "Key": 43020042,
+          "Value": 1
+        },
+        {
+          "Key": 43020052,
+          "Value": 1
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "50000175": {
     "Id": 50000175,
@@ -12498,7 +13200,33 @@
     "Desc": "Open to claim one advanced material for Weapon Ascension or Skill Upgrade of your choice:\n<color=Rare4>Polarized Metallic Drip *1</color>\n<color=Rare4>Refined Phlogiston *1</color>\n<color=Rare4>Andante Helix *1</color>\n<color=Rare4>Waveworn Residue 235 *1</color>\n<color=Rare4>Cadence Leaf *1</color>",
     "Bg": "A special supply chest. Its exterior is made from high-performance materials designed to withstand extreme heat and pressure.",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_017_UI.T_IconGiftPack_017_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 2,
+      "Content": [
+        {
+          "Key": 43020013,
+          "Value": 1
+        },
+        {
+          "Key": 43020023,
+          "Value": 1
+        },
+        {
+          "Key": 43020033,
+          "Value": 1
+        },
+        {
+          "Key": 43020043,
+          "Value": 1
+        },
+        {
+          "Key": 43020053,
+          "Value": 1
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "50000176": {
     "Id": 50000176,
@@ -12514,7 +13242,33 @@
     "Desc": "Open to claim one premium material for Weapon Ascension or Skill Upgrade of your choice:\n<color=Rare5>Heterized Metallic Drip *1</color>\n<color=Rare5>Flawless Phlogiston *1</color>\n<color=Rare5>Presto Helix *1</color>\n<color=Rare5>Waveworn Residue 239 *1</color>\n<color=Rare5>Cadence Blossom*1</color>",
     "Bg": "A special supply chest. Its exterior is made from high-performance materials designed to withstand extreme heat and pressure.",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_018_UI.T_IconGiftPack_018_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 2,
+      "Content": [
+        {
+          "Key": 43020014,
+          "Value": 1
+        },
+        {
+          "Key": 43020024,
+          "Value": 1
+        },
+        {
+          "Key": 43020034,
+          "Value": 1
+        },
+        {
+          "Key": 43020044,
+          "Value": 1
+        },
+        {
+          "Key": 43020054,
+          "Value": 1
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "80000039": {
     "Id": 80000039,
@@ -12688,7 +13442,33 @@
     "Desc": "Open to claim one Deep Sky Blazar series weapon of your choice:\n<color=Rare4> Waning Redshift *1</color>\n<color=Rare4> Endless Collapse *1</color>\n<color=Rare4> Relativistic Jet *1</color>\n<color=Rare4> Celestial Spiral *1</color>\n<color=Rare4> Fusion Accretion *1</color>",
     "Bg": "A prototype weapon designed by the Black Shores for elite combatants. This weapon takes its name from an active galactic nucleus whose blinding radiance pierces the cosmos.\n\nNo matter where you are, the starlight of the shores will always guide your way.",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_003_UI.T_IconGiftPack_003_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 2,
+      "Content": [
+        {
+          "Key": 21010084,
+          "Value": 1
+        },
+        {
+          "Key": 21020084,
+          "Value": 1
+        },
+        {
+          "Key": 21030084,
+          "Value": 1
+        },
+        {
+          "Key": 21040084,
+          "Value": 1
+        },
+        {
+          "Key": 21050084,
+          "Value": 1
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "70140012": {
     "Id": 70140012,
@@ -12988,7 +13768,25 @@
     "Desc": "Open to claim one medium material for Weapon Ascension or Skill Upgrade of your choice:\n<color=Rare3>Basic Ring*1</color>\n<color=Rare3>MF Whisperin Core*1</color>\n<color=Rare3>MF Howler Core*1</color>",
     "Bg": "The Bloom Bearers of the Black Shores always return from their field trips with abundant samples, which are inventoried and sealed away by the Gardener after running the necessary tests for future use.",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_024_UI.T_IconGiftPack_024_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 2,
+      "Content": [
+        {
+          "Key": 41100012,
+          "Value": 1
+        },
+        {
+          "Key": 41100022,
+          "Value": 1
+        },
+        {
+          "Key": 41100032,
+          "Value": 1
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "50000180": {
     "Id": 50000180,
@@ -13004,7 +13802,25 @@
     "Desc": "Open to claim one advanced material for Weapon Ascension or Skill Upgrade of your choice:\n<color=Rare4>Improved Ring*1</color>\n<color=Rare4>HF Whisperin Core*1</color>\n<color=Rare4>HF Howler Core*1</color>",
     "Bg": "The Bloom Bearers of the Black Shores always return from their field trips with abundant samples, which are inventoried and sealed away by the Gardener after running the necessary tests for future use.",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_025_UI.T_IconGiftPack_025_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 2,
+      "Content": [
+        {
+          "Key": 41100013,
+          "Value": 1
+        },
+        {
+          "Key": 41100023,
+          "Value": 1
+        },
+        {
+          "Key": 41100033,
+          "Value": 1
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "50000181": {
     "Id": 50000181,
@@ -13020,7 +13836,25 @@
     "Desc": "Open to claim one premium material for Weapon Ascension or Skill Upgrade of your choice:\n<color=Rare5>Tailored Ring*1</color>\n<color=Rare5>FF Whisperin Core*1</color>\n<color=Rare5>FF Howler Core*1</color>",
     "Bg": "The Bloom Bearers of the Black Shores always return from their field trips with abundant samples, which are inventoried and sealed away by the Gardener after running the necessary tests for future use.",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_026_UI.T_IconGiftPack_026_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 2,
+      "Content": [
+        {
+          "Key": 41100014,
+          "Value": 1
+        },
+        {
+          "Key": 41100024,
+          "Value": 1
+        },
+        {
+          "Key": 41100034,
+          "Value": 1
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "50000178": {
     "Id": 50000178,
@@ -13036,7 +13870,25 @@
     "Desc": "Open to claim one basic material for Weapon Ascension or Skill Upgrade of your choice:\n<color=Rare2>Crude Ring*1</color>\n<color=Rare2>LF Whisperin Core*1</color>\n<color=Rare2>LF Howler Core*1</color>",
     "Bg": "The Bloom Bearers of the Black Shores always return from their field trips with abundant samples, which are inventoried and sealed away by the Gardener after running the necessary tests for future use.",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_023_UI.T_IconGiftPack_023_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 2,
+      "Content": [
+        {
+          "Key": 41100011,
+          "Value": 1
+        },
+        {
+          "Key": 41100021,
+          "Value": 1
+        },
+        {
+          "Key": 41100031,
+          "Value": 1
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "70050047": {
     "Id": 70050047,
@@ -13504,10 +14356,44 @@
       16
     ],
     "Name": "Awakening Bundle (For Pre-Sales)",
-    "Desc": "",
+    "Desc": "Obtain to receive the items inside.",
     "Bg": "",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 4,
+      "Content": [
+        {
+          "Key": 50001,
+          "Value": 5
+        },
+        {
+          "Key": 43010004,
+          "Value": 12
+        },
+        {
+          "Key": 43020004,
+          "Value": 12
+        },
+        {
+          "Key": 2,
+          "Value": 500000
+        },
+        {
+          "Key": 42100015,
+          "Value": 15
+        },
+        {
+          "Key": 80000016,
+          "Value": 10
+        },
+        {
+          "Key": 80000021,
+          "Value": 5
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "52002": {
     "Id": 52002,
@@ -13520,10 +14406,40 @@
       16
     ],
     "Name": "Awakening Bundle",
-    "Desc": "",
+    "Desc": "Obtain to receive the items inside.",
     "Bg": "",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 4,
+      "Content": [
+        {
+          "Key": 50001,
+          "Value": 5
+        },
+        {
+          "Key": 43010004,
+          "Value": 10
+        },
+        {
+          "Key": 43020004,
+          "Value": 10
+        },
+        {
+          "Key": 2,
+          "Value": 500000
+        },
+        {
+          "Key": 42100015,
+          "Value": 15
+        },
+        {
+          "Key": 80000016,
+          "Value": 10
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "70120008": {
     "Id": 70120008,
@@ -13648,10 +14564,32 @@
       16
     ],
     "Name": "Adventurer's Starter Pack",
-    "Desc": "",
+    "Desc": "Obtain to receive the items inside.",
     "Bg": "",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 4,
+      "Content": [
+        {
+          "Key": 43010003,
+          "Value": 5
+        },
+        {
+          "Key": 43020003,
+          "Value": 5
+        },
+        {
+          "Key": 80000012,
+          "Value": 2
+        },
+        {
+          "Key": 2,
+          "Value": 20000
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "52004": {
     "Id": 52004,
@@ -13664,10 +14602,32 @@
       16
     ],
     "Name": "Quality Adventurer's Starter Pack",
-    "Desc": "",
+    "Desc": "Obtain to receive the items inside.",
     "Bg": "",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 4,
+      "Content": [
+        {
+          "Key": 43010003,
+          "Value": 7
+        },
+        {
+          "Key": 36000003,
+          "Value": 7
+        },
+        {
+          "Key": 80000014,
+          "Value": 2
+        },
+        {
+          "Key": 2,
+          "Value": 30000
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "10001606": {
     "Id": 10001606,
@@ -16286,7 +17246,33 @@
     "Desc": "Open to claim one Poetry and Paean series weapon of your choice:\n<color=Rare4>Meditations on Mercy *1</color>\n<color=Rare4>Fables of Wisdom *1</color>\n<color=Rare4>Romance in Farewell *1</color>\n<color=Rare4>Legend of Drunken Hero *1</color>\n<color=Rare4>Waltz in Masquerade *1</color>",
     "Bg": "A standard weapon forged by the Montelli family. Though it may seem like a mere stage prop, in essence, it is a deadly instrument of destruction. It is said that many members of the Montelli family carry this weapon during the Carnevale, prepared for the inevitable...",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_012_UI.T_IconGiftPack_012_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 2,
+      "Content": [
+        {
+          "Key": 21010094,
+          "Value": 1
+        },
+        {
+          "Key": 21020094,
+          "Value": 1
+        },
+        {
+          "Key": 21030094,
+          "Value": 1
+        },
+        {
+          "Key": 21040094,
+          "Value": 1
+        },
+        {
+          "Key": 21050094,
+          "Value": 1
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "80000052": {
     "Id": 80000052,
@@ -16370,7 +17356,33 @@
     "Desc": "Open to claim one basic material for Weapon Ascension or Skill Upgrade of your choice:\n<color=Rare2>Inert Metallic Drip *1</color>\n<color=Rare2>Impure Phlogiston *1</color>\n<color=Rare2>Lento Helix *1</color>\n<color=Rare2>Waveworn Residue 210 *1</color>\n<color=Rare2>Cadence Seed *1</color>",
     "Bg": "A special supply chest. Its exterior is made from high-performance materials designed to withstand extreme heat and pressure.",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_015_UI.T_IconGiftPack_015_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 2,
+      "Content": [
+        {
+          "Key": 43020011,
+          "Value": 1
+        },
+        {
+          "Key": 43020021,
+          "Value": 1
+        },
+        {
+          "Key": 43020031,
+          "Value": 1
+        },
+        {
+          "Key": 43020041,
+          "Value": 1
+        },
+        {
+          "Key": 43020051,
+          "Value": 1
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "50000302": {
     "Id": 50000302,
@@ -16386,7 +17398,33 @@
     "Desc": "Open to claim one medium material for Weapon Ascension or Skill Upgrade of your choice:\n<color=Rare3>Reactive Metallic Drip *1</color>\n<color=Rare3>Extracted Phlogiston *1</color>\n<color=Rare3>Adagio Helix *1</color>\n<color=Rare3>Waveworn Residue 226 *1</color>\n<color=Rare3>Cadence Bud *1</color>",
     "Bg": "A special supply chest. Its exterior is made from high-performance materials designed to withstand extreme heat and pressure.",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_016_UI.T_IconGiftPack_016_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 2,
+      "Content": [
+        {
+          "Key": 43020012,
+          "Value": 1
+        },
+        {
+          "Key": 43020022,
+          "Value": 1
+        },
+        {
+          "Key": 43020032,
+          "Value": 1
+        },
+        {
+          "Key": 43020042,
+          "Value": 1
+        },
+        {
+          "Key": 43020052,
+          "Value": 1
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "50000303": {
     "Id": 50000303,
@@ -16402,7 +17440,33 @@
     "Desc": "Open to claim one advanced material for Weapon Ascension or Skill Upgrade of your choice:\n<color=Rare4>Polarized Metallic Drip *1</color>\n<color=Rare4>Refined Phlogiston *1</color>\n<color=Rare4>Andante Helix *1</color>\n<color=Rare4>Waveworn Residue 235 *1</color>\n<color=Rare4>Cadence Leaf *1</color>",
     "Bg": "A special supply chest. Its exterior is made from high-performance materials designed to withstand extreme heat and pressure.",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_017_UI.T_IconGiftPack_017_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 2,
+      "Content": [
+        {
+          "Key": 43020013,
+          "Value": 1
+        },
+        {
+          "Key": 43020023,
+          "Value": 1
+        },
+        {
+          "Key": 43020033,
+          "Value": 1
+        },
+        {
+          "Key": 43020043,
+          "Value": 1
+        },
+        {
+          "Key": 43020053,
+          "Value": 1
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "50000304": {
     "Id": 50000304,
@@ -16418,7 +17482,33 @@
     "Desc": "Open to claim one premium material for Weapon Ascension or Skill Upgrade of your choice:\n<color=Rare5>Heterized Metallic Drip *1</color>\n<color=Rare5>Flawless Phlogiston *1</color>\n<color=Rare5>Presto Helix *1</color>\n<color=Rare5>Waveworn Residue 239 *1</color>\n<color=Rare5>Cadence Blossom*1</color>",
     "Bg": "A special supply chest. Its exterior is made from high-performance materials designed to withstand extreme heat and pressure.",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_018_UI.T_IconGiftPack_018_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 2,
+      "Content": [
+        {
+          "Key": 43020014,
+          "Value": 1
+        },
+        {
+          "Key": 43020024,
+          "Value": 1
+        },
+        {
+          "Key": 43020034,
+          "Value": 1
+        },
+        {
+          "Key": 43020044,
+          "Value": 1
+        },
+        {
+          "Key": 43020054,
+          "Value": 1
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "50000305": {
     "Id": 50000305,
@@ -16434,7 +17524,33 @@
     "Desc": "Open to claim one basic material for Weapon Ascension or Skill Upgrade of your choice:\n<color=Rare2>Crude Ring *1</color>\n<color=Rare2>LF Whisperin Core *1</color>\n<color=Rare2>LF Howler Core *1</color>\n<color=Rare2>LF Polygon Core *1</color>\n<color=Rare2>LF Tidal Residuum *1</color>",
     "Bg": "The Bloom Bearers of the Black Shores always return from their field trips with abundant samples, which are inventoried and sealed away by the Gardener after running the necessary tests for future use.",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_023_UI.T_IconGiftPack_023_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 2,
+      "Content": [
+        {
+          "Key": 41100011,
+          "Value": 1
+        },
+        {
+          "Key": 41100021,
+          "Value": 1
+        },
+        {
+          "Key": 41100031,
+          "Value": 1
+        },
+        {
+          "Key": 41100041,
+          "Value": 1
+        },
+        {
+          "Key": 41100051,
+          "Value": 1
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "50000306": {
     "Id": 50000306,
@@ -16450,7 +17566,33 @@
     "Desc": "Open to claim one medium material for Weapon Ascension or Skill Upgrade of your choice:\n<color=Rare3>Basic Ring *1</color>\n<color=Rare3>MF Whisperin Core *1</color>\n<color=Rare3>MF Howler Core *1</color>\n<color=Rare3>MF Polygon Core *1</color>\n<color=Rare3>MF Tidal Residuum *1</color>",
     "Bg": "The Bloom Bearers of the Black Shores always return from their field trips with abundant samples, which are inventoried and sealed away by the Gardener after running the necessary tests for future use.",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_024_UI.T_IconGiftPack_024_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 2,
+      "Content": [
+        {
+          "Key": 41100012,
+          "Value": 1
+        },
+        {
+          "Key": 41100022,
+          "Value": 1
+        },
+        {
+          "Key": 41100032,
+          "Value": 1
+        },
+        {
+          "Key": 41100042,
+          "Value": 1
+        },
+        {
+          "Key": 41100052,
+          "Value": 1
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "50000307": {
     "Id": 50000307,
@@ -16466,7 +17608,33 @@
     "Desc": "Open to claim one advanced material for Weapon Ascension or Skill Upgrade of your choice:\n<color=Rare4>Improved Ring *1</color>\n<color=Rare4>HF Whisperin Core *1</color>\n<color=Rare4>HF Howler Core *1</color>\n<color=Rare4>HF Polygon Core *1</color>\n<color=Rare4>HF Tidal Residuum *1</color>",
     "Bg": "The Bloom Bearers of the Black Shores always return from their field trips with abundant samples, which are inventoried and sealed away by the Gardener after running the necessary tests for future use.",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_025_UI.T_IconGiftPack_025_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 2,
+      "Content": [
+        {
+          "Key": 41100013,
+          "Value": 1
+        },
+        {
+          "Key": 41100023,
+          "Value": 1
+        },
+        {
+          "Key": 41100033,
+          "Value": 1
+        },
+        {
+          "Key": 41100043,
+          "Value": 1
+        },
+        {
+          "Key": 41100053,
+          "Value": 1
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "50000308": {
     "Id": 50000308,
@@ -16482,7 +17650,33 @@
     "Desc": "Open to claim one premium material for Weapon Ascension or Skill Upgrade of your choice:\n<color=Rare5>Tailored Ring *1</color>\n<color=Rare5>FF Whisperin Core *1</color>\n<color=Rare5>FF Howler Core *1</color>\n<color=Rare5>FF Polygon Core *1</color>\n<color=Rare5>FF Tidal Residuum *1</color>",
     "Bg": "The Bloom Bearers of the Black Shores always return from their field trips with abundant samples, which are inventoried and sealed away by the Gardener after running the necessary tests for future use.",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_026_UI.T_IconGiftPack_026_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 2,
+      "Content": [
+        {
+          "Key": 41100014,
+          "Value": 1
+        },
+        {
+          "Key": 41100024,
+          "Value": 1
+        },
+        {
+          "Key": 41100034,
+          "Value": 1
+        },
+        {
+          "Key": 41100044,
+          "Value": 1
+        },
+        {
+          "Key": 41100054,
+          "Value": 1
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "80110213": {
     "Id": 80110213,
@@ -16722,7 +17916,21 @@
     "Desc": "Used to unlock a Resonator-specific outfit that grants the designated Resonator a new look.",
     "Bg": "Dance in the moonlight, sing to the blooms. It is a dance to commemorate your first meeting, the many journeys you'll share, and the companionship forged along the way.\n\"Now that spring returns, who will share it with me?\nThe peach blossom's beauty longs for eyes that see.\"",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_24_a_UI.T_IconRoleHead256_24_a_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 4,
+      "Content": [
+        {
+          "Key": 81011304,
+          "Value": 1
+        },
+        {
+          "Key": 82011304,
+          "Value": 1
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "53002": {
     "Id": 53002,
@@ -16738,7 +17946,21 @@
     "Desc": "Used to unlock a Resonator-specific outfit that grants the designated Resonator a new look.",
     "Bg": "Silver hair, piercing red eyes, monochromatic garments... A ferocious mask conceals her face, while a gleaming blade rests in her hand. Her voice rings out in a powerful chant, driving away evil spirits and banishing malicious souls.",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_7_a_UI.T_IconRoleHead256_7_a_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 4,
+      "Content": [
+        {
+          "Key": 81011102,
+          "Value": 1
+        },
+        {
+          "Key": 82011102,
+          "Value": 1
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "50000111": {
     "Id": 50000111,
@@ -16754,7 +17976,21 @@
     "Desc": "Open to claim one Originite series weapon of your choice:\n<color=Rare4>Broadblade#41 *1</color>\n<color=Rare4>Sword#18 *1</color>\n<color=Rare4>Pistols#26 *1</color>\n<color=Rare4>Gauntlets#21D *1</color>\n<color=Rare4>Rectifier#25 *1</color>",
     "Bg": "The special supply chest obtained from Shilang in the Tiger's Maw.",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_012_UI.T_IconGiftPack_012_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 4,
+      "Content": [
+        {
+          "Key": 41100041,
+          "Value": 1
+        },
+        {
+          "Key": 41100051,
+          "Value": 1
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "50000112": {
     "Id": 50000112,
@@ -16770,7 +18006,21 @@
     "Desc": "Open to claim one Originite series weapon of your choice:\n<color=Rare4>Broadblade#41 *1</color>\n<color=Rare4>Sword#18 *1</color>\n<color=Rare4>Pistols#26 *1</color>\n<color=Rare4>Gauntlets#21D *1</color>\n<color=Rare4>Rectifier#25 *1</color>",
     "Bg": "The special supply chest obtained from Shilang in the Tiger's Maw.",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_012_UI.T_IconGiftPack_012_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 4,
+      "Content": [
+        {
+          "Key": 41100042,
+          "Value": 1
+        },
+        {
+          "Key": 41100052,
+          "Value": 1
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "50000113": {
     "Id": 50000113,
@@ -16786,7 +18036,21 @@
     "Desc": "Open to claim one Originite series weapon of your choice:\n<color=Rare4>Broadblade#41 *1</color>\n<color=Rare4>Sword#18 *1</color>\n<color=Rare4>Pistols#26 *1</color>\n<color=Rare4>Gauntlets#21D *1</color>\n<color=Rare4>Rectifier#25 *1</color>",
     "Bg": "The special supply chest obtained from Shilang in the Tiger's Maw.",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_012_UI.T_IconGiftPack_012_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 4,
+      "Content": [
+        {
+          "Key": 41100041,
+          "Value": 1
+        },
+        {
+          "Key": 41100051,
+          "Value": 2
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "50000114": {
     "Id": 50000114,
@@ -16802,7 +18066,21 @@
     "Desc": "Open to claim one Originite series weapon of your choice:\n<color=Rare4>Broadblade#41 *1</color>\n<color=Rare4>Sword#18 *1</color>\n<color=Rare4>Pistols#26 *1</color>\n<color=Rare4>Gauntlets#21D *1</color>\n<color=Rare4>Rectifier#25 *1</color>",
     "Bg": "The special supply chest obtained from Shilang in the Tiger's Maw.",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_012_UI.T_IconGiftPack_012_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 4,
+      "Content": [
+        {
+          "Key": 41100042,
+          "Value": 1
+        },
+        {
+          "Key": 41100052,
+          "Value": 2
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "50001092": {
     "Id": 50001092,
@@ -17031,10 +18309,24 @@
       16
     ],
     "Name": "Champion's Radiant Collection I",
-    "Desc": "",
+    "Desc": "Obtain to receive the items inside.",
     "Bg": "",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_27_UI.T_IconGiftPack_dj_27_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 4,
+      "Content": [
+        {
+          "Key": 50002,
+          "Value": 5
+        },
+        {
+          "Key": 3,
+          "Value": 400
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "51011": {
     "Id": 51011,
@@ -17047,10 +18339,24 @@
       16
     ],
     "Name": "Champion's Forging Collection",
-    "Desc": "",
+    "Desc": "Obtain to receive the items inside.",
     "Bg": "",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_28_UI.T_IconGiftPack_dj_28_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 4,
+      "Content": [
+        {
+          "Key": 50005,
+          "Value": 5
+        },
+        {
+          "Key": 3,
+          "Value": 400
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "51012": {
     "Id": 51012,
@@ -17063,10 +18369,24 @@
       16
     ],
     "Name": "Traveler's Tube Aid",
-    "Desc": "",
+    "Desc": "Obtain to receive the items inside.",
     "Bg": "",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_033_UI.T_IconGiftPack_033_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 4,
+      "Content": [
+        {
+          "Key": 36000003,
+          "Value": 30
+        },
+        {
+          "Key": 2,
+          "Value": 12000
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "51013": {
     "Id": 51013,
@@ -17079,10 +18399,24 @@
       16
     ],
     "Name": "Sage's Tube Support",
-    "Desc": "",
+    "Desc": "Obtain to receive the items inside.",
     "Bg": "",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_035_UI.T_IconGiftPack_035_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 4,
+      "Content": [
+        {
+          "Key": 36000004,
+          "Value": 35
+        },
+        {
+          "Key": 2,
+          "Value": 40000
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "51014": {
     "Id": 51014,
@@ -17095,10 +18429,24 @@
       16
     ],
     "Name": "Sage's Solvent Aid",
-    "Desc": "",
+    "Desc": "Obtain to receive the items inside.",
     "Bg": "",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 4,
+      "Content": [
+        {
+          "Key": 10800,
+          "Value": 7
+        },
+        {
+          "Key": 2,
+          "Value": 60000
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "51015": {
     "Id": 51015,
@@ -17111,10 +18459,24 @@
       16
     ],
     "Name": "Champion's Radiant Collection II",
-    "Desc": "",
+    "Desc": "Obtain to receive the items inside.",
     "Bg": "",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 4,
+      "Content": [
+        {
+          "Key": 50002,
+          "Value": 15
+        },
+        {
+          "Key": 3,
+          "Value": 500
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "51016": {
     "Id": 51016,
@@ -17127,10 +18489,28 @@
       16
     ],
     "Name": "Vault's Radiant Collection III",
-    "Desc": "",
+    "Desc": "Obtain to receive the items inside.",
     "Bg": "",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 4,
+      "Content": [
+        {
+          "Key": 50002,
+          "Value": 20
+        },
+        {
+          "Key": 3,
+          "Value": 1600
+        },
+        {
+          "Key": 10800,
+          "Value": 10
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "51017": {
     "Id": 51017,
@@ -17143,10 +18523,28 @@
       16
     ],
     "Name": "Champion's Monthly Aid",
-    "Desc": "",
+    "Desc": "Obtain to receive the items inside.",
     "Bg": "",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 4,
+      "Content": [
+        {
+          "Key": 50002,
+          "Value": 5
+        },
+        {
+          "Key": 50005,
+          "Value": 5
+        },
+        {
+          "Key": 3,
+          "Value": 500
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "51018": {
     "Id": 51018,
@@ -17159,10 +18557,28 @@
       16
     ],
     "Name": "Vault's Tide Collection",
-    "Desc": "",
+    "Desc": "Obtain to receive the items inside.",
     "Bg": "",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 4,
+      "Content": [
+        {
+          "Key": 50002,
+          "Value": 1
+        },
+        {
+          "Key": 50005,
+          "Value": 1
+        },
+        {
+          "Key": 3,
+          "Value": 120
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "51019": {
     "Id": 51019,
@@ -17175,10 +18591,24 @@
       16
     ],
     "Name": "Pioneer's Special Bounty I",
-    "Desc": "",
+    "Desc": "Obtain to receive the items inside.",
     "Bg": "",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 4,
+      "Content": [
+        {
+          "Key": 3,
+          "Value": 120
+        },
+        {
+          "Key": 10800,
+          "Value": 1
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "51020": {
     "Id": 51020,
@@ -17191,10 +18621,24 @@
       16
     ],
     "Name": "Pioneer's Special Bounty II",
-    "Desc": "",
+    "Desc": "Obtain to receive the items inside.",
     "Bg": "",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 4,
+      "Content": [
+        {
+          "Key": 3,
+          "Value": 120
+        },
+        {
+          "Key": 2,
+          "Value": 100000
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "51021": {
     "Id": 51021,
@@ -17207,10 +18651,24 @@
       16
     ],
     "Name": "Pioneer's Special Bounty III",
-    "Desc": "",
+    "Desc": "Obtain to receive the items inside.",
     "Bg": "",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 4,
+      "Content": [
+        {
+          "Key": 3,
+          "Value": 120
+        },
+        {
+          "Key": 43010003,
+          "Value": 15
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "51022": {
     "Id": 51022,
@@ -17223,10 +18681,24 @@
       16
     ],
     "Name": "Pioneer's Special Bounty IV",
-    "Desc": "",
+    "Desc": "Obtain to receive the items inside.",
     "Bg": "",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 4,
+      "Content": [
+        {
+          "Key": 3,
+          "Value": 120
+        },
+        {
+          "Key": 43020003,
+          "Value": 15
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "51023": {
     "Id": 51023,
@@ -17239,10 +18711,24 @@
       16
     ],
     "Name": "Pioneer's Special Bounty V",
-    "Desc": "",
+    "Desc": "Obtain to receive the items inside.",
     "Bg": "",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 4,
+      "Content": [
+        {
+          "Key": 3,
+          "Value": 120
+        },
+        {
+          "Key": 36000003,
+          "Value": 10
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "51024": {
     "Id": 51024,
@@ -17255,10 +18741,24 @@
       16
     ],
     "Name": "Pioneer's Special Bounty VI",
-    "Desc": "",
+    "Desc": "Obtain to receive the items inside.",
     "Bg": "",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 4,
+      "Content": [
+        {
+          "Key": 3,
+          "Value": 120
+        },
+        {
+          "Key": 50000167,
+          "Value": 8
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "51025": {
     "Id": 51025,
@@ -17271,10 +18771,24 @@
       16
     ],
     "Name": "Pioneer's Special Bounty VII",
-    "Desc": "",
+    "Desc": "Obtain to receive the items inside.",
     "Bg": "",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 4,
+      "Content": [
+        {
+          "Key": 3,
+          "Value": 120
+        },
+        {
+          "Key": 50000168,
+          "Value": 3
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "44010046": {
     "Id": 44010046,
@@ -19291,7 +20805,121 @@
     "Desc": "Open to claim one Originite series weapon of your choice:\n<color=Rare4>Broadblade#41 *1</color>\n<color=Rare4>Sword#18 *1</color>\n<color=Rare4>Pistols#26 *1</color>\n<color=Rare4>Gauntlets#21D *1</color>\n<color=Rare4>Rectifier#25 *1</color>",
     "Bg": "The special supply chest obtained from Shilang in the Tiger's Maw.",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_012_UI.T_IconGiftPack_012_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 4,
+      "Content": [
+        {
+          "Key": 42300060,
+          "Value": 1
+        },
+        {
+          "Key": 42300070,
+          "Value": 1
+        },
+        {
+          "Key": 42300090,
+          "Value": 1
+        },
+        {
+          "Key": 42300030,
+          "Value": 1
+        },
+        {
+          "Key": 42300080,
+          "Value": 1
+        },
+        {
+          "Key": 42300040,
+          "Value": 1
+        },
+        {
+          "Key": 42300050,
+          "Value": 1
+        },
+        {
+          "Key": 42300100,
+          "Value": 1
+        },
+        {
+          "Key": 42310200,
+          "Value": 1
+        },
+        {
+          "Key": 42310210,
+          "Value": 1
+        },
+        {
+          "Key": 42310230,
+          "Value": 1
+        },
+        {
+          "Key": 42601150,
+          "Value": 1
+        },
+        {
+          "Key": 42601160,
+          "Value": 1
+        },
+        {
+          "Key": 42601140,
+          "Value": 1
+        },
+        {
+          "Key": 42601010,
+          "Value": 1
+        },
+        {
+          "Key": 42601020,
+          "Value": 1
+        },
+        {
+          "Key": 42601030,
+          "Value": 1
+        },
+        {
+          "Key": 42601040,
+          "Value": 1
+        },
+        {
+          "Key": 42601050,
+          "Value": 1
+        },
+        {
+          "Key": 42601060,
+          "Value": 1
+        },
+        {
+          "Key": 42601070,
+          "Value": 1
+        },
+        {
+          "Key": 42601080,
+          "Value": 1
+        },
+        {
+          "Key": 42601090,
+          "Value": 1
+        },
+        {
+          "Key": 42601100,
+          "Value": 1
+        },
+        {
+          "Key": 42601110,
+          "Value": 1
+        },
+        {
+          "Key": 42601120,
+          "Value": 1
+        },
+        {
+          "Key": 42601130,
+          "Value": 1
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "71510204": {
     "Id": 71510204,
@@ -19307,7 +20935,25 @@
     "Desc": "An iron case discovered in a shipwreck in the waters of the Riccioli Islands. Open it to claim mysterious rewards.",
     "Bg": "Don't just discard rusty iron cases, as they might contain hidden treasures. And if not, they still make a formidable melee weapon!",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_Act_Navigation18_UI.T_IconA_Act_Navigation18_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 4,
+      "Content": [
+        {
+          "Key": 50000063,
+          "Value": 1
+        },
+        {
+          "Key": 50000105,
+          "Value": 1
+        },
+        {
+          "Key": 50000101,
+          "Value": 1
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "50001515": {
     "Id": 50001515,
@@ -20987,7 +22633,29 @@
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_Pass01_UI.T_IconGiftPack_Pass01_UI",
     "Source": [
       "Pioneer Podcast"
-    ]
+    ],
+    "Giftpack": {
+      "Key": 2,
+      "Content": [
+        {
+          "Key": 43010001,
+          "Value": 10
+        },
+        {
+          "Key": 43020001,
+          "Value": 10
+        },
+        {
+          "Key": 36000001,
+          "Value": 4
+        },
+        {
+          "Key": 2,
+          "Value": 10000
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "50000107": {
     "Id": 50000107,
@@ -21005,7 +22673,29 @@
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_Pass02_UI.T_IconGiftPack_Pass02_UI",
     "Source": [
       "Pioneer Podcast"
-    ]
+    ],
+    "Giftpack": {
+      "Key": 2,
+      "Content": [
+        {
+          "Key": 43010002,
+          "Value": 5
+        },
+        {
+          "Key": 43020002,
+          "Value": 5
+        },
+        {
+          "Key": 36000002,
+          "Value": 3
+        },
+        {
+          "Key": 2,
+          "Value": 15000
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "50000108": {
     "Id": 50000108,
@@ -21023,7 +22713,29 @@
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_Pass03_UI.T_IconGiftPack_Pass03_UI",
     "Source": [
       "Pioneer Podcast"
-    ]
+    ],
+    "Giftpack": {
+      "Key": 2,
+      "Content": [
+        {
+          "Key": 43010003,
+          "Value": 5
+        },
+        {
+          "Key": 43020003,
+          "Value": 5
+        },
+        {
+          "Key": 36000003,
+          "Value": 4
+        },
+        {
+          "Key": 2,
+          "Value": 40000
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "50000109": {
     "Id": 50000109,
@@ -21041,7 +22753,29 @@
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_Pass04_UI.T_IconGiftPack_Pass04_UI",
     "Source": [
       "Pioneer Podcast"
-    ]
+    ],
+    "Giftpack": {
+      "Key": 2,
+      "Content": [
+        {
+          "Key": 43010004,
+          "Value": 5
+        },
+        {
+          "Key": 43020004,
+          "Value": 5
+        },
+        {
+          "Key": 36000004,
+          "Value": 4
+        },
+        {
+          "Key": 2,
+          "Value": 100000
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "47": {
     "Id": 47,
@@ -21179,7 +22913,37 @@
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_068_UI.T_IconGiftPack_068_UI",
     "Source": [
       "Event"
-    ]
+    ],
+    "Giftpack": {
+      "Key": 2,
+      "Content": [
+        {
+          "Key": 41400094,
+          "Value": 1
+        },
+        {
+          "Key": 41400114,
+          "Value": 1
+        },
+        {
+          "Key": 41400124,
+          "Value": 1
+        },
+        {
+          "Key": 41400144,
+          "Value": 1
+        },
+        {
+          "Key": 41400194,
+          "Value": 1
+        },
+        {
+          "Key": 41400204,
+          "Value": 1
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "72010033": {
     "Id": 72010033,
@@ -21240,10 +23004,28 @@
       16
     ],
     "Name": "Reunion's Tidal Aid",
-    "Desc": "",
+    "Desc": "Obtain to receive the items inside.",
     "Bg": "",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_052_UI.T_IconGiftPack_052_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 4,
+      "Content": [
+        {
+          "Key": 50002,
+          "Value": 1
+        },
+        {
+          "Key": 50005,
+          "Value": 1
+        },
+        {
+          "Key": 50001,
+          "Value": 1
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "51027": {
     "Id": 51027,
@@ -21256,10 +23038,24 @@
       16
     ],
     "Name": "Reunion's Tidal Collection",
-    "Desc": "",
+    "Desc": "Obtain to receive the items inside.",
     "Bg": "",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_053_UI.T_IconGiftPack_053_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 4,
+      "Content": [
+        {
+          "Key": 50002,
+          "Value": 10
+        },
+        {
+          "Key": 50005,
+          "Value": 10
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "51028": {
     "Id": 51028,
@@ -21272,10 +23068,28 @@
       16
     ],
     "Name": "Reunion's EXP Aid",
-    "Desc": "",
+    "Desc": "Obtain to receive the items inside.",
     "Bg": "",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_054_UI.T_IconGiftPack_054_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 4,
+      "Content": [
+        {
+          "Key": 43010004,
+          "Value": 50
+        },
+        {
+          "Key": 43020004,
+          "Value": 40
+        },
+        {
+          "Key": 2,
+          "Value": 120000
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "51029": {
     "Id": 51029,
@@ -21288,10 +23102,28 @@
       16
     ],
     "Name": "Reunion's Forgery Aid",
-    "Desc": "",
+    "Desc": "Obtain to receive the items inside.",
     "Bg": "",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_055_UI.T_IconGiftPack_055_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 4,
+      "Content": [
+        {
+          "Key": 50000175,
+          "Value": 60
+        },
+        {
+          "Key": 50000307,
+          "Value": 80
+        },
+        {
+          "Key": 2,
+          "Value": 400000
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "51031": {
     "Id": 51031,
@@ -21304,10 +23136,20 @@
       16
     ],
     "Name": "Reunion's Shell Credit Aid",
-    "Desc": "",
+    "Desc": "Obtain to receive the items inside.",
     "Bg": "",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_051_UI.T_IconGiftPack_051_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 4,
+      "Content": [
+        {
+          "Key": 2,
+          "Value": 5200000
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "52005": {
     "Id": 52005,
@@ -21320,10 +23162,24 @@
       16
     ],
     "Name": "Returnee's Radiant Aid",
-    "Desc": "",
+    "Desc": "Obtain to receive the items inside.",
     "Bg": "",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_057_UI.T_IconGiftPack_057_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 4,
+      "Content": [
+        {
+          "Key": 50002,
+          "Value": 1
+        },
+        {
+          "Key": 10800,
+          "Value": 1
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "52006": {
     "Id": 52006,
@@ -21336,10 +23192,20 @@
       16
     ],
     "Name": "Returnee's Radiant Collection",
-    "Desc": "",
+    "Desc": "Obtain to receive the items inside.",
     "Bg": "",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_058_UI.T_IconGiftPack_058_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 4,
+      "Content": [
+        {
+          "Key": 50002,
+          "Value": 5
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "52007": {
     "Id": 52007,
@@ -21352,10 +23218,20 @@
       16
     ],
     "Name": "Returnee's Solvent Aid",
-    "Desc": "",
+    "Desc": "Obtain to receive the items inside.",
     "Bg": "",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_057_UI.T_IconGiftPack_057_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 4,
+      "Content": [
+        {
+          "Key": 10800,
+          "Value": 6
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "52008": {
     "Id": 52008,
@@ -21368,10 +23244,20 @@
       16
     ],
     "Name": "Returnee's Shell Credit Aid",
-    "Desc": "",
+    "Desc": "Obtain to receive the items inside.",
     "Bg": "",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_056_UI.T_IconGiftPack_056_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 4,
+      "Content": [
+        {
+          "Key": 2,
+          "Value": 1000000
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "52009": {
     "Id": 52009,
@@ -21384,10 +23270,28 @@
       16
     ],
     "Name": "Returnee's Forgery Aid",
-    "Desc": "",
+    "Desc": "Obtain to receive the items inside.",
     "Bg": "",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_059_UI.T_IconGiftPack_059_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 4,
+      "Content": [
+        {
+          "Key": 50000110,
+          "Value": 10
+        },
+        {
+          "Key": 50000168,
+          "Value": 20
+        },
+        {
+          "Key": 2,
+          "Value": 600000
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "50": {
     "Id": 50,
@@ -21719,7 +23623,21 @@
     "Desc": "Used to unlock a Resonator-specific outfit that grants the designated Resonator a new look.",
     "Bg": "In the warm mist of the indoor hot spring, behind the fluttering chiffon veils, the laurel-crowned nymph casts her gentle gaze—a signal of invitation to a long-awaited, carefree holiday.",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_24_a_UI.T_IconRoleHead256_24_a_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 4,
+      "Content": [
+        {
+          "Key": 81011205,
+          "Value": 1
+        },
+        {
+          "Key": 82011205,
+          "Value": 1
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "80130007": {
     "Id": 80130007,
@@ -22276,10 +24194,32 @@
       16
     ],
     "Name": "Returnee's Forgery Aid",
-    "Desc": "",
+    "Desc": "Obtain to receive the items inside.",
     "Bg": "",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 4,
+      "Content": [
+        {
+          "Key": 43010003,
+          "Value": 5
+        },
+        {
+          "Key": 43020003,
+          "Value": 5
+        },
+        {
+          "Key": 80000046,
+          "Value": 2
+        },
+        {
+          "Key": 2,
+          "Value": 30000
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "51": {
     "Id": 51,
@@ -22363,7 +24303,37 @@
     "Desc": "Open to claim one <color=Rare4>Golden Eternal series weapon</color> of your choice or <color=Rare5>Premium Tuner x200</color>.",
     "Bg": "It contains the powerful weapon selected by the Pioneer Association for its explorers.",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_003_UI.T_IconGiftPack_003_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 2,
+      "Content": [
+        {
+          "Key": 36000014,
+          "Value": 200
+        },
+        {
+          "Key": 21010074,
+          "Value": 1
+        },
+        {
+          "Key": 21020074,
+          "Value": 1
+        },
+        {
+          "Key": 21030074,
+          "Value": 1
+        },
+        {
+          "Key": 21040074,
+          "Value": 1
+        },
+        {
+          "Key": 21050074,
+          "Value": 1
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "71600003": {
     "Id": 71600003,
@@ -22392,10 +24362,28 @@
       16
     ],
     "Name": "Reunion's Sealed Tube Aid",
-    "Desc": "",
+    "Desc": "Obtain to receive the items inside.",
     "Bg": "",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_061_UI.T_IconGiftPack_061_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 4,
+      "Content": [
+        {
+          "Key": 36000015,
+          "Value": 8
+        },
+        {
+          "Key": 36000004,
+          "Value": 60
+        },
+        {
+          "Key": 36000014,
+          "Value": 600
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "71250001": {
     "Id": 71250001,
@@ -22443,7 +24431,21 @@
     "Desc": "Used to unlock a Resonator-specific outfit that grants the designated Resonator a new look.",
     "Bg": "Soft satin smoothly flows down from her body. The droplets on her glisten like luxurious gems. As they dip into the water, ripples spread across the pool into you and the girl's heart.",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_24_a_UI.T_IconRoleHead256_24_a_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 4,
+      "Content": [
+        {
+          "Key": 81011107,
+          "Value": 1
+        },
+        {
+          "Key": 82011107,
+          "Value": 1
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "54001": {
     "Id": 54001,
@@ -22459,7 +24461,25 @@
     "Desc": "Used to unlock the corresponding Echo Aspect set.",
     "Bg": "Once bound by thorns, these wings now break free, soaring into the boundless sea of clouds.\nThe old laws no longer hold sway, for they will carry you to the farthest skies of freedom.",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_7_a_UI.T_IconRoleHead256_7_a_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 4,
+      "Content": [
+        {
+          "Key": 84000002,
+          "Value": 1
+        },
+        {
+          "Key": 84100002,
+          "Value": 1
+        },
+        {
+          "Key": 3,
+          "Value": 300
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "10001207": {
     "Id": 10001207,
@@ -24371,10 +26391,28 @@
       16
     ],
     "Name": "New Voyage Radiant Lightpack",
-    "Desc": "",
+    "Desc": "Obtain to receive the items inside.",
     "Bg": "",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 4,
+      "Content": [
+        {
+          "Key": 50002,
+          "Value": 1
+        },
+        {
+          "Key": 50005,
+          "Value": 1
+        },
+        {
+          "Key": 10800,
+          "Value": 2
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "51033": {
     "Id": 51033,
@@ -24387,10 +26425,28 @@
       16
     ],
     "Name": "New Voyage Radiant Heavypack",
-    "Desc": "",
+    "Desc": "Obtain to receive the items inside.",
     "Bg": "",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 4,
+      "Content": [
+        {
+          "Key": 50002,
+          "Value": 5
+        },
+        {
+          "Key": 3,
+          "Value": 400
+        },
+        {
+          "Key": 10800,
+          "Value": 5
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "71260001": {
     "Id": 71260001,
@@ -25343,10 +27399,40 @@
       16
     ],
     "Name": "Returnee's Forgery Aid",
-    "Desc": "",
+    "Desc": "Obtain to receive the items inside.",
     "Bg": "",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 4,
+      "Content": [
+        {
+          "Key": 3,
+          "Value": 160
+        },
+        {
+          "Key": 10800,
+          "Value": 5
+        },
+        {
+          "Key": 43010003,
+          "Value": 10
+        },
+        {
+          "Key": 43020003,
+          "Value": 10
+        },
+        {
+          "Key": 36000003,
+          "Value": 10
+        },
+        {
+          "Key": 2,
+          "Value": 150000
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "42500100": {
     "Id": 42500100,
@@ -25378,7 +27464,57 @@
     "Desc": "Open to claim one <color=Rare4>Golden Eternal</color> or <color=Rare4>Hunter's Growl</color> series weapon of your choice, or <color=Rare5>Premium Tuner x200</color>.",
     "Bg": "It contains the powerful weapon selected by the Pioneer Association for its explorers.",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_003_UI.T_IconGiftPack_003_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 2,
+      "Content": [
+        {
+          "Key": 36000014,
+          "Value": 200
+        },
+        {
+          "Key": 21010104,
+          "Value": 1
+        },
+        {
+          "Key": 21020104,
+          "Value": 1
+        },
+        {
+          "Key": 21030104,
+          "Value": 1
+        },
+        {
+          "Key": 21040104,
+          "Value": 1
+        },
+        {
+          "Key": 21050104,
+          "Value": 1
+        },
+        {
+          "Key": 21010074,
+          "Value": 1
+        },
+        {
+          "Key": 21020074,
+          "Value": 1
+        },
+        {
+          "Key": 21030074,
+          "Value": 1
+        },
+        {
+          "Key": 21040074,
+          "Value": 1
+        },
+        {
+          "Key": 21050074,
+          "Value": 1
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "50000205": {
     "Id": 50000205,
@@ -25394,7 +27530,21 @@
     "Desc": "Open to obtain one exclusive Syntonization material of your choice, from either the Hunter's Growl series or the previous Pioneer Podcast Weapon:\n<color=Rare4>Gilded Ginkgo x1</color>\n<color=Rare4>Skyhunter's Feather x1</color>",
     "Bg": "Provided by the Pioneer Association, this Supply Chest contains base weapon materials and is updated in sync with Pioneer Podcast Weapon Chest.",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_069_UI.T_IconGiftPack_069_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 2,
+      "Content": [
+        {
+          "Key": 42500080,
+          "Value": 1
+        },
+        {
+          "Key": 42500100,
+          "Value": 1
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "80110430": {
     "Id": 80110430,
@@ -25954,7 +28104,41 @@
     "Desc": "Open to claim a type of advanced skill material of your choice:\n<color=Rare4>Monument Bell x1</color>\n<color=Rare4>Unending Destruction x1</color>\n<color=Rare4>Dreamless Feather x1</color>\n<color=Rare4>Sentinel's Dagger x1</color>\n<color=Rare4>The Netherworld's Stare x1</color>\n<color=Rare4>When Irises Bloom x1</color>\n<color=Rare4>Curse of the Abyss x1</color>",
     "Bg": "Upon touching the chest, you hear what sounds like a battle hymn.",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_068_UI.T_IconGiftPack_068_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 2,
+      "Content": [
+        {
+          "Key": 41400094,
+          "Value": 1
+        },
+        {
+          "Key": 41400114,
+          "Value": 1
+        },
+        {
+          "Key": 41400124,
+          "Value": 1
+        },
+        {
+          "Key": 41400144,
+          "Value": 1
+        },
+        {
+          "Key": 41400194,
+          "Value": 1
+        },
+        {
+          "Key": 41400204,
+          "Value": 1
+        },
+        {
+          "Key": 41400254,
+          "Value": 1
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "51034": {
     "Id": 51034,
@@ -25967,10 +28151,28 @@
       16
     ],
     "Name": "Champion's Battlesong Collection",
-    "Desc": "",
+    "Desc": "Obtain to receive the items inside.",
     "Bg": "",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 4,
+      "Content": [
+        {
+          "Key": 3,
+          "Value": 600
+        },
+        {
+          "Key": 50000115,
+          "Value": 20
+        },
+        {
+          "Key": 2,
+          "Value": 500000
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "71270008": {
     "Id": 71270008,
@@ -26066,7 +28268,21 @@
     "Desc": "Used to unlock a Resonator-specific outfit that grants the designated Resonator a new look.",
     "Bg": "She leans casually against the railing, her sweater soft against the light, appearing equally elegant as she is relaxed. Changing up the style every now and then isn't so bad.\n\nTurning slightly, Zani looks down at the city stretching beneath her. The afternoon sunlight spills over the buildings, their outlines shimmering in the glow. She gazes quietly, letting the city's clamor become the backdrop to this moment of ease.",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_24_a_UI.T_IconRoleHead256_24_a_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 4,
+      "Content": [
+        {
+          "Key": 81011507,
+          "Value": 1
+        },
+        {
+          "Key": 82011507,
+          "Value": 1
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "71270013": {
     "Id": 71270013,
@@ -26730,6 +28946,38 @@
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_72010042_UI.T_IconA_72010042_UI",
     "Source": []
   },
+  "44010056": {
+    "Id": 44010056,
+    "Rarity": 5,
+    "Type": 4,
+    "Tag": [
+      "Phantom Appearance"
+    ],
+    "TagNum": [
+      47
+    ],
+    "Name": "Phantom: Sigillum",
+    "Desc": "Unlocks the Phantom Appearance of the corresponding Echo.",
+    "Bg": "",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_SG_34025_UI.T_IconMonsterGoods_SG_34025_UI",
+    "Source": []
+  },
+  "44010057": {
+    "Id": 44010057,
+    "Rarity": 5,
+    "Type": 4,
+    "Tag": [
+      "Phantom Appearance"
+    ],
+    "TagNum": [
+      47
+    ],
+    "Name": "Phantom: Iceglint Dancer",
+    "Desc": "Unlocks the Phantom Appearance of the corresponding Echo.",
+    "Bg": "",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_SG_31083_UI.T_IconMonsterGoods_SG_31083_UI",
+    "Source": []
+  },
   "71500058": {
     "Id": 71500058,
     "Rarity": 4,
@@ -27250,7 +29498,7 @@
       9
     ],
     "Name": "Soliseed of Essehalo",
-    "Desc": "Obtained by discovering a Soliskin hidden in the underground of Lahai-Roi. Deliver it to the Giant Soliskin in the Soliseed Plains to claim your reward.",
+    "Desc": "Obtained by finding a lost Soliskin. Deliver it to the Giant Soliskin at the Monument of Returning Soliseeds to claim your reward.",
     "Bg": "Like plants, the Essehalo floating above the Soliskin grows and bears fruits, which are carefully preserved and later given to those who earn the Soliskin's trust.",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconTask/T_IconTask_Task_187_UI.T_IconTask_Task_187_UI",
     "Source": []
@@ -27809,7 +30057,7 @@
       7
     ],
     "Name": "Suncoveter's Reach",
-    "Desc": "Starward Handmaiden: Hyvitia's drop, used for Resonator Ascension.",
+    "Desc": "Starward Handmaiden: Hyvatia's drop, used for Resonator Ascension.",
     "Bg": "Fragment of the Hyvatia Observation Array's Primary Lens\nOnce used to survey the Reactor Drive, Hyvatia was among the Spacetrek Collective's proudest creations. Now, the polished beryllium plate no longer reflects the sun of tomorrow, but a distorted illusion of Voidmatter. What stretches toward the future is no longer noble ideals, but grasping, covetous hands.",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMout/T_IconMout_L_023_UI.T_IconMout_L_023_UI",
     "Source": [
@@ -28059,7 +30307,7 @@
     ],
     "Name": "Antivoid Modding Point",
     "Desc": "A digital permit granted upon the completion of Modding Tasks. Used to install functional modules on an expedition motorbike.",
-    "Bg": "\"A full-on skill-point upgrade system, straight out of the classic RPGs!\nNow that's what we're talking about!\"",
+    "Bg": "\"A full-on skill-point upgrade system, straight out of the classic RPGs! Now that's what we're talking about!\"",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_mtdj_02_UI.T_IconA_mtdj_02_UI",
     "Source": []
   },
@@ -28068,15 +30316,15 @@
     "Rarity": 4,
     "Type": 0,
     "Tag": [
-      "Consumable"
+      "Special Token"
     ],
     "TagNum": [
-      10
+      15
     ],
-    "Name": "Adventure Log",
-    "Desc": "A token earned by submitting exploration reports from various regions. Can be exchanged for \"Adventure Packages\" at the Lollo Logistics truck.",
-    "Bg": "\"If the Pioneer Association is the eyes of civilization, then Lollo Logistics aspires to be the feet that carry humanity forward,\" a Lollo Logistics member remarked during an interview.",
-    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_Act_03_UI.T_IconA_Act_03_UI",
+    "Name": "Stay tuned",
+    "Desc": "Stay tuned",
+    "Bg": "Stay tuned",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_currency_8_UI.T_IconA_currency_8_UI",
     "Source": []
   },
   "70290000": {
@@ -28367,7 +30615,25 @@
     "Desc": "Open to claim one Originite series weapon of your choice:\n<color=Rare4>Broadblade#41 *1</color>\n<color=Rare4>Sword#18 *1</color>\n<color=Rare4>Pistols#26 *1</color>\n<color=Rare4>Gauntlets#21D *1</color>\n<color=Rare4>Rectifier#25 *1</color>",
     "Bg": "The special supply chest obtained from Shilang in the Tiger's Maw.",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_012_UI.T_IconGiftPack_012_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 4,
+      "Content": [
+        {
+          "Key": 41100061,
+          "Value": 1
+        },
+        {
+          "Key": 41100071,
+          "Value": 1
+        },
+        {
+          "Key": 41100081,
+          "Value": 1
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "50000122": {
     "Id": 50000122,
@@ -28383,7 +30649,25 @@
     "Desc": "Open to claim one Originite series weapon of your choice:\n<color=Rare4>Broadblade#41 *1</color>\n<color=Rare4>Sword#18 *1</color>\n<color=Rare4>Pistols#26 *1</color>\n<color=Rare4>Gauntlets#21D *1</color>\n<color=Rare4>Rectifier#25 *1</color>",
     "Bg": "The special supply chest obtained from Shilang in the Tiger's Maw.",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_012_UI.T_IconGiftPack_012_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 4,
+      "Content": [
+        {
+          "Key": 41100062,
+          "Value": 1
+        },
+        {
+          "Key": 41100072,
+          "Value": 1
+        },
+        {
+          "Key": 41100082,
+          "Value": 1
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "80601014": {
     "Id": 80601014,
@@ -28978,7 +31262,53 @@
     "Desc": "Open to claim one basic material for Weapon Ascension or Skill Upgrade of your choice:\n<color=Rare2>Broken Wing Polarizer *1</color>\n<color=Rare2>LF Carved Crystal *1</color>\n<color=Rare2>Incomplete Combustor *1</color>\n<color=Rare2>LF Waveworn Shard *1</color>\n<color=Rare2>Spliced String *1</color>\n<color=Rare2>Inert Metallic Drip *1</color>\n<color=Rare2>Impure Phlogiston *1</color>\n<color=Rare2>Lento Helix *1</color>\n<color=Rare2>Waveworn Residue 210 *1</color>\n<color=Rare2>Cadence Seed *1</color>",
     "Bg": "A special supply chest. Its exterior is made from high-performance materials designed to withstand extreme heat and pressure.",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_015_UI.T_IconGiftPack_015_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 2,
+      "Content": [
+        {
+          "Key": 43021011,
+          "Value": 1
+        },
+        {
+          "Key": 43021021,
+          "Value": 1
+        },
+        {
+          "Key": 43021031,
+          "Value": 1
+        },
+        {
+          "Key": 43021041,
+          "Value": 1
+        },
+        {
+          "Key": 43021051,
+          "Value": 1
+        },
+        {
+          "Key": 43020011,
+          "Value": 1
+        },
+        {
+          "Key": 43020021,
+          "Value": 1
+        },
+        {
+          "Key": 43020031,
+          "Value": 1
+        },
+        {
+          "Key": 43020041,
+          "Value": 1
+        },
+        {
+          "Key": 43020051,
+          "Value": 1
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "50000402": {
     "Id": 50000402,
@@ -28994,7 +31324,53 @@
     "Desc": "Open to claim one medium material for Weapon Ascension or Skill Upgrade of your choice:\n<color=Rare3>Monowing Polarizer *1</color>\n<color=Rare3>MF Carved Crystal *1</color>\n<color=Rare3>Aftertune Combustor *1</color>\n<color=Rare3>MF Waveworn Shard *1</color>\n<color=Rare3>Broken String *1</color>\n<color=Rare3>Reactive Metallic Drip *1</color>\n<color=Rare3>Extracted Phlogiston *1</color>\n<color=Rare3>Adagio Helix *1</color>\n<color=Rare3>Waveworn Residue 226 *1</color>\n<color=Rare3>Cadence Bud *1</color>",
     "Bg": "A special supply chest. Its exterior is made from high-performance materials designed to withstand extreme heat and pressure.",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_016_UI.T_IconGiftPack_016_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 2,
+      "Content": [
+        {
+          "Key": 43021012,
+          "Value": 1
+        },
+        {
+          "Key": 43021022,
+          "Value": 1
+        },
+        {
+          "Key": 43021032,
+          "Value": 1
+        },
+        {
+          "Key": 43021042,
+          "Value": 1
+        },
+        {
+          "Key": 43021052,
+          "Value": 1
+        },
+        {
+          "Key": 43020012,
+          "Value": 1
+        },
+        {
+          "Key": 43020022,
+          "Value": 1
+        },
+        {
+          "Key": 43020032,
+          "Value": 1
+        },
+        {
+          "Key": 43020042,
+          "Value": 1
+        },
+        {
+          "Key": 43020052,
+          "Value": 1
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "50000403": {
     "Id": 50000403,
@@ -29010,7 +31386,53 @@
     "Desc": "Open to claim one advanced material for Weapon Ascension or Skill Upgrade of your choice:\n<color=Rare4>Polywing Polarizer *1</color>\n<color=Rare4>HF Carved Crystal *1</color>\n<color=Rare4>Remnant Combustor *1</color>\n<color=Rare4>HF Waveworn Shard *1</color>\n<color=Rare4>Solidified String *1</color>\n<color=Rare4>Polarized Metallic Drip *1</color>\n<color=Rare4>Refined Phlogiston *1</color>\n<color=Rare4>Andante Helix *1</color>\n<color=Rare4>Waveworn Residue 235 *1</color>\n<color=Rare4>Cadence Leaf *1</color>",
     "Bg": "A special supply chest. Its exterior is made from high-performance materials designed to withstand extreme heat and pressure.",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_017_UI.T_IconGiftPack_017_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 2,
+      "Content": [
+        {
+          "Key": 43021013,
+          "Value": 1
+        },
+        {
+          "Key": 43021023,
+          "Value": 1
+        },
+        {
+          "Key": 43021033,
+          "Value": 1
+        },
+        {
+          "Key": 43021043,
+          "Value": 1
+        },
+        {
+          "Key": 43021053,
+          "Value": 1
+        },
+        {
+          "Key": 43020013,
+          "Value": 1
+        },
+        {
+          "Key": 43020023,
+          "Value": 1
+        },
+        {
+          "Key": 43020033,
+          "Value": 1
+        },
+        {
+          "Key": 43020043,
+          "Value": 1
+        },
+        {
+          "Key": 43020053,
+          "Value": 1
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "50000404": {
     "Id": 50000404,
@@ -29026,7 +31448,53 @@
     "Desc": "Open to claim one premium material for Weapon Ascension or Skill Upgrade of your choice:\n<color=Rare5>Layered Wing Polarizer *1</color>\n<color=Rare5>FF Carved Crystal *1</color>\n<color=Rare5>Reverb Combustor *1</color>\n<color=Rare5>FF Waveworn Shard *1</color>\n<color=Rare5>Melodic String *1</color>\n<color=Rare5>Heterized Metallic Drip *1</color>\n<color=Rare5>Flawless Phlogiston *1</color>\n<color=Rare5>Presto Helix *1</color>\n<color=Rare5>Waveworn Residue 239 *1</color>\n<color=Rare5>Cadence Blossom*1</color>",
     "Bg": "A special supply chest. Its exterior is made from high-performance materials designed to withstand extreme heat and pressure.",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_018_UI.T_IconGiftPack_018_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 2,
+      "Content": [
+        {
+          "Key": 43021014,
+          "Value": 1
+        },
+        {
+          "Key": 43021024,
+          "Value": 1
+        },
+        {
+          "Key": 43021034,
+          "Value": 1
+        },
+        {
+          "Key": 43021044,
+          "Value": 1
+        },
+        {
+          "Key": 43021054,
+          "Value": 1
+        },
+        {
+          "Key": 43020014,
+          "Value": 1
+        },
+        {
+          "Key": 43020024,
+          "Value": 1
+        },
+        {
+          "Key": 43020034,
+          "Value": 1
+        },
+        {
+          "Key": 43020044,
+          "Value": 1
+        },
+        {
+          "Key": 43020054,
+          "Value": 1
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "50000405": {
     "Id": 50000405,
@@ -29042,7 +31510,53 @@
     "Desc": "Open to claim one medium material for Weapon Ascension or Skill Upgrade of your choice:\n<color=Rare3>Monowing Polarizer *1</color>\n<color=Rare3>MF Carved Crystal *1</color>\n<color=Rare3>Aftertune Combustor *1</color>\n<color=Rare3>MF Waveworn Shard *1</color>\n<color=Rare3>Broken String *1</color>\n<color=Rare3>Reactive Metallic Drip *1</color>\n<color=Rare3>Extracted Phlogiston *1</color>\n<color=Rare3>Adagio Helix *1</color>\n<color=Rare3>Waveworn Residue 226 *1</color>\n<color=Rare3>Cadence Bud *1</color>",
     "Bg": "The special supply pack issued by the Store. It is delivered to the customer by Lollo Logistics. Open to claim rich supplies.",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_004_UI.T_IconGiftPack_004_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 2,
+      "Content": [
+        {
+          "Key": 43021012,
+          "Value": 1
+        },
+        {
+          "Key": 43021022,
+          "Value": 1
+        },
+        {
+          "Key": 43021032,
+          "Value": 1
+        },
+        {
+          "Key": 43021042,
+          "Value": 1
+        },
+        {
+          "Key": 43021052,
+          "Value": 1
+        },
+        {
+          "Key": 43020012,
+          "Value": 1
+        },
+        {
+          "Key": 43020022,
+          "Value": 1
+        },
+        {
+          "Key": 43020032,
+          "Value": 1
+        },
+        {
+          "Key": 43020042,
+          "Value": 1
+        },
+        {
+          "Key": 43020052,
+          "Value": 1
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "50000406": {
     "Id": 50000406,
@@ -29058,7 +31572,53 @@
     "Desc": "Open to claim one advanced material for Weapon Ascension or Skill Upgrade of your choice:\n<color=Rare4>Polywing Polarizer *1</color>\n<color=Rare4>HF Carved Crystal *1</color>\n<color=Rare4>Remnant Combustor *1</color>\n<color=Rare4>HF Waveworn Shard *1</color>\n<color=Rare4>Solidified String *1</color>\n<color=Rare4>Polarized Metallic Drip *1</color>\n<color=Rare4>Refined Phlogiston *1</color>\n<color=Rare4>Andante Helix *1</color>\n<color=Rare4>Waveworn Residue 235 *1</color>\n<color=Rare4>Cadence Leaf *1</color>",
     "Bg": "The special supply pack issued by the Store. It is delivered to the customer by Lollo Logistics. Open to claim rich supplies.",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_005_UI.T_IconGiftPack_005_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 2,
+      "Content": [
+        {
+          "Key": 43021013,
+          "Value": 1
+        },
+        {
+          "Key": 43021023,
+          "Value": 1
+        },
+        {
+          "Key": 43021033,
+          "Value": 1
+        },
+        {
+          "Key": 43021043,
+          "Value": 1
+        },
+        {
+          "Key": 43021053,
+          "Value": 1
+        },
+        {
+          "Key": 43020013,
+          "Value": 1
+        },
+        {
+          "Key": 43020023,
+          "Value": 1
+        },
+        {
+          "Key": 43020033,
+          "Value": 1
+        },
+        {
+          "Key": 43020043,
+          "Value": 1
+        },
+        {
+          "Key": 43020053,
+          "Value": 1
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "50000407": {
     "Id": 50000407,
@@ -29074,7 +31634,53 @@
     "Desc": "Open to claim one premium material for Weapon Ascension or Skill Upgrade of your choice:\n<color=Rare5>Layered Wing Polarizer *1</color>\n<color=Rare5>FF Carved Crystal *1</color>\n<color=Rare5>Reverb Combustor *1</color>\n<color=Rare5>FF Waveworn Shard *1</color>\n<color=Rare5>Melodic String *1</color>\n<color=Rare5>Heterized Metallic Drip *1</color>\n<color=Rare5>Flawless Phlogiston *1</color>\n<color=Rare5>Presto Helix *1</color>\n<color=Rare5>Waveworn Residue 239 *1</color>\n<color=Rare5>Cadence Blossom*1</color>",
     "Bg": "The special supply pack issued by the Store. It is delivered to the customer by Lollo Logistics. Open to claim rich supplies.",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_006_UI.T_IconGiftPack_006_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 2,
+      "Content": [
+        {
+          "Key": 43021014,
+          "Value": 1
+        },
+        {
+          "Key": 43021024,
+          "Value": 1
+        },
+        {
+          "Key": 43021034,
+          "Value": 1
+        },
+        {
+          "Key": 43021044,
+          "Value": 1
+        },
+        {
+          "Key": 43021054,
+          "Value": 1
+        },
+        {
+          "Key": 43020014,
+          "Value": 1
+        },
+        {
+          "Key": 43020024,
+          "Value": 1
+        },
+        {
+          "Key": 43020034,
+          "Value": 1
+        },
+        {
+          "Key": 43020044,
+          "Value": 1
+        },
+        {
+          "Key": 43020054,
+          "Value": 1
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "50000408": {
     "Id": 50000408,
@@ -29090,7 +31696,45 @@
     "Desc": "Open to claim one basic material for Weapon Ascension or Skill Upgrade of your choice:\n<color=Rare2>LF Exoswarm Core *1</color> \n<color=Rare2>LF Mech Core *1</color> \n<color=Rare2>Fractured Exoswarm Pendant *1</color>\n<color=Rare2>Crude Ring *1</color>\n<color=Rare2>LF Whisperin Core *1</color>\n<color=Rare2>LF Howler Core *1</color>\n<color=Rare2>LF Polygon Core *1</color>\n<color=Rare2>LF Tidal Residuum *1</color>",
     "Bg": "The Bloom Bearers of the Black Shores always return from their field trips with abundant samples, which are inventoried and sealed away by the Gardener after running the necessary tests for future use.",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_023_UI.T_IconGiftPack_023_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 2,
+      "Content": [
+        {
+          "Key": 41100011,
+          "Value": 1
+        },
+        {
+          "Key": 41100021,
+          "Value": 1
+        },
+        {
+          "Key": 41100031,
+          "Value": 1
+        },
+        {
+          "Key": 41100041,
+          "Value": 1
+        },
+        {
+          "Key": 41100051,
+          "Value": 1
+        },
+        {
+          "Key": 41100061,
+          "Value": 1
+        },
+        {
+          "Key": 41100071,
+          "Value": 1
+        },
+        {
+          "Key": 41100081,
+          "Value": 1
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "50000409": {
     "Id": 50000409,
@@ -29106,7 +31750,45 @@
     "Desc": "Open to claim one medium material for Weapon Ascension or Skill Upgrade of your choice: \n<color=Rare3>MF Exoswarm Core *1</color> \n<color=Rare3>MF Mech Core *1</color> \n<color=Rare3>Worn Exoswarm Pendant *1</color>\n<color=Rare3>Basic Ring *1</color>\n<color=Rare3>MF Whisperin Core *1</color>\n<color=Rare3>MF Howler Core *1</color>\n<color=Rare3>MF Polygon Core *1</color>\n<color=Rare3>MF Tidal Residuum *1</color>",
     "Bg": "The Bloom Bearers of the Black Shores always return from their field trips with abundant samples, which are inventoried and sealed away by the Gardener after running the necessary tests for future use.",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_024_UI.T_IconGiftPack_024_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 2,
+      "Content": [
+        {
+          "Key": 41100012,
+          "Value": 1
+        },
+        {
+          "Key": 41100022,
+          "Value": 1
+        },
+        {
+          "Key": 41100032,
+          "Value": 1
+        },
+        {
+          "Key": 41100042,
+          "Value": 1
+        },
+        {
+          "Key": 41100052,
+          "Value": 1
+        },
+        {
+          "Key": 41100062,
+          "Value": 1
+        },
+        {
+          "Key": 41100072,
+          "Value": 1
+        },
+        {
+          "Key": 41100082,
+          "Value": 1
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "50000410": {
     "Id": 50000410,
@@ -29122,7 +31804,45 @@
     "Desc": "Open to claim one advanced material for Weapon Ascension or Skill Upgrade of your choice: \n<color=Rare4>HF Exoswarm Core *1</color> \n<color=Rare4>HF Mech Core *1</color> \n<color=Rare4>Chipped Exoswarm Pendant *1</color>\n<color=Rare4>Improved Ring *1</color>\n<color=Rare4>HF Whisperin Core *1</color>\n<color=Rare4>HF Howler Core *1</color>\n<color=Rare4>HF Polygon Core *1</color>\n<color=Rare4>HF Tidal Residuum *1</color>",
     "Bg": "The Bloom Bearers of the Black Shores always return from their field trips with abundant samples, which are inventoried and sealed away by the Gardener after running the necessary tests for future use.",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_025_UI.T_IconGiftPack_025_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 2,
+      "Content": [
+        {
+          "Key": 41100013,
+          "Value": 1
+        },
+        {
+          "Key": 41100023,
+          "Value": 1
+        },
+        {
+          "Key": 41100033,
+          "Value": 1
+        },
+        {
+          "Key": 41100043,
+          "Value": 1
+        },
+        {
+          "Key": 41100053,
+          "Value": 1
+        },
+        {
+          "Key": 41100063,
+          "Value": 1
+        },
+        {
+          "Key": 41100073,
+          "Value": 1
+        },
+        {
+          "Key": 41100083,
+          "Value": 1
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "50000411": {
     "Id": 50000411,
@@ -29138,7 +31858,45 @@
     "Desc": "Open to claim one premium material for Weapon Ascension or Skill Upgrade of your choice: \n<color=Rare5>FF Exoswarm Core *1</color> \n<color=Rare5>FF Mech Core *1</color> \n<color=Rare5>Intact Exoswarm Pendant *1</color>\n<color=Rare5>Tailored Ring *1</color>\n<color=Rare5>FF Whisperin Core *1</color>\n<color=Rare5>FF Howler Core *1</color>\n<color=Rare5>FF Polygon Core *1</color>\n<color=Rare5>FF Tidal Residuum *1</color>",
     "Bg": "The Bloom Bearers of the Black Shores always return from their field trips with abundant samples, which are inventoried and sealed away by the Gardener after running the necessary tests for future use.",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_026_UI.T_IconGiftPack_026_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 2,
+      "Content": [
+        {
+          "Key": 41100014,
+          "Value": 1
+        },
+        {
+          "Key": 41100024,
+          "Value": 1
+        },
+        {
+          "Key": 41100034,
+          "Value": 1
+        },
+        {
+          "Key": 41100044,
+          "Value": 1
+        },
+        {
+          "Key": 41100054,
+          "Value": 1
+        },
+        {
+          "Key": 41100064,
+          "Value": 1
+        },
+        {
+          "Key": 41100074,
+          "Value": 1
+        },
+        {
+          "Key": 41100084,
+          "Value": 1
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "50000412": {
     "Id": 50000412,
@@ -29154,7 +31912,33 @@
     "Desc": "Open to claim one basic material for Weapon Ascension or Skill Upgrade of your choice: \n<color=Rare2>Broken Wing Polarizer *1</color> \n<color=Rare2>LF Carved Crystal *1</color> \n<color=Rare2>Incomplete Combustor *1</color> \n<color=Rare2>LF Waveworn Shard *1</color> \n<color=Rare2>Spliced String *1</color>",
     "Bg": "A special supply chest. Its exterior is made from high-performance materials designed to withstand extreme heat and pressure.",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_cllb_09.T_IconA_cllb_09",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 2,
+      "Content": [
+        {
+          "Key": 43021011,
+          "Value": 1
+        },
+        {
+          "Key": 43021021,
+          "Value": 1
+        },
+        {
+          "Key": 43021031,
+          "Value": 1
+        },
+        {
+          "Key": 43021041,
+          "Value": 1
+        },
+        {
+          "Key": 43021051,
+          "Value": 1
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "50000413": {
     "Id": 50000413,
@@ -29170,7 +31954,33 @@
     "Desc": "Open to claim one medium material for Weapon Ascension or Skill Upgrade of your choice: \n<color=Rare3>Monowing Polarizer *1</color> \n<color=Rare3>MF Carved Crystal *1</color> \n<color=Rare3>Aftertune Combustor *1</color> \n<color=Rare3>MF Waveworn Shard *1</color> \n<color=Rare3>Broken String *1</color>",
     "Bg": "A special supply chest. Its exterior is made from high-performance materials designed to withstand extreme heat and pressure.",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_cllb_10.T_IconA_cllb_10",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 2,
+      "Content": [
+        {
+          "Key": 43021012,
+          "Value": 1
+        },
+        {
+          "Key": 43021022,
+          "Value": 1
+        },
+        {
+          "Key": 43021032,
+          "Value": 1
+        },
+        {
+          "Key": 43021042,
+          "Value": 1
+        },
+        {
+          "Key": 43021052,
+          "Value": 1
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "50000414": {
     "Id": 50000414,
@@ -29186,7 +31996,33 @@
     "Desc": "Open to claim one advanced material for Weapon Ascension or Skill Upgrade of your choice: \n<color=Rare4>Polywing Polarizer *1</color> \n<color=Rare4>HF Carved Crystal *1</color> \n<color=Rare4>Remnant Combustor *1</color> \n<color=Rare4>HF Waveworn Shard *1</color> \n<color=Rare4>Solidified String *1</color>",
     "Bg": "A special supply chest. Its exterior is made from high-performance materials designed to withstand extreme heat and pressure.",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_cllb_11.T_IconA_cllb_11",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 2,
+      "Content": [
+        {
+          "Key": 43021013,
+          "Value": 1
+        },
+        {
+          "Key": 43021023,
+          "Value": 1
+        },
+        {
+          "Key": 43021033,
+          "Value": 1
+        },
+        {
+          "Key": 43021043,
+          "Value": 1
+        },
+        {
+          "Key": 43021053,
+          "Value": 1
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "50000415": {
     "Id": 50000415,
@@ -29202,7 +32038,33 @@
     "Desc": "Open to claim one premium material for Weapon Ascension or Skill Upgrade of your choice: \n<color=Rare5>Layered Wing Polarizer *1</color> \n<color=Rare5>FF Carved Crystal *1</color> \n<color=Rare5>Reverb Combustor *1</color> \n<color=Rare5>FF Waveworn Shard *1</color> \n<color=Rare5>Melodic String *1</color>",
     "Bg": "A special supply chest. Its exterior is made from high-performance materials designed to withstand extreme heat and pressure.",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_cllb_12.T_IconA_cllb_12",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 2,
+      "Content": [
+        {
+          "Key": 43021014,
+          "Value": 1
+        },
+        {
+          "Key": 43021024,
+          "Value": 1
+        },
+        {
+          "Key": 43021034,
+          "Value": 1
+        },
+        {
+          "Key": 43021044,
+          "Value": 1
+        },
+        {
+          "Key": 43021054,
+          "Value": 1
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "50000416": {
     "Id": 50000416,
@@ -29218,7 +32080,25 @@
     "Desc": "Open to claim one basic material for Weapon Ascension or Skill Upgrade of your choice: \n<color=Rare2>LF Exoswarm Core *1</color> \n<color=Rare2>LF Mech Core *1</color> \n<color=Rare2>Fractured Exoswarm Pendant *1</color>",
     "Bg": "The Bloom Bearers of the Black Shores always return from their field trips with abundant samples, which are inventoried and sealed away by the Gardener after running the necessary tests for future use.",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_cllb_01.T_IconA_cllb_01",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 2,
+      "Content": [
+        {
+          "Key": 41100061,
+          "Value": 1
+        },
+        {
+          "Key": 41100071,
+          "Value": 1
+        },
+        {
+          "Key": 41100081,
+          "Value": 1
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "50000417": {
     "Id": 50000417,
@@ -29234,7 +32114,25 @@
     "Desc": "Open to claim one medium material for Weapon Ascension or Skill Upgrade of your choice: \n<color=Rare3>MF Exoswarm Core *1</color> \n<color=Rare3>MF Mech Core *1</color> \n<color=Rare3>Worn Exoswarm Pendant *1</color>",
     "Bg": "The Bloom Bearers of the Black Shores always return from their field trips with abundant samples, which are inventoried and sealed away by the Gardener after running the necessary tests for future use.",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_cllb_02.T_IconA_cllb_02",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 2,
+      "Content": [
+        {
+          "Key": 41100062,
+          "Value": 1
+        },
+        {
+          "Key": 41100072,
+          "Value": 1
+        },
+        {
+          "Key": 41100082,
+          "Value": 1
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "50000418": {
     "Id": 50000418,
@@ -29250,7 +32148,25 @@
     "Desc": "Open to claim one advanced material for Weapon Ascension or Skill Upgrade of your choice: \n<color=Rare4>HF Exoswarm Core *1</color> \n<color=Rare4>HF Mech Core *1</color> \n<color=Rare4>Chipped Exoswarm Pendant *1</color>",
     "Bg": "The Bloom Bearers of the Black Shores always return from their field trips with abundant samples, which are inventoried and sealed away by the Gardener after running the necessary tests for future use.",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_cllb_03.T_IconA_cllb_03",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 2,
+      "Content": [
+        {
+          "Key": 41100063,
+          "Value": 1
+        },
+        {
+          "Key": 41100073,
+          "Value": 1
+        },
+        {
+          "Key": 41100083,
+          "Value": 1
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "50000419": {
     "Id": 50000419,
@@ -29262,10 +32178,44 @@
     "TagNum": [
       16
     ],
-    "Name": "Premium Enclosure Tank\t- Lahai-Roi",
+    "Name": "Premium Enclosure Tank - Lahai-Roi",
     "Desc": "Open to claim one premium material for Weapon Ascension or Skill Upgrade of your choice: \n<color=Rare5>FF Exoswarm Core *1</color> \n<color=Rare5>FF Mech Core *1</color> \n<color=Rare5>Intact Exoswarm Pendant *1</color>",
     "Bg": "The Bloom Bearers of the Black Shores always return from their field trips with abundant samples, which are inventoried and sealed away by the Gardener after running the necessary tests for future use.",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_cllb_04.T_IconA_cllb_04",
+    "Source": [],
+    "Giftpack": {
+      "Key": 2,
+      "Content": [
+        {
+          "Key": 41100064,
+          "Value": 1
+        },
+        {
+          "Key": 41100074,
+          "Value": 1
+        },
+        {
+          "Key": 41100084,
+          "Value": 1
+        }
+      ],
+      "AvailableNum": 1
+    }
+  },
+  "80800001": {
+    "Id": 80800001,
+    "Rarity": 3,
+    "Type": 0,
+    "Tag": [
+      "Consumable"
+    ],
+    "TagNum": [
+      10
+    ],
+    "Name": "Trust Key",
+    "Desc": "A symbol of a trusted bond forged with H.E.R.M.E.S. Used to unlock and upgrade various clearance levels in the rider training.",
+    "Bg": "A data entity formed when H.E.R.M.E.S. grants you access to its underlying data port. You can even sense a faint warmth. Though born from pure logical computation, it feels like the prototype of a genuine heart.",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_80400003_UI.T_IconA_80400003_UI",
     "Source": []
   },
   "67": {
@@ -29298,7 +32248,29 @@
     "Desc": "Used to unlock the corresponding Echo Aspect set.",
     "Bg": "Once bound by thorns, these wings now break free, soaring into the boundless sea of clouds.\nThe old laws no longer hold sway, for they will carry you to the farthest skies of freedom.",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_7_a_UI.T_IconRoleHead256_7_a_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 4,
+      "Content": [
+        {
+          "Key": 89101003,
+          "Value": 1
+        },
+        {
+          "Key": 89102003,
+          "Value": 1
+        },
+        {
+          "Key": 89103004,
+          "Value": 1
+        },
+        {
+          "Key": 3,
+          "Value": 300
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "80700005": {
     "Id": 80700005,
@@ -29928,7 +32900,113 @@
     "Desc": "Open to claim one material for Resonator Ascension of your choice:\nRimewisp *1\nGemini Spore *1\nArithmetic Shell *1\nSummer Flower *1\nStone Rose *1\n…",
     "Bg": "Bio samples collected by the Black Shores' Bloombearers during their fieldwork, which were later transplanted, preserved, and archived in the Bank of Life at Tethys' Deep. When necessary, specimens stored within may be used as supplies and freely accessed by personnel in need.",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_cllb_05.T_IconA_cllb_05",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 2,
+      "Content": [
+        {
+          "Key": 42601380,
+          "Value": 1
+        },
+        {
+          "Key": 42601390,
+          "Value": 1
+        },
+        {
+          "Key": 42601400,
+          "Value": 1
+        },
+        {
+          "Key": 42300060,
+          "Value": 1
+        },
+        {
+          "Key": 42300070,
+          "Value": 1
+        },
+        {
+          "Key": 42300090,
+          "Value": 1
+        },
+        {
+          "Key": 42300030,
+          "Value": 1
+        },
+        {
+          "Key": 42300080,
+          "Value": 1
+        },
+        {
+          "Key": 42300040,
+          "Value": 1
+        },
+        {
+          "Key": 42300050,
+          "Value": 1
+        },
+        {
+          "Key": 42300100,
+          "Value": 1
+        },
+        {
+          "Key": 42310200,
+          "Value": 1
+        },
+        {
+          "Key": 42310210,
+          "Value": 1
+        },
+        {
+          "Key": 42310230,
+          "Value": 1
+        },
+        {
+          "Key": 42601160,
+          "Value": 1
+        },
+        {
+          "Key": 42601150,
+          "Value": 1
+        },
+        {
+          "Key": 42601140,
+          "Value": 1
+        },
+        {
+          "Key": 42601170,
+          "Value": 1
+        },
+        {
+          "Key": 42601220,
+          "Value": 1
+        },
+        {
+          "Key": 42601230,
+          "Value": 1
+        },
+        {
+          "Key": 42601250,
+          "Value": 1
+        },
+        {
+          "Key": 42601290,
+          "Value": 1
+        },
+        {
+          "Key": 42601300,
+          "Value": 1
+        },
+        {
+          "Key": 42601280,
+          "Value": 1
+        },
+        {
+          "Key": 42601310,
+          "Value": 1
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "71500066": {
     "Id": 71500066,
@@ -30113,10 +33191,124 @@
       16
     ],
     "Name": "Voyager's Ascension Supply",
-    "Desc": "Open to claim one material for Resonator Ascension of your choice:\nRimewisp *1\nGemini Spore *1\nArithmetic Shell *1\nSummer Flower *1\nStone Rose *1\n…",
+    "Desc": "Open to claim one material for Resonator Ascension of your choice:\nMoss Amber x1\nEdelschnee x1\nArithmetic Shell x1\nRimewisp x1\nGemini Spore x1\n…",
     "Bg": "Bio samples collected by the Black Shores' Bloombearers during their fieldwork, which were later transplanted, preserved, and archived in the Bank of Life at Tethys' Deep. When necessary, specimens stored within may be used as supplies and freely accessed by personnel in need.",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_cllb_05.T_IconA_cllb_05",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 2,
+      "Content": [
+        {
+          "Key": 42601430,
+          "Value": 1
+        },
+        {
+          "Key": 42601420,
+          "Value": 1
+        },
+        {
+          "Key": 42601380,
+          "Value": 1
+        },
+        {
+          "Key": 42601390,
+          "Value": 1
+        },
+        {
+          "Key": 42601400,
+          "Value": 1
+        },
+        {
+          "Key": 42300060,
+          "Value": 1
+        },
+        {
+          "Key": 42300070,
+          "Value": 1
+        },
+        {
+          "Key": 42300090,
+          "Value": 1
+        },
+        {
+          "Key": 42300030,
+          "Value": 1
+        },
+        {
+          "Key": 42300080,
+          "Value": 1
+        },
+        {
+          "Key": 42300040,
+          "Value": 1
+        },
+        {
+          "Key": 42300050,
+          "Value": 1
+        },
+        {
+          "Key": 42300100,
+          "Value": 1
+        },
+        {
+          "Key": 42310200,
+          "Value": 1
+        },
+        {
+          "Key": 42310210,
+          "Value": 1
+        },
+        {
+          "Key": 42310230,
+          "Value": 1
+        },
+        {
+          "Key": 42601160,
+          "Value": 1
+        },
+        {
+          "Key": 42601150,
+          "Value": 1
+        },
+        {
+          "Key": 42601140,
+          "Value": 1
+        },
+        {
+          "Key": 42601170,
+          "Value": 1
+        },
+        {
+          "Key": 42601220,
+          "Value": 1
+        },
+        {
+          "Key": 42601230,
+          "Value": 1
+        },
+        {
+          "Key": 42601250,
+          "Value": 1
+        },
+        {
+          "Key": 42601290,
+          "Value": 1
+        },
+        {
+          "Key": 42601300,
+          "Value": 1
+        },
+        {
+          "Key": 42601280,
+          "Value": 1
+        },
+        {
+          "Key": 42601310,
+          "Value": 1
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "50000212": {
     "Id": 50000212,
@@ -30129,10 +33321,124 @@
       16
     ],
     "Name": "Reprise Ascension Supply",
-    "Desc": "Open to claim one material for Resonator Ascension of your choice:\nRimewisp *1\nGemini Spore *1\nArithmetic Shell *1\nSummer Flower *1\nStone Rose *1\n…",
+    "Desc": "Open to claim one material for Resonator Ascension of your choice:\nMoss Amber x1\nEdelschnee x1\nArithmetic Shell x1\nRimewisp x1\nGemini Spore x1\n…",
     "Bg": "Bio samples collected by the Black Shores' Bloombearers during their fieldwork, which were later transplanted, preserved, and archived in the Bank of Life at Tethys' Deep. When necessary, specimens stored within may be used as supplies and freely accessed by personnel in need.",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_cllb_05.T_IconA_cllb_05",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 2,
+      "Content": [
+        {
+          "Key": 42601430,
+          "Value": 1
+        },
+        {
+          "Key": 42601420,
+          "Value": 1
+        },
+        {
+          "Key": 42601380,
+          "Value": 1
+        },
+        {
+          "Key": 42601390,
+          "Value": 1
+        },
+        {
+          "Key": 42601400,
+          "Value": 1
+        },
+        {
+          "Key": 42300060,
+          "Value": 1
+        },
+        {
+          "Key": 42300070,
+          "Value": 1
+        },
+        {
+          "Key": 42300090,
+          "Value": 1
+        },
+        {
+          "Key": 42300030,
+          "Value": 1
+        },
+        {
+          "Key": 42300080,
+          "Value": 1
+        },
+        {
+          "Key": 42300040,
+          "Value": 1
+        },
+        {
+          "Key": 42300050,
+          "Value": 1
+        },
+        {
+          "Key": 42300100,
+          "Value": 1
+        },
+        {
+          "Key": 42310200,
+          "Value": 1
+        },
+        {
+          "Key": 42310210,
+          "Value": 1
+        },
+        {
+          "Key": 42310230,
+          "Value": 1
+        },
+        {
+          "Key": 42601160,
+          "Value": 1
+        },
+        {
+          "Key": 42601150,
+          "Value": 1
+        },
+        {
+          "Key": 42601140,
+          "Value": 1
+        },
+        {
+          "Key": 42601170,
+          "Value": 1
+        },
+        {
+          "Key": 42601220,
+          "Value": 1
+        },
+        {
+          "Key": 42601230,
+          "Value": 1
+        },
+        {
+          "Key": 42601250,
+          "Value": 1
+        },
+        {
+          "Key": 42601290,
+          "Value": 1
+        },
+        {
+          "Key": 42601300,
+          "Value": 1
+        },
+        {
+          "Key": 42601280,
+          "Value": 1
+        },
+        {
+          "Key": 42601310,
+          "Value": 1
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "51036": {
     "Id": 51036,
@@ -30145,10 +33451,62 @@
       16
     ],
     "Name": "Truthseeker's Battlesong Collection",
-    "Desc": "",
+    "Desc": "Obtain to receive the items inside.",
     "Bg": "",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 4,
+      "Content": [
+        {
+          "Key": 3,
+          "Value": 600
+        },
+        {
+          "Key": 50000115,
+          "Value": 20
+        },
+        {
+          "Key": 2,
+          "Value": 500000
+        }
+      ],
+      "AvailableNum": 1
+    }
+  },
+  "51037": {
+    "Id": 51037,
+    "Rarity": 5,
+    "Type": 7,
+    "Tag": [
+      "Supply Chest"
+    ],
+    "TagNum": [
+      16
+    ],
+    "Name": "Stay tuned",
+    "Desc": "Obtain to receive the items inside.",
+    "Bg": "",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
+    "Source": [],
+    "Giftpack": {
+      "Key": 4,
+      "Content": [
+        {
+          "Key": 3,
+          "Value": 600
+        },
+        {
+          "Key": 50000115,
+          "Value": 20
+        },
+        {
+          "Key": 2,
+          "Value": 500000
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "51038": {
     "Id": 51038,
@@ -30161,10 +33519,28 @@
       16
     ],
     "Name": "Spacetrek Prep Protocol",
-    "Desc": "",
+    "Desc": "Obtain to receive the items inside.",
     "Bg": "",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 4,
+      "Content": [
+        {
+          "Key": 3,
+          "Value": 600
+        },
+        {
+          "Key": 50000404,
+          "Value": 30
+        },
+        {
+          "Key": 50000210,
+          "Value": 60
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "51039": {
     "Id": 51039,
@@ -30177,10 +33553,24 @@
       16
     ],
     "Name": "Astro-Calibration Protocol",
-    "Desc": "",
+    "Desc": "Obtain to receive the items inside.",
     "Bg": "",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 4,
+      "Content": [
+        {
+          "Key": 50002,
+          "Value": 20
+        },
+        {
+          "Key": 3,
+          "Value": 1000
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "51040": {
     "Id": 51040,
@@ -30193,10 +33583,24 @@
       16
     ],
     "Name": "Truthseeker's Radiant Collection I",
-    "Desc": "",
+    "Desc": "Obtain to receive the items inside.",
     "Bg": "",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 4,
+      "Content": [
+        {
+          "Key": 50002,
+          "Value": 5
+        },
+        {
+          "Key": 3,
+          "Value": 400
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "51041": {
     "Id": 51041,
@@ -30209,10 +33613,24 @@
       16
     ],
     "Name": "Truthseeker's Radiant Collection II",
-    "Desc": "",
+    "Desc": "Obtain to receive the items inside.",
     "Bg": "",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 4,
+      "Content": [
+        {
+          "Key": 50002,
+          "Value": 15
+        },
+        {
+          "Key": 3,
+          "Value": 500
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "51042": {
     "Id": 51042,
@@ -30225,10 +33643,28 @@
       16
     ],
     "Name": "Truthseeker's Radiant Collection III",
-    "Desc": "",
+    "Desc": "Obtain to receive the items inside.",
     "Bg": "",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 4,
+      "Content": [
+        {
+          "Key": 50002,
+          "Value": 20
+        },
+        {
+          "Key": 3,
+          "Value": 1600
+        },
+        {
+          "Key": 10800,
+          "Value": 10
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "51043": {
     "Id": 51043,
@@ -30241,10 +33677,24 @@
       16
     ],
     "Name": "Truthseeker's Forging Collection",
-    "Desc": "",
+    "Desc": "Obtain to receive the items inside.",
     "Bg": "",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 4,
+      "Content": [
+        {
+          "Key": 50005,
+          "Value": 5
+        },
+        {
+          "Key": 3,
+          "Value": 400
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "51044": {
     "Id": 51044,
@@ -30257,10 +33707,28 @@
       16
     ],
     "Name": "Truthseeker's Tidal Collection",
-    "Desc": "",
+    "Desc": "Obtain to receive the items inside.",
     "Bg": "",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 4,
+      "Content": [
+        {
+          "Key": 50002,
+          "Value": 5
+        },
+        {
+          "Key": 50005,
+          "Value": 5
+        },
+        {
+          "Key": 3,
+          "Value": 500
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "51045": {
     "Id": 51045,
@@ -30273,10 +33741,28 @@
       16
     ],
     "Name": "TARD-E's Monthly Aid",
-    "Desc": "",
+    "Desc": "Obtain to receive the items inside.",
     "Bg": "",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
-    "Source": []
+    "Source": [],
+    "Giftpack": {
+      "Key": 4,
+      "Content": [
+        {
+          "Key": 50002,
+          "Value": 5
+        },
+        {
+          "Key": 50005,
+          "Value": 5
+        },
+        {
+          "Key": 3,
+          "Value": 500
+        }
+      ],
+      "AvailableNum": 1
+    }
   },
   "80001079": {
     "Id": 80001079,
@@ -30363,7 +33849,7 @@
       20
     ],
     "Name": "Electro Interference Potion",
-    "Desc": "Within 180s, all Resonators in the team deal 40% more Eletro DMG for 10s after dealing damage to enemies under Tune Rupture - Interfered or Tune Strain - Interfered. Only effective on your own Resonators in Co-op Mode.",
+    "Desc": "Within 180s, all Resonators in the team deal 40% more Electro DMG for 10s after dealing damage to enemies under Tune Rupture - Interfered or Tune Strain - Interfered. Only effective on your own Resonators in Co-op Mode.",
     "Bg": "An oral potion formulated by the Resonator Nursing Unit of Startorch Academy. Its core ingredient is synthesized from unique Laihai-Roi materials. Shake well before use to temporarily enhance the Tune Disruption ability of a specified Attribute.",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconCook/T_IconCook_YJ_045_UI.T_IconCook_YJ_045_UI",
     "Source": [
@@ -30615,7 +34101,7 @@
       49
     ],
     "Name": "Q.E.D.",
-    "Desc": "Background music played when fighting Starward Handmaiden: Hyvitia.",
+    "Desc": "Background music played when fighting Starward Handmaiden: Hyvatia.",
     "Bg": "Complete Main Quest \"What Burns Beneath Frostlands\" to unlock.",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMst/T_IconMst_009_UI.T_IconMst_009_UI",
     "Source": []
@@ -30732,6 +34218,509 @@
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_mtdj_03_UI.T_IconA_mtdj_03_UI",
     "Source": []
   },
+  "80830012": {
+    "Id": 80830012,
+    "Rarity": 3,
+    "Type": 6,
+    "Tag": [
+      "Quest Item"
+    ],
+    "TagNum": [
+      21
+    ],
+    "Name": "",
+    "Desc": "",
+    "Bg": "",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconTask/T_IconTask_Level_005_1_UI.T_IconTask_Level_005_1_UI",
+    "Source": []
+  },
+  "80830013": {
+    "Id": 80830013,
+    "Rarity": 3,
+    "Type": 6,
+    "Tag": [
+      "Quest Item"
+    ],
+    "TagNum": [
+      21
+    ],
+    "Name": "",
+    "Desc": "",
+    "Bg": "",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconTask/T_IconTask_Level_005_1_UI.T_IconTask_Level_005_1_UI",
+    "Source": []
+  },
+  "80830016": {
+    "Id": 80830016,
+    "Rarity": 3,
+    "Type": 6,
+    "Tag": [
+      "Quest Item"
+    ],
+    "TagNum": [
+      21
+    ],
+    "Name": "",
+    "Desc": "",
+    "Bg": "",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconTask/T_IconTask_Level_005_1_UI.T_IconTask_Level_005_1_UI",
+    "Source": []
+  },
+  "80830018": {
+    "Id": 80830018,
+    "Rarity": 3,
+    "Type": 6,
+    "Tag": [
+      "Quest Item"
+    ],
+    "TagNum": [
+      21
+    ],
+    "Name": "",
+    "Desc": "",
+    "Bg": "",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconTask/T_IconTask_Level_005_1_UI.T_IconTask_Level_005_1_UI",
+    "Source": []
+  },
+  "80830019": {
+    "Id": 80830019,
+    "Rarity": 3,
+    "Type": 6,
+    "Tag": [
+      "Quest Item"
+    ],
+    "TagNum": [
+      21
+    ],
+    "Name": "",
+    "Desc": "",
+    "Bg": "",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconTask/T_IconTask_Level_005_1_UI.T_IconTask_Level_005_1_UI",
+    "Source": []
+  },
+  "80830020": {
+    "Id": 80830020,
+    "Rarity": 3,
+    "Type": 6,
+    "Tag": [
+      "Quest Item"
+    ],
+    "TagNum": [
+      21
+    ],
+    "Name": "",
+    "Desc": "",
+    "Bg": "",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconTask/T_IconTask_Level_005_1_UI.T_IconTask_Level_005_1_UI",
+    "Source": []
+  },
+  "80830021": {
+    "Id": 80830021,
+    "Rarity": 3,
+    "Type": 6,
+    "Tag": [
+      "Quest Item"
+    ],
+    "TagNum": [
+      21
+    ],
+    "Name": "",
+    "Desc": "",
+    "Bg": "",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconTask/T_IconTask_Level_005_1_UI.T_IconTask_Level_005_1_UI",
+    "Source": []
+  },
+  "80830036": {
+    "Id": 80830036,
+    "Rarity": 3,
+    "Type": 6,
+    "Tag": [
+      "Quest Item"
+    ],
+    "TagNum": [
+      21
+    ],
+    "Name": "",
+    "Desc": "",
+    "Bg": "",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconTask/T_IconTask_Level_005_1_UI.T_IconTask_Level_005_1_UI",
+    "Source": []
+  },
+  "80830037": {
+    "Id": 80830037,
+    "Rarity": 3,
+    "Type": 6,
+    "Tag": [
+      "Quest Item"
+    ],
+    "TagNum": [
+      21
+    ],
+    "Name": "",
+    "Desc": "",
+    "Bg": "",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconTask/T_IconTask_Level_005_1_UI.T_IconTask_Level_005_1_UI",
+    "Source": []
+  },
+  "80830043": {
+    "Id": 80830043,
+    "Rarity": 3,
+    "Type": 6,
+    "Tag": [
+      "Quest Item"
+    ],
+    "TagNum": [
+      21
+    ],
+    "Name": "",
+    "Desc": "",
+    "Bg": "",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconTask/T_IconTask_Level_005_1_UI.T_IconTask_Level_005_1_UI",
+    "Source": []
+  },
+  "80830044": {
+    "Id": 80830044,
+    "Rarity": 3,
+    "Type": 6,
+    "Tag": [
+      "Quest Item"
+    ],
+    "TagNum": [
+      21
+    ],
+    "Name": "",
+    "Desc": "",
+    "Bg": "",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconTask/T_IconTask_Level_005_1_UI.T_IconTask_Level_005_1_UI",
+    "Source": []
+  },
+  "80830045": {
+    "Id": 80830045,
+    "Rarity": 3,
+    "Type": 6,
+    "Tag": [
+      "Quest Item"
+    ],
+    "TagNum": [
+      21
+    ],
+    "Name": "",
+    "Desc": "",
+    "Bg": "",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconTask/T_IconTask_Level_005_1_UI.T_IconTask_Level_005_1_UI",
+    "Source": []
+  },
+  "80830046": {
+    "Id": 80830046,
+    "Rarity": 3,
+    "Type": 6,
+    "Tag": [
+      "Quest Item"
+    ],
+    "TagNum": [
+      21
+    ],
+    "Name": "",
+    "Desc": "",
+    "Bg": "",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconTask/T_IconTask_Level_005_1_UI.T_IconTask_Level_005_1_UI",
+    "Source": []
+  },
+  "80830047": {
+    "Id": 80830047,
+    "Rarity": 3,
+    "Type": 6,
+    "Tag": [
+      "Quest Item"
+    ],
+    "TagNum": [
+      21
+    ],
+    "Name": "",
+    "Desc": "",
+    "Bg": "",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconTask/T_IconTask_Level_005_1_UI.T_IconTask_Level_005_1_UI",
+    "Source": []
+  },
+  "80830048": {
+    "Id": 80830048,
+    "Rarity": 3,
+    "Type": 6,
+    "Tag": [
+      "Quest Item"
+    ],
+    "TagNum": [
+      21
+    ],
+    "Name": "",
+    "Desc": "",
+    "Bg": "",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconTask/T_IconTask_Level_005_1_UI.T_IconTask_Level_005_1_UI",
+    "Source": []
+  },
+  "80830049": {
+    "Id": 80830049,
+    "Rarity": 3,
+    "Type": 6,
+    "Tag": [
+      "Quest Item"
+    ],
+    "TagNum": [
+      21
+    ],
+    "Name": "",
+    "Desc": "",
+    "Bg": "",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconTask/T_IconTask_Level_005_1_UI.T_IconTask_Level_005_1_UI",
+    "Source": []
+  },
+  "80830050": {
+    "Id": 80830050,
+    "Rarity": 3,
+    "Type": 6,
+    "Tag": [
+      "Quest Item"
+    ],
+    "TagNum": [
+      21
+    ],
+    "Name": "",
+    "Desc": "",
+    "Bg": "",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconTask/T_IconTask_Level_005_1_UI.T_IconTask_Level_005_1_UI",
+    "Source": []
+  },
+  "80830051": {
+    "Id": 80830051,
+    "Rarity": 3,
+    "Type": 6,
+    "Tag": [
+      "Quest Item"
+    ],
+    "TagNum": [
+      21
+    ],
+    "Name": "",
+    "Desc": "",
+    "Bg": "",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconTask/T_IconTask_Level_005_1_UI.T_IconTask_Level_005_1_UI",
+    "Source": []
+  },
+  "80830052": {
+    "Id": 80830052,
+    "Rarity": 3,
+    "Type": 6,
+    "Tag": [
+      "Quest Item"
+    ],
+    "TagNum": [
+      21
+    ],
+    "Name": "",
+    "Desc": "",
+    "Bg": "",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconTask/T_IconTask_Level_005_1_UI.T_IconTask_Level_005_1_UI",
+    "Source": []
+  },
+  "80830053": {
+    "Id": 80830053,
+    "Rarity": 3,
+    "Type": 6,
+    "Tag": [
+      "Quest Item"
+    ],
+    "TagNum": [
+      21
+    ],
+    "Name": "",
+    "Desc": "",
+    "Bg": "",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconTask/T_IconTask_Level_005_1_UI.T_IconTask_Level_005_1_UI",
+    "Source": []
+  },
+  "80830054": {
+    "Id": 80830054,
+    "Rarity": 3,
+    "Type": 6,
+    "Tag": [
+      "Quest Item"
+    ],
+    "TagNum": [
+      21
+    ],
+    "Name": "",
+    "Desc": "",
+    "Bg": "",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconTask/T_IconTask_Level_005_1_UI.T_IconTask_Level_005_1_UI",
+    "Source": []
+  },
+  "80830055": {
+    "Id": 80830055,
+    "Rarity": 3,
+    "Type": 6,
+    "Tag": [
+      "Quest Item"
+    ],
+    "TagNum": [
+      21
+    ],
+    "Name": "",
+    "Desc": "",
+    "Bg": "",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconTask/T_IconTask_Level_005_1_UI.T_IconTask_Level_005_1_UI",
+    "Source": []
+  },
+  "80830056": {
+    "Id": 80830056,
+    "Rarity": 3,
+    "Type": 6,
+    "Tag": [
+      "Quest Item"
+    ],
+    "TagNum": [
+      21
+    ],
+    "Name": "",
+    "Desc": "",
+    "Bg": "",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconTask/T_IconTask_Level_005_1_UI.T_IconTask_Level_005_1_UI",
+    "Source": []
+  },
+  "80830057": {
+    "Id": 80830057,
+    "Rarity": 3,
+    "Type": 6,
+    "Tag": [
+      "Quest Item"
+    ],
+    "TagNum": [
+      21
+    ],
+    "Name": "",
+    "Desc": "",
+    "Bg": "",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconTask/T_IconTask_Level_005_1_UI.T_IconTask_Level_005_1_UI",
+    "Source": []
+  },
+  "80830058": {
+    "Id": 80830058,
+    "Rarity": 3,
+    "Type": 6,
+    "Tag": [
+      "Quest Item"
+    ],
+    "TagNum": [
+      21
+    ],
+    "Name": "",
+    "Desc": "",
+    "Bg": "",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconTask/T_IconTask_Level_005_1_UI.T_IconTask_Level_005_1_UI",
+    "Source": []
+  },
+  "44010053": {
+    "Id": 44010053,
+    "Rarity": 5,
+    "Type": 4,
+    "Tag": [
+      "Phantom Appearance"
+    ],
+    "TagNum": [
+      47
+    ],
+    "Name": "Phantom: Zip Zap",
+    "Desc": "Unlocks the Phantom Appearance of the corresponding Echo.",
+    "Bg": "",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_SG_31082_UI.T_IconMonsterGoods_SG_31082_UI",
+    "Source": []
+  },
+  "41400284": {
+    "Id": 41400284,
+    "Rarity": 4,
+    "Type": 4,
+    "Tag": [
+      "Resonator Ascension Material"
+    ],
+    "TagNum": [
+      7
+    ],
+    "Name": "Stay tuned",
+    "Desc": "Stay tuned",
+    "Bg": "Stay tuned",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMout/T_IconMout_L_022_UI.T_IconMout_L_022_UI",
+    "Source": [
+      "Stay tuned",
+      "Stay tuned"
+    ]
+  },
+  "41400294": {
+    "Id": 41400294,
+    "Rarity": 4,
+    "Type": 4,
+    "Tag": [
+      "Skill Upgrade Material"
+    ],
+    "TagNum": [
+      8
+    ],
+    "Name": "Stay tuned",
+    "Desc": "Stay tuned",
+    "Bg": "Stay tuned",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMout/T_IconMout_L_021_UI.T_IconMout_L_021_UI",
+    "Source": [
+      "Supply Pack",
+      "Stay tuned",
+      "Stay tuned"
+    ]
+  },
+  "80900001": {
+    "Id": 80900001,
+    "Rarity": 4,
+    "Type": 0,
+    "Tag": [
+      "Consumable"
+    ],
+    "TagNum": [
+      10
+    ],
+    "Name": "Stay tuned",
+    "Desc": "Stay tuned",
+    "Bg": "Stay tuned",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_67_UI.T_IconA_67_UI",
+    "Source": []
+  },
+  "80900002": {
+    "Id": 80900002,
+    "Rarity": 4,
+    "Type": 0,
+    "Tag": [
+      "Consumable"
+    ],
+    "TagNum": [
+      10
+    ],
+    "Name": "Stay tuned",
+    "Desc": "Stay tuned",
+    "Bg": "Stay tuned",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_67_UI.T_IconA_67_UI",
+    "Source": []
+  },
+  "80900003": {
+    "Id": 80900003,
+    "Rarity": 4,
+    "Type": 0,
+    "Tag": [
+      "Consumable"
+    ],
+    "TagNum": [
+      10
+    ],
+    "Name": "Stay tuned",
+    "Desc": "Stay tuned",
+    "Bg": "Stay tuned",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_67_UI.T_IconA_67_UI",
+    "Source": []
+  },
   "70290007": {
     "Id": 70290007,
     "Rarity": 5,
@@ -30748,6 +34737,70 @@
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_plot_4a_UI.T_IconA_plot_4a_UI",
     "Source": []
   },
+  "80131005": {
+    "Id": 80131005,
+    "Rarity": 5,
+    "Type": 0,
+    "Tag": [
+      "Title"
+    ],
+    "TagNum": [
+      51
+    ],
+    "Name": "Stay tuned",
+    "Desc": "Stay tuned",
+    "Bg": "Stay tuned",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_Title_09_UI.T_IconA_Title_09_UI",
+    "Source": []
+  },
+  "80131006": {
+    "Id": 80131006,
+    "Rarity": 5,
+    "Type": 0,
+    "Tag": [
+      "Title"
+    ],
+    "TagNum": [
+      51
+    ],
+    "Name": "Stay tuned",
+    "Desc": "Stay tuned",
+    "Bg": "Stay tuned",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_Title_10_UI.T_IconA_Title_10_UI",
+    "Source": []
+  },
+  "80130055": {
+    "Id": 80130055,
+    "Rarity": 5,
+    "Type": 0,
+    "Tag": [
+      "Title"
+    ],
+    "TagNum": [
+      51
+    ],
+    "Name": "Stay tuned",
+    "Desc": "Stay tuned",
+    "Bg": "Stay tuned",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_Title_04_UI.T_IconA_Title_04_UI",
+    "Source": []
+  },
+  "80130056": {
+    "Id": 80130056,
+    "Rarity": 5,
+    "Type": 0,
+    "Tag": [
+      "Title"
+    ],
+    "TagNum": [
+      51
+    ],
+    "Name": "Stay tuned",
+    "Desc": "Stay tuned",
+    "Bg": "Stay tuned",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_Title_04_UI.T_IconA_Title_04_UI",
+    "Source": []
+  },
   "52012": {
     "Id": 52012,
     "Rarity": 5,
@@ -30759,9 +34812,361 @@
       16
     ],
     "Name": "Adventurer's Starter Pack",
-    "Desc": "",
+    "Desc": "Obtain to receive the items inside.",
     "Bg": "",
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
+    "Source": [],
+    "Giftpack": {
+      "Key": 4,
+      "Content": [
+        {
+          "Key": 43010003,
+          "Value": 5
+        },
+        {
+          "Key": 43020003,
+          "Value": 5
+        },
+        {
+          "Key": 2,
+          "Value": 20000
+        },
+        {
+          "Key": 80000012,
+          "Value": 2
+        }
+      ],
+      "AvailableNum": 1
+    }
+  },
+  "42601420": {
+    "Id": 42601420,
+    "Rarity": 1,
+    "Type": 5,
+    "Tag": [
+      "Ascension Material"
+    ],
+    "TagNum": [
+      45
+    ],
+    "Name": "Stay tuned",
+    "Desc": "Stay tuned",
+    "Bg": "Stay tuned",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconC/T_IconC_067_UI.T_IconC_067_UI",
+    "Source": [
+      "Supply Pack",
+      "Collection Spots",
+      "Overworld Collection",
+      "Resonator Nursing Unit"
+    ]
+  },
+  "42601430": {
+    "Id": 42601430,
+    "Rarity": 1,
+    "Type": 5,
+    "Tag": [
+      "Ascension Material"
+    ],
+    "TagNum": [
+      45
+    ],
+    "Name": "Stay tuned",
+    "Desc": "Stay tuned",
+    "Bg": "Stay tuned",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconC/T_IconC_063_UI.T_IconC_063_UI",
+    "Source": [
+      "Supply Pack",
+      "Collection Spots",
+      "Overworld Collection",
+      "Resonator Nursing Unit"
+    ]
+  },
+  "10001210": {
+    "Id": 10001210,
+    "Rarity": 5,
+    "Type": 7,
+    "Tag": [
+      "Waveband"
+    ],
+    "TagNum": [
+      30
+    ],
+    "Name": "Stay tuned",
+    "Desc": "Stay tuned",
+    "Bg": "A Resonator's Forte is composed of countless Wavebands. When these Wavebands form a complete Resonance Chain, the Resonator can unleash their full power.",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconRup/T_IconRup_Part_1210_UI.T_IconRup_Part_1210_UI",
+    "Source": [
+      "Convene"
+    ]
+  },
+  "10001510": {
+    "Id": 10001510,
+    "Rarity": 5,
+    "Type": 7,
+    "Tag": [
+      "Waveband"
+    ],
+    "TagNum": [
+      30
+    ],
+    "Name": "Stay tuned",
+    "Desc": "Stay tuned",
+    "Bg": "A Resonator's Forte is composed of countless Wavebands. When these Wavebands form a complete Resonance Chain, the Resonator can unleash their full power.",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconRup/T_IconRup_Part_1510_UI.T_IconRup_Part_1510_UI",
+    "Source": [
+      "Convene"
+    ]
+  },
+  "50000116": {
+    "Id": 50000116,
+    "Rarity": 4,
+    "Type": 7,
+    "Tag": [
+      "Supply Chest"
+    ],
+    "TagNum": [
+      16
+    ],
+    "Name": "Stay tuned",
+    "Desc": "Stay tuned",
+    "Bg": "Upon touching the chest, you hear what sounds like a battle hymn.",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_068_UI.T_IconGiftPack_068_UI",
+    "Source": [],
+    "Giftpack": {
+      "Key": 2,
+      "Content": [
+        {
+          "Key": 41400094,
+          "Value": 1
+        },
+        {
+          "Key": 41400114,
+          "Value": 1
+        },
+        {
+          "Key": 41400124,
+          "Value": 1
+        },
+        {
+          "Key": 41400144,
+          "Value": 1
+        },
+        {
+          "Key": 41400194,
+          "Value": 1
+        },
+        {
+          "Key": 41400204,
+          "Value": 1
+        },
+        {
+          "Key": 41400254,
+          "Value": 1
+        },
+        {
+          "Key": 41400294,
+          "Value": 1
+        }
+      ],
+      "AvailableNum": 1
+    }
+  },
+  "36000016": {
+    "Id": 36000016,
+    "Rarity": 5,
+    "Type": 4,
+    "Tag": [
+      "Echo Development Material",
+      "Please contact our Customer Service for assistance"
+    ],
+    "TagNum": [
+      22,
+      54
+    ],
+    "Name": "Modifier",
+    "Desc": "Used to modify the Mainstat of an unenhanced 5-Star Echo.",
+    "Bg": "Used to adjust Echo frequencies to obtain different characteristics.",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_18_UI.T_IconA_18_UI",
+    "Source": [
+      "Store",
+      "Pioneer Podcast",
+      "Event"
+    ]
+  },
+  "68": {
+    "Id": 68,
+    "Rarity": 4,
+    "Type": 0,
+    "Tag": [
+      "Event Item"
+    ],
+    "TagNum": [
+      48
+    ],
+    "Name": "Stay tuned",
+    "Desc": "Stay tuned",
+    "Bg": "Stay tuned",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_Act_Theme26_01_UI.T_IconA_Act_Theme26_01_UI",
+    "Source": []
+  },
+  "71500070": {
+    "Id": 71500070,
+    "Rarity": 4,
+    "Type": 0,
+    "Tag": [
+      "Token"
+    ],
+    "TagNum": [
+      50
+    ],
+    "Name": "Reveler Captain's Seal",
+    "Desc": "Amplifies all Attribute DMG by 25%.\n\nThis Token can be used up to <color=#fee388>2</color> times in Whimpering Wastes.",
+    "Bg": "Evil sank their ship, trying to stifle their joy. Instead, they turned their last moments into a fiery celebration, singing and dancing atop the blazing sea.",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMowing/T_IconMowing_18.T_IconMowing_18",
+    "Source": [
+      "Whimpering Wastes"
+    ]
+  },
+  "71500071": {
+    "Id": 71500071,
+    "Rarity": 5,
+    "Type": 0,
+    "Tag": [
+      "Token"
+    ],
+    "TagNum": [
+      50
+    ],
+    "Name": "Blueprint Where Stars Are Etched",
+    "Desc": "Grants 40% Fusion DMG Bonus. Enemies takes 100% more total DMG from Fusion Burst.\nInflicting Fusion Burst on enemies triggers the following effects:\n- Additionally restores Ember, triggered up to once per second.\n- Additionally inflicts two stacks of Fusion Burst on the target, triggered up to once per 0.5s on each target.\n\nThis Token can be used up to <color=#fee388>2</color> times in Whimpering Wastes.",
+    "Bg": "Stars... stars. Like diamond shards strewn across a black veil. The very pulse and heartbeat of the universe at its dawn.\nI will touch them. I will... unravel them.",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMowing/T_IconMowing_36.T_IconMowing_36",
+    "Source": [
+      "Whimpering Wastes"
+    ]
+  },
+  "71500072": {
+    "Id": 71500072,
+    "Rarity": 5,
+    "Type": 0,
+    "Tag": [
+      "Token"
+    ],
+    "TagNum": [
+      50
+    ],
+    "Name": "Frostlands Where Barreness Thrives",
+    "Desc": "Resonators deal 30% more total DMG to enemies in Tunability - Shifting, Tune Rupture - Interfered, or Tune Strain - Interfered.\nResonators have their Off-Tune Buildup Rate increased by 100%, and Tune Break Boost increased by 50.\nDealing Tune Break DMG grants 30% All-Attribute DMG Bonus to all Resonators in the team, plus an additional 40% Spectro DMG Bonus and 40% Fusion DMG Bonus. This effect lasts for 30s.\n\nThis Token can be used up to <color=#fee388>2</color> times in Whimpering Wastes.",
+    "Bg": "\"Such a cold, silent path... How much longer should we endure?\"\n\"Not much longer. Don't let go of my hand. Spring... is just ahead.\"",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMowing/T_IconMowing_39.T_IconMowing_39",
+    "Source": [
+      "Whimpering Wastes"
+    ]
+  },
+  "71500073": {
+    "Id": 71500073,
+    "Rarity": 5,
+    "Type": 0,
+    "Tag": [
+      "Token"
+    ],
+    "TagNum": [
+      50
+    ],
+    "Name": "Falling Star that Tears Fate Apart",
+    "Desc": "The Burning Waves state becomes permanent. While in Burning Waves, Resonators deal 50% more DMG.\n\nThis Token can be used up to <color=#fee388>2</color> times in Whimpering Wastes.",
+    "Bg": "Only when the stargazer saw destruction fall with their own eyes did they realize that nothing lasts forever. Not even stars that seem to shine with endless life.",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMowing/T_IconMowing_36.T_IconMowing_36",
+    "Source": [
+      "Whimpering Wastes"
+    ]
+  },
+  "71500074": {
+    "Id": 71500074,
+    "Rarity": 4,
+    "Type": 0,
+    "Tag": [
+      "Token"
+    ],
+    "TagNum": [
+      50
+    ],
+    "Name": "Reveler Captain's Seal",
+    "Desc": "Amplifies all Attribute DMG by 25%.\n\nThis Token can be used up to <color=#fee388>2</color> times in Whimpering Wastes.",
+    "Bg": "Evil sank their ship, trying to stifle their joy. Instead, they turned their last moments into a fiery celebration, singing and dancing atop the blazing sea.",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMowing/T_IconMowing_18.T_IconMowing_18",
+    "Source": [
+      "Whimpering Wastes"
+    ]
+  },
+  "71500075": {
+    "Id": 71500075,
+    "Rarity": 5,
+    "Type": 0,
+    "Tag": [
+      "Token"
+    ],
+    "TagNum": [
+      50
+    ],
+    "Name": "Torch that Ignites the Lasting Night",
+    "Desc": "Total Aero DMG is increased by 35%. Enemies take 30% more total Echo Skill DMG.\n\nThis Token can be used up to <color=#fee388>2</color> times in Whimpering Wastes.",
+    "Bg": "Lift your torch higher! Higher still! Until your shadow devours the darkness haunting these walls. Until you become the first to rewrite this long night through the sheer weight of your existence.",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMowing/T_IconMowing_36.T_IconMowing_36",
+    "Source": [
+      "Whimpering Wastes"
+    ]
+  },
+  "71500076": {
+    "Id": 71500076,
+    "Rarity": 5,
+    "Type": 0,
+    "Tag": [
+      "Token"
+    ],
+    "TagNum": [
+      50
+    ],
+    "Name": "Frostlands Where Barreness Thrives",
+    "Desc": "Resonators deal 30% more total DMG to enemies in Tunability - Shifting, Tune Rupture - Interfered, or Tune Strain - Interfered.\nResonators have their Off-Tune Buildup Rate increased by 100%, and Tune Break Boost increased by 50.\nDealing Tune Break DMG grants 30% All-Attribute DMG Bonus to all Resonators in the team, plus an additional 40% Spectro DMG Bonus and 40% Fusion DMG Bonus. This effect lasts for 30s.\n\nThis Token can be used up to <color=#fee388>2</color> times in Whimpering Wastes.",
+    "Bg": "\"Such a cold, silent path... How much longer should we endure?\"\n\"Not much longer. Don't let go of my hand. Spring... is just ahead.\"",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMowing/T_IconMowing_39.T_IconMowing_39",
+    "Source": [
+      "Whimpering Wastes"
+    ]
+  },
+  "71500077": {
+    "Id": 71500077,
+    "Rarity": 5,
+    "Type": 0,
+    "Tag": [
+      "Token"
+    ],
+    "TagNum": [
+      50
+    ],
+    "Name": "Blueprint Where Stars Are Etched",
+    "Desc": "Grants 40% Fusion DMG Bonus. Enemies takes 100% more total DMG from Fusion Burst.\nInflicting Fusion Burst on enemies triggers the following effects:\n- Additionally restores Ember, triggered up to once per second.\n- Additionally inflicts two stacks of Fusion Burst on the target, triggered up to once per 0.5s on each target.\n\nThis Token can be used up to <color=#fee388>2</color> times in Whimpering Wastes.",
+    "Bg": "Stars... stars. Like diamond shards strewn across a black veil. The very pulse and heartbeat of the universe at its dawn.\nI will touch them. I will... unravel them.",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMowing/T_IconMowing_36.T_IconMowing_36",
+    "Source": [
+      "Whimpering Wastes"
+    ]
+  },
+  "80830059": {
+    "Id": 80830059,
+    "Rarity": 5,
+    "Type": 6,
+    "Tag": [
+      "Quest Item"
+    ],
+    "TagNum": [
+      21
+    ],
+    "Name": "",
+    "Desc": "",
+    "Bg": "",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconTask/T_IconTask_Level_005_1_UI.T_IconTask_Level_005_1_UI",
     "Source": []
   },
   "42601440": {
@@ -30781,6 +35186,659 @@
     "Source": [
       "Collection Spots",
       "Overworld Collection"
+    ]
+  },
+  "50010007": {
+    "Id": 50010007,
+    "Rarity": 5,
+    "Type": 3,
+    "Tag": [
+      "Random Echo Item",
+      "Supply Chest"
+    ],
+    "TagNum": [
+      41,
+      16
+    ],
+    "Name": "Broken Tacet Wave",
+    "Desc": "A special item containing a preserved Tacet Return Wave. Open it to receive rewards from the corresponding Tacet Field.\nClaimable Rewards: Union EXP, Tuners, a random Echo set from a previously cleared Tacet Field, and Sealed Tubes.",
+    "Bg": "A captured fragment of a Tacet Return Wave, as silent as a broken string. Unravel it, and the Tacetite Bloom contained within will awaken in your hand, offering its soundless gift.",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_shlb_21_UI.T_IconA_shlb_21_UI",
+    "Source": []
+  },
+  "50010008": {
+    "Id": 50010008,
+    "Rarity": 5,
+    "Type": 3,
+    "Tag": [
+      "Random Echo Item",
+      "Supply Chest"
+    ],
+    "TagNum": [
+      41,
+      16
+    ],
+    "Name": "Pact of Neonlight Leap",
+    "Desc": "Open to obtain a random Echo of the following Sonata Effect: Pact of Neonlight Leap.\n\n2pcs Set: Spectro DMG +10%.\n\n5pcs Set: Casting Outro Skill increases the ATK of the incoming Resonator who casts Intro Skill by 15%. Each point of Tune Break Boost the incoming Resonator has additionally increases their ATK by 0.3%, up to 15%. This effect lasts for 15s, or until the Resonator is switched out.",
+    "Bg": "",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_shlb_22_UI.T_IconA_shlb_22_UI",
+    "Source": []
+  },
+  "50010009": {
+    "Id": 50010009,
+    "Rarity": 5,
+    "Type": 3,
+    "Tag": [
+      "Random Echo Item",
+      "Supply Chest"
+    ],
+    "TagNum": [
+      41,
+      16
+    ],
+    "Name": "Halo of Starry Radiance",
+    "Desc": "Open to obtain a random Echo of the following Sonata Effect: Halo of Starry Radiance.\n\n2pcs Set: Healing Bonus+10%.\n\n5pcs Set: When healing a Resonator in the team, every 1% of Off-Tune Buildup Rate grants a 0.2% ATK increase to all Resonators in the team for 4s, up to 25%. Effects of the same name cannot be stacked.",
+    "Bg": "",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_shlb_24_UI.T_IconA_shlb_24_UI",
+    "Source": []
+  },
+  "50010010": {
+    "Id": 50010010,
+    "Rarity": 5,
+    "Type": 3,
+    "Tag": [
+      "Random Echo Item",
+      "Supply Chest"
+    ],
+    "TagNum": [
+      41,
+      16
+    ],
+    "Name": "Rite of Gilded Revelation",
+    "Desc": "Open to obtain a random Echo of the following Sonata Effect: Rite of Gilded Revelation\n\n2pcs Set: Spectro DMG +10%.\n\n5pcs Set: Dealing Basic Attack DMG increases Spectro DMG by 10% for 5s, stacking up to 3 times. With 3 stacks, casting Resonance Liberation grants 40% Basic Attack DMG Bonus.",
+    "Bg": "",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_shlb_25_UI.T_IconA_shlb_25_UI",
+    "Source": []
+  },
+  "50010011": {
+    "Id": 50010011,
+    "Rarity": 5,
+    "Type": 3,
+    "Tag": [
+      "Random Echo Item",
+      "Supply Chest"
+    ],
+    "TagNum": [
+      41,
+      16
+    ],
+    "Name": "Morphable Echo - Trailblazing Star",
+    "Desc": "Open to obtain a random Echo of the following Sonata Effect: Trailblazing Star.\n\n2pcs Set: Fusion DMG +10%.\n\n5pcs Set: Inflicting Fusion Burst or Tune Rupture - Shifting increases the Resonator's Crit. Rate by 20% and grants 20% Fusion DMG Bonus for 8s.",
+    "Bg": "Through the cracks, deep rumbles of distant waves sound...",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_shlb_26_UI.T_IconA_shlb_26_UI",
+    "Source": []
+  },
+  "50020007": {
+    "Id": 50020007,
+    "Rarity": 5,
+    "Type": 3,
+    "Tag": [
+      "Random Echo Item",
+      "Supply Chest"
+    ],
+    "TagNum": [
+      41,
+      16
+    ],
+    "Name": "Broken Tacet Wave",
+    "Desc": "A special item containing a preserved Tacet Return Wave. Open it to receive rewards from the corresponding Tacet Field.\nClaimable Rewards: Union EXP, Tuners, a random Echo set from a previously cleared Tacet Field, and Sealed Tubes.",
+    "Bg": "A captured fragment of a Tacet Return Wave, as silent as a broken string. Unravel it, and the Tacetite Bloom contained within will awaken in your hand, offering its soundless gift.",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_shlb_21_UI.T_IconA_shlb_21_UI",
+    "Source": []
+  },
+  "50020008": {
+    "Id": 50020008,
+    "Rarity": 5,
+    "Type": 3,
+    "Tag": [
+      "Random Echo Item",
+      "Supply Chest"
+    ],
+    "TagNum": [
+      41,
+      16
+    ],
+    "Name": "Pact of Neonlight Leap",
+    "Desc": "Open to obtain a random Echo of the following Sonata Effect: Pact of Neonlight Leap.\n\n2pcs Set: Spectro DMG +10%.\n\n5pcs Set: Casting Outro Skill increases the ATK of the incoming Resonator who casts Intro Skill by 15%. Each point of Tune Break Boost the incoming Resonator has additionally increases their ATK by 0.3%, up to 15%. This effect lasts for 15s, or until the Resonator is switched out.",
+    "Bg": "",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_shlb_22_UI.T_IconA_shlb_22_UI",
+    "Source": []
+  },
+  "50020009": {
+    "Id": 50020009,
+    "Rarity": 5,
+    "Type": 3,
+    "Tag": [
+      "Random Echo Item",
+      "Supply Chest"
+    ],
+    "TagNum": [
+      41,
+      16
+    ],
+    "Name": "Halo of Starry Radiance",
+    "Desc": "Open to obtain a random Echo of the following Sonata Effect: Halo of Starry Radiance.\n\n2pcs Set: Healing Bonus+10%.\n\n5pcs Set: When healing a Resonator in the team, every 1% of Off-Tune Buildup Rate grants a 0.2% ATK increase to all Resonators in the team for 4s, up to 25%. Effects of the same name cannot be stacked.",
+    "Bg": "",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_shlb_24_UI.T_IconA_shlb_24_UI",
+    "Source": []
+  },
+  "50020010": {
+    "Id": 50020010,
+    "Rarity": 5,
+    "Type": 3,
+    "Tag": [
+      "Random Echo Item",
+      "Supply Chest"
+    ],
+    "TagNum": [
+      41,
+      16
+    ],
+    "Name": "Rite of Gilded Revelation",
+    "Desc": "Open to obtain a random Echo of the following Sonata Effect: Rite of Gilded Revelation\n\n2pcs Set: Spectro DMG +10%.\n\n5pcs Set: Dealing Basic Attack DMG increases Spectro DMG by 10% for 5s, stacking up to 3 times. With 3 stacks, casting Resonance Liberation grants 40% Basic Attack DMG Bonus.",
+    "Bg": "",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_shlb_25_UI.T_IconA_shlb_25_UI",
+    "Source": []
+  },
+  "50020011": {
+    "Id": 50020011,
+    "Rarity": 5,
+    "Type": 3,
+    "Tag": [
+      "Random Echo Item",
+      "Supply Chest"
+    ],
+    "TagNum": [
+      41,
+      16
+    ],
+    "Name": "Morphable Echo - Trailblazing Star",
+    "Desc": "Open to obtain a random Echo of the following Sonata Effect: Trailblazing Star.\n\n2pcs Set: Fusion DMG +10%.\n\n5pcs Set: Inflicting Fusion Burst or Tune Rupture - Shifting increases the Resonator's Crit. Rate by 20% and grants 20% Fusion DMG Bonus for 8s.",
+    "Bg": "Through the cracks, deep rumbles of distant waves sound...",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_shlb_26_UI.T_IconA_shlb_26_UI",
+    "Source": []
+  },
+  "54003": {
+    "Id": 54003,
+    "Rarity": 5,
+    "Type": 7,
+    "Tag": [
+      "Supply Chest"
+    ],
+    "TagNum": [
+      16
+    ],
+    "Name": "Custom Livery: Farewell to Yesterday",
+    "Desc": "Used to unlock the corresponding Echo Aspect set.",
+    "Bg": "Once bound by thorns, these wings now break free, soaring into the boundless sea of clouds.\nThe old laws no longer hold sway, for they will carry you to the farthest skies of freedom.",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_7_a_UI.T_IconRoleHead256_7_a_UI",
+    "Source": [],
+    "Giftpack": {
+      "Key": 4,
+      "Content": [
+        {
+          "Key": 89400002,
+          "Value": 1
+        },
+        {
+          "Key": 89101004,
+          "Value": 1
+        },
+        {
+          "Key": 89102004,
+          "Value": 1
+        },
+        {
+          "Key": 89103005,
+          "Value": 1
+        }
+      ],
+      "AvailableNum": 1
+    }
+  },
+  "42601470": {
+    "Id": 42601470,
+    "Rarity": 1,
+    "Type": 5,
+    "Tag": [
+      "Cooking Ingredient"
+    ],
+    "TagNum": [
+      26
+    ],
+    "Name": "Stay tuned",
+    "Desc": "A material used for Cooking.",
+    "Bg": "Stay tuned",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconC/T_IconC_062_UI.T_IconC_062_UI",
+    "Source": [
+      "Collection Spots",
+      "Overworld Collection",
+      "Resonator Nursing Unit"
+    ]
+  },
+  "42601450": {
+    "Id": 42601450,
+    "Rarity": 1,
+    "Type": 5,
+    "Tag": [
+      "Cooking Ingredient"
+    ],
+    "TagNum": [
+      26
+    ],
+    "Name": "Stay tuned",
+    "Desc": "A material used for Cooking.",
+    "Bg": "Stay tuned",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconC/T_IconC_062_UI.T_IconC_062_UI",
+    "Source": [
+      "Collection Spots",
+      "Overworld Collection",
+      "Resonator Nursing Unit"
+    ]
+  },
+  "42601460": {
+    "Id": 42601460,
+    "Rarity": 1,
+    "Type": 5,
+    "Tag": [
+      "Medicinal Material"
+    ],
+    "TagNum": [
+      44
+    ],
+    "Name": "Stay tuned",
+    "Desc": "A material used for Synthesis.",
+    "Bg": "Stay tuned",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconC/T_IconC_069_UI.T_IconC_069_UI",
+    "Source": [
+      "Collection Spots",
+      "Overworld Collection"
+    ]
+  },
+  "80001070": {
+    "Id": 80001070,
+    "Rarity": 4,
+    "Type": 1,
+    "Tag": [
+      "Dish"
+    ],
+    "TagNum": [
+      23
+    ],
+    "Name": "Stay tuned",
+    "Desc": "Stay tuned",
+    "Bg": "Stay tuned",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconCook/T_IconCook_090_UI.T_IconCook_090_UI",
+    "Source": [
+      "Cooking"
+    ]
+  },
+  "80001072": {
+    "Id": 80001072,
+    "Rarity": 4,
+    "Type": 1,
+    "Tag": [
+      "Dish"
+    ],
+    "TagNum": [
+      23
+    ],
+    "Name": "Stay tuned",
+    "Desc": "Stay tuned",
+    "Bg": "Stay tuned",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconCook/T_IconCook_091_UI.T_IconCook_091_UI",
+    "Source": [
+      "Cooking"
+    ]
+  },
+  "50010012": {
+    "Id": 50010012,
+    "Rarity": 5,
+    "Type": 3,
+    "Tag": [
+      "Random Echo Item",
+      "Supply Chest"
+    ],
+    "TagNum": [
+      41,
+      16
+    ],
+    "Name": "Morphable Echo - Chromatic Foam",
+    "Desc": "Open to obtain a random Echo of the following Sonata Effect: Chromatic Foam.\n\n2pcs Set: Fusion DMG +10%.\n\n5pcs Set: When the Resonator inflicts Fusion Burst on the enemies, they gain the following effects: Gain 10 Fusion DMG Bonus for 15s. While this effect is active, casting an Outro Skill grants the incoming Resonator 25% Fusion DMG Bonus for 15s.",
+    "Bg": "",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_shlb_24_UI.T_IconA_shlb_24_UI",
+    "Source": []
+  },
+  "50010013": {
+    "Id": 50010013,
+    "Rarity": 5,
+    "Type": 3,
+    "Tag": [
+      "Random Echo Item",
+      "Supply Chest"
+    ],
+    "TagNum": [
+      41,
+      16
+    ],
+    "Name": "Stay tuned",
+    "Desc": "Open to obtain a random Echo of the following Sonata Effect: Sound of Ture Name.\n\n2pcs Set: Aero DMG +10%.\n\n5pcs Set: Dealing Echo Skill DMG to enemies increases the Resonator's Echo Skill Crit. Rate by 20%, and grants 15% Aero DMG Bonus for 5s.",
+    "Bg": "",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_shlb_25_UI.T_IconA_shlb_25_UI",
+    "Source": []
+  },
+  "50010014": {
+    "Id": 50010014,
+    "Rarity": 5,
+    "Type": 3,
+    "Tag": [
+      "Random Echo Item",
+      "Supply Chest"
+    ],
+    "TagNum": [
+      41,
+      16
+    ],
+    "Name": "Trailblazing Star",
+    "Desc": "Open to obtain a random Echo of the following Sonata Effect: Trailblazing Star.\n\n2pcs Set: Fusion DMG +10%.\n\n5pcs Set: Inflicting Fusion Burst or Tune Rupture - Shifting increases the Resonator's Crit. Rate by 20% and grants 20% Fusion DMG Bonus for 8s.",
+    "Bg": "",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_shlb_26_UI.T_IconA_shlb_26_UI",
+    "Source": []
+  },
+  "50020012": {
+    "Id": 50020012,
+    "Rarity": 5,
+    "Type": 3,
+    "Tag": [
+      "Random Echo Item",
+      "Supply Chest"
+    ],
+    "TagNum": [
+      41,
+      16
+    ],
+    "Name": "Morphable Echo - Chromatic Foam",
+    "Desc": "Open to obtain a random Echo of the following Sonata Effect: Chromatic Foam.\n\n2pcs Set: Fusion DMG +10%.\n\n5pcs Set: When the Resonator inflicts Fusion Burst on the enemies, they gain the following effects: Gain 10 Fusion DMG Bonus for 15s. While this effect is active, casting an Outro Skill grants the incoming Resonator 25% Fusion DMG Bonus for 15s.",
+    "Bg": "",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_shlb_24_UI.T_IconA_shlb_24_UI",
+    "Source": []
+  },
+  "50020013": {
+    "Id": 50020013,
+    "Rarity": 5,
+    "Type": 3,
+    "Tag": [
+      "Random Echo Item",
+      "Supply Chest"
+    ],
+    "TagNum": [
+      41,
+      16
+    ],
+    "Name": "Stay tuned",
+    "Desc": "Open to obtain a random Echo of the following Sonata Effect: Sound of Ture Name.\n\n2pcs Set: Aero DMG +10%.\n\n5pcs Set: Dealing Echo Skill DMG to enemies increases the Resonator's Echo Skill Crit. Rate by 20%, and grants 15% Aero DMG Bonus for 5s.",
+    "Bg": "",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_shlb_25_UI.T_IconA_shlb_25_UI",
+    "Source": []
+  },
+  "50020014": {
+    "Id": 50020014,
+    "Rarity": 5,
+    "Type": 3,
+    "Tag": [
+      "Random Echo Item",
+      "Supply Chest"
+    ],
+    "TagNum": [
+      41,
+      16
+    ],
+    "Name": "Trailblazing Star",
+    "Desc": "Open to obtain a random Echo of the following Sonata Effect: Trailblazing Star.\n\n2pcs Set: Fusion DMG +10%.\n\n5pcs Set: Inflicting Fusion Burst or Tune Rupture - Shifting increases the Resonator's Crit. Rate by 20% and grants 20% Fusion DMG Bonus for 8s.",
+    "Bg": "",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_shlb_26_UI.T_IconA_shlb_26_UI",
+    "Source": []
+  },
+  "80830154": {
+    "Id": 80830154,
+    "Rarity": 3,
+    "Type": 6,
+    "Tag": [
+      "Quest Item"
+    ],
+    "TagNum": [
+      21
+    ],
+    "Name": "",
+    "Desc": "",
+    "Bg": "",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconTask/T_IconTask_Level_005_1_UI.T_IconTask_Level_005_1_UI",
+    "Source": []
+  },
+  "80830155": {
+    "Id": 80830155,
+    "Rarity": 3,
+    "Type": 6,
+    "Tag": [
+      "Quest Item"
+    ],
+    "TagNum": [
+      21
+    ],
+    "Name": "",
+    "Desc": "",
+    "Bg": "",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconTask/T_IconTask_Level_005_1_UI.T_IconTask_Level_005_1_UI",
+    "Source": []
+  },
+  "80830156": {
+    "Id": 80830156,
+    "Rarity": 3,
+    "Type": 6,
+    "Tag": [
+      "Quest Item"
+    ],
+    "TagNum": [
+      21
+    ],
+    "Name": "",
+    "Desc": "",
+    "Bg": "",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconTask/T_IconTask_Level_005_1_UI.T_IconTask_Level_005_1_UI",
+    "Source": []
+  },
+  "80830157": {
+    "Id": 80830157,
+    "Rarity": 3,
+    "Type": 6,
+    "Tag": [
+      "Quest Item"
+    ],
+    "TagNum": [
+      21
+    ],
+    "Name": "",
+    "Desc": "",
+    "Bg": "",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconTask/T_IconTask_Level_005_1_UI.T_IconTask_Level_005_1_UI",
+    "Source": []
+  },
+  "80830158": {
+    "Id": 80830158,
+    "Rarity": 3,
+    "Type": 6,
+    "Tag": [
+      "Quest Item"
+    ],
+    "TagNum": [
+      21
+    ],
+    "Name": "",
+    "Desc": "",
+    "Bg": "",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconTask/T_IconTask_Level_005_1_UI.T_IconTask_Level_005_1_UI",
+    "Source": []
+  },
+  "70050073": {
+    "Id": 70050073,
+    "Rarity": 5,
+    "Type": 6,
+    "Tag": [
+      "Quest Item"
+    ],
+    "TagNum": [
+      21
+    ],
+    "Name": "Stay tuned",
+    "Desc": "Stay tuned",
+    "Bg": "Stay tuned",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconTask/T_IconTask_Task_172_UI.T_IconTask_Task_172_UI",
+    "Source": []
+  },
+  "70050074": {
+    "Id": 70050074,
+    "Rarity": 5,
+    "Type": 6,
+    "Tag": [
+      "Quest Item"
+    ],
+    "TagNum": [
+      21
+    ],
+    "Name": "Stay tuned",
+    "Desc": "Stay tuned",
+    "Bg": "Stay tuned",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconTask/T_IconTask_Task_172_UI.T_IconTask_Task_172_UI",
+    "Source": []
+  },
+  "70050075": {
+    "Id": 70050075,
+    "Rarity": 5,
+    "Type": 6,
+    "Tag": [
+      "Quest Item"
+    ],
+    "TagNum": [
+      21
+    ],
+    "Name": "Stay tuned",
+    "Desc": "Stay tuned",
+    "Bg": "Stay tuned",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconTask/T_IconTask_Task_172_UI.T_IconTask_Task_172_UI",
+    "Source": []
+  },
+  "70050076": {
+    "Id": 70050076,
+    "Rarity": 5,
+    "Type": 6,
+    "Tag": [
+      "Quest Item"
+    ],
+    "TagNum": [
+      21
+    ],
+    "Name": "Stay tuned",
+    "Desc": "Stay tuned",
+    "Bg": "Stay tuned",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconTask/T_IconTask_Task_172_UI.T_IconTask_Task_172_UI",
+    "Source": []
+  },
+  "70050077": {
+    "Id": 70050077,
+    "Rarity": 5,
+    "Type": 6,
+    "Tag": [
+      "Quest Item"
+    ],
+    "TagNum": [
+      21
+    ],
+    "Name": "Stay tuned",
+    "Desc": "Stay tuned",
+    "Bg": "Stay tuned",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconTask/T_IconTask_Task_172_UI.T_IconTask_Task_172_UI",
+    "Source": []
+  },
+  "71501001": {
+    "Id": 71501001,
+    "Rarity": 4,
+    "Type": 0,
+    "Tag": [
+      "Token"
+    ],
+    "TagNum": [
+      50
+    ],
+    "Name": "Inscriber - Lone Light in the Long Night",
+    "Desc": "Enemies take 15% more total DMG and 50% more Tune Rupture DMG.\n\nThis Token can be used up to <color=#fee388>2</color> times in Whimpering Wastes.",
+    "Bg": "The lantern is entombed in frost, as if a piece of history had been buried within. Someone cradled it, sinking into a deep slumber until the first breath of spring.",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMowing/T_IconMowing_03.T_IconMowing_03",
+    "Source": [
+      "Whimpering Wastes"
+    ]
+  },
+  "71501002": {
+    "Id": 71501002,
+    "Rarity": 4,
+    "Type": 0,
+    "Tag": [
+      "Token"
+    ],
+    "TagNum": [
+      50
+    ],
+    "Name": "Hopebearer - Lone Light in the Long Night",
+    "Desc": "Enemies take 15% more total DMG. Resonators deal 15% more total DMG to enemies in Tune Strain - Interfered or Tune Strain - Shifting.\n\nThis Token can be used up to <color=#fee388>2</color> times in Whimpering Wastes.",
+    "Bg": "Here, the light has shed its arrogance and taken a new name: hope.",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMowing/T_IconMowing_03.T_IconMowing_03",
+    "Source": [
+      "Whimpering Wastes"
+    ]
+  },
+  "71501003": {
+    "Id": 71501003,
+    "Rarity": 4,
+    "Type": 0,
+    "Tag": [
+      "Token"
+    ],
+    "TagNum": [
+      50
+    ],
+    "Name": "Fabricator - Lone Light in the Long Night",
+    "Desc": "Enemies take 15% more total DMG. Echo Skill deals 25% more total DMG.\n\nThis Token can be used up to <color=#fee388>2</color> times in Whimpering Wastes.",
+    "Bg": "The thorns of the wildflowers had encased the glass, and creeping vines traced the curve of her hand. The girl watched for a long time, and finally reached toward the flame beneath the greenery.",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMowing/T_IconMowing_03.T_IconMowing_03",
+    "Source": [
+      "Whimpering Wastes"
+    ]
+  },
+  "71501004": {
+    "Id": 71501004,
+    "Rarity": 4,
+    "Type": 0,
+    "Tag": [
+      "Token"
+    ],
+    "TagNum": [
+      50
+    ],
+    "Name": "Solacer - Lone Light in the Long Night",
+    "Desc": "Enemies take 15% more total DMG. Inflicting Negative Status on the enemies increases total DMG by 15% for 30s.\n\nThis Token can be used up to <color=#fee388>2</color> times in Whimpering Wastes.",
+    "Bg": "The night was far too long, so long that even the end of the endless dark was nowhere to be found. Holding tight to the final spark of light in her arms, in her haze, she mistook it for the breaking dawn.",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMowing/T_IconMowing_03.T_IconMowing_03",
+    "Source": [
+      "Whimpering Wastes"
     ]
   }
 }

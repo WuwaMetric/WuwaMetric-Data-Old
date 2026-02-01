@@ -1,0 +1,171 @@
+{
+  "Id": 6000194,
+  "Code": "T01-",
+  "Name": "크로나클라우",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_32060_UI.T_IconMonsterHead_32060_UI",
+  "Skill": {
+    "Desc": "에코 어빌리티를 사용하여 크로나클라우로 변신한 후, 공중으로 날아올라 적에게 최대 8단 {0}과 2단 {1}의 기류 피해를 입히고, 이후 뛰어내려 1단 {2}의 기류 피해를 입힌다.\n스킬 쿨타임: {3}초",
+    "SimpleDesc": "크로나클라우로 변신한 후, 적에게 기류 피해를 입힌다",
+    "Param": [
+      [
+        "4.47%",
+        "13.41%",
+        "73.01%",
+        "15"
+      ],
+      [
+        "5.36%",
+        "16.09%",
+        "87.61%",
+        "15"
+      ],
+      [
+        "6.25%",
+        "18.77%",
+        "102.21%",
+        "15"
+      ],
+      [
+        "7.15%",
+        "21.45%",
+        "116.81%",
+        "15"
+      ],
+      [
+        "8.04%",
+        "24.13%",
+        "131.41%",
+        "15"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_34020_UI.T_MstSkil_34020_UI",
+    "Damage": {
+      "20013001": {
+        "Element": 4,
+        "RelatedProperty": "공격력",
+        "Type": 5,
+        "RateLv": [
+          447,
+          536,
+          625,
+          715,
+          804
+        ],
+        "Energy": 0,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 447,
+        "WeaknessLvl": 0
+      },
+      "20013003": {
+        "Element": 4,
+        "RelatedProperty": "공격력",
+        "Type": 5,
+        "RateLv": [
+          1341,
+          1609,
+          1877,
+          2145,
+          2413
+        ],
+        "Energy": 3,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 1341,
+        "WeaknessLvl": 0
+      },
+      "20013005": {
+        "Element": 4,
+        "RelatedProperty": "공격력",
+        "Type": 5,
+        "RateLv": [
+          7301,
+          8761,
+          10221,
+          11681,
+          13141
+        ],
+        "Energy": 89,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 7301,
+        "WeaknessLvl": 0
+      },
+      "20013006": {
+        "Element": 4,
+        "RelatedProperty": "공격력",
+        "Type": 5,
+        "RateLv": [
+          8642,
+          10370,
+          12098,
+          13827,
+          15555
+        ],
+        "Energy": 125,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 8642,
+        "WeaknessLvl": 0
+      }
+    }
+  },
+  "Group": {
+    "27": {
+      "Id": 27,
+      "Name": "긴 여정을 떠나는 별",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri128/T_IconElementAttri128_Ice.T_IconElementAttri128_Ice",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "용융 피해가 {0} 증가된다",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "캐릭터가 적에게 「불꽃 효과」 혹은 「조화 파동 · 이탈」 추가 시, 자신의 크리티컬이 {0} 증가되고 용융 피해가 {1} 증가되며, {2}초간 지속된다",
+          "Param": [
+            "20%",
+            "20%",
+            "8"
+          ]
+        }
+      }
+    },
+    "28": {
+      "Id": 28,
+      "Name": "오색찬란한 거품",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri128/T_IconElementAttri128_Ice.T_IconElementAttri128_Ice",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "용융 피해가 {0} 증가된다",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "캐릭터가 적에게 「불꽃 효과」 추가 시, 자신은 다음과 같은 효과를 획득한다.\n용융 피해가 {0} 증가되고, {1}초간 지속된다. 지속 시간 내에 반주 스킬 발동 후, 다음 변주 스킬을 발동하여 등장하는 캐릭터의 용융 피해를 {2} 증가시키고, {3}초간 지속된다",
+          "Param": [
+            "10%",
+            "15",
+            "25%",
+            "15"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 1,
+  "MonsterInfo": 320000600
+}

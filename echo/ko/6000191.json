@@ -1,0 +1,118 @@
+{
+  "Id": 6000191,
+  "Code": "T01-",
+  "Name": "시길룸",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34025_UI.T_IconMonsterHead_34025_UI",
+  "Skill": {
+    "Desc": "에코 어빌리티를 사용하여 시길룸을 소환한 후, 적에게 {0}단과 {1}단의 용융 피해를 입힌다.\n메인 슬롯에 해당 에코 어빌리티를 장착 시, 장착 캐릭터가 에이메스일 경우, 자신의 공명 해방 피해 보너스가 {2} 증가된다.\n스킬 쿨타임: {3}초",
+    "SimpleDesc": "시길룸을 소환한 후, 적에게 용융 피해를 입힌다.\n에이메스가 메인 슬롯에 해당 에코 어빌리티를 장착 시, 자신의 공명 해방 피해가 증가된다",
+    "Param": [
+      [
+        "38.00%",
+        "114.00%",
+        "25.00%",
+        "20"
+      ],
+      [
+        "45.60%",
+        "136.80%",
+        "25.00%",
+        "20"
+      ],
+      [
+        "53.20%",
+        "159.60%",
+        "25.00%",
+        "20"
+      ],
+      [
+        "60.80%",
+        "182.40%",
+        "25.00%",
+        "20"
+      ],
+      [
+        "68.40%",
+        "205.20%",
+        "25.00%",
+        "20"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_34025_UI.T_MstSkil_34025_UI",
+    "Damage": {
+      "28003701": {
+        "Element": 2,
+        "RelatedProperty": "공격력",
+        "Type": 5,
+        "RateLv": [
+          3800,
+          4560,
+          5320,
+          6080,
+          6840
+        ],
+        "Energy": 23,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 3800,
+        "WeaknessLvl": 0
+      },
+      "28003702": {
+        "Element": 2,
+        "RelatedProperty": "공격력",
+        "Type": 5,
+        "RateLv": [
+          11400,
+          13680,
+          15960,
+          18240,
+          20520
+        ],
+        "Energy": 213,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 11400,
+        "WeaknessLvl": 0
+      }
+    }
+  },
+  "Group": {
+    "27": {
+      "Id": 27,
+      "Name": "긴 여정을 떠나는 별",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri128/T_IconElementAttri128_Ice.T_IconElementAttri128_Ice",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "용융 피해가 {0} 증가된다",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "캐릭터가 적에게 「불꽃 효과」 혹은 「조화 파동 · 이탈」 추가 시, 자신의 크리티컬이 {0} 증가되고 용융 피해가 {1} 증가되며, {2}초간 지속된다",
+          "Param": [
+            "20%",
+            "20%",
+            "8"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 3,
+  "MonsterInfo": 340000250,
+  "Phantom": {
+    "Name": "이상 · 시길룸",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_SG_34025_UI.T_IconMonsterGoods_SG_34025_UI"
+  }
+}

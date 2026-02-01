@@ -1,0 +1,171 @@
+{
+  "Id": 6000194,
+  "Code": "T01-",
+  "Name": "クロナファルコン",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_32060_UI.T_IconMonsterHead_32060_UI",
+  "Skill": {
+    "Desc": "音骸スキルを発動すると、クロナファルコンに変身して上空へ舞い上がり、敵に最大8段{0}と2段{1}の気動ダメージを与える。その後急降下して1段{2}の気動ダメージを与える。  \nクールタイム：{3}秒",
+    "SimpleDesc": "クロナファルコンに変身し、敵に気動ダメージを与える。",
+    "Param": [
+      [
+        "4.47%",
+        "13.41%",
+        "73.01%",
+        "15"
+      ],
+      [
+        "5.36%",
+        "16.09%",
+        "87.61%",
+        "15"
+      ],
+      [
+        "6.25%",
+        "18.77%",
+        "102.21%",
+        "15"
+      ],
+      [
+        "7.15%",
+        "21.45%",
+        "116.81%",
+        "15"
+      ],
+      [
+        "8.04%",
+        "24.13%",
+        "131.41%",
+        "15"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_34020_UI.T_MstSkil_34020_UI",
+    "Damage": {
+      "20013001": {
+        "Element": 4,
+        "RelatedProperty": "攻撃力",
+        "Type": 5,
+        "RateLv": [
+          447,
+          536,
+          625,
+          715,
+          804
+        ],
+        "Energy": 0,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 447,
+        "WeaknessLvl": 0
+      },
+      "20013003": {
+        "Element": 4,
+        "RelatedProperty": "攻撃力",
+        "Type": 5,
+        "RateLv": [
+          1341,
+          1609,
+          1877,
+          2145,
+          2413
+        ],
+        "Energy": 3,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 1341,
+        "WeaknessLvl": 0
+      },
+      "20013005": {
+        "Element": 4,
+        "RelatedProperty": "攻撃力",
+        "Type": 5,
+        "RateLv": [
+          7301,
+          8761,
+          10221,
+          11681,
+          13141
+        ],
+        "Energy": 89,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 7301,
+        "WeaknessLvl": 0
+      },
+      "20013006": {
+        "Element": 4,
+        "RelatedProperty": "攻撃力",
+        "Type": 5,
+        "RateLv": [
+          8642,
+          10370,
+          12098,
+          13827,
+          15555
+        ],
+        "Energy": 125,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 8642,
+        "WeaknessLvl": 0
+      }
+    }
+  },
+  "Group": {
+    "27": {
+      "Id": 27,
+      "Name": "アストロ・ロード",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri128/T_IconElementAttri128_Ice.T_IconElementAttri128_Ice",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "焦熱ダメージが{0}アップ",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "キャラが敵に【斉爆効果】または【震撃協和・オフセット】を付与時、自身のクリティカル率が{0}、焦熱ダメージが{1}アップ、{2}秒間持続。",
+          "Param": [
+            "20%",
+            "20%",
+            "8"
+          ]
+        }
+      }
+    },
+    "28": {
+      "Id": 28,
+      "Name": "パティナ・フォーム",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri128/T_IconElementAttri128_Ice.T_IconElementAttri128_Ice",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "焦熱ダメージが{0}アップ",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "キャラが敵に【斉爆効果】を付与時、自身は以下の効果を得る：焦熱ダメージが{0}アップ、{1}秒間持続。持続期間内に終奏スキルを発動した場合、次の変奏スキルで登場するキャラの焦熱ダメージが{2}アップ、{3}秒間持続。",
+          "Param": [
+            "10%",
+            "15",
+            "25%",
+            "15"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 1,
+  "MonsterInfo": 320000600
+}

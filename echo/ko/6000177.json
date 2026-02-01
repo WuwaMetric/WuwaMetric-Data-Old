@@ -120,6 +120,28 @@
           ]
         }
       }
+    },
+    "27": {
+      "Id": 27,
+      "Name": "긴 여정을 떠나는 별",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri128/T_IconElementAttri128_Ice.T_IconElementAttri128_Ice",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "용융 피해가 {0} 증가된다",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "캐릭터가 적에게 「불꽃 효과」 혹은 「조화 파동 · 이탈」 추가 시, 자신의 크리티컬이 {0} 증가되고 용융 피해가 {1} 증가되며, {2}초간 지속된다",
+          "Param": [
+            "20%",
+            "20%",
+            "8"
+          ]
+        }
+      }
     }
   },
   "Rarity": [

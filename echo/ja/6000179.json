@@ -125,6 +125,29 @@
           ]
         }
       }
+    },
+    "28": {
+      "Id": 28,
+      "Name": "パティナ・フォーム",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri128/T_IconElementAttri128_Ice.T_IconElementAttri128_Ice",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "焦熱ダメージが{0}アップ",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "キャラが敵に【斉爆効果】を付与時、自身は以下の効果を得る：焦熱ダメージが{0}アップ、{1}秒間持続。持続期間内に終奏スキルを発動した場合、次の変奏スキルで登場するキャラの焦熱ダメージが{2}アップ、{3}秒間持続。",
+          "Param": [
+            "10%",
+            "15",
+            "25%",
+            "15"
+          ]
+        }
+      }
     }
   },
   "Rarity": [

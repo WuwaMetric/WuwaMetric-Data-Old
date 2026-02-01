@@ -1,0 +1,91 @@
+{
+  "Id": 6000196,
+  "Code": "T01-",
+  "Name": "アイスグリントダンサー",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31083_UI.T_IconMonsterHead_31083_UI",
+  "Skill": {
+    "Desc": "音骸スキルを発動すると、アイスグリントダンサーに変身し、敵に{0}の凝縮ダメージを与える。\nクールタイム：{1}秒",
+    "SimpleDesc": "アイスグリントダンサーに変身し、凝縮ダメージを与える。",
+    "Param": [
+      [
+        "114.00%",
+        "8"
+      ],
+      [
+        "136.80%",
+        "8"
+      ],
+      [
+        "159.60%",
+        "8"
+      ],
+      [
+        "182.40%",
+        "8"
+      ],
+      [
+        "205.20%",
+        "8"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_34020_UI.T_MstSkil_34020_UI",
+    "Damage": {
+      "20013201": {
+        "Element": 1,
+        "RelatedProperty": "攻撃力",
+        "Type": 5,
+        "RateLv": [
+          11400,
+          13680,
+          15960,
+          18240,
+          20520
+        ],
+        "Energy": 285,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 11400,
+        "WeaknessLvl": 0
+      }
+    }
+  },
+  "Group": {
+    "27": {
+      "Id": 27,
+      "Name": "アストロ・ロード",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri128/T_IconElementAttri128_Ice.T_IconElementAttri128_Ice",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "焦熱ダメージが{0}アップ",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "キャラが敵に【斉爆効果】または【震撃協和・オフセット】を付与時、自身のクリティカル率が{0}、焦熱ダメージが{1}アップ、{2}秒間持続。",
+          "Param": [
+            "20%",
+            "20%",
+            "8"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 0,
+  "MonsterInfo": 310000830,
+  "Phantom": {
+    "Name": "異相・アイスグリントダンサー",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_SG_31083_UI.T_IconMonsterGoods_SG_31083_UI"
+  }
+}

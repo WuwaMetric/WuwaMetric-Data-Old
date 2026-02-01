@@ -75,6 +75,29 @@
           ]
         }
       }
+    },
+    "28": {
+      "Id": 28,
+      "Name": "Chromatic Foam",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri128/T_IconElementAttri128_Ice.T_IconElementAttri128_Ice",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "Fusion DMG + {0}",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "When the Resonator inflicts Fusion Burst on the enemies, they gain the following effects: Gain {0} Fusion DMG Bonus for {1} s. While this effect is active, casting an Outro Skill grants the incoming Resonator {2} Fusion DMG Bonus for {3}s.",
+          "Param": [
+            "10%",
+            "15",
+            "25%",
+            "15"
+          ]
+        }
+      }
     }
   },
   "Rarity": [

@@ -1,0 +1,102 @@
+{
+  "Id": 6000195,
+  "Code": "T01-",
+  "Name": "Glommoth",
+  "Type": "",
+  "Intensity": "",
+  "Place": "",
+  "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_32061_UI.T_IconMonsterHead_32061_UI",
+  "Skill": {
+    "Desc": "Summon a Glommoth to stomp enemies, dealing {0} Glacio DMG.\nCasting Outro Skill within {1}s after summoning Glommoth grants {2} Glacio DMG Bonus to the incoming Resonator for {3}s.\nCD: {4}s.",
+    "SimpleDesc": "Summon a Glommoth to attack enemies, dealing Glacio DMG and granting Glacio DMG Bonus to the incoming Resonator.",
+    "Param": [
+      [
+        "152.00%",
+        "15",
+        "12.00%",
+        "15",
+        "20"
+      ],
+      [
+        "182.40%",
+        "15",
+        "12.00%",
+        "15",
+        "20"
+      ],
+      [
+        "212.80%",
+        "15",
+        "12.00%",
+        "15",
+        "20"
+      ],
+      [
+        "243.20%",
+        "15",
+        "12.00%",
+        "15",
+        "20"
+      ],
+      [
+        "273.60%",
+        "15",
+        "12.00%",
+        "15",
+        "20"
+      ]
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_34020_UI.T_MstSkil_34020_UI",
+    "Damage": {
+      "20013101": {
+        "Element": 1,
+        "RelatedProperty": "ATK",
+        "Type": 5,
+        "RateLv": [
+          15200,
+          18240,
+          21280,
+          24320,
+          27360
+        ],
+        "Energy": 380,
+        "ElementPower": 0,
+        "HardnessLv": 10000,
+        "ToughLv": 15200,
+        "WeaknessLvl": 0
+      }
+    }
+  },
+  "Group": {
+    "27": {
+      "Id": 27,
+      "Name": "Trailblazing Star",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri128/T_IconElementAttri128_Ice.T_IconElementAttri128_Ice",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "Fusion DMG + {0}",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "Inflicting Fusion Burst or Tune Rupture - Shifting increases the Resonator's Crit. Rate by {0} and grants {1} Fusion DMG Bonus for {2}s.",
+          "Param": [
+            "20%",
+            "20%",
+            "8"
+          ]
+        }
+      }
+    }
+  },
+  "Rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "IntensityCode": 1,
+  "MonsterInfo": 320000610
+}

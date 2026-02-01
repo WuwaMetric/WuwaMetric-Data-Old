@@ -142,6 +142,50 @@
           ]
         }
       }
+    },
+    "27": {
+      "Id": 27,
+      "Name": "Trailblazing Star",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri128/T_IconElementAttri128_Ice.T_IconElementAttri128_Ice",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "Fusion DMG + {0}",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "Inflicting Fusion Burst or Tune Rupture - Shifting increases the Resonator's Crit. Rate by {0} and grants {1} Fusion DMG Bonus for {2}s.",
+          "Param": [
+            "20%",
+            "20%",
+            "8"
+          ]
+        }
+      }
+    },
+    "29": {
+      "Id": 29,
+      "Name": "Sound of True Name",
+      "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri128/T_IconElementAttri128_Ice.T_IconElementAttri128_Ice",
+      "Color": "FFFFFF00",
+      "Set": {
+        "2": {
+          "Desc": "Aero DMG + {0}",
+          "Param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "Desc": "Dealing Echo Skill DMG to enemies increases the Resonator's Echo Skill Crit. Rate by {0}, and grants {1} Aero DMG Bonus for {2}s.",
+          "Param": [
+            "20%",
+            "15%",
+            "5"
+          ]
+        }
+      }
     }
   },
   "Rarity": [
